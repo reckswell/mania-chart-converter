@@ -9,7 +9,7 @@ Checked 2026-11-11. Prices and limits change; the links are the sources.
 | Catalog (`index.json`, `song.json`) | 15,036 | 66 MiB | git (`data/db`) |
 | Charts (`*.chart.json.gz`) | 36,839 | 134 MiB | git (`data/db`) |
 | Jackets (JPEG, ≤320 px) | 12,694 | 322 MiB | git (`data/db/**/assets`) |
-| Layout pictures (`vsrgconv render`) | one per chart with notes | see "Layout pictures" below | `data/renders`, not committed |
+| Layout pictures (`vsrgconv render`) | 36,839, one per chart with notes | 842 MiB | `data/renders`, not committed |
 | Download cache (full-size pictures, simfiles, audio) | | several GB | `data/cache`, not committed |
 
 On GitHub the repository is about 434 MB packed. GitHub asks for repositories to stay under 1 GB, and strongly under
@@ -18,9 +18,10 @@ On GitHub the repository is about 434 MB packed. GitHub asks for repositories to
 The catalog, charts and jackets fit. Every re-scrape that changes files adds to the history, so the repository grows
 over time even when the database does not.
 
-Layout pictures are drawn from the stored charts, so they are always reproducible. They are about 30 KB each, so all
-of them together are around 1 GB. That is too much for git, and does not need to be in git: `vsrgconv render all
---workers N` redraws all of them (see the run time below).
+Layout pictures are drawn from the stored charts, so they are always reproducible. They average 11 KB (Pump It Up) to
+45 KB (Arcaea) each, 842 MiB in all. That is too much for git, and does not need to be in git: `vsrgconv render all
+--workers 4` redraws all of them in about half an hour on a 4-core machine, and only draws pictures that are
+missing unless given `--refresh`.
 
 ## The repository is public
 
