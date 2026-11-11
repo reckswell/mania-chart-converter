@@ -270,18 +270,19 @@ def cmd_shrink_images(a: argparse.Namespace) -> int:
     return 0
 
 
-def _render_one(job: tuple[str, str, float]) -> tuple[str, int, str]:
+def _render_one(job: tuple[str, str, float, float, bool]) -> tuple[str, int, str]:
     """Worker: read one stored chart, write its layout picture. Returns (picture path, bytes, error)."""
     import gzip
 
-    from .imaging.render import render_png
+    from .imaging.render import RenderConfig, render_png
     from .model import Chart
 
-    src, dst, scale = job
+    src, dst, scale, approach_rate, compact = job
+    cfg = RenderConfig.compact() if compact else RenderConfig(approach_rate=approach_rate)
     try:
         data = Path(src).read_bytes()
         chart = Chart.from_json((gzip.decompress(data) if src.endswith(".gz") else data).decode("utf-8"))
-        png = render_png(chart, scale=scale)
+        png = render_png(chart, cfg, scale=scale)
     except Exception as e:      # one bad chart must not stop a full run
         return dst, 0, f"{type(e).__name__}: {e}"
     Path(dst).parent.mkdir(parents=True, exist_ok=True)
@@ -300,7 +301,7 @@ def cmd_render(a: argparse.Namespace) -> int:
     games = sorted(p.name for p in db.root.iterdir() if (p / "index.json").exists()) if a.game == "all" else [a.game]
     only = set(a.only.split(",")) if a.only else None
     out = Path(a.out)
-    jobs: list[tuple[str, str, float]] = []
+    jobs: list[tuple[str, str, float, float, bool]] = []
     summary: dict[str, dict[str, Any]] = {}
     without_notes: list[dict[str, Any]] = []
     for g in games:
@@ -327,7 +328,8 @@ def cmd_render(a: argparse.Namespace) -> int:
                     row["already"] += 1
                     row["bytes"] += dst.stat().st_size
                     continue
-                jobs.append((str(db.chart_path(g, rec.song_id, slot)), str(dst), a.scale))
+                jobs.append((str(db.chart_path(g, rec.song_id, slot)), str(dst), a.scale, a.approach_rate,
+                             a.compact))
     errors: list[dict[str, str]] = []
     if a.workers > 1 and len(jobs) > 1:
         from multiprocessing import Pool
@@ -619,6 +621,10 @@ def main(argv: list[str] | None = None) -> int:
     s.add_argument("--slot", help="only this difficulty slot")
     s.add_argument("--out", default="data/renders", help="picture folder; mirrors the database layout")
     s.add_argument("--scale", type=float, default=1.0)
+    s.add_argument("--approach-rate", "--ar", type=float, default=9.0,
+                   help="vertical spacing as at this osu! approach rate (AR 9: 0.8 px per ms)")
+    s.add_argument("--compact", action="store_true", help="the older compact layout: 24 px per beat, 8 measures "
+                                                          "a column")
     s.add_argument("--refresh", action="store_true", help="redraw pictures that already exist")
     s.add_argument("--workers", type=int, default=1)
     s.add_argument("--progress", action="store_true")

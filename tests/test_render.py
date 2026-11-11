@@ -4,32 +4,77 @@ import math
 from fractions import Fraction
 from pathlib import Path
 
+import pytest
+
 from vsrgconv.db import ChartDB, ChartRecord, SongRecord
 from vsrgconv.formats.c2s import c2s_to_chart
-from vsrgconv.imaging.render import (BACKGROUND, COLOURS, LANE_BG, RenderConfig, _columns, measure_starts, render_chart,
-                                     render_png)
+from vsrgconv.imaging.render import (BACKGROUND, COLOURS, LANE_BG, RenderConfig, _columns, measure_starts, preempt_ms,
+                                     render_chart, render_png)
 from vsrgconv.model import BpmChange, Chart, ChartMeta, MeterChange, Note, NoteKind, PathPoint, TimingMap
 
 FIX = Path(__file__).parent / "fixtures"
 
 
-def chart(notes: list[Note], lanes: int = 16) -> Chart:
+def chart(notes: list[Note], lanes: int = 16, bpm: float = 120) -> Chart:
     return Chart(meta=ChartMeta(game="chunithm", song_id="t1", title="Test", difficulty="master",
                                 difficulty_native="MASTER", level="13"),
-                 lanes=lanes, timing=TimingMap(bpms=[BpmChange(Fraction(0), 120)], meters=[MeterChange(Fraction(0))]),
+                 lanes=lanes, timing=TimingMap(bpms=[BpmChange(Fraction(0), bpm)], meters=[MeterChange(Fraction(0))]),
                  notes=notes)
 
 
 def colours_in(img) -> set[tuple[int, int, int]]:
-    return {c for _, c in img.getcolors(maxcolors=1 << 20)}
+    return {c for _, c in img.convert("RGB").getcolors(maxcolors=1 << 22)}
 
 
 def test_columns_hold_a_fixed_number_of_measures():
+    """Compact layout: 8 measures (32 beats, 768 px) a column."""
     c = chart([Note(Fraction(79), 0, 1, NoteKind.TAP)])           # last note in measure 20 (4/4)
-    cols, cut = _columns(c, RenderConfig(measures_per_column=8))
-    assert [(col.start, col.end) for col in cols] == [(0, 32), (32, 64), (64, 80)] and not cut
-    cols, cut = _columns(c, RenderConfig(measures_per_column=8, max_columns=2))
+    cols, cut = _columns(c, RenderConfig(axis="beats", measures_per_column=8))
+    assert [(col.start, col.end) for col in cols] == [(0, 768), (768, 1536), (1536, 1920)] and not cut
+    cols, cut = _columns(c, RenderConfig(axis="beats", measures_per_column=8, max_columns=2))
     assert len(cols) == 2 and cut
+
+
+def test_approach_rate_spaces_notes_by_time():
+    """AR 9: a note crosses 480 px in 600 ms, 0.8 px per ms. 1/4 beats at 150 BPM (100 ms) are 80 px apart."""
+    assert (preempt_ms(9), preempt_ms(5), preempt_ms(10), preempt_ms(0)) == (600, 1200, 450, 1800)
+    taps = [Note(Fraction(k, 4), 0, 1, NoteKind.TAP) for k in range(4)]
+    for ar, gap in [(9, 80), (5, 40)]:
+        cfg = RenderConfig(approach_rate=ar)
+        img = render_chart(chart(taps, lanes=4, bpm=150), cfg).convert("RGB")
+        x = cfg.margin_px + cfg.gutter_px + cfg.lane_area_px // 8           # middle of lane 0 of the first column
+        ys = [y for y in range(img.height) if img.getpixel((x, y)) == COLOURS["tap"]
+              and img.getpixel((x, y + 1)) != COLOURS["tap"]]                # bottom row of each tap
+        assert [a - b for a, b in zip(ys[::-1], ys[::-1][1:])] == [gap] * 3, (ar, ys)
+
+
+def test_time_columns_end_on_measure_lines():
+    """At 160 BPM a 4/4 measure is 1500 ms, 1200 px: two measures fit the 2400 px column."""
+    c = chart([Note(Fraction(b), b % 4, 1, NoteKind.TAP) for b in range(40)], lanes=4, bpm=160)
+    cols, cut = _columns(c, RenderConfig())
+    assert not cut and len(cols) == 5
+    assert all(round(col.start) % 2400 == 0 and 2400 <= round(col.end - col.start) <= 2401 for col in cols)
+    # 70 BPM: a measure is 2743 px, so the columns grow to one measure; at 40 BPM (4800 px) measures are split
+    slow = chart([Note(Fraction(7), 0, 1, NoteKind.TAP)], lanes=4, bpm=70)
+    cols, _ = _columns(slow, RenderConfig())
+    assert [round(col.end) for col in cols] == [2743, 5486]
+    slower = chart([Note(Fraction(7), 0, 1, NoteKind.TAP)], lanes=4, bpm=40)
+    cols, _ = _columns(slower, RenderConfig())
+    assert [round(col.end) for col in cols] == [2400, 4800, 7200, 9600]
+
+
+def test_wide_pictures_wrap_into_rows():
+    cfg = RenderConfig(max_width_px=700)                                  # 3 columns of 206 px a row
+    c = chart([Note(Fraction(b), 0, 1, NoteKind.TAP) for b in range(80)], lanes=4)   # 20 measures, 1600 px each
+    cols, _ = _columns(c, cfg)
+    img = render_chart(c, cfg)
+    rows = math.ceil(len(cols) / 3)
+    assert len(cols) == 20 and img.width <= 700 and rows == 7
+    col_h = max(round(col.end - col.start) for col in cols)
+    assert img.height == 2 * cfg.margin_px + rows * (col_h + cfg.row_gap_px) - cfg.row_gap_px + cfg.footer_px
+    last_row = img.convert("RGB").crop((0, img.height - col_h - cfg.footer_px - cfg.margin_px, img.width,
+                                        img.height - cfg.footer_px))
+    assert COLOURS["tap"] in colours_in(last_row)                          # the last measures are drawn too
 
 
 def test_measure_starts_jump_over_runs_of_one_time_signature():
@@ -50,20 +95,22 @@ def test_gimmick_bpm_charts_are_drawn_on_a_time_axis():
     c = Chart(meta=ChartMeta(game="arcaea", song_id="g", title="G"), lanes=4, timing=t,
               notes=[Note(Fraction(b), b % 4, 1, NoteKind.TAP) for b in range(16)]
               + [Note(Fraction(1_000_016 + b), b % 4, 1, NoteKind.TAP) for b in range(16)])
-    img = render_chart(c)
+    img = render_chart(c, RenderConfig.compact())
     assert img.width < 400 and img.height < 1000                    # 32 beats of time: one column
-    cols, cut = _columns(c, RenderConfig(axis="beats"))               # on the beats axis it is 31,251 columns long
+    cols, cut = _columns(c, RenderConfig(axis="beats", max_columns=300))   # in beats: 31,251 columns long
     assert len(cols) == 300 and cut
-    taps = sum(1 for _, col in img.getcolors(1 << 20) if col == COLOURS["tap"])
-    assert taps > 0
+    assert COLOURS["tap"] in colours_in(img)
+    # at AR 9: 32 beats at 200 BPM and the 600 ms jump are 8,160 px, five columns
+    img = render_chart(c)
+    assert img.width < 1200 and img.height < 2600 and COLOURS["tap"] in colours_in(img)
 
 
 def test_notes_are_drawn_where_they_are():
-    """A hold on lanes 3-4, beats 0-4, of a 16-lane chart: lane px = 128 / 16 = 8, 24 px per beat."""
-    cfg = RenderConfig()
+    """Compact layout. A hold on lanes 3-4, beats 0-4, of a 16-lane chart: lane px = 128 / 16 = 8, 24 px per beat."""
+    cfg = RenderConfig.compact()
     hold = Note(Fraction(0), 3, 2, NoteKind.HOLD, Fraction(4))
     slide = Note(Fraction(4), 0, 2, NoteKind.SLIDE, Fraction(4), path=[PathPoint(Fraction(4), 12, 2)])
-    img = render_chart(chart([hold, slide, Note(Fraction(7), 8, 1, NoteKind.TAP)]), cfg)
+    img = render_chart(chart([hold, slide, Note(Fraction(7), 8, 1, NoteKind.TAP)]), cfg).convert("RGB")
     bottom = img.height - cfg.footer_px - cfg.margin_px                # one column, as tall as its measures
 
     def x(lane: float) -> int:                                          # centre of a lane
@@ -163,3 +210,33 @@ def test_publish_uploads_the_data_folders_and_removes_what_is_gone(tmp_path):
     assert api.calls[0] == ("create", "me/charts", {"repo_type": "dataset", "private": True, "exist_ok": True})
     assert api.calls[1][1]["allow_patterns"] == ["db/**", "renders/**"]
     assert api.calls[2] == ("delete", ["renders/old.png"]) and out["deleted"] == 1
+
+
+def test_publish_resumes_when_a_commit_answer_is_lost():
+    """The proxy can time out on Hugging Face's answer to a commit that did land: carry on while the dataset moves."""
+    from vsrgconv.publish import _resuming
+
+    class Api:
+        sha = "a"
+
+        def repo_info(self, repo_id, **kw):
+            return type("Info", (), {"sha": self.sha})()
+
+    api, calls = Api(), []
+
+    def step():
+        calls.append(1)
+        if len(calls) < 4:
+            api.sha += "x"                       # the commit landed...
+            raise ConnectionError("502 Bad Gateway")   # ...but its answer did not
+        return "done"
+
+    assert _resuming(api, "me/charts", step, log=lambda m: None) == "done" and len(calls) == 4
+
+    def stuck():
+        raise ConnectionError("401 Unauthorized")    # nothing lands: give up after 2 more tries
+
+    calls.clear()
+    with pytest.raises(ConnectionError):
+        _resuming(api, "me/charts", lambda: calls.append(1) or stuck(), log=lambda m: None)
+    assert len(calls) == 3

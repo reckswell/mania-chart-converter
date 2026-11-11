@@ -1,20 +1,24 @@
 """Draws a chart's layout as a picture from its notes (the intermediate format), for any game.
 
-The picture reads like sdvx.in's chart pictures: columns of measures, read from the bottom left. Each column is a
-fixed number of measures. Measure numbers and BPM changes are written in the gutter to the left of each column. Every
-note kind has one colour in every game (see `COLOURS`), so a picture of a Sekai chart and a picture of a DDR chart
-read the same way. Pictures are made from the stored notes on demand (`vsrgconv render`), so they always match the
-database and never need to be fetched.
+The layout follows sdvx.in's chart pictures: columns read from the bottom left, each a 50 px gutter (measure numbers,
+BPM changes) and a 150 px lane area, breaking at measure lines. Every note kind has one colour in every game (see
+`COLOURS`), so a picture of a Sekai chart and a picture of a DDR chart read the same way. Pictures are made from the
+stored notes on demand (`vsrgconv render`), so they always match the database and never need to be fetched.
 
-Geometry, in pixels at scale 1: `px_per_beat` vertically (4/4 measure = 4 * px_per_beat), each source lane unit is
-`lane_px` wide, so a 16-lane Chunithm chart and a 4-lane DDR chart are drawn at sensible widths.
+Vertical spacing simulates an approach rate (`RenderConfig.approach_rate`, osu!'s AR): a note crosses a `screen_px`
+tall screen in the AR's preempt time (AR 9: 600 ms on 480 px, 0.8 px per ms), so the distance between two notes is
+their distance in time, as in the game, and 1/16 streams at 150 BPM are 80 px apart. Scroll-speed gimmicks (SFL,
+Sekai hi-speed) are not simulated: the picture is for reading patterns. The older compact layout (`axis="beats"`:
+24 px per beat, 8 measures a column) is still available.
+
+Each source lane unit is `lane_px` wide (`lane_area_px / lanes`), so a 16-lane Chunithm chart and a 4-lane DDR chart
+fill the same column width.
 """
 from __future__ import annotations
 
 import math
 from bisect import bisect_right
 from collections.abc import Iterator
-from itertools import islice
 from dataclasses import dataclass
 from fractions import Fraction
 from io import BytesIO
@@ -34,6 +38,8 @@ COLOURS: dict[str, tuple[int, int, int]] = {
     "knob": (80, 120, 255),
     "other": (90, 90, 100),
 }
+#: opacity of long-note bodies over the lanes; `other` (invisible guides, decorations, fakes) is faint
+BODY_ALPHA = {"hold": 150, "slide": 120, "air_hold": 110, "knob": 120, "scratch": 150, "other": 22}
 BACKGROUND = (12, 12, 18)
 LANE_BG = (24, 24, 34)
 LANE_LINE = (44, 44, 60)
@@ -41,6 +47,7 @@ BEAT_LINE = (52, 52, 70)
 MEASURE_LINE = (140, 140, 160)
 TEXT = (210, 210, 220)
 BPM_TEXT = (255, 200, 90)
+WHITE = (255, 255, 255)
 
 
 # fonts with Japanese, Chinese and Korean, for titles; set VSRGCONV_FONT to use another
@@ -70,72 +77,105 @@ def _font_for_title(size: int = 11):
     return _title_font[size]
 
 
+def preempt_ms(ar: float) -> float:
+    """osu!'s approach time for an approach rate: AR 5 = 1200 ms, AR 9 = 600 ms, AR 10 = 450 ms."""
+    return 1200.0 + 120.0 * (5 - ar) if ar < 5 else 1200.0 - 150.0 * (ar - 5)
+
+
 @dataclass
 class RenderConfig:
-    px_per_beat: int = 24
-    measures_per_column: int = 8
-    lane_area_px: int = 128        # width of the lane area; lane_px = lane_area_px / lanes, at least min_lane_px
+    axis: str = "time"             # "time": spaced by time at approach_rate; "beats": px_per_beat; "auto": beats,
+    #                                but time when gimmick BPMs stretch the beat axis
+    approach_rate: float = 9.0     # osu! AR: a note crosses screen_px in preempt_ms(AR)
+    screen_px: int = 480           # height of the simulated screen (osu!'s playfield is 480 units tall)
+    column_px: int | None = None   # tallest column; whole measures when they fit. Default: 2400 on the time axis,
+    #                                measures_per_column 4/4 measures on the beats axis
+    px_per_beat: int = 24          # beats axis
+    measures_per_column: int = 8   # beats axis
+    lane_area_px: int = 150        # sdvx.in: a 150 px lane area after a 50 px gutter
     min_lane_px: int = 8
-    gutter_px: int = 30
+    gutter_px: int = 50
     margin_px: int = 6
-    note_px: int = 4               # thickness of a tap
-    footer_px: int = 14            # title line under the columns
-    axis: str = "auto"             # "beats", "time", or "auto" (time when gimmick BPMs stretch the beat axis)
+    note_px: int = 6               # thickness of a tap
+    footer_px: int = 16            # title line under the columns
     stretch_limit: float = 3.0     # auto: use time when the chart is this many times longer in beats than in time
-    max_columns: int = 300         # a chart longer than this is cut, and the title says so
+    max_columns: int = 400         # a chart longer than this is cut, and the title says so
+    max_width_px: int = 16384      # wider pictures wrap into rows of columns, read top to bottom
+    row_gap_px: int = 24
+
+    @classmethod
+    def compact(cls) -> RenderConfig:
+        """The first layout: 24 px per beat, 8 measures a column, narrow lanes; time axis only for gimmick charts."""
+        return cls(axis="auto", px_per_beat=24, measures_per_column=8, lane_area_px=128, gutter_px=30, note_px=4,
+                   footer_px=14, max_columns=300, max_width_px=1 << 20)
+
+    @property
+    def px_per_ms(self) -> float:
+        return self.screen_px / preempt_ms(self.approach_rate)
+
+    def column_height(self, time_axis: bool) -> int:
+        if self.column_px:
+            return self.column_px
+        return 2400 if self.axis == "time" else self.px_per_beat * 4 * self.measures_per_column
 
 
 @dataclass
 class _Column:
     index: int
-    start: float                   # first display unit in the column
-    end: float                     # display unit at its top
+    start: float                   # px along the strip at the column's bottom
+    end: float                     # px at its top
+    row: int = 0                   # where it is drawn: row (top to bottom) and place in the row (left to right)
+    slot: int = 0
 
 
 class _Axis:
-    """Where a beat is drawn, in display units of one beat each.
+    """Where a beat is drawn: px along one long strip that the columns cut up.
 
-    Beats axis: the beat itself, so measures are evenly spaced, like sdvx.in's pictures. Time axis: the beat's time in
-    beats of the main BPM. Gimmick charts (Arcaea's 99,999,999 BPM jumps) put notes millions of beats apart that are
-    seconds apart in time; on the time axis they are drawn the way the game plays them."""
+    Time axis: the beat's time times px_per_ms, so spacing is spacing in time. On the beats axis it is the beat times
+    px_per_beat, so measures are evenly spaced. Gimmick charts (Arcaea's 99,999,999 BPM jumps) put notes millions of
+    beats apart that are seconds apart in time; in "auto" they go on the time axis, at px_per_beat at the main BPM."""
 
     def __init__(self, chart: Chart, cfg: RenderConfig):
         self.timing = chart.timing
         end = max(chart.end_beat, Fraction(1))
-        self.time = False
         self._cache: dict[Fraction, float] = {}
+        self.scale = float(cfg.px_per_beat)            # px per beat (beats) or px per ms (time)
         mode = cfg.axis
         try:
-            main = abs(self.timing.main_bpm(end)) or 120.0
-            self.unit = main / 60000.0
             self.ms = self.timing.ms_lookup()
             self.ms0 = self.ms(Fraction(0))
+            main = abs(self.timing.main_bpm(end)) or 120.0
             if mode == "auto":
-                span = (self.ms(end) - self.ms0) * self.unit
-                mode = "time" if float(end) > cfg.stretch_limit * max(span, 1.0) + 16 else "beats"
+                span = (self.ms(end) - self.ms0) * main / 60000.0
+                if float(end) > cfg.stretch_limit * max(span, 1.0) + 16:
+                    mode, self.scale = "time", cfg.px_per_beat * main / 60000.0
+                else:
+                    mode = "beats"
+            elif mode == "time":
+                self.scale = cfg.px_per_ms
         except (ValueError, ZeroDivisionError):      # no usable BPM: beats it is
-            mode = "beats"
+            mode, self.scale = "beats", float(cfg.px_per_beat)
         self.time = mode == "time"
 
     def pos(self, beat: Fraction) -> float:
         if not self.time:
-            return float(beat)
+            return float(beat) * self.scale
         p = self._cache.get(beat)
         if p is None:
-            p = self._cache[beat] = (self.ms(beat) - self.ms0) * self.unit
+            p = self._cache[beat] = (self.ms(beat) - self.ms0) * self.scale
         return p
 
     def segments(self, lo: Fraction, hi: Fraction) -> list[tuple[Fraction, Fraction, float]]:
-        """(from beat, to beat, display units per beat) pieces that cover [lo, hi]; one piece on the beats axis."""
+        """(from beat, to beat, px per beat) pieces that cover [lo, hi]; one piece on the beats axis."""
         if not self.time:
-            return [(lo, hi, 1.0)]
+            return [(lo, hi, self.scale)]
         bpms = sorted(self.timing.bpms, key=lambda b: b.beat)
         out = []
         for i, b in enumerate(bpms):
             a = lo if i == 0 else max(lo, b.beat)
             z = min(hi, bpms[i + 1].beat) if i + 1 < len(bpms) else hi
             if a < z:
-                out.append((a, z, 60000.0 / b.bpm * self.unit if b.bpm > 0 else 0.0))
+                out.append((a, z, 60000.0 / b.bpm * self.scale if b.bpm > 0 else 0.0))
         return out
 
 
@@ -167,37 +207,84 @@ def measure_starts(timing, lo: Fraction, hi: Fraction) -> Iterator[tuple[int, Fr
         number += n
 
 
+def _visible_measures(chart: Chart, axis: _Axis, hi: Fraction) -> list[tuple[int, Fraction, float]]:
+    """(number, beat, px) of the measure lines worth drawing up to beat `hi`: none inside gimmick spans, where
+    measures are less than 2 px apart (a 99,999,999 BPM jump crosses millions of measures in no time)."""
+    out: list[tuple[int, Fraction, float]] = []
+    for a, z, px_per_beat in axis.segments(Fraction(0), hi):
+        if px_per_beat * 4 < 2:
+            continue
+        for number, beat in measure_starts(chart.timing, max(a, Fraction(0)), z):
+            if out and out[-1][1] == beat:
+                continue
+            out.append((number, beat, axis.pos(beat)))
+    return out
+
+
 def _columns(chart: Chart, cfg: RenderConfig, axis: _Axis | None = None) -> tuple[list[_Column], bool]:
-    """Columns in display units, and whether the chart was cut at max_columns."""
+    """Columns along the strip, breaking at measure lines; a measure taller than a column is split. Also whether the
+    chart was cut at max_columns."""
     axis = axis or _Axis(chart, cfg)
     positions = [axis.pos(b) for n in chart.notes for b in (n.beat, n.end_beat)] or [0.0]
-    first, last = min(0.0, min(positions)), max(1.0, max(positions))
-    m = cfg.measures_per_column
-    if axis.time:                          # fixed columns of m 4/4 measures at the main BPM
-        size = 4.0 * m
-        count = max(1, math.ceil((last - first) / size + 1e-9))
-        bounds = [first + i * size for i in range(count + 1)]
-    else:                                  # every m measures
-        cap = cfg.max_columns * m + 2      # enough measures for max_columns (+1 tells that the chart was cut)
-        starts = [float(b) for _, b in islice(measure_starts(chart.timing, Fraction(0), Fraction(last)), cap)]
-        if starts[-1] <= last:             # one more measure line so the last note's measure is closed
-            starts.append(starts[-1] + ((starts[-1] - starts[-2]) if len(starts) > 1 else 4.0))
-        # m measures per column, fewer when long measures (32/4 ...) would make a column taller than m 4/4 measures
-        bounds, count = [starts[0]], 0
-        for b, nxt in zip(starts, starts[1:]):
-            if count and (count == m or nxt - bounds[-1] > 4.0 * m):
-                bounds.append(b)
-                count = 0
-            count += 1
-        bounds.append(starts[-1])
-        bounds[0] = min(bounds[0], first)  # notes before beat 0 (pickups) go in the first column
+    first, last = min(0.0, min(positions)), max(axis.pos(Fraction(1)), max(positions))
+    # measure lines from the start up to the first one above the last note, which closes the last column
+    end_beat = max(chart.end_beat, Fraction(1))
+    lines = [p for _, _, p in _visible_measures(chart, axis, end_beat + 64) if p > first]
+    height = cfg.column_height(axis.time)
+    if axis.time and not cfg.column_px:
+        # as many whole typical measures as fit in the default height, so columns end on measure lines and are
+        # filled. A slow chart's measure may make the column up to 1.5 times taller; past that, and for a longer
+        # measure than the typical one (a slow section), the measure is split
+        gaps = sorted(b - a for a, b in zip(lines, lines[1:]) if b - a >= 8)
+        if gaps and (typical := gaps[len(gaps) // 2]) <= height * 1.5:
+            height = typical * max(1, int(height // typical)) + 1
+    above = [p for p in lines if p > last]
+    top = above[0] if above else last + 1.0
+    breaks = sorted({p for p in lines if p < top} | {top})
+    bounds, start, prev = [first], first, first
+    limit = cfg.max_columns + 1
+    for p in breaks:
+        if p - start > height:
+            if prev > start:                      # close the column at the last measure line that fit
+                bounds.append(prev)
+                start = prev
+            while p - start > height and len(bounds) <= limit:   # a measure taller than a column: split it
+                start += height
+                bounds.append(start)
+        if len(bounds) > limit:
+            break
+        prev = p
+    if bounds[-1] < top and len(bounds) <= limit:
+        bounds.append(top)
     cut = len(bounds) - 1 > cfg.max_columns
     bounds = bounds[:cfg.max_columns + 1]
     return [_Column(i, a, b) for i, (a, b) in enumerate(zip(bounds, bounds[1:]))], cut
 
 
+def _blend(colour: tuple[int, int, int], alpha: int, under: tuple[int, int, int] = LANE_BG) -> tuple[int, int, int]:
+    return tuple(round(c * alpha / 255 + u * (255 - alpha) / 255) for c, u in zip(colour, under))
+
+
+class _Palette:
+    """Pictures are drawn straight into a palette image: flat colours, so the PNG is small and nothing is
+    quantised. Long-note bodies get their colour pre-blended over the lanes."""
+
+    def __init__(self) -> None:
+        self.colours: list[tuple[int, int, int]] = []
+        self.index: dict[tuple[int, int, int], int] = {}
+
+    def __call__(self, colour: tuple[int, int, int]) -> int:
+        if colour not in self.index:
+            self.index[colour] = len(self.colours)
+            self.colours.append(colour)
+        return self.index[colour]
+
+    def flat(self) -> list[int]:
+        return [v for c in self.colours for v in c]
+
+
 def render_chart(chart: Chart, cfg: RenderConfig | None = None, title: str | None = None):
-    """The chart as a PIL image (RGB)."""
+    """The chart as a PIL image (palette mode, "P")."""
     from PIL import Image, ImageDraw, ImageFont
 
     cfg = cfg or RenderConfig()
@@ -208,78 +295,58 @@ def render_chart(chart: Chart, cfg: RenderConfig | None = None, title: str | Non
     col_w = cfg.gutter_px + area + cfg.margin_px
     cols, cut = _columns(chart, cfg, axis)
     starts = [c.start for c in cols]
-    ppb = cfg.px_per_beat
-    col_h = math.ceil(max(c.end - c.start for c in cols) * ppb)
-    width = cfg.margin_px + col_w * len(cols)
-    height = cfg.margin_px * 2 + col_h + cfg.footer_px
-    img = Image.new("RGB", (width, height), BACKGROUND)
-    draw = ImageDraw.Draw(img, "RGBA")
+    col_h = math.ceil(max(c.end - c.start for c in cols))
+    per_row = max(1, min(len(cols), (cfg.max_width_px - cfg.margin_px) // col_w))
+    rows = math.ceil(len(cols) / per_row)
+    for c in cols:
+        c.row, c.slot = divmod(c.index, per_row)
+    row_h = col_h + cfg.row_gap_px
+    width = cfg.margin_px + col_w * per_row
+    height = cfg.margin_px * 2 + row_h * rows - cfg.row_gap_px + cfg.footer_px
+    pal = _Palette()
+    img = Image.new("P", (width, height), pal(BACKGROUND))
+    draw = ImageDraw.Draw(img)
     font = ImageFont.load_default()
-    bottom = cfg.margin_px + col_h
+    bottom = cfg.margin_px + col_h                 # of the first row
     top_pos = cols[-1].end
 
     def col_of(p: float) -> _Column:
         return cols[min(max(bisect_right(starts, p) - 1, 0), len(cols) - 1)]
 
     def x_of(col: _Column, lane: float) -> float:
-        return cfg.margin_px + col.index * col_w + cfg.gutter_px + float(lane) * lane_px
+        return cfg.margin_px + col.slot * col_w + cfg.gutter_px + float(lane) * lane_px
 
     def y_of(col: _Column, p: float) -> float:
-        return bottom - (p - col.start) * ppb
+        return bottom + col.row * row_h - (p - col.start)
 
-    # ---- lanes, beat and measure lines, numbers, BPM changes
+    # ---- lanes
     for col in cols:
-        x0 = x_of(col, 0)
-        top = y_of(col, col.end)
-        draw.rectangle([x0, top, x0 + area - 1, bottom], fill=LANE_BG)
+        x0, top, low = x_of(col, 0), y_of(col, col.end), y_of(col, col.start)
+        draw.rectangle([x0, top, x0 + area - 1, low], fill=pal(LANE_BG))
         for k in range(1, lanes):
-            draw.line([x_of(col, k), top, x_of(col, k), bottom], fill=LANE_LINE)
-        draw.line([x0, top, x0 + area - 1, top], fill=MEASURE_LINE)
+            draw.line([x_of(col, k), top, x_of(col, k), low], fill=pal(LANE_LINE))
+
     end_beat = max(chart.end_beat, Fraction(1))
     lo_beat = min(Fraction(0), min((n.beat for n in chart.notes), default=Fraction(0)))
-    # lines go up to the top of the last column: on the time axis, one more column of beats is plenty (the loops stop
-    # at the top)
-    hi_beat = end_beat + 4 * cfg.measures_per_column if axis.time else max(end_beat, Fraction(top_pos))
-    last_line: dict[int, float] = {}
-    last_label: dict[int, float] = {}
-    for a, z, units in axis.segments(lo_beat, hi_beat):
-        if units * ppb >= 4:               # beat lines, where beats are at least 4 px apart
-            b = Fraction(math.ceil(max(a, 0)))
-            while b < z:
-                p = axis.pos(b)
-                if p >= top_pos:
-                    break
-                c = col_of(p)
-                draw.line([x_of(c, 0), y_of(c, p), x_of(c, lanes) - 1, y_of(c, p)], fill=BEAT_LINE)
-                b += 1
-        if units * ppb < 0.5:              # gimmick span: measures are too close to draw
+    hi_beat = end_beat + 64
+
+    def line_at(p: float, colour: tuple[int, int, int]) -> None:
+        c = col_of(p)
+        draw.line([x_of(c, 0), y_of(c, p), x_of(c, lanes) - 1, y_of(c, p)], fill=pal(colour))
+
+    # ---- beat lines (where beats are at least 4 px apart)
+    for a, z, px_per_beat in axis.segments(lo_beat, hi_beat):
+        if px_per_beat < 4:
             continue
-        for number, mb in measure_starts(chart.timing, max(a, Fraction(0)), z):
-            p = axis.pos(mb)
+        b = Fraction(math.ceil(max(a, 0)))
+        while b < z:
+            p = axis.pos(b)
             if p >= top_pos:
                 break
-            c = col_of(p)
-            y = y_of(c, p)
-            if abs(last_line.get(c.index, 1e9) - y) >= 2:
-                last_line[c.index] = y
-                draw.line([x_of(c, 0), y, x_of(c, lanes) - 1, y], fill=MEASURE_LINE)
-            if abs(last_label.get(c.index, 1e9) - y) >= 11:
-                last_label[c.index] = y
-                draw.text((x_of(c, 0) - cfg.gutter_px + 2, y - 11), f"{number:03d}", fill=TEXT, font=font)
-    bpm_changes = sorted(chart.timing.bpms, key=lambda b: b.beat)
-    last_bpm: float | None = None
-    for change in bpm_changes:
-        if len(bpm_changes) == 1 and change.beat <= 0:
-            continue
-        p = axis.pos(change.beat)
-        if p > top_pos or (last_bpm is not None and abs(p - last_bpm) < 1):
-            continue      # gimmick bursts (warps written as huge BPMs): label the first change only
-        last_bpm = p
-        c = col_of(p)
-        text = f"{change.bpm:.4g}" if abs(change.bpm) < 10000 else "warp"
-        draw.text((x_of(c, 0) - cfg.gutter_px + 2, y_of(c, p) - 22), text, fill=BPM_TEXT, font=font)
+            line_at(p, BEAT_LINE)
+            b += 1
 
-    # ---- notes: long bodies first, then heads, so heads stay visible
+    # ---- notes: long bodies first (beat lines show where they cross), then heads, so heads stay on top
     def lane_at(n: Note, beat: Fraction) -> tuple[float, float]:
         """Lane and width of a moving note at `beat` (linear between path points)."""
         pts = [(Fraction(0), float(n.lane), float(n.width))] + [(p.beat, float(p.lane), float(p.width))
@@ -291,9 +358,7 @@ def render_chart(chart: Chart, cfg: RenderConfig | None = None, title: str | Non
                 return l0 + (l1 - l0) * t, w0 + (w1 - w0) * t
         return pts[-1][1], pts[-1][2]
 
-    def body(n: Note, colour: tuple[int, int, int], alpha: int, inset: float) -> None:
-        if n.duration <= 0:
-            return
+    def body(n: Note, colour: int, inset: float) -> None:
         breaks = sorted({n.beat, n.end_beat} | {n.beat + p.beat for p in n.path if 0 < p.beat < n.duration})
         for a, b in zip(breaks, breaks[1:]):
             pa, pb = axis.pos(a), axis.pos(b)
@@ -310,9 +375,9 @@ def render_chart(chart: Chart, cfg: RenderConfig | None = None, title: str | Non
                 l0, w0 = la + (lb - la) * t0, wa + (wb - wa) * t0
                 l1, w1 = la + (lb - la) * t1, wa + (wb - wa) * t1
                 ins = min(inset, w0 * lane_px / 3, w1 * lane_px / 3)
-                poly = [(x_of(col, l0) + ins, y_of(col, lo)), (x_of(col, l0 + w0) - ins, y_of(col, lo)),
-                        (x_of(col, l1 + w1) - ins, y_of(col, hi)), (x_of(col, l1) + ins, y_of(col, hi))]
-                draw.polygon(poly, fill=(*colour, alpha))
+                draw.polygon([(x_of(col, l0) + ins, y_of(col, lo)), (x_of(col, l0 + w0) - ins, y_of(col, lo)),
+                              (x_of(col, l1 + w1) - ins, y_of(col, hi)), (x_of(col, l1) + ins, y_of(col, hi))],
+                             fill=colour)
 
     def at(beat: Fraction) -> tuple[_Column, float] | None:
         p = axis.pos(beat)
@@ -321,28 +386,29 @@ def render_chart(chart: Chart, cfg: RenderConfig | None = None, title: str | Non
         c = col_of(p)
         return c, y_of(c, p)
 
-    def head(n: Note, colour: tuple[int, int, int], thick: int) -> None:
+    def head(n: Note, colour: int, thick: int) -> None:
         if (where := at(n.beat)) is None:
             return
         col, y = where
         x0, x1 = x_of(col, n.lane) + 1, x_of(col, float(n.lane) + float(n.width)) - 1
         draw.rectangle([x0, y - thick + 1, max(x0, x1), y], fill=colour)
 
-    def end_cap(n: Note, colour: tuple[int, int, int]) -> None:
+    def end_cap(n: Note, colour: int) -> None:
         if (where := at(n.end_beat)) is None:
             return
         col, y = where
         lane, w = lane_at(n, n.end_beat)
         draw.rectangle([x_of(col, lane) + 1, y - 1, max(x_of(col, lane) + 1, x_of(col, lane + w) - 1), y], fill=colour)
 
-    def arrow(n: Note, colour: tuple[int, int, int]) -> None:
+    def arrow(n: Note, colour: int) -> None:
         if (where := at(n.beat)) is None:
             return
         col, y = where
         x0, x1 = x_of(col, n.lane) + 1, x_of(col, float(n.lane) + float(n.width)) - 1
         mid = (x0 + x1) / 2
+        size = max(6, min(14, (x1 - x0) / 2))
         down = str(n.extra.get("direction", "up")).startswith("down")
-        tip = y + 6 if down else y - 8
+        tip = y + size - 2 if down else y - size
         draw.polygon([(x0, y - 2), (x1, y - 2), (mid, tip)], fill=colour)
 
     def mine(n: Note) -> None:
@@ -350,18 +416,51 @@ def render_chart(chart: Chart, cfg: RenderConfig | None = None, title: str | Non
             return
         col, y = where
         x0, x1 = x_of(col, n.lane) + 2, x_of(col, float(n.lane) + float(n.width)) - 2
-        draw.line([x0, y - 4, x1, y + 2], fill=COLOURS["mine"], width=2)
-        draw.line([x0, y + 2, x1, y - 4], fill=COLOURS["mine"], width=2)
+        draw.line([x0, y - 4, x1, y + 2], fill=pal(COLOURS["mine"]), width=2)
+        draw.line([x0, y + 2, x1, y - 4], fill=pal(COLOURS["mine"]), width=2)
 
-    # body opacity; `other` (invisible guides, decorations, fakes) is drawn faintly so it never hides real notes
-    long_kinds = {NoteKind.HOLD: 150, NoteKind.SLIDE: 120, NoteKind.AIR_HOLD: 110, NoteKind.KNOB: 120,
-                  NoteKind.SCRATCH: 150, NoteKind.OTHER: 22}
+    long_kinds = {NoteKind.HOLD, NoteKind.SLIDE, NoteKind.AIR_HOLD, NoteKind.KNOB, NoteKind.SCRATCH, NoteKind.OTHER}
     for n in chart.notes:
         if n.kind in long_kinds and n.duration > 0:
             inset = 0 if n.kind in (NoteKind.HOLD, NoteKind.SCRATCH) else lane_px * 0.25
-            body(n, COLOURS[n.kind.value], long_kinds[n.kind], inset)
+            body(n, pal(_blend(COLOURS[n.kind.value], BODY_ALPHA[n.kind.value])), inset)
+
+    def gutter_text(col: _Column, y: float, text: str, colour: tuple[int, int, int]) -> None:
+        """Right-aligned in the gutter, next to the column's own lanes."""
+        x = x_of(col, 0) - 3 - draw.textlength(text, font=font)
+        draw.text((max(x, x_of(col, 0) - cfg.gutter_px + 1), y), text, fill=pal(colour), font=font)
+
+    # ---- measure lines and numbers (the number's bottom row on its line, as on sdvx.in), BPM changes
+    last_line: dict[int, float] = {}
+    last_label: dict[int, float] = {}
+    for number, _, p in _visible_measures(chart, axis, hi_beat):
+        if p >= top_pos:
+            break
+        c = col_of(p)
+        y = y_of(c, p)
+        if abs(last_line.get(c.index, 1e9) - y) >= 2:
+            last_line[c.index] = y
+            line_at(p, MEASURE_LINE)
+        if abs(last_label.get(c.index, 1e9) - y) >= 11:
+            last_label[c.index] = y
+            gutter_text(c, y - 11, f"{number:03d}", TEXT)
+    for col in cols:
+        draw.line([x_of(col, 0), y_of(col, col.end), x_of(col, lanes) - 1, y_of(col, col.end)], fill=pal(MEASURE_LINE))
+    bpm_changes = sorted(chart.timing.bpms, key=lambda b: b.beat)
+    last_bpm: float | None = None
+    for change in bpm_changes:
+        if len(bpm_changes) == 1 and change.beat <= 0:
+            continue
+        p = axis.pos(change.beat)
+        if p > top_pos or (last_bpm is not None and abs(p - last_bpm) < 24):
+            continue      # gimmick bursts (warps written as huge BPMs): label the first change only
+        last_bpm = p
+        c = col_of(p)
+        text = f"{change.bpm:.4g}" if abs(change.bpm) < 10000 else "warp"
+        gutter_text(c, y_of(c, p) - 22, text, BPM_TEXT)
+
     for n in chart.notes:
-        colour = COLOURS[n.kind.value]
+        colour = pal(COLOURS[n.kind.value])
         if n.kind is NoteKind.AIR:
             arrow(n, colour)
         elif n.kind is NoteKind.MINE:
@@ -373,10 +472,10 @@ def render_chart(chart: Chart, cfg: RenderConfig | None = None, title: str | Non
             if not n.extra.get("air_slide"):
                 end_cap(n, colour)
         else:
-            head(n, COLOURS["ex_tap"] if n.extra.get("ex_start") and n.kind is NoteKind.HOLD else colour,
-                 cfg.note_px)
+            ex = n.extra.get("ex_start") and n.kind is NoteKind.HOLD
+            head(n, pal(COLOURS["ex_tap"]) if ex else colour, cfg.note_px)
             if n.kind is NoteKind.FLICK:
-                arrow(n, (255, 255, 255))
+                arrow(n, pal(WHITE))
             if n.duration > 0 and n.kind in (NoteKind.HOLD, NoteKind.SLIDE, NoteKind.SCRATCH):
                 end_cap(n, colour)
 
@@ -384,18 +483,24 @@ def render_chart(chart: Chart, cfg: RenderConfig | None = None, title: str | Non
     native = m.difficulty_native or m.difficulty
     level = f" {m.level}" if m.level and not str(native).endswith(str(m.level)) else ""
     label = title if title is not None else f"{m.game.upper()} {m.song_id} {m.title_romaji or m.title} [{native}{level}]"
-    label += " (time axis)" * axis.time + f" (first {len(cols)} columns only)" * cut
-    draw.text((cfg.margin_px, bottom + cfg.margin_px - 1), label, fill=TEXT, font=_font_for_title())
+    if axis.time and cfg.axis == "time":
+        label += f"  (AR {cfg.approach_rate:g})"
+    elif axis.time:
+        label += " (time axis)"
+    label += f" (first {len(cols)} columns only)" * cut
+    draw.text((cfg.margin_px, height - cfg.footer_px - cfg.margin_px + 5), label, fill=pal(TEXT), font=_font_for_title())
+    img.putpalette(pal.flat())
     return img
 
 
-def render_png(chart: Chart, cfg: RenderConfig | None = None, scale: float = 1.0, colours: int = 64) -> bytes:
-    """PNG bytes, palette-quantised (pictures are flat colours, so this is small and still exact to look at)."""
+def render_png(chart: Chart, cfg: RenderConfig | None = None, scale: float = 1.0) -> bytes:
+    """PNG bytes. Drawn in a palette, so flat colours compress well and nothing is quantised."""
     from PIL import Image
 
     img = render_chart(chart, cfg)
     if scale != 1.0:
-        img = img.resize((max(1, int(img.width * scale)), max(1, int(img.height * scale))), Image.LANCZOS)
+        img = img.convert("RGB").resize((max(1, int(img.width * scale)), max(1, int(img.height * scale))),
+                                        Image.LANCZOS).quantize(colors=64, method=Image.Quantize.MEDIANCUT)
     out = BytesIO()
-    img.quantize(colors=colours, method=Image.Quantize.MEDIANCUT).save(out, "PNG", optimize=True)
+    img.save(out, "PNG", compress_level=9)
     return out.getvalue()
