@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vsrgconv"
+version = "0.1.0"
+description = "Convert charts from other VSRGs (Chunithm, Sekai, Bandori, SDVX, DDR, ...) into osu!mania maps"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+images = ["numpy>=1.26", "Pillow>=10"]
+dev = ["pytest>=8", "numpy>=1.26", "Pillow>=10"]
+
+[project.scripts]
+vsrgconv = "vsrgconv.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
