@@ -1,0 +1,172 @@
+{
+ "game": "bandori",
+ "song_id": "264",
+ "title": "Winking☆Cheer",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "100",
+ "version": "",
+ "date_added": "2020-04-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 114
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 114
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 32,
+      "tap": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 223
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 223
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 149,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 365
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/264/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/264/hard.json",
+     "raw_sha256": "cf1f765e12519116e7097189e5e9900ca89e7b42848618fe6cf758cb86fa54c5"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 365
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 24,
+      "hold": 45,
+      "tap": 202
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 481
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/264/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/264/expert.json",
+     "raw_sha256": "c388d2f9469d2ee68e443c9cbb966df0cbf34b3e375e932ef4574f4b4b9f2894"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 481
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 22,
+      "tap": 327,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 264,
+   "bandId": 4,
+   "jacketImage": "264_winking",
+   "bgmId": "bgm264"
+  },
+  "maa": {
+   "bestdori_song_id": 264,
+   "jacket": {
+    "path": "bestdori/264/jacket-cn-1.png",
+    "server": "cn",
+    "name": "264_winking"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/264/jacket-cn-1.png",
+   "sha256": "2f92e32f2d885e06846e754267069084dcc331f163aea951cd6fa96f5d3433df",
+   "width": 320,
+   "height": 320,
+   "bytes": 20838
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "都丸椋太（Elements Garden）",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1587362400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "winkingcheer",
+  "length_s": 103.272
+ }
+}

@@ -1,0 +1,209 @@
+{
+ "game": "bandori",
+ "song_id": "83",
+ "title": "プライド革命",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "185",
+ "version": "",
+ "date_added": "2018-01-24",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 90
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 90
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 74,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 249
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 249
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 209,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 449
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/83/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/83/hard.json",
+     "raw_sha256": "ec84eab6eebbfd22a9d0aab8f58999bfc731ca97c6134fe6ff27b20f68e7819a"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 449
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 395,
+      "hold": 16,
+      "flick": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 663
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/83/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/83/expert.json",
+     "raw_sha256": "eb25d499f4c6ca8efb5264979d2cca8c9a66cfeadfbd4a1c9e202f200e4cfcfd"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 663
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 594,
+      "hold": 11,
+      "flick": 41,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 777
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1555588800000,
+    "maa": {
+     "path": "bestdori/83/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/83/special.json",
+     "raw_sha256": "e032f4fb128c686518388ffad68d353ddcfa387a36498f3ad5d326ee6163f9d0"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 777
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 36,
+      "tap": 502,
+      "slide": 71,
+      "flick": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 83,
+   "bandId": 2,
+   "jacketImage": "083_pride_kakumei",
+   "bgmId": "bgm083"
+  },
+  "maa": {
+   "bestdori_song_id": 83,
+   "jacket": {
+    "path": "bestdori/83/jacket-cn-1.png",
+    "server": "cn",
+    "name": "083_pride_kakumei"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/83/jacket-cn-1.png",
+   "sha256": "6504c388b27243200fca6e4bc2883c84f344ff76eae95cb443d00d0b06dbb816",
+   "width": 320,
+   "height": 320,
+   "bytes": 21097
+  }
+ },
+ "extra": {
+  "lyricist": "HoneyWorks",
+  "composer": "HoneyWorks",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1516773600000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "ぷらいどかくめい",
+  "title_en": "Pride Revolution",
+  "length_s": 107.088
+ }
+}

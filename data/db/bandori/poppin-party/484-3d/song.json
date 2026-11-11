@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "484",
+ "title": "キズナミュージック♪（3Dライブモード対応）",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "189",
+ "version": "",
+ "date_added": "2023-03-16",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 170
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 170
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 98,
+      "hold": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 286
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 286
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 171,
+      "hold": 57,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 457
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/484/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/484/hard.json",
+     "raw_sha256": "c79e52a083010ebdcc859498d31d8e0b68e5b3577a5344d89e309fb53a33b03a"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 457
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 310,
+      "hold": 56,
+      "flick": 3,
+      "slide": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 596
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/484/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/484/expert.json",
+     "raw_sha256": "4fd153673fbc0c00e1df88c230ddbfca7f9d8b27c40e761eef4d4f6c24733d52"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 596
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 63,
+      "tap": 403,
+      "flick": 10,
+      "slide": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 757
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/484/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/484/special.json",
+     "raw_sha256": "040cf409baf46dfc8605237477eec2d105d41cbb9222ade618b9f7b1b874f039"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 757
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 482,
+      "flick": 63,
+      "slide": 62,
+      "hold": 34
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 484,
+   "bandId": 1,
+   "jacketImage": "484_kizuna_music_long",
+   "bgmId": "bgm484"
+  },
+  "maa": {
+   "bestdori_song_id": 484,
+   "jacket": {
+    "path": "bestdori/484/jacket-cn-1.png",
+    "server": "cn",
+    "name": "484_kizuna_music_long"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/484/jacket-cn-1.png",
+   "sha256": "eb2d33d87166923b0e8d0fbef5dd6c1456bd0d92eaaf543259c0bc5a8901201d",
+   "width": 320,
+   "height": 320,
+   "bytes": 31110
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1678946400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "きずなみゅーじっく",
+  "title_en": "KIZUNA MUSIC♪ (3D Live Mode)",
+  "length_s": 108
+ }
+}

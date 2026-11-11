@@ -1,0 +1,209 @@
+{
+ "game": "bandori",
+ "song_id": "30",
+ "title": "Re:birth day",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2016-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 101
+   },
+   "source": {
+    "notesQuantity": 101,
+    "bestdori": {
+     "level": 7,
+     "notes": 101
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 93,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 177
+   },
+   "source": {
+    "notesQuantity": 173,
+    "bestdori": {
+     "level": 11,
+     "notes": 177
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 163,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 173 differs from combo 177 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 514
+   },
+   "source": {
+    "notesQuantity": 492,
+    "maa": {
+     "path": "bestdori/30/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/30/hard.json",
+     "raw_sha256": "18212e0591d6a15e0761d7e6efb1fccebdbebad1623e65fcb9eb09416603bffa"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 514
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 19,
+      "tap": 395,
+      "slide": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 492 differs from combo 514 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 848
+   },
+   "source": {
+    "notesQuantity": 839,
+    "maa": {
+     "path": "bestdori/30/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/30/expert.json",
+     "raw_sha256": "670dfc197e6ae9343c20a76d35f935e84873912860603b163fb0a87cbfccfdfa"
+    },
+    "bestdori": {
+     "level": 29,
+     "notes": 848
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 534,
+      "slide": 59,
+      "hold": 57,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 839 differs from combo 848 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 781
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1774591200000,
+    "maa": {
+     "path": "bestdori/30/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/30/special.json",
+     "raw_sha256": "77604dfcf8240c118490eb3ac0a2af55b72b7bd70776d16d98eb79eea0e91157"
+    },
+    "bestdori": {
+     "notes": 781
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 86,
+      "tap": 509,
+      "slide": 44,
+      "hold": 21
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 30,
+   "bandId": 5,
+   "jacketImage": "re_birthday",
+   "bgmId": "bgm030"
+  },
+  "maa": {
+   "bestdori_song_id": 30,
+   "jacket": {
+    "path": "bestdori/30/jacket-cn-1.png",
+    "server": "cn",
+    "name": "re_birthday"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/30/jacket-cn-1.png",
+   "sha256": "c828f9ee5669e97bb6dfc57257e5e5da6e515362a3b7a0db69626139ee1b7973",
+   "width": 320,
+   "height": 320,
+   "bytes": 20321
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1462071600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "rebirthday",
+  "title_en": "Re:birth Day",
+  "length_s": 124.296
+ }
+}

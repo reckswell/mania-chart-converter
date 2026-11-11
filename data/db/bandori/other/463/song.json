@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "463",
+ "title": "もってけ！セーラーふく",
+ "artist": "ハロー、ハッピーワールド！×香澄×有咲×イヴ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！×香澄×有咲×イヴ",
+ "bpm": "150",
+ "version": "",
+ "date_added": "2022-12-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 117
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 117
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 93,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 230
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 230
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 153,
+      "hold": 20,
+      "slide": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 472
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/463/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/463/hard.json",
+     "raw_sha256": "60ffc2d14bcd17e3e6e739063d234dd9e020c49dedda42a2b7714b66936871f0"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 472
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 255,
+      "slide": 52,
+      "hold": 30,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 752
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/463/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/463/expert.json",
+     "raw_sha256": "751b3f5c174f3e3150f72daea32a81e9b9e6a4b29ae22d16a15eaa1eb34f0e2b"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 752
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 435,
+      "slide": 79,
+      "flick": 39,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 463,
+   "bandId": 53,
+   "jacketImage": "463_motteke_sailor",
+   "bgmId": "bgm463"
+  },
+  "maa": {
+   "bestdori_song_id": 463,
+   "jacket": {
+    "path": "bestdori/463/jacket-cn-1.png",
+    "server": "cn",
+    "name": "463_motteke_sailor"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/463/jacket-cn-1.png",
+   "sha256": "1a6cd3a4b87ba0e0f568d4c7ae4f90e2852aaff22b7ad7cdf7569093cae96c2c",
+   "width": 320,
+   "height": 320,
+   "bytes": 29669
+  }
+ },
+ "extra": {
+  "lyricist": "畑 亜貴",
+  "composer": "神前 暁",
+  "arranger": "堀川大翼（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1672466400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "もってけせーらーふく",
+  "title_en": "Motteke! Sailor Fuku",
+  "length_s": 102.456
+ }
+}

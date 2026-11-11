@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "301",
+ "title": "mind of Prominence",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "188",
+ "version": "",
+ "date_added": "2020-11-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 154
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 154
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 106,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 276
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 276
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 196,
+      "hold": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 471
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/301/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/301/hard.json",
+     "raw_sha256": "e98a22e7d511fcd4382a28d4cb8743717c5cc7b618dcc2192fef6257e8b755c6"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 471
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 323,
+      "flick": 7,
+      "slide": 12,
+      "hold": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 762
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/301/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/301/expert.json",
+     "raw_sha256": "a3e9ebec94d2c40db601c1997a24b355be4e865dfa057a4b82a36053b328297d"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 762
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 493,
+      "flick": 46,
+      "hold": 66,
+      "slide": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 301,
+   "bandId": 18,
+   "jacketImage": "301_mind_of_prominence_1",
+   "bgmId": "bgm301"
+  },
+  "maa": {
+   "bestdori_song_id": 301,
+   "jacket": {
+    "path": "bestdori/301/jacket-cn-2.png",
+    "server": "cn",
+    "name": "301_mind_of_prominence_1"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/301/jacket-cn-2.png",
+   "sha256": "7fc20b6f3aa179b5a00a7766487c8a4534ee120d8bda49b96b38ae375e9976fd",
+   "width": 320,
+   "height": 320,
+   "bytes": 36682
+  }
+ },
+ "extra": {
+  "lyricist": "Spirit Garden",
+  "composer": "菊田大介（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1605852000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "mindofprominence",
+  "length_s": 101.544
+ }
+}

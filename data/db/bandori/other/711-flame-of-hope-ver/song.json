@@ -1,0 +1,195 @@
+{
+ "game": "bandori",
+ "song_id": "711",
+ "title": "flame of hope(パラレルver.)",
+ "artist": "クールビューティーズ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "クールビューティーズ",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2025-07-11",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 171
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 171
+    }
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 300
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 300
+    }
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 641
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/711/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/711/hard.json",
+     "raw_sha256": "7c724042d39fba5c536ab0baec007ebf7e398b1107ac7672b030bd206f8eb4cc"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 641
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 26,
+      "flick": 21,
+      "tap": 413,
+      "hold": 60
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 969
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/711/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/711/expert.json",
+     "raw_sha256": "a553934bfd181a3fc168bb38aca8028c4ee3ba29041fdee30955d9e056c2ad0e"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 969
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 30,
+      "flick": 48,
+      "tap": 616,
+      "hold": 92
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 929
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/711/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/711/special.json",
+     "raw_sha256": "f5fbc93ed71f30db38691f14aadc3a7c91ba0de6dbf04f791f417a94f364507c"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 929
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 599,
+      "flick": 76,
+      "hold": 43,
+      "slide": 66
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 711,
+   "bandId": 90,
+   "jacketImage": "711_flame_of_hope_p",
+   "bgmId": "bgm711"
+  },
+  "maa": {
+   "bestdori_song_id": 711,
+   "jacket": {
+    "path": "bestdori/711/jacket-cn-1.png",
+    "server": "cn",
+    "name": "711_flame_of_hope_p"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/711/jacket-cn-1.png",
+   "sha256": "5eeb86acf08720f19be89a8450a3288bb61e3cf19f599bb8c0094e58b321ceb5",
+   "width": 320,
+   "height": 320,
+   "bytes": 37357
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1752213600000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "flameofhope",
+  "length_s": 111.84
+ }
+}

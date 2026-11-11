@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "399",
+ "title": "Repaint",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "205",
+ "version": "",
+ "date_added": "2022-02-14",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 148
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 148
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 90,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 378
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 378
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 282,
+      "hold": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 653
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/399/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/399/hard.json",
+     "raw_sha256": "66d7ed96d32a038756b14b53bdcb93e28a8c7daaa418a155db09598b2d46b856"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 653
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 447,
+      "hold": 79,
+      "flick": 6,
+      "slide": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1076
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/399/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/399/expert.json",
+     "raw_sha256": "e394392689432aac4e06face789044527a689852f1988089698719ddb8c18f60"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 1076
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 710,
+      "slide": 72,
+      "flick": 22,
+      "hold": 66
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 399,
+   "bandId": 18,
+   "jacketImage": "399_repaint",
+   "bgmId": "bgm399"
+  },
+  "maa": {
+   "bestdori_song_id": 399,
+   "jacket": {
+    "path": "bestdori/399/jacket-cn-1.png",
+    "server": "cn",
+    "name": "399_repaint"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/399/jacket-cn-1.png",
+   "sha256": "ec2d69724abeee0db72136a35d3bb44dbc35a908fc55ca76272d8e395082216b",
+   "width": 320,
+   "height": 320,
+   "bytes": 44153
+  }
+ },
+ "extra": {
+  "lyricist": "Fear, and Loathing in Las Vegas",
+  "composer": "Fear, and Loathing in Las Vegas",
+  "arranger": "Fear, and Loathing in Las Vegas",
+  "tag": "normal",
+  "published_at": 1644818400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "repaint",
+  "length_s": 127.68
+ }
+}

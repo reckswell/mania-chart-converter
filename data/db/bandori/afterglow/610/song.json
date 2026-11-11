@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "610",
+ "title": "逆光",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "145",
+ "version": "",
+ "date_added": "2024-05-06",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 99
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 99
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 77,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 230
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 230
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 156,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 475
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/610/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/610/hard.json",
+     "raw_sha256": "f218dc3153db7a613a9b9f9009f94f3aec4172a35ad1ee2e086ad4ec30ed539a"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 475
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 307,
+      "slide": 30,
+      "hold": 30,
+      "flick": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 770
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/610/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/610/expert.json",
+     "raw_sha256": "8a21c48d1d143e4b4012663e0c4c2e3f679d2ba484481a2fc2c797987e8c174b"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 770
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 400,
+      "slide": 66,
+      "flick": 51,
+      "hold": 59
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 610,
+   "bandId": 2,
+   "jacketImage": "610_gyakkou",
+   "bgmId": "bgm610"
+  },
+  "maa": {
+   "bestdori_song_id": 610,
+   "jacket": {
+    "path": "bestdori/610/jacket-cn-1.png",
+    "server": "cn",
+    "name": "610_gyakkou"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/610/jacket-cn-1.png",
+   "sha256": "00fdd27e315d50afd5b54a506b92481e3d67fa968458b25a7d7cced36880b38e",
+   "width": 320,
+   "height": 320,
+   "bytes": 39139
+  }
+ },
+ "extra": {
+  "lyricist": "Vaundy",
+  "composer": "Vaundy",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1714975200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ぎゃっこう",
+  "title_en": "Backlight",
+  "length_s": 118.416
+ }
+}

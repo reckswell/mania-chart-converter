@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "179",
+ "title": "檄！帝国華撃団",
+ "artist": "Poppin'Party×彩×こころ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party×彩×こころ",
+ "bpm": "143",
+ "version": "",
+ "date_added": "2019-03-17",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 215
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 215
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 127,
+      "hold": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 311
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 311
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 159,
+      "hold": 76
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 465
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/179/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/179/hard.json",
+     "raw_sha256": "d8a20c7d7090bf606f859b25c22fba5f6592a3eedcb65dcc39887dbf4085c87a"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 465
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 32,
+      "hold": 52,
+      "tap": 221,
+      "slide": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 902
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/179/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/179/expert.json",
+     "raw_sha256": "a53d960fa65ac1fdfa16946c877c86d7ef69bb1454b68959993b94d130e8e5e2"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 902
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 437,
+      "flick": 69,
+      "hold": 47,
+      "slide": 77
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 179,
+   "bandId": 20,
+   "jacketImage": "179_empire",
+   "bgmId": "bgm179"
+  },
+  "maa": {
+   "bestdori_song_id": 179,
+   "jacket": {
+    "path": "bestdori/179/jacket-cn-1.png",
+    "server": "cn",
+    "name": "179_empire"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/179/jacket-cn-1.png",
+   "sha256": "28e00a3bcf973d7cc8e599b33edd096c6cfe04a1fd9cd6b104dd83bf0b0336b7",
+   "width": 320,
+   "height": 320,
+   "bytes": 36486
+  }
+ },
+ "extra": {
+  "lyricist": "広井王子",
+  "composer": "田中公平",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1552802400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "げきていこくかげきだん",
+  "title_en": "Attack! Imperial Assault Force",
+  "length_s": 122.568
+ }
+}

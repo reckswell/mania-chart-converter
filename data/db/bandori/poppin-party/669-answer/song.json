@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "669",
+ "title": "とっておきAnswer",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "192",
+ "version": "",
+ "date_added": "2025-02-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 111
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 111
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 47,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 215
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 215
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 117,
+      "hold": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 543
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/669/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/669/hard.json",
+     "raw_sha256": "66fc0fbd9e322c5428b993a84b65a93df10f4235df37de05fcb3c935193f5935"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 543
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 321,
+      "slide": 30,
+      "flick": 9,
+      "hold": 64
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 770
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/669/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/669/expert.json",
+     "raw_sha256": "d0a3a2d53a7e69a6bf6f582c59187d2bfb16a28561e10c99f97760930ada7a82"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 770
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 485,
+      "slide": 46,
+      "flick": 13,
+      "hold": 61
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 669,
+   "bandId": 1,
+   "jacketImage": "669_totteoki",
+   "bgmId": "bgm669"
+  },
+  "maa": {
+   "bestdori_song_id": 669,
+   "jacket": {
+    "path": "bestdori/669/jacket-cn-1.png",
+    "server": "cn",
+    "name": "669_totteoki"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/669/jacket-cn-1.png",
+   "sha256": "2264a1710d9124d2816173ecbedea1d2b9ecc402894e1381f905b676feb50810",
+   "width": 320,
+   "height": 320,
+   "bytes": 30587
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1740722400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "とっておきanswer",
+  "title_en": "Totte Oki Answer",
+  "length_s": 106.32
+ }
+}

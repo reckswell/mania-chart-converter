@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "209",
+ "title": "ミュージック・アワー",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "135",
+ "version": "",
+ "date_added": "2019-07-27",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 174
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 174
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 108,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 275
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 275
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 199,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 462
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/209/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/209/hard.json",
+     "raw_sha256": "465af86d63e2431b5e6c5d254005fad436bd1af97e654081afb4779490b5c572"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 462
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 190,
+      "hold": 72,
+      "flick": 42,
+      "slide": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 746
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/209/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/209/expert.json",
+     "raw_sha256": "107244bd83b0a36e109a0c4b929d7428854cfbca1e27e7cd95ffd3f90d943b23"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 746
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 404,
+      "hold": 106,
+      "flick": 44,
+      "slide": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 209,
+   "bandId": 1,
+   "jacketImage": "209_musichour",
+   "bgmId": "bgm209"
+  },
+  "maa": {
+   "bestdori_song_id": 209,
+   "jacket": {
+    "path": "bestdori/209/jacket-cn-1.png",
+    "server": "cn",
+    "name": "209_musichour"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/209/jacket-cn-1.png",
+   "sha256": "d1046522bb5bcac5d7439146001e0209d2dbc27c91295a90da99939ee55f4559",
+   "width": 320,
+   "height": 320,
+   "bytes": 25054
+  }
+ },
+ "extra": {
+  "lyricist": "ハルイチ",
+  "composer": "ak. homma",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1564207200000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "みゅーじっくあわー",
+  "title_en": "Music Hour",
+  "length_s": 124.512
+ }
+}

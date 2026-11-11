@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "104",
+ "title": "もういちど ルミナス",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "169",
+ "version": "",
+ "date_added": "2018-06-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 86
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 86
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 58,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 168
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 168
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 38,
+      "tap": 89,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 439
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/104/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/104/hard.json",
+     "raw_sha256": "5bd0b49a33f7b80110b5748afd0cf050d2e1c34e69e5566e67b50cacb4ed7202"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 439
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 240,
+      "hold": 68,
+      "flick": 8,
+      "slide": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 660
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/104/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/104/expert.json",
+     "raw_sha256": "a43c77e0bb9ac92b358af5caed83483350ffe72c3d46dab4c6aeb95a0013ef5e"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 660
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 459,
+      "hold": 66,
+      "flick": 8,
+      "slide": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 104,
+   "bandId": 4,
+   "jacketImage": "104_luminous",
+   "bgmId": "bgm104"
+  },
+  "maa": {
+   "bestdori_song_id": 104,
+   "jacket": {
+    "path": "bestdori/104/jacket-cn-1.png",
+    "server": "cn",
+    "name": "104_luminous"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/104/jacket-cn-1.png",
+   "sha256": "fe5b559429cf7f977d2a184dd83a19ae85fc7da19911a2a82f34408679c8f909",
+   "width": 320,
+   "height": 320,
+   "bytes": 15102
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "末益涼太（Elements Garden）",
+  "arranger": "末益涼太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1529474400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "もういちどるみなす",
+  "title_en": "Luminous Once More",
+  "length_s": 115.8
+ }
+}

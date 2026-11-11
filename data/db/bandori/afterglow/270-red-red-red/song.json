@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "270",
+ "title": "RED RED RED",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "188",
+ "version": "",
+ "date_added": "2020-05-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 129
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 129
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 75,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 214
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 214
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 162,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 383
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/270/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/270/hard.json",
+     "raw_sha256": "f730b21502cb0b6269072e0822fce8654310e923e53094e8549f482e9f9626fa"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 383
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 273,
+      "hold": 41,
+      "slide": 8,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 733
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/270/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/270/expert.json",
+     "raw_sha256": "ffe85c257899f17c71e4f3eefaf1bb9f0d151914273ef08b1abb0290c8b61dfd"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 733
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 37,
+      "tap": 425,
+      "hold": 70,
+      "flick": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 270,
+   "bandId": 2,
+   "jacketImage": "270_redredred",
+   "bgmId": "bgm270"
+  },
+  "maa": {
+   "bestdori_song_id": 270,
+   "jacket": {
+    "path": "bestdori/270/jacket-cn-1.png",
+    "server": "cn",
+    "name": "270_redredred"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/270/jacket-cn-1.png",
+   "sha256": "fd9aeb38ed7780ece5fc0cb46fe9c2a3f484a8eadc6e0adf328cff8164028fa4",
+   "width": 320,
+   "height": 320,
+   "bytes": 16266
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "岩橋星実（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1590753600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "redredred",
+  "length_s": 109.2
+ }
+}

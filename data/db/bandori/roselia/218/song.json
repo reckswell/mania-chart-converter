@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "218",
+ "title": "ファティマ",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "179",
+ "version": "",
+ "date_added": "2019-09-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 136
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 136
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 88,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 274
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 274
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 238,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 480
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/218/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/218/hard.json",
+     "raw_sha256": "5bbab5851d337bc4296a755dc632115de7d2353938c33066c40b184b5f33ad44"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 480
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 309,
+      "hold": 72,
+      "flick": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 728
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/218/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/218/expert.json",
+     "raw_sha256": "51f54e7861af9c1227c9859586032223803b916b5d8e820350a02d9e81045a34"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 728
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 456,
+      "slide": 17,
+      "flick": 36,
+      "hold": 78
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 218,
+   "bandId": 5,
+   "jacketImage": "218_fatima",
+   "bgmId": "bgm218"
+  },
+  "maa": {
+   "bestdori_song_id": 218,
+   "jacket": {
+    "path": "bestdori/218/jacket-cn-1.png",
+    "server": "cn",
+    "name": "218_fatima"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/218/jacket-cn-1.png",
+   "sha256": "00b8d8ed13ca090cf98259fd855ba57ffd58ca602e480ce79049cca09c8b9e25",
+   "width": 320,
+   "height": 320,
+   "bytes": 24201
+  }
+ },
+ "extra": {
+  "lyricist": "志倉千代丸",
+  "composer": "志倉千代丸",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1568959200000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "ふぁてぃま",
+  "title_en": "Fatima",
+  "length_s": 95.928
+ }
+}

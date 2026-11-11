@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "599",
+ "title": "トレモロアイズ",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "165",
+ "version": "",
+ "date_added": "2024-03-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 128
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 128
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 72,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 212
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 212
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 120,
+      "hold": 38,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 436
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/599/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/599/hard.json",
+     "raw_sha256": "705bad3e984f7aa6f979b9ae9607326fb17c5d461707c763b1d606c19bfa6ba8"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 436
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 220,
+      "hold": 45,
+      "slide": 41,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 600
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/599/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/599/expert.json",
+     "raw_sha256": "efe2c84f1dd5a9477476b198f6047cf6dfa48d64e0f811fb2a96d5ddb2d00a67"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 600
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 394,
+      "hold": 55,
+      "slide": 32,
+      "flick": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 599,
+   "bandId": 1,
+   "jacketImage": "599_tremolo_eyes",
+   "bgmId": "bgm599"
+  },
+  "maa": {
+   "bestdori_song_id": 599,
+   "jacket": {
+    "path": "bestdori/599/jacket-cn-1.png",
+    "server": "cn",
+    "name": "599_tremolo_eyes"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/599/jacket-cn-1.png",
+   "sha256": "0eb1c5929eb831f3d809b7a1fb8ceed22c35bb7b4c38034fa32e8bb758812789",
+   "width": 320,
+   "height": 320,
+   "bytes": 24655
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "笠井雄太（Elements Garden）",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1711864800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "とれもろあいず",
+  "title_en": "Tremolo Eyes",
+  "length_s": 119.328
+ }
+}

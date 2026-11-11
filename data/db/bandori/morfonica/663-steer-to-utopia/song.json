@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "663",
+ "title": "Steer to Utopia",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "195",
+ "version": "",
+ "date_added": "2025-01-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 130
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 130
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 27,
+      "tap": 76
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 261
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 261
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 32,
+      "tap": 197
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 529
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/663/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/663/hard.json",
+     "raw_sha256": "55bebb3788fc940d9c2adf029be990d857162552dfc2b17d0dac009f2d01478f"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 529
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 60,
+      "tap": 279,
+      "flick": 42,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 822
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/663/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/663/expert.json",
+     "raw_sha256": "ffe30ddab6ce4bc06dd7c8ea2dbc25d790000d1b395b5a0fbf49e0d22d14d8df"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 822
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 118,
+      "tap": 383,
+      "flick": 71,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 663,
+   "bandId": 21,
+   "jacketImage": "663_steer_to_utopia",
+   "bgmId": "bgm663"
+  },
+  "maa": {
+   "bestdori_song_id": 663,
+   "jacket": {
+    "path": "bestdori/663/jacket-cn-1.png",
+    "server": "cn",
+    "name": "663_steer_to_utopia"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/663/jacket-cn-1.png",
+   "sha256": "de050f5426d69cf12042b7f5eb0da578edfc7f7f21cedd9586cd87acf05174c9",
+   "width": 320,
+   "height": 320,
+   "bytes": 33388
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "岩橋星実（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1736488800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "steertoutopia",
+  "length_s": 104.664
+ }
+}

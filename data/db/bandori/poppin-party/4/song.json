@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "4",
+ "title": "ティアドロップス",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2016-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 158
+   },
+   "source": {
+    "notesQuantity": 169,
+    "bestdori": {
+     "level": 9,
+     "notes": 158
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 144,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 169 differs from combo 158 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 288
+   },
+   "source": {
+    "notesQuantity": 277,
+    "bestdori": {
+     "level": 13,
+     "notes": 288
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 264,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 277 differs from combo 288 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 450
+   },
+   "source": {
+    "notesQuantity": 555,
+    "maa": {
+     "path": "bestdori/4/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/4/hard.json",
+     "raw_sha256": "63ef53915186996f6f4785b0f924968027a4033a01e2fe9c0312f06b5cfe74b5"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 450
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 352,
+      "flick": 28,
+      "hold": 32,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 555 differs from combo 450 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 774
+   },
+   "source": {
+    "notesQuantity": 782,
+    "maa": {
+     "path": "bestdori/4/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/4/expert.json",
+     "raw_sha256": "8c884f45016053a2eb278970b63aa7c4c477a894fce6894ea06fe743ce073348"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 774
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 504,
+      "hold": 103,
+      "flick": 25,
+      "slide": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 782 differs from combo 774 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1063
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1540814400000,
+    "maa": {
+     "path": "bestdori/4/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/4/special.json",
+     "raw_sha256": "53d2c7a2da0d92f5fda82c5c0ab10ff1bd3648d3d7b1bc9ce2d1eb2af4a2c477"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 1063
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 535,
+      "slide": 48,
+      "flick": 127,
+      "hold": 94
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 4,
+   "bandId": 1,
+   "jacketImage": "teardrop",
+   "bgmId": "bgm004"
+  },
+  "maa": {
+   "bestdori_song_id": 4,
+   "jacket": {
+    "path": "bestdori/4/jacket-cn-1.png",
+    "server": "cn",
+    "name": "teardrop"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/4/jacket-cn-1.png",
+   "sha256": "657daa3a60fba190c5e6cc7be15ca41b999a26ff1cbfca5fbf4f9b8017aff692",
+   "width": 320,
+   "height": 320,
+   "bytes": 41177
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "末益涼太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1462071600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "てぃあどろっぷす",
+  "title_en": "Tear Drops",
+  "length_s": 150.312
+ }
+}

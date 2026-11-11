@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "703",
+ "title": "Polyphonyscape",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "153",
+ "version": "",
+ "date_added": "2025-04-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 101
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 101
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 65,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 152
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 152
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 100,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 510
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/703/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/703/hard.json",
+     "raw_sha256": "f1f4e0a4bf95b5da1c5cb8a55c089a96958d0b24b4bb3dfa32022b9b3051f702"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 510
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 60,
+      "tap": 231,
+      "hold": 33,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 732
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/703/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/703/expert.json",
+     "raw_sha256": "8a1a3f220434845d410b6c13cde92854afa7be6c460f0d2c10ea00969c2d2238"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 732
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 74,
+      "tap": 441,
+      "hold": 24,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 703,
+   "bandId": 21,
+   "jacketImage": "703_polyphonyscape",
+   "bgmId": "bgm703"
+  },
+  "maa": {
+   "bestdori_song_id": 703,
+   "jacket": {
+    "path": "bestdori/703/jacket-cn-1.png",
+    "server": "cn",
+    "name": "703_polyphonyscape"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/703/jacket-cn-1.png",
+   "sha256": "3c298dc53caa8eff0d29a21c4e04c56964ec8fa3da5a95e2d4ef4e5149f1112d",
+   "width": 320,
+   "height": 320,
+   "bytes": 33671
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1745906400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "polyphonyscape",
+  "length_s": 105.168
+ }
+}

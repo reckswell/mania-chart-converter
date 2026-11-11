@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "241",
+ "title": "甲賀忍法帖",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "178",
+ "version": "",
+ "date_added": "2020-01-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 162
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 162
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 100,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 348
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 348
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 254,
+      "hold": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 525
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/241/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/241/hard.json",
+     "raw_sha256": "7064c17f67f6d239ed1928f1cc15bcfa64c9e0c81a7e1099c8028db212ac512d"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 525
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 352,
+      "flick": 27,
+      "hold": 41,
+      "slide": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 823
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/241/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/241/expert.json",
+     "raw_sha256": "7b5458690cc7b4dab5963f239183292dc9513b4e45935b3ae53e1cc100f5a482"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 823
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 618,
+      "flick": 39,
+      "hold": 42,
+      "slide": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 241,
+   "bandId": 5,
+   "jacketImage": "241_kouga",
+   "bgmId": "bgm241"
+  },
+  "maa": {
+   "bestdori_song_id": 241,
+   "jacket": {
+    "path": "bestdori/241/jacket-cn-1.png",
+    "server": "cn",
+    "name": "241_kouga"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/241/jacket-cn-1.png",
+   "sha256": "625f2e81aad0b98f12c9bff7924be21c3906e1e172571372ae658c9394b20ec5",
+   "width": 320,
+   "height": 320,
+   "bytes": 29598
+  }
+ },
+ "extra": {
+  "lyricist": "瞬火",
+  "composer": "瞬火",
+  "arranger": "都丸椋太（Elements Garden）/川渕龍成",
+  "tag": "anime",
+  "published_at": 1580299200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "こうがにんぽうちょう",
+  "title_en": "KOUGA NINPOUCHOU",
+  "length_s": 107.256
+ }
+}

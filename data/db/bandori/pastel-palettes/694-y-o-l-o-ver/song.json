@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "694",
+ "title": "Y.O.L.O！！！！！(パスパレver.)",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "128-210",
+ "version": "",
+ "date_added": "2025-05-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 132
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 132
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 23,
+      "tap": 86
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 260
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 260
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 192,
+      "hold": 30,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 555
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/694/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/694/hard.json",
+     "raw_sha256": "d6926e129f3d552f7bed081270d23de3de7645402ad05c8ac9cc73aaff68460e"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 555
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 329,
+      "hold": 46,
+      "slide": 37,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 867
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/694/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/694/expert.json",
+     "raw_sha256": "533679af774615ebbb940cac777b95aaf82aa2d61f80fb517aeef50ce0230570"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 867
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 550,
+      "hold": 39,
+      "slide": 61,
+      "flick": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 694,
+   "bandId": 4,
+   "jacketImage": "694_yolo_pspl",
+   "bgmId": "bgm694"
+  },
+  "maa": {
+   "bestdori_song_id": 694,
+   "jacket": {
+    "path": "bestdori/694/jacket-cn-1.png",
+    "server": "cn",
+    "name": "694_yolo_pspl"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/694/jacket-cn-1.png",
+   "sha256": "562e6221b794a11c8016ebc988057b2ea6d75830597c6f5d6e51381c11cf2e69",
+   "width": 320,
+   "height": 320,
+   "bytes": 33582
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1746165600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "yolo",
+  "title_en": "Y.O.L.O！！！！！(Pasupare ver.)",
+  "length_s": 115.32
+ }
+}

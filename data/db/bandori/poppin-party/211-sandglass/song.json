@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "211",
+ "title": "切ないSandglass",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "183",
+ "version": "",
+ "date_added": "2019-08-18",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 120
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 120
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 74,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 216
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 216
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 138,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 359
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/211/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/211/hard.json",
+     "raw_sha256": "4aaa5a8648f5d5a83a6c8f97fe44332e025e44dd3c57eea12e8087e27ceddd89"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 359
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 214,
+      "hold": 51,
+      "flick": 13,
+      "slide": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 606
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/211/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/211/expert.json",
+     "raw_sha256": "dc87791f2b1c656fef65e4a9901d831d51d11a0724628c1b68493808538a38d8"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 606
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 405,
+      "flick": 27,
+      "hold": 49,
+      "slide": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 211,
+   "bandId": 1,
+   "jacketImage": "211_sandglass",
+   "bgmId": "bgm211"
+  },
+  "maa": {
+   "bestdori_song_id": 211,
+   "jacket": {
+    "path": "bestdori/211/jacket-cn-1.png",
+    "server": "cn",
+    "name": "211_sandglass"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/211/jacket-cn-1.png",
+   "sha256": "a2c3e3df4d4769b2a85187a60ad55718f0c7cefdf8b021aa31d437084bfc3e25",
+   "width": 320,
+   "height": 320,
+   "bytes": 24819
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1566129600000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "せつないsandglass",
+  "title_en": "Setsunai Sandglass",
+  "length_s": 110.88
+ }
+}

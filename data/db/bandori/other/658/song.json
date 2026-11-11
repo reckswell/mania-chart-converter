@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "658",
+ "title": "マルカリアンチェイン",
+ "artist": "夢ノ結唱 ROSE",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "夢ノ結唱 ROSE",
+ "bpm": "138",
+ "version": "",
+ "date_added": "2025-01-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 121
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 121
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 73,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 218
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 218
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 135,
+      "hold": 38,
+      "slide": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 486
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/658/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/658/hard.json",
+     "raw_sha256": "629b7227cc2eaf77e8353c205549bfe489ef1b8c34049124ce134c99284ad5cd"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 486
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 229,
+      "hold": 49,
+      "slide": 48,
+      "flick": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 740
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/658/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/658/expert.json",
+     "raw_sha256": "f6028d3639a9aee54b6e1230633c56baafa9a2d1673bd1791d4e439c970d7d19"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 740
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 362,
+      "slide": 109,
+      "flick": 32,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 658,
+   "bandId": 84,
+   "jacketImage": "658_markarian",
+   "bgmId": "bgm658"
+  },
+  "maa": {
+   "bestdori_song_id": 658,
+   "jacket": {
+    "path": "bestdori/658/jacket-cn-1.png",
+    "server": "cn",
+    "name": "658_markarian"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/658/jacket-cn-1.png",
+   "sha256": "ddfcdab04559cce3819d393b0f23cca26f1d5ba31f9a64a56bf0a31eceae2497",
+   "width": 320,
+   "height": 320,
+   "bytes": 27485
+  }
+ },
+ "extra": {
+  "lyricist": "THE SPELLBOUND",
+  "composer": "THE SPELLBOUND",
+  "arranger": "THE SPELLBOUND",
+  "tag": "normal",
+  "published_at": 1735797600000,
+  "closed_at": 4123105200000,
+  "music_data_type": "normal",
+  "ruby": "マルカリアンチェイン",
+  "title_en": "Markarian's Chain",
+  "length_s": 152.232
+ }
+}

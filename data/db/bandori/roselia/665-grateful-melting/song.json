@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "665",
+ "title": "Grateful Melting",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "120",
+ "version": "",
+ "date_added": "2025-02-08",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 90
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 90
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 42,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 159
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 159
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 37,
+      "tap": 81,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 397
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/665/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/665/hard.json",
+     "raw_sha256": "ae61129f1c30fbaa7d2dbf038822b5b774c54b99723bb1f893070fd55a778682"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 397
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 34,
+      "tap": 205,
+      "slide": 36,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 633
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/665/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/665/expert.json",
+     "raw_sha256": "984b922a61d8c78fa0acbb643d86ff3f842f4efec1e6a26a80cf746d23fbb187"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 633
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 44,
+      "tap": 380,
+      "flick": 31,
+      "slide": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 665,
+   "bandId": 5,
+   "jacketImage": "665_grateful_melting",
+   "bgmId": "bgm665"
+  },
+  "maa": {
+   "bestdori_song_id": 665,
+   "jacket": {
+    "path": "bestdori/665/jacket-cn-1.png",
+    "server": "cn",
+    "name": "665_grateful_melting"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/665/jacket-cn-1.png",
+   "sha256": "1a85eb40417d37a7dcabf50a255f3cb8c31e067ec4ca0253ce5b41c8c9810e18",
+   "width": 320,
+   "height": 320,
+   "bytes": 22056
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1739016000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "gratefulmelting",
+  "length_s": 106.056
+ }
+}

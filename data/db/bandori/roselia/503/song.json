@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "503",
+ "title": "酔いどれ知らず",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "115",
+ "version": "",
+ "date_added": "2023-05-14",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 159
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 159
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 121,
+      "hold": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 293
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 293
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 189,
+      "hold": 44,
+      "slide": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 537
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/503/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/503/hard.json",
+     "raw_sha256": "9f32e8ad506d2ffd0985ab1994fda1733eff516509cabd5667df6bcbe499d60b"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 537
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 319,
+      "hold": 70,
+      "slide": 22,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 706
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/503/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/503/expert.json",
+     "raw_sha256": "35f85b331d4afcfcfbe6f6b8ef5439a206e8460e31507922c824665ba314d87b"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 706
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 475,
+      "flick": 36,
+      "hold": 27,
+      "slide": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 503,
+   "bandId": 5,
+   "jacketImage": "503_yoidore",
+   "bgmId": "bgm503"
+  },
+  "maa": {
+   "bestdori_song_id": 503,
+   "jacket": {
+    "path": "bestdori/503/jacket-cn-1.png",
+    "server": "cn",
+    "name": "503_yoidore"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/503/jacket-cn-1.png",
+   "sha256": "69efa7d6d26a71a7759d355fbf48fb9c4ebb921dc7a4f6b8a9faf54f0db92ff7",
+   "width": 320,
+   "height": 320,
+   "bytes": 28902
+  }
+ },
+ "extra": {
+  "lyricist": "Kanaria",
+  "composer": "Kanaria",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1684044000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "よいどれしらず",
+  "title_en": "Yoidore Shirazu",
+  "length_s": 104.4
+ }
+}

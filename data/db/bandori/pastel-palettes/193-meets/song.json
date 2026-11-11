@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "193",
+ "title": "ワクワクmeetsトリップ",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "137",
+ "version": "",
+ "date_added": "2019-04-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 135
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 135
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 87,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 217
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 217
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 137,
+      "hold": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 411
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/193/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/193/hard.json",
+     "raw_sha256": "ba9b8a779d250a896c156157788dead585f3cd8332e01642ace5a7a1fec04763"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 411
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 207,
+      "slide": 34,
+      "hold": 39,
+      "flick": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 634
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/193/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/193/expert.json",
+     "raw_sha256": "0e9ed25f8feb8778d94e5b4228e1d6898be4442cfeba6b8b7ff2b94392a5d95a"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 634
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 376,
+      "slide": 51,
+      "hold": 35,
+      "flick": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 193,
+   "bandId": 4,
+   "jacketImage": "193_wakuwaku_meets_1",
+   "bgmId": "bgm193"
+  },
+  "maa": {
+   "bestdori_song_id": 193,
+   "jacket": {
+    "path": "bestdori/193/jacket-cn-2.png",
+    "server": "cn",
+    "name": "193_wakuwaku_meets_1"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/193/jacket-cn-2.png",
+   "sha256": "b5e62e8b9fac53f465d26a8db7c27c4abace9ede3f180b63b19d54cfcca8d563",
+   "width": 320,
+   "height": 320,
+   "bytes": 43777
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "菊田大介（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1556604000000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "わくわくmeetsとりっぷ",
+  "title_en": "Pep Meets Step",
+  "length_s": 104.304
+ }
+}

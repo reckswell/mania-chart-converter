@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "133",
+ "title": "キミの記憶",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "97-114",
+ "version": "",
+ "date_added": "2018-07-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 104
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 104
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 72,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 180
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 180
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 136,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 447
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/133/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/133/hard.json",
+     "raw_sha256": "5d86da7f0e877fccd77132f9048ebaaf55e29c622ab43c3d39deed62f606cc39"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 447
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 325,
+      "hold": 30,
+      "slide": 14,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 651
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/133/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/133/expert.json",
+     "raw_sha256": "32e2604a48ed979d8feed8452711ae30ec071e492757fcf8009c886cf8bfdb3c"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 651
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 502,
+      "hold": 40,
+      "slide": 13,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 133,
+   "bandId": 5,
+   "jacketImage": "133_kimino_kioku",
+   "bgmId": "bgm133"
+  },
+  "maa": {
+   "bestdori_song_id": 133,
+   "jacket": {
+    "path": "bestdori/133/jacket-cn-1.png",
+    "server": "cn",
+    "name": "133_kimino_kioku"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/133/jacket-cn-1.png",
+   "sha256": "853232765700ca5c10fc4d294c4d7bb83147106c8c788a23fefc880495233525",
+   "width": 320,
+   "height": 320,
+   "bytes": 14504
+  }
+ },
+ "extra": {
+  "lyricist": "小森成雄",
+  "composer": "目黒将司",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1532066400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "きみのきおく",
+  "title_en": "Kimi no kioku",
+  "length_s": 130.296
+ }
+}

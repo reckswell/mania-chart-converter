@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "134",
+ "title": "Reach Out To The Truth",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2018-07-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 177
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 177
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 27,
+      "tap": 123
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 288
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 288
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 226,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 521
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/134/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/134/hard.json",
+     "raw_sha256": "e9ebca7826be262f98dede0b1d4acb8c16d0577ea593eed540c800d82099b582"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 521
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 376,
+      "hold": 44,
+      "flick": 9,
+      "slide": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 723
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/134/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/134/expert.json",
+     "raw_sha256": "9a3c5762933fa5415aff0440096b7d53e844c148742b3c06c5c86024b4f6add4"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 723
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 508,
+      "hold": 51,
+      "flick": 35,
+      "slide": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 134,
+   "bandId": 2,
+   "jacketImage": "134_reach_out",
+   "bgmId": "bgm134"
+  },
+  "maa": {
+   "bestdori_song_id": 134,
+   "jacket": {
+    "path": "bestdori/134/jacket-cn-1.png",
+    "server": "cn",
+    "name": "134_reach_out"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/134/jacket-cn-1.png",
+   "sha256": "7f4117643c6513ee2fe600aaa74a1f4ffe430c2551f727d39efd83befdbbfc0d",
+   "width": 320,
+   "height": 320,
+   "bytes": 41132
+  }
+ },
+ "extra": {
+  "lyricist": "田中怜子、小林鉄兵、Lotus Juice",
+  "composer": "目黒将司",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1532066400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "reachouttothetruth",
+  "length_s": 116.52
+ }
+}

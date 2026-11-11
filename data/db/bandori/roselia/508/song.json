@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "508",
+ "title": "ファイトソング",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "126",
+ "version": "",
+ "date_added": "2023-06-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 103
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 103
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 73,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 166
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 166
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 126,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 533
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/508/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/508/hard.json",
+     "raw_sha256": "3cf929ce43aaecb58069bc100899c8ec3a230723e6f97000fdf0d5dccf212642"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 533
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 269,
+      "slide": 76,
+      "hold": 14,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 751
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/508/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/508/expert.json",
+     "raw_sha256": "acee267c1b836f875a39a7552f15b434b1d7282d25643086d225a5d7f3e89932"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 751
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 413,
+      "slide": 82,
+      "hold": 10,
+      "flick": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 508,
+   "bandId": 5,
+   "jacketImage": "508_fight_song",
+   "bgmId": "bgm508"
+  },
+  "maa": {
+   "bestdori_song_id": 508,
+   "jacket": {
+    "path": "bestdori/508/jacket-cn-1.png",
+    "server": "cn",
+    "name": "508_fight_song"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/508/jacket-cn-1.png",
+   "sha256": "6ecb37bab0769a775919e6f5bee6f5f731e10f36d387be8d8a1e715bf3fa9f38",
+   "width": 320,
+   "height": 320,
+   "bytes": 22760
+  }
+ },
+ "extra": {
+  "lyricist": "Eve",
+  "composer": "Eve",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1688104800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ふぁいとそんぐ",
+  "title_en": "Fight Song",
+  "length_s": 101.016
+ }
+}

@@ -1,0 +1,173 @@
+{
+ "game": "bandori",
+ "song_id": "670",
+ "title": "Imprisoned XII",
+ "artist": "Ave Mujica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Ave Mujica",
+ "bpm": "158",
+ "version": "",
+ "date_added": "2025-03-07",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 72
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 72
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 60,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 133
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 133
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 89,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 280
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/670/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/670/hard.json",
+     "raw_sha256": "85f0a8a0457cd6ed26063b203dcb0f8a1efc48a69ca1ba2ad3712df195fdeac5"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 280
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 220,
+      "hold": 27,
+      "slide": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 367
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/670/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/670/expert.json",
+     "raw_sha256": "84b925193813a89ec650fff99f06e9d644cab7f8f83aa6eab9b3ef1b19c10919"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 367
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 220,
+      "hold": 17,
+      "slide": 37,
+      "flick": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 670,
+   "bandId": 46,
+   "jacketImage": "670_imprisoned",
+   "bgmId": "bgm670"
+  },
+  "maa": {
+   "bestdori_song_id": 670,
+   "jacket": {
+    "path": "bestdori/670/jacket-cn-1.png",
+    "server": "cn",
+    "name": "670_imprisoned"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/670/jacket-cn-1.png",
+   "sha256": "52587bea1a9a28e889a1e1b175cd404eb9eb49577f3b6f807146245733744d00",
+   "width": 320,
+   "height": 320,
+   "bytes": 19918
+  }
+ },
+ "extra": {
+  "lyricist": "Diggy-MO’",
+  "composer": "松坂康司(SUPA LOVE)、Diggy-MO’",
+  "arranger": "松坂康司(SUPA LOVE)",
+  "tag": "normal",
+  "published_at": 1741273200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "imprisonedxii",
+  "length_s": 95.784
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "381",
+ "title": "イントロダクション",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "165",
+ "version": "",
+ "date_added": "2021-11-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 131
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 131
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 115,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 262
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 262
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 226,
+      "hold": 15,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 549
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/381/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/381/hard.json",
+     "raw_sha256": "781280e86e6065fe45ab58cb9e5c5b74059c0fe7a404ec5223b8ca20b890f403"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 549
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 438,
+      "flick": 22,
+      "hold": 22,
+      "slide": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 850
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/381/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/381/expert.json",
+     "raw_sha256": "df2568ee832fc647352da5917bf8fde2c423a38487d948fe3f621461a9a98750"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 850
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 668,
+      "flick": 32,
+      "hold": 33,
+      "slide": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 381,
+   "bandId": 1,
+   "jacketImage": "381_Introduction",
+   "bgmId": "bgm381"
+  },
+  "maa": {
+   "bestdori_song_id": 381,
+   "jacket": {
+    "path": "bestdori/381/jacket-cn-1.png",
+    "server": "cn",
+    "name": "381_Introduction"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/381/jacket-cn-1.png",
+   "sha256": "2d88fc7bbd3e75a55b0d6ae6edf173048e81a10c5b9592ce445792a0e85a1170",
+   "width": 320,
+   "height": 320,
+   "bytes": 33826
+  }
+ },
+ "extra": {
+  "lyricist": "Ayase",
+  "composer": "Ayase",
+  "arranger": "Ayase/藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1638252000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "いんとろだくしょん",
+  "title_en": "Introduction",
+  "length_s": 130.968
+ }
+}

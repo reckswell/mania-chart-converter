@@ -1,0 +1,209 @@
+{
+ "game": "bandori",
+ "song_id": "44",
+ "title": "そばかす",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2017-04-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 67
+   },
+   "source": {
+    "notesQuantity": 64,
+    "bestdori": {
+     "level": 6,
+     "notes": 67
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 67
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 64 differs from combo 67 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 125
+   },
+   "source": {
+    "notesQuantity": 141,
+    "bestdori": {
+     "level": 12,
+     "notes": 125
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 123,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 141 differs from combo 125 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 284
+   },
+   "source": {
+    "notesQuantity": 261,
+    "maa": {
+     "path": "bestdori/44/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/44/hard.json",
+     "raw_sha256": "9f3eb1556611bf4a94e543426593cddc7f28395bacc6468e1e5ebb2f1dadc152"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 284
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 254,
+      "hold": 11,
+      "flick": 4,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 261 differs from combo 284 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 456
+   },
+   "source": {
+    "notesQuantity": 397,
+    "maa": {
+     "path": "bestdori/44/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/44/expert.json",
+     "raw_sha256": "f854173d9e0e906aafa8936d1db2e8b6c6bf6bbdffdff6886f913158789f4844"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 456
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 251,
+      "hold": 58,
+      "flick": 9,
+      "slide": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 397 differs from combo 456 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 723
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1538136000000,
+    "maa": {
+     "path": "bestdori/44/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/44/special.json",
+     "raw_sha256": "acc1232488e676b89262c27866eb4b61432363fbc6f30157a5c23458e61278c8"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 723
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 92,
+      "hold": 105,
+      "tap": 191,
+      "flick": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 44,
+   "bandId": 4,
+   "jacketImage": "sobakasu",
+   "bgmId": "bgm044"
+  },
+  "maa": {
+   "bestdori_song_id": 44,
+   "jacket": {
+    "path": "bestdori/44/jacket-cn-1.png",
+    "server": "cn",
+    "name": "sobakasu"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/44/jacket-cn-1.png",
+   "sha256": "6962fbfa18de4f891679b09234140f9ed44a31c90978142a833aad0dde275f73",
+   "width": 320,
+   "height": 320,
+   "bytes": 26228
+  }
+ },
+ "extra": {
+  "lyricist": "YUKI",
+  "composer": "恩田快人",
+  "arranger": "都丸椋太（Elements Garden）／宮崎京一",
+  "tag": "anime",
+  "published_at": 1491804000000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "そばかす",
+  "title_en": "Sobakasu",
+  "length_s": 106.092
+ }
+}

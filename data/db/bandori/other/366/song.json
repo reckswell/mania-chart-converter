@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "366",
+ "title": "ナカナ イナ カナイ",
+ "artist": "花園たえ×レイヤ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "花園たえ×レイヤ",
+ "bpm": "97",
+ "version": "",
+ "date_added": "2021-10-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 80
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 80
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 34,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 158
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 158
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 60,
+      "hold": 47,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 259
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/366/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/366/hard.json",
+     "raw_sha256": "1a8e3640ae8d63e04896a21c7bccaa05a5687ed79697d335dfa12c0e6a3397f7"
+    },
+    "bestdori": {
+     "level": 18,
+     "notes": 259
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 86,
+      "hold": 38,
+      "slide": 30,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 404
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/366/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/366/expert.json",
+     "raw_sha256": "17b2f32996ff5eb7bbe76929f3a5589afbdf3437f4a94465c60023c9d8eedf38"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 404
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 168,
+      "slide": 54,
+      "hold": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 366,
+   "bandId": 33,
+   "jacketImage": "366_nakanai",
+   "bgmId": "bgm366"
+  },
+  "maa": {
+   "bestdori_song_id": 366,
+   "jacket": {
+    "path": "bestdori/366/jacket-cn-1.png",
+    "server": "cn",
+    "name": "366_nakanai"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/366/jacket-cn-1.png",
+   "sha256": "97c37da9101c02ebdf64b883df1427a5d4b2d4572b67c12a437c2f02dc953abc",
+   "width": 320,
+   "height": 320,
+   "bytes": 15727
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1635508800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "なかないなかない",
+  "title_en": "Nakana iNa kanai",
+  "length_s": 101.496
+ }
+}

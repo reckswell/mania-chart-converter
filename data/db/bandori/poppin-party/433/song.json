@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "433",
+ "title": "大好き！",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "165",
+ "version": "",
+ "date_added": "2022-07-11",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 186
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 186
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 124,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 278
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 278
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 186,
+      "hold": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 414
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/433/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/433/hard.json",
+     "raw_sha256": "1003a325ecbacc3e62eca50f775b1f94d94588a3025eef2629b72235d79243a2"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 414
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 245,
+      "hold": 40,
+      "flick": 11,
+      "slide": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 606
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/433/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/433/expert.json",
+     "raw_sha256": "cf1bf8581b4f31423ab2384bc3c38f298468090268a8860aa5e4574e2e2ee7b9"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 606
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 29,
+      "tap": 431,
+      "hold": 40,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 433,
+   "bandId": 1,
+   "jacketImage": "433_daisuki",
+   "bgmId": "bgm433"
+  },
+  "maa": {
+   "bestdori_song_id": 433,
+   "jacket": {
+    "path": "bestdori/433/jacket-cn-1.png",
+    "server": "cn",
+    "name": "433_daisuki"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/433/jacket-cn-1.png",
+   "sha256": "5baf8f16ea2fd7559e44468c978f0d07570e603c60ad9d85c988267795f9b9f6",
+   "width": 320,
+   "height": 320,
+   "bytes": 17701
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1657519200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "だいすき",
+  "title_en": "Daisuki!",
+  "length_s": 109.152
+ }
+}

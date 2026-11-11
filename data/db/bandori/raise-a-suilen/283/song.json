@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "283",
+ "title": "劣等上等",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "160",
+ "version": "",
+ "date_added": "2020-07-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 254
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 254
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 166,
+      "hold": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 366
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 366
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 240,
+      "hold": 63
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 579
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/283/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/283/hard.json",
+     "raw_sha256": "068f71dd9c2b4cd89fcf9517d972329bf74ce38ecc433042a54ee23c1ef5ad88"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 579
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 403,
+      "hold": 49,
+      "slide": 20,
+      "flick": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1129
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/283/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/283/expert.json",
+     "raw_sha256": "4e3c69ba1e19ddfa63a92dcfd6519136048109fd285e40d1fc441519febbdc98"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 1129
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 615,
+      "hold": 106,
+      "slide": 84,
+      "flick": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 283,
+   "bandId": 18,
+   "jacketImage": "283_rettou",
+   "bgmId": "bgm283"
+  },
+  "maa": {
+   "bestdori_song_id": 283,
+   "jacket": {
+    "path": "bestdori/283/jacket-cn-1.png",
+    "server": "cn",
+    "name": "283_rettou"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/283/jacket-cn-1.png",
+   "sha256": "74728386852ee97d6f51be7d4d77c9452c9ceff03955e379fdbb297aab3147bc",
+   "width": 320,
+   "height": 320,
+   "bytes": 36631
+  }
+ },
+ "extra": {
+  "lyricist": "Reol",
+  "composer": "Giga",
+  "arranger": "菊田大介（Elements Garden）/川渕龍成",
+  "tag": "anime",
+  "published_at": 1596088800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "れっとうじょうとう",
+  "title_en": "BRING IT ON",
+  "length_s": 138.816
+ }
+}

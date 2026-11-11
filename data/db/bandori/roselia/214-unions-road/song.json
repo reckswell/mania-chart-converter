@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "214",
+ "title": "“UNIONS” Road",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "135",
+ "version": "",
+ "date_added": "2019-08-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 178
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 178
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 92,
+      "hold": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 259
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 259
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 61,
+      "tap": 137
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 391
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/214/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/214/hard.json",
+     "raw_sha256": "443c895ac28ffdad1bfecd3e8e24aa87da9912e72a33c9aed356a04086232228"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 391
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 61,
+      "tap": 225,
+      "slide": 13,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 692
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/214/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/214/expert.json",
+     "raw_sha256": "89ee454f1df55023e82589b0657d0c89525ee7f1fa73a364697a4dd4492317e5"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 692
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 443,
+      "hold": 76,
+      "slide": 24,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 214,
+   "bandId": 5,
+   "jacketImage": "214_unionsroad",
+   "bgmId": "bgm214"
+  },
+  "maa": {
+   "bestdori_song_id": 214,
+   "jacket": {
+    "path": "bestdori/214/jacket-cn-1.png",
+    "server": "cn",
+    "name": "214_unionsroad"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/214/jacket-cn-1.png",
+   "sha256": "91980cad16545254c06609f94ced3dc63cb8cc9e5467a03652239b937dd93ded",
+   "width": 320,
+   "height": 320,
+   "bytes": 43684
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1567231200000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "unionsroad",
+  "length_s": 105.84
+ }
+}

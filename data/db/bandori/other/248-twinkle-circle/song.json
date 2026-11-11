@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "248",
+ "title": "TWiNKLE CiRCLE",
+ "artist": "GBP!スペシャルバンド",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "GBP!スペシャルバンド",
+ "bpm": "192",
+ "version": "",
+ "date_added": "2020-02-22",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 174
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 174
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 130,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 358
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 358
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 86,
+      "tap": 186
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 520
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/248/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/248/hard.json",
+     "raw_sha256": "339cc9e2a0b602c76f9092352e0e0bf315e994683f34cbb167dd860a97c5ea53"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 520
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 99,
+      "tap": 288,
+      "flick": 7,
+      "slide": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 738
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/248/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/248/expert.json",
+     "raw_sha256": "6256abfc766e2f798bd699bf0250dbda38791d8338cdaeba322802ff6de3b487"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 738
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 404,
+      "hold": 85,
+      "flick": 20,
+      "slide": 52
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 248,
+   "bandId": 14,
+   "jacketImage": "248_twinkle",
+   "bgmId": "bgm248"
+  },
+  "maa": {
+   "bestdori_song_id": 248,
+   "jacket": {
+    "path": "bestdori/248/jacket-cn-1.png",
+    "server": "cn",
+    "name": "248_twinkle"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/248/jacket-cn-1.png",
+   "sha256": "2f74f05ef55583156c892d4d56aa1ccfece5c2c90aa11f60964c06765d0f1db8",
+   "width": 320,
+   "height": 320,
+   "bytes": 19745
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "菊田大介（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1582351200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "twinklecircle",
+  "length_s": 110.064
+ }
+}

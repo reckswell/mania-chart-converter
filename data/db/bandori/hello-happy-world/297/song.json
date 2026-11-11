@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "297",
+ "title": "おジャ魔女カーニバル!!",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "148",
+ "version": "",
+ "date_added": "2020-10-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 143
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 143
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 19,
+      "tap": 105
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 221
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 221
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 32,
+      "tap": 157
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 356
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/297/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/297/hard.json",
+     "raw_sha256": "49df31a714f4620eef32337d816ded6c78b778b1e2b7fc9cd1040c5e7b6032d0"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 356
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 261,
+      "hold": 16,
+      "slide": 18,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 555
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/297/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/297/expert.json",
+     "raw_sha256": "d4fb7c22e03469c5fa28e9f33d1ee630a135dcf67bb1a9c3e9ff40b2cbfedaa0"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 555
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 38,
+      "tap": 303,
+      "hold": 47,
+      "flick": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 297,
+   "bandId": 3,
+   "jacketImage": "297_ojamajo_carnival",
+   "bgmId": "bgm297"
+  },
+  "maa": {
+   "bestdori_song_id": 297,
+   "jacket": {
+    "path": "bestdori/297/jacket-cn-1.png",
+    "server": "cn",
+    "name": "297_ojamajo_carnival"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/297/jacket-cn-1.png",
+   "sha256": "bb6f9a1ba8c6928be08d2eaa0015aaaf8bab767e4c06fb8b3e4382edc219c735",
+   "width": 320,
+   "height": 320,
+   "bytes": 46387
+  }
+ },
+ "extra": {
+  "lyricist": "大森祥子",
+  "composer": "池毅",
+  "arranger": "近藤世真（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1604124000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "おじゃまじょかーにばる",
+  "title_en": "Ojamajo Carnival!!",
+  "length_s": 93.312
+ }
+}

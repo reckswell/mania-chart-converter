@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "534",
+ "title": "エゴロック",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "225",
+ "version": "",
+ "date_added": "2023-09-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 136
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 136
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 72,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 245
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 245
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 157,
+      "hold": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 532
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/534/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/534/hard.json",
+     "raw_sha256": "70a2d8fe51c86cafb5fed0b36bbf96ce246eb59f4512d0ca3ff31cd3d4163983"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 532
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 299,
+      "hold": 55,
+      "slide": 33,
+      "flick": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 810
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/534/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/534/expert.json",
+     "raw_sha256": "9c554be56af848e5db179d14216d3f677fea06bf4d6e7a068d6aed7b0860db69"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 810
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 503,
+      "hold": 58,
+      "slide": 54,
+      "flick": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 534,
+   "bandId": 3,
+   "jacketImage": "534_ego_rock",
+   "bgmId": "bgm534"
+  },
+  "maa": {
+   "bestdori_song_id": 534,
+   "jacket": {
+    "path": "bestdori/534/jacket-cn-1.png",
+    "server": "cn",
+    "name": "534_ego_rock"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/534/jacket-cn-1.png",
+   "sha256": "4b2df733e69ebe9292cf9536a807d9a5cac3028d351e1dab9ea846aca28a8b27",
+   "width": 320,
+   "height": 320,
+   "bytes": 26280
+  }
+ },
+ "extra": {
+  "lyricist": "すりぃ",
+  "composer": "すりぃ",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1694325600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "えごろっく",
+  "title_en": "Ego Rock",
+  "length_s": 105.12
+ }
+}

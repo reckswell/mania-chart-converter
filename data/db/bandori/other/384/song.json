@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "384",
+ "title": "ヒトリゴト",
+ "artist": "Pastel＊Palettes×ClariS",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes×ClariS",
+ "bpm": "165",
+ "version": "",
+ "date_added": "2021-12-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 120
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 120
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 90,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 256
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 256
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 174,
+      "hold": 37,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 533
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/384/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/384/hard.json",
+     "raw_sha256": "b79c2b7c0c6a9561e63a4d34bd4cb1dc90dd85ce153a2bde71a514e162ab7d6e"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 533
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 336,
+      "hold": 67,
+      "flick": 11,
+      "slide": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 837
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/384/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/384/expert.json",
+     "raw_sha256": "56cf0a637ecb844ac8756b413b8685c9a451abf0e5dce7bcde9c315b69819fda"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 837
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 525,
+      "hold": 52,
+      "slide": 85,
+      "flick": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 384,
+   "bandId": 42,
+   "jacketImage": "384_hitorigoto",
+   "bgmId": "bgm384"
+  },
+  "maa": {
+   "bestdori_song_id": 384,
+   "jacket": {
+    "path": "bestdori/384/jacket-cn-1.png",
+    "server": "cn",
+    "name": "384_hitorigoto"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/384/jacket-cn-1.png",
+   "sha256": "353f2c5372c2e57486fd9f91cdd01d5320d73cdf51100552de9e2aab8e3b36da",
+   "width": 320,
+   "height": 320,
+   "bytes": 26121
+  }
+ },
+ "extra": {
+  "lyricist": "ケリー",
+  "composer": "野村陽一郎",
+  "arranger": "近藤世真（Elements Garden）",
+  "tag": "tie_up",
+  "published_at": 1640930400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ひとりごと",
+  "title_en": "Hitorigoto",
+  "length_s": 128.784
+ }
+}

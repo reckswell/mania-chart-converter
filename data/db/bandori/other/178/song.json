@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "178",
+ "title": "革命デュアリズム",
+ "artist": "Roselia×蘭",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia×蘭",
+ "bpm": "205",
+ "version": "",
+ "date_added": "2019-03-16",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 190
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 190
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 98,
+      "hold": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 272
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 272
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 55,
+      "tap": 162
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 497
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/178/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/178/hard.json",
+     "raw_sha256": "04c6b6205e8f5d3de5b3711a7be3ff8fffbed8896b483703ecae9abf96b6e58e"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 497
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 10,
+      "tap": 288,
+      "hold": 76,
+      "flick": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 681
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/178/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/178/expert.json",
+     "raw_sha256": "2636ab60169ac85d4fa8bad1a54138af30fcac1ee7be047b453e232e7f7fdf3c"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 681
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 20,
+      "tap": 401,
+      "hold": 86,
+      "flick": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 178,
+   "bandId": 19,
+   "jacketImage": "178_kakumeidualism",
+   "bgmId": "bgm178"
+  },
+  "maa": {
+   "bestdori_song_id": 178,
+   "jacket": {
+    "path": "bestdori/178/jacket-cn-1.png",
+    "server": "cn",
+    "name": "178_kakumeidualism"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/178/jacket-cn-1.png",
+   "sha256": "5c47c852ae5700ce3ec0682e9f1a0baaeaf8745e6cb7316f1853ce8a2c586f96",
+   "width": 320,
+   "height": 320,
+   "bytes": 28437
+  }
+ },
+ "extra": {
+  "lyricist": "Hibiki",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1552716000000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "かくめいでゅありずむ",
+  "title_en": "Kakumei Dualism",
+  "length_s": 103.08
+ }
+}

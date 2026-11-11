@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "655",
+ "title": "シカ色デイズ",
+ "artist": "ハロー、ハッピーワールド！×ましろ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！×ましろ",
+ "bpm": "183",
+ "version": "",
+ "date_added": "2024-12-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 106
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 106
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 56,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 171
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 171
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 123,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 486
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/655/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/655/hard.json",
+     "raw_sha256": "0f7a54b19317f0f5798584dd6d818f4a499502d1e783c94d84391677ee25573c"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 486
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 301,
+      "flick": 14,
+      "hold": 40,
+      "slide": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 651
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/655/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/655/expert.json",
+     "raw_sha256": "3afe64c14e45adf1ae05625d630cf74606daf63bb5dc5684bc1321700b84e920"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 651
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 356,
+      "slide": 51,
+      "flick": 13,
+      "hold": 58
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 655,
+   "bandId": 82,
+   "jacketImage": "655_shika_iro",
+   "bgmId": "bgm655"
+  },
+  "maa": {
+   "bestdori_song_id": 655,
+   "jacket": {
+    "path": "bestdori/655/jacket-cn-1.png",
+    "server": "cn",
+    "name": "655_shika_iro"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/655/jacket-cn-1.png",
+   "sha256": "0a75dbbfec9c799bf284cfebc3f2c7f61d754e3d90f9eb45b5c7c7a2bec43960",
+   "width": 320,
+   "height": 320,
+   "bytes": 33542
+  }
+ },
+ "extra": {
+  "lyricist": "やぎぬまかな",
+  "composer": "和賀裕希",
+  "arranger": "堀川大翼（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1735624800000,
+  "closed_at": 4122846000000,
+  "music_data_type": "normal",
+  "ruby": "しかいろでいず",
+  "title_en": "Shikairo Days",
+  "length_s": 97.104
+ }
+}

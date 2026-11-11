@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "522",
+ "title": "詩超絆",
+ "artist": "MyGO!!!!!",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "MyGO!!!!!",
+ "bpm": "110-190",
+ "version": "",
+ "date_added": "2023-08-17",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 138
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 138
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 80,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 283
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 283
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 195,
+      "hold": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 507
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/522/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/522/hard.json",
+     "raw_sha256": "e15a5ecf82a121e07d2939fd118f77eb7bd0041a49766d78f68b531d06677c28"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 507
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 287,
+      "hold": 56,
+      "slide": 42,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 829
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/522/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/522/expert.json",
+     "raw_sha256": "f9b49a1994585da63e5fa0764c2f1629e91c323de148950b6247b004aa27aa94"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 829
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 452,
+      "slide": 73,
+      "flick": 40,
+      "hold": 68
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1027
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1775023200000,
+    "maa": {
+     "path": "bestdori/522/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/522/special.json",
+     "raw_sha256": "9f054716a7da9d67890787f577fbdbb05a46e94bd64f93588866a760e074798d"
+    },
+    "bestdori": {
+     "notes": 1027
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 674,
+      "slide": 58,
+      "hold": 51,
+      "flick": 88
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 522,
+   "bandId": 45,
+   "jacketImage": "522_utakotoba",
+   "bgmId": "bgm522"
+  },
+  "maa": {
+   "bestdori_song_id": 522,
+   "jacket": {
+    "path": "bestdori/522/jacket-cn-1.png",
+    "server": "cn",
+    "name": "522_utakotoba"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/522/jacket-cn-1.png",
+   "sha256": "58e14c560245f7c6c487004d567410de5c28ed15e334d4c6df989df3e12973d2",
+   "width": 320,
+   "height": 320,
+   "bytes": 35858
+  }
+ },
+ "extra": {
+  "lyricist": "藤原優樹(SUPA LOVE)",
+  "composer": "横地健太(SUPA LOVE)",
+  "arranger": "横地健太(SUPA LOVE)",
+  "tag": "normal",
+  "published_at": 1692282600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "うたことば",
+  "title_en": "Utakotoba",
+  "length_s": 125.232
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "535",
+ "title": "D-tecnoLife",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "168",
+ "version": "",
+ "date_added": "2023-09-11",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 97
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 97
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 65,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 225
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 225
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 177,
+      "hold": 18,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 458
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/535/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/535/hard.json",
+     "raw_sha256": "e01783140093cb05d788c5a2dd37d5a4b6b56786853e43dfd8e5e706621fa8d9"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 458
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 306,
+      "hold": 52,
+      "slide": 18,
+      "flick": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 706
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/535/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/535/expert.json",
+     "raw_sha256": "8fe030dfd3b6d0cca2f5f79e08c38c0d0fee249db770c8ad28bee2dccdaa9df9"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 706
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 493,
+      "hold": 33,
+      "flick": 12,
+      "slide": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 535,
+   "bandId": 18,
+   "jacketImage": "535_d_tecnolife",
+   "bgmId": "bgm535"
+  },
+  "maa": {
+   "bestdori_song_id": 535,
+   "jacket": {
+    "path": "bestdori/535/jacket-cn-1.png",
+    "server": "cn",
+    "name": "535_d_tecnolife"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/535/jacket-cn-1.png",
+   "sha256": "ee94accce6584b759aa18bd6f6023ab16c62a176a386fb1cd3e56651c3f62b7d",
+   "width": 320,
+   "height": 320,
+   "bytes": 34818
+  }
+ },
+ "extra": {
+  "lyricist": "TAKUYA∞",
+  "composer": "TAKUYA∞",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1694412000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "dtecnolife",
+  "length_s": 107.928
+ }
+}

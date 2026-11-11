@@ -1,0 +1,179 @@
+{
+ "game": "bandori",
+ "song_id": "782",
+ "title": "Game Changer",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "198",
+ "version": "",
+ "date_added": "2026-03-22",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 830
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/782/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/782/hard.json",
+     "raw_sha256": "03779479991ab49e031205fcc9e35e1cb439f0728b94e66e8eeb0db45e5776e8"
+    },
+    "bestdori": {
+     "notes": 830
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 532,
+      "hold": 48,
+      "slide": 56,
+      "flick": 62
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1250
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/782/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/782/expert.json",
+     "raw_sha256": "1c110965eac7ddac85b7bc3f2480708781b3d8bbe39f0b6f67d4ad5c3703eaea"
+    },
+    "bestdori": {
+     "notes": 1250
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 841,
+      "flick": 120,
+      "slide": 69,
+      "hold": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1400
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/782/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/782/special.json",
+     "raw_sha256": "7e30d6820f80df54b190ec78d7ef18de21ab87055c989a6cd9f6beafeb30ecdc"
+    },
+    "bestdori": {
+     "notes": 1400
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 866,
+      "hold": 46,
+      "flick": 238,
+      "slide": 76
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 782,
+   "bandId": 1,
+   "jacketImage": "782_game_changer",
+   "bgmId": "bgm782"
+  },
+  "maa": {
+   "bestdori_song_id": 782,
+   "jacket": {
+    "path": "bestdori/782/jacket-jp-1.png",
+    "server": "jp",
+    "name": "782_game_changer"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/782/jacket-jp-1.png",
+   "sha256": "048d0b7b20c00644951de542cf7b00a6277d3c8848f1053b938b51d7f5d2e4d9",
+   "width": 320,
+   "height": 320,
+   "bytes": 38604
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1774177200000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "gamechanger"
+ }
+}

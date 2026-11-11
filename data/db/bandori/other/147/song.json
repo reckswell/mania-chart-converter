@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "147",
+ "title": "ひとりじゃないんだから",
+ "artist": "彩×モカ×リサ×花音×つぐみ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "彩×モカ×リサ×花音×つぐみ",
+ "bpm": "220",
+ "version": "",
+ "date_added": "2018-09-23",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 115
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 115
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 71,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 200
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 200
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 148,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 400
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/147/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/147/hard.json",
+     "raw_sha256": "75c3054aa71b40ebfe8ebadf1d51e341cbce50a086173b5f33eab224164178c2"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 400
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 27,
+      "tap": 243,
+      "hold": 60,
+      "slide": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 591
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/147/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/147/expert.json",
+     "raw_sha256": "d4969dd53e56edc2f40ff6396d875917afd443dac01b88d03f5268c556975225"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 591
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 38,
+      "tap": 360,
+      "hold": 56,
+      "slide": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 757
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1742029200000,
+    "maa": {
+     "path": "bestdori/147/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/147/special.json",
+     "raw_sha256": "7dd3c193eca66ddc4f6cf31d45d17357a41c9b40f5339f1bab995b6920eb062c"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 757
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 434,
+      "slide": 79,
+      "flick": 49,
+      "hold": 17
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 147,
+   "bandId": 17,
+   "jacketImage": "147_no_alone",
+   "bgmId": "bgm147"
+  },
+  "maa": {
+   "bestdori_song_id": 147,
+   "jacket": {
+    "path": "bestdori/147/jacket-cn-1.png",
+    "server": "cn",
+    "name": "147_no_alone"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/147/jacket-cn-1.png",
+   "sha256": "4e83420d23f151f1c2eb6b16058270906ac63fb057d1a365356f6f1841fd01d1",
+   "width": 320,
+   "height": 320,
+   "bytes": 43465
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "都丸椋太（Elements Garden）",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1537682400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "ひとりじゃないんだから",
+  "title_en": "You're Not Alone",
+  "length_s": 103.704
+ }
+}

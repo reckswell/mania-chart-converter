@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "552",
+ "title": "テレキャスタービーボーイ",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "182",
+ "version": "",
+ "date_added": "2023-10-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 155
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 155
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 131,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 292
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 292
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 196,
+      "hold": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 575
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/552/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/552/hard.json",
+     "raw_sha256": "cf8c1497791c30d158c037ef9a45897bad8c3312227d07a256e5922f2548b407"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 575
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 355,
+      "hold": 17,
+      "slide": 62,
+      "flick": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 820
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/552/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/552/expert.json",
+     "raw_sha256": "f67bb7ade4779616eef6bb6ba203989266d740368bec3dbc0171e2709380e054"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 820
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 591,
+      "hold": 21,
+      "slide": 62,
+      "flick": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 972
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1743400800000,
+    "maa": {
+     "path": "bestdori/552/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/552/special.json",
+     "raw_sha256": "40349003bc06f5a44632eda06cfc674fdf1b798d8acc4c87cca054bc2df5ccc2"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 972
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 563,
+      "hold": 47,
+      "slide": 84,
+      "flick": 113
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 552,
+   "bandId": 2,
+   "jacketImage": "552_telecaster_b_boy",
+   "bgmId": "bgm552"
+  },
+  "maa": {
+   "bestdori_song_id": 552,
+   "jacket": {
+    "path": "bestdori/552/jacket-cn-1.png",
+    "server": "cn",
+    "name": "552_telecaster_b_boy"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/552/jacket-cn-1.png",
+   "sha256": "563cb48bc03973fa684d67894a4425f0005aa6b4cca74de4ae82aeee02e63b87",
+   "width": 320,
+   "height": 320,
+   "bytes": 33335
+  }
+ },
+ "extra": {
+  "lyricist": "すりぃ",
+  "composer": "すりぃ",
+  "arranger": "近藤世真（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1698732000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "てれきゃすたーびーぼーい",
+  "title_en": "Telecaster B-boy",
+  "length_s": 106.872
+ }
+}

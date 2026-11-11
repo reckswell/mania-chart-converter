@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "341",
+ "title": "ないすみちゅっ！",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "174",
+ "version": "",
+ "date_added": "2021-06-18",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 182
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 182
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 128,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 314
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 314
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 64,
+      "tap": 186
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 530
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/341/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/341/hard.json",
+     "raw_sha256": "74a4b9d3dc1ea191daedc909bfcc55a07bfbf78016f6aa835f833e53b5d697b7"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 530
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 69,
+      "tap": 289,
+      "slide": 40,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 791
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/341/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/341/expert.json",
+     "raw_sha256": "0fa4ad47ab398ed0dfa805d0e1057e24e2eb37c70296721a17cd9d051c097040"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 791
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 439,
+      "hold": 64,
+      "flick": 43,
+      "slide": 73
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 341,
+   "bandId": 3,
+   "jacketImage": "341_nice_me_chu",
+   "bgmId": "bgm341"
+  },
+  "maa": {
+   "bestdori_song_id": 341,
+   "jacket": {
+    "path": "bestdori/341/jacket-cn-1.png",
+    "server": "cn",
+    "name": "341_nice_me_chu"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/341/jacket-cn-1.png",
+   "sha256": "0445aa1700ff9e6898035ec7ff036c36ae0e9c1aa6da1edd539499a3e4a36d25",
+   "width": 320,
+   "height": 320,
+   "bytes": 37901
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "竹田祐介（Elements Garden）",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1624017600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ないすみちゅっ",
+  "title_en": "Nice to Meet You!",
+  "length_s": 106.272
+ }
+}

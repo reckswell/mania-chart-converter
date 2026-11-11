@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "387",
+ "title": "曇天",
+ "artist": "Roselia×レイヤ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia×レイヤ",
+ "bpm": "186",
+ "version": "",
+ "date_added": "2022-01-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 130
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 130
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 84,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 239
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 239
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 169,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 570
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/387/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/387/hard.json",
+     "raw_sha256": "054d0bb20ec1aef87c76310230148807b6ee426841f4256d025a7b10d22c1996"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 570
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 308,
+      "flick": 3,
+      "slide": 32,
+      "hold": 82
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1058
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/387/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/387/expert.json",
+     "raw_sha256": "3f4db106be3ecc0f418269147eb36e5925fc6436157b7c9ef3eb18ef4589138b"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 1058
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 54,
+      "tap": 550,
+      "slide": 158,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1112
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1672984800000,
+    "maa": {
+     "path": "bestdori/387/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/387/special.json",
+     "raw_sha256": "875aaeadd766a6a719929f4dbc0f7825703080707a9dc7e49f2c77f9b413746c"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 1112
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 73,
+      "tap": 524,
+      "slide": 127,
+      "hold": 21
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 387,
+   "bandId": 40,
+   "jacketImage": "387_donten",
+   "bgmId": "bgm387"
+  },
+  "maa": {
+   "bestdori_song_id": 387,
+   "jacket": {
+    "path": "bestdori/387/jacket-cn-1.png",
+    "server": "cn",
+    "name": "387_donten"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/387/jacket-cn-1.png",
+   "sha256": "776dad225c192af95b8c7f4f8a08ff46add0db3e7e78e841c1388c7e81b24431",
+   "width": 320,
+   "height": 320,
+   "bytes": 22986
+  }
+ },
+ "extra": {
+  "lyricist": "氏原 ワタル",
+  "composer": "氏原 ワタル",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1641103200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "どんてん",
+  "title_en": "A Cloudy Sky",
+  "length_s": 122.64
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "405",
+ "title": "春を告げる",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "120",
+ "version": "",
+ "date_added": "2022-03-13",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 128
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 128
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 68,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 256
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 256
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 140,
+      "hold": 58
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 563
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/405/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/405/hard.json",
+     "raw_sha256": "f01d657b56d465aef8ebada20313377ecef5fe4bd368413faabd65544787d7ce"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 563
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 394,
+      "hold": 45,
+      "slide": 32,
+      "flick": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 867
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/405/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/405/expert.json",
+     "raw_sha256": "41e61b3eb3e2c585b76cd3e453a5454b804235ff2bc57e8079a9ae527458de99"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 867
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 686,
+      "hold": 38,
+      "slide": 39,
+      "flick": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 405,
+   "bandId": 4,
+   "jacketImage": "405_haruwo_tsugeru",
+   "bgmId": "bgm405"
+  },
+  "maa": {
+   "bestdori_song_id": 405,
+   "jacket": {
+    "path": "bestdori/405/jacket-cn-1.png",
+    "server": "cn",
+    "name": "405_haruwo_tsugeru"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/405/jacket-cn-1.png",
+   "sha256": "9ac8497300656d21d390d5af5e602c0bb616d5f8a9382c09ba45909d91a66aaf",
+   "width": 320,
+   "height": 320,
+   "bytes": 26161
+  }
+ },
+ "extra": {
+  "lyricist": "くじら",
+  "composer": "くじら",
+  "arranger": "近藤世真（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1647151200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "はるをつげる",
+  "title_en": "Haru Wo Tsugeru",
+  "length_s": 135.072
+ }
+}

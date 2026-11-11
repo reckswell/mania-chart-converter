@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "519",
+ "title": "私色きらめき日和",
+ "artist": "ますかっと feat. 夢ノ結唱 POPY",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ますかっと feat. 夢ノ結唱 POPY",
+ "bpm": "108",
+ "version": "",
+ "date_added": "2023-07-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 113
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 113
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 57,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 199
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 199
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 103,
+      "hold": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 532
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/519/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/519/hard.json",
+     "raw_sha256": "3751e6a040ac1801d6f74bcbeacdb73e928cf259c9ea4e1ba941b3141e88ef04"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 532
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 212,
+      "hold": 59,
+      "slide": 51,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 685
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/519/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/519/expert.json",
+     "raw_sha256": "e9ffa5ffd3699a3eff42cc0ce97bce5fa00d1fdec2fb43bbc50f49010e28df92"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 685
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 428,
+      "hold": 64,
+      "flick": 19,
+      "slide": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 519,
+   "bandId": 66,
+   "jacketImage": "519_watashi_iro",
+   "bgmId": "bgm519"
+  },
+  "maa": {
+   "bestdori_song_id": 519,
+   "jacket": {
+    "path": "bestdori/519/jacket-cn-1.png",
+    "server": "cn",
+    "name": "519_watashi_iro"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/519/jacket-cn-1.png",
+   "sha256": "3f5df2902a10b620627647de363e2a829d79a626423ea62b36866078969ddd53",
+   "width": 320,
+   "height": 320,
+   "bytes": 25360
+  }
+ },
+ "extra": {
+  "lyricist": "ますかっと",
+  "composer": "ますかっと",
+  "arranger": "ますかっと",
+  "tag": "normal",
+  "published_at": 1690610400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "わたしいろきらめきびより",
+  "title_en": "My Poppin' Days for Seeking Glitter",
+  "length_s": 115.608
+ }
+}

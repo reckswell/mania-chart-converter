@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "228",
+ "title": "Stay Alive",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "140",
+ "version": "",
+ "date_added": "2019-11-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 94
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 94
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 38,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 191
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 191
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 129,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 287
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/228/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/228/hard.json",
+     "raw_sha256": "72b8d495374ba878b94c5dd4a2d959df63eddaf3ee23028ee232a127d3306ccb"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 287
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 137,
+      "hold": 42,
+      "slide": 13,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 419
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/228/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/228/expert.json",
+     "raw_sha256": "34c3710d94a4567c19b41f226910ce5d55df2877f3e2cb994beb85828d8cd63f"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 419
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 201,
+      "hold": 46,
+      "slide": 31,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 228,
+   "bandId": 4,
+   "jacketImage": "228_stayalive",
+   "bgmId": "bgm228"
+  },
+  "maa": {
+   "bestdori_song_id": 228,
+   "jacket": {
+    "path": "bestdori/228/jacket-cn-1.png",
+    "server": "cn",
+    "name": "228_stayalive"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/228/jacket-cn-1.png",
+   "sha256": "fb9d24234481379e4a2bfc2f816873e267081f4b8aff0df30b69c6bf2e8507ce",
+   "width": 320,
+   "height": 320,
+   "bytes": 13209
+  }
+ },
+ "extra": {
+  "lyricist": "Heart's Cry",
+  "composer": "Heart's Cry",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1574229600000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "stayalive",
+  "length_s": 94.344
+ }
+}

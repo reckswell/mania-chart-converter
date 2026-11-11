@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "174",
+ "title": "オトモダチフィルム",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "158",
+ "version": "",
+ "date_added": "2019-02-17",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 157
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 157
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 103,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 287
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 287
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 209,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 435
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/174/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/174/hard.json",
+     "raw_sha256": "95fed59990dd60c224e6fc3415a60c4d12594e70ef6cf9e370cdefc4fc65ee32"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 435
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 300,
+      "hold": 55,
+      "flick": 17,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 675
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/174/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/174/expert.json",
+     "raw_sha256": "7250bd0fe40eb6587594d5e34f7e3d6bd8e58d2d50046757048bac92e67c8210"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 675
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 489,
+      "slide": 19,
+      "flick": 30,
+      "hold": 57
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 174,
+   "bandId": 1,
+   "jacketImage": "174_friendfilm",
+   "bgmId": "bgm174"
+  },
+  "maa": {
+   "bestdori_song_id": 174,
+   "jacket": {
+    "path": "bestdori/174/jacket-cn-1.png",
+    "server": "cn",
+    "name": "174_friendfilm"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/174/jacket-cn-1.png",
+   "sha256": "94abafeb680a2ff829ad30ee2cb91096af3b890a4a08a896cdec5919c005f6de",
+   "width": 320,
+   "height": 320,
+   "bytes": 24008
+  }
+ },
+ "extra": {
+  "lyricist": "大石昌良",
+  "composer": "大石昌良",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1550404800000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "おともだちふぃるむ",
+  "title_en": "Otomodachi Film",
+  "length_s": 101.064
+ }
+}

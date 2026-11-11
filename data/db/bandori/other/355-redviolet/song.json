@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "355",
+ "title": "競宴Red×Violet",
+ "artist": "Roselia×Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia×Afterglow",
+ "bpm": "148",
+ "version": "",
+ "date_added": "2021-09-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 199
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 199
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 133,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 316
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 316
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 186,
+      "hold": 65
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 527
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/355/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/355/hard.json",
+     "raw_sha256": "13b2e0a64b921831ec8a0f4534e3a89b6c56af92143256c5f70483a66b63b3fa"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 527
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 331,
+      "slide": 40,
+      "hold": 39,
+      "flick": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1002
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/355/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/355/expert.json",
+     "raw_sha256": "672dfafc2743986af6c5326bcc96417bc21bf91efdf67e070f37211e069723cd"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 1002
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 450,
+      "slide": 146,
+      "hold": 40,
+      "flick": 63
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 355,
+   "bandId": 29,
+   "jacketImage": "355_red_violet",
+   "bgmId": "bgm355"
+  },
+  "maa": {
+   "bestdori_song_id": 355,
+   "jacket": {
+    "path": "bestdori/355/jacket-cn-1.png",
+    "server": "cn",
+    "name": "355_red_violet"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/355/jacket-cn-1.png",
+   "sha256": "eeb53e6f090459d2b3e6766f596f744b1db0315e78adedfdb51d488e7c23e6cb",
+   "width": 320,
+   "height": 320,
+   "bytes": 24899
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "菊田大介（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1630648800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "きょうえんredviolet",
+  "title_en": "Kyouen Red×Violet",
+  "length_s": 111.144
+ }
+}

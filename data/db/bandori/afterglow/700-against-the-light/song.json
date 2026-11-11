@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "700",
+ "title": "Against the Light",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "196",
+ "version": "",
+ "date_added": "2025-05-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 141
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 141
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 67,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 266
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 266
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 53,
+      "tap": 160
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 554
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/700/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/700/hard.json",
+     "raw_sha256": "11dc82e41548b65655086a617c8ba3159b398bf75364e8dc11b8ae265eb43ee5"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 554
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 302,
+      "hold": 33,
+      "slide": 54,
+      "flick": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 863
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/700/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/700/expert.json",
+     "raw_sha256": "d306b057c62c2f5d35a195ff52cf353721a8d6b9d492a3d38b87753539597c34"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 863
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 494,
+      "slide": 79,
+      "hold": 56,
+      "flick": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 700,
+   "bandId": 2,
+   "jacketImage": "700_against_the_light",
+   "bgmId": "bgm700"
+  },
+  "maa": {
+   "bestdori_song_id": 700,
+   "jacket": {
+    "path": "bestdori/700/jacket-cn-1.png",
+    "server": "cn",
+    "name": "700_against_the_light"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/700/jacket-cn-1.png",
+   "sha256": "a61b1340a0b307ad83fcd982f5512c2332e5816d2cc0dd9bff901041537e0ee6",
+   "width": 320,
+   "height": 320,
+   "bytes": 23049
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤間仁（Elements Garden）",
+  "arranger": "藤間仁（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1746856800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "againstthelight",
+  "length_s": 104.136
+ }
+}

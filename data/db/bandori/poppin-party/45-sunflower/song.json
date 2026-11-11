@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "45",
+ "title": "夢みるSunflower",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "164",
+ "version": "",
+ "date_added": "2017-04-22",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 152
+   },
+   "source": {
+    "notesQuantity": 64,
+    "bestdori": {
+     "level": 7,
+     "notes": 152
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 132,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 64 differs from combo 152 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 231
+   },
+   "source": {
+    "notesQuantity": 141,
+    "bestdori": {
+     "level": 13,
+     "notes": 231
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 203,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 141 differs from combo 231 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 434
+   },
+   "source": {
+    "notesQuantity": 261,
+    "maa": {
+     "path": "bestdori/45/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/45/hard.json",
+     "raw_sha256": "ad1e14bb7ab4d9c97679f11e85162cc3124ede6982a75d4422a12bca65ca7ff1"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 434
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 345,
+      "slide": 6,
+      "hold": 26,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 261 differs from combo 434 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 628
+   },
+   "source": {
+    "notesQuantity": 397,
+    "maa": {
+     "path": "bestdori/45/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/45/expert.json",
+     "raw_sha256": "b0631ec2a683db6888e73768cae4c2522030b57eb4072a62839c411d685388c2"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 628
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 20,
+      "tap": 426,
+      "flick": 64,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 397 differs from combo 628 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 45,
+   "bandId": 1,
+   "jacketImage": "sunflower",
+   "bgmId": "bgm045"
+  },
+  "maa": {
+   "bestdori_song_id": 45,
+   "jacket": {
+    "path": "bestdori/45/jacket-cn-1.png",
+    "server": "cn",
+    "name": "sunflower"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/45/jacket-cn-1.png",
+   "sha256": "8941dada5bbd09a7e271962a8987044fafecf2a7a339b81260f0eaa525690ad8",
+   "width": 320,
+   "height": 320,
+   "bytes": 36702
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1492869600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "ゆめみるsunflower",
+  "title_en": "Sunflower Dreams",
+  "length_s": 128.856
+ }
+}

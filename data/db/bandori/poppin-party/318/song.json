@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "318",
+ "title": "イエスタデイ",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "130",
+ "version": "",
+ "date_added": "2021-03-15",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 107
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 107
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 69,
+      "hold": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 200
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 200
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 114,
+      "hold": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 365
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/318/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/318/hard.json",
+     "raw_sha256": "b8b8b374f1f603d299677554fca102351e498550baf44e9dda9bd68a8bcaf2c0"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 365
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 256,
+      "hold": 49,
+      "slide": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 523
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/318/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/318/expert.json",
+     "raw_sha256": "50889a8022e761a617d095c0fbafcd21e434b63e07bb87489fa92f5909c364db"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 523
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 360,
+      "hold": 30,
+      "slide": 33,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 318,
+   "bandId": 1,
+   "jacketImage": "318_yesterday",
+   "bgmId": "bgm318"
+  },
+  "maa": {
+   "bestdori_song_id": 318,
+   "jacket": {
+    "path": "bestdori/318/jacket-cn-1.png",
+    "server": "cn",
+    "name": "318_yesterday"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/318/jacket-cn-1.png",
+   "sha256": "b982ee3daabca248b3fb99ccb249f25f47c2c62daec94728a6d4657ec7462b05",
+   "width": 320,
+   "height": 320,
+   "bytes": 26274
+  }
+ },
+ "extra": {
+  "lyricist": "藤原聡",
+  "composer": "藤原聡",
+  "arranger": "近藤世真（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1615795200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "いえすたでい",
+  "title_en": "Yesterday",
+  "length_s": 103.44
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "468",
+ "title": "転生林檎",
+ "artist": "Roselia×＋α／あるふぁきゅん。",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia×＋α／あるふぁきゅん。",
+ "bpm": "145",
+ "version": "",
+ "date_added": "2023-01-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 141
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 141
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 117,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 308
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 308
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 214,
+      "hold": 31,
+      "slide": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 546
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/468/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/468/hard.json",
+     "raw_sha256": "b274a6dd51a4646fa4e5da9fd26dc169ab526038e914c5051eda452d84d14ca1"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 546
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 361,
+      "hold": 18,
+      "slide": 44,
+      "flick": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 853
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/468/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/468/expert.json",
+     "raw_sha256": "f163a830072144e99ed8552d359682d2e892e70de303f6289aae268b75f65438"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 853
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 499,
+      "hold": 30,
+      "slide": 83,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 468,
+   "bandId": 56,
+   "jacketImage": "468_tensei_ringo",
+   "bgmId": "bgm468"
+  },
+  "maa": {
+   "bestdori_song_id": 468,
+   "jacket": {
+    "path": "bestdori/468/jacket-cn-1.png",
+    "server": "cn",
+    "name": "468_tensei_ringo"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/468/jacket-cn-1.png",
+   "sha256": "a33e0cda69e30d54362a734022cfb0da42ad74b94eddd6e408c6c76963c5bde7",
+   "width": 320,
+   "height": 320,
+   "bytes": 40391
+  }
+ },
+ "extra": {
+  "lyricist": "ピノキオピー",
+  "composer": "ピノキオピー",
+  "arranger": "堀川大翼（Elements Garden）",
+  "tag": "tie_up",
+  "published_at": 1672639200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "てんせいりんご",
+  "title_en": "Reincarnation Apple",
+  "length_s": 115.92
+ }
+}

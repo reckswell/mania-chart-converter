@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "258",
+ "title": "Bad Apple!! feat. nomico",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "138",
+ "version": "",
+ "date_added": "2020-03-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 233
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 233
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 156,
+      "flick": 1,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 363
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 363
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 248,
+      "flick": 1,
+      "hold": 57
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 557
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/258/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/258/hard.json",
+     "raw_sha256": "232bae4bd0c15c7ac1520ddda938f58c0d0510ea85f8fd2a4fb927ba841063b2"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 557
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 306,
+      "flick": 28,
+      "hold": 63,
+      "slide": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 800
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/258/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/258/expert.json",
+     "raw_sha256": "5279506298002d467239703e6549e2c3f0d0e5ab342e9e790fb887a5e2588384"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 800
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 524,
+      "slide": 66,
+      "hold": 42,
+      "flick": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 258,
+   "bandId": 5,
+   "jacketImage": "258_bad_apple",
+   "bgmId": "bgm258"
+  },
+  "maa": {
+   "bestdori_song_id": 258,
+   "jacket": {
+    "path": "bestdori/258/jacket-cn-1.png",
+    "server": "cn",
+    "name": "258_bad_apple"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/258/jacket-cn-1.png",
+   "sha256": "51a1f3b409ab5e0e77bb1020cc46b7f508d96385944ae67a692bfc0768537027",
+   "width": 320,
+   "height": 320,
+   "bytes": 24670
+  }
+ },
+ "extra": {
+  "lyricist": "Haruka",
+  "composer": "ZUN/Masayoshi Minoshima（Alstroemeria Records）",
+  "arranger": "笠井雄太（Elements Garden）/川渕龍成",
+  "tag": "anime",
+  "published_at": 1584770400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "baddapplefeatnomico",
+  "length_s": 118.32
+ }
+}

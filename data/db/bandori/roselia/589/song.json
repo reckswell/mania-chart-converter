@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "589",
+ "title": "乙女解剖",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "134",
+ "version": "",
+ "date_added": "2024-03-18",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 141
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 141
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 77,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 220
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 220
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 154,
+      "hold": 26,
+      "slide": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 435
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/589/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/589/hard.json",
+     "raw_sha256": "5ba1932790c53b4ac5eb81f665ce4f905f61a122c0078ad3629f21b7328f6ed3"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 435
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 178,
+      "hold": 44,
+      "slide": 47,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 662
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/589/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/589/expert.json",
+     "raw_sha256": "e10cee09347693052158368ae6239f12b3e63ecf67a9539f3693f87ee4809ed5"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 662
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 346,
+      "hold": 29,
+      "slide": 78,
+      "flick": 54
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 589,
+   "bandId": 5,
+   "jacketImage": "589_otomekaibou",
+   "bgmId": "bgm589"
+  },
+  "maa": {
+   "bestdori_song_id": 589,
+   "jacket": {
+    "path": "bestdori/589/jacket-cn-1.png",
+    "server": "cn",
+    "name": "589_otomekaibou"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/589/jacket-cn-1.png",
+   "sha256": "9610a7da5222a580826b1024ed324f5c8661b8a63222945a8ca91d8e47fda032",
+   "width": 320,
+   "height": 320,
+   "bytes": 35871
+  }
+ },
+ "extra": {
+  "lyricist": "DECO*27",
+  "composer": "DECO*27",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1710741600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "おとめかいぼう",
+  "title_en": "Otome Dissection",
+  "length_s": 113.784
+ }
+}

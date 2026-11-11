@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "443",
+ "title": "うちゃパ！で ぱっぴかポーんっ！",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "84-194",
+ "version": "",
+ "date_added": "2022-09-12",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 160
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 160
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 116,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 325
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 325
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 154,
+      "hold": 81,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 555
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/443/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/443/hard.json",
+     "raw_sha256": "7f3122f25186617caf946b8360a17a1ef5bc397b6087ffa63fa8c44394222521"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 555
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 285,
+      "hold": 60,
+      "slide": 34,
+      "flick": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 746
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/443/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/443/expert.json",
+     "raw_sha256": "e1eb167c2efdd8f2ef15a381564063f5678907b51b7e64d4d67b9a75ee2feaab"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 746
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 408,
+      "hold": 67,
+      "slide": 48,
+      "flick": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 443,
+   "bandId": 3,
+   "jacketImage": "443_utyapade",
+   "bgmId": "bgm443"
+  },
+  "maa": {
+   "bestdori_song_id": 443,
+   "jacket": {
+    "path": "bestdori/443/jacket-cn-1.png",
+    "server": "cn",
+    "name": "443_utyapade"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/443/jacket-cn-1.png",
+   "sha256": "12bae0a15ed1fd14af2641b98b97e35db8b454d07371241360b5612c61aeb077",
+   "width": 320,
+   "height": 320,
+   "bytes": 39071
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤間仁（Elements Garden）",
+  "arranger": "藤間仁（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1662962400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "うちゃぱでぱっぴかぽーんっ",
+  "title_en": "Uchapa! de Pappikapo~n!",
+  "length_s": 106.272
+ }
+}

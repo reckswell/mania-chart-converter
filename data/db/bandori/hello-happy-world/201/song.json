@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "201",
+ "title": "恋愛裁判",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "134",
+ "version": "",
+ "date_added": "2019-06-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 153
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 153
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 24,
+      "tap": 105
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 252
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 252
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 54,
+      "tap": 144
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 409
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/201/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/201/hard.json",
+     "raw_sha256": "caf52ce7b771379bdd681468cef1cd4634ef5993553186d6d9172f15ab7438eb"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 409
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 174,
+      "hold": 64,
+      "flick": 29,
+      "slide": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 640
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/201/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/201/expert.json",
+     "raw_sha256": "cb105affc70fa2ccdc0c57b2087cf0f93007ca34976996678ff6e16dba48e3cd"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 640
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 359,
+      "hold": 69,
+      "flick": 32,
+      "slide": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 201,
+   "bandId": 3,
+   "jacketImage": "201_love_trial",
+   "bgmId": "bgm201"
+  },
+  "maa": {
+   "bestdori_song_id": 201,
+   "jacket": {
+    "path": "bestdori/201/jacket-cn-1.png",
+    "server": "cn",
+    "name": "201_love_trial"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/201/jacket-cn-1.png",
+   "sha256": "95652aea60e5e7a3dc1c13c0a9b2814e8d52d099b8678eefb1d67d763f87662a",
+   "width": 320,
+   "height": 320,
+   "bytes": 21031
+  }
+ },
+ "extra": {
+  "lyricist": "40mP",
+  "composer": "40mP",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1561010400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "れんあいさいばん",
+  "title_en": "Love Trial",
+  "length_s": 103.056
+ }
+}

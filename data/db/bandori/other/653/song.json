@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "653",
+ "title": "幾億光年",
+ "artist": "Poppin'Party×燈",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party×燈",
+ "bpm": "95.5-99.5",
+ "version": "",
+ "date_added": "2024-12-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 102
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 102
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 48,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 168
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 168
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 98,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 425
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/653/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/653/hard.json",
+     "raw_sha256": "a45f934b9d6f5ca881673ceda7f473ffcf74b555c87a8fc375ea71ed87659397"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 425
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 217,
+      "hold": 53,
+      "slide": 33,
+      "flick": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 540
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/653/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/653/expert.json",
+     "raw_sha256": "6158e25802135995e4e53f77b6d26f0750148aba8476944fd2077faa8ef87bdb"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 540
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 315,
+      "slide": 59,
+      "hold": 39,
+      "flick": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 653,
+   "bandId": 81,
+   "jacketImage": "653_ikuoku",
+   "bgmId": "bgm653"
+  },
+  "maa": {
+   "bestdori_song_id": 653,
+   "jacket": {
+    "path": "bestdori/653/jacket-cn-1.png",
+    "server": "cn",
+    "name": "653_ikuoku"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/653/jacket-cn-1.png",
+   "sha256": "10bd9d9a16710b13342699b494c4429818bff6b70b672ac8623a9bf2062e5057",
+   "width": 320,
+   "height": 320,
+   "bytes": 20273
+  }
+ },
+ "extra": {
+  "lyricist": "福島 智朗",
+  "composer": "藤井 怜央",
+  "arranger": "堀川大翼（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1735452000000,
+  "closed_at": 4122673200000,
+  "music_data_type": "normal",
+  "ruby": "いくおくこうねん",
+  "title_en": "Ikuokukonen",
+  "length_s": 106.512
+ }
+}

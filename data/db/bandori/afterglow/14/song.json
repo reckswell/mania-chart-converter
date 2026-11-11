@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "14",
+ "title": "カルマ",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "195",
+ "version": "",
+ "date_added": "2016-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 97
+   },
+   "source": {
+    "notesQuantity": 79,
+    "bestdori": {
+     "level": 6,
+     "notes": 97
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 95,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 79 differs from combo 97 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 199
+   },
+   "source": {
+    "notesQuantity": 199,
+    "bestdori": {
+     "level": 12,
+     "notes": 199
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 189,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 352
+   },
+   "source": {
+    "notesQuantity": 369,
+    "maa": {
+     "path": "bestdori/14/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/14/hard.json",
+     "raw_sha256": "a46d2e6af0ec8cb323d8b314ce81276bb76cf6a60344a34c4bf8b501739344eb"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 352
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 300,
+      "flick": 8,
+      "slide": 7,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 369 differs from combo 352 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 582
+   },
+   "source": {
+    "notesQuantity": 582,
+    "maa": {
+     "path": "bestdori/14/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/14/expert.json",
+     "raw_sha256": "0e6fd8a3db2e09a02bd6d0cae3bfe476f6fa08bc715d3346f9addd7fef55b07f"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 582
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 25,
+      "tap": 418,
+      "flick": 24,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 691
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1590753600000,
+    "maa": {
+     "path": "bestdori/14/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/14/special.json",
+     "raw_sha256": "f66abecdb8f19663d9b8d2e87b2ffd1d73722e853e2b4035d555579ff924a02c"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 691
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 417,
+      "hold": 81,
+      "slide": 28,
+      "flick": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 14,
+   "bandId": 2,
+   "jacketImage": "karma",
+   "bgmId": "bgm014"
+  },
+  "maa": {
+   "bestdori_song_id": 14,
+   "jacket": {
+    "path": "bestdori/14/jacket-cn-1.png",
+    "server": "cn",
+    "name": "karma"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/14/jacket-cn-1.png",
+   "sha256": "f31405edd63ee930b1f98496704a9a881809da4c99afe8f4d3a1378b00750bfc",
+   "width": 320,
+   "height": 320,
+   "bytes": 23907
+  }
+ },
+ "extra": {
+  "lyricist": "藤原基央",
+  "composer": "藤原基央",
+  "arranger": "母里治樹（Elements Garden）/加納望",
+  "tag": "anime",
+  "published_at": 1462071600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "かるま",
+  "title_en": "Karma",
+  "length_s": 101.832
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "368",
+ "title": "あの夢をなぞって",
+ "artist": "Poppin'Party×ときのそら",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party×ときのそら",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2021-10-24",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 142
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 142
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 78,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 265
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 265
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 187,
+      "hold": 33,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 591
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/368/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/368/hard.json",
+     "raw_sha256": "c7dc852f1ac90ef1d5436d441d7b22ff956bab86ed492a8b919f83181978ffc5"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 591
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 368,
+      "hold": 60,
+      "slide": 35,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 777
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/368/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/368/expert.json",
+     "raw_sha256": "b2de42e9f49e80457571da98c737773cfb42cb6937ce2e014c8e83ed79d1594b"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 777
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 519,
+      "hold": 56,
+      "slide": 38,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 368,
+   "bandId": 34,
+   "jacketImage": "368_anoyume",
+   "bgmId": "bgm368"
+  },
+  "maa": {
+   "bestdori_song_id": 368,
+   "jacket": {
+    "path": "bestdori/368/jacket-cn-1.png",
+    "server": "cn",
+    "name": "368_anoyume"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/368/jacket-cn-1.png",
+   "sha256": "00bb75deb97b1600dd1130701ba40f19851fc68f6b8591ccd030a6b089e15632",
+   "width": 320,
+   "height": 320,
+   "bytes": 43198
+  }
+ },
+ "extra": {
+  "lyricist": "Ayase",
+  "composer": "Ayase",
+  "arranger": "Elements Garden",
+  "tag": "tie_up",
+  "published_at": 1635055200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "あのゆめをなぞって",
+  "title_en": "Tracing A Dream",
+  "length_s": 127.392
+ }
+}

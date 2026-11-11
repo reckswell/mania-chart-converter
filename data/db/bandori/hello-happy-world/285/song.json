@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "285",
+ "title": "ウィーアー！",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "168",
+ "version": "",
+ "date_added": "2020-08-11",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 162
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 162
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 88,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 273
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 273
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 177,
+      "hold": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 475
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/285/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/285/hard.json",
+     "raw_sha256": "589818a088f80b0b9b07f51f5fd4178fd27073515e37bd8ce2e8249ca82b557a"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 475
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 250,
+      "hold": 79,
+      "flick": 18,
+      "slide": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 775
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/285/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/285/expert.json",
+     "raw_sha256": "7ad82f27b97b6fada6c87d33d941314a989c5d9953f8f5d1565886f84b9bd94d"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 775
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 422,
+      "slide": 44,
+      "hold": 91,
+      "flick": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 285,
+   "bandId": 3,
+   "jacketImage": "285_we_are",
+   "bgmId": "bgm285"
+  },
+  "maa": {
+   "bestdori_song_id": 285,
+   "jacket": {
+    "path": "bestdori/285/jacket-cn-1.png",
+    "server": "cn",
+    "name": "285_we_are"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/285/jacket-cn-1.png",
+   "sha256": "e0a479105a5d8b26568e1b45c5a3d065f90fea6ed8ee2eb5182546d75af5c7ca",
+   "width": 320,
+   "height": 320,
+   "bytes": 34829
+  }
+ },
+ "extra": {
+  "lyricist": "藤林　聖子",
+  "composer": "田中　公平",
+  "arranger": "近藤世真（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1597125600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "うぃーあー",
+  "title_en": "We Are!",
+  "length_s": 113.64
+ }
+}

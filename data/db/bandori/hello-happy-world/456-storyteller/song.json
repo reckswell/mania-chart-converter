@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "456",
+ "title": "Storyteller",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "192",
+ "version": "",
+ "date_added": "2022-10-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 124
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 124
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 76,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 259
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 259
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 185,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 474
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/456/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/456/hard.json",
+     "raw_sha256": "2d5051dfc3e7ad26fd751b1c2c5f8491f270955d816bf673b0c11893e9c2773c"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 474
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 57,
+      "tap": 318,
+      "slide": 10,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 680
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/456/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/456/expert.json",
+     "raw_sha256": "7672da339ccd901ae3d9ea76daa8255fba45990e5f59073990d5c15452df0136"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 680
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 355,
+      "flick": 15,
+      "hold": 52,
+      "slide": 78
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 456,
+   "bandId": 3,
+   "jacketImage": "456_story_teller",
+   "bgmId": "bgm456"
+  },
+  "maa": {
+   "bestdori_song_id": 456,
+   "jacket": {
+    "path": "bestdori/456/jacket-cn-1.png",
+    "server": "cn",
+    "name": "456_story_teller"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/456/jacket-cn-1.png",
+   "sha256": "51bf555d11a7ecd0deeb2084cd7efc4044eabf4f19fc2da20c3ced6008cd299a",
+   "width": 320,
+   "height": 320,
+   "bytes": 18874
+  }
+ },
+ "extra": {
+  "lyricist": "唐沢美帆",
+  "composer": "津波幸平",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1667023200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "storyteller",
+  "length_s": 116.928
+ }
+}

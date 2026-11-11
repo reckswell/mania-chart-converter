@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "336",
+ "title": "ラムのラブソング",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2021-05-05",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 162
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 162
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 26,
+      "tap": 110
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 279
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 279
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 209,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 449
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/336/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/336/hard.json",
+     "raw_sha256": "853afce4c4493d3e0f5d59cc1b0e1b6f4a7517b16def78b27f26be1cd0e1189b"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 449
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 51,
+      "tap": 310,
+      "slide": 13,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 641
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/336/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/336/expert.json",
+     "raw_sha256": "3afdcee61e86a126fa6bc83d4e861a6cb58d6149ff49bf27b1b2ee2e048f4d00"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 641
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 69,
+      "tap": 420,
+      "slide": 24,
+      "flick": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 336,
+   "bandId": 4,
+   "jacketImage": "336_ramu_love_song",
+   "bgmId": "bgm336"
+  },
+  "maa": {
+   "bestdori_song_id": 336,
+   "jacket": {
+    "path": "bestdori/336/jacket-cn-1.png",
+    "server": "cn",
+    "name": "336_ramu_love_song"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/336/jacket-cn-1.png",
+   "sha256": "8fa8ea1d56a7cdcfbe0ec767c350ee29f163ac2e78c0d28cce70ab44a4ea83c7",
+   "width": 320,
+   "height": 320,
+   "bytes": 27163
+  }
+ },
+ "extra": {
+  "lyricist": "伊藤　アキラ",
+  "composer": "小林　泉美",
+  "arranger": "Elements Garden",
+  "tag": "anime",
+  "published_at": 1620194400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "らむのらぶそんぐ",
+  "title_en": "Lum's Love Song",
+  "length_s": 105.384
+ }
+}

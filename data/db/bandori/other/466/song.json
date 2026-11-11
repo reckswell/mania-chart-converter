@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "466",
+ "title": "フォニイ",
+ "artist": "Afterglow×96猫",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow×96猫",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2023-01-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 185
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 185
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 141,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 365
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 365
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 267,
+      "hold": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 647
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/466/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/466/hard.json",
+     "raw_sha256": "963ae12d4e157ce2ca471dd94f137b036a5bd4e48d492aae92886d8af68c47a1"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 647
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 476,
+      "hold": 51,
+      "slide": 20,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1006
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/466/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/466/expert.json",
+     "raw_sha256": "445f1d7699e1d838a33e554f97764f02a11fd476c3e436c80346d146efca7ee1"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 1006
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 653,
+      "slide": 73,
+      "flick": 57,
+      "hold": 57
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 466,
+   "bandId": 54,
+   "jacketImage": "466_phony",
+   "bgmId": "bgm466"
+  },
+  "maa": {
+   "bestdori_song_id": 466,
+   "jacket": {
+    "path": "bestdori/466/jacket-cn-1.png",
+    "server": "cn",
+    "name": "466_phony"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/466/jacket-cn-1.png",
+   "sha256": "1e647f820e0bcdb0db50bf1c051b7949637543f872b2a788cdd17ee752eed883",
+   "width": 320,
+   "height": 320,
+   "bytes": 30722
+  }
+ },
+ "extra": {
+  "lyricist": "ツミキ",
+  "composer": "ツミキ",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "tie_up",
+  "published_at": 1672552800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ふぉにい",
+  "title_en": "phony",
+  "length_s": 144.768
+ }
+}

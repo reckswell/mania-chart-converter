@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "284",
+ "title": "I knew it!",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "200",
+ "version": "",
+ "date_added": "2020-07-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 143
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 143
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 83,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 276
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 276
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 170,
+      "hold": 53
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 496
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/284/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/284/hard.json",
+     "raw_sha256": "957f50921a329bf7d596f6fa99ba93b9108a496e1c6391182bf0998b830caac7"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 496
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 306,
+      "hold": 65,
+      "slide": 24,
+      "flick": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 790
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/284/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/284/expert.json",
+     "raw_sha256": "097e8adbc37778bf5b84a33175f2bd26fcfb2543f91198656635adfdc09b143a"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 790
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 504,
+      "slide": 84,
+      "hold": 31,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 284,
+   "bandId": 2,
+   "jacketImage": "284_i_knew_it",
+   "bgmId": "bgm284"
+  },
+  "maa": {
+   "bestdori_song_id": 284,
+   "jacket": {
+    "path": "bestdori/284/jacket-cn-1.png",
+    "server": "cn",
+    "name": "284_i_knew_it"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/284/jacket-cn-1.png",
+   "sha256": "2a9990f2133f366d9284054bf3ad8654c5175f47ee57526a0d3781b28f59db8c",
+   "width": 320,
+   "height": 320,
+   "bytes": 28068
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1596175200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "iknewit",
+  "length_s": 102.672
+ }
+}

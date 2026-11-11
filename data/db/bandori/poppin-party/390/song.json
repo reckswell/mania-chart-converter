@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "390",
+ "title": "ぽっぴん'どりーむ！",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "200",
+ "version": "",
+ "date_added": "2022-01-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 140
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 140
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 112,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 284
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 284
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 214,
+      "hold": 27,
+      "slide": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 498
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/390/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/390/hard.json",
+     "raw_sha256": "c77145708883141f5ae127c2a82723da6731dc883d3b0ddb5bb0c90d3b0da3ee"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 498
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 337,
+      "flick": 5,
+      "hold": 30,
+      "slide": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 719
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/390/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/390/expert.json",
+     "raw_sha256": "89739a0dad2537cb43c938ff6289a5f320d1f570ed925dcf85e82270f9902f40"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 719
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 438,
+      "hold": 47,
+      "slide": 52,
+      "flick": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 390,
+   "bandId": 1,
+   "jacketImage": "390_poppin_dream",
+   "bgmId": "bgm390"
+  },
+  "maa": {
+   "bestdori_song_id": 390,
+   "jacket": {
+    "path": "bestdori/390/jacket-cn-1.png",
+    "server": "cn",
+    "name": "390_poppin_dream"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/390/jacket-cn-1.png",
+   "sha256": "be6cde5ee2d3e2ca1604e190fbecad2e0cca3004a25b081735aff940ae1b74d6",
+   "width": 320,
+   "height": 320,
+   "bytes": 42892
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1641016800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ぽっぴんどりーむ",
+  "title_en": "Poppin'Dream!",
+  "length_s": 108.672
+ }
+}

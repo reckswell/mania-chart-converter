@@ -1,0 +1,145 @@
+{
+ "game": "bandori",
+ "song_id": "817",
+ "title": "千の翼",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2026-09-14",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 789
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/817/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/817/hard.json",
+     "raw_sha256": "8d1a2cdf21c29abcb1f054c5b35d928a2badd2ac2f977300629029400a48b083"
+    },
+    "bestdori": {
+     "notes": 789
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 102,
+      "tap": 390,
+      "hold": 43,
+      "flick": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1200
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/817/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/817/expert.json",
+     "raw_sha256": "8c6b40cf89bb77e747034c1ba85781c97c16375a60abb721d2e8d4c5632e28b3"
+    },
+    "bestdori": {
+     "notes": 1200
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 838,
+      "hold": 42,
+      "flick": 120,
+      "slide": 79
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 817,
+   "bandId": 2,
+   "jacketImage": "817_sen_no_tsubasa",
+   "bgmId": "bgm817"
+  },
+  "maa": {
+   "bestdori_song_id": 817,
+   "jacket": {
+    "path": "bestdori/817/jacket-jp-1.png",
+    "server": "jp",
+    "name": "817_sen_no_tsubasa"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/817/jacket-jp-1.png",
+   "sha256": "23e71fbbf7b92e02ef7146b6d2b703130bb77e7c0dd743b7080ca60264866048",
+   "width": 320,
+   "height": 320,
+   "bytes": 39361
+  }
+ },
+ "extra": {
+  "lyricist": "kz",
+  "composer": "kz",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1789365600000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "せんのつばさ"
+ }
+}

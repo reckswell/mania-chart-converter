@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "167",
+ "title": "Q＆A　リサイタル！",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "182",
+ "version": "",
+ "date_added": "2019-01-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 147
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 147
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 101,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 267
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 267
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 223,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 449
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/167/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/167/hard.json",
+     "raw_sha256": "ef97559dba3352f854e514f7cdaebb748c4c0a88c96af578d6d4bfc5604a1bfb"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 449
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 343,
+      "hold": 35,
+      "flick": 16,
+      "slide": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 709
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/167/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/167/expert.json",
+     "raw_sha256": "49928d2309c92d1a04768375e964b65cf47987567a136c3b2c68f0327415e1e7"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 709
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 498,
+      "flick": 32,
+      "slide": 38,
+      "hold": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 167,
+   "bandId": 4,
+   "jacketImage": "167_qanda_recital",
+   "bgmId": "bgm167"
+  },
+  "maa": {
+   "bestdori_song_id": 167,
+   "jacket": {
+    "path": "bestdori/167/jacket-cn-1.png",
+    "server": "cn",
+    "name": "167_qanda_recital"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/167/jacket-cn-1.png",
+   "sha256": "d5d6549db39f64b63bac5bc7ba4a5ba6e730dd6ff5acbe2f7c78ff5bc62be4df",
+   "width": 320,
+   "height": 320,
+   "bytes": 26903
+  }
+ },
+ "extra": {
+  "lyricist": "田淵智也",
+  "composer": "田淵智也",
+  "arranger": "末益涼太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1546495200000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "qあんどaりさいたる",
+  "title_en": "Q&A Recital!",
+  "length_s": 108.84
+ }
+}

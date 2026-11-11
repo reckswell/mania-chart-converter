@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "364",
+ "title": "ピコたるもの、ふぃーばー！",
+ "artist": "香澄×蘭×彩×友希那×こころ×ましろ×レイヤ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "香澄×蘭×彩×友希那×こころ×ましろ×レイヤ",
+ "bpm": "93-189",
+ "version": "",
+ "date_added": "2021-10-07",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 143
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 143
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 97,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 273
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 273
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 193,
+      "hold": 36,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 503
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/364/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/364/hard.json",
+     "raw_sha256": "0efff941bdbe44e5e107b1cdafa99316ff2efafba11d0166e2d34733aa378103"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 503
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 340,
+      "hold": 36,
+      "slide": 29,
+      "flick": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 863
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/364/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/364/expert.json",
+     "raw_sha256": "d7adb7843540d28ee911a20c3b7bd89645f5cfed50d5f5ecddd611903d79b359"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 863
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 535,
+      "hold": 22,
+      "flick": 57,
+      "slide": 77
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 364,
+   "bandId": 32,
+   "jacketImage": "364_pico_fever_1",
+   "bgmId": "bgm364"
+  },
+  "maa": {
+   "bestdori_song_id": 364,
+   "jacket": {
+    "path": "bestdori/364/jacket-cn-2.png",
+    "server": "cn",
+    "name": "364_pico_fever_1"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/364/jacket-cn-2.png",
+   "sha256": "329578427b50196deb1ef4f8bbded8318ece4c59f75c33a416d520e44c3fbd98",
+   "width": 320,
+   "height": 320,
+   "bytes": 36753
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "笠井雄太（Elements Garden）/藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1633615200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ぴこたるものふぃーばー",
+  "title_en": "Picotarumono Fever!",
+  "length_s": 107.568
+ }
+}

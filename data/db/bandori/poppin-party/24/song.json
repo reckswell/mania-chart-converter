@@ -1,0 +1,209 @@
+{
+ "game": "bandori",
+ "song_id": "24",
+ "title": "ときめきエクスペリエンス！",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2016-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 130
+   },
+   "source": {
+    "notesQuantity": 122,
+    "bestdori": {
+     "level": 8,
+     "notes": 130
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 130
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 122 differs from combo 130 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 231
+   },
+   "source": {
+    "notesQuantity": 228,
+    "bestdori": {
+     "level": 13,
+     "notes": 231
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 229,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 228 differs from combo 231 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 292
+   },
+   "source": {
+    "notesQuantity": 280,
+    "maa": {
+     "path": "bestdori/24/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/24/hard.json",
+     "raw_sha256": "52b6e4bf9845fa787d7d49c2dc11f4b6ce96c40ea082817a0cefed0f75a23691"
+    },
+    "bestdori": {
+     "level": 18,
+     "notes": 292
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 272,
+      "hold": 7,
+      "slide": 1,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 280 differs from combo 292 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 508
+   },
+   "source": {
+    "notesQuantity": 506,
+    "maa": {
+     "path": "bestdori/24/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/24/expert.json",
+     "raw_sha256": "775032e433a8924d9ca973dfc4c5975aaf1acff686a72e2acebb3bdf77167d34"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 508
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 354,
+      "hold": 63,
+      "flick": 14,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 506 differs from combo 508 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 777
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1678892400000,
+    "maa": {
+     "path": "bestdori/24/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/24/special.json",
+     "raw_sha256": "6c9498da733f6378114b776ff7a85b4b92e7818d5d35b24eed73a820bb95cbbd"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 777
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 450,
+      "hold": 77,
+      "slide": 39,
+      "flick": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 24,
+   "bandId": 1,
+   "jacketImage": "miracle",
+   "bgmId": "bgm024"
+  },
+  "maa": {
+   "bestdori_song_id": 24,
+   "jacket": {
+    "path": "bestdori/24/jacket-cn-1.png",
+    "server": "cn",
+    "name": "miracle"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/24/jacket-cn-1.png",
+   "sha256": "0d2fdd7b8b92fa426d7b03303d33d3e084f3bc6775ff54ecb3e47723a060b4d2",
+   "width": 320,
+   "height": 320,
+   "bytes": 40556
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "藤間仁（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1462071600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "ときめきえくすぺりえんす",
+  "title_en": "Tokimeki Experience!",
+  "length_s": 106.728
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "260",
+ "title": "ルカルカ★ナイトフィーバー",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "160",
+ "version": "",
+ "date_added": "2020-03-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 171
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 171
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 89,
+      "hold": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 338
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 338
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 190,
+      "hold": 74
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 584
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/260/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/260/hard.json",
+     "raw_sha256": "ac2ef2133f79d6e3c4520b9bebd27eb7ac2f021c5d02bd5d8078d08db11571dd"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 584
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 48,
+      "tap": 287,
+      "flick": 39,
+      "slide": 58
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 799
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/260/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/260/expert.json",
+     "raw_sha256": "c5dd29f102f2305b2ad016683391c27274a1aa860b5caa02d07224129a446ec1"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 799
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 48,
+      "tap": 458,
+      "flick": 32,
+      "slide": 79
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 260,
+   "bandId": 4,
+   "jacketImage": "260_rukaruka",
+   "bgmId": "bgm260"
+  },
+  "maa": {
+   "bestdori_song_id": 260,
+   "jacket": {
+    "path": "bestdori/260/jacket-cn-1.png",
+    "server": "cn",
+    "name": "260_rukaruka"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/260/jacket-cn-1.png",
+   "sha256": "ee801aa3e442016e64d90aeffc1ed73881c3428969a9158f1b5075d63bbf39f4",
+   "width": 320,
+   "height": 320,
+   "bytes": 38122
+  }
+ },
+ "extra": {
+  "lyricist": "SAM(samfree)",
+  "composer": "SAM(samfree)",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1585375200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "るかるかないとふぃーばー",
+  "title_en": "Luka Luka★Night Fever",
+  "length_s": 127.944
+ }
+}

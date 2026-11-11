@@ -1,0 +1,145 @@
+{
+ "game": "bandori",
+ "song_id": "793",
+ "title": "XV",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "193",
+ "version": "",
+ "date_added": "2026-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 457
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/793/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/793/hard.json",
+     "raw_sha256": "6c3c6e861a4986988bbe44bc5291e355285c2520edb02ab4733d9bc7065bba81"
+    },
+    "bestdori": {
+     "notes": 457
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 307,
+      "flick": 38,
+      "hold": 30,
+      "slide": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 681
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/793/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/793/expert.json",
+     "raw_sha256": "414a5c1f5e0793f331b87fd4fa631ab7501ff595868ea5d649e15883d7b89b84"
+    },
+    "bestdori": {
+     "notes": 681
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 537,
+      "slide": 35,
+      "flick": 51,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 793,
+   "bandId": 5,
+   "jacketImage": "793_xv",
+   "bgmId": "bgm793"
+  },
+  "maa": {
+   "bestdori_song_id": 793,
+   "jacket": {
+    "path": "bestdori/793/jacket-jp-1.png",
+    "server": "jp",
+    "name": "793_xv"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/793/jacket-jp-1.png",
+   "sha256": "27a4cc8a435fa1ca4870862466b94efb077a6f7db5f336febab393c7069a930b",
+   "width": 320,
+   "height": 320,
+   "bytes": 25892
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1777615200000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "XV"
+ }
+}

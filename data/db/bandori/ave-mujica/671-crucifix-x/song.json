@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "671",
+ "title": "Crucifix X",
+ "artist": "Ave Mujica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Ave Mujica",
+ "bpm": "103",
+ "version": "",
+ "date_added": "2025-03-07",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 95
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 95
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 47,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 173
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 173
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 109,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 388
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/671/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/671/hard.json",
+     "raw_sha256": "710db2110c46ee9a44524321a8343d8175afccf2dc8454934db0ce61c6d63d1c"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 388
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 235,
+      "hold": 58,
+      "slide": 12,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 537
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/671/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/671/expert.json",
+     "raw_sha256": "e776460005126f1a7ea4cb77f0f7b09276fe87b3e3bb5d8608ffaf3e17abf468"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 537
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 379,
+      "hold": 57,
+      "flick": 14,
+      "slide": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 671,
+   "bandId": 46,
+   "jacketImage": "671_crucifix",
+   "bgmId": "bgm671"
+  },
+  "maa": {
+   "bestdori_song_id": 671,
+   "jacket": {
+    "path": "bestdori/671/jacket-cn-1.png",
+    "server": "cn",
+    "name": "671_crucifix"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/671/jacket-cn-1.png",
+   "sha256": "1ac5b8aef8aa620d88f347d52e6375e1c72be8eb3a3a48143ef4968befcabe17",
+   "width": 320,
+   "height": 320,
+   "bytes": 34138
+  }
+ },
+ "extra": {
+  "lyricist": "Diggy-MO’",
+  "composer": "o-saka(SUPA LOVE)、Diggy-MO’",
+  "arranger": "o-saka(SUPA LOVE)",
+  "tag": "normal",
+  "published_at": 1741273200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "crucifixx",
+  "length_s": 106.08
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "game": "bandori",
+ "song_id": "760",
+ "title": "イケナイ太陽",
+ "artist": "ハロー、ハッピーワールド！×レイヤ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！×レイヤ",
+ "bpm": "145",
+ "version": "",
+ "date_added": "2026-01-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 459
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/760/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/760/hard.json",
+     "raw_sha256": "f0433ab61b61ee4858e08b6939981169b9ddbec0efe1cd56e39b40f20389a661"
+    },
+    "bestdori": {
+     "notes": 459
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 51,
+      "tap": 262,
+      "hold": 25,
+      "flick": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 677
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/760/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/760/expert.json",
+     "raw_sha256": "ebb03024f4d1e6f71f1b88f8f368b65f0956cb76248828eff0193c63d5619e1a"
+    },
+    "bestdori": {
+     "notes": 677
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 342,
+      "slide": 69,
+      "hold": 44,
+      "flick": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 760,
+   "bandId": 99,
+   "jacketImage": "760_ikenai_taiyo",
+   "bgmId": "bgm760"
+  },
+  "maa": {
+   "bestdori_song_id": 760,
+   "jacket": {
+    "path": "bestdori/760/jacket-cn-1.png",
+    "server": "cn",
+    "name": "760_ikenai_taiyo"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/760/jacket-cn-1.png",
+   "sha256": "32fbaa947c21af6174c93a1bd9959211a7dcd79713b05a0a7b5b9c3ed83c8415",
+   "width": 320,
+   "height": 320,
+   "bytes": 40131
+  }
+ },
+ "extra": {
+  "lyricist": "ORANGE RANGE",
+  "composer": "ORANGE RANGE",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1767333600000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "いけないたいよう"
+ }
+}

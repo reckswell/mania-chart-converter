@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "196",
+ "title": "チェリボム",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2019-05-13",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 126
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 126
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 88,
+      "hold": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 303
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 303
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 213,
+      "hold": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 498
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/196/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/196/hard.json",
+     "raw_sha256": "9800427439f46eee04d98e85e69fb863fc3d811ee64bc66204b89ddcc066944a"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 498
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 338,
+      "flick": 22,
+      "slide": 5,
+      "hold": 64
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 785
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/196/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/196/expert.json",
+     "raw_sha256": "3257b49c360a2821ea22e14f730da9d593bcb00dd7116e4f88674077a1a44c5c"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 785
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 97,
+      "flick": 35,
+      "tap": 499,
+      "slide": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 196,
+   "bandId": 1,
+   "jacketImage": "196_cheribom",
+   "bgmId": "bgm196"
+  },
+  "maa": {
+   "bestdori_song_id": 196,
+   "jacket": {
+    "path": "bestdori/196/jacket-cn-1.png",
+    "server": "cn",
+    "name": "196_cheribom"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/196/jacket-cn-1.png",
+   "sha256": "ab1bb3152aeb5c8f7cf0f9d36fb73d1f31d16b2fe5ea63999764ee2b6ef45427",
+   "width": 320,
+   "height": 320,
+   "bytes": 40513
+  }
+ },
+ "extra": {
+  "lyricist": "すぅ",
+  "composer": "クボナオキ",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1557727200000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "ちぇりぼむ",
+  "title_en": "Cherry Bomb",
+  "length_s": 106.176
+ }
+}

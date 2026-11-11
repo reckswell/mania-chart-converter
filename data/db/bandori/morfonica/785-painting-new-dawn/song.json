@@ -1,0 +1,145 @@
+{
+ "game": "bandori",
+ "song_id": "785",
+ "title": "Painting New Dawn",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2026-03-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 489
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/785/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/785/hard.json",
+     "raw_sha256": "4ed3761cf7a20eddfff395ddf50f1e7a44dc9cd79a5f39b342e6597cc1c51fdf"
+    },
+    "bestdori": {
+     "notes": 489
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 218,
+      "hold": 66,
+      "slide": 51,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 676
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/785/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/785/expert.json",
+     "raw_sha256": "77dee9be0bfc24002907b8fcb707535838393a4963adbbf6923accb201a1e2a2"
+    },
+    "bestdori": {
+     "notes": 676
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 360,
+      "hold": 60,
+      "slide": 68,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 785,
+   "bandId": 21,
+   "jacketImage": "785_painting_new_dawn",
+   "bgmId": "bgm785"
+  },
+  "maa": {
+   "bestdori_song_id": 785,
+   "jacket": {
+    "path": "bestdori/785/jacket-jp-1.png",
+    "server": "jp",
+    "name": "785_painting_new_dawn"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/785/jacket-jp-1.png",
+   "sha256": "6143082df99e344b1e2325c1b538365934bd75ef21134c1202241c87f9513665",
+   "width": 320,
+   "height": 320,
+   "bytes": 30079
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "笠井雄太（Elements Garden）",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1774936800000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "paintingnewdawn"
+ }
+}

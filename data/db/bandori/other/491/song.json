@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "491",
+ "title": "花呼ぶ声",
+ "artist": "kemu feat. 夢ノ結唱 POPY×夢ノ結唱 ROSE",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "kemu feat. 夢ノ結唱 POPY×夢ノ結唱 ROSE",
+ "bpm": "185",
+ "version": "",
+ "date_added": "2023-04-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 123
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 123
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 81,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 289
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 289
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 211,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 536
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/491/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/491/hard.json",
+     "raw_sha256": "f802fe86d9fd5c5b8e2021cd34821b5ead58bcf6d73a9c5648f1724591732010"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 536
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 370,
+      "flick": 7,
+      "slide": 21,
+      "hold": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 870
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/491/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/491/expert.json",
+     "raw_sha256": "27136b2291920954e5f5a7ae46ba4d20c151143693d612ce0bb64d6689250349"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 870
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 562,
+      "hold": 53,
+      "flick": 19,
+      "slide": 54
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 491,
+   "bandId": 62,
+   "jacketImage": "491_hana_yobu_koe",
+   "bgmId": "bgm491"
+  },
+  "maa": {
+   "bestdori_song_id": 491,
+   "jacket": {
+    "path": "bestdori/491/jacket-cn-1.png",
+    "server": "cn",
+    "name": "491_hana_yobu_koe"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/491/jacket-cn-1.png",
+   "sha256": "7b2c339e7dd0fc7b2b34aa9690f29cbd3e21d6d7c793488f330784469495fa44",
+   "width": 320,
+   "height": 320,
+   "bytes": 8666
+  }
+ },
+ "extra": {
+  "lyricist": "kemu",
+  "composer": "kemu",
+  "arranger": "kemu",
+  "tag": "normal",
+  "published_at": 1682661600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "はなよぶこえ",
+  "title_en": "Hanayobukoe",
+  "length_s": 114.216
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "428",
+ "title": "Happy! Happier! Happiest!",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "172",
+ "version": "",
+ "date_added": "2022-06-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 128
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 128
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 82,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 269
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 269
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 207,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 569
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/428/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/428/hard.json",
+     "raw_sha256": "3f9d21bcd973d17dd09345edbe31dd1359e1089f984340d8a55afaecc8c507ec"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 569
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 388,
+      "flick": 40,
+      "slide": 32,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 829
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/428/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/428/expert.json",
+     "raw_sha256": "c1964489fd2fdb9fb9db28c7298b8213c723cc3168e7b6cf5387fd1700e7bec4"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 829
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 590,
+      "hold": 28,
+      "slide": 46,
+      "flick": 61
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 428,
+   "bandId": 3,
+   "jacketImage": "428_hapihapihapi",
+   "bgmId": "bgm428"
+  },
+  "maa": {
+   "bestdori_song_id": 428,
+   "jacket": {
+    "path": "bestdori/428/jacket-cn-1.png",
+    "server": "cn",
+    "name": "428_hapihapihapi"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/428/jacket-cn-1.png",
+   "sha256": "0555ad1dbdf64099c114af1ba04774616d58fa81317a770fa5acdaf20dbf9b46",
+   "width": 320,
+   "height": 320,
+   "bytes": 37199
+  }
+ },
+ "extra": {
+  "lyricist": "前山田　健一",
+  "composer": "前山田　健一",
+  "arranger": "藤原燈太",
+  "tag": "normal",
+  "published_at": 1656568800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "happyhappierhappiest",
+  "length_s": 122.16
+ }
+}

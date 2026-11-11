@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "648",
+ "title": "Subtitle",
+ "artist": "MyGO!!!!!",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "MyGO!!!!!",
+ "bpm": "130",
+ "version": "",
+ "date_added": "2024-12-24",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 91
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 91
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 55,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 200
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 200
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 21,
+      "tap": 142,
+      "slide": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 381
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/648/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/648/hard.json",
+     "raw_sha256": "e5a7d89022be385d60c485097995ef5ba0b4ccde44db0add9d4eea622cabec4b"
+    },
+    "bestdori": {
+     "level": 18,
+     "notes": 381
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 42,
+      "tap": 177,
+      "hold": 19,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 555
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/648/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/648/expert.json",
+     "raw_sha256": "6af02931c9276e18a20a1b5ece05b2b87ccf6169eb25b50a7a4cd37590ed7f2f"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 555
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 370,
+      "slide": 44,
+      "hold": 18,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 648,
+   "bandId": 45,
+   "jacketImage": "648_subtitle",
+   "bgmId": "bgm648"
+  },
+  "maa": {
+   "bestdori_song_id": 648,
+   "jacket": {
+    "path": "bestdori/648/jacket-cn-1.png",
+    "server": "cn",
+    "name": "648_subtitle"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/648/jacket-cn-1.png",
+   "sha256": "0e8af315fb1f3fe475809765ab08701dd4c4fb79cfedbf697b8588654c703417",
+   "width": 320,
+   "height": 320,
+   "bytes": 21041
+  }
+ },
+ "extra": {
+  "lyricist": "藤原 聡",
+  "composer": "藤原 聡",
+  "arranger": "植木建象、冬真",
+  "tag": "anime",
+  "published_at": 1735020000000,
+  "closed_at": 4122241200000,
+  "music_data_type": "normal",
+  "ruby": "subtitle",
+  "length_s": 117.288
+ }
+}

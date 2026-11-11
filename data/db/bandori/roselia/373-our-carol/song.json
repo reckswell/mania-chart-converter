@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "373",
+ "title": "Our Carol",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "135",
+ "version": "",
+ "date_added": "2021-11-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 71
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 71
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 59,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 164
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 164
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 128,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 367
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/373/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/373/hard.json",
+     "raw_sha256": "0c90454dee13b590f55219798a8c456200b4354140339aca768abc69b1dec5c2"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 367
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 265,
+      "flick": 3,
+      "slide": 10,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 512
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/373/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/373/expert.json",
+     "raw_sha256": "b81dc05f2ceb1a8d4ba0e21789d6fecc1caace3740490a9b0a6308dba8119cc9"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 512
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 384,
+      "slide": 21,
+      "flick": 7,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 373,
+   "bandId": 5,
+   "jacketImage": "373_our_carol",
+   "bgmId": "bgm373"
+  },
+  "maa": {
+   "bestdori_song_id": 373,
+   "jacket": {
+    "path": "bestdori/373/jacket-cn-1.png",
+    "server": "cn",
+    "name": "373_our_carol"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/373/jacket-cn-1.png",
+   "sha256": "a34329225963c553ef77534f5233cf9f4394a73aa3bb8a927e84c974a07074a2",
+   "width": 320,
+   "height": 320,
+   "bytes": 31866
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "日高勇輝（Elements Garden）",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1638252000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ourcarol",
+  "length_s": 102.288
+ }
+}

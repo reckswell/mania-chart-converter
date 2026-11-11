@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "583",
+ "title": "ReReReエボリューションず☆",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "80-188",
+ "version": "",
+ "date_added": "2024-02-09",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 107
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 107
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 22,
+      "tap": 63
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 201
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 201
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 28,
+      "tap": 137,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 349
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/583/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/583/hard.json",
+     "raw_sha256": "0f19d22f3b71ba4632429dfeb5d02f0958ceee30cdd120fc1f89df6b5acfed11"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 349
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 45,
+      "tap": 227,
+      "flick": 13,
+      "slide": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 579
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/583/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/583/expert.json",
+     "raw_sha256": "b918b65b9ed925e506f20e44ab9aa70bf0d6f52e4afb9cfe87a3fcba433422c9"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 579
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 364,
+      "hold": 28,
+      "slide": 31,
+      "flick": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 583,
+   "bandId": 4,
+   "jacketImage": "583_rerere_evolutions",
+   "bgmId": "bgm583"
+  },
+  "maa": {
+   "bestdori_song_id": 583,
+   "jacket": {
+    "path": "bestdori/583/jacket-cn-1.png",
+    "server": "cn",
+    "name": "583_rerere_evolutions"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/583/jacket-cn-1.png",
+   "sha256": "ebb55039b9d0a3785bb969f02e59a0f23d7f52ec4abbb1b888dc4bc248e4cb7d",
+   "width": 320,
+   "height": 320,
+   "bytes": 25380
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤間仁（Elements Garden）",
+  "arranger": "藤間仁（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1707458400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "りりりえぼりゅーしょんず",
+  "title_en": "ReReRe Evolutions☆",
+  "length_s": 106.152
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "520",
+ "title": "Ever Sky Blue",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "195",
+ "version": "",
+ "date_added": "2023-10-05",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 107
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 107
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 24,
+      "tap": 59
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 201
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 201
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 137,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 487
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/520/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/520/hard.json",
+     "raw_sha256": "095860620a551e235f882bcd69a4f7808802cd3b4faacd8ace342810c10f0191"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 487
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 352,
+      "hold": 45,
+      "slide": 11,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 751
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/520/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/520/expert.json",
+     "raw_sha256": "019d20875935b9ac11fa9331b6f45aef06cc8450560f48c56fa71d27714a9d4c"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 751
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 509,
+      "hold": 42,
+      "slide": 39,
+      "flick": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 520,
+   "bandId": 21,
+   "jacketImage": "520_ever_sky_blue",
+   "bgmId": "bgm520"
+  },
+  "maa": {
+   "bestdori_song_id": 520,
+   "jacket": {
+    "path": "bestdori/520/jacket-cn-1.png",
+    "server": "cn",
+    "name": "520_ever_sky_blue"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/520/jacket-cn-1.png",
+   "sha256": "391d518386d51d64937c3de3cd73d34ffd0b4f9531f88ba2d463d50a033187b0",
+   "width": 320,
+   "height": 320,
+   "bytes": 19527
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "Seonoo Kim（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1696510800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "everskyblue",
+  "length_s": 108.984
+ }
+}

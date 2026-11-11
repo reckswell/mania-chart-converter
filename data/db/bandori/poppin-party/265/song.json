@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "265",
+ "title": "ミライトレイン",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "176",
+ "version": "",
+ "date_added": "2020-04-24",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 135
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 135
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 71,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 275
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 275
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 173,
+      "hold": 51
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 436
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/265/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/265/hard.json",
+     "raw_sha256": "52401dc84ea9829ac9bad94beafeef758f23bb3358d21d8fe5cebf8edb2420af"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 436
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 245,
+      "hold": 33,
+      "slide": 20,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 626
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/265/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/265/expert.json",
+     "raw_sha256": "c486ea403df7fddc9e095694f1e3576c512ac70c911910ae925ca06252e33437"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 626
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 362,
+      "hold": 42,
+      "slide": 64,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 265,
+   "bandId": 1,
+   "jacketImage": "265_miraitrain",
+   "bgmId": "bgm265"
+  },
+  "maa": {
+   "bestdori_song_id": 265,
+   "jacket": {
+    "path": "bestdori/265/jacket-cn-1.png",
+    "server": "cn",
+    "name": "265_miraitrain"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/265/jacket-cn-1.png",
+   "sha256": "f5fae373e790c3bafde2c168a7fe45588a297ebf6ea8308df5f6312bebd93994",
+   "width": 320,
+   "height": 320,
+   "bytes": 19826
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1587708000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "みらいとれいん",
+  "title_en": "Mirai Train",
+  "length_s": 108.48
+ }
+}

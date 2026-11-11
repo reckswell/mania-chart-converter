@@ -1,0 +1,178 @@
+{
+ "game": "bandori",
+ "song_id": "385",
+ "title": "もういちど ルミナス（コラボver）",
+ "artist": "ClariS × 丸山彩 from Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ClariS × 丸山彩 from Pastel＊Palettes",
+ "bpm": "169",
+ "version": "",
+ "date_added": "2021-12-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 111
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 111
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 89,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 248
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 248
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 150,
+      "hold": 47,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 459
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/385/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/385/hard.json",
+     "raw_sha256": "5c0fdcc68e43e5b5b34638aba184a581acac1661089446e389636e94613257e2"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 459
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 268,
+      "hold": 42,
+      "slide": 38,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 742
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/385/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/385/expert.json",
+     "raw_sha256": "194b8b571fefaeef5ebd885e3516b330cda9d931b2fc472c00e3ffd50a450f9f"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 742
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 474,
+      "flick": 9,
+      "hold": 48,
+      "slide": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 385,
+   "bandId": 39,
+   "jacketImage": "385_luminous_claris",
+   "bgmId": "bgm385"
+  },
+  "maa": {
+   "bestdori_song_id": 385,
+   "jacket": {
+    "path": "bestdori/385/jacket-cn-1.png",
+    "server": "cn",
+    "name": "385_luminous_claris"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/385/jacket-cn-1.png",
+   "sha256": "3a30a640f0354cc77a495472dfd386d081a558cfce7834763ecbd9637d1317a3",
+   "width": 320,
+   "height": 320,
+   "bytes": 17395
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "末益涼太（Elements Garden）",
+  "arranger": "重永亮介",
+  "tag": "normal",
+  "published_at": 1640844000000,
+  "closed_at": 1643435999000,
+  "music_data_type": "collabo_original",
+  "ruby": "もういちどるみなす",
+  "removed": true,
+  "closed_date": "2022-01-29",
+  "title_en": "Luminous Once More (Collab ver.)",
+  "length_s": 118.632
+ }
+}

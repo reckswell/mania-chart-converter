@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "203",
+ "title": "A DECLARATION OF ×××",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "150",
+ "version": "",
+ "date_added": "2020-04-25",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 175
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 175
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 85,
+      "hold": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 288
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 288
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 152,
+      "hold": 68
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 445
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/203/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/203/hard.json",
+     "raw_sha256": "6d00cf3ccdd3a6ed43a816e323582e8373cd5f346ee7be6eb100e4e84b02efd8"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 445
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 40,
+      "tap": 259,
+      "flick": 24,
+      "slide": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 821
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/203/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/203/expert.json",
+     "raw_sha256": "f681f02c3cf83154b6ed108bd5ad4da16e00f3ed482ac43ad9d7d7e30c7fb812"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 821
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 475,
+      "hold": 49,
+      "slide": 72,
+      "flick": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 203,
+   "bandId": 18,
+   "jacketImage": "203_declaration",
+   "bgmId": "bgm203"
+  },
+  "maa": {
+   "bestdori_song_id": 203,
+   "jacket": {
+    "path": "bestdori/203/jacket-cn-1.png",
+    "server": "cn",
+    "name": "203_declaration"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/203/jacket-cn-1.png",
+   "sha256": "f9cf8e37b417c2a8dc810a3fbe18c23cb924aca18cf9f96f2bb2d160d1323a4e",
+   "width": 320,
+   "height": 320,
+   "bytes": 36680
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1587794400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "adeclarationof",
+  "length_s": 120.072
+ }
+}

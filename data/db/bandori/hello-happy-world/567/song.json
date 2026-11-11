@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "567",
+ "title": "強風オールバック",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "135",
+ "version": "",
+ "date_added": "2023-12-26",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 99
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 99
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 99
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 277
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 277
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 263,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 473
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/567/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/567/hard.json",
+     "raw_sha256": "d2632986635ad96e835bd68253011636010ae7ed78efbd34bcdac4e321e19e2a"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 473
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 15,
+      "tap": 373,
+      "hold": 13,
+      "slide": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 743
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/567/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/567/expert.json",
+     "raw_sha256": "e07794790db5a1339f9329b708f3341426101d3dc353e4b5b8fcc55ac689921c"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 743
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 31,
+      "tap": 469,
+      "slide": 72,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 567,
+   "bandId": 3,
+   "jacketImage": "567_kyohu_allback",
+   "bgmId": "bgm567"
+  },
+  "maa": {
+   "bestdori_song_id": 567,
+   "jacket": {
+    "path": "bestdori/567/jacket-cn-1.png",
+    "server": "cn",
+    "name": "567_kyohu_allback"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/567/jacket-cn-1.png",
+   "sha256": "6120e8b6d9522f9494f6d75707c58723c8b8d1487022aebb1dcf11ece848311c",
+   "width": 320,
+   "height": 320,
+   "bytes": 33856
+  }
+ },
+ "extra": {
+  "lyricist": "ゆこぴ",
+  "composer": "ゆこぴ",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1703570400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "きょうふうおーるばっく",
+  "title_en": "Kyoufuu All Back",
+  "length_s": 129.84
+ }
+}

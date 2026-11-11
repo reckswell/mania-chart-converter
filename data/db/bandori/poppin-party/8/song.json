@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "8",
+ "title": "空色デイズ",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "174",
+ "version": "",
+ "date_added": "2016-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 71
+   },
+   "source": {
+    "notesQuantity": 81,
+    "bestdori": {
+     "level": 5,
+     "notes": 71
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 61,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 81 differs from combo 71 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 201
+   },
+   "source": {
+    "notesQuantity": 168,
+    "bestdori": {
+     "level": 12,
+     "notes": 201
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 183,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 168 differs from combo 201 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 399
+   },
+   "source": {
+    "notesQuantity": 417,
+    "maa": {
+     "path": "bestdori/8/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/8/hard.json",
+     "raw_sha256": "52e5c0fce5c26f9e48bd5372709020d5f7e79afffe0958877cf273f54eb8c307"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 399
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 359,
+      "hold": 18,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 417 differs from combo 399 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 626
+   },
+   "source": {
+    "notesQuantity": 626,
+    "maa": {
+     "path": "bestdori/8/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/8/expert.json",
+     "raw_sha256": "cc8683a15e87fb3efda45bffba00f3073b6561f41bbd57c760476f8a69227d6c"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 626
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 384,
+      "flick": 71,
+      "slide": 28,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 760
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1641362400000,
+    "maa": {
+     "path": "bestdori/8/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/8/special.json",
+     "raw_sha256": "f1e07341d6323bd584f5ca0cb0d01c92d3110625a64dc291add59179d581cf2e"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 760
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 474,
+      "slide": 81,
+      "flick": 58,
+      "hold": 13
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 8,
+   "bandId": 1,
+   "jacketImage": "sorairodays",
+   "bgmId": "bgm008"
+  },
+  "maa": {
+   "bestdori_song_id": 8,
+   "jacket": {
+    "path": "bestdori/8/jacket-cn-1.png",
+    "server": "cn",
+    "name": "sorairodays"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/8/jacket-cn-1.png",
+   "sha256": "5fd8ba98c79f42300259f067f6786c9d34567ee15a233be6a56aff2fe9e05cbe",
+   "width": 320,
+   "height": 320,
+   "bytes": 23553
+  }
+ },
+ "extra": {
+  "lyricist": "meg rock",
+  "composer": "齋藤真也",
+  "arranger": "都丸椋太（Elements Garden）／加納望",
+  "tag": "anime",
+  "published_at": 1462071600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "そらいろでいず",
+  "title_en": "Sorairo Days",
+  "length_s": 104.928
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "659",
+ "title": "KiLLKiSS",
+ "artist": "Ave Mujica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Ave Mujica",
+ "bpm": "200",
+ "version": "",
+ "date_added": "2025-01-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 98
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 98
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 74,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 259
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 259
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 213,
+      "hold": 19,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 503
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/659/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/659/hard.json",
+     "raw_sha256": "2589897f174214debef13ad64e0684d32b0887fe95b2958b73e1fb71addf5fd8"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 503
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 389,
+      "hold": 35,
+      "slide": 10,
+      "flick": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 903
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/659/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/659/expert.json",
+     "raw_sha256": "0474ef7a6b45f74a356810e01f5598b936950f45e1d0dfd167f5c2f14ddb91d8"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 903
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 678,
+      "flick": 58,
+      "hold": 35,
+      "slide": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 659,
+   "bandId": 46,
+   "jacketImage": "659_kill_kiss",
+   "bgmId": "bgm659"
+  },
+  "maa": {
+   "bestdori_song_id": 659,
+   "jacket": {
+    "path": "bestdori/659/jacket-cn-1.png",
+    "server": "cn",
+    "name": "659_kill_kiss"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/659/jacket-cn-1.png",
+   "sha256": "9a33bda8e5d781b832917f70cc1431f8d1b26a1ef6392c1b4faf4298cdec3cf6",
+   "width": 320,
+   "height": 320,
+   "bytes": 40661
+  }
+ },
+ "extra": {
+  "lyricist": "Diggy-MO’",
+  "composer": "長谷川大介(SUPA LOVE)、Diggy-MO’",
+  "arranger": "長谷川大介(SUPA LOVE)",
+  "tag": "normal",
+  "published_at": 1735830000000,
+  "closed_at": 4123191600000,
+  "music_data_type": "normal",
+  "ruby": "killkiss",
+  "length_s": 96.072
+ }
+}

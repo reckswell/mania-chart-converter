@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "206",
+ "title": "1/3の純情な感情",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "152",
+ "version": "",
+ "date_added": "2019-07-14",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 113
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 113
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 75,
+      "hold": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 189
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 189
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 167,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 421
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/206/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/206/hard.json",
+     "raw_sha256": "518604983b4b3269ef7e1c5a5c488d3a80468da8061df91382ca0e980971bd8f"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 421
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 322,
+      "hold": 35,
+      "flick": 5,
+      "slide": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 614
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/206/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/206/expert.json",
+     "raw_sha256": "181a755063ffc47eba809d7d4bafb286545fd0948bab8aefae6a95dc06d13adc"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 614
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 431,
+      "hold": 50,
+      "slide": 23,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 470
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1635508800000,
+    "maa": {
+     "path": "bestdori/206/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/206/special.json",
+     "raw_sha256": "95172c73343cf1fa50d6791bd9da9508ac9c1c03d1754909fad4582e857fd53f"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 470
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 281,
+      "slide": 59,
+      "hold": 14,
+      "flick": 16
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 206,
+   "bandId": 18,
+   "jacketImage": "206_junjo",
+   "bgmId": "bgm206"
+  },
+  "maa": {
+   "bestdori_song_id": 206,
+   "jacket": {
+    "path": "bestdori/206/jacket-cn-1.png",
+    "server": "cn",
+    "name": "206_junjo"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/206/jacket-cn-1.png",
+   "sha256": "1f11a41e2bf116891298bc199a55ce5c4138d406bfbc1401c9f920e8eaa8eced",
+   "width": 320,
+   "height": 320,
+   "bytes": 17143
+  }
+ },
+ "extra": {
+  "lyricist": "SIAM SHADE",
+  "composer": "SIAM SHADE",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1563109200000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "3ぶんの1のじゅんじょうなかんじょう",
+  "title_en": "1/3 NO JUNJOUNA KANJOU",
+  "length_s": 101.904
+ }
+}

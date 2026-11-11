@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "375",
+ "title": "Embrace of light",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "76",
+ "version": "",
+ "date_added": "2021-10-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 83
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 83
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 17,
+      "tap": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 159
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 159
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 28,
+      "tap": 99,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 277
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/375/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/375/hard.json",
+     "raw_sha256": "582abefdabae96f1a8d7e223730ee29f4d2a9c8c9647a05fb7df7777d7430266"
+    },
+    "bestdori": {
+     "level": 18,
+     "notes": 277
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 29,
+      "tap": 171,
+      "slide": 18,
+      "flick": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 376
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/375/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/375/expert.json",
+     "raw_sha256": "d964058049835adc3a7524d61db126b60d0ab78e921431f4a63cb4790a076256"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 376
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 271,
+      "hold": 26,
+      "slide": 19,
+      "flick": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 375,
+   "bandId": 18,
+   "jacketImage": "375_embrace_of_light",
+   "bgmId": "bgm375"
+  },
+  "maa": {
+   "bestdori_song_id": 375,
+   "jacket": {
+    "path": "bestdori/375/jacket-cn-1.png",
+    "server": "cn",
+    "name": "375_embrace_of_light"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/375/jacket-cn-1.png",
+   "sha256": "04548fde17e2b3192120699ba4675e3b60ced89624c8bf44b10eb22c5e9d0fc9",
+   "width": 320,
+   "height": 320,
+   "bytes": 24854
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1635400800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "embraceoflight",
+  "length_s": 115.32
+ }
+}

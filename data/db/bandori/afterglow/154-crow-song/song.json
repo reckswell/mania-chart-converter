@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "154",
+ "title": "Crow Song",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "174",
+ "version": "",
+ "date_added": "2018-11-16",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 163
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 163
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 107,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 274
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 274
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 198,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 574
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/154/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/154/hard.json",
+     "raw_sha256": "d66414e3b5a52098577bab200228dedf0a474cff3987d1cabf03d4c9a9998c2d"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 574
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 333,
+      "flick": 11,
+      "slide": 51,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 865
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/154/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/154/expert.json",
+     "raw_sha256": "e3d9cea83b302242ff42b82510bc989d115e4e56a39d1f202be1cf530d41704a"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 865
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 572,
+      "flick": 15,
+      "slide": 60,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 154,
+   "bandId": 2,
+   "jacketImage": "154_crowsong",
+   "bgmId": "bgm154"
+  },
+  "maa": {
+   "bestdori_song_id": 154,
+   "jacket": {
+    "path": "bestdori/154/jacket-cn-1.png",
+    "server": "cn",
+    "name": "154_crowsong"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/154/jacket-cn-1.png",
+   "sha256": "7fe7cb391bf4da2cabbbccf666fcf75b972ef6b5c6fbef0af5c20d8d2a2f9554",
+   "width": 320,
+   "height": 320,
+   "bytes": 39324
+  }
+ },
+ "extra": {
+  "lyricist": "Jun Maeda",
+  "composer": "Jun Maeda",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1542348000000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "crowsong",
+  "length_s": 117.312
+ }
+}

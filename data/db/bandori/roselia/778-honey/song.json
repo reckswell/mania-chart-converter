@@ -1,0 +1,145 @@
+{
+ "game": "bandori",
+ "song_id": "778",
+ "title": "HONEY",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "182",
+ "version": "",
+ "date_added": "2026-03-18",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 462
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/778/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/778/hard.json",
+     "raw_sha256": "24abbf94cfee542a8ef452bac625efbc500a1540221685e7b0ef4e9d3084e098"
+    },
+    "bestdori": {
+     "notes": 462
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 254,
+      "hold": 68,
+      "flick": 16,
+      "slide": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 619
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/778/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/778/expert.json",
+     "raw_sha256": "a58cd572976a38d292630aa50be2826c910e047db5a5618284c0fad9de00c25a"
+    },
+    "bestdori": {
+     "notes": 619
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 426,
+      "hold": 34,
+      "slide": 41,
+      "flick": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 778,
+   "bandId": 5,
+   "jacketImage": "778_honey",
+   "bgmId": "bgm778"
+  },
+  "maa": {
+   "bestdori_song_id": 778,
+   "jacket": {
+    "path": "bestdori/778/jacket-jp-1.png",
+    "server": "jp",
+    "name": "778_honey"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/778/jacket-jp-1.png",
+   "sha256": "58652589b788600ddf3d6021a6cab72d9427c9d4b25ba537f734053fde402e60",
+   "width": 320,
+   "height": 320,
+   "bytes": 30762
+  }
+ },
+ "extra": {
+  "lyricist": "hyde",
+  "composer": "hyde",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1773813600000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "honey"
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "352",
+ "title": "COLORFUL BOX",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "161",
+ "version": "",
+ "date_added": "2021-08-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 156
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 156
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 116,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 307
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 307
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 239,
+      "hold": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 546
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/352/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/352/hard.json",
+     "raw_sha256": "66304cdf143d7b551f63514d6f6e422a494a978ad9b59b2a8de4ee6800f6b132"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 546
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 359,
+      "slide": 29,
+      "flick": 13,
+      "hold": 54
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 819
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/352/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/352/expert.json",
+     "raw_sha256": "36dc19e06a2d3fba7bce944ae6e0f3a9a991cd6e35cb81e26054c6171ce67a4f"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 819
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 462,
+      "slide": 82,
+      "flick": 27,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 352,
+   "bandId": 21,
+   "jacketImage": "352_colorful_box",
+   "bgmId": "bgm352"
+  },
+  "maa": {
+   "bestdori_song_id": 352,
+   "jacket": {
+    "path": "bestdori/352/jacket-cn-1.png",
+    "server": "cn",
+    "name": "352_colorful_box"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/352/jacket-cn-1.png",
+   "sha256": "cdfdc1710ad5dd15307e94cef406c37e0251e11409b00ba6d938a4738941c678",
+   "width": 320,
+   "height": 320,
+   "bytes": 26408
+  }
+ },
+ "extra": {
+  "lyricist": "分島花音",
+  "composer": "カヨコ",
+  "arranger": "Elements Garden",
+  "tag": "anime",
+  "published_at": 1629460800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "colorfulbox",
+  "length_s": 127.512
+ }
+}

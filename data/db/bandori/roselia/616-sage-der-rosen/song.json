@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "616",
+ "title": "Sage der Rosen",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "138-162",
+ "version": "",
+ "date_added": "2024-06-26",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 136
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 136
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 29,
+      "tap": 78
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 207
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 207
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 27,
+      "tap": 149,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 445
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/616/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/616/hard.json",
+     "raw_sha256": "e002bae0fd1510ea6039afb8faf4ee3f76825a4c16864bfa9d78dd179668083f"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 445
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 41,
+      "flick": 20,
+      "tap": 229,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 626
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/616/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/616/expert.json",
+     "raw_sha256": "e7cdec74804ef96944e12eaaeec84b0a8373eae745d65b38378f4770bf341b1f"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 626
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 60,
+      "flick": 38,
+      "tap": 358,
+      "hold": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 616,
+   "bandId": 5,
+   "jacketImage": "616_sage_der_rosen",
+   "bgmId": "bgm616"
+  },
+  "maa": {
+   "bestdori_song_id": 616,
+   "jacket": {
+    "path": "bestdori/616/jacket-cn-1.png",
+    "server": "cn",
+    "name": "616_sage_der_rosen"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/616/jacket-cn-1.png",
+   "sha256": "03792c9d2eb89e525892caa0d3de4a2bc567ecc404d21925a791fc4585462315",
+   "width": 320,
+   "height": 320,
+   "bytes": 28739
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1719381600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "sagederrosen",
+  "length_s": 114.168
+ }
+}

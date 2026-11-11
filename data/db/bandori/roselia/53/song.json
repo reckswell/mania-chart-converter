@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "53",
+ "title": "陽だまりロードナイト",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "143",
+ "version": "",
+ "date_added": "2017-06-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 99
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 99
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 69,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 188
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 188
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 134,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 413
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/53/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/53/hard.json",
+     "raw_sha256": "4ac41c607707e64aae5e0a9f5dd67bb4abbf92be55d024d8b159082d86b62707"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 413
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 266,
+      "slide": 25,
+      "hold": 29,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 659
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/53/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/53/expert.json",
+     "raw_sha256": "13e6f8e14c4f90bf4efb4a914e091bcb8f2a85fd2fe55df9833cdb6fd9e2a42d"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 659
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 414,
+      "hold": 54,
+      "slide": 30,
+      "flick": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 667
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1560859200000,
+    "maa": {
+     "path": "bestdori/53/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/53/special.json",
+     "raw_sha256": "90534f4e55bdf933a490527bd1b628e1e2b91e73af66ec15b5cfc7b55220cb4d"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 667
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 383,
+      "flick": 55,
+      "hold": 67,
+      "slide": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 53,
+   "bandId": 5,
+   "jacketImage": "053_hidamari",
+   "bgmId": "bgm053"
+  },
+  "maa": {
+   "bestdori_song_id": 53,
+   "jacket": {
+    "path": "bestdori/53/jacket-cn-1.png",
+    "server": "cn",
+    "name": "053_hidamari"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/53/jacket-cn-1.png",
+   "sha256": "15a9040115f4ddc13e323e112755cc02daf541abe9005c3c380a322dd46e2986",
+   "width": 320,
+   "height": 320,
+   "bytes": 18462
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1498024800000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "ひだまりろーどないと",
+  "title_en": "Sunkissed Rhodonite",
+  "length_s": 119.232
+ }
+}

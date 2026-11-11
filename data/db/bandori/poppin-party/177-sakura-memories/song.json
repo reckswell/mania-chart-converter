@@ -1,0 +1,173 @@
+{
+ "game": "bandori",
+ "song_id": "177",
+ "title": "SAKURA MEMORIES",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "176",
+ "version": "",
+ "date_added": "2019-03-08",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 152
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 152
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 88,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 234
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 234
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 144,
+      "hold": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 458
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/177/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/177/hard.json",
+     "raw_sha256": "f247f77d876481de6fa19ec6ae5d67f5dee6a553972e10ce7fd626459e71bea4"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 458
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 301,
+      "hold": 70,
+      "flick": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 651
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/177/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/177/expert.json",
+     "raw_sha256": "28eaa270ca6c33308647bf5b78e68ce3a04e670cc58d16154d31966604ec6c1a"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 651
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 448,
+      "hold": 64,
+      "slide": 23,
+      "flick": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 177,
+   "bandId": 1,
+   "jacketImage": "177_sakuramemories",
+   "bgmId": "bgm177"
+  },
+  "maa": {
+   "bestdori_song_id": 177,
+   "jacket": {
+    "path": "bestdori/177/jacket-cn-1.png",
+    "server": "cn",
+    "name": "177_sakuramemories"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/177/jacket-cn-1.png",
+   "sha256": "b804c0b84d6b53e75716f0f8c5fe4d6df7053ff1202a91f2f3ab0bf7006636c3",
+   "width": 320,
+   "height": 320,
+   "bytes": 14525
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "藤間仁（Elements Garden）",
+  "arranger": "藤間仁（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1552024800000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "sakuramemories",
+  "length_s": 119.376
+ }
+}

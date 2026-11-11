@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "339",
+ "title": "Domination to world",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "200",
+ "version": "",
+ "date_added": "2021-05-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 153
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 153
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 95,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 282
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 282
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 38,
+      "tap": 206
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 595
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/339/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/339/hard.json",
+     "raw_sha256": "96c9d2cc3489f0354f91789d1dad4204e914ba4aa3cbf9630d907a6e17dd338f"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 595
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 398,
+      "slide": 40,
+      "flick": 6,
+      "hold": 55
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 932
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/339/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/339/expert.json",
+     "raw_sha256": "f5fdc361a894f8d1c5cf2afe1de707430b18a331becb0be3fdaa2dc2df0d5684"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 932
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 82,
+      "tap": 623,
+      "flick": 14,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 339,
+   "bandId": 18,
+   "jacketImage": "339_domination_to_world_1",
+   "bgmId": "bgm339"
+  },
+  "maa": {
+   "bestdori_song_id": 339,
+   "jacket": {
+    "path": "bestdori/339/jacket-cn-2.png",
+    "server": "cn",
+    "name": "339_domination_to_world_1"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/339/jacket-cn-2.png",
+   "sha256": "e3f01b449d6e7e60943f84424272c4cb133fb8364ce9837315c5165a78c1a14e",
+   "width": 320,
+   "height": 320,
+   "bytes": 43997
+  }
+ },
+ "extra": {
+  "lyricist": "Spirit Garden",
+  "composer": "都丸椋太（Elements Garden）",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1621576800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "dominationtoworld",
+  "length_s": 109.872
+ }
+}

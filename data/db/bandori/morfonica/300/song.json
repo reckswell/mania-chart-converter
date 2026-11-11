@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "300",
+ "title": "ハーモニー・デイ",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "182",
+ "version": "",
+ "date_added": "2020-11-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 117
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 117
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 24,
+      "tap": 69
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 219
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 219
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 127,
+      "hold": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 413
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/300/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/300/hard.json",
+     "raw_sha256": "a5a3074aadf5f5ddff5250e4583af490c0c41e9f6304bd4d6fd05a10c2fa605f"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 413
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 258,
+      "hold": 47,
+      "slide": 9,
+      "flick": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 592
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/300/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/300/expert.json",
+     "raw_sha256": "8c4351199c5f1098df640d8031bfefe04baf5441e3774b5e3ad95ae05429ec2d"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 592
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 390,
+      "hold": 53,
+      "slide": 19,
+      "flick": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 300,
+   "bandId": 21,
+   "jacketImage": "300_harmony_day_1",
+   "bgmId": "bgm300"
+  },
+  "maa": {
+   "bestdori_song_id": 300,
+   "jacket": {
+    "path": "bestdori/300/jacket-cn-2.png",
+    "server": "cn",
+    "name": "300_harmony_day_1"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/300/jacket-cn-2.png",
+   "sha256": "81fd47f748a4fe0687a4114cfdb7f5441db4d94868d5f51cfe584fac9002a7d6",
+   "width": 320,
+   "height": 320,
+   "bytes": 44222
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤間仁（Elements Garden）",
+  "arranger": "藤間仁（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1604988000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "はーもにーでい",
+  "title_en": "Harmony Day",
+  "length_s": 97.632
+ }
+}

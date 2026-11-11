@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "511",
+ "title": "Sunlit Musical",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "185",
+ "version": "",
+ "date_added": "2023-07-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 97
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 97
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 31,
+      "tap": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 165
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 165
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 99,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 468
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/511/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/511/hard.json",
+     "raw_sha256": "2f56a2611cb6d7b3d05bb255a1963008111bf29abda2844e5aaaccc14c516cb9"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 468
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 307,
+      "hold": 64,
+      "slide": 4,
+      "flick": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 685
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/511/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/511/expert.json",
+     "raw_sha256": "70dfd3cf8b4b7d8eb82c877491059d64902ae8fad55ed9f3fa46e11922b79501"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 685
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 502,
+      "hold": 58,
+      "slide": 11,
+      "flick": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 511,
+   "bandId": 5,
+   "jacketImage": "511_sunlit_musical",
+   "bgmId": "bgm511"
+  },
+  "maa": {
+   "bestdori_song_id": 511,
+   "jacket": {
+    "path": "bestdori/511/jacket-cn-1.png",
+    "server": "cn",
+    "name": "511_sunlit_musical"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/511/jacket-cn-1.png",
+   "sha256": "69c823c05196d767e9f009f3f931ab5175c2f172c6fed8c670846c7f0d02cca1",
+   "width": 320,
+   "height": 320,
+   "bytes": 17432
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "堀川大翼（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1690610400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "sunlitmusical",
+  "length_s": 105.792
+ }
+}

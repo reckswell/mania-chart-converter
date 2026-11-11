@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "400",
+ "title": "CATASTROPHE BANQUET",
+ "artist": "レイヤ×紗夜×沙綾×ミッシェル×瑠唯",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "レイヤ×紗夜×沙綾×ミッシェル×瑠唯",
+ "bpm": "102-160",
+ "version": "",
+ "date_added": "2022-02-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 139
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 139
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 11,
+      "tap": 117
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 284
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 284
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 45,
+      "tap": 194
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 506
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/400/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/400/hard.json",
+     "raw_sha256": "96f53139c6f3c1f11d2ec4a72ac87b3d86aad595dbfb8af629a80db715f8bb25"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 506
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 36,
+      "flick": 11,
+      "tap": 282,
+      "hold": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 950
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/400/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/400/expert.json",
+     "raw_sha256": "205927d8c728b749f632c80fa9eb09e064fa5ef86a2122bb414904bc444c1550"
+    },
+    "bestdori": {
+     "level": 29,
+     "notes": 950
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 544,
+      "slide": 78,
+      "flick": 58,
+      "hold": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 400,
+   "bandId": 43,
+   "jacketImage": "400_catastrophebanquet",
+   "bgmId": "bgm400"
+  },
+  "maa": {
+   "bestdori_song_id": 400,
+   "jacket": {
+    "path": "bestdori/400/jacket-cn-1.png",
+    "server": "cn",
+    "name": "400_catastrophebanquet"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/400/jacket-cn-1.png",
+   "sha256": "3b9fe2466fe30bd606e30ee28a012a10292966742ea595e21a828474f463b134",
+   "width": 320,
+   "height": 320,
+   "bytes": 43269
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "都丸椋太（Elements Garden）",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1645250400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "catastrophebanquet",
+  "length_s": 109.68
+ }
+}

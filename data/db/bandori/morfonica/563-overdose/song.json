@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "563",
+ "title": "Overdose",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "118",
+ "version": "",
+ "date_added": "2023-12-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 107
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 107
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 95,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 190
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 190
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 168,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 439
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/563/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/563/hard.json",
+     "raw_sha256": "59925d12a5d2367a54b37b838d321c517cb446491bc4c4dd5deceee5776cdfca"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 439
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 306,
+      "hold": 29,
+      "slide": 23,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 737
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/563/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/563/expert.json",
+     "raw_sha256": "9af3da2b186e5bbfe1d92b709c4bedb3fcb97365efe0ef31d5e63401ff2175f2"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 737
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 56,
+      "tap": 427,
+      "slide": 50,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 563,
+   "bandId": 21,
+   "jacketImage": "563_overdose",
+   "bgmId": "bgm563"
+  },
+  "maa": {
+   "bestdori_song_id": 563,
+   "jacket": {
+    "path": "bestdori/563/jacket-cn-1.png",
+    "server": "cn",
+    "name": "563_overdose"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/563/jacket-cn-1.png",
+   "sha256": "ab236da0d1879cfaa65aad257c01d81a48d1e2046257c05ca453d5b08611ea1e",
+   "width": 320,
+   "height": 320,
+   "bytes": 24830
+  }
+ },
+ "extra": {
+  "lyricist": "なとり",
+  "composer": "なとり",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1703743200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "overdose",
+  "length_s": 122.088
+ }
+}

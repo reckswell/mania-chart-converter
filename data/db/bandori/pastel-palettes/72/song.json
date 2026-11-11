@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "72",
+ "title": "はなまるぴっぴはよいこだけ",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "172",
+ "version": "",
+ "date_added": "2017-09-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 193
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 193
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 119,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 318
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 318
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 210,
+      "hold": 54
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 507
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/72/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/72/hard.json",
+     "raw_sha256": "6ccb529341efd357e90408510d3d093dd6534592d0709f261067956339addf71"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 507
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 303,
+      "hold": 56,
+      "flick": 8,
+      "slide": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 729
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/72/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/72/expert.json",
+     "raw_sha256": "e0034834e13e5dd58459d204ad3d947ba7eb24f587a5e1f0eee0aebc122e6e9c"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 729
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 32,
+      "tap": 447,
+      "hold": 53,
+      "flick": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 72,
+   "bandId": 4,
+   "jacketImage": "072_pippi",
+   "bgmId": "bgm072"
+  },
+  "maa": {
+   "bestdori_song_id": 72,
+   "jacket": {
+    "path": "bestdori/72/jacket-cn-1.png",
+    "server": "cn",
+    "name": "072_pippi"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/72/jacket-cn-1.png",
+   "sha256": "25a30303c073130ffa649ad3504ef86f888ddba52680b719f42bb4d9e181798b",
+   "width": 320,
+   "height": 320,
+   "bytes": 28347
+  }
+ },
+ "extra": {
+  "lyricist": "あさき",
+  "composer": "96",
+  "arranger": "笠井雄太 (Elements Garden)",
+  "tag": "anime",
+  "published_at": 1506751200000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "はなまるぴっぴはよいこだけ",
+  "title_en": "Hanamaru Pippi wa Yoiko Dake",
+  "length_s": 104.712
+ }
+}

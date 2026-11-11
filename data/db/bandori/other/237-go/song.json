@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "237",
+ "title": "GO!!!",
+ "artist": "Afterglow×こころ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow×こころ",
+ "bpm": "134",
+ "version": "",
+ "date_added": "2020-01-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 250
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 250
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 166,
+      "hold": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 447
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 16,
+     "notes": 447
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 267,
+      "hold": 90
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 590
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/237/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/237/hard.json",
+     "raw_sha256": "d45a7456b20c56bcf63159af80b37b7dfe22f01443966b912435c2d8320e6ced"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 590
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 307,
+      "flick": 38,
+      "hold": 57,
+      "slide": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 853
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/237/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/237/expert.json",
+     "raw_sha256": "5c91b936df932f6d7337c58206e940863824d3f068beb9074152b2588debb23f"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 853
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 513,
+      "flick": 52,
+      "slide": 59,
+      "hold": 58
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 237,
+   "bandId": 23,
+   "jacketImage": "237_go",
+   "bgmId": "bgm237"
+  },
+  "maa": {
+   "bestdori_song_id": 237,
+   "jacket": {
+    "path": "bestdori/237/jacket-cn-1.png",
+    "server": "cn",
+    "name": "237_go"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/237/jacket-cn-1.png",
+   "sha256": "6f364c40fc62f2615c01d4590f36c4519127a759d1e969e7baec9b6ef8ccc2f2",
+   "width": 320,
+   "height": 320,
+   "bytes": 25801
+  }
+ },
+ "extra": {
+  "lyricist": "KOHSHI",
+  "composer": "TAKE",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1577858400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ごー",
+  "length_s": 118.272
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "75",
+ "title": "－HEROIC ADVENT－",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "182",
+ "version": "",
+ "date_added": "2017-10-08",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 156
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 156
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 92,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 257
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 257
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 145,
+      "hold": 56
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 509
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/75/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/75/hard.json",
+     "raw_sha256": "54e4bccd8b8a5c959ff88fabbadd9d2bcffe82aee2ddc382885671f2d54614f5"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 509
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 243,
+      "hold": 110,
+      "slide": 14,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 730
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/75/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/75/expert.json",
+     "raw_sha256": "cc4bfa39d53f28e54f62ba3633e95aaa13127e284396dbb84e4d9110aa7d9c50"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 730
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 452,
+      "hold": 88,
+      "slide": 24,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 75,
+   "bandId": 5,
+   "jacketImage": "075_heroic_advent",
+   "bgmId": "bgm075"
+  },
+  "maa": {
+   "bestdori_song_id": 75,
+   "jacket": {
+    "path": "bestdori/75/jacket-cn-1.png",
+    "server": "cn",
+    "name": "075_heroic_advent"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/75/jacket-cn-1.png",
+   "sha256": "31507099bdc9e63421736706973c61b5cedbf46e21ff308d6ad80df972efbcca",
+   "width": 320,
+   "height": 320,
+   "bytes": 32460
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1507442400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "heroicadvent",
+  "title_en": "-HEROIC ADVENT-",
+  "length_s": 103.584
+ }
+}

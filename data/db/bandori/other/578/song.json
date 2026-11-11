@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "578",
+ "title": "どりーみんチュチュ",
+ "artist": "Pastel＊Palettes×花音",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes×花音",
+ "bpm": "128",
+ "version": "",
+ "date_added": "2024-01-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 168
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 168
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 142,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 290
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 290
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 196,
+      "hold": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 485
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/578/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/578/hard.json",
+     "raw_sha256": "3461fdb5cf68d3acc553b8bb0673d3ecfbc485e42b2c8399a4bf1e629c675d1b"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 485
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 361,
+      "hold": 35,
+      "slide": 16,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 631
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/578/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/578/expert.json",
+     "raw_sha256": "79f7e85adac5463f9f0d250aab8fff45dfa5cf7cad2ccf1318eedc15ca183072"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 631
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 505,
+      "hold": 35,
+      "slide": 16,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 578,
+   "bandId": 77,
+   "jacketImage": "578_dreamin_chuchu",
+   "bgmId": "bgm578"
+  },
+  "maa": {
+   "bestdori_song_id": 578,
+   "jacket": {
+    "path": "bestdori/578/jacket-cn-1.png",
+    "server": "cn",
+    "name": "578_dreamin_chuchu"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/578/jacket-cn-1.png",
+   "sha256": "c40c1b983dfc51d37a07398f364d72cfb4e921d72d0e4442d378900079d9cf46",
+   "width": 320,
+   "height": 320,
+   "bytes": 32796
+  }
+ },
+ "extra": {
+  "lyricist": "emon(Tes.)",
+  "composer": "emon(Tes.)",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1706680800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "どりーみんちゅちゅ",
+  "title_en": "Dreamin' Chuchu",
+  "length_s": 131.304
+ }
+}

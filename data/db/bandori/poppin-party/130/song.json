@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "130",
+ "title": "最高(さあ行こう)！",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2018-06-16",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 196
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 196
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 39,
+      "tap": 118
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 304
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 304
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 49,
+      "tap": 206
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 506
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/130/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/130/hard.json",
+     "raw_sha256": "2cee4b8c48bb605f5047251af2645875b5a1e18a92be882f414763ed103a2070"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 506
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 63,
+      "tap": 271,
+      "slide": 21,
+      "flick": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 666
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/130/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/130/expert.json",
+     "raw_sha256": "be50493add89a51f09b312f21b849a31beb1f6264e79fb9755e6019a1983f160"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 666
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 55,
+      "tap": 406,
+      "flick": 35,
+      "slide": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 130,
+   "bandId": 1,
+   "jacketImage": "130_saikou",
+   "bgmId": "bgm130"
+  },
+  "maa": {
+   "bestdori_song_id": 130,
+   "jacket": {
+    "path": "bestdori/130/jacket-cn-1.png",
+    "server": "cn",
+    "name": "130_saikou"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/130/jacket-cn-1.png",
+   "sha256": "39c340aa1f96990f4b9eeae8289987ef082d3167e18f5fc9e8f79d6329ecaaa1",
+   "width": 320,
+   "height": 320,
+   "bytes": 36651
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1529128800000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "さあいこう",
+  "title_en": "Excellent (Hey, Let's Go!)",
+  "length_s": 114.072
+ }
+}

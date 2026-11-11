@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "61",
+ "title": "夏のドーン！",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "160",
+ "version": "",
+ "date_added": "2017-08-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 145
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 145
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 111,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 273
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 273
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 203,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 406
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/61/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/61/hard.json",
+     "raw_sha256": "de93756d2162e42f4a7896470a8f47a40f318fd9fd412a045291f95ac7927b83"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 406
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 270,
+      "hold": 61,
+      "flick": 6,
+      "slide": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 594
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/61/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/61/expert.json",
+     "raw_sha256": "e2781aa86f59d67b0a8ef3989684d4407c53d06f9e6703b7148449dd0387ca07"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 594
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 382,
+      "hold": 91,
+      "flick": 6,
+      "slide": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 61,
+   "bandId": 1,
+   "jacketImage": "061_natsudon",
+   "bgmId": "bgm061"
+  },
+  "maa": {
+   "bestdori_song_id": 61,
+   "jacket": {
+    "path": "bestdori/61/jacket-cn-1.png",
+    "server": "cn",
+    "name": "061_natsudon"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/61/jacket-cn-1.png",
+   "sha256": "28993b8542c92f95b1d1aa46f3e60bc13395eadb804df2334bc141badd325d48",
+   "width": 320,
+   "height": 320,
+   "bytes": 47010
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "岩橋星実（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1502344800000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "なつのどーん",
+  "title_en": "Boom Through Summer!",
+  "length_s": 110.304
+ }
+}

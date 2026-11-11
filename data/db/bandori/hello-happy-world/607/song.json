@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "607",
+ "title": "サンバロハッピ〜！",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "129",
+ "version": "",
+ "date_added": "2024-05-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 102
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 102
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 88,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 178
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 178
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 108,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 424
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/607/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/607/hard.json",
+     "raw_sha256": "e1b704c401eca9f5668aca34e7ec77d92faeffe1aded1bc9efdde0a6a667404a"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 424
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 221,
+      "flick": 15,
+      "hold": 24,
+      "slide": 52
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 613
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/607/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/607/expert.json",
+     "raw_sha256": "5b085ad9e3c0d6d9fd5f9fe4114c04afeb24528b6cde79630e58d5a56fdaaa3a"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 613
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 407,
+      "flick": 41,
+      "slide": 67,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 607,
+   "bandId": 3,
+   "jacketImage": "607_sun_hello_happy",
+   "bgmId": "bgm607"
+  },
+  "maa": {
+   "bestdori_song_id": 607,
+   "jacket": {
+    "path": "bestdori/607/jacket-cn-1.png",
+    "server": "cn",
+    "name": "607_sun_hello_happy"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/607/jacket-cn-1.png",
+   "sha256": "9b5c9bf56ee2696b060c2bf4a275d6e164e6a3caf9fb7881ad2e72fd0edb5359",
+   "width": 320,
+   "height": 320,
+   "bytes": 38694
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤間仁（Elements Garden）",
+  "arranger": "藤間仁（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1714716000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "さんばろはっぴー",
+  "title_en": "Let's Samba de Happy!",
+  "length_s": 106.104
+ }
+}

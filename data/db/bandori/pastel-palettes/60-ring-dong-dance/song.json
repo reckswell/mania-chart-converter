@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "60",
+ "title": "ゆら・ゆらRing-Dong-Dance",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "172",
+ "version": "",
+ "date_added": "2017-07-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 137
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 137
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 87,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 260
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 260
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 158,
+      "hold": 47,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 389
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/60/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/60/hard.json",
+     "raw_sha256": "f40053d5348c493b518c2d69701f1ff038fc56c5341892966c581c1cdc378ab5"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 389
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 236,
+      "hold": 51,
+      "flick": 12,
+      "slide": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 546
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/60/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/60/expert.json",
+     "raw_sha256": "ec026a5865eefb7da72b7cbab412b03349f323034541635ffc169f0f0c7e0ff6"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 546
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 278,
+      "flick": 35,
+      "hold": 61,
+      "slide": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 806
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1774936800000,
+    "maa": {
+     "path": "bestdori/60/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/60/special.json",
+     "raw_sha256": "b2345b10d96cb7d293a48545262ecd09903ad5267ab36071e1451afa08a28a8c"
+    },
+    "bestdori": {
+     "notes": 806
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 514,
+      "hold": 29,
+      "flick": 95,
+      "slide": 55
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 60,
+   "bandId": 4,
+   "jacketImage": "060_ring_dong_dance",
+   "bgmId": "bgm060"
+  },
+  "maa": {
+   "bestdori_song_id": 60,
+   "jacket": {
+    "path": "bestdori/60/jacket-cn-1.png",
+    "server": "cn",
+    "name": "060_ring_dong_dance"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/60/jacket-cn-1.png",
+   "sha256": "67cb17cd7122783301c910158727745deb36bcc31d0a10af28fcdb5a75ce932b",
+   "width": 320,
+   "height": 320,
+   "bytes": 22045
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "菊田大介（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1501329600000,
+  "closed_at": 4102455600000,
+  "music_data_type": "normal",
+  "ruby": "ゆらゆらringdongdance",
+  "title_en": "Yura-Yura Ring-Dong-Dance",
+  "length_s": 105.408
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "514",
+ "title": "QUEEN",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2023-07-14",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 129
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 129
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 107,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 278
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 278
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 238,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 552
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/514/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/514/hard.json",
+     "raw_sha256": "8f99a9c458a3ae7634795369fae59ebd1583d0a28e344e5d112bab0d12a88d3c"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 552
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 359,
+      "slide": 46,
+      "hold": 12,
+      "flick": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 992
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/514/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/514/expert.json",
+     "raw_sha256": "09ffa373b020d9049329d3c79658d14ce999b676d93769154648c5d18a5eb6b5"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 992
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 142,
+      "tap": 517,
+      "hold": 33,
+      "flick": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 514,
+   "bandId": 21,
+   "jacketImage": "514_queen",
+   "bgmId": "bgm514"
+  },
+  "maa": {
+   "bestdori_song_id": 514,
+   "jacket": {
+    "path": "bestdori/514/jacket-cn-1.png",
+    "server": "cn",
+    "name": "514_queen"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/514/jacket-cn-1.png",
+   "sha256": "ff49a8b79f35d7862b9fcfb1f2ba5f13204d021a08ccea410fa893a1948ea122",
+   "width": 320,
+   "height": 320,
+   "bytes": 24790
+  }
+ },
+ "extra": {
+  "lyricist": "Kanaria",
+  "composer": "Kanaria",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1689314400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "queen",
+  "length_s": 127.128
+ }
+}

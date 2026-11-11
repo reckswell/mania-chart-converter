@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "291",
+ "title": "ZEAL of proud",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "195",
+ "version": "",
+ "date_added": "2020-09-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 148
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 148
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 112,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 272
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 272
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 36,
+      "tap": 200
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 496
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/291/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/291/hard.json",
+     "raw_sha256": "8ebf800b02d7ea0a0b50af158a53db50895644a480a604c1a699aec1df9519e2"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 496
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 325,
+      "hold": 42,
+      "slide": 31,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 857
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/291/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/291/expert.json",
+     "raw_sha256": "f2fe0f5f4fb65c8e183d77250ac8ff7b48f369c5d717c471321f5a45cf32a1d7"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 857
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 523,
+      "hold": 59,
+      "slide": 63,
+      "flick": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 291,
+   "bandId": 5,
+   "jacketImage": "291_zeal_of_proud_1",
+   "bgmId": "bgm291"
+  },
+  "maa": {
+   "bestdori_song_id": 291,
+   "jacket": {
+    "path": "bestdori/291/jacket-cn-2.png",
+    "server": "cn",
+    "name": "291_zeal_of_proud_1"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/291/jacket-cn-2.png",
+   "sha256": "57e630e7dee4afa1458ce2a614e397941ed92f1d710d81303ece6098abb03c7c",
+   "width": 320,
+   "height": 320,
+   "bytes": 28486
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1600581600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "zealofproud",
+  "length_s": 103.44
+ }
+}

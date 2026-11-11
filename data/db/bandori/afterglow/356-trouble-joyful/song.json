@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "356",
+ "title": "Trouble Joyful!!",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "194",
+ "version": "",
+ "date_added": "2021-08-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 151
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 151
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 91,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 257
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 257
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 179,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 518
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/356/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/356/hard.json",
+     "raw_sha256": "603fe99bc7d2c9f227b62a0e1dbd4b82639a8422713f8b08a61eb5ca9def473b"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 518
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 288,
+      "hold": 42,
+      "slide": 40,
+      "flick": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 809
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/356/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/356/expert.json",
+     "raw_sha256": "242306484657323c4cfda706d9807d32b9bcdb952073bbf1377dbf9fb6e7660b"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 809
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 496,
+      "hold": 49,
+      "flick": 30,
+      "slide": 63
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 356,
+   "bandId": 2,
+   "jacketImage": "356_trouble_joyful",
+   "bgmId": "bgm356"
+  },
+  "maa": {
+   "bestdori_song_id": 356,
+   "jacket": {
+    "path": "bestdori/356/jacket-cn-1.png",
+    "server": "cn",
+    "name": "356_trouble_joyful"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/356/jacket-cn-1.png",
+   "sha256": "09e25d7a7dc1cc227282a6c073959f7e51164132ace91692589d9481c17564d5",
+   "width": 320,
+   "height": 320,
+   "bytes": 32820
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1630389600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "troublejoyful",
+  "length_s": 104.592
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "299",
+ "title": "Rolling star",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "161",
+ "version": "",
+ "date_added": "2020-11-05",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 176
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 176
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 53,
+      "tap": 70
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 319
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 319
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 221,
+      "hold": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 560
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/299/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/299/hard.json",
+     "raw_sha256": "2a80989f18cec1b45e49ea9d4f5fd7fdd5f3183e772faf8337a8a7fbcbb06dbd"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 560
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 318,
+      "flick": 6,
+      "hold": 111,
+      "slide": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 865
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/299/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/299/expert.json",
+     "raw_sha256": "7253eb22605ca22947c4faf83af782c852d26f24523a4bbe6aa617001f215daf"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 865
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 549,
+      "flick": 44,
+      "slide": 75,
+      "hold": 56
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 299,
+   "bandId": 2,
+   "jacketImage": "299_rolling_star",
+   "bgmId": "bgm299"
+  },
+  "maa": {
+   "bestdori_song_id": 299,
+   "jacket": {
+    "path": "bestdori/299/jacket-cn-1.png",
+    "server": "cn",
+    "name": "299_rolling_star"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/299/jacket-cn-1.png",
+   "sha256": "36782727b87cf984aed2d6e8c6d8ce95c8421811014734e92658425d134d1c3c",
+   "width": 320,
+   "height": 320,
+   "bytes": 21360
+  }
+ },
+ "extra": {
+  "lyricist": "ＹＵＩ",
+  "composer": "ＹＵＩ",
+  "arranger": "近藤世真（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1604556000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "rollingstar",
+  "length_s": 119.304
+ }
+}

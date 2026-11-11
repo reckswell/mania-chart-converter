@@ -1,0 +1,145 @@
+{
+ "game": "bandori",
+ "song_id": "750",
+ "title": "スマイリーキャロル",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "220",
+ "version": "",
+ "date_added": "2025-12-25",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 550
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/750/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/750/hard.json",
+     "raw_sha256": "f306a2f9534945501571aec05e66ff63a971af425e0ada71750283c77e8d50b9"
+    },
+    "bestdori": {
+     "notes": 550
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 337,
+      "hold": 64,
+      "slide": 32,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 756
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/750/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/750/expert.json",
+     "raw_sha256": "c993b8fef30cc89391c68edc4ce3b5ce1dd01157020159d18b5c0e67e71ce482"
+    },
+    "bestdori": {
+     "notes": 756
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 74,
+      "tap": 532,
+      "slide": 28,
+      "flick": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 750,
+   "bandId": 3,
+   "jacketImage": "750_smiley_carol",
+   "bgmId": "bgm750"
+  },
+  "maa": {
+   "bestdori_song_id": 750,
+   "jacket": {
+    "path": "bestdori/750/jacket-cn-1.png",
+    "server": "cn",
+    "name": "750_smiley_carol"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/750/jacket-cn-1.png",
+   "sha256": "e88ebefbb4b77815e8461512b689e4013f135de16d8cc1d3c780cc6d60d84072",
+   "width": 320,
+   "height": 320,
+   "bytes": 41010
+  }
+ },
+ "extra": {
+  "lyricist": "OSTER project",
+  "composer": "OSTER project",
+  "arranger": "OSTER project",
+  "tag": "normal",
+  "published_at": 1766642400000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "すまいりーきゃろる"
+ }
+}

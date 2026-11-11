@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "568",
+ "title": "ホワイトノイズ",
+ "artist": "MyGO!!!!!",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "MyGO!!!!!",
+ "bpm": "65-143",
+ "version": "",
+ "date_added": "2023-12-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 119
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 119
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 61,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 231
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 231
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 115,
+      "hold": 58
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 437
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/568/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/568/hard.json",
+     "raw_sha256": "8e8c99577a96b756bb0ff8cb1af4aac0ad25bb80a1dc321b5d1cb7c219bc2720"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 437
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 255,
+      "slide": 42,
+      "hold": 38,
+      "flick": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 647
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/568/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/568/expert.json",
+     "raw_sha256": "1f264a047c9225bfa0dc34f99472d916a54ce1522c0e40bd0dcbb0d0f89b112f"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 647
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 472,
+      "slide": 42,
+      "hold": 33,
+      "flick": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 568,
+   "bandId": 45,
+   "jacketImage": "568_white_noise",
+   "bgmId": "bgm568"
+  },
+  "maa": {
+   "bestdori_song_id": 568,
+   "jacket": {
+    "path": "bestdori/568/jacket-cn-1.png",
+    "server": "cn",
+    "name": "568_white_noise"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/568/jacket-cn-1.png",
+   "sha256": "aa8e19ab70fe35958ec4efaa4cb21e8de449a6691a814850a0604a0d09554eb3",
+   "width": 320,
+   "height": 320,
+   "bytes": 20952
+  }
+ },
+ "extra": {
+  "lyricist": "藤原 聡",
+  "composer": "藤原 聡",
+  "arranger": "小木岳司",
+  "tag": "anime",
+  "published_at": 1703829600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ほわいとのいず",
+  "title_en": "White Noise",
+  "length_s": 124.704
+ }
+}

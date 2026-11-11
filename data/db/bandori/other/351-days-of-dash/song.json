@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "351",
+ "title": "DAYS of DASH",
+ "artist": "Poppin'Party×鈴木このみ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party×鈴木このみ",
+ "bpm": "160",
+ "version": "",
+ "date_added": "2021-07-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 112
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 112
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 16,
+      "tap": 80
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 209
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 209
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 17,
+      "tap": 175
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 387
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/351/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/351/hard.json",
+     "raw_sha256": "203a3f9a65748aa94d80dd339ca4e77e90a0f01cfd6d5758917150d3a67ef422"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 387
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 47,
+      "tap": 274,
+      "flick": 7,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 558
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/351/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/351/expert.json",
+     "raw_sha256": "7b78a107a64610d0178b25845e921fbb46141d809a23ca9510d6279b2a734156"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 558
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 34,
+      "tap": 374,
+      "flick": 20,
+      "slide": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 351,
+   "bandId": 27,
+   "jacketImage": "351_days_of_dash",
+   "bgmId": "bgm351"
+  },
+  "maa": {
+   "bestdori_song_id": 351,
+   "jacket": {
+    "path": "bestdori/351/jacket-cn-1.png",
+    "server": "cn",
+    "name": "351_days_of_dash"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/351/jacket-cn-1.png",
+   "sha256": "221065b9d45a474f17d9ef08a2bc1454d10576118d6d6e4a2c780404344dd030",
+   "width": 320,
+   "height": 320,
+   "bytes": 28619
+  }
+ },
+ "extra": {
+  "lyricist": "畑亜貴",
+  "composer": "白戸佑輔",
+  "arranger": "Elements Garden",
+  "tag": "tie_up",
+  "published_at": 1627711200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "daysofdash",
+  "title_en": "DAYS OF DASH",
+  "length_s": 95.304
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "531",
+ "title": "Ave Mujica",
+ "artist": "Ave Mujica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Ave Mujica",
+ "bpm": "97-222",
+ "version": "",
+ "date_added": "2025-01-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 138
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 138
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 96,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 261
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 261
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 179,
+      "hold": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 495
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/531/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/531/hard.json",
+     "raw_sha256": "97618acd7fbc8ccfbc0c3d9a5413b58882902ffe088457269ea42497570e774b"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 495
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 339,
+      "hold": 44,
+      "slide": 16,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 861
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/531/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/531/expert.json",
+     "raw_sha256": "7f030792d96beb80367b9cbdf6915fda2e9264f84d01a4ed32a243d05f0d0b1e"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 861
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 43,
+      "tap": 582,
+      "slide": 52,
+      "flick": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 531,
+   "bandId": 46,
+   "jacketImage": "531_ave_mujica",
+   "bgmId": "bgm531"
+  },
+  "maa": {
+   "bestdori_song_id": 531,
+   "jacket": {
+    "path": "bestdori/531/jacket-cn-1.png",
+    "server": "cn",
+    "name": "531_ave_mujica"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/531/jacket-cn-1.png",
+   "sha256": "2a3b2decf1eaeed98a296f2ee484d5b5ce1208c1add0cfdf2b60d2e885f679a2",
+   "width": 320,
+   "height": 320,
+   "bytes": 36853
+  }
+ },
+ "extra": {
+  "lyricist": "上松範康（Elements Garden）/織田あすか（Elements Garden）",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "藤間仁（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1735797600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "avemujica",
+  "length_s": 118.584
+ }
+}

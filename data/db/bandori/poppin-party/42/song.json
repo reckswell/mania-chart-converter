@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "42",
+ "title": "光るなら",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "160",
+ "version": "",
+ "date_added": "2017-03-27",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 107
+   },
+   "source": {
+    "notesQuantity": 64,
+    "bestdori": {
+     "level": 7,
+     "notes": 107
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 99,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 64 differs from combo 107 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 176
+   },
+   "source": {
+    "notesQuantity": 141,
+    "bestdori": {
+     "level": 13,
+     "notes": 176
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 12,
+      "tap": 152
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 141 differs from combo 176 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 355
+   },
+   "source": {
+    "notesQuantity": 261,
+    "maa": {
+     "path": "bestdori/42/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/42/hard.json",
+     "raw_sha256": "ae5946190a0615b82439afdef90f93f0a971eec578a90d1c57e3c2bbbf3b3460"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 355
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 272,
+      "hold": 40,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 261 differs from combo 355 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 531
+   },
+   "source": {
+    "notesQuantity": 397,
+    "maa": {
+     "path": "bestdori/42/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/42/expert.json",
+     "raw_sha256": "d15f48f9932da85e00238fc7d29c1083c144b70f8faa3e7c2b3158f0e58dd775"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 531
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 382,
+      "slide": 19,
+      "flick": 8,
+      "hold": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 397 differs from combo 531 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 628
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1647928800000,
+    "maa": {
+     "path": "bestdori/42/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/42/special.json",
+     "raw_sha256": "f99a04be717b035d74152be6c9d9916c684d1fdef6aaeb83e4220a67599f4c4c"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 628
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 374,
+      "slide": 62,
+      "flick": 40,
+      "hold": 16
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 42,
+   "bandId": 1,
+   "jacketImage": "hikarunara",
+   "bgmId": "bgm042"
+  },
+  "maa": {
+   "bestdori_song_id": 42,
+   "jacket": {
+    "path": "bestdori/42/jacket-cn-1.png",
+    "server": "cn",
+    "name": "hikarunara"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/42/jacket-cn-1.png",
+   "sha256": "c226dd0b711ac9cc6fc35e87c66cf2135268d4abff3516d8569da5e7d7c2c2b6",
+   "width": 320,
+   "height": 320,
+   "bytes": 29151
+  }
+ },
+ "extra": {
+  "lyricist": "Goose house",
+  "composer": "Goose house",
+  "arranger": "都丸椋太（Elements Garden）／加納望",
+  "tag": "anime",
+  "published_at": 1490594400000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "ひかるなら",
+  "title_en": "Hikaru Nara",
+  "length_s": 115.056
+ }
+}

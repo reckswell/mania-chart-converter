@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "459",
+ "title": "VORACITY",
+ "artist": "RAISE A SUILEN×MYTH & ROID",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN×MYTH & ROID",
+ "bpm": "200",
+ "version": "",
+ "date_added": "2022-11-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 104
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 104
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 21,
+      "tap": 62
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 224
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 224
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 155,
+      "hold": 33,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 468
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/459/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/459/hard.json",
+     "raw_sha256": "eab190313546f2b6c341d50acac0955f824591d268503630718549767472f67c"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 468
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 257,
+      "hold": 43,
+      "slide": 46,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 688
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/459/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/459/expert.json",
+     "raw_sha256": "4d9ec4a250131dd60a4f6bea4222856e83e2f67b8577310998c622ffae94a17e"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 688
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 62,
+      "tap": 351,
+      "hold": 45,
+      "flick": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 459,
+   "bandId": 50,
+   "jacketImage": "459_voracity",
+   "bgmId": "bgm459"
+  },
+  "maa": {
+   "bestdori_song_id": 459,
+   "jacket": {
+    "path": "bestdori/459/jacket-cn-1.png",
+    "server": "cn",
+    "name": "459_voracity"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/459/jacket-cn-1.png",
+   "sha256": "d5c1124dbca5ad546c1d3ca64b6022ad72862aca93851f244284fa502b3aa30b",
+   "width": 320,
+   "height": 320,
+   "bytes": 22741
+  }
+ },
+ "extra": {
+  "lyricist": "MYTH & ROID",
+  "composer": "MYTH & ROID",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "tie_up",
+  "published_at": 1669788000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "voracity",
+  "length_s": 114.648
+ }
+}

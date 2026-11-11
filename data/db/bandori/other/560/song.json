@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "560",
+ "title": "擬態ごっこ",
+ "artist": "Roselia×沙花叉クロヱ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia×沙花叉クロヱ",
+ "bpm": "196",
+ "version": "",
+ "date_added": "2023-12-23",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 138
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 138
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 110,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 247
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 247
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 181,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 510
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/560/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/560/hard.json",
+     "raw_sha256": "58c3eb23a2c0a0a0a778515a5fe04dd652d00f130e8b66bdc5b0c0e640377e6e"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 510
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 351,
+      "hold": 40,
+      "slide": 21,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 888
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/560/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/560/expert.json",
+     "raw_sha256": "cb1ce843e8cf67b59e0d51453a8d30cc3acca4f115efc415d08c8bd03d2ceb81"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 888
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 639,
+      "hold": 47,
+      "slide": 39,
+      "flick": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 560,
+   "bandId": 70,
+   "jacketImage": "560_gitai_gokko",
+   "bgmId": "bgm560"
+  },
+  "maa": {
+   "bestdori_song_id": 560,
+   "jacket": {
+    "path": "bestdori/560/jacket-cn-1.png",
+    "server": "cn",
+    "name": "560_gitai_gokko"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/560/jacket-cn-1.png",
+   "sha256": "0acffc89735ac1519de426e2e2f67b89d3c7cd4d0b9ab1d593b1eb68bbd5c636",
+   "width": 320,
+   "height": 320,
+   "bytes": 36364
+  }
+ },
+ "extra": {
+  "lyricist": "DECO*27",
+  "composer": "DECO*27",
+  "arranger": "堀川大翼（Elements Garden）",
+  "tag": "tie_up",
+  "published_at": 1703311200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ぎたいごっこ",
+  "title_en": "Marionette",
+  "length_s": 119.448
+ }
+}

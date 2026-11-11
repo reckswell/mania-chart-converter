@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "150",
+ "title": "キミがいなくちゃっ！",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "124",
+ "version": "",
+ "date_added": "2018-10-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 166
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 166
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 104,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 272
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 272
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 60,
+      "tap": 152
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 399
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/150/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/150/hard.json",
+     "raw_sha256": "c04a2a8698c2b326b18ee99eae10ff3e977aeed20f8f7815a2746f99ee7048e7"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 399
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 58,
+      "tap": 220,
+      "slide": 27,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 569
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/150/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/150/expert.json",
+     "raw_sha256": "92d8fbbbb34873544f4a4b3c74506ddcdc1d362ad21a2bbe7980b20b50987c1d"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 569
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 49,
+      "slide": 34,
+      "tap": 357,
+      "flick": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 150,
+   "bandId": 3,
+   "jacketImage": "150_kimigainakutya",
+   "bgmId": "bgm150"
+  },
+  "maa": {
+   "bestdori_song_id": 150,
+   "jacket": {
+    "path": "bestdori/150/jacket-cn-1.png",
+    "server": "cn",
+    "name": "150_kimigainakutya"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/150/jacket-cn-1.png",
+   "sha256": "ab9c9a73b529ba7e99e93e59914332517b419d0f7f0049fdbddb1160817808c6",
+   "width": 320,
+   "height": 320,
+   "bytes": 33950
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤間仁（Elements Garden）",
+  "arranger": "藤間仁（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1539151200000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "きみがいなくちゃ",
+  "title_en": "I need you!",
+  "length_s": 106.512
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "492",
+ "title": "Call the shots",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "189",
+ "version": "",
+ "date_added": "2023-05-08",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 156
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 156
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 114,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 269
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 269
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 207,
+      "slide": 2,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 526
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/492/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/492/hard.json",
+     "raw_sha256": "7d0c7c73e32362168c565cdb776f5730143457db7c1a63624aee2c4cb5cccef9"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 526
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 333,
+      "hold": 46,
+      "slide": 25,
+      "flick": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 908
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/492/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/492/expert.json",
+     "raw_sha256": "8c462bc6226b010934280a8b09e86c60d935b7279326452f9014a5245bb22581"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 908
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 48,
+      "tap": 632,
+      "flick": 49,
+      "hold": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 492,
+   "bandId": 5,
+   "jacketImage": "492_call_the_shots",
+   "bgmId": "bgm492"
+  },
+  "maa": {
+   "bestdori_song_id": 492,
+   "jacket": {
+    "path": "bestdori/492/jacket-cn-1.png",
+    "server": "cn",
+    "name": "492_call_the_shots"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/492/jacket-cn-1.png",
+   "sha256": "a325b8df3e7f2ff591794d272a3d66ed23b365bf06b92abd78d100155b6db50c",
+   "width": 320,
+   "height": 320,
+   "bytes": 31432
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1683547200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "calltheshots",
+  "length_s": 107.352
+ }
+}

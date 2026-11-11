@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "701",
+ "title": "Tomorrow’s Door",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "177",
+ "version": "",
+ "date_added": "2025-05-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 124
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 124
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 72,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 213
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 213
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 133,
+      "hold": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 537
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/701/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/701/hard.json",
+     "raw_sha256": "3b63181b0c446daa10d68891f21956cbbe6e2a30b279c991d78f994f83c977bf"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 537
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 339,
+      "hold": 67,
+      "flick": 16,
+      "slide": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 782
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/701/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/701/expert.json",
+     "raw_sha256": "ac4041aa6a0c4cd7c25d083bf4e7aacb3e50d6dcb539c17e9ef3655878c82433"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 782
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 501,
+      "slide": 53,
+      "flick": 31,
+      "hold": 67
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 701,
+   "bandId": 1,
+   "jacketImage": "701_tomorrows_door",
+   "bgmId": "bgm701"
+  },
+  "maa": {
+   "bestdori_song_id": 701,
+   "jacket": {
+    "path": "bestdori/701/jacket-cn-1.png",
+    "server": "cn",
+    "name": "701_tomorrows_door"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/701/jacket-cn-1.png",
+   "sha256": "c01773f9d79d94432d7202c73f9c77711157fa587416f07476ef1ebee5a6f6f2",
+   "width": 320,
+   "height": 320,
+   "bytes": 47845
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1747807200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "tomorrowsdoor",
+  "length_s": 123.456
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "407",
+ "title": "くちづけDiamond",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "164",
+ "version": "",
+ "date_added": "2022-03-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 127
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 127
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 113,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 317
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 317
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 285,
+      "hold": 13,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 557
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/407/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/407/hard.json",
+     "raw_sha256": "8607f87addf30bc6f7c3874bf9aa8c3300f0279c4d196cf98b7adc7843f6bf74"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 557
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 431,
+      "slide": 15,
+      "hold": 39,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 777
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/407/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/407/expert.json",
+     "raw_sha256": "cb9847d2f52af2f6eaf74af2be03c75865fa1cb0c4a29aaa4c582e5ae4da6375"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 777
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 563,
+      "slide": 45,
+      "hold": 30,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 407,
+   "bandId": 3,
+   "jacketImage": "407_kuchizuke",
+   "bgmId": "bgm407"
+  },
+  "maa": {
+   "bestdori_song_id": 407,
+   "jacket": {
+    "path": "bestdori/407/jacket-cn-1.png",
+    "server": "cn",
+    "name": "407_kuchizuke"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/407/jacket-cn-1.png",
+   "sha256": "e5f8c125f0165a31df754e1ee0d8edad1ffb70811cb685ca4544f816a582aa4d",
+   "width": 320,
+   "height": 320,
+   "bytes": 20668
+  }
+ },
+ "extra": {
+  "lyricist": "河邉　徹",
+  "composer": "杉本　雄治",
+  "arranger": "Elements Garden",
+  "tag": "anime",
+  "published_at": 1647756000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "くちづけだいたもんど",
+  "title_en": "Kuchizuke Diamond",
+  "length_s": 128.112
+ }
+}

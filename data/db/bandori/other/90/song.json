@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "90",
+ "title": "クインティプル☆すまいる",
+ "artist": "GBP!スペシャルバンド",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "GBP!スペシャルバンド",
+ "bpm": "173",
+ "version": "",
+ "date_added": "2018-01-12",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 133
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 133
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 99,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 239
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 239
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 167,
+      "hold": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 459
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/90/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/90/hard.json",
+     "raw_sha256": "acdaa6ca6c5fbae54632ab7d5d720be9bfa5828242fc2f877ad9d6349b019754"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 459
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 307,
+      "hold": 64,
+      "slide": 4,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 658
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/90/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/90/expert.json",
+     "raw_sha256": "36dd53cb40703c959a786b4b584195871db55f8505b1bacfd7f33384cc126798"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 658
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 364,
+      "hold": 83,
+      "slide": 28,
+      "flick": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 90,
+   "bandId": 14,
+   "jacketImage": "090_quintuple_smile",
+   "bgmId": "bgm090"
+  },
+  "maa": {
+   "bestdori_song_id": 90,
+   "jacket": {
+    "path": "bestdori/90/jacket-cn-1.png",
+    "server": "cn",
+    "name": "090_quintuple_smile"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/90/jacket-cn-1.png",
+   "sha256": "c7cabe1cf5847fc6183eef8c6f208a3c5164051445941b083615b61e6ce222d7",
+   "width": 320,
+   "height": 320,
+   "bytes": 19840
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "末益涼太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1515726000000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "くいんてぃぷるすまいる",
+  "title_en": "Quintuple☆Smile",
+  "length_s": 110.352
+ }
+}

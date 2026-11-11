@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "135",
+ "title": "Life Will Change",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "132",
+ "version": "",
+ "date_added": "2018-07-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 128
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 128
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 72,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 202
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 202
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 136,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 583
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/135/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/135/hard.json",
+     "raw_sha256": "f147d917763f41dd071f12aeb58c55dfe7eb73351212b61ca7b57450f00b06aa"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 583
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 388,
+      "flick": 16,
+      "hold": 46,
+      "slide": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 823
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/135/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/135/expert.json",
+     "raw_sha256": "70ff2a9fefdce4446c327b04c6e140836f30ca7ae40ad2aa8eac5dbdbaf20671"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 823
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 599,
+      "flick": 19,
+      "hold": 35,
+      "slide": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 786
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1632376800000,
+    "maa": {
+     "path": "bestdori/135/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/135/special.json",
+     "raw_sha256": "2392b3a62d79acdb1cdb960c4a2bc0ca29f53ae0ee44b93426a33a1f78e237b1"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 786
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 401,
+      "slide": 75,
+      "flick": 71,
+      "hold": 64
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 135,
+   "bandId": 1,
+   "jacketImage": "135_life_will_change",
+   "bgmId": "bgm135"
+  },
+  "maa": {
+   "bestdori_song_id": 135,
+   "jacket": {
+    "path": "bestdori/135/jacket-cn-1.png",
+    "server": "cn",
+    "name": "135_life_will_change"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/135/jacket-cn-1.png",
+   "sha256": "6065937d876af860e2793d22397519e4a615116e8edd9eb39f27102e51369242",
+   "width": 320,
+   "height": 320,
+   "bytes": 30560
+  }
+ },
+ "extra": {
+  "lyricist": "Benjamin Franklin",
+  "composer": "目黒将司",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1532066400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "lifewillchange",
+  "length_s": 121.872
+ }
+}

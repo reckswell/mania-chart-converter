@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "472",
+ "title": "ようこそジャパリパークへ",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "100-170",
+ "version": "",
+ "date_added": "2023-02-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 94
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 94
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 15,
+      "tap": 64
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 231
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 231
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 166,
+      "hold": 31,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 404
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/472/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/472/hard.json",
+     "raw_sha256": "03f0e13c36140742bcb56fb074bc861fc8c354e42f854c1bf2af2c3c45eee060"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 404
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 247,
+      "hold": 40,
+      "slide": 22,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 579
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/472/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/472/expert.json",
+     "raw_sha256": "91893df306d9777b2c4b44cc5c5577cb9315d414d3e1113c09d8a87d53651004"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 579
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 342,
+      "hold": 34,
+      "flick": 47,
+      "slide": 52
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 472,
+   "bandId": 3,
+   "jacketImage": "472_japari_park",
+   "bgmId": "bgm472"
+  },
+  "maa": {
+   "bestdori_song_id": 472,
+   "jacket": {
+    "path": "bestdori/472/jacket-cn-1.png",
+    "server": "cn",
+    "name": "472_japari_park"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/472/jacket-cn-1.png",
+   "sha256": "5d67a98276147eed1d35b1c59302c7ae9af35a544c7d07ca1761b91cb6c4e1a6",
+   "width": 320,
+   "height": 320,
+   "bytes": 34871
+  }
+ },
+ "extra": {
+  "lyricist": "大石 昌良",
+  "composer": "大石 昌良",
+  "arranger": "Seonoo Kim（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1676008800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ようこそじゃぱりぱーくへ",
+  "title_en": "Youkoso Japari Park e",
+  "length_s": 97.608
+ }
+}

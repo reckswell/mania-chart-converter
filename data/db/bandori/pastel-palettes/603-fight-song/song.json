@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "603",
+ "title": "フレっとパレットFight Song!!",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "145",
+ "version": "",
+ "date_added": "2024-05-08",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 110
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 110
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 58,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 213
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 213
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 121,
+      "hold": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 416
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/603/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/603/hard.json",
+     "raw_sha256": "ffd92cc63fb867d7984215964ddd7c7af5c96035e0c16482e6028fe1d13e4995"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 416
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 168,
+      "flick": 12,
+      "slide": 64,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 663
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/603/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/603/expert.json",
+     "raw_sha256": "dc76fff3373c656abb100710509d9e76ad8bcb2c677d896c74f08162fffa23cd"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 663
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 357,
+      "flick": 49,
+      "slide": 83,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 603,
+   "bandId": 4,
+   "jacketImage": "603_furetto_palette",
+   "bgmId": "bgm603"
+  },
+  "maa": {
+   "bestdori_song_id": 603,
+   "jacket": {
+    "path": "bestdori/603/jacket-cn-1.png",
+    "server": "cn",
+    "name": "603_furetto_palette"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/603/jacket-cn-1.png",
+   "sha256": "0182dfa8d9791f446d9c4871a2192fb40a7fb9c5f86110d9378311ee7415d7c9",
+   "width": 320,
+   "height": 320,
+   "bytes": 25741
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "岩橋星実（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1715169600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ふれっとぱれっとfightsong",
+  "title_en": "Furetto Palettes Fight Song!!",
+  "length_s": 108.48
+ }
+}

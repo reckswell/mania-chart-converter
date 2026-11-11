@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "615",
+ "title": "SOULSOUP",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "144",
+ "version": "",
+ "date_added": "2024-06-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 130
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 130
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 82,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 295
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 295
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 151,
+      "hold": 68,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 665
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/615/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/615/hard.json",
+     "raw_sha256": "7eba2d05fc776c969e6b2ae31de824359a5e526ecffef4cf70a62d89900dd13b"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 665
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 371,
+      "hold": 78,
+      "slide": 50,
+      "flick": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 997
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/615/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/615/expert.json",
+     "raw_sha256": "8a8bd9d960aa92439c5ced8a2440a906e4d47c38b5dad6ef1936b7c098835e4d"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 997
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 558,
+      "slide": 137,
+      "hold": 42,
+      "flick": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 615,
+   "bandId": 18,
+   "jacketImage": "615_soul_soup",
+   "bgmId": "bgm615"
+  },
+  "maa": {
+   "bestdori_song_id": 615,
+   "jacket": {
+    "path": "bestdori/615/jacket-cn-1.png",
+    "server": "cn",
+    "name": "615_soul_soup"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/615/jacket-cn-1.png",
+   "sha256": "263bc69c3fd7308151fef54571fd072a9f6ff1d78ee80ce7a05e7a442c100fff",
+   "width": 320,
+   "height": 320,
+   "bytes": 35827
+  }
+ },
+ "extra": {
+  "lyricist": "藤原 聡",
+  "composer": "藤原 聡",
+  "arranger": "Seonoo Kim（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1718863200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "soulsoup",
+  "length_s": 153.384
+ }
+}

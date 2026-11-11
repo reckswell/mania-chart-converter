@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "205",
+ "title": "青い栞",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "132",
+ "version": "",
+ "date_added": "2019-07-13",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 134
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 134
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 106,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 243
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 243
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 19,
+      "tap": 205
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 382
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/205/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/205/hard.json",
+     "raw_sha256": "d727d52bfff927dfee78f48b70a067b4e73cad24e26f50feff52b5dadb6928bd"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 382
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 45,
+      "tap": 266,
+      "flick": 18,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 601
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/205/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/205/expert.json",
+     "raw_sha256": "ef61c091f9e83d9420358e5c81bfc0454b14caf1b236c66484a56fca5feec03e"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 601
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 57,
+      "tap": 407,
+      "flick": 27,
+      "slide": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 205,
+   "bandId": 2,
+   "jacketImage": "205_aoishiori",
+   "bgmId": "bgm205"
+  },
+  "maa": {
+   "bestdori_song_id": 205,
+   "jacket": {
+    "path": "bestdori/205/jacket-cn-1.png",
+    "server": "cn",
+    "name": "205_aoishiori"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/205/jacket-cn-1.png",
+   "sha256": "d17fbe1582bd1969b451b8fcb83b034c6efc08555c4a8566cfb56fcc1dff03b4",
+   "width": 320,
+   "height": 320,
+   "bytes": 13538
+  }
+ },
+ "extra": {
+  "lyricist": "尾崎雄貴",
+  "composer": "尾崎雄貴",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1562997600000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "あおいしおり",
+  "title_en": "Blue Bookmark",
+  "length_s": 120.96
+ }
+}

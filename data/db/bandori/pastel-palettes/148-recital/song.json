@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "148",
+ "title": "ゼッタイ宣言～Recital～",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "177",
+ "version": "",
+ "date_added": "2018-09-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 185
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 185
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 133,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 279
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 279
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 187,
+      "hold": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 572
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/148/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/148/hard.json",
+     "raw_sha256": "d33c29a7c03d11c1515132b57da5330ec5ac8c1317a0ada44e868e6cb3616da4"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 572
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 295,
+      "flick": 40,
+      "hold": 28,
+      "slide": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 921
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/148/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/148/expert.json",
+     "raw_sha256": "fe686416a80a1ddfe71a1e1d5eb80161e9128dfb866266dc5b4991f34fc67dbf"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 921
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 513,
+      "flick": 65,
+      "hold": 30,
+      "slide": 83
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 954
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1632549600000,
+    "maa": {
+     "path": "bestdori/148/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/148/special.json",
+     "raw_sha256": "184af2e60034b4497d1a1015add66dc8db878545cf014f782dfcc7737c5156fa"
+    },
+    "bestdori": {
+     "level": 29,
+     "notes": 954
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 122,
+      "flick": 110,
+      "tap": 412,
+      "hold": 27
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 148,
+   "bandId": 4,
+   "jacketImage": "148_zettaisengen",
+   "bgmId": "bgm148"
+  },
+  "maa": {
+   "bestdori_song_id": 148,
+   "jacket": {
+    "path": "bestdori/148/jacket-cn-1.png",
+    "server": "cn",
+    "name": "148_zettaisengen"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/148/jacket-cn-1.png",
+   "sha256": "e84414dd0284ac1789e2d661f8d986f4d53078cf63ee9cc390b45a605cce41fc",
+   "width": 320,
+   "height": 320,
+   "bytes": 33146
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1538287200000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "ぜったいせんげんrecital",
+  "title_en": "Zettai Sengen ~Recital~",
+  "length_s": 109.224
+ }
+}

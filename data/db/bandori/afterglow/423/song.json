@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "423",
+ "title": "トーキョーワンダー。",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "138",
+ "version": "",
+ "date_added": "2022-05-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 111
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 111
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 16,
+      "tap": 79
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 221
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 221
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 34,
+      "tap": 153
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 449
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/423/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/423/hard.json",
+     "raw_sha256": "fdef54b073b7040e7f76df94483b4f0caf2724631a6f42bef37409883eb26be7"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 449
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 37,
+      "tap": 260,
+      "flick": 38,
+      "slide": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 662
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/423/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/423/expert.json",
+     "raw_sha256": "218ad19a39cc215dc5876c43dd5c0bc2aa0b7c330f68ce0b86a08bdada1370f9"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 662
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 22,
+      "tap": 498,
+      "flick": 41,
+      "slide": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 423,
+   "bandId": 2,
+   "jacketImage": "423_tokyo_wander",
+   "bgmId": "bgm423"
+  },
+  "maa": {
+   "bestdori_song_id": 423,
+   "jacket": {
+    "path": "bestdori/423/jacket-cn-1.png",
+    "server": "cn",
+    "name": "423_tokyo_wander"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/423/jacket-cn-1.png",
+   "sha256": "a49724f7b92c0aa64e2e165d3796f2ab74523861d6e25cae5c3ee87586aa755a",
+   "width": 320,
+   "height": 320,
+   "bytes": 31227
+  }
+ },
+ "extra": {
+  "lyricist": "泣き虫",
+  "composer": "泣き虫",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1653112800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "とーきょーわんだー",
+  "title_en": "Tokyo Wonder.",
+  "length_s": 110.496
+ }
+}

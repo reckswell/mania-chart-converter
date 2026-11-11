@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "632",
+ "title": "カゲロウデイズ",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "200",
+ "version": "",
+ "date_added": "2024-09-16",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 115
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 115
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 87,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 235
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 235
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 34,
+      "tap": 167
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 577
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/632/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/632/hard.json",
+     "raw_sha256": "cd1c22ce77a9571846b286ce2c8ed840089adb1e3007404402c4916be054fb14"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 577
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 50,
+      "tap": 304,
+      "hold": 47,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 812
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/632/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/632/expert.json",
+     "raw_sha256": "d956d9329a58c732bbe60d941f2eb68878d352417386bb4f3d476fcd47c81f6b"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 812
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 452,
+      "slide": 90,
+      "flick": 25,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 632,
+   "bandId": 2,
+   "jacketImage": "632_kagero_days",
+   "bgmId": "bgm632"
+  },
+  "maa": {
+   "bestdori_song_id": 632,
+   "jacket": {
+    "path": "bestdori/632/jacket-cn-1.png",
+    "server": "cn",
+    "name": "632_kagero_days"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/632/jacket-cn-1.png",
+   "sha256": "c5da022eabafb2a8c1dc9affa9efbefdea77e0dd15f6db67d584914f3a1c55f0",
+   "width": 320,
+   "height": 320,
+   "bytes": 29079
+  }
+ },
+ "extra": {
+  "lyricist": "じん（自然の敵Ｐ）",
+  "composer": "じん（自然の敵Ｐ）",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1726466400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "かげろうでいず",
+  "title_en": "Kagerou Daze",
+  "length_s": 109.272
+ }
+}

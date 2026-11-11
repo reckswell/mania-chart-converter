@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "613",
+ "title": "ギミー！レボリューション",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2024-05-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 149
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 149
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 103,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 283
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 283
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 165,
+      "hold": 59
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 546
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/613/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/613/hard.json",
+     "raw_sha256": "87b0925d2d184f67c4a68af644ea0ea1fd48a16f217cfe69e529eca8ad4d7f91"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 546
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 315,
+      "hold": 37,
+      "slide": 43,
+      "flick": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 755
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/613/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/613/expert.json",
+     "raw_sha256": "e492342d10ece8ca34eb3296fc3878ca2644f3f207b3edcd159b958107df3b3a"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 755
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 71,
+      "tap": 441,
+      "hold": 28,
+      "slide": 70
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 613,
+   "bandId": 3,
+   "jacketImage": "613_gimme_revo",
+   "bgmId": "bgm613"
+  },
+  "maa": {
+   "bestdori_song_id": 613,
+   "jacket": {
+    "path": "bestdori/613/jacket-cn-1.png",
+    "server": "cn",
+    "name": "613_gimme_revo"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/613/jacket-cn-1.png",
+   "sha256": "571e44f3dcd207901afbd0562d94ea913d444afbb29d4da15b2358be4d255621",
+   "width": 320,
+   "height": 320,
+   "bytes": 26383
+  }
+ },
+ "extra": {
+  "lyricist": "こだまさおり",
+  "composer": "田淵智也",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1717135200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ぎみーれぼりゅーしょん",
+  "title_en": "Gimme! Revolution",
+  "length_s": 120.072
+ }
+}

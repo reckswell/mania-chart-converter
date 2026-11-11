@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "532",
+ "title": "祝福",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2023-09-08",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 115
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 115
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 81,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 226
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 226
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 148,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 449
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/532/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/532/hard.json",
+     "raw_sha256": "97afa0a8e07568f1b164b433ae10e4f3d51cf8917e7af06f3faf22dfe2f99dd7"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 449
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 241,
+      "flick": 4,
+      "slide": 54,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 623
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/532/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/532/expert.json",
+     "raw_sha256": "c76ac2e12d30591aecd83e636f0de6e5f82194c38d654c393eadab8700b92b87"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 623
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 406,
+      "flick": 11,
+      "slide": 54,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 532,
+   "bandId": 21,
+   "jacketImage": "532_syukuhuku",
+   "bgmId": "bgm532"
+  },
+  "maa": {
+   "bestdori_song_id": 532,
+   "jacket": {
+    "path": "bestdori/532/jacket-cn-1.png",
+    "server": "cn",
+    "name": "532_syukuhuku"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/532/jacket-cn-1.png",
+   "sha256": "d88fafbf834665149228649fc8c712d5f3a2ac1610c6372d9bd0e701c7cbe907",
+   "width": 320,
+   "height": 320,
+   "bytes": 25492
+  }
+ },
+ "extra": {
+  "lyricist": "Ayase",
+  "composer": "Ayase",
+  "arranger": "Seonoo Kim（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1694152800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "しゅくふく",
+  "title_en": "The Blessing",
+  "length_s": 91.824
+ }
+}

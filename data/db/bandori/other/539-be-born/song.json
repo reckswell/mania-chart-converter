@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "539",
+ "title": "Be born",
+ "artist": "メガテラ・ゼロ feat. 夢ノ結唱 POPY",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "メガテラ・ゼロ feat. 夢ノ結唱 POPY",
+ "bpm": "145",
+ "version": "",
+ "date_added": "2023-09-15",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 139
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 139
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 107,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 289
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 289
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 243,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 505
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/539/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/539/hard.json",
+     "raw_sha256": "e222034f1c96e3afb6a962390832770efca83128d7b8941a46cdac285074b564"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 505
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 333,
+      "hold": 22,
+      "slide": 36,
+      "flick": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 900
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/539/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/539/expert.json",
+     "raw_sha256": "6e830eb231143b77b4ba4acb6e45c2cfd084238872efc749e53a9d7017308bb3"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 900
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 609,
+      "hold": 64,
+      "slide": 55,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 539,
+   "bandId": 68,
+   "jacketImage": "539_be_born",
+   "bgmId": "bgm539"
+  },
+  "maa": {
+   "bestdori_song_id": 539,
+   "jacket": {
+    "path": "bestdori/539/jacket-cn-1.png",
+    "server": "cn",
+    "name": "539_be_born"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/539/jacket-cn-1.png",
+   "sha256": "0855f92e7aadfec4c879c0cc6000a6f88b584bff6cb45ee3252b4707be95ee14",
+   "width": 320,
+   "height": 320,
+   "bytes": 18530
+  }
+ },
+ "extra": {
+  "lyricist": "メガテラ・ゼロ",
+  "composer": "メガテラ・ゼロ",
+  "arranger": "メガテラ・ゼロ",
+  "tag": "normal",
+  "published_at": 1694757600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "beborn",
+  "length_s": 110.952
+ }
+}

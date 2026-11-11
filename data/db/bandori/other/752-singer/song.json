@@ -1,0 +1,144 @@
+{
+ "game": "bandori",
+ "song_id": "752",
+ "title": "Singer",
+ "artist": "夢ノ結唱 PASTEL",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "夢ノ結唱 PASTEL",
+ "bpm": "155",
+ "version": "",
+ "date_added": "2025-12-26",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 565
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/752/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/752/hard.json",
+     "raw_sha256": "dae044c164ce3a3ad15f6269501c4d7b255ea776473ee64e3c371b87a28445be"
+    },
+    "bestdori": {
+     "notes": 565
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 30,
+      "tap": 415,
+      "slide": 21,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 840
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/752/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/752/expert.json",
+     "raw_sha256": "cca304fb0385a293f4219a602078f1bbeb0e172ededa38339b3c31989c6f64a4"
+    },
+    "bestdori": {
+     "notes": 840
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 67,
+      "tap": 642,
+      "flick": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 752,
+   "bandId": 94,
+   "jacketImage": "752_singer",
+   "bgmId": "bgm752"
+  },
+  "maa": {
+   "bestdori_song_id": 752,
+   "jacket": {
+    "path": "bestdori/752/jacket-cn-1.png",
+    "server": "cn",
+    "name": "752_singer"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/752/jacket-cn-1.png",
+   "sha256": "156b9d6a46236fee68f758162c0ecd2abbe2ea7626f125978146366573307ebb",
+   "width": 320,
+   "height": 320,
+   "bytes": 27642
+  }
+ },
+ "extra": {
+  "lyricist": "THE SPELLBOUND",
+  "composer": "THE SPELLBOUND",
+  "arranger": "THE SPELLBOUND",
+  "tag": "normal",
+  "published_at": 1766728800000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "singer"
+ }
+}

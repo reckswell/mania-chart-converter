@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "207",
+ "title": "Easy come, Easy go！",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "135",
+ "version": "",
+ "date_added": "2019-07-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 121
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 121
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 89,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 212
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 212
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 132,
+      "hold": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 462
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/207/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/207/hard.json",
+     "raw_sha256": "733b2c18c53d37fd0441135e63553e54b00df2e2016abca9a57ef2012f2fc685"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 462
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 26,
+      "hold": 81,
+      "tap": 168,
+      "slide": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 910
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/207/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/207/expert.json",
+     "raw_sha256": "ba32096d66ca67984cbb63622f8506f7c1acb7956900147de17661775514f375"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 910
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 467,
+      "hold": 65,
+      "flick": 43,
+      "slide": 82
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 207,
+   "bandId": 2,
+   "jacketImage": "207_easycome_1",
+   "bgmId": "bgm207"
+  },
+  "maa": {
+   "bestdori_song_id": 207,
+   "jacket": {
+    "path": "bestdori/207/jacket-cn-2.png",
+    "server": "cn",
+    "name": "207_easycome_1"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/207/jacket-cn-2.png",
+   "sha256": "370f8bdf89524db461c14e4d87ca84e8b85ecc46f8a7ccfbb549f12be5676d05",
+   "width": 320,
+   "height": 320,
+   "bytes": 44351
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "都丸椋太（Elements Garden）",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1563688800000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "easycomeeasygo",
+  "length_s": 107.616
+ }
+}

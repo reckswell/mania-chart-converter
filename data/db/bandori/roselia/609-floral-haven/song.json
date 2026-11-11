@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "609",
+ "title": "Floral Haven",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "70-190",
+ "version": "",
+ "date_added": "2024-05-05",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 144
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 144
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 78,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 223
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 223
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 133,
+      "hold": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 429
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/609/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/609/hard.json",
+     "raw_sha256": "7258c5475e180ce4b98eee0b43cc6ad1098a05c2acadc94c41e0d11bc5ac0758"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 429
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 226,
+      "hold": 73,
+      "slide": 16,
+      "flick": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 675
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/609/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/609/expert.json",
+     "raw_sha256": "a50e2f72909ebf9f2beff7d926756f84ef79f821ed3763853bd91b95e79643ab"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 675
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 454,
+      "slide": 42,
+      "hold": 46,
+      "flick": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 609,
+   "bandId": 5,
+   "jacketImage": "609_floral_haven",
+   "bgmId": "bgm609"
+  },
+  "maa": {
+   "bestdori_song_id": 609,
+   "jacket": {
+    "path": "bestdori/609/jacket-cn-1.png",
+    "server": "cn",
+    "name": "609_floral_haven"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/609/jacket-cn-1.png",
+   "sha256": "c33efc2ae741ca8810c76cd83ec82ebc94e8793a7dbde0b2bcdf491001d7a8f4",
+   "width": 320,
+   "height": 320,
+   "bytes": 32843
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1714888800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "floralhaven",
+  "length_s": 123.552
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "309",
+ "title": "Northern lights",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "135",
+ "version": "",
+ "date_added": "2021-01-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 121
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 121
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 77,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 240
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 240
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 162,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 387
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/309/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/309/hard.json",
+     "raw_sha256": "35b1387547352d305d93bd8d63db140258cff44bc98927c949dc15fa23287d33"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 387
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 236,
+      "flick": 11,
+      "slide": 17,
+      "hold": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 618
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/309/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/309/expert.json",
+     "raw_sha256": "e066d17acfd85f3842fe29bc5d7cdd03cf19621568993f8981f34e80558d76af"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 618
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 391,
+      "flick": 17,
+      "slide": 57,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 309,
+   "bandId": 2,
+   "jacketImage": "309_northern_lights",
+   "bgmId": "bgm309"
+  },
+  "maa": {
+   "bestdori_song_id": 309,
+   "jacket": {
+    "path": "bestdori/309/jacket-cn-1.png",
+    "server": "cn",
+    "name": "309_northern_lights"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/309/jacket-cn-1.png",
+   "sha256": "914b3f47723c1f4099dd1b5511529e1fcb26d45eed043811ca43d26abcb5d913",
+   "width": 320,
+   "height": 320,
+   "bytes": 36526
+  }
+ },
+ "extra": {
+  "lyricist": "MEGUMI",
+  "composer": "たかはし　ごう",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1610258400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "northernlights",
+  "length_s": 97.848
+ }
+}

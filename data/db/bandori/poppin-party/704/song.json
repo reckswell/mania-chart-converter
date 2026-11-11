@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "704",
+ "title": "ロケットサイダー",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "198",
+ "version": "",
+ "date_added": "2025-04-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 139
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 139
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 89,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 196
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 196
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 138,
+      "hold": 27,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 657
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/704/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/704/hard.json",
+     "raw_sha256": "301ade2d483477965ee2d062663ec6bbc9f491d82c70fbf84a18753394eb4444"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 657
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 59,
+      "tap": 349,
+      "flick": 23,
+      "slide": 67
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1080
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/704/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/704/expert.json",
+     "raw_sha256": "2080503cda26cbf832bd6b29dc472ab57bbe54b334630f6a2da034bed62aa761"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 1080
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 85,
+      "tap": 428,
+      "slide": 147,
+      "flick": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 704,
+   "bandId": 1,
+   "jacketImage": "704_rocket_cider",
+   "bgmId": "bgm704"
+  },
+  "maa": {
+   "bestdori_song_id": 704,
+   "jacket": {
+    "path": "bestdori/704/jacket-cn-1.png",
+    "server": "cn",
+    "name": "704_rocket_cider"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/704/jacket-cn-1.png",
+   "sha256": "ce23baed27cd8b297b6b4af2fb0123b29aa3271840fd1488cedbbb8b949b89b3",
+   "width": 320,
+   "height": 320,
+   "bytes": 41379
+  }
+ },
+ "extra": {
+  "lyricist": "ナユタン星人",
+  "composer": "ナユタン星人",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1745992800000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "ろけっとさいだー",
+  "length_s": 117.624
+ }
+}

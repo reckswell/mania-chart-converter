@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "127",
+ "title": "太陽曰く燃えよカオス",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "143",
+ "version": "",
+ "date_added": "2018-05-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 176
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 176
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 128,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 312
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 312
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 36,
+      "tap": 240
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 459
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/127/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/127/hard.json",
+     "raw_sha256": "bba7f6f449f9fc0ed39782d49c4989eb6cd39f4467827ccc2c63c1c75b335640"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 459
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 273,
+      "hold": 22,
+      "slide": 36,
+      "flick": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 652
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/127/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/127/expert.json",
+     "raw_sha256": "3a60da9ae42139ca5f2dc5e479e6aed7f48c2639f7bbd18fec92f91417f5f627"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 652
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 428,
+      "flick": 48,
+      "hold": 20,
+      "slide": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 127,
+   "bandId": 3,
+   "jacketImage": "127_moeyochaos",
+   "bgmId": "bgm127"
+  },
+  "maa": {
+   "bestdori_song_id": 127,
+   "jacket": {
+    "path": "bestdori/127/jacket-cn-1.png",
+    "server": "cn",
+    "name": "127_moeyochaos"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/127/jacket-cn-1.png",
+   "sha256": "1f4c546b840a18dafb998bd9160a6473a206caadd969a48ed7d123effee251a3",
+   "width": 320,
+   "height": 320,
+   "bytes": 35507
+  }
+ },
+ "extra": {
+  "lyricist": "畑亜貴",
+  "composer": "田中秀和",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1527746400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "たいよういわくもえよかおす",
+  "title_en": "Taiyou Iwaku Moeyo Chaos",
+  "length_s": 98.232
+ }
+}

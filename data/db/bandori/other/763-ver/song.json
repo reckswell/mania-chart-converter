@@ -1,0 +1,179 @@
+{
+ "game": "bandori",
+ "song_id": "763",
+ "title": "熱色スターマイン(パラレルver.)",
+ "artist": "さんふらわー！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "さんふらわー！",
+ "bpm": "187",
+ "version": "",
+ "date_added": "2026-01-05",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 529
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/763/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/763/hard.json",
+     "raw_sha256": "7f17d4eda6466ecd72cf3d7f55e9e9ae6acf714eedf2c18bfad10b68268dee93"
+    },
+    "bestdori": {
+     "notes": 529
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 404,
+      "flick": 27,
+      "hold": 47,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 691
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/763/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/763/expert.json",
+     "raw_sha256": "0c2f1aa6c17c0f7dc764ed34a64be814fb32e0b4fd8530dea38eb3d586ac0823"
+    },
+    "bestdori": {
+     "notes": 691
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 503,
+      "flick": 46,
+      "hold": 52,
+      "slide": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 643
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/763/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/763/special.json",
+     "raw_sha256": "522bee3b99de7c2991faf1810ffafab480fb815fb6e7f7021e1a2af9fd4dfb24"
+    },
+    "bestdori": {
+     "notes": 643
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 389,
+      "slide": 30,
+      "hold": 42,
+      "flick": 97
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 763,
+   "bandId": 102,
+   "jacketImage": "763_starmine_p",
+   "bgmId": "bgm763"
+  },
+  "maa": {
+   "bestdori_song_id": 763,
+   "jacket": {
+    "path": "bestdori/763/jacket-cn-1.png",
+    "server": "cn",
+    "name": "763_starmine_p"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/763/jacket-cn-1.png",
+   "sha256": "c569856d6b0b223799aec6056420c237f698c00b9b63b5736ecf0bcb91a4f85d",
+   "width": 320,
+   "height": 320,
+   "bytes": 47274
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1767592800000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "ねっしょくすたーまいん"
+ }
+}

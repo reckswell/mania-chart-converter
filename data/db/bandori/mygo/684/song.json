@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "684",
+ "title": "焚音打",
+ "artist": "MyGO!!!!!",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "MyGO!!!!!",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2025-03-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 222
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 222
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 34,
+      "tap": 154
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 527
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 16,
+     "notes": 527
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 81,
+      "tap": 312,
+      "slide": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 809
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/684/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/684/hard.json",
+     "raw_sha256": "e1e4be26352c13a90280ba0aa6b6f8183ba54a91362ebd7a7b282f97bb87ce55"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 809
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 80,
+      "slide": 76,
+      "tap": 456,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1122
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/684/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/684/expert.json",
+     "raw_sha256": "8c14353cfe09ac39f8837eb019959b754ca4f0e6ff63cb33aaa97772b76ac4bf"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 1122
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 46,
+      "tap": 746,
+      "slide": 73,
+      "flick": 70
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1598
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/684/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/684/special.json",
+     "raw_sha256": "e6dbfdd7cb702e579dca19603ecf81d75ce438085fe8fcab28d0dde25cc38093"
+    },
+    "bestdori": {
+     "level": 30,
+     "notes": 1598
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 133,
+      "tap": 853,
+      "flick": 147,
+      "hold": 116
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 684,
+   "bandId": 45,
+   "jacketImage": "684_tanebi",
+   "bgmId": "bgm684"
+  },
+  "maa": {
+   "bestdori_song_id": 684,
+   "jacket": {
+    "path": "bestdori/684/jacket-cn-1.png",
+    "server": "cn",
+    "name": "684_tanebi"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/684/jacket-cn-1.png",
+   "sha256": "7ab16c758a9cb2dab43abcc70cef0ce6e413bb4dfe79ca181ac060dc2439da55",
+   "width": 320,
+   "height": 320,
+   "bytes": 19579
+  }
+ },
+ "extra": {
+  "lyricist": "藤原優樹(SUPA LOVE)",
+  "composer": "長谷川大介(SUPA LOVE)",
+  "arranger": "長谷川大介(SUPA LOVE)",
+  "tag": "normal",
+  "published_at": 1743328800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "たねび",
+  "title_en": "Tanebi",
+  "length_s": 173.736
+ }
+}

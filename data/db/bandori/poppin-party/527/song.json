@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "527",
+ "title": "ほな！",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "186",
+ "version": "",
+ "date_added": "2023-08-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 154
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 154
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 108,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 282
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 282
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 200,
+      "hold": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 548
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/527/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/527/hard.json",
+     "raw_sha256": "da40c7bf7349156f040103b01474900542419a9df8076bdbec19c8c1c929bdd3"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 548
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 317,
+      "flick": 20,
+      "hold": 74,
+      "slide": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 909
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/527/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/527/expert.json",
+     "raw_sha256": "3fb3496341cc2819aa055defd61b420c5c81a97ae63e698c4ec514179c422112"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 909
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 646,
+      "flick": 26,
+      "hold": 84,
+      "slide": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 527,
+   "bandId": 1,
+   "jacketImage": "527_hona",
+   "bgmId": "bgm527"
+  },
+  "maa": {
+   "bestdori_song_id": 527,
+   "jacket": {
+    "path": "bestdori/527/jacket-cn-1.png",
+    "server": "cn",
+    "name": "527_hona"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/527/jacket-cn-1.png",
+   "sha256": "755137c5445660768637e30cb3a9ac2a836fb8534312b1104b38540a38054e8e",
+   "width": 320,
+   "height": 320,
+   "bytes": 35158
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1693461600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ほな",
+  "title_en": "Alrighty!",
+  "length_s": 105.216
+ }
+}

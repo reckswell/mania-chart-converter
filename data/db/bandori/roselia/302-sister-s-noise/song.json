@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "302",
+ "title": "sister's noise",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "144",
+ "version": "",
+ "date_added": "2020-11-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 141
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 141
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 34,
+      "tap": 73
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 194
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 194
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 40,
+      "tap": 114
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 360
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/302/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/302/hard.json",
+     "raw_sha256": "059ff4935feb033346c63e98f4ee7887d2507f64271c95902c25b5e905869b07"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 360
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 38,
+      "tap": 263,
+      "flick": 7,
+      "slide": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 555
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/302/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/302/expert.json",
+     "raw_sha256": "2c00b889ae0b5927372206ca062682ca3d9fb088315f990a093c58884a3c7737"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 555
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 47,
+      "tap": 423,
+      "flick": 14,
+      "slide": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 302,
+   "bandId": 5,
+   "jacketImage": "302_sisters_noise",
+   "bgmId": "bgm302"
+  },
+  "maa": {
+   "bestdori_song_id": 302,
+   "jacket": {
+    "path": "bestdori/302/jacket-cn-1.png",
+    "server": "cn",
+    "name": "302_sisters_noise"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/302/jacket-cn-1.png",
+   "sha256": "9cacb23dbf6b5b05afda74e0d66fea9b8e478804e57b9b42ace278530c4b5fe7",
+   "width": 320,
+   "height": 320,
+   "bytes": 24886
+  }
+ },
+ "extra": {
+  "lyricist": "八木沼悟志",
+  "composer": "八木沼悟志",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1606716000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "sistersnoise",
+  "length_s": 97.56
+ }
+}

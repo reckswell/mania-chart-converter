@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "376",
+ "title": "ベノム",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "152",
+ "version": "",
+ "date_added": "2021-10-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 145
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 145
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 71,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 253
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 253
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 165,
+      "hold": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 485
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/376/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/376/hard.json",
+     "raw_sha256": "83ad9b8df20e8c8acdd9eb2bab4cb658e4f9fd0548d1971e2d400233bf11d90e"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 485
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 254,
+      "slide": 40,
+      "hold": 41,
+      "flick": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 717
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/376/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/376/expert.json",
+     "raw_sha256": "a6eb334e179366b555bdb8d2cfaa7e35967153b6470e9f64f8fc23ef85fb0e9a"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 717
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 354,
+      "slide": 64,
+      "hold": 72,
+      "flick": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 789
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1774418400000,
+    "maa": {
+     "path": "bestdori/376/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/376/special.json",
+     "raw_sha256": "9ab0c7515e01ab7adf5abef915e9b12307ff6598b82b7029e9914c29c2b76d5f"
+    },
+    "bestdori": {
+     "notes": 789
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 118,
+      "slide": 113,
+      "tap": 342,
+      "hold": 38
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 376,
+   "bandId": 2,
+   "jacketImage": "376_venom",
+   "bgmId": "bgm376"
+  },
+  "maa": {
+   "bestdori_song_id": 376,
+   "jacket": {
+    "path": "bestdori/376/jacket-cn-1.png",
+    "server": "cn",
+    "name": "376_venom"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/376/jacket-cn-1.png",
+   "sha256": "9443b7902af0f4b76f91ae66f55bc099467df8326d7f0c6b1d7e8cc1b53547da",
+   "width": 320,
+   "height": 320,
+   "bytes": 37713
+  }
+ },
+ "extra": {
+  "lyricist": "かいりきベア",
+  "composer": "かいりきベア",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1635573600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "べのむ",
+  "title_en": "Venom",
+  "length_s": 105.84
+ }
+}

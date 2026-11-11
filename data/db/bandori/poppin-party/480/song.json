@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "480",
+ "title": "＊ ～アスタリスク～",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "128",
+ "version": "",
+ "date_added": "2023-03-17",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 133
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 133
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 17,
+      "tap": 99
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 269
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 269
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 178,
+      "hold": 24,
+      "slide": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 481
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/480/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/480/hard.json",
+     "raw_sha256": "c0d4a5b7a80d8c4801732e176614613e64e0615c58066eb17d09534a26981f10"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 481
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 324,
+      "slide": 37,
+      "hold": 20,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 838
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/480/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/480/expert.json",
+     "raw_sha256": "0a4046082e5f43bf21705602ff933e049f8a8a0394601b8a10e277e108bbabfe"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 838
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 634,
+      "slide": 36,
+      "hold": 28,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 480,
+   "bandId": 1,
+   "jacketImage": "480_asterisk",
+   "bgmId": "bgm480"
+  },
+  "maa": {
+   "bestdori_song_id": 480,
+   "jacket": {
+    "path": "bestdori/480/jacket-cn-1.png",
+    "server": "cn",
+    "name": "480_asterisk"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/480/jacket-cn-1.png",
+   "sha256": "4ae2cb3cf910bd8917104c897faaefd0399889c37d80beba6486fb64f4e830fb",
+   "width": 320,
+   "height": 320,
+   "bytes": 20715
+  }
+ },
+ "extra": {
+  "lyricist": "ORANGE RANGE",
+  "composer": "ORANGE RANGE",
+  "arranger": "堀川大翼（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1679032800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "あすたりすく",
+  "title_en": "*～Asterisk～",
+  "length_s": 124.752
+ }
+}

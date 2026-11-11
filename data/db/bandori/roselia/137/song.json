@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "137",
+ "title": "シャルル",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "145",
+ "version": "",
+ "date_added": "2018-08-05",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 140
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 140
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 90,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 218
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 218
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 140,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 373
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/137/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/137/hard.json",
+     "raw_sha256": "2a0ae66031216bc6f4babbe29e24ddffa229952878bca4a2bb9f3b9044c842a8"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 373
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 236,
+      "hold": 38,
+      "slide": 12,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 602
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/137/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/137/expert.json",
+     "raw_sha256": "91549269d18348c18f5b31a4acb2a82b11adeabe758f766ba437160e93f586b8"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 602
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 440,
+      "slide": 17,
+      "hold": 41,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 665
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1558267200000,
+    "maa": {
+     "path": "bestdori/137/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/137/special.json",
+     "raw_sha256": "cb61e2a2561c8fff12913eeaa927fa462fe94a5af8c4ce14baa9ef8d3e34d421"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 665
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 434,
+      "hold": 32,
+      "slide": 39,
+      "flick": 66
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 137,
+   "bandId": 5,
+   "jacketImage": "137_sharuru",
+   "bgmId": "bgm137"
+  },
+  "maa": {
+   "bestdori_song_id": 137,
+   "jacket": {
+    "path": "bestdori/137/jacket-cn-1.png",
+    "server": "cn",
+    "name": "137_sharuru"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/137/jacket-cn-1.png",
+   "sha256": "e5ffde685cee4a7ceb2076d2f3f46fb5a815e14c3304538912b17f0a5325691b",
+   "width": 320,
+   "height": 320,
+   "bytes": 20633
+  }
+ },
+ "extra": {
+  "lyricist": "バルーン",
+  "composer": "バルーン",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1533448800000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "しゃるる",
+  "title_en": "Charles",
+  "length_s": 97.704
+ }
+}

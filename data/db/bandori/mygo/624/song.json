@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "624",
+ "title": "名無声",
+ "artist": "MyGO!!!!!",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "MyGO!!!!!",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2024-07-27",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 125
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 125
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 89,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 256
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 256
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 178,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 495
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/624/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/624/hard.json",
+     "raw_sha256": "da5d91a1580c92a945e66dc8927e09727aaa563979a93dec8b3797e08a6bea6e"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 495
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 267,
+      "slide": 51,
+      "hold": 48,
+      "flick": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 850
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/624/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/624/expert.json",
+     "raw_sha256": "868b4f6055bf4a15f2ef9fa4993ce7f634b0072f9cc23fb993f4c9a3858ff0ab"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 850
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 445,
+      "slide": 84,
+      "hold": 63,
+      "flick": 64
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 624,
+   "bandId": 45,
+   "jacketImage": "624_namonaki",
+   "bgmId": "bgm624"
+  },
+  "maa": {
+   "bestdori_song_id": 624,
+   "jacket": {
+    "path": "bestdori/624/jacket-cn-1.png",
+    "server": "cn",
+    "name": "624_namonaki"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/624/jacket-cn-1.png",
+   "sha256": "d762525945fc2eb51fe7380f3ef2e45a62d8c7332ad9f41c2abda8e8107d2cef",
+   "width": 320,
+   "height": 320,
+   "bytes": 22000
+  }
+ },
+ "extra": {
+  "lyricist": "藤原優樹(SUPA LOVE)",
+  "composer": "金崎真士(SUPA LOVE)",
+  "arranger": "金崎真士(SUPA LOVE)",
+  "tag": "normal",
+  "published_at": 1722079800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "なもなき",
+  "title_en": "Namonaki",
+  "length_s": 113.112
+ }
+}

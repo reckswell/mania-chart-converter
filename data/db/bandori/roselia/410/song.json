@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "410",
+ "title": "閃光",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "178",
+ "version": "",
+ "date_added": "2022-03-11",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 139
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 139
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 16,
+      "tap": 107
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 252
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 252
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "slide": 2,
+      "tap": 228,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 580
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/410/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/410/hard.json",
+     "raw_sha256": "6a2b79b15b0ac9354ceb308a8dcc677ba09faf158f7e8cbd608ceead1ab81756"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 580
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 389,
+      "hold": 29,
+      "flick": 23,
+      "slide": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 855
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/410/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/410/expert.json",
+     "raw_sha256": "d85edc16d68904355fe2fb058f8a13d460648a9286ce0f7db905a133b902edc9"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 855
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 39,
+      "tap": 578,
+      "slide": 72,
+      "flick": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 410,
+   "bandId": 5,
+   "jacketImage": "410_senkou",
+   "bgmId": "bgm410"
+  },
+  "maa": {
+   "bestdori_song_id": 410,
+   "jacket": {
+    "path": "bestdori/410/jacket-cn-1.png",
+    "server": "cn",
+    "name": "410_senkou"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/410/jacket-cn-1.png",
+   "sha256": "ea73a7b11d4ab6d2ff101dbf72e5eafddfe93f5dd2f3a84a47b6759a86a79622",
+   "width": 320,
+   "height": 320,
+   "bytes": 27212
+  }
+ },
+ "extra": {
+  "lyricist": "Eve",
+  "composer": "Eve",
+  "arranger": "Numa",
+  "tag": "normal",
+  "published_at": 1646985600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "せんこう",
+  "title_en": "FLASHLIGHT",
+  "length_s": 134.88
+ }
+}

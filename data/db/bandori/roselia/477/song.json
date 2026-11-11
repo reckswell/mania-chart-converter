@@ -1,0 +1,177 @@
+{
+ "game": "bandori",
+ "song_id": "477",
+ "title": "新時代",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "32-175",
+ "version": "",
+ "date_added": "2023-03-15",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 130
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 130
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 74,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 266
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 266
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 143,
+      "hold": 59,
+      "slide": 2,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 569
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/477/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/477/hard.json",
+     "raw_sha256": "f7cd5fb0e1852d24550d4ad657dd1d540d42efdbf911e721733cdaae50d48f3a"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 569
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 12,
+      "tap": 314,
+      "slide": 63,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 835
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/477/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/477/expert.json",
+     "raw_sha256": "9ca5e4e1271f7445b95bfe1c1379f56a0b62d1f563ee1cdb797a8e44b16f98ce"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 835
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 15,
+      "tap": 564,
+      "slide": 65,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 477,
+   "bandId": 5,
+   "jacketImage": "477_shinjidai",
+   "bgmId": "bgm477"
+  },
+  "maa": {
+   "bestdori_song_id": 477,
+   "jacket": {
+    "path": "bestdori/477/jacket-cn-1.png",
+    "server": "cn",
+    "name": "477_shinjidai"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/477/jacket-cn-1.png",
+   "sha256": "1f09bf76a11c1485b05197f482410e038fe3d05d42d79da31f2616271449556e",
+   "width": 320,
+   "height": 320,
+   "bytes": 32962
+  }
+ },
+ "extra": {
+  "lyricist": "中田ヤスタカ",
+  "composer": "中田ヤスタカ",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1678867200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "しんじだい",
+  "title_en": "New Genesis",
+  "length_s": 140.52
+ }
+}

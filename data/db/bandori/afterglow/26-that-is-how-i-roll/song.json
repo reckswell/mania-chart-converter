@@ -1,0 +1,208 @@
+{
+ "game": "bandori",
+ "song_id": "26",
+ "title": "That Is How I Roll!",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2016-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 99
+   },
+   "source": {
+    "notesQuantity": 99,
+    "bestdori": {
+     "level": 7,
+     "notes": 99
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 93,
+      "hold": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 224
+   },
+   "source": {
+    "notesQuantity": 193,
+    "bestdori": {
+     "level": 13,
+     "notes": 224
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 212,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 193 differs from combo 224 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 315
+   },
+   "source": {
+    "notesQuantity": 266,
+    "maa": {
+     "path": "bestdori/26/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/26/hard.json",
+     "raw_sha256": "10391f500a506be7443ed2551ee0c5dff7272799505eb0aab84eac3e3bcc127b"
+    },
+    "bestdori": {
+     "level": 18,
+     "notes": 315
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 295,
+      "hold": 6,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 266 differs from combo 315 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 547
+   },
+   "source": {
+    "notesQuantity": 447,
+    "maa": {
+     "path": "bestdori/26/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/26/expert.json",
+     "raw_sha256": "f978bdf113d9af67c083b9fd82e319b4e5818527b4d1ac452cc7dd84a480250f"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 547
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 443,
+      "slide": 11,
+      "hold": 33,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 447 differs from combo 547 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 706
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1545134400000,
+    "maa": {
+     "path": "bestdori/26/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/26/special.json",
+     "raw_sha256": "08efe3612408692deff0d5591504ede1f25a8206970c04028acc1535de0c7759"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 706
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 35,
+      "tap": 463,
+      "hold": 52,
+      "flick": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 26,
+   "bandId": 2,
+   "jacketImage": "thatishowiroll",
+   "bgmId": "bgm026"
+  },
+  "maa": {
+   "bestdori_song_id": 26,
+   "jacket": {
+    "path": "bestdori/26/jacket-cn-1.png",
+    "server": "cn",
+    "name": "thatishowiroll"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/26/jacket-cn-1.png",
+   "sha256": "3b39aa4c5c456552aacff66c90fb1ced3f67914bc4db7a5f938dc3a9987f8078",
+   "width": 320,
+   "height": 320,
+   "bytes": 37432
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "岩橋星実（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1462071600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "thatishowiroll",
+  "length_s": 103.056
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "420",
+ "title": "あこがれacross",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2022-05-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 109
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 109
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 23,
+      "tap": 63
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 245
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 245
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 173,
+      "hold": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 453
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/420/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/420/hard.json",
+     "raw_sha256": "ba39ad0965bc3cf84cbf0890a8880172eb3970c60a5da0bbccab264feb9e4b07"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 453
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 67,
+      "slide": 11,
+      "tap": 287,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 664
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/420/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/420/expert.json",
+     "raw_sha256": "fe7a1df9d8edc9064ce10fa8b585004f6e848cc554fce9ae8cc1acb869b52099"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 664
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 75,
+      "tap": 448,
+      "slide": 20,
+      "flick": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 420,
+   "bandId": 4,
+   "jacketImage": "420_akogare_across",
+   "bgmId": "bgm420"
+  },
+  "maa": {
+   "bestdori_song_id": 420,
+   "jacket": {
+    "path": "bestdori/420/jacket-cn-1.png",
+    "server": "cn",
+    "name": "420_akogare_across"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/420/jacket-cn-1.png",
+   "sha256": "52cb75596b14ffeec6948d9121f9741d4c9ed3e104c8386361be8f3900e1b7eb",
+   "width": 320,
+   "height": 320,
+   "bytes": 19550
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤間仁（Elements Garden）",
+  "arranger": "藤間仁（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1651557600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "あこがれacross",
+  "title_en": "Akogare Across",
+  "length_s": 108.048
+ }
+}

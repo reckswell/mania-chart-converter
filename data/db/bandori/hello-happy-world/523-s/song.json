@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "523",
+ "title": "ボクらの夏's☆ショーたいむっ！！",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "178",
+ "version": "",
+ "date_added": "2023-08-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 121
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 121
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 25,
+      "tap": 71
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 243
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 243
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 163,
+      "hold": 36,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 446
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/523/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/523/hard.json",
+     "raw_sha256": "b4be0f3b1a87cb5a6af7d554626e32039a7976688d72531405207bb1ad6100e8"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 446
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 286,
+      "slide": 37,
+      "hold": 27,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 729
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/523/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/523/expert.json",
+     "raw_sha256": "98dd8985a442cf3432d0fc38e3f7b6a890d55d94e03617ee62eebe19c7e47bf5"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 729
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 479,
+      "slide": 37,
+      "hold": 48,
+      "flick": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 523,
+   "bandId": 3,
+   "jacketImage": "523_bokurano_natsu",
+   "bgmId": "bgm523"
+  },
+  "maa": {
+   "bestdori_song_id": 523,
+   "jacket": {
+    "path": "bestdori/523/jacket-cn-1.png",
+    "server": "cn",
+    "name": "523_bokurano_natsu"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/523/jacket-cn-1.png",
+   "sha256": "b29aa59a55e9134f7c61ac91df18017a3f3e2d5ae30fe5dbe26ba4abaec9e347",
+   "width": 320,
+   "height": 320,
+   "bytes": 43645
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "Seonoo Kim（Elements Garden）",
+  "arranger": "Seonoo Kim（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1693310400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ぼくらのなっつしょーたいむっ",
+  "title_en": "Our Summer's☆Showtime!!",
+  "length_s": 103.2
+ }
+}

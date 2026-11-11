@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "392",
+ "title": "ハッピー☆マテリアル",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "163",
+ "version": "",
+ "date_added": "2022-01-11",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 240
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 240
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 154,
+      "hold": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 320
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 320
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 55,
+      "tap": 210
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 600
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/392/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/392/hard.json",
+     "raw_sha256": "fc103b62ef83d0b0284a2ecdde20e22abb6026a460642b8f0c94e2fc725ea55c"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 600
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 49,
+      "tap": 345,
+      "flick": 27,
+      "hold": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 764
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/392/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/392/expert.json",
+     "raw_sha256": "7c7820b00adbfdd4d660c3c9a6a6018fad33617f35dd539b41fdae21052a2471"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 764
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 53,
+      "tap": 499,
+      "flick": 27,
+      "hold": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 392,
+   "bandId": 3,
+   "jacketImage": "392_hapimate",
+   "bgmId": "bgm392"
+  },
+  "maa": {
+   "bestdori_song_id": 392,
+   "jacket": {
+    "path": "bestdori/392/jacket-cn-1.png",
+    "server": "cn",
+    "name": "392_hapimate"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/392/jacket-cn-1.png",
+   "sha256": "37bece712c18e02f376e29ef10f560c6526c27e4fe1e6e7f717166cbedf2cbc1",
+   "width": 320,
+   "height": 320,
+   "bytes": 25799
+  }
+ },
+ "extra": {
+  "lyricist": "うらん",
+  "composer": "大川 茂伸",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1641880800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "はっぴーまてりある",
+  "title_en": "Happy☆Material",
+  "length_s": 124.488
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "460",
+ "title": "えがお、あーゆーれでぃ???",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "138",
+ "version": "",
+ "date_added": "2022-12-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 114
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 114
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 72,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 209
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 209
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 151,
+      "hold": 25,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 393
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/460/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/460/hard.json",
+     "raw_sha256": "7d8f5a8bedb3b63dcde97fadb397dbb0d04cfb084f251bc301142ad562647bb1"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 393
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 239,
+      "hold": 41,
+      "slide": 20,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 569
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/460/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/460/expert.json",
+     "raw_sha256": "d9070bfdfa309f2cd1c51d81682314cd53a1b0be481b65ed8a372dc393677333"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 569
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 326,
+      "slide": 71,
+      "hold": 30,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 460,
+   "bandId": 3,
+   "jacketImage": "460_egao_are_you_ready",
+   "bgmId": "bgm460"
+  },
+  "maa": {
+   "bestdori_song_id": 460,
+   "jacket": {
+    "path": "bestdori/460/jacket-cn-1.png",
+    "server": "cn",
+    "name": "460_egao_are_you_ready"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/460/jacket-cn-1.png",
+   "sha256": "6ebef79c8f2ead2d96f2b4906ce34a6e875662f1df094996b97882d12dbd6a30",
+   "width": 320,
+   "height": 320,
+   "bytes": 39481
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "菊田大介（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1671602400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "えがおあーゆーれでぃ",
+  "title_en": "Smile, Are You Ready???",
+  "length_s": 107.016
+ }
+}

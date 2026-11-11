@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "666",
+ "title": "花笑みのデュオ",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "200",
+ "version": "",
+ "date_added": "2025-02-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 120
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 120
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 32,
+      "tap": 56
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 271
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 271
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 59,
+      "tap": 153
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 510
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/666/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/666/hard.json",
+     "raw_sha256": "fd574424d3fdf1227ca2468b5c1875bb6fc8a3df4f7a25567eb639d50c093edc"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 510
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 52,
+      "hold": 48,
+      "tap": 228,
+      "flick": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 775
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/666/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/666/expert.json",
+     "raw_sha256": "b316812cb29be0a7b7624bc306b42d00804d2ae6c6c11caa13950ef9bb83cb9d"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 775
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 73,
+      "hold": 67,
+      "tap": 388,
+      "flick": 56
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 666,
+   "bandId": 2,
+   "jacketImage": "666_hanaemi",
+   "bgmId": "bgm666"
+  },
+  "maa": {
+   "bestdori_song_id": 666,
+   "jacket": {
+    "path": "bestdori/666/jacket-cn-1.png",
+    "server": "cn",
+    "name": "666_hanaemi"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/666/jacket-cn-1.png",
+   "sha256": "e577895302f5a2b6e8461a24924586b71991ff0b604e7eccb4779bb832bd6af1",
+   "width": 320,
+   "height": 320,
+   "bytes": 30913
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "笠井雄太（Elements Garden）",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1739167200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "はなえみのでゅお",
+  "title_en": "Hanaemi no Duo",
+  "length_s": 106.272
+ }
+}

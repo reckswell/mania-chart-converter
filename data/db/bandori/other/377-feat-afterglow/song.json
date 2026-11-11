@@ -1,0 +1,178 @@
+{
+ "game": "bandori",
+ "song_id": "377",
+ "title": "優勝 feat.Afterglow",
+ "artist": "FLOW",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "FLOW",
+ "bpm": "200",
+ "version": "",
+ "date_added": "2021-12-11",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 111
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 111
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 79,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 242
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 242
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 144,
+      "hold": 47,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 489
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/377/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/377/hard.json",
+     "raw_sha256": "6b2bad68ad93ad30671927c4c6c0b2e61429b57d14053a856bc9213b59091d49"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 489
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 211,
+      "hold": 88,
+      "slide": 32,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 613
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/377/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/377/expert.json",
+     "raw_sha256": "2582540eab3a7bbc8c3678560b7b8e801e0ef81dd8cc144f25296df5ae5f979a"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 613
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 297,
+      "slide": 64,
+      "hold": 72,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 377,
+   "bandId": 38,
+   "jacketImage": "377_yusho",
+   "bgmId": "bgm377"
+  },
+  "maa": {
+   "bestdori_song_id": 377,
+   "jacket": {
+    "path": "bestdori/377/jacket-cn-1.png",
+    "server": "cn",
+    "name": "377_yusho"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/377/jacket-cn-1.png",
+   "sha256": "03ba8b201ffc02a673172bce5510640cb687dfd00ba74c386f045e512e7dfa76",
+   "width": 320,
+   "height": 320,
+   "bytes": 20957
+  }
+ },
+ "extra": {
+  "lyricist": "KOHSHI ASAKAWA",
+  "composer": "TAKESHI ASAKAWA",
+  "arranger": "FLOW",
+  "tag": "normal",
+  "published_at": 1639202400000,
+  "closed_at": 1641794399000,
+  "music_data_type": "collabo_original",
+  "ruby": "ゆうしょうふぃーとあふたーぐろう",
+  "removed": true,
+  "closed_date": "2022-01-10",
+  "title_en": "Yuushou feat.Afterglow",
+  "length_s": 108.072
+ }
+}

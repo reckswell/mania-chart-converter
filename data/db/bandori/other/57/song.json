@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "57",
+ "title": "花園電気ギター！！！",
+ "artist": "花園たえ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "花園たえ",
+ "bpm": "188",
+ "version": "",
+ "date_added": "2017-07-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 142
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 142
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 114,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 250
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 250
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 184,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 463
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/57/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/57/hard.json",
+     "raw_sha256": "88d4e0bd43396beae727310945350738e23e8f59046cbe81322f0acf0f38beb5"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 463
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 274,
+      "hold": 35,
+      "flick": 14,
+      "slide": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 718
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/57/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/57/expert.json",
+     "raw_sha256": "dc61530b54f0fee9e54d4f66b67b7f31396d43ecfe66b9c9460983d84e6ba279"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 718
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 500,
+      "hold": 42,
+      "flick": 30,
+      "slide": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 57,
+   "bandId": 10,
+   "jacketImage": "057_denki_guiter",
+   "bgmId": "bgm057"
+  },
+  "maa": {
+   "bestdori_song_id": 57,
+   "jacket": {
+    "path": "bestdori/57/jacket-cn-1.png",
+    "server": "cn",
+    "name": "057_denki_guiter"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/57/jacket-cn-1.png",
+   "sha256": "66c1ca42bbea0bc1e7afa3b5015e50b07a1e20480e9710ac25a3df21d818c669",
+   "width": 320,
+   "height": 320,
+   "bytes": 28982
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "母里治樹（Elements Garden）",
+  "arranger": "母里治樹（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1500433200000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "はなぞのでんきぎたー",
+  "title_en": "Hanazono Electric Guitar!!!",
+  "length_s": 106.008
+ }
+}

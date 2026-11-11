@@ -1,0 +1,177 @@
+{
+ "game": "bandori",
+ "song_id": "230",
+ "title": "おもいでイルミネーション",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "165",
+ "version": "",
+ "date_added": "2019-11-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 163
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 163
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 36,
+      "tap": 89,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 245
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 245
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 129,
+      "hold": 56,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 469
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/230/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/230/hard.json",
+     "raw_sha256": "b8bc32fc91be462bbcd8ca7fc51c732f1119f50c17d1d700c104430f4a55515e"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 469
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 305,
+      "hold": 69,
+      "slide": 4,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 600
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/230/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/230/expert.json",
+     "raw_sha256": "455d69d9a7871be55fb56cee376e03d1d4d7f7cc5b5006429518ecfcf9da1631"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 600
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 341,
+      "slide": 61,
+      "hold": 31,
+      "flick": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 230,
+   "bandId": 3,
+   "jacketImage": "230_omoide",
+   "bgmId": "bgm230"
+  },
+  "maa": {
+   "bestdori_song_id": 230,
+   "jacket": {
+    "path": "bestdori/230/jacket-cn-1.png",
+    "server": "cn",
+    "name": "230_omoide"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/230/jacket-cn-1.png",
+   "sha256": "a38b7323f85b0fee93d54b6c89259fa032c9a9fc22919e2fd426221c32797a24",
+   "width": 320,
+   "height": 320,
+   "bytes": 35207
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "笠井雄太（Elements Garden）",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1575093600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "おもいでいるみねーしょん",
+  "title_en": "Memory Illumination",
+  "length_s": 105.504
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "91",
+ "title": "クリスマスのうた",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "90-138",
+ "version": "",
+ "date_added": "2017-11-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 147
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 147
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 99,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 239
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 239
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 147,
+      "hold": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 471
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/91/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/91/hard.json",
+     "raw_sha256": "bd843a2e6f14eeb249aba6940ef55baedaed40c01de03b1abfca4e69f55eb024"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 471
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 276,
+      "hold": 57,
+      "slide": 13,
+      "flick": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 683
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/91/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/91/expert.json",
+     "raw_sha256": "543b640830cbbd25b9da5a6e58baf2416dbe515a7679f13a37a1176c86960083"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 683
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 452,
+      "hold": 39,
+      "slide": 28,
+      "flick": 56
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 91,
+   "bandId": 1,
+   "jacketImage": "091_xmas",
+   "bgmId": "bgm091"
+  },
+  "maa": {
+   "bestdori_song_id": 91,
+   "jacket": {
+    "path": "bestdori/91/jacket-cn-1.png",
+    "server": "cn",
+    "name": "091_xmas"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/91/jacket-cn-1.png",
+   "sha256": "7467a1c0debbe31c476a7d5388f851f7ad7ffd286882ad1c95ea0a72c6452a91",
+   "width": 320,
+   "height": 320,
+   "bytes": 46724
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "菊田大介（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1512021600000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "くりすますのうた",
+  "title_en": "Our Christmas Song",
+  "length_s": 129.984
+ }
+}

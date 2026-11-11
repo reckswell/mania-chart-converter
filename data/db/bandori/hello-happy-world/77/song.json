@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "77",
+ "title": "ロメオ",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "140",
+ "version": "",
+ "date_added": "2017-10-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 103
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 103
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 87,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 259
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 259
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 50,
+      "tap": 159
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 476
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/77/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/77/hard.json",
+     "raw_sha256": "a7f6098d10247a2231e75fb19c6cd671d24c29a9241772f37031d2ce8313b24a"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 476
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 41,
+      "tap": 340,
+      "slide": 9,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 620
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/77/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/77/expert.json",
+     "raw_sha256": "ec20c837cede0eff9b7706fdb03b1ea39ec0e6e3817563628da69c458bd7794f"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 620
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 25,
+      "tap": 393,
+      "hold": 38,
+      "slide": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 758
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1632463200000,
+    "maa": {
+     "path": "bestdori/77/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/77/special.json",
+     "raw_sha256": "50ceaba8224286ce8c2ca4e80ef02f62fdf49b765536bbf23a5be626df31481a"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 758
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 96,
+      "tap": 331,
+      "flick": 49,
+      "hold": 13
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 77,
+   "bandId": 3,
+   "jacketImage": "077_romeo",
+   "bgmId": "bgm077"
+  },
+  "maa": {
+   "bestdori_song_id": 77,
+   "jacket": {
+    "path": "bestdori/77/jacket-cn-1.png",
+    "server": "cn",
+    "name": "077_romeo"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/77/jacket-cn-1.png",
+   "sha256": "7ce6592ec0e5d13d2b839bd8ed50e243669e1f3d02c4092fefe647f7e8cbb2c8",
+   "width": 320,
+   "height": 320,
+   "bytes": 37387
+  }
+ },
+ "extra": {
+  "lyricist": "HoneyWorks",
+  "composer": "HoneyWorks",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1508479200000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "ろめお",
+  "title_en": "Romeo",
+  "length_s": 127.776
+ }
+}

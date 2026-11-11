@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "185",
+ "title": "いつも通りのBrand new days",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "192",
+ "version": "",
+ "date_added": "2019-04-18",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 175
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 175
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 117,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 282
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 282
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 200,
+      "hold": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 457
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/185/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/185/hard.json",
+     "raw_sha256": "eb6e53b39ee25c5ce1d386a616c83af42748f64c5994d6f09804d9696e95ecc0"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 457
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 273,
+      "flick": 26,
+      "hold": 73,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 691
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/185/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/185/expert.json",
+     "raw_sha256": "e1ea50a4758bc6f1f048d622fefe2f6505615eb23008b599cdec661f79dfbbb6"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 691
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 427,
+      "hold": 89,
+      "slide": 21,
+      "flick": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 759
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1639915200000,
+    "maa": {
+     "path": "bestdori/185/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/185/special.json",
+     "raw_sha256": "699767cc100894aef60090e612d11b3fc79b965a8a10d44cf4668c4c99e78d79"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 759
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 422,
+      "slide": 77,
+      "flick": 41,
+      "hold": 34
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 185,
+   "bandId": 2,
+   "jacketImage": "185_brandnewdays",
+   "bgmId": "bgm185"
+  },
+  "maa": {
+   "bestdori_song_id": 185,
+   "jacket": {
+    "path": "bestdori/185/jacket-cn-1.png",
+    "server": "cn",
+    "name": "185_brandnewdays"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/185/jacket-cn-1.png",
+   "sha256": "e863a4438bbcae921381f977b844dd19d4b08ccf9803d1ee3fbbc0fb1a15ed15",
+   "width": 320,
+   "height": 320,
+   "bytes": 27410
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1555588800000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "いつもどおりのbrandnewdays",
+  "title_en": "Brand New Days - Same As Always",
+  "length_s": 104.424
+ }
+}

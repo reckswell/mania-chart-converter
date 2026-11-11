@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "343",
+ "title": "大河よ共に泣いてくれ",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "174",
+ "version": "",
+ "date_added": "2021-06-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 157
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 157
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 107,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 250
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 250
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 172,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 436
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/343/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/343/hard.json",
+     "raw_sha256": "86ec3c87539692295cd0139539f4341c0e0c397b7436a5c6d0b9e6be199a7182"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 436
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 254,
+      "hold": 64,
+      "flick": 25,
+      "slide": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 695
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/343/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/343/expert.json",
+     "raw_sha256": "bad6b41caeedbe8115fa2a9a4a04c4731355e01fb013a4af42c8290573bdec00"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 695
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 70,
+      "tap": 402,
+      "flick": 50,
+      "slide": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 343,
+   "bandId": 1,
+   "jacketImage": "343_taiga_yo_tomoni",
+   "bgmId": "bgm343"
+  },
+  "maa": {
+   "bestdori_song_id": 343,
+   "jacket": {
+    "path": "bestdori/343/jacket-cn-1.png",
+    "server": "cn",
+    "name": "343_taiga_yo_tomoni"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/343/jacket-cn-1.png",
+   "sha256": "b7f2820773d8df61de4d9b1b84dd0fb598751167aa22b3ef4cea14bcc03c715f",
+   "width": 320,
+   "height": 320,
+   "bytes": 40262
+  }
+ },
+ "extra": {
+  "lyricist": "古屋真",
+  "composer": "加藤裕介",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1624168800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "たいがよともにないてくれ",
+  "title_en": "Taiga yo Tomo ni Naite Kure",
+  "length_s": 93.168
+ }
+}

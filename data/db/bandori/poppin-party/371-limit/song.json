@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "371",
+ "title": "勇気Limit！",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "224",
+ "version": "",
+ "date_added": "2021-11-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 124
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 124
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 26,
+      "tap": 72
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 267
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 267
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 67,
+      "tap": 133
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 518
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/371/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/371/hard.json",
+     "raw_sha256": "98a9cced44fcb246742c06cbb0e299c22e79bbbb7e609f12bf06b45c16968223"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 518
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 296,
+      "hold": 63,
+      "flick": 16,
+      "slide": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 749
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/371/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/371/expert.json",
+     "raw_sha256": "aee952176933e6bc6c2cd74fd7f90a8b2c61645b3d02382e6b577dd4cfc16f7f"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 749
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 514,
+      "slide": 25,
+      "hold": 59,
+      "flick": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 371,
+   "bandId": 1,
+   "jacketImage": "371_yuuki_limit",
+   "bgmId": "bgm371"
+  },
+  "maa": {
+   "bestdori_song_id": 371,
+   "jacket": {
+    "path": "bestdori/371/jacket-cn-1.png",
+    "server": "cn",
+    "name": "371_yuuki_limit"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/371/jacket-cn-1.png",
+   "sha256": "ff964f7b6827f69f0304f9de6254b37667e158abd28ca794eca0ff46f0e23ac1",
+   "width": 320,
+   "height": 320,
+   "bytes": 38208
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "近藤世真（Elements Garden）",
+  "arranger": "近藤世真（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1636524000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ゆうきlimit",
+  "title_en": "Courage Limit!",
+  "length_s": 111.48
+ }
+}

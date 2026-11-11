@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "140",
+ "title": "ロストワンの号哭",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "162",
+ "version": "",
+ "date_added": "2018-08-24",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 217
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 217
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 157,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 298
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 298
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 226,
+      "hold": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 687
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/140/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/140/hard.json",
+     "raw_sha256": "e9012b02192015da3d989593ccb83fc99e3ce90f5d0f5de425e6d724ecd80063"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 687
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 463,
+      "hold": 61,
+      "slide": 30,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1026
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/140/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/140/expert.json",
+     "raw_sha256": "163bd21a6502bb22ca9e8beaea68da03f1957e1176a03d4123f648bb5aaf2fba"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 1026
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 676,
+      "hold": 72,
+      "slide": 63,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 699
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1632117600000,
+    "maa": {
+     "path": "bestdori/140/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/140/special.json",
+     "raw_sha256": "ff825084738c37bd2037c53f49763f88487eab90fef1a64a3fa702ac6986876a"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 699
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 394,
+      "slide": 78,
+      "flick": 52,
+      "hold": 29
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 140,
+   "bandId": 2,
+   "jacketImage": "140_goukoku",
+   "bgmId": "bgm140"
+  },
+  "maa": {
+   "bestdori_song_id": 140,
+   "jacket": {
+    "path": "bestdori/140/jacket-cn-1.png",
+    "server": "cn",
+    "name": "140_goukoku"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/140/jacket-cn-1.png",
+   "sha256": "278c9b9644e67d57a1a375c8a6a4175cb4d79431d475954ff9069c6579be150e",
+   "width": 320,
+   "height": 320,
+   "bytes": 26971
+  }
+ },
+ "extra": {
+  "lyricist": "Neru",
+  "composer": "Neru",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1535090400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "ろすとわんのごうこく",
+  "title_en": "Lost One's Weeping",
+  "length_s": 120.048
+ }
+}

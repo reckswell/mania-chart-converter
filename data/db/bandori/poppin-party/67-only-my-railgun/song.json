@@ -1,0 +1,209 @@
+{
+ "game": "bandori",
+ "song_id": "67",
+ "title": "only my railgun",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "143",
+ "version": "",
+ "date_added": "2017-08-26",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 186
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 186
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 130,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 305
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 305
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 205,
+      "hold": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 445
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/67/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/67/hard.json",
+     "raw_sha256": "a57a3076ced31d70754f6c5c24f2d023949edacf79e7ccbe14ab47412e764bf1"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 445
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 287,
+      "hold": 66,
+      "flick": 12,
+      "slide": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 706
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/67/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/67/expert.json",
+     "raw_sha256": "677a348eb145829a5516d7f175a8333949454c38a263d4279347919e08ea715b"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 706
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 471,
+      "slide": 14,
+      "flick": 38,
+      "hold": 76
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 555
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1593496800000,
+    "maa": {
+     "path": "bestdori/67/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/67/special.json",
+     "raw_sha256": "47976380ea21567208e994e50fe9bf68679479d01e51bfcd759aa79618116cc1"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 555
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 389,
+      "hold": 42,
+      "flick": 38,
+      "slide": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 67,
+   "bandId": 1,
+   "jacketImage": "067_railgun",
+   "bgmId": "bgm067"
+  },
+  "maa": {
+   "bestdori_song_id": 67,
+   "jacket": {
+    "path": "bestdori/67/jacket-cn-1.png",
+    "server": "cn",
+    "name": "067_railgun"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/67/jacket-cn-1.png",
+   "sha256": "986855532e784ade6915ad6ee72ae91ed3b8816fd0ca7fd21b8b3c4af48da831",
+   "width": 320,
+   "height": 320,
+   "bytes": 25510
+  }
+ },
+ "extra": {
+  "lyricist": "八木沼悟志 yuki-ka",
+  "composer": "八木沼悟志",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1503727200000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "onlymyrailgun",
+  "length_s": 104.952
+ }
+}

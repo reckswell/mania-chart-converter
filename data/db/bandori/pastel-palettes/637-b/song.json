@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "637",
+ "title": "サインはB",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "175",
+ "version": "",
+ "date_added": "2024-10-04",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 115
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 115
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 73,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 207
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 207
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 131,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 479
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/637/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/637/hard.json",
+     "raw_sha256": "516f97b900f256f1bb56fcca2b16448ee25cef926af4e6806ff20f971cc68379"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 479
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 25,
+      "tap": 287,
+      "flick": 49,
+      "hold": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 665
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/637/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/637/expert.json",
+     "raw_sha256": "20dfefc7853a7d5d850beaddbb076366f1dde10d103da1f68f8987d72b9c4f70"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 665
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 73,
+      "tap": 314,
+      "flick": 76,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 637,
+   "bandId": 4,
+   "jacketImage": "637_sign_b",
+   "bgmId": "bgm637"
+  },
+  "maa": {
+   "bestdori_song_id": 637,
+   "jacket": {
+    "path": "bestdori/637/jacket-cn-1.png",
+    "server": "cn",
+    "name": "637_sign_b"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/637/jacket-cn-1.png",
+   "sha256": "5ee2342e633a0bfdb68a3f9c6592b9e13c35092a9083d12f6a261d16f5ba400b",
+   "width": 320,
+   "height": 320,
+   "bytes": 38161
+  }
+ },
+ "extra": {
+  "lyricist": "大石 昌良",
+  "composer": "大石 昌良",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1728021600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "さいんはb",
+  "title_en": "Sign is B",
+  "length_s": 98.112
+ }
+}

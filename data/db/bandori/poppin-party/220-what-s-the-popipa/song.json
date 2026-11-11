@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "220",
+ "title": "What's the POPIPA!?",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "186",
+ "version": "",
+ "date_added": "2019-10-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 241
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 241
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 48,
+      "tap": 145
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 382
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 382
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 75,
+      "tap": 232
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 573
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/220/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/220/hard.json",
+     "raw_sha256": "bc0d0f16623286d27c6430f7d7fc083f0b95e1f0324638d967a7f0f33d72171b"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 573
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 324,
+      "hold": 60,
+      "flick": 38,
+      "slide": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 792
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/220/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/220/expert.json",
+     "raw_sha256": "ff4e619548a700abb18909b115cb5d1bf5a6e9fe079f6ce075a1537cd30ef0f1"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 792
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 519,
+      "hold": 56,
+      "slide": 28,
+      "flick": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 220,
+   "bandId": 1,
+   "jacketImage": "220_whatsthepopipa",
+   "bgmId": "bgm220"
+  },
+  "maa": {
+   "bestdori_song_id": 220,
+   "jacket": {
+    "path": "bestdori/220/jacket-cn-1.png",
+    "server": "cn",
+    "name": "220_whatsthepopipa"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/220/jacket-cn-1.png",
+   "sha256": "6e278801d27c373c8d58a40f81b73a2d0aca5704fade5d4d057798382e930a6c",
+   "width": 320,
+   "height": 320,
+   "bytes": 32140
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "菊田大介（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1570082400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "whatsthepopipa",
+  "length_s": 109.728
+ }
+}

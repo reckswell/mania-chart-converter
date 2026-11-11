@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "357",
+ "title": "ラスハピーポー！",
+ "artist": "RAISE A SUILEN×ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN×ハロー、ハッピーワールド！",
+ "bpm": "196",
+ "version": "",
+ "date_added": "2021-08-27",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 151
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 151
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 115,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 279
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 279
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 195,
+      "hold": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 467
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/357/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/357/hard.json",
+     "raw_sha256": "a6cfcae13b0b631eee1a7972cb2b7d5f875af574fe85b1f7cb4ea6e698717d07"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 467
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 298,
+      "hold": 45,
+      "slide": 26,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 751
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/357/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/357/expert.json",
+     "raw_sha256": "af6ab52c659f4fc30ba918b06052394b46b9eb2d948a1c81020a22fa4984621e"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 751
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 317,
+      "hold": 70,
+      "flick": 80,
+      "slide": 74
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 357,
+   "bandId": 30,
+   "jacketImage": "357_ras_hapi",
+   "bgmId": "bgm357"
+  },
+  "maa": {
+   "bestdori_song_id": 357,
+   "jacket": {
+    "path": "bestdori/357/jacket-cn-1.png",
+    "server": "cn",
+    "name": "357_ras_hapi"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/357/jacket-cn-1.png",
+   "sha256": "9419daa82488fcff2d0ab0f989371c0d694707618d84098061f320d404f2390f",
+   "width": 320,
+   "height": 320,
+   "bytes": 40105
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤間仁（Elements Garden）",
+  "arranger": "藤間仁（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1630044000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "らすはぴーぽー",
+  "title_en": "RASHAPEOPLE!",
+  "length_s": 99.24
+ }
+}

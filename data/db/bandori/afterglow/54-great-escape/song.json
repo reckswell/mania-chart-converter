@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "54",
+ "title": "great escape",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "184",
+ "version": "",
+ "date_added": "2017-07-25",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 118
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 118
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 88,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 239
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 239
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 143,
+      "hold": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 445
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/54/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/54/hard.json",
+     "raw_sha256": "279ecd8d7beb7fe6262011bf291a1bcd9d3a69895789ff43c44ed6495414dd2d"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 445
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 263,
+      "hold": 77,
+      "slide": 6,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 676
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/54/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/54/expert.json",
+     "raw_sha256": "1536ca54f1818d95a8352566b307b934f13f95bba6a24e0e494e81f74a17069b"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 676
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 417,
+      "hold": 33,
+      "slide": 49,
+      "flick": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 54,
+   "bandId": 2,
+   "jacketImage": "054_great_escape",
+   "bgmId": "bgm054"
+  },
+  "maa": {
+   "bestdori_song_id": 54,
+   "jacket": {
+    "path": "bestdori/54/jacket-cn-1.png",
+    "server": "cn",
+    "name": "054_great_escape"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/54/jacket-cn-1.png",
+   "sha256": "12d94af9984544ff0d5b42c432f982bea6d7afbbccd2b76d53f23b607badb0a2",
+   "width": 320,
+   "height": 320,
+   "bytes": 24479
+  }
+ },
+ "extra": {
+  "lyricist": "三島想平",
+  "composer": "cinema staff",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1500962400000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "greatescape",
+  "length_s": 91.368
+ }
+}

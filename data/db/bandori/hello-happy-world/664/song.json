@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "664",
+ "title": "れっつ・スマイル・すとり〜みんぐっ♪",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "150",
+ "version": "",
+ "date_added": "2025-01-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 131
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 131
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 77,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 227
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 227
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 42,
+      "tap": 143
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 423
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/664/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/664/hard.json",
+     "raw_sha256": "3fc7b207fef87336c9d55af6ca9808a12d8f88bb0c991dc4871be7db79885214"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 423
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 36,
+      "hold": 46,
+      "tap": 233,
+      "flick": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 642
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/664/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/664/expert.json",
+     "raw_sha256": "afd13150e0c3207a623bef9a5f51899197a51ce1f7e34b1a662fdae693a983a9"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 642
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 355,
+      "slide": 72,
+      "hold": 31,
+      "flick": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 664,
+   "bandId": 3,
+   "jacketImage": "664_smile_streaming",
+   "bgmId": "bgm664"
+  },
+  "maa": {
+   "bestdori_song_id": 664,
+   "jacket": {
+    "path": "bestdori/664/jacket-cn-1.png",
+    "server": "cn",
+    "name": "664_smile_streaming"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/664/jacket-cn-1.png",
+   "sha256": "937c15f86884f6d1e1859964c8040c01092c18a74f00f041d779e2bae2ac16e8",
+   "width": 320,
+   "height": 320,
+   "bytes": 33568
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "竹田祐介（Elements Garden）",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1737439200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "れっつすまいるすとりーみんぐ",
+  "title_en": "Let’s Smile Streamin’~♪",
+  "length_s": 104.856
+ }
+}

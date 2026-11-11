@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "402",
+ "title": "CiRCLE THANKS MUSiC♪",
+ "artist": "CiRCLE THANKS PARTY！スペシャルバンド",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "CiRCLE THANKS PARTY！スペシャルバンド",
+ "bpm": "123",
+ "version": "",
+ "date_added": "2022-03-11",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 135
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 135
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 79,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 248
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 248
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 59,
+      "tap": 128,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 483
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/402/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/402/hard.json",
+     "raw_sha256": "e43cc988e5af3bc1c5359e06a0b0603998bb7fb2ced990230f918da43583d278"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 483
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 215,
+      "hold": 70,
+      "slide": 33,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 736
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/402/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/402/expert.json",
+     "raw_sha256": "36b8cedcaf7b329874ebc061aaaa3b1eaa8f34958df0cf5756df112c90cc382b"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 736
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 333,
+      "slide": 84,
+      "hold": 51,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 402,
+   "bandId": 44,
+   "jacketImage": "402_circle_thanks",
+   "bgmId": "bgm402"
+  },
+  "maa": {
+   "bestdori_song_id": 402,
+   "jacket": {
+    "path": "bestdori/402/jacket-cn-1.png",
+    "server": "cn",
+    "name": "402_circle_thanks"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/402/jacket-cn-1.png",
+   "sha256": "4c3dcc50fa3b0f3f9a7f363f23cb5c488d752ec9021d336ff5750facdff1c605",
+   "width": 320,
+   "height": 320,
+   "bytes": 26669
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1646985600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "circlethanksmusic",
+  "length_s": 129.816
+ }
+}

@@ -1,0 +1,209 @@
+{
+ "game": "bandori",
+ "song_id": "35",
+ "title": "えがおのオーケストラっ！",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "138",
+ "version": "",
+ "date_added": "2016-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 101
+   },
+   "source": {
+    "notesQuantity": 117,
+    "bestdori": {
+     "level": 6,
+     "notes": 101
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 99,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 117 differs from combo 101 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 206
+   },
+   "source": {
+    "notesQuantity": 186,
+    "bestdori": {
+     "level": 11,
+     "notes": 206
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 182,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 186 differs from combo 206 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 313
+   },
+   "source": {
+    "notesQuantity": 310,
+    "maa": {
+     "path": "bestdori/35/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/35/hard.json",
+     "raw_sha256": "d01849fb728bf5930df8b91ae577e109b119f70a535a20c3308b3877ade8153a"
+    },
+    "bestdori": {
+     "level": 18,
+     "notes": 313
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 281,
+      "hold": 15,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 310 differs from combo 313 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 427
+   },
+   "source": {
+    "notesQuantity": 427,
+    "maa": {
+     "path": "bestdori/35/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/35/expert.json",
+     "raw_sha256": "4ff6ee4889b3690a586dc3cbbd4728fcbd75dd90322941727fef8cf4a6c0e4cb"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 427
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 317,
+      "hold": 32,
+      "flick": 6,
+      "slide": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 610
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1566129600000,
+    "maa": {
+     "path": "bestdori/35/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/35/special.json",
+     "raw_sha256": "17b07bc8ab56bd57f1800c4eb43ad6ea2696dc076e783ab3021652374169ea7b"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 610
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 43,
+      "tap": 357,
+      "slide": 44,
+      "flick": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 35,
+   "bandId": 3,
+   "jacketImage": "egaoke",
+   "bgmId": "bgm035"
+  },
+  "maa": {
+   "bestdori_song_id": 35,
+   "jacket": {
+    "path": "bestdori/35/jacket-cn-1.png",
+    "server": "cn",
+    "name": "egaoke"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/35/jacket-cn-1.png",
+   "sha256": "bb5df3647c72cb3dbea3e4ddc8d24b1f0c1e6eaf67cc6b3332b493af08d3fb1c",
+   "width": 320,
+   "height": 320,
+   "bytes": 40506
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤間仁（Elements Garden）",
+  "arranger": "藤間仁（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1462071600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "えがおのおーけすとらっ",
+  "title_en": "Orchestra Of Smiles!",
+  "length_s": 100.92
+ }
+}

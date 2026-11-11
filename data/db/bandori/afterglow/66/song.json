@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "66",
+ "title": "アスノヨゾラ哨戒班",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "185",
+ "version": "",
+ "date_added": "2017-08-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 178
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 178
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 112,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 283
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 283
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 211,
+      "hold": 33,
+      "slide": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 433
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/66/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/66/hard.json",
+     "raw_sha256": "cf0f405033535b7ae6578e27f69a2332edb750eea91819ff876d51a6d8312030"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 433
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 324,
+      "hold": 41,
+      "flick": 15,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 695
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/66/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/66/expert.json",
+     "raw_sha256": "b6c2271bc29244e00b377d73ee5f5bb36ce5c405a357ad49bb27c6851d95f8e8"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 695
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 554,
+      "flick": 24,
+      "hold": 22,
+      "slide": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 805
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1568808000000,
+    "maa": {
+     "path": "bestdori/66/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/66/special.json",
+     "raw_sha256": "d477e1e8a8f236e9d8d2e393c647509057995d0043b342b604539a209575b6c4"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 805
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 491,
+      "slide": 60,
+      "flick": 45,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 66,
+   "bandId": 2,
+   "jacketImage": "066_asuno_yozora",
+   "bgmId": "bgm066"
+  },
+  "maa": {
+   "bestdori_song_id": 66,
+   "jacket": {
+    "path": "bestdori/66/jacket-cn-1.png",
+    "server": "cn",
+    "name": "066_asuno_yozora"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/66/jacket-cn-1.png",
+   "sha256": "14d0f9cba3c67e80b5a90ddb55094dab8d94ecf055998fd829b89290a027b117",
+   "width": 320,
+   "height": 320,
+   "bytes": 25047
+  }
+ },
+ "extra": {
+  "lyricist": "Orangestar",
+  "composer": "Orangestar",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1504159200000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "あすのよぞらしょうかいはん",
+  "title_en": "Asu no Yozora Shoukaihan",
+  "length_s": 95.4
+ }
+}

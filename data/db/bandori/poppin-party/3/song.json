@@ -1,0 +1,207 @@
+{
+ "game": "bandori",
+ "song_id": "3",
+ "title": "ぽっぴん’しゃっふる",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "220",
+ "version": "",
+ "date_added": "2016-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 124
+   },
+   "source": {
+    "notesQuantity": 122,
+    "bestdori": {
+     "level": 7,
+     "notes": 124
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 124
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 122 differs from combo 124 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 207
+   },
+   "source": {
+    "notesQuantity": 207,
+    "bestdori": {
+     "level": 11,
+     "notes": 207
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 205,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 443
+   },
+   "source": {
+    "notesQuantity": 478,
+    "maa": {
+     "path": "bestdori/3/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/3/hard.json",
+     "raw_sha256": "9d9a69be30b6cb2aa0e3ceda080a35ada3ac8575c61a5f209032c1485f3c3343"
+    },
+    "bestdori": {
+     "level": 18,
+     "notes": 443
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 325,
+      "hold": 49,
+      "flick": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 478 differs from combo 443 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 651
+   },
+   "source": {
+    "notesQuantity": 660,
+    "maa": {
+     "path": "bestdori/3/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/3/expert.json",
+     "raw_sha256": "3929755d20e0d736404b9698d222c8358443bdb43064ded6e037c55155b955a8"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 651
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 423,
+      "hold": 105,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 660 differs from combo 651 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 979
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1774850400000,
+    "maa": {
+     "path": "bestdori/3/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/3/special.json",
+     "raw_sha256": "fa636238280d384c3bae42335b54522b02cdbe608c890516f2f38fb728dea2fc"
+    },
+    "bestdori": {
+     "notes": 979
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 562,
+      "flick": 141,
+      "slide": 93,
+      "hold": 29
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 3,
+   "bandId": 1,
+   "jacketImage": "yes_bang_dream",
+   "bgmId": "bgm003"
+  },
+  "maa": {
+   "bestdori_song_id": 3,
+   "jacket": {
+    "path": "bestdori/3/jacket-cn-1.png",
+    "server": "cn",
+    "name": "yes_bang_dream"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/3/jacket-cn-1.png",
+   "sha256": "46fbd9c2799a016815e6ccedc2af4cb1c4799e22d4d2519efeb429d336dd0326",
+   "width": 320,
+   "height": 320,
+   "bytes": 43121
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1462071600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "ぽっぴんしゃっふる",
+  "title_en": "Poppin' Shuffle",
+  "length_s": 133.104
+ }
+}

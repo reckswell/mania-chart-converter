@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "549",
+ "title": "BATTLE CRY",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "188",
+ "version": "",
+ "date_added": "2023-10-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 117
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 117
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 71,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 219
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 219
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 173,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 478
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/549/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/549/hard.json",
+     "raw_sha256": "655fb7c07b1a149214b04aa123e72d813c60ed9147ea6da96f42c952c52a2729"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 478
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 355,
+      "hold": 28,
+      "slide": 27,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 854
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/549/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/549/expert.json",
+     "raw_sha256": "de41d0aec2b309a6d974d8e16016b9b5e78cfedc3d55e4d0376f6e974e0a0cb7"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 854
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 573,
+      "hold": 74,
+      "slide": 33,
+      "flick": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 549,
+   "bandId": 18,
+   "jacketImage": "549_battlecry",
+   "bgmId": "bgm549"
+  },
+  "maa": {
+   "bestdori_song_id": 549,
+   "jacket": {
+    "path": "bestdori/549/jacket-cn-1.png",
+    "server": "cn",
+    "name": "549_battlecry"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/549/jacket-cn-1.png",
+   "sha256": "72007e3a984864033009d5ab7ddcb11cb955a843aa0c43bc557a955fe7dbed54",
+   "width": 320,
+   "height": 320,
+   "bytes": 23398
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1696917600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "battlecry",
+  "length_s": 104.112
+ }
+}

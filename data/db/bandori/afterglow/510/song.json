@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "510",
+ "title": "ペトリコール・オベーション",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "185",
+ "version": "",
+ "date_added": "2023-07-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 157
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 157
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 97,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 283
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 283
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 223,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 481
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/510/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/510/hard.json",
+     "raw_sha256": "3d5aad6be9022b48a7c35bab5472a3a621be479f0b805e4679fb6dcb6e5b2c1e"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 481
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 385,
+      "hold": 22,
+      "flick": 12,
+      "slide": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 764
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/510/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/510/expert.json",
+     "raw_sha256": "0cae7bf7df371253d4565f6b6d319820d5d5e5a6a25756c730dc22cedb81be6b"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 764
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 543,
+      "hold": 27,
+      "slide": 38,
+      "flick": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 510,
+   "bandId": 2,
+   "jacketImage": "510_petrichor",
+   "bgmId": "bgm510"
+  },
+  "maa": {
+   "bestdori_song_id": 510,
+   "jacket": {
+    "path": "bestdori/510/jacket-cn-1.png",
+    "server": "cn",
+    "name": "510_petrichor"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/510/jacket-cn-1.png",
+   "sha256": "ceebf2258aee25356b27e573f59a74afbd09fb4cc578586fbaacf347f6aba2f4",
+   "width": 320,
+   "height": 320,
+   "bytes": 22426
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "日高勇輝（Elements Garden）",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1689832800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ぺとりこーるおぺれーしょん",
+  "title_en": "Petrichor Ovation",
+  "length_s": 100.608
+ }
+}

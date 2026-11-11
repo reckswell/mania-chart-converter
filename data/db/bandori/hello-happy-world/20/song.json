@@ -1,0 +1,208 @@
+{
+ "game": "bandori",
+ "song_id": "20",
+ "title": "シュガーソングとビターステップ",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "132",
+ "version": "",
+ "date_added": "2016-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 131
+   },
+   "source": {
+    "notesQuantity": 110,
+    "bestdori": {
+     "level": 9,
+     "notes": 131
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 119,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 110 differs from combo 131 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 252
+   },
+   "source": {
+    "notesQuantity": 242,
+    "bestdori": {
+     "level": 14,
+     "notes": 252
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 174,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 242 differs from combo 252 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 469
+   },
+   "source": {
+    "notesQuantity": 451,
+    "maa": {
+     "path": "bestdori/20/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/20/hard.json",
+     "raw_sha256": "41207990522555b10f8728fa11afac94520e6b613f9759d99c0161c5d9abb8de"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 469
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 383,
+      "hold": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 451 differs from combo 469 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 811
+   },
+   "source": {
+    "notesQuantity": 788,
+    "maa": {
+     "path": "bestdori/20/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/20/expert.json",
+     "raw_sha256": "0ba5a2652279f705393378c6eb33a3d7e922a57ae192211f1644b7733bc4bd64"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 811
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 456,
+      "hold": 113,
+      "flick": 12,
+      "slide": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 788 differs from combo 811 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 701
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1545134400000,
+    "maa": {
+     "path": "bestdori/20/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/20/special.json",
+     "raw_sha256": "0dd6a98ae74fe716719ac23fba9321496d9d5605a94524a46f108e08591a73d0"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 701
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 408,
+      "flick": 47,
+      "slide": 28,
+      "hold": 81
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 20,
+   "bandId": 3,
+   "jacketImage": "sugarsong",
+   "bgmId": "bgm020"
+  },
+  "maa": {
+   "bestdori_song_id": 20,
+   "jacket": {
+    "path": "bestdori/20/jacket-cn-1.png",
+    "server": "cn",
+    "name": "sugarsong"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/20/jacket-cn-1.png",
+   "sha256": "da7f0ae14fa06f05a92f4e6b34b510bcf583e0485af5445709e1f027f09cc59d",
+   "width": 320,
+   "height": 320,
+   "bytes": 31519
+  }
+ },
+ "extra": {
+  "lyricist": "田淵智也",
+  "composer": "田淵智也",
+  "arranger": "都丸椋太（Elements Garden）／宮崎京一",
+  "tag": "anime",
+  "published_at": 1462071600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "しゅがーそんぐとびたーすてっぷ",
+  "title_en": "Sugar Song & Bitter Step",
+  "length_s": 110.976
+ }
+}

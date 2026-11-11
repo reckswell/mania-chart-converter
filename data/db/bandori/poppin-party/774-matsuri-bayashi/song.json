@@ -1,0 +1,145 @@
+{
+ "game": "bandori",
+ "song_id": "774",
+ "title": "MATSURI BAYASHI",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "153-155",
+ "version": "",
+ "date_added": "2026-03-13",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 406
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/774/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/774/hard.json",
+     "raw_sha256": "578e102eb1e5eb433787e3784dc7f9b53c4347ba68430b62e67819f8d1b2eaa0"
+    },
+    "bestdori": {
+     "notes": 406
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 238,
+      "slide": 22,
+      "hold": 49,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 675
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/774/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/774/expert.json",
+     "raw_sha256": "46f9f1ff29e59d15eb13d726100307b73f7fd5a12025c5b779afb10108e41454"
+    },
+    "bestdori": {
+     "notes": 675
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 427,
+      "flick": 55,
+      "slide": 53,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 774,
+   "bandId": 1,
+   "jacketImage": "774_matsuri_bayashi",
+   "bgmId": "bgm774"
+  },
+  "maa": {
+   "bestdori_song_id": 774,
+   "jacket": {
+    "path": "bestdori/774/jacket-jp-1.png",
+    "server": "jp",
+    "name": "774_matsuri_bayashi"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/774/jacket-jp-1.png",
+   "sha256": "44f1de1c61d8d558f871af79c391822cba9531f14a616c729412cae6556e5e72",
+   "width": 320,
+   "height": 320,
+   "bytes": 34031
+  }
+ },
+ "extra": {
+  "lyricist": "寺中友将",
+  "composer": "寺中友将",
+  "arranger": "近藤世真（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1773392400000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "matsuribayashi"
+ }
+}

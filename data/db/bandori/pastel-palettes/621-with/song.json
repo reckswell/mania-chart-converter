@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "621",
+ "title": "With〜きみとわたしたちの物語〜",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "147-187",
+ "version": "",
+ "date_added": "2024-08-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 116
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 116
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 84,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 273
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 273
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 54,
+      "tap": 165
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 419
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/621/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/621/hard.json",
+     "raw_sha256": "7498a7fdfa5bf064696d5d9138998e3aeb87163522dd88bdc5f24e8912dd6760"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 419
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 38,
+      "tap": 225,
+      "slide": 33,
+      "flick": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 572
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/621/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/621/expert.json",
+     "raw_sha256": "79db47d88c7d55e0c4af66fe3d04430cdaa46e7fa18e98cd8381b1e8c69490aa"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 572
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 55,
+      "tap": 319,
+      "hold": 37,
+      "flick": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 621,
+   "bandId": 4,
+   "jacketImage": "621_with_kimi_watashi",
+   "bgmId": "bgm621"
+  },
+  "maa": {
+   "bestdori_song_id": 621,
+   "jacket": {
+    "path": "bestdori/621/jacket-cn-1.png",
+    "server": "cn",
+    "name": "621_with_kimi_watashi"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/621/jacket-cn-1.png",
+   "sha256": "ff1ef9902128ca4e0e8a549d5bf72270c1c2352bdd0a6d3897282072e7714fa8",
+   "width": 320,
+   "height": 320,
+   "bytes": 20066
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "都丸椋太（Elements Garden）",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1723269600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "withきみとわたしたちのものがたり",
+  "title_en": "With〜The Story of You and Us〜",
+  "length_s": 110.712
+ }
+}

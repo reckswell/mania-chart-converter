@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "634",
+ "title": "輪舞-revolution",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "128",
+ "version": "",
+ "date_added": "2024-09-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 100
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 100
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 66,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 200
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 200
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 126,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 365
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/634/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/634/hard.json",
+     "raw_sha256": "9050631e5a2c0fe2123c8828c25f0413cc1ac600094c7620f4ccd0227387c590"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 365
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 25,
+      "tap": 193,
+      "hold": 39,
+      "flick": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 600
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/634/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/634/expert.json",
+     "raw_sha256": "082726e617d3fdb500c036d6fbe021550d7710843bc5f9bd2cc2329c84deaba2"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 600
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 69,
+      "tap": 313,
+      "flick": 51,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 634,
+   "bandId": 21,
+   "jacketImage": "634_rondo",
+   "bgmId": "bgm634"
+  },
+  "maa": {
+   "bestdori_song_id": 634,
+   "jacket": {
+    "path": "bestdori/634/jacket-cn-1.png",
+    "server": "cn",
+    "name": "634_rondo"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/634/jacket-cn-1.png",
+   "sha256": "b9b8afdf5533af9da2a95fc72023a6deb5820872c5e62dd038aeab2afd34e20a",
+   "width": 320,
+   "height": 320,
+   "bytes": 35556
+  }
+ },
+ "extra": {
+  "lyricist": "奥井 雅美",
+  "composer": "矢吹 俊郎",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1726812000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ろんどrevolution",
+  "title_en": "Rondo-revolution",
+  "length_s": 101.304
+ }
+}

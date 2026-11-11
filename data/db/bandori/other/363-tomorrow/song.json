@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "363",
+ "title": "TOMORROW",
+ "artist": "ハロー、ハッピーワールド！×Machico",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！×Machico",
+ "bpm": "134",
+ "version": "",
+ "date_added": "2021-09-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 99
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 99
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 67,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 166
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 166
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 112,
+      "hold": 21,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 394
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/363/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/363/hard.json",
+     "raw_sha256": "2174aa85d68f31f2dff2b0fe321643d6dafcb7fa7c5efb4e63e642c3009ab949"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 394
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 242,
+      "flick": 31,
+      "hold": 38,
+      "slide": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 655
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/363/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/363/expert.json",
+     "raw_sha256": "9df0c8bf89f0b2065e1381f8db710d3df907e8c2f5561857f04fa6a0aef01392"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 655
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 459,
+      "flick": 43,
+      "slide": 24,
+      "hold": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 363,
+   "bandId": 31,
+   "jacketImage": "363_tomorrow",
+   "bgmId": "bgm363"
+  },
+  "maa": {
+   "bestdori_song_id": 363,
+   "jacket": {
+    "path": "bestdori/363/jacket-cn-1.png",
+    "server": "cn",
+    "name": "363_tomorrow"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/363/jacket-cn-1.png",
+   "sha256": "6cc2fb10f4fe6514ca833dad3fab0c9e047da6c45ef217f3296a825cba017be0",
+   "width": 320,
+   "height": 320,
+   "bytes": 29647
+  }
+ },
+ "extra": {
+  "lyricist": "桜アス恵(TRYTONELABO)",
+  "composer": "岡野裕次郎(TRYTONELABO)",
+  "arranger": "Elements Garden",
+  "tag": "tie_up",
+  "published_at": 1632981600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "tomorrow",
+  "length_s": 101.256
+ }
+}

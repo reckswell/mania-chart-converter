@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "675",
+ "title": "最上級にかわいいの！",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "168",
+ "version": "",
+ "date_added": "2025-03-17",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 104
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 104
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 60,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 186
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 186
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 122,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 453
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/675/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/675/hard.json",
+     "raw_sha256": "7bf7dffbb036eaa118e410114dc0694f08e4f9c5de03e31c1e4d7994c890c4b8"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 453
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 43,
+      "hold": 32,
+      "tap": 264,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 613
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/675/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/675/expert.json",
+     "raw_sha256": "35b8979d63f2e111f0e41ceddd307252f21f1b234887047268ecfda9704cb245"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 613
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 378,
+      "hold": 16,
+      "slide": 68,
+      "flick": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 675,
+   "bandId": 4,
+   "jacketImage": "675_saijokyu_kawaiino",
+   "bgmId": "bgm675"
+  },
+  "maa": {
+   "bestdori_song_id": 675,
+   "jacket": {
+    "path": "bestdori/675/jacket-cn-1.png",
+    "server": "cn",
+    "name": "675_saijokyu_kawaiino"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/675/jacket-cn-1.png",
+   "sha256": "3b42f38fdb772409b9d04a971f7ad6c51286a5c902cf4ea20499fefce8626f75",
+   "width": 320,
+   "height": 320,
+   "bytes": 26524
+  }
+ },
+ "extra": {
+  "lyricist": "コレサワ",
+  "composer": "コレサワ",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1742191200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "さいじょうきゅうにかわいいの",
+  "title_en": "Saijoukyuu ni Kawaii no! ",
+  "length_s": 103.632
+ }
+}

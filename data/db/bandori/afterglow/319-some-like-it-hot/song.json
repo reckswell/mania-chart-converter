@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "319",
+ "title": "サムライハート(Some Like It Hot!!)",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "113",
+ "version": "",
+ "date_added": "2021-03-17",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 146
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 146
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 116,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 320
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 320
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 190,
+      "hold": 65
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 578
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/319/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/319/hard.json",
+     "raw_sha256": "9ec9d4b11b377f9c023140be74df45a00b440ad716a47ddab65ae36679e2f9c8"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 578
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 46,
+      "tap": 386,
+      "slide": 18,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 828
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/319/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/319/expert.json",
+     "raw_sha256": "095e548a3565a47caa3e50e7c5f6935807f50ef2a9618cbe106115eb5542b6de"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 828
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 37,
+      "tap": 543,
+      "hold": 61,
+      "slide": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 319,
+   "bandId": 2,
+   "jacketImage": "319_samurai",
+   "bgmId": "bgm319"
+  },
+  "maa": {
+   "bestdori_song_id": 319,
+   "jacket": {
+    "path": "bestdori/319/jacket-cn-1.png",
+    "server": "cn",
+    "name": "319_samurai"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/319/jacket-cn-1.png",
+   "sha256": "108e768ed559fcc3c365ba0ecb1e766992a1ee08c7e184842bfebca6774d04d6",
+   "width": 320,
+   "height": 320,
+   "bytes": 36681
+  }
+ },
+ "extra": {
+  "lyricist": "ＭＯＭＩＫＥＮ",
+  "composer": "ＵＺ",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1615960800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "さむらいはーとsomelikeithot",
+  "title_en": "Samurai Heart(Some Like It Hot!!)",
+  "length_s": 133.872
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "657",
+ "title": "悪魔の子",
+ "artist": "Roselia×レイヤ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia×レイヤ",
+ "bpm": "46-90",
+ "version": "",
+ "date_added": "2025-01-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 102
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 5,
+     "notes": 102
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 62,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 166
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 166
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 102,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 299
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/657/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/657/hard.json",
+     "raw_sha256": "8b00eb3555484c11d598570ae8958a5408ec49d3889d01c405b6c47edd8c2e77"
+    },
+    "bestdori": {
+     "level": 18,
+     "notes": 299
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 176,
+      "hold": 22,
+      "slide": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 405
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/657/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/657/expert.json",
+     "raw_sha256": "239faf208abb540d44cea457bdf9dcb769c059e78fe7ae7137afe34b94c62781"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 405
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 216,
+      "hold": 41,
+      "slide": 35,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 657,
+   "bandId": 40,
+   "jacketImage": "657_akumano_ko",
+   "bgmId": "bgm657"
+  },
+  "maa": {
+   "bestdori_song_id": 657,
+   "jacket": {
+    "path": "bestdori/657/jacket-cn-1.png",
+    "server": "cn",
+    "name": "657_akumano_ko"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/657/jacket-cn-1.png",
+   "sha256": "bdde540388fc9b2ccff0856230c53ea6bdd3b54bd4bbbd478a7a67f8886897d5",
+   "width": 320,
+   "height": 320,
+   "bytes": 24343
+  }
+ },
+ "extra": {
+  "lyricist": "ヒグチアイ",
+  "composer": "ヒグチアイ",
+  "arranger": "Seonoo Kim（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1735711200000,
+  "closed_at": 4123018800000,
+  "music_data_type": "normal",
+  "ruby": "あくまのこ",
+  "title_en": "Akuma no Ko",
+  "length_s": 109.392
+ }
+}

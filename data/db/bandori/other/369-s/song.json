@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "369",
+ "title": "ぼなぺてぃーと♡Ｓ",
+ "artist": "ハロー、ハッピーワールド！×白上フブキ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！×白上フブキ",
+ "bpm": "152",
+ "version": "",
+ "date_added": "2021-10-23",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 118
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 118
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 92,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 227
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 227
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 167,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 447
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/369/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/369/hard.json",
+     "raw_sha256": "051bd16b508a52e6bf739872c509d38f6c3787ede7453adcdc64d80849dfb23a"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 447
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 22,
+      "tap": 281,
+      "hold": 41,
+      "slide": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 684
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/369/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/369/expert.json",
+     "raw_sha256": "458b44a7432cf5d48f194a00f82973cb9586d0421d5b2c82ddf674ad0e18433d"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 684
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 465,
+      "slide": 40,
+      "flick": 37,
+      "hold": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 369,
+   "bandId": 36,
+   "jacketImage": "369_bonapeti",
+   "bgmId": "bgm369"
+  },
+  "maa": {
+   "bestdori_song_id": 369,
+   "jacket": {
+    "path": "bestdori/369/jacket-cn-1.png",
+    "server": "cn",
+    "name": "369_bonapeti"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/369/jacket-cn-1.png",
+   "sha256": "53067d7e24e0116c0a41b3fc508818d117df4cb15d422ee311764327077f449e",
+   "width": 320,
+   "height": 320,
+   "bytes": 39638
+  }
+ },
+ "extra": {
+  "lyricist": "こだまさおり",
+  "composer": "y0c1e",
+  "arranger": "Elements Garden",
+  "tag": "tie_up",
+  "published_at": 1634968800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ぼなぺてぃーとs",
+  "title_en": "Bon Appétit♡S",
+  "length_s": 99.528
+ }
+}

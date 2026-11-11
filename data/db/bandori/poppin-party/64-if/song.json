@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "64",
+ "title": "八月のif",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "120",
+ "version": "",
+ "date_added": "2017-08-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 142
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 142
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 84,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 268
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 268
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 180,
+      "hold": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 444
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/64/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/64/hard.json",
+     "raw_sha256": "3354690286512dbe0c7d9f9939125ab797ba9070d17bfdf25ec66c6abe60f29d"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 444
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 318,
+      "flick": 6,
+      "hold": 60
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 609
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/64/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/64/expert.json",
+     "raw_sha256": "e985d6f680cdc7c2d1a8bced749f60a921b61163daa6f726c0a098c8325b67a9"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 609
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 64,
+      "tap": 446,
+      "flick": 18,
+      "slide": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 64,
+   "bandId": 1,
+   "jacketImage": "064_if",
+   "bgmId": "bgm064"
+  },
+  "maa": {
+   "bestdori_song_id": 64,
+   "jacket": {
+    "path": "bestdori/64/jacket-cn-1.png",
+    "server": "cn",
+    "name": "064_if"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/64/jacket-cn-1.png",
+   "sha256": "894304d7c84101af4bb3eb789e9c4f9116b3193abf104a8c0e73fbcf749f0780",
+   "width": 320,
+   "height": 320,
+   "bytes": 39897
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1503122400000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "はちがつのif",
+  "title_en": "If In August",
+  "length_s": 115.056
+ }
+}

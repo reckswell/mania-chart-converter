@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "128",
+ "title": "六兆年と一夜物語",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "85-186",
+ "version": "",
+ "date_added": "2018-06-04",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 157
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 157
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 149,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 286
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 286
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 244,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 501
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/128/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/128/hard.json",
+     "raw_sha256": "14289a44773ae41c596759056599de9964ab7f3276a1e76989094caffee224e3"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 501
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 354,
+      "hold": 16,
+      "slide": 20,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 895
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/128/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/128/expert.json",
+     "raw_sha256": "3545fb03123a7bf6d5f18be15e42452d76ab1f4b122c0d7e102d8afd2aa2a4c7"
+    },
+    "bestdori": {
+     "level": 29,
+     "notes": 895
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 621,
+      "slide": 35,
+      "hold": 28,
+      "flick": 55
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 935
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1560859200000,
+    "maa": {
+     "path": "bestdori/128/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/128/special.json",
+     "raw_sha256": "034b7b75c90c8d4a5612ce9855f81500ace3b14e1bdbf449ae51771870587af5"
+    },
+    "bestdori": {
+     "level": 29,
+     "notes": 935
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 604,
+      "flick": 70,
+      "slide": 46,
+      "hold": 66
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 128,
+   "bandId": 5,
+   "jacketImage": "128_ichiyamonogatari",
+   "bgmId": "bgm128"
+  },
+  "maa": {
+   "bestdori_song_id": 128,
+   "jacket": {
+    "path": "bestdori/128/jacket-cn-1.png",
+    "server": "cn",
+    "name": "128_ichiyamonogatari"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/128/jacket-cn-1.png",
+   "sha256": "a32b94cdea41b47066c71387b1060ee8014305485877d8fe871e7b41a65f8f8c",
+   "width": 320,
+   "height": 320,
+   "bytes": 26402
+  }
+ },
+ "extra": {
+  "lyricist": "Kemu",
+  "composer": "Kemu",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1528092000000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "ろくちょうねんといちやものがたり",
+  "title_en": "Roku Chounen To Ichiya Monogatari",
+  "length_s": 103.848
+ }
+}

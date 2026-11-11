@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "614",
+ "title": "雨上がり、キミと",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "188",
+ "version": "",
+ "date_added": "2024-06-11",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 128
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 128
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 68,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 235
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 235
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 121,
+      "hold": 55,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 449
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/614/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/614/hard.json",
+     "raw_sha256": "a39947d536f02f65b47361332aa952a3993ad4232a512ea4bad2172b817e4f65"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 449
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 220,
+      "hold": 35,
+      "slide": 51,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 693
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/614/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/614/expert.json",
+     "raw_sha256": "3746bd8b58b42a43e2d757d359337dd68a3a0ec1089cdcd8d1acc21993d00dcd"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 693
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 314,
+      "hold": 22,
+      "slide": 117,
+      "flick": 52
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 614,
+   "bandId": 1,
+   "jacketImage": "614_ameagari_kimi",
+   "bgmId": "bgm614"
+  },
+  "maa": {
+   "bestdori_song_id": 614,
+   "jacket": {
+    "path": "bestdori/614/jacket-cn-1.png",
+    "server": "cn",
+    "name": "614_ameagari_kimi"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/614/jacket-cn-1.png",
+   "sha256": "b2949b7e215231e0df694a4a502e56014e010538046419ea70e471a1857412cb",
+   "width": 320,
+   "height": 320,
+   "bytes": 15978
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "岩橋星実（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1718085600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "あめあがりきみと",
+  "title_en": "After the Rain, With You",
+  "length_s": 116.88
+ }
+}

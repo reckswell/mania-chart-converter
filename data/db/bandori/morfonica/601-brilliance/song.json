@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "601",
+ "title": "両翼のBrilliance",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "172",
+ "version": "",
+ "date_added": "2024-04-14",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 118
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 118
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 86,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 245
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 245
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 161,
+      "hold": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 431
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/601/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/601/hard.json",
+     "raw_sha256": "ab6ea5ff9f97fdfb18de4d5309aa779fc931ce7a56fea592c421f3da3c7e25fe"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 431
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 225,
+      "slide": 38,
+      "hold": 30,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 708
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/601/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/601/expert.json",
+     "raw_sha256": "d78b3f47bd6060c3baaa5c94a5cf47968b249d308f7c0a4aa678113b07d35f8f"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 708
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 414,
+      "slide": 61,
+      "hold": 27,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 601,
+   "bandId": 21,
+   "jacketImage": "601_ryoyoku_brilliance",
+   "bgmId": "bgm601"
+  },
+  "maa": {
+   "bestdori_song_id": 601,
+   "jacket": {
+    "path": "bestdori/601/jacket-cn-1.png",
+    "server": "cn",
+    "name": "601_ryoyoku_brilliance"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/601/jacket-cn-1.png",
+   "sha256": "e2683b25107f7c860d2d971eabb90c0d2d95d4ab678a4b17c42da1316c83c3e9",
+   "width": 320,
+   "height": 320,
+   "bytes": 32941
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "菊田大介（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1713092400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "りょうよくのbrilliance",
+  "title_en": "Brilliance of Wings",
+  "length_s": 99.816
+ }
+}

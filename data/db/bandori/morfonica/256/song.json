@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "256",
+ "title": "金色へのプレリュード",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "175",
+ "version": "",
+ "date_added": "2020-03-15",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 156
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 156
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 45,
+      "tap": 66
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 258
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 258
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 67,
+      "tap": 124
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 461
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/256/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/256/hard.json",
+     "raw_sha256": "89871953ca2464ec1fdc6451c028049a2a6c2c0d715c8fec5378da352904c603"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 461
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 219,
+      "hold": 94,
+      "slide": 14,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 629
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/256/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/256/expert.json",
+     "raw_sha256": "b9d718189fa873ba8d4bd7ee7f8ce13d39cc4d3fff086598a175d2a17f2227b2"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 629
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 397,
+      "hold": 75,
+      "slide": 17,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 256,
+   "bandId": 21,
+   "jacketImage": "256_prelude",
+   "bgmId": "bgm256"
+  },
+  "maa": {
+   "bestdori_song_id": 256,
+   "jacket": {
+    "path": "bestdori/256/jacket-cn-1.png",
+    "server": "cn",
+    "name": "256_prelude"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/256/jacket-cn-1.png",
+   "sha256": "10bf139604f8ae4c882e535f5015d4c76259260d5fdf708cfd09ddf100e5628c",
+   "width": 320,
+   "height": 320,
+   "bytes": 29169
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1584259200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "こんじきのぷれりゅーど",
+  "title_en": "Prelude to Gold",
+  "length_s": 108.408
+ }
+}

@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "257",
+ "title": "メリッサ",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2020-03-15",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 147
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 147
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 97,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 221
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 221
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 147,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 420
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/257/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/257/hard.json",
+     "raw_sha256": "eef676fe938ca7354e64452bd6ef9036eee94a547c90efa03a3765de97d2799b"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 420
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 278,
+      "hold": 53,
+      "slide": 10,
+      "flick": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 730
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/257/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/257/expert.json",
+     "raw_sha256": "389f9aa4333a71b0a55c26d1b960b0488ffb5d5262beeeed3e8728887e78519a"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 730
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 450,
+      "flick": 37,
+      "hold": 39,
+      "slide": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 797
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1632204000000,
+    "maa": {
+     "path": "bestdori/257/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/257/special.json",
+     "raw_sha256": "c5b93fbb3782711c572f14a4027b5f0e488d3c43d1b2c457f042bb06e72addd5"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 797
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 16,
+      "tap": 382,
+      "slide": 88,
+      "flick": 81
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 257,
+   "bandId": 21,
+   "jacketImage": "257_melissa",
+   "bgmId": "bgm257"
+  },
+  "maa": {
+   "bestdori_song_id": 257,
+   "jacket": {
+    "path": "bestdori/257/jacket-cn-1.png",
+    "server": "cn",
+    "name": "257_melissa"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/257/jacket-cn-1.png",
+   "sha256": "b12c7c1eea63b024757ea0e062b5f5ca5b17e4113863e998297b642630049af7",
+   "width": 320,
+   "height": 320,
+   "bytes": 17367
+  }
+ },
+ "extra": {
+  "lyricist": "新藤晴一",
+  "composer": "ak. homma",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1584259200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "めりっさ",
+  "title_en": "Melissa",
+  "length_s": 112.296
+ }
+}

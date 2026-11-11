@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "680",
+ "title": "だれかの心臓になれたなら",
+ "artist": "MyGO!!!!!",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "MyGO!!!!!",
+ "bpm": "145",
+ "version": "",
+ "date_added": "2025-03-23",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 193
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 193
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 35,
+      "tap": 123
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 328
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 328
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 258,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 707
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/680/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/680/hard.json",
+     "raw_sha256": "d01fd70f52795ca593ed4133c6877bcd0c3b0687a3651ee631b344dfb6288d6a"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 707
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 96,
+      "tap": 328,
+      "slide": 56,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 947
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/680/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/680/expert.json",
+     "raw_sha256": "970533229bdd28d3a96e5e1e39de0098ae8e373ead57a37a8ecfce58be0cb3fb"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 947
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 102,
+      "tap": 609,
+      "slide": 33,
+      "flick": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 680,
+   "bandId": 45,
+   "jacketImage": "680_darekano_sinzo",
+   "bgmId": "bgm680"
+  },
+  "maa": {
+   "bestdori_song_id": 680,
+   "jacket": {
+    "path": "bestdori/680/jacket-cn-1.png",
+    "server": "cn",
+    "name": "680_darekano_sinzo"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/680/jacket-cn-1.png",
+   "sha256": "7d2cb6c8db9f93f49a960e775154089d86d916cdb3449eaa81b7beccf69ab9fe",
+   "width": 320,
+   "height": 320,
+   "bytes": 26772
+  }
+ },
+ "extra": {
+  "lyricist": "ユリイ・カノン",
+  "composer": "ユリイ・カノン",
+  "arranger": "植木建象、YOUSAY",
+  "tag": "anime",
+  "published_at": 1742709600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "だれかのしんぞうになれたら",
+  "title_en": "Dareka no Shinzou ni Nareta Nara ",
+  "length_s": 138.264
+ }
+}

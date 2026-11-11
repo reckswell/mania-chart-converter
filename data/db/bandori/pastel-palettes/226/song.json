@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "226",
+ "title": "ゆめゆめグラデーション",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "135",
+ "version": "",
+ "date_added": "2019-11-11",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 132
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 132
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 84,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 236
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 236
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 130,
+      "hold": 53
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 422
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/226/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/226/hard.json",
+     "raw_sha256": "beeb9670cc181d00036cdf8e9026b2d9da64f65f2a93e2deaae594d2b2a26166"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 422
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 230,
+      "flick": 6,
+      "hold": 93
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 742
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/226/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/226/expert.json",
+     "raw_sha256": "710c03c6c6733368e416c3cb81138b7c501dea00df5ccfee9d4142762d640449"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 742
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 503,
+      "hold": 42,
+      "flick": 15,
+      "slide": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 226,
+   "bandId": 4,
+   "jacketImage": "226_yumeyume_1",
+   "bgmId": "bgm226"
+  },
+  "maa": {
+   "bestdori_song_id": 226,
+   "jacket": {
+    "path": "bestdori/226/jacket-cn-2.png",
+    "server": "cn",
+    "name": "226_yumeyume_1"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/226/jacket-cn-2.png",
+   "sha256": "0fdd4129a6956d66d64d8f2de18a9b458728c000dd773002f0a371d3f01634d2",
+   "width": 320,
+   "height": 320,
+   "bytes": 45722
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "都丸椋太（Elements Garden）",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1573452000000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "ゆめゆめぐらでーしょん",
+  "title_en": "Dream Gradient",
+  "length_s": 108.504
+ }
+}

@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "556",
+ "title": "東京テディベア",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "204",
+ "version": "",
+ "date_added": "2023-11-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 126
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 126
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 56,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 245
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 245
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 97,
+      "hold": 74
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 515
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/556/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/556/hard.json",
+     "raw_sha256": "77abf54f4b8063a379c2fa925505fc5b2d675cbf07054bfa14fc97de79f0e801"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 515
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 296,
+      "hold": 68,
+      "flick": 17,
+      "slide": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 859
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/556/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/556/expert.json",
+     "raw_sha256": "722039de55bc8426bb9c83054fd4e6a77bf763088d67e41dc60d57c6e9a9110e"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 859
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 572,
+      "hold": 75,
+      "flick": 45,
+      "slide": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1162
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1742968800000,
+    "maa": {
+     "path": "bestdori/556/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/556/special.json",
+     "raw_sha256": "58e783d7033cbd11da3972d89c9d622b889d61c7e55c260aa20b6f9abba3083f"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 1162
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 777,
+      "slide": 90,
+      "flick": 82,
+      "hold": 40
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 556,
+   "bandId": 5,
+   "jacketImage": "556_tokyo_teddy_bear",
+   "bgmId": "bgm556"
+  },
+  "maa": {
+   "bestdori_song_id": 556,
+   "jacket": {
+    "path": "bestdori/556/jacket-cn-1.png",
+    "server": "cn",
+    "name": "556_tokyo_teddy_bear"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/556/jacket-cn-1.png",
+   "sha256": "156c6cfa51f7a58357bfc41e141ab2db7eaa80bb81bed44d94e73aba505a09f2",
+   "width": 320,
+   "height": 320,
+   "bytes": 31603
+  }
+ },
+ "extra": {
+  "lyricist": "Neru",
+  "composer": "Neru",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1701324000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "とうきょうてでぃべあ",
+  "title_en": "Tokyo Teddy Bear",
+  "length_s": 127.128
+ }
+}

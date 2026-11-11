@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "286",
+ "title": "青と夏",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "185",
+ "version": "",
+ "date_added": "2020-08-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 179
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 179
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 143,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 313
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 313
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 235,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 503
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/286/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/286/hard.json",
+     "raw_sha256": "f03616477ee94ff73a260ce34a3fd538ab08df4d504b136bdc796ccaf11af4d6"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 503
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 320,
+      "hold": 61,
+      "slide": 16,
+      "flick": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 821
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/286/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/286/expert.json",
+     "raw_sha256": "625afceb86d53dbf0fb400033e5f161d2a7a077ed36533fbc75c254793e442f4"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 821
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 439,
+      "slide": 47,
+      "flick": 30,
+      "hold": 106
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 286,
+   "bandId": 1,
+   "jacketImage": "286_ao_to_natsu",
+   "bgmId": "bgm286"
+  },
+  "maa": {
+   "bestdori_song_id": 286,
+   "jacket": {
+    "path": "bestdori/286/jacket-cn-1.png",
+    "server": "cn",
+    "name": "286_ao_to_natsu"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/286/jacket-cn-1.png",
+   "sha256": "0fc5a0d3535e499432787238fee2701f231edbb8622733c0c000fc070f0c6242",
+   "width": 320,
+   "height": 320,
+   "bytes": 23701
+  }
+ },
+ "extra": {
+  "lyricist": "大森元貴",
+  "composer": "大森元貴",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1597989600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "あおとなつ",
+  "title_en": "Blue & Summer",
+  "length_s": 118.104
+ }
+}

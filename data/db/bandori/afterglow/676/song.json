@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "676",
+ "title": "オレンジ",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "200",
+ "version": "",
+ "date_added": "2025-03-18",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 99
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 99
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 61,
+      "hold": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 167
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 167
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 99,
+      "hold": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 465
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/676/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/676/hard.json",
+     "raw_sha256": "7a14a1f9b68a916934acb01d58d61ad97ef6402807e71ea18752de676faf5641"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 465
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 48,
+      "tap": 239,
+      "hold": 26,
+      "flick": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 651
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/676/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/676/expert.json",
+     "raw_sha256": "bbcb98e123e8657e1b4dcde91d0f6c1d4db3e09ada77b9f40f2d9ca31c4fc768"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 651
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 63,
+      "tap": 330,
+      "hold": 39,
+      "flick": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 676,
+   "bandId": 2,
+   "jacketImage": "676_orange_spyair",
+   "bgmId": "bgm676"
+  },
+  "maa": {
+   "bestdori_song_id": 676,
+   "jacket": {
+    "path": "bestdori/676/jacket-cn-1.png",
+    "server": "cn",
+    "name": "676_orange_spyair"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/676/jacket-cn-1.png",
+   "sha256": "8f3b3ae4e7c72df3118fbc48f693324432381e8668ab424a12ab405618fe000e",
+   "width": 320,
+   "height": 320,
+   "bytes": 26789
+  }
+ },
+ "extra": {
+  "lyricist": "MOMIKEN",
+  "composer": "UZ",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1742277600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "おれんじ",
+  "title_en": "Orange",
+  "length_s": 102.648
+ }
+}

@@ -1,0 +1,209 @@
+{
+ "game": "bandori",
+ "song_id": "7",
+ "title": "God knows...",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "150",
+ "version": "",
+ "date_added": "2017-07-11",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 204
+   },
+   "source": {
+    "notesQuantity": 95,
+    "bestdori": {
+     "level": 10,
+     "notes": 204
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 150,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 95 differs from combo 204 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 378
+   },
+   "source": {
+    "notesQuantity": 182,
+    "bestdori": {
+     "level": 15,
+     "notes": 378
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 324,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 182 differs from combo 378 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 631
+   },
+   "source": {
+    "notesQuantity": 376,
+    "maa": {
+     "path": "bestdori/7/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/7/hard.json",
+     "raw_sha256": "96aee44aa03b926a64d0e846759cf956e269dda8c4873960aa247743a94ca5ed"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 631
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 412,
+      "hold": 40,
+      "slide": 43,
+      "flick": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 376 differs from combo 631 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1081
+   },
+   "source": {
+    "notesQuantity": 536,
+    "maa": {
+     "path": "bestdori/7/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/7/expert.json",
+     "raw_sha256": "9c51861e542301ee4a0104b807f85b0b067b4726766b1b43daed4e6bfd1a1aa8"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 1081
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 579,
+      "slide": 122,
+      "hold": 47,
+      "flick": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 536 differs from combo 1081 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 923
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1577620800000,
+    "maa": {
+     "path": "bestdori/7/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/7/special.json",
+     "raw_sha256": "9a3c5689d83599386b20f1c770f74cba08383fecd76411613396be4fed54f573"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 923
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 27,
+      "tap": 600,
+      "hold": 115,
+      "slide": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 7,
+   "bandId": 1,
+   "jacketImage": "godknows",
+   "bgmId": "bgm007"
+  },
+  "maa": {
+   "bestdori_song_id": 7,
+   "jacket": {
+    "path": "bestdori/7/jacket-cn-1.png",
+    "server": "cn",
+    "name": "godknows"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/7/jacket-cn-1.png",
+   "sha256": "a944bdc537f3ede3071666bbfbab7a91fd38f8181bf8c0361519eedd78bfe81d",
+   "width": 320,
+   "height": 320,
+   "bytes": 16945
+  }
+ },
+ "extra": {
+  "lyricist": "畑亜貴",
+  "composer": "神前暁",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1499752800000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "godknows",
+  "length_s": 128.064
+ }
+}

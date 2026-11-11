@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "210",
+ "title": "あっつあつ 常夏 らぶ☆サマー！",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "172",
+ "version": "",
+ "date_added": "2019-07-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 146
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 146
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 78,
+      "hold": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 264
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 264
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 162,
+      "hold": 51
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 502
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/210/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/210/hard.json",
+     "raw_sha256": "52b1e7192cd1e1d7f83ff83f93daaf5b9895c195320c6069829d6565c769ce11"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 502
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 263,
+      "hold": 84,
+      "slide": 14,
+      "flick": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 778
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/210/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/210/expert.json",
+     "raw_sha256": "73f34cec9c6c50ad85d3586a43df09adf951900e478d6f676a7341dc4d078d63"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 778
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 476,
+      "hold": 64,
+      "flick": 53,
+      "slide": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 750
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1690610400000,
+    "maa": {
+     "path": "bestdori/210/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/210/special.json",
+     "raw_sha256": "07050296efce6ff5e230f89ccef5d8462c7ca800b690831a0d7fd367f6b8e1e5"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 750
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 97,
+      "tap": 375,
+      "flick": 48,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 210,
+   "bandId": 4,
+   "jacketImage": "210_lovesummer",
+   "bgmId": "bgm210"
+  },
+  "maa": {
+   "bestdori_song_id": 210,
+   "jacket": {
+    "path": "bestdori/210/jacket-cn-1.png",
+    "server": "cn",
+    "name": "210_lovesummer"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/210/jacket-cn-1.png",
+   "sha256": "9879c7592b0d0408dfb7ca65d852a7aa94845ca598a48dfa7ab20e5575c61565",
+   "width": 320,
+   "height": 320,
+   "bytes": 36570
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "笠井雄太（Elements Garden）",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1564552800000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "あっつあつとこなつらぶさまー",
+  "title_en": "Hot, Hot! Sunny Love☆Summer!",
+  "length_s": 109.584
+ }
+}

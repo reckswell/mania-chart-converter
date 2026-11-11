@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "661",
+ "title": "Georgette Me, Georgette You",
+ "artist": "Ave Mujica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Ave Mujica",
+ "bpm": "142",
+ "version": "",
+ "date_added": "2025-01-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 110
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 110
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 50,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 186
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 186
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 82,
+      "hold": 48,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 317
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/661/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/661/hard.json",
+     "raw_sha256": "d1d724944a05663b870a8a2a8b9dba83852217f6cbb94ed44a4ccf61c85daef1"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 317
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 3,
+      "hold": 52,
+      "tap": 185,
+      "flick": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 512
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/661/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/661/expert.json",
+     "raw_sha256": "75058e245bea59ab33ba91f74c91f01c19685bca7561da73e8a8ae6c4cc9d3ed"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 512
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 315,
+      "hold": 53,
+      "slide": 16,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 661,
+   "bandId": 46,
+   "jacketImage": "661_geogette",
+   "bgmId": "bgm661"
+  },
+  "maa": {
+   "bestdori_song_id": 661,
+   "jacket": {
+    "path": "bestdori/661/jacket-cn-1.png",
+    "server": "cn",
+    "name": "661_geogette"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/661/jacket-cn-1.png",
+   "sha256": "f7c00f09e754c2ee6cefbfa4a3bb0e8a36dbe474e366a09734af1d0516d6da04",
+   "width": 320,
+   "height": 320,
+   "bytes": 32786
+  }
+ },
+ "extra": {
+  "lyricist": "Diggy-MO’",
+  "composer": "松坂康司(SUPA LOVE)、Diggy-MO’",
+  "arranger": "松坂康司(SUPA LOVE)",
+  "tag": "normal",
+  "published_at": 1736434800000,
+  "closed_at": 4123364400000,
+  "music_data_type": "normal",
+  "ruby": "georgettemegeorgetteyou",
+  "length_s": 103.992
+ }
+}

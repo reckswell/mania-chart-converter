@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "224",
+ "title": "激動",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "113",
+ "version": "",
+ "date_added": "2019-10-26",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 160
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 160
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 42,
+      "tap": 76
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 236
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 236
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 46,
+      "tap": 144
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 451
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/224/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/224/hard.json",
+     "raw_sha256": "4833e75020650c4119fcfe04308b098b1fbc9cfc515acd14789902b1ed687ca1"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 451
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 37,
+      "tap": 251,
+      "flick": 13,
+      "slide": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 786
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/224/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/224/expert.json",
+     "raw_sha256": "836213bea7cf8dc904434fb43c6f0855c76d4b391d510119f357d4206e0f49e2"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 786
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 453,
+      "hold": 59,
+      "flick": 18,
+      "slide": 61
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 853
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1641708000000,
+    "maa": {
+     "path": "bestdori/224/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/224/special.json",
+     "raw_sha256": "33d7ecd1cb03481d43f333c936474149323e815579b7f84622f4687998de43db"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 853
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 557,
+      "slide": 60,
+      "flick": 47,
+      "hold": 32
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 224,
+   "bandId": 18,
+   "jacketImage": "224_gekidou",
+   "bgmId": "bgm224"
+  },
+  "maa": {
+   "bestdori_song_id": 224,
+   "jacket": {
+    "path": "bestdori/224/jacket-cn-1.png",
+    "server": "cn",
+    "name": "224_gekidou"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/224/jacket-cn-1.png",
+   "sha256": "db6bd1c1629b30ad3e241d9279f2fad56c06d02f95ca6a88bbaf1b6de197a093",
+   "width": 320,
+   "height": 320,
+   "bytes": 17235
+  }
+ },
+ "extra": {
+  "lyricist": "TAKUYA∞",
+  "composer": "TAKUYA∞",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1572091200000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "げきどう",
+  "title_en": "Turbulence",
+  "length_s": 110.496
+ }
+}

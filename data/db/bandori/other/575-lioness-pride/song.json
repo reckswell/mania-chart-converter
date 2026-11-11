@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "575",
+ "title": "Lioness' Pride",
+ "artist": "MyGO!!!!!×獅白ぼたん",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "MyGO!!!!!×獅白ぼたん",
+ "bpm": "152",
+ "version": "",
+ "date_added": "2024-01-13",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 146
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 146
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 44,
+      "tap": 58
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 222
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 222
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 106,
+      "hold": 58
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 481
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/575/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/575/hard.json",
+     "raw_sha256": "c7e6295aae941ffffc82b47289bfc62ca655719595652490782a2a5534031d74"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 481
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 243,
+      "hold": 86,
+      "slide": 18,
+      "flick": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 731
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/575/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/575/expert.json",
+     "raw_sha256": "73705bf09e775cf0d4ba453e9e16cac8dc11a10b5431f7e022e891562fbd1f20"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 731
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 443,
+      "slide": 20,
+      "hold": 104,
+      "flick": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 575,
+   "bandId": 74,
+   "jacketImage": "575_lioness_pride",
+   "bgmId": "bgm575"
+  },
+  "maa": {
+   "bestdori_song_id": 575,
+   "jacket": {
+    "path": "bestdori/575/jacket-cn-1.png",
+    "server": "cn",
+    "name": "575_lioness_pride"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/575/jacket-cn-1.png",
+   "sha256": "5c85c2e5e60e1d9b6d5b867993c74f015ca90b8308d8106c2848d60cc5310bd4",
+   "width": 320,
+   "height": 320,
+   "bytes": 28941
+  }
+ },
+ "extra": {
+  "lyricist": "かめりあ",
+  "composer": "かめりあ",
+  "arranger": "小木岳司",
+  "tag": "tie_up",
+  "published_at": 1705125600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "lionesspride",
+  "length_s": 139.008
+ }
+}

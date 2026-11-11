@@ -1,0 +1,145 @@
+{
+ "game": "bandori",
+ "song_id": "803",
+ "title": "Wings of the Lights",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2026-06-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 469
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/803/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/803/hard.json",
+     "raw_sha256": "9509174270a845902cd9c07599c43cea11e8c7debbeec7d950766b8e5a589398"
+    },
+    "bestdori": {
+     "notes": 469
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 302,
+      "hold": 35,
+      "slide": 33,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 677
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/803/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/803/expert.json",
+     "raw_sha256": "314f733144c7784b0f28cf0540143151112fe647c7bbe132a575f875d8146414"
+    },
+    "bestdori": {
+     "notes": 677
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 382,
+      "hold": 75,
+      "slide": 41,
+      "flick": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 803,
+   "bandId": 21,
+   "jacketImage": "803_wings_of_the_lights",
+   "bgmId": "bgm803"
+  },
+  "maa": {
+   "bestdori_song_id": 803,
+   "jacket": {
+    "path": "bestdori/803/jacket-jp-1.png",
+    "server": "jp",
+    "name": "803_wings_of_the_lights"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/803/jacket-jp-1.png",
+   "sha256": "6c375c3ca03ef8cb5eb7bc4b6e6d069a90957df302a67a0c87082449d39c7e4c",
+   "width": 320,
+   "height": 320,
+   "bytes": 29541
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "堀川大翼（Elements Garden）",
+  "arranger": "堀川大翼（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1782021600000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "wingsofthelights"
+ }
+}

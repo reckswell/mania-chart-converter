@@ -1,0 +1,209 @@
+{
+ "game": "bandori",
+ "song_id": "116",
+ "title": "気まぐれロマンティック",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2018-05-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 157
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 157
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 125,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 237
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 237
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 173,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 437
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/116/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/116/hard.json",
+     "raw_sha256": "28e326a97139ac3ca1e11bb91414de91e81e49bf9c493c7fe8036990ded47ee9"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 437
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 335,
+      "hold": 45,
+      "slide": 2,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 608
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/116/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/116/expert.json",
+     "raw_sha256": "3c9fdcd0cc3280ca679496376696fa58bb09e564654153198c51fcbb56072076"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 608
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 510,
+      "hold": 38,
+      "flick": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 702
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1563537600000,
+    "maa": {
+     "path": "bestdori/116/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/116/special.json",
+     "raw_sha256": "95ea077460a82d77ef5c8d905793d459950e7b9a4589a220da192c14b731f628"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 702
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 413,
+      "hold": 99,
+      "slide": 25,
+      "flick": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 116,
+   "bandId": 4,
+   "jacketImage": "116_kimagure",
+   "bgmId": "bgm116"
+  },
+  "maa": {
+   "bestdori_song_id": 116,
+   "jacket": {
+    "path": "bestdori/116/jacket-cn-1.png",
+    "server": "cn",
+    "name": "116_kimagure"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/116/jacket-cn-1.png",
+   "sha256": "35a67047cfd8bf05c6289b6adc0b0e28ddf567a1226363f8439fc3606bba6f66",
+   "width": 320,
+   "height": 320,
+   "bytes": 24086
+  }
+ },
+ "extra": {
+  "lyricist": "水野良樹",
+  "composer": "水野良樹",
+  "arranger": "末益涼太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1525327200000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "きまぐれろまんてぃっく",
+  "title_en": "Kimagure Romantic",
+  "length_s": 111.6
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "47",
+ "title": "キミにもらったもの",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "147",
+ "version": "",
+ "date_added": "2017-04-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 69
+   },
+   "source": {
+    "notesQuantity": 64,
+    "bestdori": {
+     "level": 6,
+     "notes": 69
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 51,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 64 differs from combo 69 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 169
+   },
+   "source": {
+    "notesQuantity": 141,
+    "bestdori": {
+     "level": 13,
+     "notes": 169
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 133,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 141 differs from combo 169 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 279
+   },
+   "source": {
+    "notesQuantity": 261,
+    "maa": {
+     "path": "bestdori/47/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/47/hard.json",
+     "raw_sha256": "684c259305b3fd61e04243312a0ff1a187cd6d3985339791e4e06967355b8d29"
+    },
+    "bestdori": {
+     "level": 18,
+     "notes": 279
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 221,
+      "flick": 5,
+      "hold": 20,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 261 differs from combo 279 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 371
+   },
+   "source": {
+    "notesQuantity": 397,
+    "maa": {
+     "path": "bestdori/47/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/47/expert.json",
+     "raw_sha256": "73968c77cb35ac350ed4285e661fef8863d2c947f39b8443c8d3cc1599ed31df"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 371
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 235,
+      "slide": 28,
+      "flick": 7,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 397 differs from combo 371 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 47,
+   "bandId": 1,
+   "jacketImage": "kimimora",
+   "bgmId": "bgm047"
+  },
+  "maa": {
+   "bestdori_song_id": 47,
+   "jacket": {
+    "path": "bestdori/47/jacket-cn-1.png",
+    "server": "cn",
+    "name": "kimimora"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/47/jacket-cn-1.png",
+   "sha256": "77439a3dfa374f56f0f1c8b81fee06d9a0a2bb3ed6809a22dade16a764fa2fb8",
+   "width": 320,
+   "height": 320,
+   "bytes": 19630
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "母里治樹（Elements Garden）",
+  "arranger": "母里治樹（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1492754400000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "きみにもらったもの",
+  "title_en": "Your Gift To Me",
+  "length_s": 105.168
+ }
+}

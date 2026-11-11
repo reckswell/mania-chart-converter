@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "546",
+ "title": "swim",
+ "artist": "MyGO!!!!!",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "MyGO!!!!!",
+ "bpm": "195",
+ "version": "",
+ "date_added": "2023-09-16",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 119
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 119
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 73,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 240
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 240
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 176,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 471
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/546/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/546/hard.json",
+     "raw_sha256": "542c359f173e2d2533834e4bcc6f2864b48f0dce839ed22134973d1d3941ff04"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 471
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 275,
+      "hold": 32,
+      "slide": 42,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 691
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/546/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/546/expert.json",
+     "raw_sha256": "7435123ce5463346ae526e54fa112620cc0db74d88d6d1ab43d7d24ce2fe9de5"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 691
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 490,
+      "hold": 30,
+      "slide": 42,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 546,
+   "bandId": 45,
+   "jacketImage": "546_swim",
+   "bgmId": "bgm546"
+  },
+  "maa": {
+   "bestdori_song_id": 546,
+   "jacket": {
+    "path": "bestdori/546/jacket-cn-1.png",
+    "server": "cn",
+    "name": "546_swim"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/546/jacket-cn-1.png",
+   "sha256": "544c21f8442999702cf693ae5831234702409beac72cc623297ac7ba159a426e",
+   "width": 320,
+   "height": 320,
+   "bytes": 26779
+  }
+ },
+ "extra": {
+  "lyricist": "GEN",
+  "composer": "GEN",
+  "arranger": "森本練",
+  "tag": "anime",
+  "published_at": 1694844000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "swim",
+  "length_s": 91.128
+ }
+}

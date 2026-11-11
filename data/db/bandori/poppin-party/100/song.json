@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "100",
+ "title": "メランコリック",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "140",
+ "version": "",
+ "date_added": "2018-01-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 178
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 178
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 124,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 280
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 280
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 172,
+      "hold": 54
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 446
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/100/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/100/hard.json",
+     "raw_sha256": "312dd44a3752fc9a912cc30c3ad7c45835146978d5b58c184a6ae896dc837cb6"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 446
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 282,
+      "hold": 62,
+      "flick": 5,
+      "slide": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 622
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/100/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/100/expert.json",
+     "raw_sha256": "29f4e8b8cabd3a40ea6d9cc18784be74a758b0748456b1ef32acd032eb04e662"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 622
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 457,
+      "hold": 55,
+      "flick": 6,
+      "slide": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 100,
+   "bandId": 1,
+   "jacketImage": "100_melancholic",
+   "bgmId": "bgm100"
+  },
+  "maa": {
+   "bestdori_song_id": 100,
+   "jacket": {
+    "path": "bestdori/100/jacket-cn-1.png",
+    "server": "cn",
+    "name": "100_melancholic"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/100/jacket-cn-1.png",
+   "sha256": "d769d91c3426f868412dd96dabd9880a9cd4c113b9409cd142d4a16f9764c1ae",
+   "width": 320,
+   "height": 320,
+   "bytes": 29358
+  }
+ },
+ "extra": {
+  "lyricist": "Junky",
+  "composer": "Junky",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1517378400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "めらんこりっく",
+  "title_en": "Melancholic",
+  "length_s": 116.64
+ }
+}

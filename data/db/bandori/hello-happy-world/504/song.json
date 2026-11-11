@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "504",
+ "title": "キミを れっつ・はぶ・ふぁん♪",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "158",
+ "version": "",
+ "date_added": "2023-06-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 173
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 173
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 115,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 287
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 287
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 217,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 464
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/504/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/504/hard.json",
+     "raw_sha256": "cdccab7247829735d6256bde5f3a479fc2bd73e8c6f3d52ea508251ca3813e97"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 464
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 363,
+      "flick": 21,
+      "hold": 38,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 739
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/504/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/504/expert.json",
+     "raw_sha256": "ae49a197935feba4ef83dcac495fe3a859a6a0e4f07934e1055e5b90d3bc976e"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 739
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 498,
+      "flick": 56,
+      "slide": 53,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 504,
+   "bandId": 3,
+   "jacketImage": "504_lets_have_fun",
+   "bgmId": "bgm504"
+  },
+  "maa": {
+   "bestdori_song_id": 504,
+   "jacket": {
+    "path": "bestdori/504/jacket-cn-1.png",
+    "server": "cn",
+    "name": "504_lets_have_fun"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/504/jacket-cn-1.png",
+   "sha256": "a0f9a7d45865e489282e90372f673af6a5be643e51aff87bb8c228e104714c00",
+   "width": 320,
+   "height": 320,
+   "bytes": 38297
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "下田晃太郎（Elements Garden）",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1686376800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "きみをれっつはぶふぁん",
+  "title_en": "You, Let’s Have Fun ♪",
+  "length_s": 105.624
+ }
+}

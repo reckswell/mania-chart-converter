@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "638",
+ "title": "FRONTIER FANTASIA",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "178",
+ "version": "",
+ "date_added": "2024-10-09",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 102
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 102
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 70,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 206
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 206
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 154,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 425
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/638/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/638/hard.json",
+     "raw_sha256": "f0aaa2faa122222ce9f59ad68cd70e786fa29cf046266cdcfb42809ac4f29b8b"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 425
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 244,
+      "slide": 24,
+      "hold": 43,
+      "flick": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 659
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/638/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/638/expert.json",
+     "raw_sha256": "7a36b90c6d359591e7a728ff4a9ccb60504ce322e4c98311654fdf827eb3ae26"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 659
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 56,
+      "tap": 391,
+      "slide": 57,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 638,
+   "bandId": 5,
+   "jacketImage": "638_frontier_fantasia",
+   "bgmId": "bgm638"
+  },
+  "maa": {
+   "bestdori_song_id": 638,
+   "jacket": {
+    "path": "bestdori/638/jacket-cn-1.png",
+    "server": "cn",
+    "name": "638_frontier_fantasia"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/638/jacket-cn-1.png",
+   "sha256": "e2e3420e7f1b2239459fe79fffcd9491bab6c2e1629305fc388efe77ec0ef153",
+   "width": 320,
+   "height": 320,
+   "bytes": 31472
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "竹田祐介（Elements Garden）",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1728453600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "frontierfantasia",
+  "length_s": 111.96
+ }
+}

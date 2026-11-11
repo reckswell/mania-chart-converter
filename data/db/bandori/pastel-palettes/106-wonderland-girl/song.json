@@ -1,0 +1,209 @@
+{
+ "game": "bandori",
+ "song_id": "106",
+ "title": "Wonderland Girl",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "137",
+ "version": "",
+ "date_added": "2018-02-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 168
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 168
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 132,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 365
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 365
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 303,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 461
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/106/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/106/hard.json",
+     "raw_sha256": "c3622dec358bdb09fecad67981c9f6493f2fd999bd49b0a755c55ede4a47f44f"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 461
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 347,
+      "hold": 22,
+      "slide": 17,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 625
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/106/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/106/expert.json",
+     "raw_sha256": "102cbfac46e480999e5a203252259235cb00304f955620e4dd61434ad2b3c8b8"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 625
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 470,
+      "hold": 16,
+      "slide": 29,
+      "flick": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 784
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1568808000000,
+    "maa": {
+     "path": "bestdori/106/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/106/special.json",
+     "raw_sha256": "d681b271d9eaac1bce9d1d21d07e1c069fcd574300d5e4af01ebc195205ad38b"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 784
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 465,
+      "flick": 49,
+      "hold": 85,
+      "slide": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 106,
+   "bandId": 4,
+   "jacketImage": "106_wonderlandgirl",
+   "bgmId": "bgm106"
+  },
+  "maa": {
+   "bestdori_song_id": 106,
+   "jacket": {
+    "path": "bestdori/106/jacket-cn-1.png",
+    "server": "cn",
+    "name": "106_wonderlandgirl"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/106/jacket-cn-1.png",
+   "sha256": "003df268e47ea664ce926e55bc3b6af6894d335f18f15f1cc947266d8d8449b8",
+   "width": 320,
+   "height": 320,
+   "bytes": 19966
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "菊田大介（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1519020000000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "wonderlandgirl",
+  "length_s": 115.68
+ }
+}

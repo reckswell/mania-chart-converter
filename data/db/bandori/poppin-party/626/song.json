@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "626",
+ "title": "ちゅ、多様性。",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "153",
+ "version": "",
+ "date_added": "2024-09-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 106
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 106
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 62,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 272
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 272
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 63,
+      "tap": 146
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 469
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/626/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/626/hard.json",
+     "raw_sha256": "3854cc838251dec2809aa012c325f2e6efb13b8aca97522f194742324e544d62"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 469
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 62,
+      "hold": 29,
+      "tap": 234,
+      "flick": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 661
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/626/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/626/expert.json",
+     "raw_sha256": "c5e29b33b12560cd20b27aa9beac4925a2a68ee5b27db018b2bdca85aa31f096"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 661
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 399,
+      "hold": 44,
+      "slide": 58,
+      "flick": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 626,
+   "bandId": 1,
+   "jacketImage": "626_chu_tayosei",
+   "bgmId": "bgm626"
+  },
+  "maa": {
+   "bestdori_song_id": 626,
+   "jacket": {
+    "path": "bestdori/626/jacket-cn-1.png",
+    "server": "cn",
+    "name": "626_chu_tayosei"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/626/jacket-cn-1.png",
+   "sha256": "9c866fdc27e2ecd537849c0739dc5356ba696209178dd3c7d0eee1ea658f5715",
+   "width": 320,
+   "height": 320,
+   "bytes": 39872
+  }
+ },
+ "extra": {
+  "lyricist": "あの、真部 脩一",
+  "composer": "真部 脩一",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1725958800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ちゅたようせい",
+  "title_en": "Chu, Tayousei.",
+  "length_s": 113.784
+ }
+}

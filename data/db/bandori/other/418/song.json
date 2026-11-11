@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "418",
+ "title": "青空のラプソディ",
+ "artist": "Morfonica×fhána",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica×fhána",
+ "bpm": "135",
+ "version": "",
+ "date_added": "2022-04-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 108
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 108
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 64,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 230
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 230
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 172,
+      "hold": 27,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 439
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/418/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/418/hard.json",
+     "raw_sha256": "170b51dfaa00ec5b53ebdb635d602e92c1299b7f22b494956e5e3a215ea1437b"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 439
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 308,
+      "flick": 7,
+      "hold": 49,
+      "slide": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 649
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/418/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/418/expert.json",
+     "raw_sha256": "40feb0ffe9a8e73516ce3570797a59726f3cb3c0952d821523669cc27958941f"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 649
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 55,
+      "tap": 398,
+      "flick": 31,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 418,
+   "bandId": 48,
+   "jacketImage": "418_aozora_rhapsody",
+   "bgmId": "bgm418"
+  },
+  "maa": {
+   "bestdori_song_id": 418,
+   "jacket": {
+    "path": "bestdori/418/jacket-cn-1.png",
+    "server": "cn",
+    "name": "418_aozora_rhapsody"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/418/jacket-cn-1.png",
+   "sha256": "f5c5884ce4097936886f2705b9e60a43f9fc56f5f35ab103679e52ea27b94c94",
+   "width": 320,
+   "height": 320,
+   "bytes": 20786
+  }
+ },
+ "extra": {
+  "lyricist": "林　英樹",
+  "composer": "佐藤　純一",
+  "arranger": "岩橋星実（Elements Garden）/下田晃太郎（Elements Garden）",
+  "tag": "tie_up",
+  "published_at": 1651125600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "あおそらのらぷそでぃ",
+  "title_en": "Rhapsody of Blue Sky",
+  "length_s": 106.728
+ }
+}

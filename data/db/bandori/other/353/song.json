@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "353",
+ "title": "絆色のアンサンブル",
+ "artist": "Poppin'Party×Pastel＊Palettes×Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party×Pastel＊Palettes×Morfonica",
+ "bpm": "100-189",
+ "version": "",
+ "date_added": "2021-08-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 146
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 146
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 66,
+      "hold": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 307
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 307
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 179,
+      "hold": 64
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 566
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/353/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/353/hard.json",
+     "raw_sha256": "5d126cc44e93ca90d26d419fe80db4f4045951daef555ba1359b2fd271ab0a20"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 566
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 347,
+      "hold": 71,
+      "slide": 17,
+      "flick": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 842
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/353/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/353/expert.json",
+     "raw_sha256": "128caaa7414d7778aadebb2d044d5505a9d32e4e3e417d30fe451f1172c759ca"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 842
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 572,
+      "hold": 70,
+      "slide": 27,
+      "flick": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 353,
+   "bandId": 28,
+   "jacketImage": "353_kizuna_color",
+   "bgmId": "bgm353"
+  },
+  "maa": {
+   "bestdori_song_id": 353,
+   "jacket": {
+    "path": "bestdori/353/jacket-cn-1.png",
+    "server": "cn",
+    "name": "353_kizuna_color"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/353/jacket-cn-1.png",
+   "sha256": "d10732eec5b72d102f251c106ae6d86a25b123c34a9e0977be378d2ab52a7ed7",
+   "width": 320,
+   "height": 320,
+   "bytes": 26096
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "笠井雄太（Elements Garden）",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1629439200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "きずないろのあんさんぶる",
+  "title_en": "Kizunairo no Ensemble",
+  "length_s": 123.672
+ }
+}

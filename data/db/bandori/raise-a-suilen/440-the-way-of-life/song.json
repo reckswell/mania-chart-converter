@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "440",
+ "title": "THE WAY OF LIFE",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2022-08-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 135
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 135
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 91,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 281
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 281
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 193,
+      "hold": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 565
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/440/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/440/hard.json",
+     "raw_sha256": "7634339780a7580937bd52957c5fdd060f10fe2b20fa3ec399172bb7bf97909c"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 565
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 347,
+      "hold": 61,
+      "flick": 10,
+      "slide": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 919
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/440/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/440/expert.json",
+     "raw_sha256": "b4888838b96910114e851fbd31cfe7a342a9722649581658c7add8400db9202e"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 919
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 560,
+      "slide": 59,
+      "flick": 23,
+      "hold": 76
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 440,
+   "bandId": 18,
+   "jacketImage": "440_way_of_life_1",
+   "bgmId": "bgm440"
+  },
+  "maa": {
+   "bestdori_song_id": 440,
+   "jacket": {
+    "path": "bestdori/440/jacket-cn-2.png",
+    "server": "cn",
+    "name": "440_way_of_life_1"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/440/jacket-cn-2.png",
+   "sha256": "fce52fa474a7296ef6895f966ec70b897b74678fb2309c1e57d846396b30b669",
+   "width": 320,
+   "height": 320,
+   "bytes": 34848
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "日高勇輝（Elements Garden）",
+  "arranger": "日高勇輝（Elements Garden）/Seonoo Kim（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1661925600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "thewayoflife",
+  "length_s": 110.184
+ }
+}

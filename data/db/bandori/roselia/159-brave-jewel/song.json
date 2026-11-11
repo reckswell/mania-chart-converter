@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "159",
+ "title": "BRAVE JEWEL",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "192",
+ "version": "",
+ "date_added": "2018-12-12",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 136
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 136
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 92,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 255
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 255
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 189,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 486
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/159/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/159/hard.json",
+     "raw_sha256": "228388a1d0b53923ee1d0695454cd16c5216d73ce1117121c13e2e5bf2d3069d"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 486
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 274,
+      "slide": 30,
+      "hold": 42,
+      "flick": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 747
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/159/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/159/expert.json",
+     "raw_sha256": "98e3893f091e0d9bc184ec8b245f278092bd1bb854e062e8a181485f21d2bc84"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 747
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 473,
+      "slide": 41,
+      "hold": 44,
+      "flick": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 159,
+   "bandId": 5,
+   "jacketImage": "159_brave_jewel",
+   "bgmId": "bgm159"
+  },
+  "maa": {
+   "bestdori_song_id": 159,
+   "jacket": {
+    "path": "bestdori/159/jacket-cn-1.png",
+    "server": "cn",
+    "name": "159_brave_jewel"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/159/jacket-cn-1.png",
+   "sha256": "b7808e54f7e3434c81b9bb4a4f587068a9ff6050e6a6fd57230b30510bc95ad7",
+   "width": 320,
+   "height": 320,
+   "bytes": 41248
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1544594400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "bravejewel",
+  "length_s": 92.568
+ }
+}

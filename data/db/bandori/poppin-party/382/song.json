@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "382",
+ "title": "怪物",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2021-11-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 114
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 114
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 90,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 208
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 208
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 200,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 524
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/382/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/382/hard.json",
+     "raw_sha256": "51c507b21fc4cd64eac4204fb587335dabe03c69dec853bdd6e401bd54a3395f"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 524
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 53,
+      "hold": 38,
+      "tap": 290,
+      "flick": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 847
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/382/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/382/expert.json",
+     "raw_sha256": "62b7331c4678f921feaa1f03a1936b0e2bcb3c3cb77398e5f4a720aa9384a3c5"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 847
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 59,
+      "tap": 616,
+      "hold": 29,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 382,
+   "bandId": 1,
+   "jacketImage": "382_kaibutsu",
+   "bgmId": "bgm382"
+  },
+  "maa": {
+   "bestdori_song_id": 382,
+   "jacket": {
+    "path": "bestdori/382/jacket-cn-1.png",
+    "server": "cn",
+    "name": "382_kaibutsu"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/382/jacket-cn-1.png",
+   "sha256": "e1178b2b75b5ad427af4daedd18e22b112972577f8292b7ac77d6d14d8899051",
+   "width": 320,
+   "height": 320,
+   "bytes": 22811
+  }
+ },
+ "extra": {
+  "lyricist": "Ayase",
+  "composer": "Ayase",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1638252000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "かいぶつ",
+  "title_en": "KAIBUTSU",
+  "length_s": 121.464
+ }
+}

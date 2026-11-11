@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "238",
+ "title": "花ハ踊レヤいろはにほ",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "160",
+ "version": "",
+ "date_added": "2020-01-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 157
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 157
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 89,
+      "hold": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 288
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 288
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 66,
+      "tap": 156
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 496
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/238/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/238/hard.json",
+     "raw_sha256": "4a2c854bae09b66ad7a0208d56317bcad40d37401ec70a49fa77b48da4eca2fa"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 496
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 68,
+      "tap": 282,
+      "flick": 9,
+      "slide": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 627
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/238/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/238/expert.json",
+     "raw_sha256": "c7a78b78a691f675748efaa28150c0838c89e06ea721ffec7a323852bfa5c16c"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 627
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 46,
+      "tap": 418,
+      "hold": 48,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 505
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1641276000000,
+    "maa": {
+     "path": "bestdori/238/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/238/special.json",
+     "raw_sha256": "c7e7a2a28d290c337854bf356e99748a81cecd561f07a493724fc80a00c56c17"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 505
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 48,
+      "tap": 334,
+      "hold": 24,
+      "flick": 22
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 238,
+   "bandId": 4,
+   "jacketImage": "238_irohaniho",
+   "bgmId": "bgm238"
+  },
+  "maa": {
+   "bestdori_song_id": 238,
+   "jacket": {
+    "path": "bestdori/238/jacket-cn-1.png",
+    "server": "cn",
+    "name": "238_irohaniho"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/238/jacket-cn-1.png",
+   "sha256": "c430abf8fdb48cbe631ee3f151699be373eb6efd9625d926262b7ecc64a4c1e2",
+   "width": 320,
+   "height": 320,
+   "bytes": 21162
+  }
+ },
+ "extra": {
+  "lyricist": "畑　亜貴",
+  "composer": "田中　秀和",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1577944800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "はなはおどれやいろはにほ",
+  "title_en": "Hana ha odoreya irohaniho",
+  "length_s": 105.816
+ }
+}

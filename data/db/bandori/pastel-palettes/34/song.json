@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "34",
+ "title": "はなまる◎アンダンテ",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "166",
+ "version": "",
+ "date_added": "2017-05-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 174
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 174
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 128,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 246
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 246
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 154,
+      "hold": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 363
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/34/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/34/hard.json",
+     "raw_sha256": "bf5a295eea3049ac28cfe941697c92422a70c7ad719010c0e45de32367cc9bfb"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 363
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 35,
+      "tap": 212,
+      "slide": 23,
+      "flick": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 607
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/34/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/34/expert.json",
+     "raw_sha256": "49c38bd4be92f8b2ec7a80914ec65f3dfd884c29f9ed2c552153b47e30aab5b7"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 607
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 53,
+      "tap": 298,
+      "hold": 48,
+      "flick": 55
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 34,
+   "bandId": 4,
+   "jacketImage": "hanamaru",
+   "bgmId": "bgm034"
+  },
+  "maa": {
+   "bestdori_song_id": 34,
+   "jacket": {
+    "path": "bestdori/34/jacket-cn-1.png",
+    "server": "cn",
+    "name": "hanamaru"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/34/jacket-cn-1.png",
+   "sha256": "a2143478d1b1d4053e37ecfec2e66ee0331fad243b441c2266c750859ecce46b",
+   "width": 320,
+   "height": 320,
+   "bytes": 25753
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "末益涼太（Elements Garden）",
+  "arranger": "末益涼太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1496210400000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "はなまるあんだんて",
+  "title_en": "Hanamaru◎Andante",
+  "length_s": 108.504
+ }
+}

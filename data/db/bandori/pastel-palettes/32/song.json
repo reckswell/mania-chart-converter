@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "32",
+ "title": "しゅわりん☆どり〜みん",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "176",
+ "version": "",
+ "date_added": "2016-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 79
+   },
+   "source": {
+    "notesQuantity": 79,
+    "bestdori": {
+     "level": 6,
+     "notes": 79
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 77,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 192
+   },
+   "source": {
+    "notesQuantity": 156,
+    "bestdori": {
+     "level": 12,
+     "notes": 192
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 168,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 156 differs from combo 192 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 348
+   },
+   "source": {
+    "notesQuantity": 366,
+    "maa": {
+     "path": "bestdori/32/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/32/hard.json",
+     "raw_sha256": "bc2a28180cf88999d2cd409cc0d6a4a673f8c338d1b544805d8ee00a4940a06a"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 348
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 269,
+      "hold": 25,
+      "flick": 15,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 366 differs from combo 348 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 520
+   },
+   "source": {
+    "notesQuantity": 519,
+    "maa": {
+     "path": "bestdori/32/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/32/expert.json",
+     "raw_sha256": "302b08a4d208f0e3ee4ddda4b05eb0a152d8cd24afb7ed3c023dbb2f33fe0219"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 520
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 363,
+      "hold": 49,
+      "flick": 21,
+      "slide": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 519 differs from combo 520 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 672
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1547899200000,
+    "maa": {
+     "path": "bestdori/32/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/32/special.json",
+     "raw_sha256": "3e7918d43f9ac70ef4c576e8ac856a279b31b6af098a175c7e77174840b0f4f2"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 672
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 382,
+      "hold": 43,
+      "slide": 61,
+      "flick": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 32,
+   "bandId": 4,
+   "jacketImage": "syuwarin",
+   "bgmId": "bgm032"
+  },
+  "maa": {
+   "bestdori_song_id": 32,
+   "jacket": {
+    "path": "bestdori/32/jacket-cn-1.png",
+    "server": "cn",
+    "name": "syuwarin"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/32/jacket-cn-1.png",
+   "sha256": "cca63d9aa59e9afb8a73b953119f611d9d52707018ca676e422f1b4b0eec13b9",
+   "width": 320,
+   "height": 320,
+   "bytes": 25341
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "末益涼太（Elements Garden）",
+  "arranger": "末益涼太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1462071600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "しゅわりんどりーみん",
+  "title_en": "Shuwarin☆Dreaming",
+  "length_s": 102.336
+ }
+}

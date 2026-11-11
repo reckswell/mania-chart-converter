@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "233",
+ "title": "天ノ弱",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "200",
+ "version": "",
+ "date_added": "2019-12-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 215
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 215
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 107,
+      "hold": 54
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 370
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 370
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 242,
+      "hold": 64
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 637
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/233/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/233/hard.json",
+     "raw_sha256": "3301c899bbedba065ba1afa06cd2c7796fab1b3ecfc975158895f9233f5f255b"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 637
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 329,
+      "slide": 67,
+      "hold": 36,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 967
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/233/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/233/expert.json",
+     "raw_sha256": "25a979d45b8193f6365cbcf17401c094c6baf4b12a03d2f39a7cc47e576f376f"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 967
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 559,
+      "hold": 61,
+      "slide": 77,
+      "flick": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 998
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1647842400000,
+    "maa": {
+     "path": "bestdori/233/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/233/special.json",
+     "raw_sha256": "bf9c95cb68dc185acc28afecb54509f9287e85e332e31b470ad517a4f66d7b4a"
+    },
+    "bestdori": {
+     "level": 29,
+     "notes": 998
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 490,
+      "hold": 41,
+      "slide": 110,
+      "flick": 88
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 233,
+   "bandId": 2,
+   "jacketImage": "233_amanojyaku",
+   "bgmId": "bgm233"
+  },
+  "maa": {
+   "bestdori_song_id": 233,
+   "jacket": {
+    "path": "bestdori/233/jacket-cn-1.png",
+    "server": "cn",
+    "name": "233_amanojyaku"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/233/jacket-cn-1.png",
+   "sha256": "be2cf463ea927d63363fa0cbb8edc7b698b3c4d7ed0c1ea5da76aaf3c0da49e4",
+   "width": 320,
+   "height": 320,
+   "bytes": 37107
+  }
+ },
+ "extra": {
+  "lyricist": "164",
+  "composer": "164",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1577620800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "あまのじゃく",
+  "title_en": "Amanojaku",
+  "length_s": 110.472
+ }
+}

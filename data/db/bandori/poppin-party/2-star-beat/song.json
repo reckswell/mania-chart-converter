@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "2",
+ "title": "STAR BEAT!〜ホシノコドウ〜",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "195",
+ "version": "",
+ "date_added": "2016-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 106
+   },
+   "source": {
+    "notesQuantity": 97,
+    "bestdori": {
+     "level": 7,
+     "notes": 106
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 90,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 97 differs from combo 106 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 203
+   },
+   "source": {
+    "notesQuantity": 186,
+    "bestdori": {
+     "level": 14,
+     "notes": 203
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 26,
+      "tap": 151
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 186 differs from combo 203 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 437
+   },
+   "source": {
+    "notesQuantity": 398,
+    "maa": {
+     "path": "bestdori/2/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/2/hard.json",
+     "raw_sha256": "a36d9826ee72d33cc2c747a758357f5e460cd073c4af5d078ea93dadfe012cc3"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 437
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 41,
+      "slide": 28,
+      "tap": 257,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 398 differs from combo 437 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 642
+   },
+   "source": {
+    "notesQuantity": 550,
+    "maa": {
+     "path": "bestdori/2/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/2/expert.json",
+     "raw_sha256": "bface685af376d1e4dffd1f1a8405ab61d97258622fadc282ab4f1abe3622186"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 642
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 363,
+      "hold": 59,
+      "slide": 44,
+      "flick": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 550 differs from combo 642 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 854
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1550404800000,
+    "maa": {
+     "path": "bestdori/2/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/2/special.json",
+     "raw_sha256": "018a1a8df9c61865b6750a61ef17191be4df6129e6c2078528e370d656925513"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 854
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 483,
+      "flick": 80,
+      "hold": 79,
+      "slide": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 2,
+   "bandId": 1,
+   "jacketImage": "star_beat",
+   "bgmId": "bgm002"
+  },
+  "maa": {
+   "bestdori_song_id": 2,
+   "jacket": {
+    "path": "bestdori/2/jacket-cn-1.png",
+    "server": "cn",
+    "name": "star_beat"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/2/jacket-cn-1.png",
+   "sha256": "e8fa4037625cc12e943a7f64baa3fb17657d292ab6a9b7f461f6492b16f469f8",
+   "width": 320,
+   "height": 320,
+   "bytes": 43748
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1462071600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "starbeatほしのこどう",
+  "title_en": "Star Beat!",
+  "length_s": 132.816
+ }
+}

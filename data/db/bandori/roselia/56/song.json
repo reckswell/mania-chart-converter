@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "56",
+ "title": "熱色スターマイン",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "187",
+ "version": "",
+ "date_added": "2017-08-25",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 157
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 157
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 113,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 262
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 262
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 190,
+      "hold": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 529
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/56/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/56/hard.json",
+     "raw_sha256": "7f17d4eda6466ecd72cf3d7f55e9e9ae6acf714eedf2c18bfad10b68268dee93"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 529
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 404,
+      "flick": 27,
+      "hold": 47,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 691
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/56/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/56/expert.json",
+     "raw_sha256": "0c2f1aa6c17c0f7dc764ed34a64be814fb32e0b4fd8530dea38eb3d586ac0823"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 691
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 503,
+      "flick": 46,
+      "hold": 52,
+      "slide": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 643
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1767592800000,
+    "maa": {
+     "path": "bestdori/56/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/56/special.json",
+     "raw_sha256": "522bee3b99de7c2991faf1810ffafab480fb815fb6e7f7021e1a2af9fd4dfb24"
+    },
+    "bestdori": {
+     "notes": 643
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 389,
+      "slide": 30,
+      "hold": 42,
+      "flick": 97
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 56,
+   "bandId": 5,
+   "jacketImage": "056_starmine",
+   "bgmId": "bgm056"
+  },
+  "maa": {
+   "bestdori_song_id": 56,
+   "jacket": {
+    "path": "bestdori/56/jacket-cn-1.png",
+    "server": "cn",
+    "name": "056_starmine"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/56/jacket-cn-1.png",
+   "sha256": "f0a69126325e07426dfe7f98563518c8f1601b6843bbe234632689c3d7b60fc5",
+   "width": 320,
+   "height": 320,
+   "bytes": 31766
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1503640800000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "ねっしょくすたーまいん",
+  "title_en": "Passionate Starmine",
+  "length_s": 118.776
+ }
+}

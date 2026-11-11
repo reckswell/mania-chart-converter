@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "307",
+ "title": "ムーンライト伝説",
+ "artist": "Pastel＊Palettes×こころ×ましろ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes×こころ×ましろ",
+ "bpm": "142",
+ "version": "",
+ "date_added": "2020-12-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 130
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 130
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 60,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 235
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 235
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 143,
+      "hold": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 445
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/307/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/307/hard.json",
+     "raw_sha256": "27216a550a6ea958d83b4ca4bf8088b9ef00d1bb82b3288b7eb4db8384453d12"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 445
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 32,
+      "tap": 310,
+      "flick": 9,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 602
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/307/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/307/expert.json",
+     "raw_sha256": "44194086622218e9bed416eea01a5d13bf877fcf527b742adc58b4d59c7e3c13"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 602
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 42,
+      "tap": 431,
+      "flick": 11,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 691
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1663135200000,
+    "maa": {
+     "path": "bestdori/307/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/307/special.json",
+     "raw_sha256": "b685ad71e2a5ee3283fa19719876f639e8ffc8dea2e432d59e0283470b9f52a8"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 691
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 71,
+      "tap": 448,
+      "slide": 38,
+      "hold": 28
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 307,
+   "bandId": 26,
+   "jacketImage": "307_moonlight",
+   "bgmId": "bgm307"
+  },
+  "maa": {
+   "bestdori_song_id": 307,
+   "jacket": {
+    "path": "bestdori/307/jacket-cn-1.png",
+    "server": "cn",
+    "name": "307_moonlight"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/307/jacket-cn-1.png",
+   "sha256": "341053da5b36236a55e1b80241abb6180a27c1cfc777dc77b60469b73fe36e41",
+   "width": 320,
+   "height": 320,
+   "bytes": 30238
+  }
+ },
+ "extra": {
+  "lyricist": "小田佳奈子",
+  "composer": "小諸鉄矢",
+  "arranger": "下田晃太郎(Elements Garden)",
+  "tag": "anime",
+  "published_at": 1609394400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "むーんらいとでんせつ",
+  "title_en": "Moonlight Densetsu",
+  "length_s": 125.136
+ }
+}

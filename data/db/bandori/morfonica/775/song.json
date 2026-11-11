@@ -1,0 +1,145 @@
+{
+ "game": "bandori",
+ "song_id": "775",
+ "title": "メロウ",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "145",
+ "version": "",
+ "date_added": "2026-03-15",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 375
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/775/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/775/hard.json",
+     "raw_sha256": "3549a96a0cc67e6fce6cf44087fe468c559e66944c7e0e05ae7bd23f64e9dee2"
+    },
+    "bestdori": {
+     "notes": 375
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 228,
+      "hold": 41,
+      "slide": 17,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 524
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/775/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/775/expert.json",
+     "raw_sha256": "33bda5d671d1f42c1be04c859002fd6ab1e902df99fe4fe9f1144a7bd9f953a4"
+    },
+    "bestdori": {
+     "notes": 524
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 306,
+      "hold": 65,
+      "slide": 32,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 775,
+   "bandId": 21,
+   "jacketImage": "775_mellow",
+   "bgmId": "bgm775"
+  },
+  "maa": {
+   "bestdori_song_id": 775,
+   "jacket": {
+    "path": "bestdori/775/jacket-jp-1.png",
+    "server": "jp",
+    "name": "775_mellow"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/775/jacket-jp-1.png",
+   "sha256": "13106ff82b310b7a67d442cfb92c734491d61dcea4bda546099393ef741dfcd3",
+   "width": 320,
+   "height": 320,
+   "bytes": 17652
+  }
+ },
+ "extra": {
+  "lyricist": "須田景凪",
+  "composer": "須田景凪",
+  "arranger": "堀川大翼（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1773554400000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "めろう"
+ }
+}

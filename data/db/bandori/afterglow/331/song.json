@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "331",
+ "title": "ハウトゥー世界征服",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "151",
+ "version": "",
+ "date_added": "2021-04-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 156
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 156
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 41,
+      "tap": 74
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 233
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 233
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 49,
+      "tap": 135
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 516
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/331/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/331/hard.json",
+     "raw_sha256": "0ef7f3c854b90663f4cb1abcc5eacbff6c0bf8eb88922d3a9e9312965684bb88"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 516
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 341,
+      "flick": 8,
+      "hold": 56,
+      "slide": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 694
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/331/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/331/expert.json",
+     "raw_sha256": "72514847c92e644fb5ef8153df6f1bbab72c245b6ca31d2602229906eaf42ed4"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 694
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 530,
+      "flick": 15,
+      "hold": 44,
+      "slide": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 331,
+   "bandId": 2,
+   "jacketImage": "331_how_to_sekai",
+   "bgmId": "bgm331"
+  },
+  "maa": {
+   "bestdori_song_id": 331,
+   "jacket": {
+    "path": "bestdori/331/jacket-cn-1.png",
+    "server": "cn",
+    "name": "331_how_to_sekai"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/331/jacket-cn-1.png",
+   "sha256": "ad793929efe5e856c281ea11b04003bb3e587499a7d6c67f16a249072fc5d5c1",
+   "width": 320,
+   "height": 320,
+   "bytes": 24043
+  }
+ },
+ "extra": {
+  "lyricist": "Neru",
+  "composer": "Neru",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1619762400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "はうとぅーせかいせいふく",
+  "title_en": "How-To: World Domination",
+  "length_s": 114.504
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "404",
+ "title": "メンタルチェンソー",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "188",
+ "version": "",
+ "date_added": "2022-03-15",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 188
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 188
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 108,
+      "hold": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 325
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 325
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 244,
+      "hold": 30,
+      "slide": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 688
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/404/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/404/hard.json",
+     "raw_sha256": "5f07ce43c7b8f51f76d5bc85cffe5c3837414240d37fb19d993b738abab38c12"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 688
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 442,
+      "flick": 26,
+      "slide": 36,
+      "hold": 51
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1037
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/404/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/404/expert.json",
+     "raw_sha256": "b7c4514919e1b19b0bcdb55f8cad205b9ed8e3cf5b1e574c070517f119171356"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 1037
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 607,
+      "slide": 81,
+      "hold": 61,
+      "flick": 65
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 404,
+   "bandId": 2,
+   "jacketImage": "404_mental_chainsaw",
+   "bgmId": "bgm404"
+  },
+  "maa": {
+   "bestdori_song_id": 404,
+   "jacket": {
+    "path": "bestdori/404/jacket-cn-1.png",
+    "server": "cn",
+    "name": "404_mental_chainsaw"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/404/jacket-cn-1.png",
+   "sha256": "fac8932fd0831cd92d74c1b88d6714cfb1805264146818ba414952798cccd49a",
+   "width": 320,
+   "height": 320,
+   "bytes": 34135
+  }
+ },
+ "extra": {
+  "lyricist": "かいりきベア",
+  "composer": "かいりきベア",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1647324000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "めんたるちぇんそー",
+  "title_en": "Mental Chainsaw",
+  "length_s": 127.08
+ }
+}

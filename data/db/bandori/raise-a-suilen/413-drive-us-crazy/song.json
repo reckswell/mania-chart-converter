@@ -1,0 +1,209 @@
+{
+ "game": "bandori",
+ "song_id": "413",
+ "title": "DRIVE US CRAZY",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "210",
+ "version": "",
+ "date_added": "2022-03-17",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 212
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 212
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 112,
+      "hold": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 338
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 338
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 76,
+      "tap": 186
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 606
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/413/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/413/hard.json",
+     "raw_sha256": "85fa9ed49ab12e46dfda949576f47a0a6ec358ab11934ee315eed62c8d9d2839"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 606
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 37,
+      "tap": 308,
+      "slide": 77,
+      "flick": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 903
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/413/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/413/expert.json",
+     "raw_sha256": "c0e096e771c68f8eb4883d5fb00b8c608004c678d887da284728aaebc59ac42e"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 903
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 88,
+      "flick": 18,
+      "hold": 41,
+      "tap": 544
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 999
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1767160800000,
+    "maa": {
+     "path": "bestdori/413/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/413/special.json",
+     "raw_sha256": "f188715d20efc7a087f14f2c5e3250b49aebed7969788e9cd5bdbe68754f09c6"
+    },
+    "bestdori": {
+     "notes": 999
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 74,
+      "flick": 86,
+      "tap": 686,
+      "hold": 18
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 413,
+   "bandId": 18,
+   "jacketImage": "413_drive_us",
+   "bgmId": "bgm413"
+  },
+  "maa": {
+   "bestdori_song_id": 413,
+   "jacket": {
+    "path": "bestdori/413/jacket-cn-1.png",
+    "server": "cn",
+    "name": "413_drive_us"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/413/jacket-cn-1.png",
+   "sha256": "755494491717220fd101bd6bdfc16dda5eedbf1881a4451ddaac35cd013af2af",
+   "width": 320,
+   "height": 320,
+   "bytes": 12977
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1647496800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "driveuscrazy",
+  "length_s": 113.784
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "374",
+ "title": "Fateful...",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "132",
+ "version": "",
+ "date_added": "2021-10-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 132
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 132
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 70,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 228
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 228
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 122,
+      "hold": 53
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 395
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/374/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/374/hard.json",
+     "raw_sha256": "c4d88adce1172512532dc107a9cda8e06c42f65eaae07dec902284f841669463"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 395
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 194,
+      "hold": 45,
+      "slide": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 547
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/374/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/374/expert.json",
+     "raw_sha256": "8679e41b63c286bd62a62e3a3b22ac794638d8c25229615f93902d2a5697d356"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 547
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 323,
+      "hold": 45,
+      "slide": 33,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 374,
+   "bandId": 21,
+   "jacketImage": "374_fateful",
+   "bgmId": "bgm374"
+  },
+  "maa": {
+   "bestdori_song_id": 374,
+   "jacket": {
+    "path": "bestdori/374/jacket-cn-1.png",
+    "server": "cn",
+    "name": "374_fateful"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/374/jacket-cn-1.png",
+   "sha256": "d7b1fdef45deee5316508d5e78180f03ba5001eb51bf82c066e41561b22760da",
+   "width": 320,
+   "height": 320,
+   "bytes": 29047
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1634623200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "fateful",
+  "title_en": "Fateful…",
+  "length_s": 110.976
+ }
+}

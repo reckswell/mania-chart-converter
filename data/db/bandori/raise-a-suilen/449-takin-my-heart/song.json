@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "449",
+ "title": "Takin’ my Heart",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "92",
+ "version": "",
+ "date_added": "2022-09-25",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 118
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 118
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 84,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 202
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 202
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 132,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 429
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/449/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/449/hard.json",
+     "raw_sha256": "ca4d30d1addf80bff2c9b5f1c17d71654201928550f295db7e10c8a645c6219c"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 429
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 255,
+      "slide": 36,
+      "hold": 26,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 590
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/449/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/449/expert.json",
+     "raw_sha256": "d3b0d55b7aae5421f2db7416b8d6351e3860dcd267246019a26fe5c51405236d"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 590
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 402,
+      "slide": 36,
+      "hold": 27,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 449,
+   "bandId": 18,
+   "jacketImage": "449_takin_my_heart",
+   "bgmId": "bgm449"
+  },
+  "maa": {
+   "bestdori_song_id": 449,
+   "jacket": {
+    "path": "bestdori/449/jacket-cn-1.png",
+    "server": "cn",
+    "name": "449_takin_my_heart"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/449/jacket-cn-1.png",
+   "sha256": "c08199f127afacdb8aa0f14a98382d030fb5827044bc9f2f1585b28f7c8f8887",
+   "width": 320,
+   "height": 320,
+   "bytes": 31375
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1664110800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "takinmyheart",
+  "length_s": 105.72
+ }
+}

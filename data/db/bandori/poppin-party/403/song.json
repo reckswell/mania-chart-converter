@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "403",
+ "title": "ヴァンパイア",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "164",
+ "version": "",
+ "date_added": "2022-03-14",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 193
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 193
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 129,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 303
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 303
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 233,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 624
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/403/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/403/hard.json",
+     "raw_sha256": "8c696b3447df26d21a42df8b2cc153f84e032e3fbac0918db4cdf57928d0e813"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 624
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 443,
+      "hold": 51,
+      "flick": 25,
+      "slide": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 917
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/403/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/403/expert.json",
+     "raw_sha256": "3314321f5e3cddbaa7931e85748da08de4a38512e0466d359d1c543670d5b429"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 917
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 542,
+      "slide": 79,
+      "flick": 44,
+      "hold": 54
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 403,
+   "bandId": 1,
+   "jacketImage": "403_vampire",
+   "bgmId": "bgm403"
+  },
+  "maa": {
+   "bestdori_song_id": 403,
+   "jacket": {
+    "path": "bestdori/403/jacket-cn-1.png",
+    "server": "cn",
+    "name": "403_vampire"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/403/jacket-cn-1.png",
+   "sha256": "c94ce4605346c651d4394ff1886a0a6d92b02566b874b827f94edef27125d0fa",
+   "width": 320,
+   "height": 320,
+   "bytes": 31323
+  }
+ },
+ "extra": {
+  "lyricist": "DECO*27",
+  "composer": "DECO*27",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1647237600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ゔぁんぱいあ",
+  "title_en": "The Vampire",
+  "length_s": 137.616
+ }
+}

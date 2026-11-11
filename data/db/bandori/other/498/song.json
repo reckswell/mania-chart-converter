@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "498",
+ "title": "踊",
+ "artist": "RAISE A SUILEN×友希那",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN×友希那",
+ "bpm": "128",
+ "version": "",
+ "date_added": "2023-05-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 104
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 104
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 8,
+      "tap": 88
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 200
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 200
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 138,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 422
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/498/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/498/hard.json",
+     "raw_sha256": "39938bef8fb889ce0b59d0ef69e63901596222ffbda17b8bde6b5773a1096b06"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 422
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 272,
+      "hold": 22,
+      "slide": 32,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 606
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/498/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/498/expert.json",
+     "raw_sha256": "9cb5d8da689966080230fa2a479b408ebfe12daf347f349664bfc3c872aa542d"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 606
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 33,
+      "slide": 36,
+      "tap": 421,
+      "flick": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 498,
+   "bandId": 25,
+   "jacketImage": "498_odo",
+   "bgmId": "bgm498"
+  },
+  "maa": {
+   "bestdori_song_id": 498,
+   "jacket": {
+    "path": "bestdori/498/jacket-cn-1.png",
+    "server": "cn",
+    "name": "498_odo"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/498/jacket-cn-1.png",
+   "sha256": "7e3d8c854df41233388c1593c6fcf130ee63faa8b04a3206a9c9249516c00c15",
+   "width": 320,
+   "height": 320,
+   "bytes": 25251
+  }
+ },
+ "extra": {
+  "lyricist": "DECO＊27",
+  "composer": "Giga・TeddyLoid",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1683007200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "おど",
+  "title_en": "Odo",
+  "length_s": 110.688
+ }
+}

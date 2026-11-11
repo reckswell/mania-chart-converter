@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "536",
+ "title": "サウダージ",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "120",
+ "version": "",
+ "date_added": "2023-09-12",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 138
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 138
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 84,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 239
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 239
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 155,
+      "hold": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 481
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/536/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/536/hard.json",
+     "raw_sha256": "e93c8da6d777a5064daaa0c1a09deaf5d22d82719b85ef442e453fc22a4d417e"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 481
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 224,
+      "slide": 69,
+      "flick": 34,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 786
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/536/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/536/expert.json",
+     "raw_sha256": "18c4b335169953695d58966a2811ba29e992c371789080b1512b77d6ed3e9d56"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 786
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 505,
+      "slide": 66,
+      "flick": 39,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 536,
+   "bandId": 2,
+   "jacketImage": "536_saudade",
+   "bgmId": "bgm536"
+  },
+  "maa": {
+   "bestdori_song_id": 536,
+   "jacket": {
+    "path": "bestdori/536/jacket-cn-1.png",
+    "server": "cn",
+    "name": "536_saudade"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/536/jacket-cn-1.png",
+   "sha256": "91270f9a936cf63f72c20ddf71a83d3eecc3ef1dd9baf365e72bf7c7397ac168",
+   "width": 320,
+   "height": 320,
+   "bytes": 26353
+  }
+ },
+ "extra": {
+  "lyricist": "ハルイチ",
+  "composer": "ak.homma",
+  "arranger": "堀川大翼（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1694498400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "さうだーじ",
+  "title_en": "Saudade",
+  "length_s": 121.056
+ }
+}

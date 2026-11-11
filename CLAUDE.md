@@ -11,7 +11,7 @@
 - Tests: `python -m pytest -q`. The demo (`python -m vsrgconv --db /tmp/d demo --out /tmp/o`) must stay lint-clean.
   Never skip or weaken a test to pass.
 - Data:
-  - commit `data/db` (catalog, extracted `*.chart.json.gz`, jackets shrunk to ≤512 px);
+  - commit `data/db` (catalog, extracted `*.chart.json.gz`, jackets shrunk to ≤320 px JPEG);
   - never commit `data/cache` (downloaded pictures, audio) or `out/`.
 - Network: the cloud machine cannot reach sdvx.in, osu.ppy.sh or YouTube. GitHub raw files (osu-wiki, otoge-db,
   MarisaBot) work. Chunithm notes come from exact .c2s files (docs/sources/chunithm-c2s.md); sdvx.in is the fallback.

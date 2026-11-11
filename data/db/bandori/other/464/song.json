@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "464",
+ "title": "乙女はサイコパス",
+ "artist": "Poppin'Party×P丸様。",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party×P丸様。",
+ "bpm": "168",
+ "version": "",
+ "date_added": "2022-12-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 129
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 129
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 95,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 226
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 226
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 162,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 499
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/464/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/464/hard.json",
+     "raw_sha256": "c6754488a5aabfaa28547eb43c1d073d3a06daacefe523527ade3c1c8f0bf75e"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 499
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 301,
+      "hold": 32,
+      "flick": 21,
+      "slide": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 784
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/464/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/464/expert.json",
+     "raw_sha256": "9b8d64b3bda8fb2d0d05d1bbb4848e65cda60d401895a3f76e3187a1b5784554"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 784
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 544,
+      "hold": 22,
+      "flick": 27,
+      "slide": 62
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 464,
+   "bandId": 52,
+   "jacketImage": "464_otome_psychopath",
+   "bgmId": "bgm464"
+  },
+  "maa": {
+   "bestdori_song_id": 464,
+   "jacket": {
+    "path": "bestdori/464/jacket-cn-1.png",
+    "server": "cn",
+    "name": "464_otome_psychopath"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/464/jacket-cn-1.png",
+   "sha256": "35871098999458efe5abda3a80aafcfeb4bbfe57a12f39ef04fdf3f72adb13fa",
+   "width": 320,
+   "height": 320,
+   "bytes": 44366
+  }
+ },
+ "extra": {
+  "lyricist": "コレサワ",
+  "composer": "コレサワ",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "tie_up",
+  "published_at": 1672466400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "おとめはさいこぱす",
+  "title_en": "Psychopath girl",
+  "length_s": 122.928
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "68",
+ "title": "YAPPY！SCHOOL CARNIVAL☆彡",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "172",
+ "version": "",
+ "date_added": "2017-09-24",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 184
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 184
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 116,
+      "hold": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 290
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 290
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 200,
+      "hold": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 468
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/68/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/68/hard.json",
+     "raw_sha256": "9d84e65a96ff1695f91829af43f06255eee02ae4e7de4cf641511eaa6be9e727"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 468
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 63,
+      "tap": 293,
+      "flick": 22,
+      "slide": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 663
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/68/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/68/expert.json",
+     "raw_sha256": "f7342c9131a6b96fffd31c46e68e07b09db12d0b152f70b2665e776f590283d5"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 663
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 430,
+      "hold": 60,
+      "slide": 20,
+      "flick": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 68,
+   "bandId": 3,
+   "jacketImage": "068_y_s_c",
+   "bgmId": "bgm068"
+  },
+  "maa": {
+   "bestdori_song_id": 68,
+   "jacket": {
+    "path": "bestdori/68/jacket-cn-1.png",
+    "server": "cn",
+    "name": "068_y_s_c"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/68/jacket-cn-1.png",
+   "sha256": "0ce76558a37e87b4dab53296663311753e58bfdaa2dcceecd6c38602020b4993",
+   "width": 320,
+   "height": 320,
+   "bytes": 43319
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤間仁（Elements Garden）",
+  "arranger": "藤間仁（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1506240000000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "yappyschoolcarnival",
+  "title_en": "YAPPY! SCHOOL CARNIVAL☆彡",
+  "length_s": 103.32
+ }
+}

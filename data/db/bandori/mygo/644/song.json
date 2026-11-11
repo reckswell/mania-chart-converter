@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "644",
+ "title": "遥か彼方",
+ "artist": "MyGO!!!!!",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "MyGO!!!!!",
+ "bpm": "151-175",
+ "version": "",
+ "date_added": "2024-11-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 113
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 113
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 73,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 268
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 268
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 192,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 488
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/644/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/644/hard.json",
+     "raw_sha256": "69d913a1efb0374509c46207441cbb84000468b310c59e5d7a843cc98a9e6dee"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 488
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 42,
+      "tap": 295,
+      "flick": 20,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 799
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/644/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/644/expert.json",
+     "raw_sha256": "bf547a1be334ae19565ba4b35c04bbc1d6332e07abda3794f33c4667c6d585f8"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 799
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 49,
+      "tap": 522,
+      "hold": 32,
+      "flick": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 644,
+   "bandId": 45,
+   "jacketImage": "644_hruka_kanata",
+   "bgmId": "bgm644"
+  },
+  "maa": {
+   "bestdori_song_id": 644,
+   "jacket": {
+    "path": "bestdori/644/jacket-cn-1.png",
+    "server": "cn",
+    "name": "644_hruka_kanata"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/644/jacket-cn-1.png",
+   "sha256": "b28070fb06ca8ae8fce0247322c0600bebb6d27a6751a9c36418b1e5e16d1827",
+   "width": 320,
+   "height": 320,
+   "bytes": 25397
+  }
+ },
+ "extra": {
+  "lyricist": "後藤 正文",
+  "composer": "後藤 正文",
+  "arranger": "植木建象、冬真",
+  "tag": "anime",
+  "published_at": 1732082400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "はるかかなた",
+  "title_en": "Haruka Kanata",
+  "length_s": 114.696
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "391",
+ "title": "星の約束",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "175",
+ "version": "",
+ "date_added": "2022-01-08",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 121
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 121
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 83,
+      "hold": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 237
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 237
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 189,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 472
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/391/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/391/hard.json",
+     "raw_sha256": "39098a015c5674db1d53202c54aedb5ffbcc3b97b4798552d646938fdd725a6a"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 472
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 308,
+      "hold": 44,
+      "slide": 27,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 762
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/391/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/391/expert.json",
+     "raw_sha256": "5439231bbca4216e66207516def3e83dd7d46f3603aa4b37d56a87742227c234"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 762
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 494,
+      "slide": 68,
+      "hold": 29,
+      "flick": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 391,
+   "bandId": 1,
+   "jacketImage": "391_hoshino_yakusoku",
+   "bgmId": "bgm391"
+  },
+  "maa": {
+   "bestdori_song_id": 391,
+   "jacket": {
+    "path": "bestdori/391/jacket-cn-1.png",
+    "server": "cn",
+    "name": "391_hoshino_yakusoku"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/391/jacket-cn-1.png",
+   "sha256": "562eab6d60e73574b8953aa145ffa403366d1b1bdc31668d57307a8b419f1612",
+   "width": 320,
+   "height": 320,
+   "bytes": 23359
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "笠井雄太（Elements Garden）",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1641621600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ほしのやくそく",
+  "title_en": "Star Promise",
+  "length_s": 115.944
+ }
+}

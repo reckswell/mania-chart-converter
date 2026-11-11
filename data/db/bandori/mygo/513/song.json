@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "513",
+ "title": "栞",
+ "artist": "MyGO!!!!!",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "MyGO!!!!!",
+ "bpm": "50-90",
+ "version": "",
+ "date_added": "2023-06-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 108
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 108
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 70,
+      "hold": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 192
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 192
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 124,
+      "hold": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 378
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/513/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/513/hard.json",
+     "raw_sha256": "9eda8864a698942f6ddfe224820b6023d28a7d83fe01504feba86781bcb8b8fd"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 378
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 233,
+      "hold": 31,
+      "slide": 25,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 460
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/513/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/513/expert.json",
+     "raw_sha256": "e01c6e4f19ff1ffb4d47652bf742c0d0319923fceb5d43f6eb68dd51ac76692a"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 460
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 312,
+      "hold": 38,
+      "slide": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 513,
+   "bandId": 45,
+   "jacketImage": "513_shiori",
+   "bgmId": "bgm513"
+  },
+  "maa": {
+   "bestdori_song_id": 513,
+   "jacket": {
+    "path": "bestdori/513/jacket-cn-1.png",
+    "server": "cn",
+    "name": "513_shiori"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/513/jacket-cn-1.png",
+   "sha256": "40add59f1f136a533f5e21568d99bf0544da3925742c39fd70127636ca71be8f",
+   "width": 320,
+   "height": 320,
+   "bytes": 26782
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1688049000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "しおり",
+  "title_en": "Shiori",
+  "length_s": 107.208
+ }
+}

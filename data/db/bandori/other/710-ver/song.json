@@ -1,0 +1,194 @@
+{
+ "game": "bandori",
+ "song_id": "710",
+ "title": "走り始めたばかりのキミに(パラレルver.)",
+ "artist": "ぽわぽわが～るず",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ぽわぽわが～るず",
+ "bpm": "125",
+ "version": "",
+ "date_added": "2025-07-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 89
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 89
+    }
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 205
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 205
+    }
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 341
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/710/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/710/hard.json",
+     "raw_sha256": "8a7b21a5bc7c2b6b8fe3ec7cb4ac48be0a5a9f92cfcf946d7f719462a4f94855"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 341
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 279,
+      "hold": 16,
+      "slide": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 531
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/710/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/710/expert.json",
+     "raw_sha256": "fa8b4be6b0dbc8acdf5a64eae456d70a847dce9498994026a204912b028673a6"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 531
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 322,
+      "slide": 27,
+      "hold": 60,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 734
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/710/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/710/special.json",
+     "raw_sha256": "e5d4cfdbee38b9b3f589040caadf9176cebdce8f70436d45e95f7460e0443ce1"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 734
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 61,
+      "tap": 506,
+      "flick": 78,
+      "hold": 10
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 710,
+   "bandId": 89,
+   "jacketImage": "710_hashikimi_p",
+   "bgmId": "bgm710"
+  },
+  "maa": {
+   "bestdori_song_id": 710,
+   "jacket": {
+    "path": "bestdori/710/jacket-cn-1.png",
+    "server": "cn",
+    "name": "710_hashikimi_p"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/710/jacket-cn-1.png",
+   "sha256": "81b62e3ad97c43d7dadf9eb5cf4659aaf0c2036c3d78e7c657c1a70a8592ee55",
+   "width": 320,
+   "height": 320,
+   "bytes": 34572
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1752127200000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "はしりはじめたばかりのきみに",
+  "length_s": 117.168
+ }
+}

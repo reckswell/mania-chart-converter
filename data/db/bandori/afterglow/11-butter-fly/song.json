@@ -1,0 +1,209 @@
+{
+ "game": "bandori",
+ "song_id": "11",
+ "title": "Butter-Fly",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "171",
+ "version": "",
+ "date_added": "2016-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 133
+   },
+   "source": {
+    "notesQuantity": 89,
+    "bestdori": {
+     "level": 7,
+     "notes": 133
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 127,
+      "hold": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 89 differs from combo 133 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 172
+   },
+   "source": {
+    "notesQuantity": 172,
+    "bestdori": {
+     "level": 11,
+     "notes": 172
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 166,
+      "hold": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 405
+   },
+   "source": {
+    "notesQuantity": 402,
+    "maa": {
+     "path": "bestdori/11/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/11/hard.json",
+     "raw_sha256": "8b323ffac8b127a944dcafc9b12fb02063500d3ba65f3999154f858126a2ccb0"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 405
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 327,
+      "hold": 21,
+      "slide": 8,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 402 differs from combo 405 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 615
+   },
+   "source": {
+    "notesQuantity": 615,
+    "maa": {
+     "path": "bestdori/11/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/11/expert.json",
+     "raw_sha256": "01a62adf7884534ab4469214208cfb39e131fc51194a71eef90b36376a1cc6c6"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 615
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 391,
+      "flick": 30,
+      "slide": 28,
+      "hold": 51
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 844
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1550404800000,
+    "maa": {
+     "path": "bestdori/11/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/11/special.json",
+     "raw_sha256": "f3a587f7bddf1a7853f8680a05ee369acd1e120c98458c46209c5c942c0d6edf"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 844
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 606,
+      "hold": 41,
+      "flick": 44,
+      "slide": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 11,
+   "bandId": 2,
+   "jacketImage": "butterfly",
+   "bgmId": "bgm011"
+  },
+  "maa": {
+   "bestdori_song_id": 11,
+   "jacket": {
+    "path": "bestdori/11/jacket-cn-1.png",
+    "server": "cn",
+    "name": "butterfly"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/11/jacket-cn-1.png",
+   "sha256": "336365fbd3e427b27889edddf536b30c73f42d4ee98457f5699618b4d7066910",
+   "width": 320,
+   "height": 320,
+   "bytes": 28743
+  }
+ },
+ "extra": {
+  "lyricist": "千綿偉功",
+  "composer": "千綿偉功",
+  "arranger": "母里治樹（Elements Garden）/加納望",
+  "tag": "anime",
+  "published_at": 1462071600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "butterfly",
+  "length_s": 116.544
+ }
+}

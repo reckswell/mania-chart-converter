@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "579",
+ "title": "Ray of hope",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "127",
+ "version": "",
+ "date_added": "2024-02-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 97
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 97
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 24,
+      "tap": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 165
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 165
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 35,
+      "tap": 95
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 395
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/579/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/579/hard.json",
+     "raw_sha256": "b7948971c3e6a8932b6365ac092b628cdbf56561f4bac7abdd758b8906537a18"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 395
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 230,
+      "flick": 20,
+      "hold": 54,
+      "slide": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 589
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/579/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/579/expert.json",
+     "raw_sha256": "f7fd976c7973ed4261959be329fd630c7b59ff99fd1a81aa3a11fdf40869387d"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 589
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 332,
+      "flick": 25,
+      "hold": 86,
+      "slide": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 579,
+   "bandId": 18,
+   "jacketImage": "579_ray_of_hope",
+   "bgmId": "bgm579"
+  },
+  "maa": {
+   "bestdori_song_id": 579,
+   "jacket": {
+    "path": "bestdori/579/jacket-cn-1.png",
+    "server": "cn",
+    "name": "579_ray_of_hope"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/579/jacket-cn-1.png",
+   "sha256": "232ed4f3477b4991b67153b644cce75044a6df4b4cd1b0256856055082c2ca34",
+   "width": 320,
+   "height": 320,
+   "bytes": 24986
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "堀川大翼（Elements Garden）",
+  "arranger": "堀川大翼（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1707544800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "rayofhope",
+  "length_s": 107.784
+ }
+}

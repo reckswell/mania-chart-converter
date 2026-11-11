@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "512",
+ "title": "壱雫空",
+ "artist": "MyGO!!!!!",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "MyGO!!!!!",
+ "bpm": "198-205",
+ "version": "",
+ "date_added": "2023-06-27",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 116
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 116
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 96,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 230
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 230
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 196,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 417
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/512/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/512/hard.json",
+     "raw_sha256": "4107c46943db42c7bb54cc3dd1c23ab09cb17b9637ac8f02291a94fb0624a9cd"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 417
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 11,
+      "tap": 285,
+      "hold": 31,
+      "slide": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 663
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/512/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/512/expert.json",
+     "raw_sha256": "88e512fa5826e0ba74f0161a0a2afa1b34c04a4d4e5ee9cfd8bc7257d79033d7"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 663
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 39,
+      "tap": 419,
+      "hold": 43,
+      "slide": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 890
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1735624800000,
+    "maa": {
+     "path": "bestdori/512/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/512/special.json",
+     "raw_sha256": "d564e61daa2290259964c14368e084e2c3419d31fecd6fe24041eca5d132f782"
+    },
+    "bestdori": {
+     "level": 29,
+     "notes": 890
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 625,
+      "slide": 51,
+      "flick": 81,
+      "hold": 21
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 512,
+   "bandId": 45,
+   "jacketImage": "512_hitoshizuku",
+   "bgmId": "bgm512"
+  },
+  "maa": {
+   "bestdori_song_id": 512,
+   "jacket": {
+    "path": "bestdori/512/jacket-cn-1.png",
+    "server": "cn",
+    "name": "512_hitoshizuku"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/512/jacket-cn-1.png",
+   "sha256": "92247b42e29b0133eebd5eebb8ed37be80dbc0268b72466fb176dece15f31e0f",
+   "width": 320,
+   "height": 320,
+   "bytes": 24488
+  }
+ },
+ "extra": {
+  "lyricist": "藤原優樹(SUPA LOVE)",
+  "composer": "hisakuni(SUPA LOVE)",
+  "arranger": "hisakuni(SUPA LOVE)",
+  "tag": "normal",
+  "published_at": 1687876200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ひとしずく",
+  "title_en": "Hitoshizuku",
+  "length_s": 92.424
+ }
+}

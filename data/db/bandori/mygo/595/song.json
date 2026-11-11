@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "595",
+ "title": "「僕は...」",
+ "artist": "MyGO!!!!!",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "MyGO!!!!!",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2024-04-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 77
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 77
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 55,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 183
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 183
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 102,
+      "hold": 33,
+      "slide": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 334
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/595/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/595/hard.json",
+     "raw_sha256": "b2176c648d0c06489424d8caa2b43ffbea3297b9337e94981945eb947053acaa"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 334
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 188,
+      "hold": 33,
+      "slide": 24,
+      "flick": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 483
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/595/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/595/expert.json",
+     "raw_sha256": "cf285e46e31c2dae1e25452285ec54d9cf3284c36a91f73590ebe238bf11fcae"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 483
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 270,
+      "flick": 27,
+      "hold": 30,
+      "slide": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 595,
+   "bandId": 45,
+   "jacketImage": "595_bokuha",
+   "bgmId": "bgm595"
+  },
+  "maa": {
+   "bestdori_song_id": 595,
+   "jacket": {
+    "path": "bestdori/595/jacket-cn-1.png",
+    "server": "cn",
+    "name": "595_bokuha"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/595/jacket-cn-1.png",
+   "sha256": "98d46c231e5eb70171e4c47a61c533ddb66daed561a123417f02792709f74c3b",
+   "width": 320,
+   "height": 320,
+   "bytes": 29821
+  }
+ },
+ "extra": {
+  "lyricist": "ひとみ",
+  "composer": "ひとみ",
+  "arranger": "植木建象/加藤貴之",
+  "tag": "anime",
+  "published_at": 1714370400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ぼくは",
+  "title_en": "I am...",
+  "length_s": 102.72
+ }
+}

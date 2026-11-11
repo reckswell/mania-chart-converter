@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "588",
+ "title": "青のすみか",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "152",
+ "version": "",
+ "date_added": "2024-03-17",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 116
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 116
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 72,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 189
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 189
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 32,
+      "tap": 125
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 383
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/588/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/588/hard.json",
+     "raw_sha256": "8a23e233317f8466ce7ef9e9995cb60ca4ec6b1a577bb65ed6434e282efe0c8d"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 383
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 6,
+      "tap": 250,
+      "flick": 9,
+      "hold": 56
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 514
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/588/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/588/expert.json",
+     "raw_sha256": "e45bf1b26d72897a6b09e40fff629ae8d369e3bec8672559ea058d4b831513d1"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 514
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 25,
+      "tap": 310,
+      "hold": 59,
+      "flick": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 588,
+   "bandId": 2,
+   "jacketImage": "588_ao_no_sumika",
+   "bgmId": "bgm588"
+  },
+  "maa": {
+   "bestdori_song_id": 588,
+   "jacket": {
+    "path": "bestdori/588/jacket-cn-1.png",
+    "server": "cn",
+    "name": "588_ao_no_sumika"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/588/jacket-cn-1.png",
+   "sha256": "046cc2c05b732d11d0cff7d5d6d2e45c7472b23cbcb933c71d2343c068dde56c",
+   "width": 320,
+   "height": 320,
+   "bytes": 20980
+  }
+ },
+ "extra": {
+  "lyricist": "キタニタツヤ",
+  "composer": "キタニタツヤ",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1710655200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "あおのすみか",
+  "title_en": "Where Our Blue Is",
+  "length_s": 94.8
+ }
+}

@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "184",
+ "title": "ON YOUR MARK",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "185",
+ "version": "",
+ "date_added": "2019-04-05",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 166
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 166
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 114,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 292
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 292
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 205,
+      "hold": 43,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 515
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/184/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/184/hard.json",
+     "raw_sha256": "c9818b1ccf5f19a5b4d9fa7c18fcf0f8ac9b2069b01c50f77755184b8c13c50f"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 515
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 299,
+      "flick": 33,
+      "slide": 27,
+      "hold": 56
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 760
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/184/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/184/expert.json",
+     "raw_sha256": "40f3c2054240df27342d101fb735e772dbed7c7bb514725783f5fd21cdb96569"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 760
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 543,
+      "flick": 39,
+      "slide": 32,
+      "hold": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 836
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1655553600000,
+    "maa": {
+     "path": "bestdori/184/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/184/special.json",
+     "raw_sha256": "18c94da8bc9c74ab41799cf640ddf5ecc6f4e9377c066518a92e7217b23d4280"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 836
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 90,
+      "tap": 403,
+      "flick": 85,
+      "hold": 43
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 184,
+   "bandId": 2,
+   "jacketImage": "184_onyourmark_1",
+   "bgmId": "bgm184"
+  },
+  "maa": {
+   "bestdori_song_id": 184,
+   "jacket": {
+    "path": "bestdori/184/jacket-cn-2.png",
+    "server": "cn",
+    "name": "184_onyourmark_1"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/184/jacket-cn-2.png",
+   "sha256": "86a9ba71f62e4510a86e844fa185d1612756d367cb58a20bdaaafe0afe2697f6",
+   "width": 320,
+   "height": 320,
+   "bytes": 40884
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "岩橋星実（Elements Garden）",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1554444000000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "onyourmark",
+  "length_s": 104.832
+ }
+}

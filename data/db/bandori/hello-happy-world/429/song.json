@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "429",
+ "title": "ヒャダインのじょーじょーゆーじょー",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "200",
+ "version": "",
+ "date_added": "2022-06-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 184
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 184
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 156,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 378
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 378
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 294,
+      "hold": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 688
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/429/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/429/hard.json",
+     "raw_sha256": "b902d61814ac80976803b2077adbaf3c9fbe1fe17619355de6a7f627e262ba1d"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 688
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 521,
+      "slide": 19,
+      "hold": 32,
+      "flick": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1167
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/429/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/429/expert.json",
+     "raw_sha256": "82b857883a886e6e856db498ff3cbff80417688ce7f83e49abeb6dfada2e3656"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 1167
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 46,
+      "slide": 74,
+      "tap": 765,
+      "hold": 79
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 429,
+   "bandId": 3,
+   "jacketImage": "429_jojo_yujo",
+   "bgmId": "bgm429"
+  },
+  "maa": {
+   "bestdori_song_id": 429,
+   "jacket": {
+    "path": "bestdori/429/jacket-cn-1.png",
+    "server": "cn",
+    "name": "429_jojo_yujo"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/429/jacket-cn-1.png",
+   "sha256": "1efe9fcb637e57faa1e219b9052d52d602efe5aea6a1c4181cf493ab2e8c733e",
+   "width": 320,
+   "height": 320,
+   "bytes": 29635
+  }
+ },
+ "extra": {
+  "lyricist": "前山田　健一",
+  "composer": "前山田　健一",
+  "arranger": "Elements Garden",
+  "tag": "anime",
+  "published_at": 1656568800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ひゃだいんのじょーじょーゆーじょー",
+  "title_en": "Hyadain no Jojo Yujo",
+  "length_s": 132.672
+ }
+}

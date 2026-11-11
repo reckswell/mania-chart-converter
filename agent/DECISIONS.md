@@ -24,7 +24,8 @@ Conversion and design decisions with the evidence behind them. Newest last. A ru
 - **Charts are stored gzipped** (`<slot>.chart.json.gz`, compact JSON, default fields left out, gzip mtime 0 so
   bytes are stable). A MASTER chart is ~100–350 KB as JSON but 5–20 KB gzipped; the full Chunithm set would be
   ~700 MB uncompressed.
-- **Jackets are committed**, re-encoded to JPEG ≤512 px unless already a small JPEG (Chunithm's are kept as is).
+- **Jackets are committed**, re-encoded to JPEG ≤320 px (q85) unless already a small JPEG (Chunithm's are kept as is).
+  512 px made SDVX alone 340 MB; 320 px is about 30 KB a jacket. `shrink-images` re-encodes stored images in place.
   Full-size originals stay reachable through the recorded URL. Chart pictures (1–2 MB each) are not committed; their
   URLs are recorded on the chart (`source.picture`).
 - **Removed songs are kept**, flagged `extra.removed: true`, in their original genre folder.

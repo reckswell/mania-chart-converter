@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "12",
+ "title": "走り始めたばかりのキミに",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "125",
+ "version": "",
+ "date_added": "2016-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 89
+   },
+   "source": {
+    "notesQuantity": 81,
+    "bestdori": {
+     "level": 7,
+     "notes": 89
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 77,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 81 differs from combo 89 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 205
+   },
+   "source": {
+    "notesQuantity": 201,
+    "bestdori": {
+     "level": 12,
+     "notes": 205
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 183,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 201 differs from combo 205 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 341
+   },
+   "source": {
+    "notesQuantity": 339,
+    "maa": {
+     "path": "bestdori/12/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/12/hard.json",
+     "raw_sha256": "8a7b21a5bc7c2b6b8fe3ec7cb4ac48be0a5a9f92cfcf946d7f719462a4f94855"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 341
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 279,
+      "hold": 16,
+      "slide": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 339 differs from combo 341 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 531
+   },
+   "source": {
+    "notesQuantity": 507,
+    "maa": {
+     "path": "bestdori/12/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/12/expert.json",
+     "raw_sha256": "fa8b4be6b0dbc8acdf5a64eae456d70a847dce9498994026a204912b028673a6"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 531
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 322,
+      "slide": 27,
+      "hold": 60,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 507 differs from combo 531 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 734
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1752127200000,
+    "maa": {
+     "path": "bestdori/12/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/12/special.json",
+     "raw_sha256": "e5d4cfdbee38b9b3f589040caadf9176cebdce8f70436d45e95f7460e0443ce1"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 734
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 61,
+      "tap": 506,
+      "flick": 78,
+      "hold": 10
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 12,
+   "bandId": 1,
+   "jacketImage": "hashikimi",
+   "bgmId": "bgm012"
+  },
+  "maa": {
+   "bestdori_song_id": 12,
+   "jacket": {
+    "path": "bestdori/12/jacket-cn-1.png",
+    "server": "cn",
+    "name": "hashikimi"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/12/jacket-cn-1.png",
+   "sha256": "fd754e624bb0e0a13c7a2df3b84b95a50147590ffd7cff4d53610cdea6cb5e43",
+   "width": 320,
+   "height": 320,
+   "bytes": 37725
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1462071600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "はしりはじめたばかりのきみに",
+  "title_en": "On Your New Journey",
+  "length_s": 118.152
+ }
+}

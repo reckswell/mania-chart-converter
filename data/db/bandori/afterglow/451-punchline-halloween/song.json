@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "451",
+ "title": "Punchline Halloween!!!",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2022-09-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 146
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 146
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 80,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 279
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 279
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 155,
+      "hold": 46,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 473
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/451/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/451/hard.json",
+     "raw_sha256": "2dd76d6adf13f339382b6005ff84327dae1a030b9bf62497aba421b23ecbadc2"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 473
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 254,
+      "hold": 36,
+      "flick": 13,
+      "slide": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 800
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/451/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/451/expert.json",
+     "raw_sha256": "09d879c1ad82359f9c349bf48768640bb85ef632fde496a5f7a73d882edd42ca"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 800
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 447,
+      "hold": 42,
+      "flick": 42,
+      "slide": 71
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 451,
+   "bandId": 2,
+   "jacketImage": "451_punchline_halloween",
+   "bgmId": "bgm451"
+  },
+  "maa": {
+   "bestdori_song_id": 451,
+   "jacket": {
+    "path": "bestdori/451/jacket-cn-1.png",
+    "server": "cn",
+    "name": "451_punchline_halloween"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/451/jacket-cn-1.png",
+   "sha256": "6cd835ddc5e219d9826dd4adbe9f953c14a43fa7a4973e6d7ce8f979b20ca04e",
+   "width": 320,
+   "height": 320,
+   "bytes": 36401
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "岩橋星実（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1664431200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "punchlinehalloween",
+  "length_s": 105.384
+ }
+}

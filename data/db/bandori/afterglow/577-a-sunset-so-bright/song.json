@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "577",
+ "title": "A Sunset So Bright",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2024-01-22",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 178
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 178
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 64,
+      "hold": 57
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 283
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 283
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 167,
+      "hold": 58
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 529
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/577/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/577/hard.json",
+     "raw_sha256": "52a08742ce08eb51fbb7baa6b22f428a5a60db9a6e2a7ef92c56c15b720f0925"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 529
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 275,
+      "hold": 63,
+      "flick": 35,
+      "slide": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 794
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/577/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/577/expert.json",
+     "raw_sha256": "807f9edd8b31e3de5be0d4e2d9cb09d9e1ea5ef3879e8e3ecac4cf62c5d41bdd"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 794
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 344,
+      "hold": 71,
+      "flick": 61,
+      "slide": 78
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 577,
+   "bandId": 2,
+   "jacketImage": "577_a_sunset_so_bright",
+   "bgmId": "bgm577"
+  },
+  "maa": {
+   "bestdori_song_id": 577,
+   "jacket": {
+    "path": "bestdori/577/jacket-cn-1.png",
+    "server": "cn",
+    "name": "577_a_sunset_so_bright"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/577/jacket-cn-1.png",
+   "sha256": "7d0fa36c7324ae613ab7c1d6377a4c012370cd79e50639634e0f5f54c25645a5",
+   "width": 320,
+   "height": 320,
+   "bytes": 27848
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "堀川大翼（Elements Garden）",
+  "arranger": "堀川大翼（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1705903200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "asunsetsobright",
+  "length_s": 106.8
+ }
+}

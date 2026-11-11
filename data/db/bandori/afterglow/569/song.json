@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "569",
+ "title": "カオスが極まる",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "195",
+ "version": "",
+ "date_added": "2023-12-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 158
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 158
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 134,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 352
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 16,
+     "notes": 352
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 262,
+      "hold": 33,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 568
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/569/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/569/hard.json",
+     "raw_sha256": "a9e20641c0f6468af179d3431e38c79a3b8867f1cd1636155751339b456fa1f6"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 568
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 406,
+      "hold": 24,
+      "slide": 33,
+      "flick": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 868
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/569/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/569/expert.json",
+     "raw_sha256": "e5f8449219c2f17c1e18560a9bac497ad322869b8bf56a2c82da3ea3d8ca0153"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 868
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 601,
+      "flick": 42,
+      "hold": 42,
+      "slide": 56
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 569,
+   "bandId": 2,
+   "jacketImage": "569_chaos_kiwamaru",
+   "bgmId": "bgm569"
+  },
+  "maa": {
+   "bestdori_song_id": 569,
+   "jacket": {
+    "path": "bestdori/569/jacket-cn-1.png",
+    "server": "cn",
+    "name": "569_chaos_kiwamaru"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/569/jacket-cn-1.png",
+   "sha256": "db7b41df83b1cbd03ae8a651833825e9f9e2f8f7851658cacb8f62ef9e5dcec1",
+   "width": 320,
+   "height": 320,
+   "bytes": 22255
+  }
+ },
+ "extra": {
+  "lyricist": "田淵 智也",
+  "composer": "田淵 智也",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1703916000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "かおすがきわまる",
+  "title_en": "Chaos ga Kiwamaru",
+  "length_s": 101.592
+ }
+}

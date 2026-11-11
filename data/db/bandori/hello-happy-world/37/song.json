@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "37",
+ "title": "ゴーカ！ごーかい！？ファントムシーフ！",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "215",
+ "version": "",
+ "date_added": "2017-04-13",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 107
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 107
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 103,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 207
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 207
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 15,
+      "tap": 177
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 448
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/37/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/37/hard.json",
+     "raw_sha256": "5e645301c82403aa71ecdf77bdb117221b399e5ded554c7a10d4250ff916137a"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 448
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 53,
+      "tap": 286,
+      "flick": 32,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 698
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/37/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/37/expert.json",
+     "raw_sha256": "6f82c2d0b40904c78c055fe0c752a80f82ac94664cdbf17f09fbcdea1f05c157"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 698
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 80,
+      "tap": 318,
+      "slide": 29,
+      "flick": 76
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 581
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1538136000000,
+    "maa": {
+     "path": "bestdori/37/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/37/special.json",
+     "raw_sha256": "642d25cd14786f5d9aa1f0c259d51daf1d8ee068acef45959e1f0e507f10d52c"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 581
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 322,
+      "hold": 56,
+      "slide": 31,
+      "flick": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 37,
+   "bandId": 3,
+   "jacketImage": "phantom_thief",
+   "bgmId": "bgm037"
+  },
+  "maa": {
+   "bestdori_song_id": 37,
+   "jacket": {
+    "path": "bestdori/37/jacket-cn-1.png",
+    "server": "cn",
+    "name": "phantom_thief"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/37/jacket-cn-1.png",
+   "sha256": "625a119b20321c9ae1b100038e95f204481903c9cf04632f825a03d745233a1d",
+   "width": 320,
+   "height": 320,
+   "bytes": 33014
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤間仁（Elements Garden）",
+  "arranger": "藤間仁（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1492063200000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "ごーかごーかいふぁんとむしーふ",
+  "title_en": "Goka! Gokai!? Phantom Thief!",
+  "length_s": 101.904
+ }
+}

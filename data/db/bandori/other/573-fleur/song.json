@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "573",
+ "title": "Fleur",
+ "artist": "Morfonica×雪花ラミィ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica×雪花ラミィ",
+ "bpm": "75-178",
+ "version": "",
+ "date_added": "2024-01-13",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 133
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 133
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 42,
+      "tap": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 215
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 215
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 79,
+      "hold": 68
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 414
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/573/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/573/hard.json",
+     "raw_sha256": "2b890fec6b9da5cbc599ac8dae44609415de4a2bad3c00d4d43c2c99b9e9c322"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 414
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 221,
+      "hold": 75,
+      "slide": 14,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 644
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/573/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/573/expert.json",
+     "raw_sha256": "5346ca9c67a861a6d3eb933920b314f5527ed16ff6b5b4add208209e76ba19d3"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 644
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 373,
+      "hold": 56,
+      "slide": 42,
+      "flick": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 573,
+   "bandId": 73,
+   "jacketImage": "573_fleur",
+   "bgmId": "bgm573"
+  },
+  "maa": {
+   "bestdori_song_id": 573,
+   "jacket": {
+    "path": "bestdori/573/jacket-cn-1.png",
+    "server": "cn",
+    "name": "573_fleur"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/573/jacket-cn-1.png",
+   "sha256": "cccc214f14ed30f52b09164b33c24f4c37d55316678a338772859fe862bde943",
+   "width": 320,
+   "height": 320,
+   "bytes": 35062
+  }
+ },
+ "extra": {
+  "lyricist": "Neko Hacker",
+  "composer": "山田 高弘",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "tie_up",
+  "published_at": 1705125600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "fleur",
+  "length_s": 125.112
+ }
+}

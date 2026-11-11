@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "18",
+ "title": "secret base ～君がくれたもの～",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "144",
+ "version": "",
+ "date_added": "2016-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 71
+   },
+   "source": {
+    "notesQuantity": 70,
+    "bestdori": {
+     "level": 5,
+     "notes": 71
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 69,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 70 differs from combo 71 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 195
+   },
+   "source": {
+    "notesQuantity": 195,
+    "bestdori": {
+     "level": 12,
+     "notes": 195
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 179,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 424
+   },
+   "source": {
+    "notesQuantity": 434,
+    "maa": {
+     "path": "bestdori/18/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/18/hard.json",
+     "raw_sha256": "4d3c776cc373e81c7b234c817c03960c7e017eb6b9b3e36a426afe65cd3c51f5"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 424
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 74,
+      "tap": 235,
+      "flick": 2,
+      "slide": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 434 differs from combo 424 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 560
+   },
+   "source": {
+    "notesQuantity": 556,
+    "maa": {
+     "path": "bestdori/18/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/18/expert.json",
+     "raw_sha256": "d68ea3810f7648b6efb647e8558e65a49a7480c4d46057376392aab9bf70e911"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 560
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 304,
+      "hold": 94,
+      "slide": 18,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 556 differs from combo 560 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 18,
+   "bandId": 4,
+   "jacketImage": "secretbase",
+   "bgmId": "bgm018"
+  },
+  "maa": {
+   "bestdori_song_id": 18,
+   "jacket": {
+    "path": "bestdori/18/jacket-cn-1.png",
+    "server": "cn",
+    "name": "secretbase"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/18/jacket-cn-1.png",
+   "sha256": "f3cdfc1759f5a637d336d0ed161260537e17d1aa447c6bb52d46924e4c25b7ef",
+   "width": 320,
+   "height": 320,
+   "bytes": 17095
+  }
+ },
+ "extra": {
+  "lyricist": "町田紀彦",
+  "composer": "町田紀彦",
+  "arranger": "都丸椋太（Elements Garden）／宮崎京一",
+  "tag": "anime",
+  "published_at": 1462071600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "secretbaseきみがくれたもの",
+  "title_en": "Secret Base",
+  "length_s": 143.376
+ }
+}

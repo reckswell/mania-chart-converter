@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "188",
+ "title": "緋色の空",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "169",
+ "version": "",
+ "date_added": "2019-04-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 173
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 173
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 123,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 332
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 332
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 236,
+      "hold": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 483
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/188/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/188/hard.json",
+     "raw_sha256": "def3e8f2e77bcd4ded74a7371b93059034ef2ce377774bc81a3d30881f948098"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 483
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 54,
+      "tap": 345,
+      "flick": 16,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 701
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/188/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/188/expert.json",
+     "raw_sha256": "6b08f2b037f498ccabe23eda3aec720fa39608833436273f0ca50a819eb33a29"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 701
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 45,
+      "tap": 526,
+      "slide": 24,
+      "flick": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 188,
+   "bandId": 5,
+   "jacketImage": "188_hishokunosora",
+   "bgmId": "bgm188"
+  },
+  "maa": {
+   "bestdori_song_id": 188,
+   "jacket": {
+    "path": "bestdori/188/jacket-cn-1.png",
+    "server": "cn",
+    "name": "188_hishokunosora"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/188/jacket-cn-1.png",
+   "sha256": "9abadb12facfdfa0fdcb249e6a57f26f7098ed62f793595b17e2f0107eeeda9c",
+   "width": 320,
+   "height": 320,
+   "bytes": 18047
+  }
+ },
+ "extra": {
+  "lyricist": "川田まみ",
+  "composer": "中沢伴行",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1555740000000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "ひしょくのそら",
+  "title_en": "Hishoku no Sora",
+  "length_s": 109.416
+ }
+}

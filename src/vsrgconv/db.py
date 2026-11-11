@@ -124,8 +124,13 @@ class SongRecord:
         return self
 
 
+IMAGE_MAX_SIZE = 320    # long side of committed images; the source URL keeps the full-size original
+IMAGE_QUALITY = 85
+
+
 def _shrink_image(data: bytes, max_size: int) -> tuple[bytes, int, int]:
-    """JPEG at most `max_size` px on the long side. A JPEG that already fits is kept byte for byte."""
+    """JPEG at most `max_size` px on the long side. A JPEG that already fits is kept byte for byte; transparent
+    pixels become black."""
     from io import BytesIO
 
     from PIL import Image  # optional dependency: pip install vsrgconv[images]
@@ -133,10 +138,15 @@ def _shrink_image(data: bytes, max_size: int) -> tuple[bytes, int, int]:
     with Image.open(BytesIO(data)) as im:
         if im.format == "JPEG" and max(im.size) <= max_size:
             return data, im.width, im.height
-        im = im.convert("RGB")
+        if im.mode in ("P", "PA", "LA", "RGBA") or "transparency" in im.info:
+            rgba = im.convert("RGBA")
+            im = Image.new("RGB", rgba.size, (0, 0, 0))
+            im.paste(rgba, mask=rgba.getchannel("A"))
+        else:
+            im = im.convert("RGB")
         im.thumbnail((max_size, max_size))
         out = BytesIO()
-        im.save(out, "JPEG", quality=88, optimize=True)
+        im.save(out, "JPEG", quality=IMAGE_QUALITY, optimize=True)
         return out.getvalue(), im.width, im.height
 
 
@@ -257,7 +267,8 @@ class ChartDB:
 
     # ---- assets (images) ----
     def save_asset(self, game: str, song_id: str, name: str, data: bytes, *, ext: str = "", url: str = "",
-                   kind: str = "jacket", slot: str | None = None, max_size: int | None = 512) -> AssetRecord:
+                   kind: str = "jacket", slot: str | None = None,
+                   max_size: int | None = IMAGE_MAX_SIZE) -> AssetRecord:
         """Store an image in the song's assets/ folder and record it in song.json (on the chart if `slot`).
 
         Images are re-encoded to JPEG at most `max_size` px on the long side (None keeps the original bytes), so a
@@ -288,6 +299,39 @@ class ChartDB:
     def asset_path(self, rec: SongRecord, name: str) -> Path | None:
         a = rec.assets.get(name)
         return self.song_dir(rec) / a.file if a else None
+
+    def shrink_assets(self, game: str, max_size: int = IMAGE_MAX_SIZE) -> dict[str, int]:
+        """Re-encode stored images larger than `max_size` (e.g. after lowering the size limit), in place."""
+        import hashlib
+
+        stats = {"shrunk": 0, "kept": 0, "bytes_before": 0, "bytes_after": 0}
+        for rec in self.iter_songs(game):
+            folder = self.song_dir(rec)
+            changed = False
+            for asset in [*rec.assets.values(), *(a for c in rec.charts.values() for a in c.assets.values())]:
+                p = folder / asset.file
+                if not p.exists() or p.suffix.lower() not in (".jpg", ".jpeg", ".png", ".webp"):
+                    continue
+                data = p.read_bytes()
+                stats["bytes_before"] += len(data)
+                if (asset.width or 0) <= max_size and (asset.height or 0) <= max_size and asset.width:
+                    stats["kept"] += 1
+                    stats["bytes_after"] += len(data)
+                    continue
+                out, w, h = _shrink_image(data, max_size)
+                if p.suffix.lower() != ".jpg":
+                    p.unlink()
+                    p = p.with_suffix(".jpg")
+                    asset.file = p.relative_to(folder).as_posix()
+                p.write_bytes(out)
+                asset.sha256, asset.width, asset.height, asset.bytes = hashlib.sha256(out).hexdigest(), w, h, len(out)
+                stats["shrunk"] += 1
+                stats["bytes_after"] += len(out)
+                changed = True
+            if changed:
+                (folder / "song.json").write_text(json.dumps(rec.to_dict(), ensure_ascii=False, indent=1) + "\n",
+                                                  "utf-8")
+        return stats
 
     # ---- query index ----
     def build_sqlite(self, path: str | Path) -> Path:

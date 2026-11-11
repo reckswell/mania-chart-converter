@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "620",
+ "title": "Surges",
+ "artist": "Roselia×蘭",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia×蘭",
+ "bpm": "137",
+ "version": "",
+ "date_added": "2024-08-08",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 144
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 144
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 104,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 213
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 213
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 135,
+      "hold": 35,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 654
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/620/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/620/hard.json",
+     "raw_sha256": "b0d7aff67ea0a146cf0ca1013317343a6820dc1e39530ca69cabdd0f202aed83"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 654
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 400,
+      "slide": 61,
+      "hold": 29,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 911
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/620/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/620/expert.json",
+     "raw_sha256": "1dac5c4363a19002fe639cb7a827c1f46c43cb9dbf69f3c917a2915f2bd3b243"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 911
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 602,
+      "slide": 80,
+      "hold": 20,
+      "flick": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 620,
+   "bandId": 19,
+   "jacketImage": "620_surges",
+   "bgmId": "bgm620"
+  },
+  "maa": {
+   "bestdori_song_id": 620,
+   "jacket": {
+    "path": "bestdori/620/jacket-cn-1.png",
+    "server": "cn",
+    "name": "620_surges"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/620/jacket-cn-1.png",
+   "sha256": "3f9697c8554d60013bbbe2b28f85962aba3c6824dee2ead8125bfb7174b37972",
+   "width": 320,
+   "height": 320,
+   "bytes": 37440
+  }
+ },
+ "extra": {
+  "lyricist": "Orangestar",
+  "composer": "Orangestar",
+  "arranger": "堀川大翼（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1723118400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "surges",
+  "length_s": 124.44
+ }
+}

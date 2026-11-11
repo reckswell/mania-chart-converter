@@ -1,0 +1,207 @@
+{
+ "game": "bandori",
+ "song_id": "85",
+ "title": "ハッピーシンセサイザ",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "127",
+ "version": "",
+ "date_added": "2017-12-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 169
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 169
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 129,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 339
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 339
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 281,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 611
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/85/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/85/hard.json",
+     "raw_sha256": "6eecbf293153b5ab25b7f4302d2309a68d9f627230dea7117baf6d554b31c87c"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 611
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 569,
+      "hold": 19,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 933
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/85/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/85/expert.json",
+     "raw_sha256": "5ca279acea2b8416ca7ee85bc61f74eb35ee6651315e62e2755a0f6c86c05fe0"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 933
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 900,
+      "flick": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 917
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1547899200000,
+    "maa": {
+     "path": "bestdori/85/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/85/special.json",
+     "raw_sha256": "66f8ca79d8a3dcffeb6f27a23c868b165e193971fafdc288e53f1db6d398dd96"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 917
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 663,
+      "slide": 36,
+      "hold": 65,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 85,
+   "bandId": 4,
+   "jacketImage": "085_happy_synthe",
+   "bgmId": "bgm085"
+  },
+  "maa": {
+   "bestdori_song_id": 85,
+   "jacket": {
+    "path": "bestdori/85/jacket-cn-1.png",
+    "server": "cn",
+    "name": "085_happy_synthe"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/85/jacket-cn-1.png",
+   "sha256": "fde95afd3501daf2845869844f8dbc373c59df9aca7b092c77d886479b3c88f0",
+   "width": 320,
+   "height": 320,
+   "bytes": 29375
+  }
+ },
+ "extra": {
+  "lyricist": "BETTI",
+  "composer": "BETTI",
+  "arranger": "末益涼太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1514613600000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "はっぴーしんせさいざ",
+  "title_en": "Happy Synthesizer",
+  "length_s": 141.792
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "458",
+ "title": "ミックスナッツ",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "150",
+ "version": "",
+ "date_added": "2022-11-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 160
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 160
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 116,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 279
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 279
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 167,
+      "hold": 56
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 603
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/458/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/458/hard.json",
+     "raw_sha256": "924b25ff1a4c740cc487fd84cec75d999fdb374d2ea24651d0f87f4d7a74d301"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 603
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 287,
+      "slide": 79,
+      "flick": 36,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 983
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/458/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/458/expert.json",
+     "raw_sha256": "4a750c90b91dbfa984dec2be1c9cc9fdf4513e4bac9a68dcaffdc1064456e52c"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 983
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 560,
+      "slide": 88,
+      "flick": 69,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 458,
+   "bandId": 3,
+   "jacketImage": "458_mix_nuts",
+   "bgmId": "bgm458"
+  },
+  "maa": {
+   "bestdori_song_id": 458,
+   "jacket": {
+    "path": "bestdori/458/jacket-cn-1.png",
+    "server": "cn",
+    "name": "458_mix_nuts"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/458/jacket-cn-1.png",
+   "sha256": "c9cd50892669d1413b358e8ed38695a173ea17cc63b18eaa9dc9798816ef7376",
+   "width": 320,
+   "height": 320,
+   "bytes": 40507
+  }
+ },
+ "extra": {
+  "lyricist": "藤原　聡",
+  "composer": "藤原　聡",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1669788000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "みっくすなっつ",
+  "title_en": "Mixed Nuts",
+  "length_s": 128.064
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "526",
+ "title": "燦々",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "196",
+ "version": "",
+ "date_added": "2023-08-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 255
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 255
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 37,
+      "tap": 181
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 465
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 16,
+     "notes": 465
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 64,
+      "tap": 337
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 695
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/526/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/526/hard.json",
+     "raw_sha256": "17c5339c32b56b8e39bb94f2b6247ba96290b1a3140813f399d36f817c3f9fa8"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 695
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 55,
+      "tap": 471,
+      "flick": 23,
+      "slide": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1091
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/526/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/526/expert.json",
+     "raw_sha256": "b97ce6adfd03be720f66fc16ede55cde9ecd3d093b136a32867d8f2d4a3669db"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 1091
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 103,
+      "tap": 657,
+      "flick": 59,
+      "hold": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 526,
+   "bandId": 2,
+   "jacketImage": "526_sansan",
+   "bgmId": "bgm526"
+  },
+  "maa": {
+   "bestdori_song_id": 526,
+   "jacket": {
+    "path": "bestdori/526/jacket-cn-1.png",
+    "server": "cn",
+    "name": "526_sansan"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/526/jacket-cn-1.png",
+   "sha256": "e9ef578aa6df3c7e1d3bbc0c7da4b6ca787b2f9df768a9aad4cbf07bdcf44c3b",
+   "width": 320,
+   "height": 320,
+   "bytes": 30108
+  }
+ },
+ "extra": {
+  "lyricist": "じん",
+  "composer": "じん",
+  "arranger": "廣澤優也(HANO)",
+  "tag": "normal",
+  "published_at": 1693461600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "さんさん",
+  "title_en": "Sansan",
+  "length_s": 125.568
+ }
+}

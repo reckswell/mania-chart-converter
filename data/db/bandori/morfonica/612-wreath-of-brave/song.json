@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "612",
+ "title": "Wreath of Brave",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "135",
+ "version": "",
+ "date_added": "2024-05-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 120
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 120
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 86,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 263
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 263
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 159,
+      "hold": 52
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 512
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/612/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/612/hard.json",
+     "raw_sha256": "3774c04e262bec4cde8131d304fea5ad87faa7acee48dadc9059bd26f88b376e"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 512
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 275,
+      "hold": 60,
+      "slide": 40,
+      "flick": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 750
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/612/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/612/expert.json",
+     "raw_sha256": "a231e22a5c0f17e6c128f06bbfa9d93ae71f8fdaaf0b712649bbdb7a3c7d77fa"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 750
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 399,
+      "hold": 47,
+      "slide": 84,
+      "flick": 51
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 612,
+   "bandId": 21,
+   "jacketImage": "612_wreath_of_brave",
+   "bgmId": "bgm612"
+  },
+  "maa": {
+   "bestdori_song_id": 612,
+   "jacket": {
+    "path": "bestdori/612/jacket-cn-1.png",
+    "server": "cn",
+    "name": "612_wreath_of_brave"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/612/jacket-cn-1.png",
+   "sha256": "cdd095bd481c4fa64d50a3b404b21f53e044b076e14798c29ec27873373786d5",
+   "width": 320,
+   "height": 320,
+   "bytes": 26819
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "日高勇輝（Elements Garden）",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1716271200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "wreathofbrave",
+  "length_s": 110.28
+ }
+}

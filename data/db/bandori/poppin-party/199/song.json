@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "199",
+ "title": "ディスカバリー！",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "172",
+ "version": "",
+ "date_added": "2019-06-07",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 132
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 132
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 60,
+      "hold": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 265
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 265
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 52,
+      "tap": 161
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 464
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/199/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/199/hard.json",
+     "raw_sha256": "9ac092e2880408dab467e9fc2ace92fc77903cf84a8f619569b12e454fad6230"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 464
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 286,
+      "hold": 67,
+      "flick": 28,
+      "slide": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 729
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/199/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/199/expert.json",
+     "raw_sha256": "bced4f8e7f8ed0f577a0e21d3ad7e7113189bccd14c3be532f4bed5f4a39da82"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 729
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 534,
+      "hold": 53,
+      "flick": 27,
+      "slide": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 199,
+   "bandId": 1,
+   "jacketImage": "199_discovery",
+   "bgmId": "bgm199"
+  },
+  "maa": {
+   "bestdori_song_id": 199,
+   "jacket": {
+    "path": "bestdori/199/jacket-cn-1.png",
+    "server": "cn",
+    "name": "199_discovery"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/199/jacket-cn-1.png",
+   "sha256": "db28a4fd9979511ec542caf2c5ecc3c5e95da9ea3a22b8a81321b85c1b97f729",
+   "width": 320,
+   "height": 320,
+   "bytes": 23849
+  }
+ },
+ "extra": {
+  "lyricist": "中村彼方",
+  "composer": "本多友紀(Arte Refact)",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1559876400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "でぃすかばりー",
+  "title_en": "Discovery!",
+  "length_s": 111
+ }
+}

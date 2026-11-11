@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "611",
+ "title": "Glowing After",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "198",
+ "version": "",
+ "date_added": "2024-05-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 105
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 105
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 71,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 224
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 224
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 128,
+      "hold": 46,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 456
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/611/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/611/hard.json",
+     "raw_sha256": "9e3ee7cd068ca61fc4284c67130e90c1afd06f714c9630d859f5506d682652ac"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 456
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 298,
+      "hold": 20,
+      "slide": 43,
+      "flick": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 700
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/611/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/611/expert.json",
+     "raw_sha256": "b14ebc14cb0e4065e6a203d808f5305f5d2fdecb5ecc7f04e381a629b0e1643b"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 700
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 440,
+      "hold": 33,
+      "slide": 55,
+      "flick": 54
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 611,
+   "bandId": 2,
+   "jacketImage": "611_glowing_after",
+   "bgmId": "bgm611"
+  },
+  "maa": {
+   "bestdori_song_id": 611,
+   "jacket": {
+    "path": "bestdori/611/jacket-cn-1.png",
+    "server": "cn",
+    "name": "611_glowing_after"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/611/jacket-cn-1.png",
+   "sha256": "cec3628bf2fbc02845ab08dd0e51ba8766a858f183a730b39e3793944cc1d099",
+   "width": 320,
+   "height": 320,
+   "bytes": 23668
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "近藤世真（Elements Garden）",
+  "arranger": "近藤世真（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1715320800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "glowingafter",
+  "length_s": 117.624
+ }
+}

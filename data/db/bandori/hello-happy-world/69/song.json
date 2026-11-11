@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "69",
+ "title": "せかいのっびのびトレジャー！",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "85-200",
+ "version": "",
+ "date_added": "2017-09-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 163
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 163
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 91,
+      "hold": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 293
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 293
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 155,
+      "hold": 66,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 553
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/69/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/69/hard.json",
+     "raw_sha256": "11b118bf569c53d8c210d9b1f6fef954b95a346ea9b18bfc490301a14bc37db7"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 553
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 44,
+      "hold": 64,
+      "tap": 207,
+      "flick": 59
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 796
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/69/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/69/expert.json",
+     "raw_sha256": "34ad432fc3563ee05056d14727ebe593f81e1e9d59cb906be0e3a9224fe22af0"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 796
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 366,
+      "slide": 82,
+      "flick": 55,
+      "hold": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 640
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1580299200000,
+    "maa": {
+     "path": "bestdori/69/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/69/special.json",
+     "raw_sha256": "c4754e6f32b7a1dba7925dcff887a6c33072834adf178dd29b4b94a472b0427c"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 640
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 67,
+      "slide": 61,
+      "tap": 269,
+      "flick": 61
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 69,
+   "bandId": 3,
+   "jacketImage": "069_sekanobi",
+   "bgmId": "bgm069"
+  },
+  "maa": {
+   "bestdori_song_id": 69,
+   "jacket": {
+    "path": "bestdori/69/jacket-cn-1.png",
+    "server": "cn",
+    "name": "069_sekanobi"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/69/jacket-cn-1.png",
+   "sha256": "7cfb5f1845ad969a25698d4a2c88455a56baf5d806cd8aef8a4eff36280e65cf",
+   "width": 320,
+   "height": 320,
+   "bytes": 36675
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "末益涼太（Elements Garden）",
+  "arranger": "末益涼太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1505822400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "せかいのっびのびとれじゃー",
+  "title_en": "Worldwide Treasure!",
+  "length_s": 107.424
+ }
+}

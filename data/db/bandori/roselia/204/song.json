@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "204",
+ "title": "海色",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "195",
+ "version": "",
+ "date_added": "2019-07-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 147
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 147
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 99,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 290
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 290
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 192,
+      "hold": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 404
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/204/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/204/hard.json",
+     "raw_sha256": "9fc80e03f106ea495cfe1b4ebfcd18989a43d3eda1f64aee87f5145b3c29e7d0"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 404
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 222,
+      "hold": 41,
+      "flick": 32,
+      "slide": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 709
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/204/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/204/expert.json",
+     "raw_sha256": "2944c1ac00b3cb67314fe43f009eee6cad824c426d2b68d40e368d1a24e7ee05"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 709
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 34,
+      "tap": 530,
+      "hold": 26,
+      "flick": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 204,
+   "bandId": 5,
+   "jacketImage": "204_miiro",
+   "bgmId": "bgm204"
+  },
+  "maa": {
+   "bestdori_song_id": 204,
+   "jacket": {
+    "path": "bestdori/204/jacket-cn-1.png",
+    "server": "cn",
+    "name": "204_miiro"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/204/jacket-cn-1.png",
+   "sha256": "b2dfaf86a1b0d65d063c93f16eb0142ac644d8225ac31c461cdd2c5efb4eb61c",
+   "width": 320,
+   "height": 320,
+   "bytes": 18515
+  }
+ },
+ "extra": {
+  "lyricist": "minatoku",
+  "composer": "WEST GROUND",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1563537600000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "みいろ",
+  "title_en": "Miiro",
+  "length_s": 94.224
+ }
+}

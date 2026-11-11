@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "169",
+ "title": "ぎゅっDAYS♪",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2019-01-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 214
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 214
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 144,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 326
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 326
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 226,
+      "hold": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 515
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/169/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/169/hard.json",
+     "raw_sha256": "1da2d750704307f03d1da9a080dac7909f2ae2121a5d35c543e0c8aaae14dd75"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 515
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 282,
+      "hold": 40,
+      "slide": 45,
+      "flick": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 761
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/169/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/169/expert.json",
+     "raw_sha256": "68413b1e86bf2a1ec7a6eca1fdf9855d63091c7efd4f0860ed4f802832bfe78f"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 761
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 499,
+      "hold": 38,
+      "slide": 48,
+      "flick": 54
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 169,
+   "bandId": 4,
+   "jacketImage": "169_gyu_days",
+   "bgmId": "bgm169"
+  },
+  "maa": {
+   "bestdori_song_id": 169,
+   "jacket": {
+    "path": "bestdori/169/jacket-cn-1.png",
+    "server": "cn",
+    "name": "169_gyu_days"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/169/jacket-cn-1.png",
+   "sha256": "f9d74fbfd76934030da00f037d2f516d6eca38f293ca30d5f435510ead45425b",
+   "width": 320,
+   "height": 320,
+   "bytes": 22925
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "竹田祐介（Elements Garden）",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1547899200000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "ぎゅっdays",
+  "title_en": "DAYS of Embrace♪",
+  "length_s": 108.072
+ }
+}

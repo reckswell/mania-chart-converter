@@ -1,0 +1,160 @@
+{
+ "game": "bandori",
+ "song_id": "739",
+ "title": "BIBIBABI BRAVER",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "125",
+ "version": "",
+ "date_added": "2025-09-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 129
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 129
+    }
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 202
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 202
+    }
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 551
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/739/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/739/hard.json",
+     "raw_sha256": "b62a633f51ca8bb7b69519c8de2005ad5bd7af3afe10af2564b2eae56ef37c70"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 551
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 48,
+      "tap": 263,
+      "slide": 37,
+      "flick": 77
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 862
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/739/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/739/expert.json",
+     "raw_sha256": "66a18066ea4c58c2a591cb94405a3224575a22d695ace66c3ec323f799453777"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 862
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 437,
+      "hold": 53,
+      "slide": 97,
+      "flick": 88
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 739,
+   "bandId": 18,
+   "jacketImage": "739_bibibabi",
+   "bgmId": "bgm739"
+  },
+  "maa": {
+   "bestdori_song_id": 739,
+   "jacket": {
+    "path": "bestdori/739/jacket-cn-1.png",
+    "server": "cn",
+    "name": "739_bibibabi"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/739/jacket-cn-1.png",
+   "sha256": "9e730cdd6998f45620e70ff0b631b2a605bda341b41df6926139183ada48c83f",
+   "width": 320,
+   "height": 320,
+   "bytes": 27422
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1759125600000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "bibibabibraver",
+  "length_s": 126.768
+ }
+}

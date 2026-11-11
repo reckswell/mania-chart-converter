@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "253",
+ "title": "ロキ",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "150",
+ "version": "",
+ "date_added": "2020-03-15",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 156
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 156
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 118,
+      "hold": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 281
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 281
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 167,
+      "hold": 57
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 491
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/253/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/253/hard.json",
+     "raw_sha256": "2e768fb7d1ce297d51719230ad702dccb7f6e2f1aaf6cf8b91f5d6a4ac19c05f"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 491
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 260,
+      "hold": 100,
+      "flick": 18,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 821
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/253/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/253/expert.json",
+     "raw_sha256": "71e1b8ead4a2380b86c76aac107d12316744bf63d641c00cf807adb38033e426"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 821
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 422,
+      "hold": 95,
+      "slide": 86,
+      "flick": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 834
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1615795200000,
+    "maa": {
+     "path": "bestdori/253/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/253/special.json",
+     "raw_sha256": "6621d9569163a7722125ad49c86a231b16c5297d091b729e40c37a93e8a91f81"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 834
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 435,
+      "flick": 69,
+      "slide": 70,
+      "hold": 51
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 253,
+   "bandId": 2,
+   "jacketImage": "253_loki",
+   "bgmId": "bgm253"
+  },
+  "maa": {
+   "bestdori_song_id": 253,
+   "jacket": {
+    "path": "bestdori/253/jacket-cn-1.png",
+    "server": "cn",
+    "name": "253_loki"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/253/jacket-cn-1.png",
+   "sha256": "fe218d2fa8ea184d0b5798b6d7ae220f330fd43ac638ab55e1fd958952053de3",
+   "width": 320,
+   "height": 320,
+   "bytes": 23222
+  }
+ },
+ "extra": {
+  "lyricist": "みきとP",
+  "composer": "みきとP",
+  "arranger": "都丸椋太 （Elements Garden） /川渕龍成",
+  "tag": "anime",
+  "published_at": 1584259200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ろき",
+  "title_en": "Roki",
+  "length_s": 108.864
+ }
+}

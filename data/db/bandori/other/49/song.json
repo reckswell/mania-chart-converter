@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "49",
+ "title": "天体観測",
+ "artist": "Afterglow×香澄",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow×香澄",
+ "bpm": "165",
+ "version": "",
+ "date_added": "2017-05-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 70
+   },
+   "source": {
+    "notesQuantity": 64,
+    "bestdori": {
+     "level": 7,
+     "notes": 70
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 62,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 64 differs from combo 70 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 176
+   },
+   "source": {
+    "notesQuantity": 141,
+    "bestdori": {
+     "level": 14,
+     "notes": 176
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 152,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 141 differs from combo 176 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 483
+   },
+   "source": {
+    "notesQuantity": 261,
+    "maa": {
+     "path": "bestdori/49/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/49/hard.json",
+     "raw_sha256": "914f2bf14cead012e57ccee6f461e8e9842daf906720e8145944bc53be985a6e"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 483
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 359,
+      "hold": 35,
+      "slide": 15,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 261 differs from combo 483 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 751
+   },
+   "source": {
+    "notesQuantity": 397,
+    "maa": {
+     "path": "bestdori/49/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/49/expert.json",
+     "raw_sha256": "67b2713666fa9b9d18b7febcf709e0ac71f4028e63c84d123983f83b362ae1c4"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 751
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 505,
+      "hold": 52,
+      "flick": 38,
+      "slide": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 397 differs from combo 751 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 664
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1663048800000,
+    "maa": {
+     "path": "bestdori/49/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/49/special.json",
+     "raw_sha256": "0e3fc3001e105048e2278140b0138a8086d6eceb2c784e2e20290c73aa9a7e34"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 664
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 65,
+      "tap": 421,
+      "flick": 55,
+      "hold": 6
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 49,
+   "bandId": 7,
+   "jacketImage": "tentaikansoku",
+   "bgmId": "bgm049"
+  },
+  "maa": {
+   "bestdori_song_id": 49,
+   "jacket": {
+    "path": "bestdori/49/jacket-cn-1.png",
+    "server": "cn",
+    "name": "tentaikansoku"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/49/jacket-cn-1.png",
+   "sha256": "8e0b3f591fe3fc208124ef8109f2e74eaf09ae17b0df22f3dfcb4a6cb004c7af",
+   "width": 320,
+   "height": 320,
+   "bytes": 28319
+  }
+ },
+ "extra": {
+  "lyricist": "藤原基央",
+  "composer": "藤原基央",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1493704800000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "てんたいかんそく",
+  "title_en": "Tentai Kansoku",
+  "length_s": 111.84
+ }
+}

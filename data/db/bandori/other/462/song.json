@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "462",
+ "title": "シル・ヴ・プレジデント",
+ "artist": "ハロー、ハッピーワールド！×P丸様。",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！×P丸様。",
+ "bpm": "176",
+ "version": "",
+ "date_added": "2022-12-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 123
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 123
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 19,
+      "tap": 85
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 293
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 293
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 239,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 540
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/462/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/462/hard.json",
+     "raw_sha256": "6d04a69322b44d7db24f26b480b55b92a76f813b2d249f8257be35defce7317c"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 540
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 390,
+      "slide": 32,
+      "hold": 26,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 695
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/462/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/462/expert.json",
+     "raw_sha256": "43086d003d0804670fd6b74a49551a5dfa1ee67c140bc23794e6ba0bb61c77ed"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 695
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 419,
+      "slide": 45,
+      "flick": 26,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 462,
+   "bandId": 51,
+   "jacketImage": "462_sil_vious_pre_ex",
+   "bgmId": "bgm462"
+  },
+  "maa": {
+   "bestdori_song_id": 462,
+   "jacket": {
+    "path": "bestdori/462/jacket-cn-1.png",
+    "server": "cn",
+    "name": "462_sil_vious_pre_ex"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/462/jacket-cn-1.png",
+   "sha256": "f8b3de5a699a25672b561af426d793113eeeef141cbe20ad64bc0a3a62da5265",
+   "width": 320,
+   "height": 320,
+   "bytes": 41994
+  }
+ },
+ "extra": {
+  "lyricist": "ナナホシ管弦楽団",
+  "composer": "岩見陸",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "tie_up",
+  "published_at": 1672380000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "しるゔぷれじでんと",
+  "title_en": "Sʼil Vous President",
+  "length_s": 121.416
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "625",
+ "title": "花咲く未来に",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "140",
+ "version": "",
+ "date_added": "2024-09-18",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 109
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 109
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 85,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 237
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 237
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 141,
+      "hold": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 526
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/625/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/625/hard.json",
+     "raw_sha256": "d4f3e00326116e2d6169f4ee7e16d5c9e49e35ef70cafab0cf025f1945055bc3"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 526
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 48,
+      "tap": 283,
+      "flick": 31,
+      "hold": 55
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 712
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/625/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/625/expert.json",
+     "raw_sha256": "1e407987d7a0dfad54d2175326db758c4d50fc21454ea75dd0b97962d8efdceb"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 712
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 91,
+      "tap": 353,
+      "flick": 49,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 625,
+   "bandId": 1,
+   "jacketImage": "625_hanasaku_miraini",
+   "bgmId": "bgm625"
+  },
+  "maa": {
+   "bestdori_song_id": 625,
+   "jacket": {
+    "path": "bestdori/625/jacket-cn-1.png",
+    "server": "cn",
+    "name": "625_hanasaku_miraini"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/625/jacket-cn-1.png",
+   "sha256": "c26c3d3b99fb79e75fb09fd4fb1dbd9724237025fb2de23f28621904db92229d",
+   "width": 320,
+   "height": 320,
+   "bytes": 29940
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "近藤世真（Elements Garden）",
+  "arranger": "近藤世真（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1726660800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "はなさくみらいに",
+  "title_en": "For the Blooming Future",
+  "length_s": 120.072
+ }
+}

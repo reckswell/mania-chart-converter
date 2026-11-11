@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "93",
+ "title": "Y.O.L.O！！！！！",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "128-210",
+ "version": "",
+ "date_added": "2017-12-09",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 162
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 162
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 120,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 298
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 298
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 230,
+      "hold": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 530
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/93/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/93/hard.json",
+     "raw_sha256": "43be86f4a267350a56db4df4ccd21d9262f7b89ccdb4f739caac3db55e8a157e"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 530
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 403,
+      "slide": 3,
+      "hold": 50,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 768
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/93/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/93/expert.json",
+     "raw_sha256": "ffe90b6eea45fff55a40770a335c717b74f8e77a49d39fa9e6013c2331f06d55"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 768
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 542,
+      "slide": 29,
+      "hold": 48,
+      "flick": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 678
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1698732000000,
+    "maa": {
+     "path": "bestdori/93/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/93/special.json",
+     "raw_sha256": "cb57af9ec47d8abdc04052296567f0d48aa40d59c2046b26e99b355fc53ce73f"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 678
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 420,
+      "hold": 50,
+      "slide": 44,
+      "flick": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 93,
+   "bandId": 2,
+   "jacketImage": "093_yolo",
+   "bgmId": "bgm093"
+  },
+  "maa": {
+   "bestdori_song_id": 93,
+   "jacket": {
+    "path": "bestdori/93/jacket-cn-1.png",
+    "server": "cn",
+    "name": "093_yolo"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/93/jacket-cn-1.png",
+   "sha256": "cc756e5e9515b6271e15977d3d22709b323fc2365cb7edfbe0b7dec0455c1cec",
+   "width": 320,
+   "height": 320,
+   "bytes": 27435
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1512799200000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "yolo",
+  "title_en": "Y.O.L.O!!!!!",
+  "length_s": 115.32
+ }
+}

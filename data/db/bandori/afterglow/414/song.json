@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "414",
+ "title": "サクラゼンセン",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "140",
+ "version": "",
+ "date_added": "2022-03-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 114
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 114
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 76,
+      "hold": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 216
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 216
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 170,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 440
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/414/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/414/hard.json",
+     "raw_sha256": "cf9eb8849e99be27ece086a084babc0f982c191dceaaca7b01f42c07d729b93f"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 440
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 25,
+      "tap": 292,
+      "flick": 17,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 662
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/414/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/414/expert.json",
+     "raw_sha256": "75313fd72c61d63a5e1ef526b0ae5dcea0cfc0a9a960f0238dfed194b2847b13"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 662
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 38,
+      "tap": 517,
+      "flick": 17,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 414,
+   "bandId": 2,
+   "jacketImage": "414_sakura_zensen",
+   "bgmId": "bgm414"
+  },
+  "maa": {
+   "bestdori_song_id": 414,
+   "jacket": {
+    "path": "bestdori/414/jacket-cn-1.png",
+    "server": "cn",
+    "name": "414_sakura_zensen"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/414/jacket-cn-1.png",
+   "sha256": "2fc3627f555481f2fe136261e105acacd05fa5c04820a49ef36356a39111a1e5",
+   "width": 320,
+   "height": 320,
+   "bytes": 27014
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "日高勇輝（Elements Garden）",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1648706400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "さくらぜんせん",
+  "title_en": "Sakura-zensen",
+  "length_s": 108.931
+ }
+}

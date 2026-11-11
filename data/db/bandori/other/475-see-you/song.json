@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "475",
+ "title": "See you! 〜それぞれの明日へ〜",
+ "artist": "彩×日菜×千聖×麻弥×友希那×紗夜×リサ×燐子×薫×花音",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "彩×日菜×千聖×麻弥×友希那×紗夜×リサ×燐子×薫×花音",
+ "bpm": "95",
+ "version": "",
+ "date_added": "2023-03-08",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 100
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 100
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 68,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 200
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 200
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 138,
+      "hold": 25,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 400
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/475/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/475/hard.json",
+     "raw_sha256": "6bf5eb826626106a9663252ce3336210191806ef24e59fd01a7421a3cfb17045"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 400
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 211,
+      "slide": 43,
+      "hold": 31,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 600
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/475/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/475/expert.json",
+     "raw_sha256": "a1163d4add88f5e69fbd08beda160b9e96248f435a7424dca7a810a4abaee924"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 600
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 30,
+      "tap": 334,
+      "slide": 70,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 475,
+   "bandId": 58,
+   "jacketImage": "475_see_you_ashita",
+   "bgmId": "bgm475"
+  },
+  "maa": {
+   "bestdori_song_id": 475,
+   "jacket": {
+    "path": "bestdori/475/jacket-cn-1.png",
+    "server": "cn",
+    "name": "475_see_you_ashita"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/475/jacket-cn-1.png",
+   "sha256": "7ba86514f004aa5b6204935b41888197cdb58715ec6a0caf669676e7bb8f6919",
+   "width": 320,
+   "height": 320,
+   "bytes": 21887
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1678255200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "seeyouそれぞれのあしたへ",
+  "title_en": "See you! ~To Each of Our Tomorrows~",
+  "length_s": 128.904
+ }
+}

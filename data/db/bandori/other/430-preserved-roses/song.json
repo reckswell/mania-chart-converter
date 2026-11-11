@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "430",
+ "title": "Preserved Roses",
+ "artist": "Roselia×蘭",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia×蘭",
+ "bpm": "167",
+ "version": "",
+ "date_added": "2022-06-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 158
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 158
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 140,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 274
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 274
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 238,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 518
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/430/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/430/hard.json",
+     "raw_sha256": "d9a26b0a15273e69f109700dc53dfc516eb1246cf8a5a5b25b71cbf61ea9760f"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 518
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 314,
+      "flick": 10,
+      "hold": 53,
+      "slide": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 866
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/430/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/430/expert.json",
+     "raw_sha256": "b3fcbc35c1cc199b84acd118c74f0cdd3326b2ce7de5f02ff35009a6255b9723"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 866
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 551,
+      "hold": 36,
+      "flick": 35,
+      "slide": 72
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 430,
+   "bandId": 19,
+   "jacketImage": "430_preserved_roses",
+   "bgmId": "bgm430"
+  },
+  "maa": {
+   "bestdori_song_id": 430,
+   "jacket": {
+    "path": "bestdori/430/jacket-cn-1.png",
+    "server": "cn",
+    "name": "430_preserved_roses"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/430/jacket-cn-1.png",
+   "sha256": "5e76916d440d11dc69092e18da0c6f7f30c2961440c23d5029a27913dd7e9f04",
+   "width": 320,
+   "height": 320,
+   "bytes": 31234
+  }
+ },
+ "extra": {
+  "lyricist": "井上　秋緒",
+  "composer": "浅倉　大介",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1656568800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "preservedroses",
+  "length_s": 127.968
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "139",
+ "title": "エイリアンエイリアン",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "152",
+ "version": "",
+ "date_added": "2018-08-25",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 213
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 213
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 183,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 354
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 354
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 266,
+      "hold": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 486
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/139/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/139/hard.json",
+     "raw_sha256": "4a6e121bffeeb8a113af50777eae20a1e0aa163dbd9d5eaf662eb76b4f5e05ca"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 486
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 22,
+      "tap": 366,
+      "hold": 17,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 641
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/139/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/139/expert.json",
+     "raw_sha256": "9abd5471ae0bb3b81d825957b3e76c119f75a1d53a7948aaad777cef84b153dc"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 641
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 7,
+      "tap": 499,
+      "hold": 40,
+      "flick": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 139,
+   "bandId": 3,
+   "jacketImage": "139_arien_arien",
+   "bgmId": "bgm139"
+  },
+  "maa": {
+   "bestdori_song_id": 139,
+   "jacket": {
+    "path": "bestdori/139/jacket-cn-1.png",
+    "server": "cn",
+    "name": "139_arien_arien"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/139/jacket-cn-1.png",
+   "sha256": "37351ae41fa1ef8f0d4a1ed8f1ed6fea561fe688026d793d072081c61d919bbb",
+   "width": 320,
+   "height": 320,
+   "bytes": 34873
+  }
+ },
+ "extra": {
+  "lyricist": "ナユタン星人",
+  "composer": "ナユタン星人",
+  "arranger": "末益涼太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1535176800000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "えいりあんえいりあん",
+  "title_en": "Alien Alien",
+  "length_s": 112.944
+ }
+}

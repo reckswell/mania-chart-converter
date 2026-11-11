@@ -8,7 +8,7 @@ from fractions import Fraction
 from pathlib import Path
 from typing import Any
 
-from .db import ChartDB, ChartRecord, SongRecord
+from .db import IMAGE_MAX_SIZE, ChartDB, ChartRecord, SongRecord
 from .sources.fetch import Fetcher, FetchError
 
 
@@ -234,6 +234,13 @@ def cmd_stats(a: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_shrink_images(a: argparse.Namespace) -> int:
+    db = ChartDB(a.db)
+    games = sorted(p.name for p in db.root.iterdir() if (p / "index.json").exists()) if a.game == "all" else [a.game]
+    print(json.dumps({g: db.shrink_assets(g, a.image_size) for g in games}, indent=1))
+    return 0
+
+
 def cmd_index(a: argparse.Namespace) -> int:
     print(ChartDB(a.db).build_sqlite(a.sqlite))
     return 0
@@ -258,7 +265,7 @@ def main(argv: list[str] | None = None) -> int:
     s.add_argument("--only", help="comma-separated song ids")
     s.add_argument("--limit", type=int, default=0)
     s.add_argument("--refresh", action="store_true", help="re-fetch what is already stored")
-    s.add_argument("--image-size", type=int, default=512, help="long side of stored jackets (px)")
+    s.add_argument("--image-size", type=int, default=IMAGE_MAX_SIZE, help="long side of stored jackets (px)")
     s.add_argument("--full-images", action="store_true", help="store original image bytes")
     s.add_argument("--progress", action="store_true")
     s.add_argument("--workers", type=int, default=1, help="parallel downloads (set --interval low with this)")
@@ -306,6 +313,11 @@ def main(argv: list[str] | None = None) -> int:
     s = sub.add_parser("stats", help="database coverage per game: songs, charts by status, jackets")
     s.add_argument("game", nargs="?", default="all")
     s.set_defaults(fn=cmd_stats)
+
+    s = sub.add_parser("shrink-images", help="re-encode stored images above a size limit, in place")
+    s.add_argument("game", nargs="?", default="all")
+    s.add_argument("--image-size", type=int, default=IMAGE_MAX_SIZE)
+    s.set_defaults(fn=cmd_shrink_images)
 
     s = sub.add_parser("index", help="build a SQLite index of the database for queries")
     s.add_argument("--sqlite", default="data/index.sqlite")

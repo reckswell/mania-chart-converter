@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "97",
+ "title": "Opera of the wasteland",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "135",
+ "version": "",
+ "date_added": "2018-01-22",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 155
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 155
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 125,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 281
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 281
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 187,
+      "hold": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 483
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/97/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/97/hard.json",
+     "raw_sha256": "a44d769b53a0e937ec30690842dbdc1498310019cae36ca3fd3d49a5382c7cbe"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 483
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 294,
+      "slide": 11,
+      "hold": 71,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 696
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/97/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/97/expert.json",
+     "raw_sha256": "e66041e74dffa77f030ac7208871e3eb8d9822e196bd73a49379e9d9a103220b"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 696
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 453,
+      "slide": 32,
+      "hold": 49,
+      "flick": 66
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 702
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1639915200000,
+    "maa": {
+     "path": "bestdori/97/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/97/special.json",
+     "raw_sha256": "58d27fb3fc21a81a6a339d6323adc4e3b5a133520978816a553cd6ce18458b21"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 702
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 283,
+      "slide": 100,
+      "flick": 94,
+      "hold": 28
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 97,
+   "bandId": 5,
+   "jacketImage": "097_wasteland",
+   "bgmId": "bgm097"
+  },
+  "maa": {
+   "bestdori_song_id": 97,
+   "jacket": {
+    "path": "bestdori/97/jacket-cn-1.png",
+    "server": "cn",
+    "name": "097_wasteland"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/97/jacket-cn-1.png",
+   "sha256": "03c2fa7e97d23280afcf2b267f43d060423fd45a5cbb5785758a79fe972c57f9",
+   "width": 320,
+   "height": 320,
+   "bytes": 28929
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1516600800000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "operaofthewasteland",
+  "length_s": 112.944
+ }
+}

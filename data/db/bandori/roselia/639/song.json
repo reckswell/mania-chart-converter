@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "639",
+ "title": "ファタール",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "156",
+ "version": "",
+ "date_added": "2024-10-18",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 105
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 105
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 69,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 287
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 287
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 189,
+      "hold": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 477
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/639/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/639/hard.json",
+     "raw_sha256": "c1bfaefd552b735c91ac4ef59d9dd586eda64fe12afe73e49d9e1847bbff23fb"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 477
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 264,
+      "hold": 26,
+      "slide": 43,
+      "flick": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 756
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/639/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/639/expert.json",
+     "raw_sha256": "2d7f99029634cbb0b73285c874e9965d52cbabf63a4f93a9b183d7220f93e63a"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 756
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 488,
+      "hold": 34,
+      "slide": 59,
+      "flick": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 639,
+   "bandId": 5,
+   "jacketImage": "639_fatale",
+   "bgmId": "bgm639"
+  },
+  "maa": {
+   "bestdori_song_id": 639,
+   "jacket": {
+    "path": "bestdori/639/jacket-cn-1.png",
+    "server": "cn",
+    "name": "639_fatale"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/639/jacket-cn-1.png",
+   "sha256": "158fd928cba399a168a7a1180985af40e5f897375bfb9795225b8cff374bbecb",
+   "width": 320,
+   "height": 320,
+   "bytes": 35590
+  }
+ },
+ "extra": {
+  "lyricist": "キタニタツヤ",
+  "composer": "キタニタツヤ",
+  "arranger": "堀川大翼（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1729231200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ふぁたーる",
+  "title_en": "Fatal",
+  "length_s": 97.752
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "171",
+ "title": "はれやか すこやか ぴかりんりん♪",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "230",
+ "version": "",
+ "date_added": "2019-01-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 177
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 177
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 95,
+      "hold": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 299
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 299
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 181,
+      "hold": 57,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 540
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/171/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/171/hard.json",
+     "raw_sha256": "bcc3cbe9d84ff18c5f99e94763097aad48c3f934c45d309bcb5f959616aa0626"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 540
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 100,
+      "tap": 275,
+      "flick": 39,
+      "slide": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 694
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/171/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/171/expert.json",
+     "raw_sha256": "0d2213839bad26bf3b4e98ddcddc6fd4af489192d9d0d1b8b9efec0cbaa3bfbd"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 694
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 405,
+      "hold": 60,
+      "flick": 32,
+      "slide": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 171,
+   "bandId": 3,
+   "jacketImage": "171_pikarin",
+   "bgmId": "bgm171"
+  },
+  "maa": {
+   "bestdori_song_id": 171,
+   "jacket": {
+    "path": "bestdori/171/jacket-cn-1.png",
+    "server": "cn",
+    "name": "171_pikarin"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/171/jacket-cn-1.png",
+   "sha256": "3d1b51ec5c765f9faa2236aa398c735fe12c905cd0e24790fbab24c5973be2e9",
+   "width": 320,
+   "height": 320,
+   "bytes": 32949
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "笠井雄太（Elements Garden）",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1548050400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "はれやかすこやかぴかりんりん",
+  "title_en": "Sunny Bright Pikarinrin♪",
+  "length_s": 101.28
+ }
+}

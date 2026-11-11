@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "605",
+ "title": "メランコリックララバイ",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "181",
+ "version": "",
+ "date_added": "2024-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 150
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 150
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 29,
+      "tap": 92
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 270
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 270
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 55,
+      "tap": 160
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 449
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/605/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/605/hard.json",
+     "raw_sha256": "996d7dcff0e81eb33b4dbed958e6dcb18a4efc1a420b91026931aae05ae0b909"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 449
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 52,
+      "tap": 281,
+      "slide": 19,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 657
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/605/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/605/expert.json",
+     "raw_sha256": "73e01834eb18384060337aec207dbaead8226110f319572cb8cf912859278bf7"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 657
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 88,
+      "tap": 334,
+      "flick": 53,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 605,
+   "bandId": 21,
+   "jacketImage": "605_melancholic_lullaby",
+   "bgmId": "bgm605"
+  },
+  "maa": {
+   "bestdori_song_id": 605,
+   "jacket": {
+    "path": "bestdori/605/jacket-cn-1.png",
+    "server": "cn",
+    "name": "605_melancholic_lullaby"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/605/jacket-cn-1.png",
+   "sha256": "228c1d23923c7ba5f4d6cae6bb4e0d7cd17e457cf5f28d13a614cf5a32254711",
+   "width": 320,
+   "height": 320,
+   "bytes": 46776
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1714543200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "めらんこりっくららばい",
+  "title_en": "Melancholic Lullaby",
+  "length_s": 105.48
+ }
+}

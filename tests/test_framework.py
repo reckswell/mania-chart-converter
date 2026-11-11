@@ -302,3 +302,21 @@ def test_charts_are_stored_gzipped_and_round_trip(tmp_path):
     assert back.to_dict() == c.to_dict()
     rec = db.get_song("chunithm", "t1").charts["master"]
     assert rec.status == "extracted" and rec.source["extracted"]["counts"]["slide"] == 2
+
+
+def test_shrink_assets_reencodes_large_images_in_place(tmp_path):
+    from io import BytesIO
+
+    from PIL import Image
+
+    db = ChartDB(tmp_path)
+    db.upsert_song(song())
+    buf = BytesIO()
+    Image.new("P", (600, 600)).save(buf, "PNG", transparency=0)       # palette PNG with transparency
+    db.save_asset("chunithm", "t1", "jacket", buf.getvalue(), ext="png", max_size=None)
+    assert db.get_song("chunithm", "t1").assets["jacket"].file == "assets/jacket.png"
+    stats = db.shrink_assets("chunithm", 100)
+    a = db.get_song("chunithm", "t1").assets["jacket"]
+    assert stats["shrunk"] == 1 and a.file == "assets/jacket.jpg" and (a.width, a.height) == (100, 100)
+    assert not (tmp_path / "chunithm" / "original" / "t1-test" / "assets" / "jacket.png").exists()
+    assert db.shrink_assets("chunithm", 100)["shrunk"] == 0

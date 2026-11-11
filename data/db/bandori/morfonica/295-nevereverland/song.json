@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "295",
+ "title": "Nevereverland",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "75-206.5",
+ "version": "",
+ "date_added": "2020-10-07",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 193
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 193
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 139,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 329
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 329
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 45,
+      "tap": 239
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 580
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/295/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/295/hard.json",
+     "raw_sha256": "fa8d5529ede2f344370b36169452325368c484bd2c2789057ede57ac00a9df1e"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 580
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 414,
+      "hold": 47,
+      "flick": 2,
+      "slide": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 911
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/295/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/295/expert.json",
+     "raw_sha256": "2abf4c4f1631087a9dd91d2b35fe82f622fe016cdd9fe7be6dd4d7e3e38b37a8"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 911
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 544,
+      "slide": 104,
+      "hold": 39,
+      "flick": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1000
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1743055200000,
+    "maa": {
+     "path": "bestdori/295/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/295/special.json",
+     "raw_sha256": "bfabadf79dd30fe480362cc01e6d084b3860acd734efb0539b775f7c8edeb637"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 1000
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 578,
+      "slide": 85,
+      "hold": 24,
+      "flick": 117
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 295,
+   "bandId": 21,
+   "jacketImage": "295_nevereverland",
+   "bgmId": "bgm295"
+  },
+  "maa": {
+   "bestdori_song_id": 295,
+   "jacket": {
+    "path": "bestdori/295/jacket-cn-1.png",
+    "server": "cn",
+    "name": "295_nevereverland"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/295/jacket-cn-1.png",
+   "sha256": "23dda5eabe0de1a2a53e90b6109897c1c564a001f9584142be99b62c766ac0a7",
+   "width": 320,
+   "height": 320,
+   "bytes": 24516
+  }
+ },
+ "extra": {
+  "lyricist": "ナノ",
+  "composer": "伊藤直樹",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1602075600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "nevereverland",
+  "length_s": 130.992
+ }
+}

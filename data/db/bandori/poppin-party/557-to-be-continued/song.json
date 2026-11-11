@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "557",
+ "title": "青春 To Be Continued",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "134",
+ "version": "",
+ "date_added": "2023-11-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 124
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 124
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 78,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 273
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 273
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 198,
+      "hold": 30,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 495
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/557/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/557/hard.json",
+     "raw_sha256": "d7fbc2d52ac45c14e9427f8db5edff7c3b432470276be1a208e3d851067ee7d8"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 495
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 338,
+      "flick": 5,
+      "hold": 38,
+      "slide": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 779
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/557/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/557/expert.json",
+     "raw_sha256": "0e2dc611d7d35ebb344dc030446217cb00dd99b74481e9d8b6d336e0a12a681c"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 779
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 39,
+      "tap": 559,
+      "slide": 36,
+      "hold": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 557,
+   "bandId": 1,
+   "jacketImage": "557_seisyun_to_be",
+   "bgmId": "bgm557"
+  },
+  "maa": {
+   "bestdori_song_id": 557,
+   "jacket": {
+    "path": "bestdori/557/jacket-cn-1.png",
+    "server": "cn",
+    "name": "557_seisyun_to_be"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/557/jacket-cn-1.png",
+   "sha256": "67459263abddbf667a820469aecfa84ae829c362cda8ad358cd82caf783eea29",
+   "width": 320,
+   "height": 320,
+   "bytes": 42062
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1699014600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "せいしゅんtobecontinued",
+  "title_en": "Youthful Days To Be Continued",
+  "length_s": 115.584
+ }
+}

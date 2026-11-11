@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "192",
+ "title": "ときめきポポロン♪",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2019-04-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 116
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 116
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 64,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 213
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 213
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 127,
+      "hold": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 356
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/192/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/192/hard.json",
+     "raw_sha256": "d3a08d9f02da3c924ee7539348af1f87461ace6ff563c8eddb83d9a9e72ee3c0"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 356
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 16,
+      "tap": 264,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 523
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/192/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/192/expert.json",
+     "raw_sha256": "b076ff29d269784802c8c7894174fa74e2463a14922d07f5b1119ba9a06e1530"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 523
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 42,
+      "tap": 346,
+      "hold": 36,
+      "slide": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 192,
+   "bandId": 4,
+   "jacketImage": "192_tokimekipoporon",
+   "bgmId": "bgm192"
+  },
+  "maa": {
+   "bestdori_song_id": 192,
+   "jacket": {
+    "path": "bestdori/192/jacket-cn-1.png",
+    "server": "cn",
+    "name": "192_tokimekipoporon"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/192/jacket-cn-1.png",
+   "sha256": "70a78ebb3f49635eba4be7f7e710f4b9a0e0143a1393d63df27e318f31e5edf9",
+   "width": 320,
+   "height": 320,
+   "bytes": 46427
+  }
+ },
+ "extra": {
+  "lyricist": "うらん",
+  "composer": "大隅知宇",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1556431200000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "ときめきぽぽろん",
+  "title_en": "Tokimeki Poporon",
+  "length_s": 94.656
+ }
+}

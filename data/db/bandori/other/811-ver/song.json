@@ -1,0 +1,179 @@
+{
+ "game": "bandori",
+ "song_id": "811",
+ "title": "私の心はチョココロネ(パラレルver.)",
+ "artist": "モカ×つくし×愛音",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "モカ×つくし×愛音",
+ "bpm": "134",
+ "version": "",
+ "date_added": "2026-09-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 381
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/811/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/811/hard.json",
+     "raw_sha256": "8ffd7e91ad58d45ba4587b2fa14cd78e820c515b15ab05611b3abe9b99b874df"
+    },
+    "bestdori": {
+     "notes": 381
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 247,
+      "hold": 49,
+      "flick": 21,
+      "slide": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 482
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/811/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/811/expert.json",
+     "raw_sha256": "2c9ba188d425503d7c24c1162358a1b9eb18d933938114631757320a9a45ae43"
+    },
+    "bestdori": {
+     "notes": 482
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 353,
+      "slide": 9,
+      "hold": 38,
+      "flick": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 625
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/811/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/811/special.json",
+     "raw_sha256": "4487b4665559ecc313349a639880cbe40e5e1382e63d0243ed723089c200d6c1"
+    },
+    "bestdori": {
+     "notes": 625
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 448,
+      "hold": 35,
+      "flick": 34,
+      "slide": 35
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 811,
+   "bandId": 108,
+   "jacketImage": "811_choco_Cornet_p",
+   "bgmId": "bgm811"
+  },
+  "maa": {
+   "bestdori_song_id": 811,
+   "jacket": {
+    "path": "bestdori/811/jacket-jp-1.png",
+    "server": "jp",
+    "name": "811_choco_Cornet_p"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/811/jacket-jp-1.png",
+   "sha256": "072576b8ceb68f9a73e0fb20d171f41498fe830b10d967da734e769bb1b18915",
+   "width": 320,
+   "height": 320,
+   "bytes": 43990
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1788242400000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "わたしのこころはちょこころね"
+ }
+}

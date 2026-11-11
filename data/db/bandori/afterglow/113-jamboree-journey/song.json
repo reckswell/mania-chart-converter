@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "113",
+ "title": "Jamboree!Journey!",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "156",
+ "version": "",
+ "date_added": "2018-03-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 121
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 121
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 105,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 248
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 248
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 198,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 461
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/113/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/113/hard.json",
+     "raw_sha256": "da2d16263ab83eff8a2700cbf12abc8158bfb516cf92e33202e511ab7603bad5"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 461
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 242,
+      "hold": 27,
+      "flick": 23,
+      "slide": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 641
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/113/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/113/expert.json",
+     "raw_sha256": "0e8ac189c7931396313449208b387d655f8046e70f072ae1d26aa170846d1b1a"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 641
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 362,
+      "hold": 35,
+      "flick": 43,
+      "slide": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 113,
+   "bandId": 2,
+   "jacketImage": "113_jamboree",
+   "bgmId": "bgm113"
+  },
+  "maa": {
+   "bestdori_song_id": 113,
+   "jacket": {
+    "path": "bestdori/113/jacket-cn-1.png",
+    "server": "cn",
+    "name": "113_jamboree"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/113/jacket-cn-1.png",
+   "sha256": "0dd2f043a529ca1503f02d9955fc58bcd85c92034f7ddada56184b24011d3705",
+   "width": 320,
+   "height": 320,
+   "bytes": 29720
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1521612000000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "jamboreejourney",
+  "length_s": 119.28
+ }
+}

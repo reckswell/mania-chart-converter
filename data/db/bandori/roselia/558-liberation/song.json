@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "558",
+ "title": "覚悟のLiberation",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "185",
+ "version": "",
+ "date_added": "2023-12-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 113
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 113
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 16,
+      "tap": 81
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 234
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 234
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 25,
+      "tap": 172,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 471
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/558/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/558/hard.json",
+     "raw_sha256": "47e930559c524a1a159248e5bd677a4b090c59ae7be7cc4f3bf98827f54c1a19"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 471
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 342,
+      "hold": 35,
+      "slide": 20,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 701
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/558/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/558/expert.json",
+     "raw_sha256": "d6821caa7c6ba745f573203c73c53d187102f2263ad52ccbe81d25faf464c7fb"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 701
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 522,
+      "hold": 46,
+      "slide": 30,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 558,
+   "bandId": 5,
+   "jacketImage": "558_kakugo_liberation",
+   "bgmId": "bgm558"
+  },
+  "maa": {
+   "bestdori_song_id": 558,
+   "jacket": {
+    "path": "bestdori/558/jacket-cn-1.png",
+    "server": "cn",
+    "name": "558_kakugo_liberation"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/558/jacket-cn-1.png",
+   "sha256": "8279b2fa218cb8ddb27c66fdd5ad5740001458f008c5e708671800220b847bf2",
+   "width": 320,
+   "height": 320,
+   "bytes": 29833
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "堀川大翼（Elements Garden）",
+  "arranger": "堀川大翼（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1702188000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "かくごのliberation",
+  "title_en": "Liberation of the Determination",
+  "length_s": 114.216
+ }
+}

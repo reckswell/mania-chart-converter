@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "317",
+ "title": "夜に駆ける",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "130",
+ "version": "",
+ "date_added": "2021-03-15",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 189
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 189
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 139,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 285
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 285
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 201,
+      "hold": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 482
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/317/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/317/hard.json",
+     "raw_sha256": "bd73af1a150213b7a1dbce924f969bb81e83d212cabc093d62d0ccfb3c27b59e"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 482
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 428,
+      "hold": 21,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 756
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/317/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/317/expert.json",
+     "raw_sha256": "abe595ab63ce476d1177848e372c2cd6bb845cdfefc1094c2b985ddfe312a34b"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 756
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 415,
+      "hold": 90,
+      "slide": 47,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 317,
+   "bandId": 4,
+   "jacketImage": "317_yoruni_kakeru",
+   "bgmId": "bgm317"
+  },
+  "maa": {
+   "bestdori_song_id": 317,
+   "jacket": {
+    "path": "bestdori/317/jacket-cn-1.png",
+    "server": "cn",
+    "name": "317_yoruni_kakeru"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/317/jacket-cn-1.png",
+   "sha256": "df8c327a8ed661d825bc8b69cf25af2eb24f6466c6f8693570827905a50e9113",
+   "width": 320,
+   "height": 320,
+   "bytes": 22733
+  }
+ },
+ "extra": {
+  "lyricist": "Ayase",
+  "composer": "Ayase",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1615795200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "よるにかける",
+  "title_en": "Into The Night",
+  "length_s": 121.896
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "362",
+ "title": "きらっ☆と キミフェス！",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "128",
+ "version": "",
+ "date_added": "2021-09-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 128
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 128
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 98,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 245
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 245
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 183,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 386
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/362/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/362/hard.json",
+     "raw_sha256": "e32b9ff7b93eef704f0e5c62df5e49b118bf7ae204ac525e6d961a437e7515b2"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 386
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 304,
+      "hold": 23,
+      "flick": 5,
+      "slide": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 589
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/362/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/362/expert.json",
+     "raw_sha256": "8c73a10ca48b5f1275386a4d7fc90282248ce4670b89eb8f436975a1db2a5109"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 589
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 416,
+      "slide": 42,
+      "hold": 21,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 362,
+   "bandId": 3,
+   "jacketImage": "362_kimifes",
+   "bgmId": "bgm362"
+  },
+  "maa": {
+   "bestdori_song_id": 362,
+   "jacket": {
+    "path": "bestdori/362/jacket-cn-1.png",
+    "server": "cn",
+    "name": "362_kimifes"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/362/jacket-cn-1.png",
+   "sha256": "072842048edbbb81ea676eda9603199af5019de4256426bb6936dbffb27ff587",
+   "width": 320,
+   "height": 320,
+   "bytes": 39848
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "岩橋星実（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1632981600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "きらっときみふぇす",
+  "title_en": "Sparkling Festival☆ with You!",
+  "length_s": 104.112
+ }
+}

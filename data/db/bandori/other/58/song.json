@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "58",
+ "title": "チョコレイトの低音レシピ",
+ "artist": "牛込りみ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "牛込りみ",
+ "bpm": "96",
+ "version": "",
+ "date_added": "2017-08-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 114
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 114
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 58,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 239
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 239
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 139,
+      "hold": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 505
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/58/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/58/hard.json",
+     "raw_sha256": "035dcf7527947cc69ab9381d8f00822542bd32ed042d0bef39e672069c5591fa"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 505
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 315,
+      "slide": 12,
+      "hold": 65,
+      "flick": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 670
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/58/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/58/expert.json",
+     "raw_sha256": "85875593a90b6116c5154acc971d72534d61ebd32e9e10ec59936b767e28ad8e"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 670
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 429,
+      "hold": 87,
+      "slide": 13,
+      "flick": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 58,
+   "bandId": 11,
+   "jacketImage": "058_chocolate",
+   "bgmId": "bgm058"
+  },
+  "maa": {
+   "bestdori_song_id": 58,
+   "jacket": {
+    "path": "bestdori/58/jacket-cn-1.png",
+    "server": "cn",
+    "name": "058_chocolate"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/58/jacket-cn-1.png",
+   "sha256": "295f9259c1455cfd9ccf6a5c300866433bad16c4affdf82e2cca6878e61d3774",
+   "width": 320,
+   "height": 320,
+   "bytes": 27341
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "末益涼太（Elements Garden）",
+  "arranger": "末益涼太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1503889200000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "ちょこれいとのていおんれしぴ",
+  "title_en": "Chocolate Bass Recipe",
+  "length_s": 120.048
+ }
+}

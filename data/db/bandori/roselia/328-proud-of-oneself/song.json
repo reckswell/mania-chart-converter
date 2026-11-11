@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "328",
+ "title": "Proud of oneself",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "85-193",
+ "version": "",
+ "date_added": "2021-04-23",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 136
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 136
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 118,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 264
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 264
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 182,
+      "hold": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 423
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/328/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/328/hard.json",
+     "raw_sha256": "2e816e4c2f3fa5530339068f60f2080eaba09df4f41a0f4f2ee54d01bcde9174"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 423
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 291,
+      "hold": 41,
+      "slide": 14,
+      "flick": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 723
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/328/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/328/expert.json",
+     "raw_sha256": "e9ea657d7d24a6267708404f10cc66a2abce1c6a99b32a236f81d179471461cb"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 723
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 491,
+      "hold": 40,
+      "slide": 38,
+      "flick": 51
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 328,
+   "bandId": 5,
+   "jacketImage": "328_proud_of_oneself",
+   "bgmId": "bgm328"
+  },
+  "maa": {
+   "bestdori_song_id": 328,
+   "jacket": {
+    "path": "bestdori/328/jacket-cn-1.png",
+    "server": "cn",
+    "name": "328_proud_of_oneself"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/328/jacket-cn-1.png",
+   "sha256": "1db5661991a863e03be328c8fc9092393735fe8e2f4f06131267672797f8bdff",
+   "width": 320,
+   "height": 320,
+   "bytes": 19304
+  }
+ },
+ "extra": {
+  "lyricist": "Spirit Garden",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1619157600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "proudofoneself",
+  "length_s": 98.736
+ }
+}

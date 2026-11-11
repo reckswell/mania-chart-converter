@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "656",
+ "title": "STEP by STEP UP↑↑↑↑",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "175",
+ "version": "",
+ "date_added": "2025-01-08",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 96
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 96
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 78,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 231
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 231
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 159,
+      "hold": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 420
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/656/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/656/hard.json",
+     "raw_sha256": "37f5091a4e140b6c45aeec8d08248096a6c7892a9bc8d52ad9b6a73a130bac30"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 420
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 302,
+      "hold": 32,
+      "slide": 15,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 579
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/656/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/656/expert.json",
+     "raw_sha256": "37612054fc1efaef408aa459134c25bafe9f3f2e4534788193592750e3b62332"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 579
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 404,
+      "hold": 36,
+      "slide": 32,
+      "flick": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 656,
+   "bandId": 1,
+   "jacketImage": "656_step_by_step_up",
+   "bgmId": "bgm656"
+  },
+  "maa": {
+   "bestdori_song_id": 656,
+   "jacket": {
+    "path": "bestdori/656/jacket-cn-1.png",
+    "server": "cn",
+    "name": "656_step_by_step_up"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/656/jacket-cn-1.png",
+   "sha256": "e056ac3136d89191c5b15bba00c74505f6e9f06755196ec5aae9c09e2bb545c4",
+   "width": 320,
+   "height": 320,
+   "bytes": 25243
+  }
+ },
+ "extra": {
+  "lyricist": "烏屋 茶房、篠崎 あやと",
+  "composer": "篠崎 あやと、ヒゲドライバー",
+  "arranger": "Seonoo Kim（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1736337600000,
+  "closed_at": 4122932400000,
+  "music_data_type": "normal",
+  "ruby": "stepbystepup",
+  "length_s": 104.976
+ }
+}

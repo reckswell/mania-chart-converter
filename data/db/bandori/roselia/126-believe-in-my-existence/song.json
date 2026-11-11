@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "126",
+ "title": "Believe in my existence",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "117",
+ "version": "",
+ "date_added": "2018-05-05",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 169
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 169
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 127,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 261
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 261
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 199,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 400
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/126/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/126/hard.json",
+     "raw_sha256": "3b0495cb5b73126e0546ae814ae7d70ad540cfedc45c1003ceca307e79b04203"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 400
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 280,
+      "hold": 34,
+      "flick": 15,
+      "slide": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 589
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/126/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/126/expert.json",
+     "raw_sha256": "137c66822a34a9bf382067d564251448a86372fe82e9cac28b71f30ac164efa8"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 589
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 454,
+      "hold": 35,
+      "flick": 21,
+      "slide": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 126,
+   "bandId": 5,
+   "jacketImage": "126_existence",
+   "bgmId": "bgm126"
+  },
+  "maa": {
+   "bestdori_song_id": 126,
+   "jacket": {
+    "path": "bestdori/126/jacket-cn-1.png",
+    "server": "cn",
+    "name": "126_existence"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/126/jacket-cn-1.png",
+   "sha256": "38c3c4c339364e327960a7c4c635fc8511f950d8e2c38dbcfc4e6cf90c07dbad",
+   "width": 320,
+   "height": 320,
+   "bytes": 35033
+  }
+ },
+ "extra": {
+  "lyricist": "影山ヒロノブ",
+  "composer": "影山ヒロノブ・きただにひろし",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1525500000000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "believeinmyexistence",
+  "length_s": 93.384
+ }
+}

@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "70",
+ "title": "SURVIVOR ねばーぎぶあっぷ！",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "195-200",
+ "version": "",
+ "date_added": "2017-09-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 220
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 220
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 108,
+      "hold": 56
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 343
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 343
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 183,
+      "hold": 70,
+      "slide": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 559
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/70/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/70/hard.json",
+     "raw_sha256": "ef667f1e3828f7e36b1c34a0218bb21088b6a6d071cae1a45109974822aa621f"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 559
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 346,
+      "hold": 52,
+      "slide": 35,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 868
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/70/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/70/expert.json",
+     "raw_sha256": "a065be38785918954f8bfad74ad80db5a236b3f5b855ac05ace3555e9d6a76ae"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 868
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 453,
+      "flick": 41,
+      "hold": 109,
+      "slide": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 936
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1563537600000,
+    "maa": {
+     "path": "bestdori/70/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/70/special.json",
+     "raw_sha256": "a47535aa04389e5ad3aaa8925873b278e4963b295612360bbd8db62761bf8b59"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 936
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 502,
+      "flick": 88,
+      "slide": 92,
+      "hold": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 70,
+   "bandId": 4,
+   "jacketImage": "070_survivor",
+   "bgmId": "bgm070"
+  },
+  "maa": {
+   "bestdori_song_id": 70,
+   "jacket": {
+    "path": "bestdori/70/jacket-cn-1.png",
+    "server": "cn",
+    "name": "070_survivor"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/70/jacket-cn-1.png",
+   "sha256": "ba0bc6b3f4c580ff7dfecb457ef2566e7c4713e0e59b455612d0e9daea917d04",
+   "width": 320,
+   "height": 320,
+   "bytes": 40302
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1505973600000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "survivorねばーぎぶあっぷ",
+  "title_en": "SURVIVOR Never Give Up!",
+  "length_s": 108.576
+ }
+}

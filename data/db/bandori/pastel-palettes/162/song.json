@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "162",
+ "title": "奏（かなで）",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "75",
+ "version": "",
+ "date_added": "2018-12-24",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 98
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 98
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 86,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 187
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 187
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 153,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 346
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/162/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/162/hard.json",
+     "raw_sha256": "ae8afa2756a3e6cdbdadbf2fce74927a8dc7e4fb744074efbc71831d31da6c37"
+    },
+    "bestdori": {
+     "level": 18,
+     "notes": 346
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 195,
+      "flick": 7,
+      "hold": 61,
+      "slide": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 491
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/162/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/162/expert.json",
+     "raw_sha256": "a2c14eef88c45e392d826bc0cf1394c1ee4c5a2e3a02196f474a9de21d245fce"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 491
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 308,
+      "flick": 13,
+      "hold": 45,
+      "slide": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 162,
+   "bandId": 4,
+   "jacketImage": "162_kanade",
+   "bgmId": "bgm162"
+  },
+  "maa": {
+   "bestdori_song_id": 162,
+   "jacket": {
+    "path": "bestdori/162/jacket-cn-1.png",
+    "server": "cn",
+    "name": "162_kanade"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/162/jacket-cn-1.png",
+   "sha256": "ccd62226ec769865fd178df2effe8e5ad038d4da882c9f5a08a3ac83c20d30e6",
+   "width": 320,
+   "height": 320,
+   "bytes": 17673
+  }
+ },
+ "extra": {
+  "lyricist": "大橋卓弥 常田真太郎",
+  "composer": "大橋卓弥 常田真太郎",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1545631200000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "かなで",
+  "title_en": "Kanade",
+  "length_s": 121.656
+ }
+}

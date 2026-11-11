@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "641",
+ "title": "ハイタッチ／＼びりーばーず☆",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "165",
+ "version": "",
+ "date_added": "2024-10-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 121
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 121
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 79,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 297
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 297
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 70,
+      "tap": 157
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 512
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/641/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/641/hard.json",
+     "raw_sha256": "be401b04267ca2b677b3d20b714b8a555cbde6f3ee2eb53c5ced85f91b43c2b0"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 512
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 58,
+      "tap": 255,
+      "hold": 30,
+      "flick": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 742
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/641/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/641/expert.json",
+     "raw_sha256": "be89563647c627755001a6ec6f838d15971db4901fc51436da12947ac5d5fc1b"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 742
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 63,
+      "hold": 58,
+      "tap": 354,
+      "flick": 53
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 641,
+   "bandId": 3,
+   "jacketImage": "641_high_touch",
+   "bgmId": "bgm641"
+  },
+  "maa": {
+   "bestdori_song_id": 641,
+   "jacket": {
+    "path": "bestdori/641/jacket-cn-1.png",
+    "server": "cn",
+    "name": "641_high_touch"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/641/jacket-cn-1.png",
+   "sha256": "66e1ad3e35c820387133635135f274f3d128b23ed7aff2a84fee99c89b6365f5",
+   "width": 320,
+   "height": 320,
+   "bytes": 26797
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "笠井雄太（Elements Garden）",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1730354400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "はいたっちびりーばーず",
+  "title_en": "High Touch／＼Believers☆",
+  "length_s": 113.52
+ }
+}
