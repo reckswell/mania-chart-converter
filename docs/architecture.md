@@ -11,7 +11,7 @@
                 ▼                                             ▼
         ┌──────────────────────────────────────────────────────────┐
         │ db.ChartDB  data/db/<game>/<genre>/<id>-<slug>/          │
-        │             song.json + <slot>.chart.json                │
+        │             song.json + <slot>.chart.json.gz             │
         └───────────────────────────┬──────────────────────────────┘
                                     │ Chart (IR, source lanes)
                                     ▼

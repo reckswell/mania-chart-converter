@@ -22,9 +22,22 @@
     "slide": 228,
     "air": 103
    },
-   "source": {},
-   "status": "listed",
-   "notes": ""
+   "source": {
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "tap": 102,
+      "ex_tap": 109,
+      "hold": 20,
+      "air": 15,
+      "slide": 37,
+      "air_hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
   },
   "hard": {
    "slot": "hard",
@@ -38,9 +51,22 @@
     "slide": 302,
     "air": 206
    },
-   "source": {},
-   "status": "listed",
-   "notes": ""
+   "source": {
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "tap": 143,
+      "ex_tap": 103,
+      "hold": 60,
+      "slide": 70,
+      "air": 9,
+      "air_hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 exact duplicate lines ignored",
+   "assets": {}
   },
   "expert": {
    "slot": "expert",
@@ -55,10 +81,23 @@
     "air": 318
    },
    "source": {
-    "sdvxin_legacy": "10/10199exp"
+    "sdvxin_legacy": "10/10199exp",
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "hold": 37,
+      "slide": 84,
+      "tap": 270,
+      "air": 86,
+      "ex_tap": 137,
+      "air_hold": 21,
+      "other": 22
+     }
+    }
    },
-   "status": "listed",
-   "notes": ""
+   "status": "extracted",
+   "notes": "1 exact duplicate lines ignored",
+   "assets": {}
   },
   "master": {
    "slot": "master",
@@ -74,10 +113,25 @@
     "flick": 115
    },
    "source": {
-    "sdvxin_legacy": "10/10199mst"
+    "sdvxin_legacy": "10/10199mst",
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/10199mst.png",
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "tap": 499,
+      "air": 143,
+      "ex_tap": 221,
+      "flick": 115,
+      "slide": 238,
+      "hold": 96,
+      "air_hold": 39,
+      "other": 240
+     }
+    }
    },
-   "status": "listed",
-   "notes": ""
+   "status": "extracted",
+   "notes": "121 exact duplicate lines ignored; not represented: SLA×2, SLP×46",
+   "assets": {}
   }
  },
  "source": {
@@ -85,5 +139,17 @@
    "id": "2915",
    "image": "847a10e09b44fbc9.jpg"
   }
- }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/zvuc/otoge-db/master/chunithm/jacket/847a10e09b44fbc9.jpg",
+   "sha256": "74ed5fc899a1e88184dd4b40d41c37400f4043f061a3938a2cdc10ea71364ed7",
+   "width": 190,
+   "height": 190,
+   "bytes": 25136
+  }
+ },
+ "extra": {}
 }

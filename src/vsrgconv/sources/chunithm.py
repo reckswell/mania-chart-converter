@@ -1,12 +1,15 @@
 """Chunithm sources.
 
-- `OtogeDbChunithm`: song catalog from otoge-db (GitHub zvuc/otoge-db `chunithm/data/music-ex.json`): genres, levels,
-  chart constants, designers and **per-type note counts**. Reachable from anywhere; this is the catalog's backbone.
+- `OtogeDbChunithm`: song catalog from otoge-db (GitHub zvuc/otoge-db `chunithm/data/music-ex.json`, plus
+  `music-ex-deleted.json` for songs removed from the game): genres, levels, chart constants, designers, **per-type
+  note counts** and the jacket file name. Reachable from anywhere; this is the catalog's backbone.
+- MarisaBot's copy of the game's own chart files (.c2s, exact; GitHub QingQiz/MarisaBot): the notes, parsed by
+  `formats/c2s.py`. Covers every song up to X-VERSE-X; see docs/sources/chunithm-c2s.md.
 - `SdvxinChunithm`: sdvx.in's chart pictures (CHUNITHM譜面保管所). Its JSON song lists give sdvx.in's own ids, which
-  name the picture layers; the pictures are read by `imaging/` into notes.
+  name the picture layers; the pictures are read by `imaging/` into notes. Fallback for charts with no .c2s.
 
-`build_catalog` merges the two by normalised title (sdvx.in and SEGA spell some titles differently; see TITLE_FIXES).
-Details and the URL scheme: docs/sources/chunithm-sdvxin.md.
+`build_catalog` merges otoge-db and sdvx.in by normalised title (sdvx.in and SEGA spell some titles differently; see
+TITLE_FIXES). Details and the URL scheme: docs/sources/chunithm-sdvxin.md.
 """
 from __future__ import annotations
 
@@ -22,7 +25,16 @@ from ..model import BpmChange, Chart, ChartMeta, MeterChange, TimingMap
 from .base import SourceAdapter
 from .fetch import Fetcher, NotFound
 
-OTOGE_DB_URL = "https://raw.githubusercontent.com/zvuc/otoge-db/master/chunithm/data/music-ex.json"
+OTOGE_DB = "https://raw.githubusercontent.com/zvuc/otoge-db/master/chunithm/"
+OTOGE_DB_URL = OTOGE_DB + "data/music-ex.json"
+OTOGE_DB_DELETED_URL = OTOGE_DB + "data/music-ex-deleted.json"
+OTOGE_DB_JACKET = OTOGE_DB + "jacket/"
+MARISA_C2S = ("https://raw.githubusercontent.com/QingQiz/MarisaBot/master/Marisa.Frontend/public/assets/chunithm/"
+              "chart/{id:04d}_{dd:02d}.c2s")
+C2S_DIFFICULTY = {"normal": 0, "hard": 1, "expert": 2, "master": 3, "extra": 4, "special": 5}
+# Merged sdvx.in pictures (MASTER, ULTIMA, WORLD'S END only), for charts no .c2s covers yet
+PUNIPU2_PICTURE = "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/{ref}.png"
+PUNIPU2_KEYS = {"master": "mst", "extra": "ult", "special": "we"}
 SDVXIN = "https://sdvx.in"
 SDVXIN_JSON = SDVXIN + "/chunithm/_/json/"
 SDVXIN_EXTRA_LISTS = ["songs_del.json", "songs_we.json", "songs_wedel.json", "songs_wecourse.json", "songs_weuso.json"]
@@ -47,6 +59,13 @@ class OtogeDbChunithm(SourceAdapter):
         rows = json.loads(self.fetcher.get(self.url))
         for row in rows:
             yield otogedb_record(row)
+
+    def list_removed(self) -> Iterable[SongRecord]:
+        """Songs SEGA has removed from the game (otoge-db keeps them in a separate file)."""
+        for row in json.loads(self.fetcher.get(OTOGE_DB_DELETED_URL)):
+            rec = otogedb_record(row)
+            rec.extra["removed"] = True
+            yield rec
 
 
 def otogedb_record(row: dict[str, Any]) -> SongRecord:
@@ -263,3 +282,96 @@ def _is_number(v: Any) -> bool:
         return True
     except (TypeError, ValueError):
         return False
+
+
+# ------------------------------------------------------------------------------------------------ registry
+
+def _catalog(fetcher: Fetcher) -> tuple[list[SongRecord], dict[str, Any]]:
+    from .fetch import FetchError
+
+    otoge = OtogeDbChunithm(fetcher)
+    primary = list(otoge.list_songs())
+    current_ids = {s.song_id for s in primary}
+    removed_rows = list(otoge.list_removed())
+    removed = [s for s in removed_rows if s.song_id not in current_ids]
+    sdvx: list[SongRecord] = []
+    note = ""
+    try:
+        sdvx = list(SdvxinChunithm(fetcher).list_songs())
+    except FetchError as e:
+        note = f"sdvx.in song lists unavailable ({e}); sdvx.in ids come from otoge-db chart links"
+    songs, unmatched = build_catalog(primary + removed, sdvx)
+    for song in songs:
+        _add_picture_refs(song)
+    return songs, {"otogedb_rows": len(primary), "removed_rows": len(removed_rows),
+                   "removed_songs": len({s.song_id for s in removed}), "sdvxin_rows": len(sdvx),
+                   "sdvxin_unmatched": len(unmatched), "unmatched_sample": unmatched[:20], "note": note}
+
+
+def _add_picture_refs(song: SongRecord) -> None:
+    """Record where each chart's sdvx.in picture is (otoge-db's chart link "09/09001mst" is the sdvx.in id + key)."""
+    for slot, cr in song.charts.items():
+        link = cr.source.get("sdvxin_legacy", "")
+        key = PUNIPU2_KEYS.get(slot)
+        if link and key:
+            ref = link.rsplit("/", 1)[-1]
+            sid = re.sub(r"[a-z]+$", "", ref)
+            cr.source["picture"] = PUNIPU2_PICTURE.format(ref=f"{sid}{key}")
+
+
+def c2s_url(song: SongRecord, slot: str) -> str | None:
+    base = slot.split("-")[0]
+    if base not in C2S_DIFFICULTY or not song.song_id.isdigit() or slot != base:
+        return None
+    return MARISA_C2S.format(id=int(song.song_id), dd=C2S_DIFFICULTY[base])
+
+
+def chart_from_c2s(fetcher: Fetcher, song: SongRecord, slot: str) -> Chart | None:
+    from ..formats.c2s import c2s_to_chart
+
+    url = c2s_url(song, slot)
+    if url is None:
+        return None
+    try:
+        text = fetcher.get(url).decode("utf-8-sig", errors="replace")
+    except NotFound:
+        return None
+    if text.startswith("404"):
+        return None
+    meta = chart_meta(song, slot)
+    meta.source.update({"extracted_from": "marisabot-c2s", "url": url})
+    chart = c2s_to_chart(text, meta)
+    published = sum(song.charts[slot].note_counts.values())
+    combo = chart.meta.source.get("c2s_totals", {}).get("T_JUDGE_ALL", "")
+    if published and combo.isdigit() and int(combo) != published:
+        chart.warnings.append(f"combo {combo} in the .c2s differs from the published note count {published} "
+                              f"(chart revised since this file?)")
+    return chart
+
+
+def _chart(fetcher: Fetcher, song: SongRecord, slot: str) -> Chart | None:
+    chart = chart_from_c2s(fetcher, song, slot)
+    if chart is not None:
+        return chart
+    if song.charts.get(slot) and song.charts[slot].source.get("sdvxin"):
+        return SdvxinChunithm(fetcher).fetch_chart(song, slot)
+    return None
+
+
+def _jacket(fetcher: Fetcher, song: SongRecord) -> tuple[bytes, str, str] | None:
+    image = song.source.get("otogedb", {}).get("image", "")
+    if not image:
+        return None
+    url = OTOGE_DB_JACKET + image
+    return fetcher.get(url), image.rsplit(".", 1)[-1], url
+
+
+def _register() -> None:
+    from . import GameSource, register
+
+    register(GameSource(game="chunithm", catalog=_catalog, chart=_chart, jacket=_jacket,
+                        notes="catalog: otoge-db (+ removed songs, + sdvx.in lists); charts: MarisaBot .c2s, "
+                              "else sdvx.in pictures; jackets: otoge-db"))
+
+
+_register()

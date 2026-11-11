@@ -84,7 +84,7 @@ BPM changes are drawn as text and are **not read**. Songs with variable BPM get 
 Any of these fills `data/cache/sdvx.in/...` (it mirrors URL paths), after which every command works with `--offline`:
 
 1. **Run on the PC** (recommended). A Remote Control session runs `python -m vsrgconv catalog chunithm` and
-   `extract` there with the PC's own network, then commits the extracted `*.chart.json` files (not the pictures).
+   `extract` there with the PC's own network, then commits the extracted `*.chart.json.gz` files (not the pictures).
 2. Save the files from a browser into the matching cache paths.
 3. Give the cloud environment network access to `sdvx.in` (environment network settings).
 

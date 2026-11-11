@@ -22,9 +22,22 @@
     "slide": 66,
     "air": 56
    },
-   "source": {},
-   "status": "listed",
-   "notes": ""
+   "source": {
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "tap": 138,
+      "hold": 24,
+      "air": 20,
+      "ex_tap": 34,
+      "slide": 17,
+      "air_hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
   },
   "hard": {
    "slot": "hard",
@@ -38,9 +51,22 @@
     "slide": 263,
     "air": 28
    },
-   "source": {},
-   "status": "listed",
-   "notes": ""
+   "source": {
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "tap": 273,
+      "ex_tap": 83,
+      "slide": 54,
+      "air": 4,
+      "hold": 7,
+      "air_hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 exact duplicate lines ignored",
+   "assets": {}
   },
   "expert": {
    "slot": "expert",
@@ -55,10 +81,22 @@
     "air": 229
    },
    "source": {
-    "sdvxin_legacy": "08/08049exp"
+    "sdvxin_legacy": "08/08049exp",
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "slide": 109,
+      "tap": 209,
+      "hold": 44,
+      "air": 34,
+      "ex_tap": 143,
+      "air_hold": 64
+     }
+    }
    },
-   "status": "listed",
-   "notes": ""
+   "status": "extracted",
+   "notes": "1 exact duplicate lines ignored",
+   "assets": {}
   },
   "master": {
    "slot": "master",
@@ -74,10 +112,25 @@
     "flick": 122
    },
    "source": {
-    "sdvxin_legacy": "08/08049mst"
+    "sdvxin_legacy": "08/08049mst",
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/08049mst.png",
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "tap": 474,
+      "air_hold": 110,
+      "air": 174,
+      "ex_tap": 177,
+      "slide": 120,
+      "hold": 75,
+      "flick": 122,
+      "other": 16
+     }
+    }
    },
-   "status": "listed",
-   "notes": ""
+   "status": "extracted",
+   "notes": "9 exact duplicate lines ignored",
+   "assets": {}
   }
  },
  "source": {
@@ -85,5 +138,17 @@
    "id": "2383",
    "image": "077db7439a965fc2.jpg"
   }
- }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/zvuc/otoge-db/master/chunithm/jacket/077db7439a965fc2.jpg",
+   "sha256": "c91bfc017f7a8b592098a47520ca8c682b3c763cf61bea56cd6907783e8bb4c5",
+   "width": 190,
+   "height": 190,
+   "bytes": 28273
+  }
+ },
+ "extra": {}
 }

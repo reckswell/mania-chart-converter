@@ -6,6 +6,7 @@ cannot reach sdvx.in, so this is how its data gets in (docs/sources/chunithm-sdv
 """
 from __future__ import annotations
 
+import threading
 import time
 import urllib.error
 import urllib.parse
@@ -35,6 +36,7 @@ class Fetcher:
         self.user_agent = user_agent
         self.timeout = timeout
         self._last = 0.0
+        self._lock = threading.Lock()   # the request interval is shared by threads (scrape --workers)
         self._opener = urllib.request.build_opener(_NoRedirect)
 
     def cache_path(self, url: str) -> Path:
@@ -50,7 +52,9 @@ class Fetcher:
             return p.read_bytes()
         if self.offline:
             raise NotFound(f"offline and not cached: {url} (expected at {p})")
-        wait = self.min_interval - (time.monotonic() - self._last)
+        with self._lock:
+            wait = self.min_interval - (time.monotonic() - self._last)
+            self._last = time.monotonic() + max(wait, 0)
         if wait > 0:
             time.sleep(wait)
         req = urllib.request.Request(url, headers={"User-Agent": self.user_agent})
@@ -61,10 +65,8 @@ class Fetcher:
             if e.code in (301, 302, 303, 307, 308, 404):
                 raise NotFound(f"{url}: HTTP {e.code}") from None
             raise FetchError(f"{url}: HTTP {e.code}") from None
-        except urllib.error.URLError as e:
-            raise FetchError(f"{url}: {e.reason}") from None
-        finally:
-            self._last = time.monotonic()
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+            raise FetchError(f"{url}: {getattr(e, 'reason', e)}") from None
         p.parent.mkdir(parents=True, exist_ok=True)
         p.write_bytes(data)
         return data

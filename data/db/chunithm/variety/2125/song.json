@@ -22,9 +22,22 @@
     "slide": 114,
     "air": 58
    },
-   "source": {},
-   "status": "listed",
-   "notes": ""
+   "source": {
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "tap": 88,
+      "hold": 28,
+      "air": 24,
+      "ex_tap": 10,
+      "slide": 30,
+      "air_hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
   },
   "hard": {
    "slot": "hard",
@@ -38,9 +51,22 @@
     "slide": 214,
     "air": 118
    },
-   "source": {},
-   "status": "listed",
-   "notes": ""
+   "source": {
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "hold": 50,
+      "air_hold": 30,
+      "slide": 65,
+      "tap": 140,
+      "air": 15,
+      "ex_tap": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "8 exact duplicate lines ignored",
+   "assets": {}
   },
   "expert": {
    "slot": "expert",
@@ -55,10 +81,22 @@
     "air": 256
    },
    "source": {
-    "sdvxin_legacy": "07/07093exp"
+    "sdvxin_legacy": "07/07093exp",
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "hold": 43,
+      "slide": 82,
+      "air_hold": 62,
+      "ex_tap": 109,
+      "tap": 235,
+      "air": 17
+     }
+    }
    },
-   "status": "listed",
-   "notes": ""
+   "status": "extracted",
+   "notes": "7 exact duplicate lines ignored",
+   "assets": {}
   },
   "master": {
    "slot": "master",
@@ -74,10 +112,25 @@
     "flick": 50
    },
    "source": {
-    "sdvxin_legacy": "07/07093mst"
+    "sdvxin_legacy": "07/07093mst",
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/07093mst.png",
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "tap": 603,
+      "hold": 27,
+      "air": 220,
+      "other": 117,
+      "air_hold": 122,
+      "ex_tap": 106,
+      "slide": 49,
+      "flick": 50
+     }
+    }
    },
-   "status": "listed",
-   "notes": ""
+   "status": "extracted",
+   "notes": "13 exact duplicate lines ignored; combo 1650 in the .c2s differs from the published note count 1670 (chart revised since this file?)",
+   "assets": {}
   }
  },
  "source": {
@@ -85,5 +138,17 @@
    "id": "2125",
    "image": "15cf32cc41aad4c9.jpg"
   }
- }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/zvuc/otoge-db/master/chunithm/jacket/15cf32cc41aad4c9.jpg",
+   "sha256": "5256d99cf3f9c7b96afd24eb185f09666072b47ce6a654a01628a47570db5af2",
+   "width": 190,
+   "height": 190,
+   "bytes": 24065
+  }
+ },
+ "extra": {}
 }

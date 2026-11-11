@@ -220,4 +220,85 @@ def test_cli_demo(tmp_path, capsys):
     assert main(["--db", str(tmp_path / "db"), "demo", "--out", str(tmp_path / "out")]) == 0
     out = json.loads(capsys.readouterr().out)
     assert out["lint"]["ok"] and Path(out["osu"]).exists()
-    assert (tmp_path / "db" / "chunithm" / "original" / "demo-synthetic-demo" / "master.chart.json").exists()
+    assert (tmp_path / "db" / "chunithm" / "original" / "demo-synthetic-demo" / "master.chart.json.gz").exists()
+
+
+def test_save_asset_shrinks_and_records(tmp_path):
+    from io import BytesIO
+
+    from PIL import Image
+
+    db = ChartDB(tmp_path)
+    db.upsert_song(song())
+    buf = BytesIO()
+    Image.new("RGB", (1000, 800), (200, 10, 10)).save(buf, "PNG")
+    a = db.save_asset("chunithm", "t1", "jacket", buf.getvalue(), ext="png", url="https://x/j.png", max_size=256)
+    assert a.file == "assets/jacket.jpg" and (a.width, a.height) == (256, 205)
+    rec = db.get_song("chunithm", "t1")
+    assert rec.assets["jacket"].url == "https://x/j.png" and db.asset_path(rec, "jacket").exists()
+    db.upsert_song(song())                       # re-cataloguing keeps the asset
+    assert "jacket" in db.get_song("chunithm", "t1").assets
+
+
+# ---------------------------------------------------------------- Chunithm .c2s
+
+def test_c2s_parses_every_note_type():
+    from vsrgconv.formats.c2s import c2s_to_chart
+
+    c = c2s_to_chart((FIX / "sample.c2s").read_text("utf-8"), ChartMeta(game="chunithm", song_id="t1", title="T",
+                                                                        difficulty="master"))
+    assert c.lanes == 16 and c.meta.designer == "Tester"
+    assert [(b.beat, b.bpm) for b in c.timing.bpms] == [(0, 150.0), (16, 300.0)]
+    assert [(m.beat, m.numerator) for m in c.timing.meters] == [(0, 4), (8, 3)]
+    assert c.timing.scrolls[0].speed == 0.5 and c.timing.scrolls[1].beat == Fraction(6)
+    kinds = c.count_by_kind()
+    assert kinds == {"tap": 1, "ex_tap": 1, "flick": 1, "mine": 1, "hold": 2, "slide": 2, "air": 2, "air_hold": 3,
+                     "other": 2}
+    slides = [n for n in c.notes if n.kind is NoteKind.SLIDE]
+    chained = next(n for n in slides if n.lane == 2)          # SLD + SLC + SLD (duplicate SLC dropped)
+    assert chained.beat == 12 and chained.duration == 2 and [p.lane for p in chained.path] == [2, 6, 6]
+    assert [p.easing for p in chained.path] == ["linear", "control", "linear"]
+    air = next(n for n in c.notes if n.kind is NoteKind.AIR_HOLD and n.extra.get("air_slide"))
+    assert air.duration == 2 and air.extra["heights"] == [1.0, 3.0, 5.0] and air.path[-1].lane == 4
+    hold = next(n for n in c.notes if n.kind is NoteKind.HOLD and n.extra.get("ex_start"))
+    assert hold.lane == 14 and hold.duration == 1
+    assert "1 exact duplicate lines ignored" in c.warnings
+    assert c.meta.source["c2s_totals"]["T_JUDGE_ALL"] == "21"
+    assert c.meta.source["c2s_unrepresented"] == ["SLP\t1\t0\t384\t2.000000\t0"]
+
+
+def test_chunithm_chart_source_uses_c2s_and_checks_counts(tmp_path):
+    from vsrgconv.sources.chunithm import _jacket, c2s_url, chart_from_c2s
+
+    rec = otogedb_record(json.loads((FIX / "otogedb_sample.json").read_text("utf-8"))[0])
+    assert c2s_url(rec, "master").endswith("/chunithm/chart/2490_03.c2s")
+    assert c2s_url(rec, "special-2") is None
+    f = Fetcher(tmp_path / "cache", offline=True)
+    p = f.cache_path(c2s_url(rec, "master"))
+    p.parent.mkdir(parents=True)
+    p.write_bytes((FIX / "sample.c2s").read_bytes())
+    chart = chart_from_c2s(f, rec, "master")
+    assert chart.meta.source["extracted_from"] == "marisabot-c2s" and chart.meta.level == rec.charts["master"].level
+    assert any("differs from the published note count" in w for w in chart.warnings)
+    assert chart_from_c2s(f, rec, "expert") is None          # not cached offline -> no chart, no crash
+    jp = f.cache_path("https://raw.githubusercontent.com/zvuc/otoge-db/master/chunithm/jacket/"
+                      + rec.source["otogedb"]["image"])
+    jp.parent.mkdir(parents=True)
+    jp.write_bytes(b"jpg")
+    assert _jacket(f, rec)[1] == "jpg"
+
+
+def test_charts_are_stored_gzipped_and_round_trip(tmp_path):
+    from vsrgconv.formats.c2s import c2s_to_chart
+
+    db = ChartDB(tmp_path)
+    db.upsert_song(song())
+    c = c2s_to_chart((FIX / "sample.c2s").read_text("utf-8"), ChartMeta(game="chunithm", song_id="t1", title="Test",
+                                                                        difficulty="master", difficulty_native="MASTER"))
+    p = db.save_chart(c)
+    assert p.name == "master.chart.json.gz" and db.has_chart("chunithm", "t1", "master")
+    assert db.save_chart(c).read_bytes() == p.read_bytes()      # deterministic bytes
+    back = db.load_chart("chunithm", "t1", "master")
+    assert back.to_dict() == c.to_dict()
+    rec = db.get_song("chunithm", "t1").charts["master"]
+    assert rec.status == "extracted" and rec.source["extracted"]["counts"]["slide"] == 2

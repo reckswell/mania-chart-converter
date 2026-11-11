@@ -22,9 +22,22 @@
     "slide": 104,
     "air": 52
    },
-   "source": {},
-   "status": "listed",
-   "notes": ""
+   "source": {
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "tap": 140,
+      "hold": 24,
+      "air": 20,
+      "ex_tap": 11,
+      "slide": 24,
+      "air_hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
   },
   "hard": {
    "slot": "hard",
@@ -38,9 +51,22 @@
     "slide": 274,
     "air": 74
    },
-   "source": {},
-   "status": "listed",
-   "notes": ""
+   "source": {
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "hold": 30,
+      "air_hold": 7,
+      "tap": 237,
+      "slide": 72,
+      "ex_tap": 21,
+      "air": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "5 exact duplicate lines ignored",
+   "assets": {}
   },
   "expert": {
    "slot": "expert",
@@ -55,10 +81,23 @@
     "air": 212
    },
    "source": {
-    "sdvxin_legacy": "09/09055exp"
+    "sdvxin_legacy": "09/09055exp",
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "hold": 36,
+      "air_hold": 33,
+      "tap": 419,
+      "slide": 67,
+      "air": 53,
+      "ex_tap": 56,
+      "other": 6
+     }
+    }
    },
-   "status": "listed",
-   "notes": ""
+   "status": "extracted",
+   "notes": "2 exact duplicate lines ignored",
+   "assets": {}
   },
   "master": {
    "slot": "master",
@@ -74,10 +113,25 @@
     "flick": 39
    },
    "source": {
-    "sdvxin_legacy": "09/09055mst"
+    "sdvxin_legacy": "09/09055mst",
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/09055mst.png",
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "other": 22,
+      "hold": 49,
+      "flick": 39,
+      "tap": 721,
+      "slide": 93,
+      "air": 210,
+      "ex_tap": 94,
+      "air_hold": 47
+     }
+    }
    },
-   "status": "listed",
-   "notes": ""
+   "status": "extracted",
+   "notes": "104 exact duplicate lines ignored",
+   "assets": {}
   }
  },
  "source": {
@@ -85,5 +139,17 @@
    "id": "2500",
    "image": "2aa0e4f4f579e4ff.jpg"
   }
- }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/zvuc/otoge-db/master/chunithm/jacket/2aa0e4f4f579e4ff.jpg",
+   "sha256": "e0543a4bec65df1c85c7486ee7fc94f897e71f930bb45ba4f1a9667c2a1017b9",
+   "width": 190,
+   "height": 190,
+   "bytes": 14702
+  }
+ },
+ "extra": {}
 }

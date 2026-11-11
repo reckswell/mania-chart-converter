@@ -11,9 +11,10 @@
 - Tests: `python -m pytest -q`. The demo (`python -m vsrgconv --db /tmp/d demo --out /tmp/o`) must stay lint-clean.
   Never skip or weaken a test to pass.
 - Data:
-  - commit `data/db` (catalog and extracted `*.chart.json`);
+  - commit `data/db` (catalog, extracted `*.chart.json.gz`, jackets shrunk to ≤512 px);
   - never commit `data/cache` (downloaded pictures, audio) or `out/`.
-- Network: the cloud machine cannot reach sdvx.in, osu.ppy.sh or YouTube. GitHub raw files (osu-wiki, otoge-db) work.
+- Network: the cloud machine cannot reach sdvx.in, osu.ppy.sh or YouTube. GitHub raw files (osu-wiki, otoge-db,
+  MarisaBot) work. Chunithm notes come from exact .c2s files (docs/sources/chunithm-c2s.md); sdvx.in is the fallback.
   Work that needs those sites runs on Alpha's PC (see docs/sources/chunithm-sdvxin.md). Record what is waiting for
   the PC in `agent/LOG.md`.
 - The orthomania game repo (for playtests) is `Reckswell/osu`, cloned on the PC at `Documents\Projects\osu!\ortho`. Its

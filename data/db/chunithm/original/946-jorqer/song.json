@@ -22,9 +22,22 @@
     "slide": 212,
     "air": 56
    },
-   "source": {},
-   "status": "listed",
-   "notes": ""
+   "source": {
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "tap": 104,
+      "hold": 28,
+      "air": 24,
+      "slide": 39,
+      "ex_tap": 13,
+      "air_hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
   },
   "hard": {
    "slot": "hard",
@@ -38,9 +51,22 @@
     "slide": 334,
     "air": 167
    },
-   "source": {},
-   "status": "listed",
-   "notes": ""
+   "source": {
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "tap": 231,
+      "hold": 24,
+      "air": 28,
+      "slide": 49,
+      "air_hold": 22,
+      "ex_tap": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 exact duplicate lines ignored",
+   "assets": {}
   },
   "expert": {
    "slot": "expert",
@@ -55,10 +81,22 @@
     "air": 166
    },
    "source": {
-    "sdvxin_legacy": "05/05136exp"
+    "sdvxin_legacy": "05/05136exp",
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "slide": 38,
+      "tap": 323,
+      "air": 45,
+      "ex_tap": 204,
+      "hold": 98,
+      "air_hold": 28
+     }
+    }
    },
-   "status": "listed",
-   "notes": ""
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
   },
   "master": {
    "slot": "master",
@@ -74,10 +112,24 @@
     "flick": 30
    },
    "source": {
-    "sdvxin_legacy": "05/05136mst"
+    "sdvxin_legacy": "05/05136mst",
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/05136mst.png",
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "tap": 696,
+      "slide": 85,
+      "ex_tap": 142,
+      "hold": 84,
+      "air": 150,
+      "air_hold": 29,
+      "flick": 30
+     }
+    }
    },
-   "status": "listed",
-   "notes": ""
+   "status": "extracted",
+   "notes": "15 exact duplicate lines ignored",
+   "assets": {}
   }
  },
  "source": {
@@ -85,5 +137,17 @@
    "id": "946",
    "image": "80fe7c7b9487a065.jpg"
   }
- }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/zvuc/otoge-db/master/chunithm/jacket/80fe7c7b9487a065.jpg",
+   "sha256": "fefcc515b35636e309ea488960b2e22c5c4b7c7cd6419c45a1dfbc73e48f8218",
+   "width": 190,
+   "height": 190,
+   "bytes": 13768
+  }
+ },
+ "extra": {}
 }

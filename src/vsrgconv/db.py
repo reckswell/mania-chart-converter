@@ -3,8 +3,11 @@
 Layout (all paths under `root`, default `data/db`):
 
     <game>/index.json                          song_id -> "<genre-slug>/<song-dir>" (fast lookup, rebuildable)
-    <game>/<genre-slug>/<song_id>-<slug>/song.json         SongRecord: metadata + every chart's metadata
-    <game>/<genre-slug>/<song_id>-<slug>/<slot>.chart.json  the chart's notes in the intermediate format (model.py)
+    <game>/<genre-slug>/<song_id>-<slug>/
+        song.json            SongRecord: metadata + every chart's metadata
+        <slot>.chart.json.gz the chart's notes in the intermediate format (model.py), gzipped JSON (`zcat` to read;
+                             a plain .chart.json also loads)
+        assets/<name>.<ext>  images: jacket, chart pictures (see AssetRecord)
 
 `<slot>` is the canonical ladder name (normal, hard, expert, master, extra, special ...), so every game's files are named
 the same way; the native name ("ADVANCED", "EXHAUST", ...) is inside the record. A song's chart starts as metadata only
@@ -16,12 +19,25 @@ from __future__ import annotations
 
 import json
 import sqlite3
-from dataclasses import asdict, dataclass, field
+from dataclasses import asdict, dataclass, field, fields
 from pathlib import Path
 from typing import Any, Iterator
 
 from .games.registry import LADDER, genre_slug, slugify
 from .model import Chart
+
+
+@dataclass
+class AssetRecord:
+    """An image (or other file) stored in the song's folder under assets/."""
+
+    file: str                       # path relative to the song folder, e.g. "assets/jacket.jpg"
+    kind: str = "jacket"            # jacket | chart-picture | background | other
+    url: str = ""                   # where it came from
+    sha256: str = ""
+    width: int | None = None
+    height: int | None = None
+    bytes: int | None = None
 
 
 @dataclass
@@ -35,6 +51,7 @@ class ChartRecord:
     source: dict[str, Any] = field(default_factory=dict)
     status: str = "listed"          # listed | not-drawn | extracted | converted | failed
     notes: str = ""                 # free text: why a status is what it is
+    assets: dict[str, AssetRecord] = field(default_factory=dict)   # e.g. sdvx.in chart pictures
 
 
 @dataclass
@@ -51,6 +68,8 @@ class SongRecord:
     date_added: str = ""
     charts: dict[str, ChartRecord] = field(default_factory=dict)
     source: dict[str, Any] = field(default_factory=dict)
+    assets: dict[str, AssetRecord] = field(default_factory=dict)    # e.g. "jacket"
+    extra: dict[str, Any] = field(default_factory=dict)             # game-specific metadata
 
     @property
     def genre_slug(self) -> str:
@@ -69,12 +88,18 @@ class SongRecord:
     @classmethod
     def from_dict(cls, d: dict[str, Any]) -> "SongRecord":
         d = dict(d)
-        charts = {k: ChartRecord(**v) for k, v in d.pop("charts", {}).items()}
-        return cls(**d, charts=charts)
+        charts = {}
+        for k, v in d.pop("charts", {}).items():
+            v = dict(v)
+            v["assets"] = {a: AssetRecord(**x) for a, x in v.get("assets", {}).items()}
+            charts[k] = ChartRecord(**v)
+        assets = {a: AssetRecord(**x) for a, x in d.pop("assets", {}).items()}
+        return cls(**d, charts=charts, assets=assets)
 
     def merge(self, other: "SongRecord") -> "SongRecord":
         """Fields from `other` win when set; charts merge per slot, keeping extraction status already reached."""
-        for k, v in asdict(other).items():
+        for f in fields(other):
+            k, v = f.name, getattr(other, f.name)
             if k in ("charts", "game", "song_id"):
                 continue
             if v not in ("", None, {}, []):
@@ -88,7 +113,8 @@ class SongRecord:
                 self.charts[slot] = rec
                 continue
             keep_status = mine.status if _status_rank(mine.status) > _status_rank(rec.status) else rec.status
-            for k, v in asdict(rec).items():
+            for f in fields(rec):
+                k, v = f.name, getattr(rec, f.name)
                 if v not in ("", None, {}, []):
                     if isinstance(v, dict):
                         getattr(mine, k).update(v)
@@ -96,6 +122,22 @@ class SongRecord:
                         setattr(mine, k, v)
             mine.status = keep_status
         return self
+
+
+def _shrink_image(data: bytes, max_size: int) -> tuple[bytes, int, int]:
+    """JPEG at most `max_size` px on the long side. A JPEG that already fits is kept byte for byte."""
+    from io import BytesIO
+
+    from PIL import Image  # optional dependency: pip install vsrgconv[images]
+
+    with Image.open(BytesIO(data)) as im:
+        if im.format == "JPEG" and max(im.size) <= max_size:
+            return data, im.width, im.height
+        im = im.convert("RGB")
+        im.thumbnail((max_size, max_size))
+        out = BytesIO()
+        im.save(out, "JPEG", quality=88, optimize=True)
+        return out.getvalue(), im.width, im.height
 
 
 def _slot_order(slot: str) -> int:
@@ -173,26 +215,79 @@ class ChartDB:
 
     # ---- charts ----
     def chart_path(self, game: str, song_id: str, slot: str) -> Path:
+        """Where a chart is stored: `<slot>.chart.json.gz` (an older plain `<slot>.chart.json` is used if present)."""
         rel = self._index(game).get(song_id)
         if rel is None:
             raise KeyError(f"{game}/{song_id} is not in the database")
-        return self.root / game / rel / f"{slot}.chart.json"
+        plain = self.root / game / rel / f"{slot}.chart.json"
+        return plain if plain.exists() else plain.with_name(plain.name + ".gz")
+
+    def has_chart(self, game: str, song_id: str, slot: str) -> bool:
+        try:
+            return self.chart_path(game, song_id, slot).exists()
+        except KeyError:
+            return False
 
     def save_chart(self, chart: Chart, status: str = "extracted") -> Path:
+        import gzip
+
         m = chart.meta
         p = self.chart_path(m.game, m.song_id, m.difficulty)
-        p.write_text(chart.to_json(indent=0) + "\n", "utf-8")
+        if p.suffix != ".gz":
+            p.unlink()
+            p = p.with_name(p.name + ".gz")
+        # mtime=0 so the same chart always gives the same bytes (clean git diffs)
+        p.write_bytes(gzip.compress(chart.to_json(separators=(",", ":")).encode("utf-8") + b"\n", mtime=0))
         rec = self.get_song(m.game, m.song_id)
         if rec is not None:
             cr = rec.charts.setdefault(m.difficulty, ChartRecord(slot=m.difficulty, native=m.difficulty_native))
             cr.status = status
             cr.notes = "; ".join(chart.warnings)[:500]
+            cr.source["extracted"] = {"from": m.source.get("extracted_from", ""), "counts": chart.count_by_kind()}
             (p.parent / "song.json").write_text(json.dumps(rec.to_dict(), ensure_ascii=False, indent=1) + "\n",
                                                 "utf-8")
         return p
 
     def load_chart(self, game: str, song_id: str, slot: str) -> Chart:
-        return Chart.from_json(self.chart_path(game, song_id, slot).read_text("utf-8"))
+        import gzip
+
+        p = self.chart_path(game, song_id, slot)
+        data = p.read_bytes()
+        return Chart.from_json((gzip.decompress(data) if p.suffix == ".gz" else data).decode("utf-8"))
+
+    # ---- assets (images) ----
+    def save_asset(self, game: str, song_id: str, name: str, data: bytes, *, ext: str = "", url: str = "",
+                   kind: str = "jacket", slot: str | None = None, max_size: int | None = 512) -> AssetRecord:
+        """Store an image in the song's assets/ folder and record it in song.json (on the chart if `slot`).
+
+        Images are re-encoded to JPEG at most `max_size` px on the long side (None keeps the original bytes), so a
+        full catalog of jackets stays small enough to commit. The source URL is kept for the full-size original."""
+        import hashlib
+
+        rec = self.get_song(game, song_id)
+        if rec is None:
+            raise KeyError(f"{game}/{song_id} is not in the database")
+        width = height = None
+        if max_size is not None:
+            data, width, height = _shrink_image(data, max_size)
+            ext = "jpg"
+        ext = (ext or "bin").lstrip(".")
+        rel = f"assets/{name}.{ext}"
+        folder = self.song_dir(rec)
+        (folder / "assets").mkdir(parents=True, exist_ok=True)
+        (folder / rel).write_bytes(data)
+        asset = AssetRecord(file=rel, kind=kind, url=url, sha256=hashlib.sha256(data).hexdigest(), width=width,
+                            height=height, bytes=len(data))
+        if slot is None:
+            rec.assets[name] = asset
+        else:
+            rec.charts[slot].assets[name] = asset
+        (folder / "song.json").write_text(json.dumps(rec.to_dict(), ensure_ascii=False, indent=1) + "\n", "utf-8")
+        return asset
+
+    def asset_path(self, rec: SongRecord, name: str) -> Path | None:
+        a = rec.assets.get(name)
+        return self.song_dir(rec) / a.file if a else None
 
     # ---- query index ----
     def build_sqlite(self, path: str | Path) -> Path:

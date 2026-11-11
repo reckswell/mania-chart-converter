@@ -206,7 +206,9 @@ class Chart:
 
     # ---- JSON (de)serialisation; fractions are written as "n/d" strings ----
     def to_dict(self) -> dict[str, Any]:
-        return _encode(asdict(self))
+        d = _encode(asdict(self))
+        d["notes"] = [_compact_note(n) for n in d["notes"]]
+        return d
 
     def to_json(self, **kw: Any) -> str:
         return json.dumps(self.to_dict(), ensure_ascii=False, **kw)
@@ -244,6 +246,18 @@ class Chart:
 
 def _frac(v: Any) -> Fraction:
     return Fraction(v) if not isinstance(v, Fraction) else v
+
+
+NOTE_DEFAULTS = {"width": 1.0, "kind": "tap", "duration": "0", "path": [], "extra": {}}
+POINT_DEFAULTS = {"width": 1.0, "easing": "linear"}
+
+
+def _compact_note(n: dict[str, Any]) -> dict[str, Any]:
+    """Leave out fields at their default value; `from_dict` fills them back in. Keeps big charts small on disk."""
+    out = {k: v for k, v in n.items() if NOTE_DEFAULTS.get(k, object()) != v}
+    if "path" in out:
+        out["path"] = [{k: v for k, v in p.items() if POINT_DEFAULTS.get(k, object()) != v} for p in out["path"]]
+    return out
 
 
 def _encode(v: Any) -> Any:
