@@ -91,7 +91,11 @@ def c2s_to_chart(text: str, meta: ChartMeta) -> Chart:
             if tag == "BPM":
                 timing.bpms.append(BpmChange(b, float(row[3])))
             elif tag == "MET":
-                timing.meters.append(MeterChange(b, numerator=int(row[4]), denominator=int(row[3])))
+                den, num = int(row[3]), int(row[4])
+                if den > 0 and num > 0:
+                    timing.meters.append(MeterChange(b, numerator=num, denominator=den))
+                else:     # "MET 117 0 0 0": a zero time signature (24 charts) changes nothing; the old one stays
+                    warnings.append(f"MET {num}/{den} at tick {t} ignored")
             elif tag in ("SFL", "DCM"):
                 dur = int(row[3])
                 timing.scrolls += [ScrollChange(b, float(row[4])), ScrollChange(beat(t + dur), 1.0)]

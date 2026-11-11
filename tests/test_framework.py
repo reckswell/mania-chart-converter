@@ -347,3 +347,13 @@ def test_ms_lookup_matches_ms_at():
     beats += [Fraction(b) for b in (0, 2, 4, 6, 7, 8, 20, 21, 30, 40, 41, 42, 43, 44)]
     for b in beats:
         assert abs(ms(b) - t.ms_at(b)) < 1e-6, b
+
+
+def test_c2s_ignores_zero_time_signatures():
+    from vsrgconv.formats.c2s import c2s_to_chart
+
+    text = (FIX / "sample.c2s").read_text("utf-8") + "MET\t3\t0\t0\t0\nMET\t4\t0\t0\t4\n"
+    c = c2s_to_chart(text, ChartMeta(game="chunithm", song_id="t1", title="T"))
+    assert all(m.denominator > 0 and m.numerator > 0 for m in c.timing.meters)
+    assert sum("ignored" in w and w.startswith("MET") for w in c.warnings) == 2
+    c.timing.measure_starts(Fraction(64))

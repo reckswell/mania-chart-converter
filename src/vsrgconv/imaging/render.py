@@ -149,7 +149,10 @@ def measure_starts(timing, lo: Fraction, hi: Fraction) -> Iterator[tuple[int, Fr
     while beat <= hi:
         while idx + 1 < len(meters) and meters[idx + 1].beat <= beat:
             idx += 1
-        length = meters[idx].beats_per_measure
+        try:
+            length = meters[idx].beats_per_measure
+        except ZeroDivisionError:          # a broken time signature (x/0) in a source: draw 4/4
+            length = Fraction(4)
         if length <= 0:
             length = Fraction(4)
         if idx + 1 < len(meters):          # this time signature runs until a measure starts at or after the next one
