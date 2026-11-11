@@ -25,7 +25,9 @@ The 6,692 charts were found by asking for every (id, difficulty) pair in the cat
 - the second WORLD'S END chart of an id. otoge-db lists 8303 and 8304 twice, and these are stored as `special-2`.
 
 Those charts stay at status `listed`. They keep their published note counts and their picture URL, so the sdvx.in
-reader (docs/sources/chunithm-sdvxin.md) can fill them in later.
+reader (docs/sources/chunithm-sdvxin.md) can fill them in later. A reader for the merged punipu2 pictures is
+started but cannot extract charts yet. Its layout, measured accuracy and blockers are in
+docs/sources/chunithm-pictures.md.
 
 ## Format
 

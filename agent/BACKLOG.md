@@ -6,6 +6,8 @@ Ordered. Each item has a "done when". Take the top item that is not `blocked`.
    charts exist only as pictures; punipu2's merged PNGs are on GitHub (URL recorded as `source.picture`). Calibrate a
    merged-picture reader against charts that have both a picture and a `.c2s` (exact ground truth).
    *Done when:* note counts match `.c2s` on 20 charts with both, then the picture-only charts are extracted.
+   *Status 2026-11-11:* partly built, not accurate enough (docs/sources/chunithm-pictures.md has the measured
+   accuracy, the duplicate-picture problem and the next steps).
 1. **Calibrate the sdvx.in reader on real pictures** (needs the PC). Fetch the song lists and the three eval-set
    charts' layers on the PC (`catalog chunithm`, `extract chunithm 201 master`, ...). Run `calibrate-sdvxin` and set
    `ReaderConfig` from real data: palette, cell grid, tap thickness, anchor, AIR placement. Save one real chart's
