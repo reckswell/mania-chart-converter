@@ -59,4 +59,14 @@ Uploading needs:
   (`huggingface.co`, or `<account>.r2.cloudflarestorage.com`) to the environment's allowed domains, or upload from the
   PC.
 
-Once a host is chosen, a `vsrgconv publish` command uploads only what changed since the last upload.
+For the Hugging Face option, `vsrgconv publish` does the upload (`pip install -e '.[hosting]'` first):
+
+```bash
+vsrgconv publish --dry-run <user>/vsrg-charts            # what would go up: files and bytes per folder
+vsrgconv publish <user>/vsrg-charts --parts db,games     # the database (about 64,600 files)
+vsrgconv publish <user>/vsrg-chart-pictures --parts renders   # the layout pictures (one per chart with notes)
+```
+
+The dataset is created private. Uploads skip files already on the Hub and resume after an interruption; `--delete`
+also removes files that are gone locally. The database and the pictures go to two datasets because together they are
+just over the 100,000 files Hugging Face advises per repository.

@@ -129,3 +129,37 @@ def test_render_command_mirrors_the_database(tmp_path, capsys):
     capsys.readouterr()
     assert main(args) == 0                                              # second run: nothing to draw
     assert json.loads(capsys.readouterr().out)["summary"]["chunithm"]["already"] == 1
+
+
+def test_publish_uploads_the_data_folders_and_removes_what_is_gone(tmp_path):
+    from vsrgconv.publish import publish_hf
+
+    (tmp_path / "db" / "chunithm").mkdir(parents=True)
+    (tmp_path / "db" / "chunithm" / "index.json").write_text("{}")
+    (tmp_path / "renders").mkdir()
+    (tmp_path / "renders" / "a.png").write_bytes(b"x" * 10)
+
+    class FakeApi:
+        def __init__(self):
+            self.calls = []
+
+        def create_repo(self, repo_id, **kw):
+            self.calls.append(("create", repo_id, kw))
+
+        def upload_folder(self, **kw):
+            self.calls.append(("upload", kw))
+            return type("Info", (), {"commit_url": "https://hf.example/commit/1"})()
+
+        def list_repo_files(self, repo_id, **kw):
+            return ["db/chunithm/index.json", "renders/a.png", "renders/old.png", "README.md"]
+
+        def delete_files(self, repo_id, paths, **kw):
+            self.calls.append(("delete", paths))
+
+    dry = publish_hf("me/charts", tmp_path, ["db", "renders"], dry_run=True)
+    assert dry["parts"] == {"db": {"files": 1, "bytes": 2}, "renders": {"files": 1, "bytes": 10}}
+    api = FakeApi()
+    out = publish_hf("me/charts", tmp_path, ["db", "renders"], delete=True, api=api)
+    assert api.calls[0] == ("create", "me/charts", {"repo_type": "dataset", "private": True, "exist_ok": True})
+    assert api.calls[1][1]["allow_patterns"] == ["db/**", "renders/**"]
+    assert api.calls[2] == ("delete", ["renders/old.png"]) and out["deleted"] == 1

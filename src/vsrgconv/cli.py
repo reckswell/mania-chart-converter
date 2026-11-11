@@ -526,6 +526,14 @@ def cmd_add_game(a: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_publish(a: argparse.Namespace) -> int:
+    from .publish import publish_hf
+
+    parts = a.parts.split(",") if a.parts else None
+    print(json.dumps(publish_hf(a.repo, a.data, parts, delete=a.delete, dry_run=a.dry_run), indent=1))
+    return 0
+
+
 def cmd_index(a: argparse.Namespace) -> int:
     print(ChartDB(a.db).build_sqlite(a.sqlite))
     return 0
@@ -637,6 +645,14 @@ def main(argv: list[str] | None = None) -> int:
     s.add_argument("--adapter", action="store_true", help="also write a Python adapter stub to fill in")
     s.add_argument("--force", action="store_true", help="replace an existing definition")
     s.set_defaults(fn=cmd_add_game)
+
+    s = sub.add_parser("publish", help="mirror the database and pictures to a private Hugging Face dataset")
+    s.add_argument("repo", help="<user>/<dataset>; created private if missing (token: $HF_TOKEN)")
+    s.add_argument("--data", default="data", help="folder holding db/, renders/ and games/")
+    s.add_argument("--parts", help="comma-separated: db, renders, games (default: all three)")
+    s.add_argument("--delete", action="store_true", help="also remove dataset files that are gone locally")
+    s.add_argument("--dry-run", action="store_true", help="only count what would be uploaded")
+    s.set_defaults(fn=cmd_publish)
 
     s = sub.add_parser("index", help="build a SQLite index of the database for queries")
     s.add_argument("--sqlite", default="data/index.sqlite")
