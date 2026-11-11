@@ -1,0 +1,204 @@
+{
+ "game": "arcaea",
+ "song_id": "undyingmacula",
+ "title": "Undying Macula",
+ "artist": "Ashrount",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Liminal Eclipse",
+ "bpm": "63",
+ "version": "6.9",
+ "date_added": "2025-10-02",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "5",
+   "constant": 5.5,
+   "designer": "PHOTONSPHERE",
+   "note_counts": {
+    "combo": 883
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "すずなし"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/undyingmacula/undyingmacula_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "hold": 98,
+      "tap": 157,
+      "air_hold": 215,
+      "other": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "8+",
+   "constant": 8.7,
+   "designer": "ERGOSPHERE",
+   "note_counts": {
+    "combo": 904
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "すずなし"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/undyingmacula/undyingmacula_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 255,
+      "tap": 155,
+      "other": 151,
+      "air": 176,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "10",
+   "constant": 10.1,
+   "designer": "EVENTHORIZON",
+   "note_counts": {
+    "combo": 1250
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "すずなし"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/undyingmacula/undyingmacula_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "other": 519,
+      "air": 285,
+      "air_hold": 408,
+      "tap": 242,
+      "hold": 57
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "8 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "ETERNAL",
+   "level": "11",
+   "constant": 11.0,
+   "designer": "M/V_BRIDGE",
+   "note_counts": {
+    "combo": 1461
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "すずなし",
+     "legacy11": true
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/undyingmacula/undyingmacula_4.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "other": 1034,
+      "air": 317,
+      "air_hold": 588,
+      "tap": 282,
+      "hold": 78
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "8 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 491,
+   "set": "eclipse"
+  },
+  "matty": {
+   "jacket": "01e7",
+   "title": "Undying Macula"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/01e7.png",
+   "sha256": "7e4b4a72fdb513ca3d3db25ed26411bc0051479435df2d4d03c8323eddfee611",
+   "width": 320,
+   "height": 320,
+   "bytes": 43309
+  }
+ },
+ "extra": {
+  "pack": "eclipse",
+  "pack_name": "Liminal Eclipse",
+  "songlist": {
+   "idx": 491,
+   "search_title": {
+    "ja": [
+     "あんだいんぐまーきゅら",
+     "あんだいんぐまきゅら"
+    ],
+    "ko": [
+     "언다잉 마큘라"
+    ]
+   },
+   "search_artist": {
+    "ja": [
+     "あしゅらうんと"
+    ],
+    "ko": [
+     "애쉬라운트",
+     "애쉬런트"
+    ]
+   },
+   "bpm_base": 189,
+   "purchase": "eclipse",
+   "audioPreview": 0,
+   "audioPreviewEnd": 0,
+   "side": 1,
+   "bg": "macula_conflict_a",
+   "bg_inverse": "macula_light_a",
+   "remote_dl": true,
+   "world_unlock": false,
+   "additional_files": [
+    {
+     "file_name": "video.mp4",
+     "requirement": "required"
+    },
+    {
+     "file_name": "video_audio.ogg",
+     "requirement": "required"
+    }
+   ]
+  },
+  "length_s": 163
+ }
+}

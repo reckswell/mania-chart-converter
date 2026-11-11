@@ -1,0 +1,171 @@
+{
+ "game": "arcaea",
+ "song_id": "aloneandlorn",
+ "title": "Alone & Lorn",
+ "artist": "Ponchi♪ feat.はぁち",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Extend Archive 2",
+ "bpm": "100",
+ "version": "5.2",
+ "date_added": "2023-11-30",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "3",
+   "constant": 3.0,
+   "designer": "én",
+   "note_counts": {
+    "combo": 643
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "のり恋"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/aloneandlorn/aloneandlorn_0.aff",
+    "counts_from": "diptaken",
+    "counts": {
+     "diptaken": 643,
+     "toolbelt": 643,
+     "matty": 642
+    },
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "tap": 80,
+      "hold": 59,
+      "air_hold": 115
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "6",
+   "constant": 6.5,
+   "designer": "én",
+   "note_counts": {
+    "combo": 742
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "のり恋"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/aloneandlorn/aloneandlorn_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "tap": 122,
+      "hold": 38,
+      "air_hold": 166,
+      "other": 89,
+      "air": 69
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "9",
+   "constant": 9.6,
+   "designer": "én & KLMNOP",
+   "note_counts": {
+    "combo": 970
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "のり恋"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/aloneandlorn/aloneandlorn_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 274,
+      "tap": 237,
+      "hold": 38,
+      "other": 505,
+      "air": 160
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 362,
+   "set": "extend_2"
+  },
+  "matty": {
+   "jacket": "00d3",
+   "title": "アローンアンドローン"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/00d3.png",
+   "sha256": "41675469aeccca92a779169d4ffd1a3229c4fb914ff53f4d095335cdd1b2d9c7",
+   "width": 320,
+   "height": 320,
+   "bytes": 35281
+  }
+ },
+ "extra": {
+  "pack": "extend_2",
+  "pack_name": "Extend Archive 2",
+  "songlist": {
+   "idx": 362,
+   "search_title": {
+    "ko": [
+     "얼론 앤 론",
+     "얼론 앤드 론"
+    ]
+   },
+   "search_artist": {
+    "en": [
+     "haachi",
+     "haxchi"
+    ],
+    "ja": [
+     "ぽんち"
+    ],
+    "ko": [
+     "폰치",
+     "하아치"
+    ]
+   },
+   "bpm_base": 200,
+   "purchase": "extend_2",
+   "audioPreview": 0,
+   "audioPreviewEnd": 0,
+   "side": 0,
+   "bg": "eden_light",
+   "bg_inverse": "eden_conflict",
+   "remote_dl": true,
+   "world_unlock": true
+  },
+  "title_localized": {
+   "en": "Alone & Lorn",
+   "ja": "アローンアンドローン"
+  },
+  "length_s": 139
+ }
+}

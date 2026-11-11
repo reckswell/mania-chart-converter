@@ -1,0 +1,210 @@
+{
+ "game": "arcaea",
+ "song_id": "arcanaeden",
+ "title": "Arcana Eden",
+ "artist": "Team Grimoire vs Sakuzyo vs Laur",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Final Verdict",
+ "bpm": "211",
+ "version": "4.0",
+ "date_added": "2022-07-07",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "5",
+   "constant": 5.5,
+   "designer": "Eye of the Storm",
+   "note_counts": {
+    "combo": 1097
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "シエラ"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/arcanaeden/arcanaeden_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "hold": 119,
+      "air_hold": 223,
+      "tap": 236,
+      "other": 30,
+      "air": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "combo 1098 computed from the .aff differs from the published note count 1097",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "8+",
+   "constant": 8.7,
+   "designer": "Eye of the Storm",
+   "note_counts": {
+    "combo": 1310
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "シエラ"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/arcanaeden/arcanaeden_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "hold": 108,
+      "tap": 277,
+      "air_hold": 404,
+      "other": 144,
+      "air": 207
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "10",
+   "constant": 10.5,
+   "designer": "Eye of the Storm",
+   "note_counts": {
+    "combo": 1792
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "シエラ"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/arcanaeden/arcanaeden_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 433,
+      "other": 785,
+      "air": 386,
+      "hold": 79,
+      "tap": 575
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "BEYOND",
+   "level": "11",
+   "constant": 11.6,
+   "designer": "Eye of the Storm",
+   "note_counts": {
+    "combo": 2134
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "シエラ",
+     "legacy11": true,
+     "world_unlock": false,
+     "hidden_until": "none"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/arcanaeden/arcanaeden_3.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "other": 603,
+      "air": 412,
+      "air_hold": 742,
+      "hold": 108,
+      "tap": 488
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "8 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 279,
+   "set": "finale"
+  },
+  "matty": {
+   "jacket": "0108",
+   "title": "Arcana Eden"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/0108.png",
+   "sha256": "ffcdae378a0062360231b14820265b527b83e3325d612febd4d537b005730e89",
+   "width": 320,
+   "height": 320,
+   "bytes": 44552
+  }
+ },
+ "extra": {
+  "pack": "finale",
+  "pack_name": "Final Verdict",
+  "songlist": {
+   "idx": 279,
+   "search_title": {
+    "ja": [
+     "あるかなえでん"
+    ],
+    "ko": [
+     "아르카나 에덴"
+    ]
+   },
+   "search_artist": {
+    "ja": [
+     "ちーむぐりもあ",
+     "ちーむぐりもわーる",
+     "さくじょ",
+     "らうる"
+    ],
+    "ko": [
+     "팀 그리모어",
+     "사쿠죠",
+     "라우르"
+    ]
+   },
+   "bpm_base": 211,
+   "purchase": "finale",
+   "audioPreview": 2274,
+   "audioPreviewEnd": 32985,
+   "side": 1,
+   "bg": "arcanaeden",
+   "remote_dl": true,
+   "world_unlock": false,
+   "byd_local_unlock": true,
+   "additional_files": [
+    {
+     "file_name": "video.mp4",
+     "requirement": "required"
+    },
+    {
+     "file_name": "video_audio.ogg",
+     "requirement": "required"
+    }
+   ]
+  },
+  "length_s": 180
+ }
+}

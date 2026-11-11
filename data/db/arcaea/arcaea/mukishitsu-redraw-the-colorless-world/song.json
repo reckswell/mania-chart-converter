@@ -1,0 +1,166 @@
+{
+ "game": "arcaea",
+ "song_id": "mukishitsu",
+ "title": "Redraw the Colorless World",
+ "artist": "MisomyL",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Arcaea",
+ "bpm": "155",
+ "version": "4.0",
+ "date_added": "2022-07-07",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "4",
+   "constant": 4.0,
+   "designer": "antymis ~無色~",
+   "note_counts": {
+    "combo": 568
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": ""
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/mukishitsu/mukishitsu_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "hold": 80,
+      "air_hold": 89,
+      "tap": 76,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "6",
+   "constant": 6.5,
+   "designer": "antymis ~彩色~",
+   "note_counts": {
+    "combo": 680
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": ""
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/mukishitsu/mukishitsu_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 171,
+      "tap": 128,
+      "hold": 46,
+      "other": 56,
+      "air": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "9",
+   "constant": 9.4,
+   "designer": "antymis ~虹色~",
+   "note_counts": {
+    "combo": 886
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": ""
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/mukishitsu/mukishitsu_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "other": 902,
+      "air_hold": 222,
+      "tap": 332,
+      "air": 169,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "7 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 272,
+   "set": "base"
+  },
+  "matty": {
+   "jacket": "0036",
+   "title": "無機質世界に彩を"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/0036.png",
+   "sha256": "d7e89699f02d54da0e44fe14c87288e8a5a23caa648fb7b6763f60a4e5a41e12",
+   "width": 320,
+   "height": 320,
+   "bytes": 35339
+  }
+ },
+ "extra": {
+  "pack": "base",
+  "pack_name": "Arcaea",
+  "songlist": {
+   "idx": 272,
+   "search_title": {
+    "ja": [
+     "むきしつせかいにいろどりを"
+    ],
+    "ko": [
+     "리드로우 더 컬러리스 월드",
+     "무키시츠세카이니 이로오",
+     "무기질 세계에 색채를"
+    ]
+   },
+   "search_artist": {
+    "ja": [
+     "みそみぃる"
+    ],
+    "ko": [
+     "미소미엘"
+    ]
+   },
+   "bpm_base": 155,
+   "purchase": "",
+   "audioPreview": 50709,
+   "audioPreviewEnd": 75870,
+   "side": 0,
+   "bg": "prelude_light",
+   "bg_inverse": "prelude_conflict",
+   "remote_dl": true,
+   "world_unlock": true
+  },
+  "title_localized": {
+   "en": "Redraw the Colorless World",
+   "ja": "無機質世界に彩を"
+  },
+  "length_s": 152
+ }
+}

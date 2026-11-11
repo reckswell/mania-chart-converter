@@ -141,9 +141,27 @@ _add(Game(
     native_names={"single": "SINGLE", "double": "DOUBLE", "coop": "CO-OP"},
 ))
 _add(Game(
-    key="arcaea", name="Arcaea", lanes=4, variable_width=False,
+    key="arcaea", name="Arcaea", lanes=4, variable_width=False,   # 4 floor lanes; 6-lane charts: Chart.lanes = 6
     difficulties={"pst": "normal", "prs": "hard", "ftr": "expert", "byd": "master", "etr": "extra"},
     native_names={"pst": "PAST", "prs": "PRESENT", "ftr": "FUTURE", "byd": "BEYOND", "etr": "ETERNAL"},
+    # genre = pack (append packs under their parent; songlist set "single" = Memory Archive)
+    genres={"Arcaea": "arcaea", "World Extend 4": "world-extend-4", "Extend Archive 3": "extend-archive-3",
+            "Extend Archive 2": "extend-archive-2", "Extend Archive 1": "extend-archive-1",
+            "Diverse System": "diverse-system", "Divine Oblivion": "divine-oblivion",
+            "Liminal Eclipse": "liminal-eclipse", "Lucent Historia": "lucent-historia",
+            "Final Verdict": "final-verdict", "Black Fate": "black-fate", "Adverse Prelude": "adverse-prelude",
+            "Luminous Sky": "luminous-sky", "Vicious Labyrinth": "vicious-labyrinth", "Eternal Core": "eternal-core",
+            "Absolute Nihil": "absolute-nihil", "Lasting Eden": "lasting-eden", "MEGAREX": "megarex",
+            "Extant Anima": "extant-anima", "Esoteric Order": "esoteric-order", "Divided Heart": "divided-heart",
+            "Ephemeral Page": "ephemeral-page", "Sunset Radiance": "sunset-radiance",
+            "Absolute Reason": "absolute-reason", "Binary Enfold": "binary-enfold",
+            "Ambivalent Vision": "ambivalent-vision", "Crimson Solace": "crimson-solace", "DJMAX": "djmax",
+            "Rotaeno": "rotaeno", "CYTUS II": "cytus-ii", "Muse Dash": "muse-dash", "WACCA": "wacca",
+            "maimai": "maimai", "O.N.G.E.K.I.": "ongeki", "CHUNITHM": "chunithm",
+            "Groove Coaster": "groove-coaster", "Tone Sphere": "tone-sphere", "Lanota": "lanota",
+            "Dynamix": "dynamix", "Virtual Singers": "virtual-singers", "Arcaea Next Stage": "arcaea-next-stage",
+            "UNDERTALE": "undertale", "Memory Archive": "memory-archive"},
+    status="in-progress",
 ))
 _add(Game(
     key="iidx", name="beatmania IIDX", lanes=8, variable_width=False,   # 7 keys + scratch (SP)

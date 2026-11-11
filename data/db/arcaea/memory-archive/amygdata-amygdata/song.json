@@ -1,0 +1,162 @@
+{
+ "game": "arcaea",
+ "song_id": "amygdata",
+ "title": "amygdata",
+ "artist": "nitro",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Memory Archive",
+ "bpm": "154",
+ "version": "2.6",
+ "date_added": "2020-03-25",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "4",
+   "constant": 4.0,
+   "designer": "Nitro",
+   "note_counts": {
+    "combo": 504
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "久賀フーナ"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/amygdata/amygdata_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "hold": 51,
+      "air_hold": 83,
+      "tap": 166
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "7",
+   "constant": 7.5,
+   "designer": "Nitro",
+   "note_counts": {
+    "combo": 711
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "久賀フーナ"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/amygdata/amygdata_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "tap": 282,
+      "air_hold": 112,
+      "hold": 70,
+      "other": 14,
+      "air": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "9+",
+   "constant": 9.7,
+   "designer": "Nitro",
+   "note_counts": {
+    "combo": 1199
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "久賀フーナ"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/amygdata/amygdata_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "tap": 406,
+      "air_hold": 503,
+      "other": 239,
+      "hold": 52,
+      "air": 194
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "8 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 153,
+   "set": "single"
+  },
+  "matty": {
+   "jacket": "005d",
+   "title": "amygdata"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/005d.png",
+   "sha256": "444d4df94f95e343709cd5a3ba5440a3a6f27e83dac9f9ecf7c2a91e80041eb5",
+   "width": 320,
+   "height": 320,
+   "bytes": 34210
+  }
+ },
+ "extra": {
+  "pack": "single",
+  "pack_name": "Memory Archive",
+  "songlist": {
+   "idx": 153,
+   "search_title": {
+    "ja": [
+     "あみぐでーた"
+    ],
+    "ko": [
+     "아미그다타",
+     "아미그데이타"
+    ]
+   },
+   "search_artist": {
+    "ja": [
+     "ないとろ",
+     "にとろ"
+    ],
+    "ko": [
+     "니트로"
+    ]
+   },
+   "bpm_base": 154,
+   "category": "original",
+   "purchase": "amygdata",
+   "audioPreview": 60000,
+   "audioPreviewEnd": 70000,
+   "side": 1,
+   "bg": "prelude_conflict",
+   "bg_inverse": "prelude_light",
+   "remote_dl": true,
+   "world_unlock": false
+  },
+  "length_s": 160
+ }
+}

@@ -1,0 +1,205 @@
+{
+ "game": "arcaea",
+ "song_id": "pentiment",
+ "title": "Pentiment",
+ "artist": "Nothing But Requiem with Museo",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Final Verdict",
+ "bpm": "200-222",
+ "version": "4.0",
+ "date_added": "2022-07-07",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "7",
+   "constant": 7.0,
+   "designer": "Paradox Blight",
+   "note_counts": {
+    "combo": 911
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "村カルキ"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/pentiment/pentiment_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 234,
+      "hold": 142,
+      "tap": 274
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "8+",
+   "constant": 8.7,
+   "designer": "Paradox Blight",
+   "note_counts": {
+    "combo": 1055
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "村カルキ"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/pentiment/pentiment_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 168,
+      "hold": 81,
+      "tap": 379,
+      "other": 133,
+      "air": 227
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "10",
+   "constant": 10.4,
+   "designer": "Paradox Blight",
+   "note_counts": {
+    "combo": 1345
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "村カルキ"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/pentiment/pentiment_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "other": 692,
+      "air_hold": 269,
+      "hold": 100,
+      "tap": 451,
+      "air": 397
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "8 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "BEYOND",
+   "level": "11",
+   "constant": 11.5,
+   "designer": "Paradox Blight",
+   "note_counts": {
+    "combo": 1741
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "村カルキ",
+     "legacy11": true,
+     "world_unlock": false,
+     "hidden_until": "none"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/pentiment/pentiment_3.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "other": 1326,
+      "air_hold": 333,
+      "hold": 66,
+      "air": 484,
+      "tap": 735
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 278,
+   "set": "finale"
+  },
+  "matty": {
+   "jacket": "0107",
+   "title": "Pentiment"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/0107.png",
+   "sha256": "fba3ea3c82a13ce86f45b518c4d24be2834da3395ffa70de62fcb62d3f4d9699",
+   "width": 320,
+   "height": 320,
+   "bytes": 46179
+  }
+ },
+ "extra": {
+  "pack": "finale",
+  "pack_name": "Final Verdict",
+  "songlist": {
+   "idx": 278,
+   "search_title": {
+    "ja": [
+     "ぺんてぃめんと"
+    ],
+    "ko": [
+     "펜티먼트"
+    ]
+   },
+   "search_artist": {
+    "ja": [
+     "なっしんぐばっとれくいえむ",
+     "みゅぜお"
+    ],
+    "ko": [
+     "낫띵 벗 레퀴엠 윗 무소",
+     "낫씽 벗 레퀴엠 윗 무소"
+    ]
+   },
+   "bpm_base": 222,
+   "purchase": "finale",
+   "audioPreview": 35675,
+   "audioPreviewEnd": 69189,
+   "side": 1,
+   "bg": "pentiment",
+   "remote_dl": true,
+   "world_unlock": false,
+   "byd_local_unlock": true,
+   "additional_files": [
+    {
+     "file_name": "video.mp4",
+     "requirement": "required"
+    },
+    {
+     "file_name": "video_audio.ogg",
+     "requirement": "required"
+    }
+   ]
+  },
+  "length_s": 159
+ }
+}

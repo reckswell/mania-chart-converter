@@ -1,0 +1,153 @@
+{
+ "game": "arcaea",
+ "song_id": "ifi",
+ "title": "#1f1e33",
+ "artist": "かめりあ(EDP)",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Black Fate",
+ "bpm": "181",
+ "version": "3.0",
+ "date_added": "2020-05-27",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "5",
+   "constant": 5.5,
+   "designer": "夜浪",
+   "note_counts": {
+    "combo": 765
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "望月けい"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/ifi/ifi_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 202,
+      "hold": 70,
+      "tap": 224
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "9",
+   "constant": 9.2,
+   "designer": "夜浪",
+   "note_counts": {
+    "combo": 1144
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "望月けい"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/ifi/ifi_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 205,
+      "hold": 68,
+      "other": 122,
+      "air": 182,
+      "tap": 424
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "11",
+   "constant": 11.1,
+   "designer": "夜浪 VS 東星 \"Convergence\"",
+   "note_counts": {
+    "combo": 1576
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "望月けい",
+     "legacy11": false
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/ifi/ifi_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "other": 548,
+      "air_hold": 537,
+      "tap": 391,
+      "air": 425,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 159,
+   "set": "vs"
+  },
+  "matty": {
+   "jacket": "0111",
+   "title": "#1f1e33"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/0111.png",
+   "sha256": "83969a847d21b975f11eb0712bdf5be4742f761f4a43ce19c871f3695c745235",
+   "width": 320,
+   "height": 320,
+   "bytes": 37601
+  }
+ },
+ "extra": {
+  "pack": "vs",
+  "pack_name": "Black Fate",
+  "songlist": {
+   "idx": 159,
+   "search_artist": {
+    "en": [
+     "kameria",
+     "camellia"
+    ],
+    "ko": [
+     "카메리아"
+    ]
+   },
+   "bpm_base": 181,
+   "purchase": "vs",
+   "audioPreview": 60000,
+   "audioPreviewEnd": 70000,
+   "side": 1,
+   "bg": "vs_conflict",
+   "bg_inverse": "vs_light",
+   "remote_dl": true,
+   "world_unlock": false
+  },
+  "length_s": 162
+ }
+}

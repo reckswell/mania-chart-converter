@@ -1,0 +1,166 @@
+{
+ "game": "arcaea",
+ "song_id": "arcahv",
+ "title": "Arcahv",
+ "artist": "Feryquitous",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Black Fate",
+ "bpm": "191",
+ "version": "3.0",
+ "date_added": "2020-05-27",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "4",
+   "constant": 4.5,
+   "designer": "∅",
+   "note_counts": {
+    "combo": 818
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "シエラ",
+     "hidden_until_unlocked": true,
+     "hidden_until": "difficulty"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/arcahv/0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "hold": 93,
+      "air_hold": 181,
+      "tap": 95
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "29 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "7+",
+   "constant": 7.8,
+   "designer": "∅",
+   "note_counts": {
+    "combo": 884
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "シエラ",
+     "hidden_until_unlocked": true,
+     "hidden_until": "difficulty"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/arcahv/1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "hold": 83,
+      "air_hold": 159,
+      "other": 155,
+      "air": 115,
+      "tap": 84
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "29 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there; combo 882 computed from the .aff differs from the published note count 884",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "9+",
+   "constant": 9.9,
+   "designer": "∅",
+   "note_counts": {
+    "combo": 1065
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "シエラ",
+     "hidden_until_unlocked": true,
+     "hidden_until": "difficulty"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/arcahv/2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "hold": 60,
+      "other": 431,
+      "air_hold": 274,
+      "air": 227,
+      "tap": 190
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "44 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 161,
+   "set": "vs"
+  },
+  "matty": {
+   "jacket": "0113",
+   "title": "Arcahv"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/0113.png",
+   "sha256": "dcad92305319bab1d448ca69cedc03fb2e774e0dd0da48693091db3fbc375c98",
+   "width": 320,
+   "height": 320,
+   "bytes": 33595
+  }
+ },
+ "extra": {
+  "pack": "vs",
+  "pack_name": "Black Fate",
+  "songlist": {
+   "idx": 161,
+   "search_title": {
+    "ja": [
+     "あーかゔ"
+    ],
+    "ko": [
+     "아카브"
+    ]
+   },
+   "search_artist": {
+    "ja": [
+     "ふぇりきたす"
+    ],
+    "ko": [
+     "페리퀴터스",
+     "페리퀴타스",
+     "페리퀴토스"
+    ]
+   },
+   "bpm_base": 191,
+   "purchase": "vs",
+   "audioPreview": 1256,
+   "audioPreviewEnd": 31413,
+   "side": 0,
+   "bg": "arcahv",
+   "remote_dl": false,
+   "world_unlock": true
+  },
+  "length_s": 165
+ }
+}

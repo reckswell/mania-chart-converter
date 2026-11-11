@@ -1,0 +1,194 @@
+{
+ "game": "arcaea",
+ "song_id": "snowwhite",
+ "title": "Snow White",
+ "artist": "Puru",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Arcaea",
+ "bpm": "150",
+ "version": "1.0",
+ "date_added": "2017-02-25",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "2",
+   "constant": 2.5,
+   "designer": "Toaster",
+   "note_counts": {
+    "combo": 486
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": ""
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/snowwhite/0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 23,
+      "hold": 18,
+      "tap": 92
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "5",
+   "constant": 5.0,
+   "designer": "Toaster",
+   "note_counts": {
+    "combo": 672
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": ""
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/snowwhite/1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 89,
+      "hold": 42,
+      "tap": 139,
+      "other": 18,
+      "air": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "8",
+   "constant": 8.4,
+   "designer": "Toaster",
+   "note_counts": {
+    "combo": 978
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": ""
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/snowwhite/2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 208,
+      "tap": 413,
+      "other": 60,
+      "air": 26,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "BEYOND",
+   "level": "9+",
+   "constant": 9.7,
+   "designer": "én + Nitro",
+   "note_counts": {
+    "combo": 1031
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "",
+     "bg": "nijuusei2_light",
+     "bg_inverse": "nijuusei2_conflict",
+     "date": 1745452800,
+     "version": "6.4",
+     "hidden_until": "difficulty"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/snowwhite/snowwhite_3.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 445,
+      "other": 346,
+      "air": 109,
+      "tap": 66,
+      "hold": 64
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "combo 1029 computed from the .aff differs from the published note count 1031",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 10,
+   "set": "base"
+  },
+  "matty": {
+   "jacket": "0005",
+   "title": "Snow White"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/0005.png",
+   "sha256": "fe670a606fd0ff73387edb162ef0116d1172a46338415fce85bc58c0d1be7eec",
+   "width": 320,
+   "height": 320,
+   "bytes": 23762
+  }
+ },
+ "extra": {
+  "pack": "base",
+  "pack_name": "Arcaea",
+  "songlist": {
+   "idx": 10,
+   "search_title": {
+    "ja": [
+     "すのーほわいと",
+     "すのうほわいと"
+    ],
+    "ko": [
+     "스노우 화이트"
+    ]
+   },
+   "search_artist": {
+    "ja": [
+     "ぷる"
+    ],
+    "ko": [
+     "푸루"
+    ]
+   },
+   "bpm_base": 150,
+   "purchase": "",
+   "audioPreview": 24400,
+   "audioPreviewEnd": 57600,
+   "side": 0,
+   "bg": "base_light",
+   "bg_inverse": "base_conflict"
+  },
+  "length_s": 148
+ }
+}

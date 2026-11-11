@@ -1,0 +1,211 @@
+{
+ "game": "arcaea",
+ "song_id": "designant",
+ "title": "Designant.",
+ "artist": "Designant",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Lucent Historia",
+ "bpm": "200",
+ "version": "6.0",
+ "date_added": "2024-11-21",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "7",
+   "constant": 7.5,
+   "designer": "1st Command ≒ Legacy",
+   "note_counts": {
+    "combo": 1055
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "すずなし",
+     "hidden_until_unlocked": true,
+     "hidden_until": "song"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/designant/designant_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "hold": 80,
+      "air_hold": 284,
+      "tap": 470,
+      "other": 205
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "9",
+   "constant": 9.6,
+   "designer": "2nd Command ≒ Perfection",
+   "note_counts": {
+    "combo": 1426
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "すずなし",
+     "hidden_until_unlocked": true,
+     "hidden_until": "song"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/designant/designant_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "hold": 105,
+      "air_hold": 337,
+      "other": 413,
+      "tap": 584,
+      "air": 183
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "10+",
+   "constant": 10.9,
+   "designer": "3rd Command ≒ Ascendance",
+   "note_counts": {
+    "combo": 1768
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "すずなし",
+     "hidden_until_unlocked": true,
+     "hidden_until": "song"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/designant/designant_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 340,
+      "other": 1082,
+      "tap": 682,
+      "air": 352,
+      "hold": 86
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "BEYOND",
+   "level": "11+",
+   "constant": 11.9,
+   "designer": "Final Command. Infinity",
+   "note_counts": {
+    "combo": 2184
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "すずなし",
+     "legacy11": true,
+     "hidden_until_unlocked": true,
+     "hidden_until": "song"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/designant/designant_3.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "hold": 95,
+      "air": 514,
+      "other": 1248,
+      "air_hold": 478,
+      "tap": 632
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 433,
+   "set": "lephon"
+  },
+  "matty": {
+   "jacket": "00f0",
+   "title": "Designant."
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/00f0.png",
+   "sha256": "ca90452cfa217243c3a65b92ba7a5e14620ae9b9b627e0c02c0545705feaa905",
+   "width": 320,
+   "height": 320,
+   "bytes": 36920
+  }
+ },
+ "extra": {
+  "pack": "lephon",
+  "pack_name": "Lucent Historia",
+  "songlist": {
+   "idx": 433,
+   "search_title": {
+    "ja": [
+     "でじぐなんと"
+    ],
+    "ko": [
+     "데지그넌트"
+    ]
+   },
+   "search_artist": {
+    "ja": [
+     "でじぐなんと"
+    ],
+    "ko": [
+     "데지그넌트"
+    ]
+   },
+   "bpm_base": 200,
+   "purchase": "lephon",
+   "audioPreview": 0,
+   "audioPreviewEnd": 0,
+   "side": 3,
+   "bg": "designant",
+   "bg_inverse": "designant",
+   "remote_dl": true,
+   "world_unlock": false,
+   "byd_local_unlock": true,
+   "additional_files": [
+    {
+     "file_name": "video_720.mp4",
+     "requirement": "low_res"
+    },
+    {
+     "file_name": "video_1080.mp4",
+     "requirement": "hi_res"
+    }
+   ]
+  },
+  "length_s": 178
+ }
+}

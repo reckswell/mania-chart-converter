@@ -1,0 +1,168 @@
+{
+ "game": "arcaea",
+ "song_id": "andrevivemelody",
+ "title": "And Revive The Melody",
+ "artist": "黒魔",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "O.N.G.E.K.I.",
+ "bpm": "210-220",
+ "version": "6.0",
+ "date_added": "2024-11-21",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "5",
+   "constant": 5.5,
+   "designer": "夜浪 (FIRE) Lv.75",
+   "note_counts": {
+    "combo": 962
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": ""
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/andrevivemelody/andrevivemelody_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "hold": 94,
+      "tap": 182,
+      "air_hold": 330
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "8",
+   "constant": 8.5,
+   "designer": "夜浪 (FIRE) Lv.75",
+   "note_counts": {
+    "combo": 1269
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": ""
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/andrevivemelody/andrevivemelody_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "hold": 33,
+      "tap": 330,
+      "air_hold": 293,
+      "other": 138,
+      "air": 168
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "combo 1271 computed from the .aff differs from the published note count 1269",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "10+",
+   "constant": 10.9,
+   "designer": "夜浪 (FIRE) Lv.75",
+   "note_counts": {
+    "combo": 1710
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": ""
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/andrevivemelody/andrevivemelody_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "other": 1208,
+      "air_hold": 300,
+      "hold": 57,
+      "air": 432,
+      "tap": 439
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "8 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 427,
+   "set": "ongeki_append_2"
+  },
+  "matty": {
+   "jacket": "01aa",
+   "title": "And Revive The Melody"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/01aa.png",
+   "sha256": "6e8436a880830651d0c78acb5f662fe9a0052ffebf61a5cf13cd2592cfe0bd29",
+   "width": 320,
+   "height": 320,
+   "bytes": 42813
+  }
+ },
+ "extra": {
+  "pack": "ongeki_append_2",
+  "pack_name": "O.N.G.E.K.I.",
+  "songlist": {
+   "idx": 427,
+   "search_title": {
+    "ja": [
+     "あんどりばいぶざめろでぃ"
+    ],
+    "ko": [
+     "앤 리바이브 더 멜로디"
+    ]
+   },
+   "search_artist": {
+    "en": [
+     "kuroma",
+     "chroma"
+    ],
+    "ja": [
+     "くろま"
+    ],
+    "ko": [
+     "쿠로마",
+     "크로마"
+    ]
+   },
+   "bpm_base": 220,
+   "source_localized": {
+    "ja": "オンゲキ",
+    "en": "O.N.G.E.K.I."
+   },
+   "source_copyright": "©SEGA",
+   "purchase": "ongeki_append_2",
+   "audioPreview": 0,
+   "audioPreviewEnd": 0,
+   "side": 1,
+   "bg": "lamia",
+   "remote_dl": true,
+   "world_unlock": false
+  },
+  "length_s": 169
+ }
+}

@@ -1,0 +1,206 @@
+{
+ "game": "arcaea",
+ "song_id": "moonheart",
+ "title": "Moonheart",
+ "artist": "翡乃イスカ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Ambivalent Vision",
+ "bpm": "180",
+ "version": "1.1",
+ "date_added": "2017-08-10",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "2",
+   "constant": 2.5,
+   "designer": "Toaster",
+   "note_counts": {
+    "combo": 449
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "VMWT"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/moonheart/moonheart_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 32,
+      "tap": 81,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "5",
+   "constant": 5.5,
+   "designer": "Toaster",
+   "note_counts": {
+    "combo": 566
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "VMWT"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/moonheart/moonheart_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 130,
+      "tap": 98,
+      "other": 20,
+      "air": 24,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "8",
+   "constant": 8.4,
+   "designer": "Toaster",
+   "note_counts": {
+    "combo": 947
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "VMWT"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/moonheart/moonheart_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 233,
+      "other": 209,
+      "tap": 317,
+      "air": 89,
+      "hold": 61
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "BEYOND",
+   "level": "9+",
+   "constant": 9.7,
+   "designer": "Toaster",
+   "note_counts": {
+    "combo": 1139
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "VMWT + ljc",
+     "jacketOverride": true,
+     "date": 1610064000,
+     "version": "3.4"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/moonheart/moonheart_3.aff",
+    "jacket": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/115c.png",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 484,
+      "other": 270,
+      "air": 240,
+      "tap": 293,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {
+    "jacket-master": {
+     "file": "assets/jacket-master.jpg",
+     "kind": "jacket",
+     "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/115c.png",
+     "sha256": "380627cbd4053b440073be4720561b551ee67dc8fcc157da3128204c39ed2504",
+     "width": 320,
+     "height": 320,
+     "bytes": 33733
+    }
+   }
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 45,
+   "set": "mirai"
+  },
+  "matty": {
+   "jacket": "015c",
+   "title": "Moonheart"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/015c.png",
+   "sha256": "cb9725a9ed41b97314c525d08eca5cd6d8b683590bf9ccda182f507347bd178d",
+   "width": 320,
+   "height": 320,
+   "bytes": 31490
+  }
+ },
+ "extra": {
+  "pack": "mirai",
+  "pack_name": "Ambivalent Vision",
+  "songlist": {
+   "idx": 45,
+   "search_title": {
+    "ja": [
+     "むーんはーと"
+    ],
+    "ko": [
+     "문하트"
+    ]
+   },
+   "search_artist": {
+    "en": [
+     "hino isuka"
+    ],
+    "ja": [
+     "ひのいすか"
+    ],
+    "ko": [
+     "히노 이스카"
+    ]
+   },
+   "bpm_base": 180,
+   "purchase": "mirai",
+   "audioPreview": 66000,
+   "audioPreviewEnd": 85333,
+   "side": 0,
+   "bg": "mirai_light",
+   "bg_inverse": "mirai_conflict",
+   "remote_dl": true
+  },
+  "length_s": 133
+ }
+}

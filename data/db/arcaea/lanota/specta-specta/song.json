@@ -1,0 +1,163 @@
+{
+ "game": "arcaea",
+ "song_id": "specta",
+ "title": "Specta",
+ "artist": "Junk",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Lanota",
+ "bpm": "179",
+ "version": "1.5",
+ "date_added": "2018-02-01",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "3",
+   "constant": 3.5,
+   "designer": "Toaster",
+   "note_counts": {
+    "combo": 390
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": ""
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/specta/specta_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 41,
+      "tap": 71,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "6",
+   "constant": 6.5,
+   "designer": "Toaster",
+   "note_counts": {
+    "combo": 706
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": ""
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/specta/specta_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "tap": 209,
+      "air_hold": 97,
+      "other": 41,
+      "air": 41,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "9",
+   "constant": 9.4,
+   "designer": "Toaster",
+   "note_counts": {
+    "combo": 1096
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": ""
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/specta/specta_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 206,
+      "tap": 527,
+      "hold": 64,
+      "other": 226,
+      "air": 146
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "8 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 65,
+   "set": "lanota"
+  },
+  "matty": {
+   "jacket": "01cb",
+   "title": "Specta"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/01cb.png",
+   "sha256": "511737cab6fe7e4ac98e396d220682f5d4bb2143b3553d30efe8a5380f50c67f",
+   "width": 320,
+   "height": 320,
+   "bytes": 33028
+  }
+ },
+ "extra": {
+  "pack": "lanota",
+  "pack_name": "Lanota",
+  "songlist": {
+   "idx": 65,
+   "search_title": {
+    "ja": [
+     "すぺくた"
+    ],
+    "ko": [
+     "스펙타"
+    ]
+   },
+   "search_artist": {
+    "ja": [
+     "じゃんく"
+    ],
+    "ko": [
+     "정크"
+    ]
+   },
+   "bpm_base": 179,
+   "purchase": "lanota",
+   "audioPreview": 97932,
+   "audioPreviewEnd": 119385,
+   "side": 0,
+   "bg": "lanota-light",
+   "bg_inverse": "lanota-conflict",
+   "remote_dl": true,
+   "source_localized": {
+    "en": "Lanota"
+   },
+   "source_copyright": "",
+   "no_stream": true
+  },
+  "length_s": 136
+ }
+}

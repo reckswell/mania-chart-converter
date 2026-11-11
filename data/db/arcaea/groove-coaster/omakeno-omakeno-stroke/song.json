@@ -1,0 +1,198 @@
+{
+ "game": "arcaea",
+ "song_id": "omakeno",
+ "title": "OMAKENO Stroke",
+ "artist": "t+pazolite",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Groove Coaster",
+ "bpm": "240",
+ "version": "1.9",
+ "date_added": "2019-01-09",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "3",
+   "constant": 3.0,
+   "designer": "Kurorak",
+   "note_counts": {
+    "combo": 502
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": ""
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/omakeno/omakeno_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "hold": 43,
+      "tap": 56,
+      "air_hold": 109
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "6",
+   "constant": 6.5,
+   "designer": "Kurorak",
+   "note_counts": {
+    "combo": 616
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": ""
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/omakeno/omakeno_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "tap": 195,
+      "hold": 41,
+      "air_hold": 136,
+      "other": 62,
+      "air": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "9",
+   "constant": 9.5,
+   "designer": "Kurorak",
+   "note_counts": {
+    "combo": 869
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": ""
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/omakeno/omakeno_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 201,
+      "other": 229,
+      "tap": 321,
+      "air": 220,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "BEYOND",
+   "level": "10",
+   "constant": 10.3,
+   "designer": "NITRO",
+   "note_counts": {
+    "combo": 931
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "",
+     "date": 1647993601,
+     "version": "3.12"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/omakeno/omakeno_3.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "other": 447,
+      "hold": 66,
+      "air": 374,
+      "tap": 222,
+      "air_hold": 206
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 108,
+   "set": "groovecoaster"
+  },
+  "matty": {
+   "jacket": "01bd",
+   "title": "OMAKENO Stroke"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/01bd.png",
+   "sha256": "5244ee59a67f75199dfbb1c73da8c0b30d0219784ac261fefabda93e9da01026",
+   "width": 320,
+   "height": 320,
+   "bytes": 31872
+  }
+ },
+ "extra": {
+  "pack": "groovecoaster",
+  "pack_name": "Groove Coaster",
+  "songlist": {
+   "idx": 108,
+   "search_title": {
+    "ja": [
+     "おまけのすとろーく"
+    ],
+    "ko": [
+     "오마케노 스트로크"
+    ]
+   },
+   "search_artist": {
+    "ja": [
+     "とぱぞらいと"
+    ],
+    "ko": [
+     "토파졸라이트"
+    ]
+   },
+   "bpm_base": 240,
+   "purchase": "groovecoaster",
+   "audioPreview": 2701,
+   "audioPreviewEnd": 17701,
+   "side": 1,
+   "source_localized": {
+    "en": "Groove Coaster",
+    "ja": "グルーヴコースター"
+   },
+   "source_copyright": "© TAITO CORP. 1978, 2019",
+   "world_unlock": false,
+   "bg": "gc_conflict",
+   "bg_inverse": "gc_light",
+   "remote_dl": true,
+   "no_stream": true
+  },
+  "length_s": 116
+ }
+}

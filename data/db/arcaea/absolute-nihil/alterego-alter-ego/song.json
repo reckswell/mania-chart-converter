@@ -1,0 +1,205 @@
+{
+ "game": "arcaea",
+ "song_id": "alterego",
+ "title": "ALTER EGO",
+ "artist": "Yuta Imai vs Qlarabelle",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Absolute Nihil",
+ "bpm": "195",
+ "version": "5.9",
+ "date_added": "2024-07-30",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "6",
+   "constant": 6.5,
+   "designer": "Article V《Observation》",
+   "note_counts": {
+    "combo": 865
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "すずなし"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/alterego/alterego_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "tap": 277,
+      "hold": 66,
+      "air_hold": 262,
+      "other": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "9",
+   "constant": 9.2,
+   "designer": "Article VI《Hypothesis》",
+   "note_counts": {
+    "combo": 1213
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "すずなし"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/alterego/alterego_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "hold": 52,
+      "tap": 374,
+      "air_hold": 294,
+      "other": 170,
+      "air": 178
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "10",
+   "constant": 10.5,
+   "designer": "Article VII《Analysis》",
+   "note_counts": {
+    "combo": 1466
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "すずなし"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/alterego/alterego_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "other": 673,
+      "tap": 401,
+      "air": 410,
+      "air_hold": 373,
+      "hold": 51
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "combo 1468 computed from the .aff differs from the published note count 1466",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "ETERNAL",
+   "level": "11",
+   "constant": 11.3,
+   "designer": "Article 0x8《Enmity》",
+   "note_counts": {
+    "combo": 1644
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "すずなし",
+     "legacy11": true
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/alterego/alterego_4.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "other": 1129,
+      "tap": 347,
+      "air": 509,
+      "air_hold": 467,
+      "hold": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 400,
+   "set": "nihil"
+  },
+  "matty": {
+   "jacket": "00f6",
+   "title": "ALTER EGO"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/00f6.png",
+   "sha256": "09052643a30f1c1e02e7699883ccc17bd76a441f2bea2ca847e1833e62d5bb98",
+   "width": 320,
+   "height": 320,
+   "bytes": 40428
+  }
+ },
+ "extra": {
+  "pack": "nihil",
+  "pack_name": "Absolute Nihil",
+  "songlist": {
+   "idx": 400,
+   "search_title": {
+    "ja": [
+     "おるたーえご"
+    ],
+    "ko": [
+     "얼터 에고",
+     "알터 에고"
+    ]
+   },
+   "search_artist": {
+    "ja": [
+     "ゆうたいまい",
+     "くららべる"
+    ],
+    "ko": [
+     "유타 이마이",
+     "클라라벨"
+    ]
+   },
+   "bpm_base": 195,
+   "purchase": "nihil",
+   "audioPreview": 0,
+   "audioPreviewEnd": 0,
+   "side": 1,
+   "bg": "alterego",
+   "bg_inverse": "alterego",
+   "remote_dl": true,
+   "world_unlock": false,
+   "additional_files": [
+    {
+     "file_name": "video_720.mp4",
+     "requirement": "low_res"
+    },
+    {
+     "file_name": "video_1080.mp4",
+     "requirement": "hi_res"
+    }
+   ]
+  },
+  "length_s": 160
+ }
+}
