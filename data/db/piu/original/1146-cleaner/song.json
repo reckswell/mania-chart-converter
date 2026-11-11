@@ -1,0 +1,127 @@
+{
+ "game": "piu",
+ "song_id": "1146",
+ "title": "Cleaner",
+ "artist": "Doin",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "203",
+ "version": "Fiesta EX",
+ "date_added": "",
+ "charts": {
+  "single-22": {
+   "slot": "single-22",
+   "native": "S22",
+   "level": "22",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 671
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1090,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S21",
+     "meter": "21",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 671,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 25,
+      "tap": 374
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 21 differs from the PHOENIX 2 level 22: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-22": {
+   "slot": "double-22",
+   "native": "D22",
+   "level": "22",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 1510
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1091,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-double",
+     "description": "D22",
+     "meter": "22",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1510,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 18,
+      "tap": 376
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "3 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 186,
+   "game_id": "1146",
+   "card": "/img/card/114.png",
+   "first": "Fiesta EX v1.00",
+   "title": "Cleaner"
+  },
+  "kalinathalie": {
+   "slug": "cleaner_short_cut"
+  },
+  "simfile": {
+   "path": "09 - FIESTA EX/1146 - [Short Cut] Cleaner/1146 - [Short Cut] Cleaner.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/09%20-%20FIESTA%20EX/1146%20-%20%5BShort%20Cut%5D%20Cleaner/1146%20-%20%5BShort%20Cut%5D%20Cleaner.ssc",
+   "id": "1146",
+   "title": "Cleaner - SHORT CUT -",
+   "artist": "Doin"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/cleaner_short_cut.jpg",
+   "sha256": "d8bfa535702efb0be740815203cfd48483bfc621b7803fd737b3029149260252",
+   "width": 256,
+   "height": 256,
+   "bytes": 20563
+  }
+ },
+ "extra": {
+  "cut": "Short Cut",
+  "titles": {
+   "kr": "클리너"
+  },
+  "simfile_notes": [
+   "S22: simfile chart 'S21' has meter 21 (re-rated)"
+  ]
+ }
+}

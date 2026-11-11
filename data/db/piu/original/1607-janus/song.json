@@ -1,0 +1,406 @@
+{
+ "game": "piu",
+ "song_id": "1607",
+ "title": "JANUS",
+ "artist": "MAX",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "174",
+ "version": "XX",
+ "date_added": "",
+ "charts": {
+  "single-8": {
+   "slot": "single-8",
+   "native": "S8",
+   "level": "8",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 438
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6079,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S8",
+     "meter": "8",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 438,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 17,
+      "tap": 363
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-12": {
+   "slot": "single-12",
+   "native": "S12",
+   "level": "12",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 460
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6080,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S12",
+     "meter": "12",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 460,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 31,
+      "tap": 372
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 1113
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6081,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 1113,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 394,
+      "hold": 172
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-20": {
+   "slot": "single-20",
+   "native": "S20",
+   "level": "20",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 1239
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6082,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S20",
+     "meter": "20",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 1239,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 525,
+      "hold": 136
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "63 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-14": {
+   "slot": "double-14",
+   "native": "D14",
+   "level": "14",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 463
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6083,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-double",
+     "description": "D14",
+     "meter": "14",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 463,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 22,
+      "tap": 389
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-19": {
+   "slot": "double-19",
+   "native": "D19",
+   "level": "19",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 1239
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6084,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-double",
+     "description": "D19",
+     "meter": "19",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 1239,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 374,
+      "hold": 217
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-22": {
+   "slot": "double-22",
+   "native": "D22",
+   "level": "22",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 1371
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6085,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 8,
+     "steps_type": "pump-double",
+     "description": "D22",
+     "meter": "22",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 1371,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 572,
+      "hold": 112
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "63 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "halfdouble-13": {
+   "slot": "halfdouble-13",
+   "native": "HDB13",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8671,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-17": {
+   "slot": "halfdouble-17",
+   "native": "HDB17",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8672,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-22": {
+   "slot": "halfdouble-22",
+   "native": "HDB22",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8673,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "coop-2": {
+   "slot": "coop-2",
+   "native": "CO-OP x2",
+   "level": "2",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 1711
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6086,
+     "mode": "C"
+    },
+    "simfile": {
+     "chart": 10,
+     "steps_type": "pump-double",
+     "description": "DP COOP 2P",
+     "meter": "99",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 1711,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 612,
+      "other": 329236,
+      "hold": 1831
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 817,
+   "game_id": "1607",
+   "card": "/img/card/1607.png",
+   "first": "XX v2.00.0",
+   "title": "JANUS"
+  },
+  "kalinathalie": {
+   "slug": "janus"
+  },
+  "simfile": {
+   "path": "14 - XX/1607 - JANUS/1607 - JANUS.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/14%20-%20XX/1607%20-%20JANUS/1607%20-%20JANUS.ssc",
+   "id": "1607",
+   "title": "JANUS",
+   "artist": "MAX"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/janus.jpg",
+   "sha256": "e93757edbc08613a8b3f6b67b6384fa5ebcace0081de02348b1c1a58ed1bc688",
+   "width": 256,
+   "height": 256,
+   "bytes": 20093
+  }
+ },
+ "extra": {
+  "cut": "Arcade"
+ }
+}

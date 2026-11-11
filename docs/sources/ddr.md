@@ -147,3 +147,25 @@ one kept.
   - No delays, warps, speeds, scrolls or fakes occur.
 - Note characters in use: `1 2 3 M`. `//` comments occur inside note data.
 - Encoding: UTF-8, 276 files with a BOM. Titles escape `#` and `:` with `\`.
+
+## How the parser maps StepMania timing to the IR
+
+`formats/stepmania.py` is shared with Pump It Up (docs/sources/piu.md). Its module docstring is the full reference;
+in short:
+
+| Tag | IR |
+|---|---|
+| `#OFFSET` | `TimingMap.offset_ms = -OFFSET × 1000` (0 and `offset_given: false` when missing) |
+| `#BPMS` | `BpmChange`. In a .sm file a negative BPM (the old warp trick) becomes a warp, as StepMania's SM loader makes it; in a .ssc file a BPM <= 0 is ignored with a warning, as StepMania's SSC loader does. |
+| `#STOPS` / `#FREEZES` | `TimingMap.stops` (ms). A negative stop is a warp in a .sm file, ignored in a .ssc file. |
+| `#DELAYS` | `TimingMap.delays` (ms; the pause comes before the notes on that beat) |
+| `#WARPS` | `TimingMap.warps` (beat, length); notes inside are fakes |
+| `#SCROLLS` × `#SPEEDS` | `ScrollChange`s. An instant speed change is exact; a tweened one becomes steps every 1/4 beat (warning, text kept in `unrepresented`). |
+| `#FAKES` | notes inside are fakes (text kept) |
+| `#TICKCOUNTS`, `#COMBOS` | parsed for Pump It Up's combo (`pump_counts`); text kept |
+| `#TIMESIGNATURES` | `MeterChange` |
+
+None of the DDR simfiles use delays, warps, speeds or negative BPMs and stops, so these changes did not alter any DDR
+chart. This was checked on 2026-11-11 by re-extracting all 9,962 charts offline into a copy of the database
+(`scrape ddr --charts --refresh --offline`, 0 failed). Every song.json was byte-identical, and every chart had the same
+notes and timing. The only difference: a re-extracted file also writes the model's empty `delays` and `warps` lists.

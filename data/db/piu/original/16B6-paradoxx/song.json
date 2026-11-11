@@ -1,0 +1,162 @@
+{
+ "game": "piu",
+ "song_id": "16B6",
+ "title": "Paradoxx",
+ "artist": "SLAM & Nato",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "220",
+ "version": "XX",
+ "date_added": "",
+ "charts": {
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 900
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6901,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S21",
+     "meter": "21",
+     "active": true,
+     "credit": "EXC",
+     "combo": 900,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 81,
+      "tap": 361
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "9 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-24": {
+   "slot": "single-24",
+   "native": "S24",
+   "level": "24",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1200
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6902,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-single",
+     "description": "S24",
+     "meter": "24",
+     "active": true,
+     "credit": "EXC",
+     "combo": 1200,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 45,
+      "tap": 559
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "9 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-26": {
+   "slot": "double-26",
+   "native": "D26",
+   "level": "26",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1400
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6903,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 12,
+     "steps_type": "pump-double",
+     "description": "D26",
+     "meter": "26",
+     "active": true,
+     "credit": "EXC",
+     "combo": 1400,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 571,
+      "hold": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "9 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 899,
+   "game_id": "16B6",
+   "card": "/img/card/16B6.png",
+   "first": "XX v2.08.0",
+   "title": "Paradoxx"
+  },
+  "kalinathalie": {
+   "slug": "paradoxx_short_cut"
+  },
+  "simfile": {
+   "path": "14 - XX/16B6 - [Short Cut] PARADOXX/16B6 - [Short Cut] PARADOXX.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/14%20-%20XX/16B6%20-%20%5BShort%20Cut%5D%20PARADOXX/16B6%20-%20%5BShort%20Cut%5D%20PARADOXX.ssc",
+   "id": "16B6",
+   "title": "PARADOXX - SHORT CUT -",
+   "artist": "SLAM & NATO"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/paradoxx_short_cut.jpg",
+   "sha256": "56d756f009cdad5e7fcc8c5fae2b78bbcc478a64cffd54618dff4026edbc219d",
+   "width": 256,
+   "height": 256,
+   "bytes": 17962
+  }
+ },
+ "extra": {
+  "cut": "Short Cut",
+  "artists": [
+   "SLAM",
+   "Nato"
+  ]
+ }
+}

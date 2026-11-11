@@ -1,0 +1,124 @@
+{
+ "game": "piu",
+ "song_id": "13E4",
+ "title": "Unique",
+ "artist": "SHK",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "145",
+ "version": "Fiesta 2",
+ "date_added": "",
+ "charts": {
+  "single-18": {
+   "slot": "single-18",
+   "native": "S18",
+   "level": "18",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 481
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1538,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S18",
+     "meter": "18",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 481,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 289,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-16": {
+   "slot": "double-16",
+   "native": "D16",
+   "level": "16",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 583
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1537,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-double",
+     "description": "D16",
+     "meter": "16",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 583,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 233,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 262,
+   "game_id": "13E4",
+   "card": "/img/card/228.png",
+   "first": "Fiesta 2 v1.00",
+   "title": "Unique"
+  },
+  "kalinathalie": {
+   "slug": "unique_short_cut"
+  },
+  "simfile": {
+   "path": "10 - FIESTA 2/(1) 13E4 - [Short Cut] Unique/13E4 - [Short Cut] Unique.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/10%20-%20FIESTA%202/%281%29%2013E4%20-%20%5BShort%20Cut%5D%20Unique/13E4%20-%20%5BShort%20Cut%5D%20Unique.ssc",
+   "id": "13E4",
+   "title": "Unique - SHORT CUT -",
+   "artist": "SHK"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/unique_short_cut.jpg",
+   "sha256": "a15b13edac9ea2b1fb5be411008c83919c2854e0e36090340e839b2d6815deab",
+   "width": 256,
+   "height": 256,
+   "bytes": 24414
+  }
+ },
+ "extra": {
+  "cut": "Short Cut",
+  "titles": {
+   "kr": "유니크"
+  }
+ }
+}

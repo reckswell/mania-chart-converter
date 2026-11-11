@@ -1,0 +1,164 @@
+{
+ "game": "piu",
+ "song_id": "F31",
+ "title": "The People didn't know Pumping up",
+ "artist": "BanYa Production",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "134",
+ "version": "NX Absolute",
+ "date_added": "",
+ "charts": {
+  "single-8": {
+   "slot": "single-8",
+   "native": "S8",
+   "level": "8",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 546
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 572,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S8",
+     "meter": "8",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 546,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 45,
+      "tap": 400
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-7": {
+   "slot": "double-7",
+   "native": "D7",
+   "level": "7",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 291
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 573,
+     "mode": "D"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-double",
+     "description": "D6",
+     "meter": "6",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 291,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 314,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 6 differs from the PHOENIX 2 level 7: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1083
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 574,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1083,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 761,
+      "hold": 96
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 87,
+   "game_id": "F31",
+   "card": "/img/card/351.png",
+   "first": "NX Absolute default",
+   "title": "The People didn't know Pumping up"
+  },
+  "kalinathalie": {
+   "slug": "the_people_didn_t_know_pumping_up"
+  },
+  "simfile": {
+   "path": "06 - NX ABSOLUTE/F31 - [Remix] The People Didn't Know ''Pumping Up''/F31 - [Remix] The People Didn't Know ''Pumping Up''.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/06%20-%20NX%20ABSOLUTE/F31%20-%20%5BRemix%5D%20The%20People%20Didn%27t%20Know%20%27%27Pumping%20Up%27%27/F31%20-%20%5BRemix%5D%20The%20People%20Didn%27t%20Know%20%27%27Pumping%20Up%27%27.ssc",
+   "id": "F31",
+   "title": "The People didn't know Pumping up",
+   "artist": "Banya Production"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/the_people_didn_t_know_pumping_up.jpg",
+   "sha256": "689c3f67a943d1ce9c4404b6e646c8f77a3be5361fee9dbe789b6270f618115b",
+   "width": 256,
+   "height": 256,
+   "bytes": 25340
+  }
+ },
+ "extra": {
+  "cut": "Remix",
+  "titles": {
+   "kr": "사람들은 펌핑업을 몰랐다네"
+  },
+  "simfile_notes": [
+   "D7: simfile chart 'D6' has meter 6 (re-rated)"
+  ]
+ }
+}

@@ -1,0 +1,317 @@
+{
+ "game": "piu",
+ "song_id": "1409",
+ "title": "Force of Ra",
+ "artist": "Memme",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "180",
+ "version": "Prime",
+ "date_added": "",
+ "charts": {
+  "single-8": {
+   "slot": "single-8",
+   "native": "S8",
+   "level": "8",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 537
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3172,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S8",
+     "meter": "8",
+     "active": true,
+     "credit": "Conrad",
+     "combo": 537,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 411,
+      "hold": 53
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-12": {
+   "slot": "single-12",
+   "native": "S12",
+   "level": "12",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 688
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3173,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S12",
+     "meter": "12",
+     "active": true,
+     "credit": "Conrad",
+     "combo": 688,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 436,
+      "hold": 54
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 1002
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3175,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": true,
+     "credit": "Nimgo",
+     "combo": 1002,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 390,
+      "hold": 240
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 1068
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3176,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S19",
+     "meter": "19",
+     "active": true,
+     "credit": "Nimgo",
+     "combo": 1068,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 516,
+      "hold": 208
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-14": {
+   "slot": "double-14",
+   "native": "D14",
+   "level": "14",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 575
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3174,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-double",
+     "description": "D12",
+     "meter": "12",
+     "active": true,
+     "credit": "Conrad",
+     "combo": 575,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 451,
+      "hold": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 12 differs from the PHOENIX 2 level 14: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-20": {
+   "slot": "double-20",
+   "native": "D20",
+   "level": "20",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 1300
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3177,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-double",
+     "description": "D20",
+     "meter": "20",
+     "active": true,
+     "credit": "Conrad",
+     "combo": 1300,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 502,
+      "hold": 226
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "halfdouble-13": {
+   "slot": "halfdouble-13",
+   "native": "HDB13",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8904,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-19": {
+   "slot": "halfdouble-19",
+   "native": "HDB19",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8905,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 502,
+   "game_id": "1409",
+   "card": "/img/card/1409.png",
+   "first": "Prime v1.16.0",
+   "title": "Force of Ra"
+  },
+  "kalinathalie": {
+   "slug": "force_of_ra"
+  },
+  "simfile": {
+   "path": "12 - PRIME/1409 - Force of Ra/1409 - Force of Ra.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/12%20-%20PRIME/1409%20-%20Force%20of%20Ra/1409%20-%20Force%20of%20Ra.ssc",
+   "id": "1409",
+   "title": "Force of Ra",
+   "artist": "Memme"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/force_of_ra.jpg",
+   "sha256": "93050e8e41f85d39eb05d9c3b1fb6be43f734081d86cedf7016d690ee91e5366",
+   "width": 256,
+   "height": 256,
+   "bytes": 35093
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "포스 오브 라"
+  },
+  "simfile_notes": [
+   "D14: simfile chart 'D12' has meter 12 (re-rated)"
+  ]
+ }
+}

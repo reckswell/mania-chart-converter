@@ -1,0 +1,127 @@
+{
+ "game": "piu",
+ "song_id": "1050",
+ "title": "Final Audition EP. 2-X",
+ "artist": "Yahpp",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "170",
+ "version": "Fiesta",
+ "date_added": "",
+ "charts": {
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 617
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 913,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S20",
+     "meter": "20",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 617,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 463,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 20 differs from the PHOENIX 2 level 21: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-20": {
+   "slot": "double-20",
+   "native": "D20",
+   "level": "20",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 775
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 912,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-double",
+     "description": "D20",
+     "meter": "20",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 775,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 318,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 149,
+   "game_id": "1050",
+   "card": "/img/card/68.png",
+   "first": "Fiesta v1.01",
+   "title": "Final Audition EP. 2-X"
+  },
+  "kalinathalie": {
+   "slug": "final_audition_ep_2_x_short_cut"
+  },
+  "simfile": {
+   "path": "08 - FIESTA/1050 - [Short Cut] Final Audition Episode 2-X/1050 - [Short Cut] Final Audition 2-X.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/08%20-%20FIESTA/1050%20-%20%5BShort%20Cut%5D%20Final%20Audition%20Episode%202-X/1050%20-%20%5BShort%20Cut%5D%20Final%20Audition%202-X.ssc",
+   "id": "1050",
+   "title": "Final Audition EP. 2-X - SHORT CUT -",
+   "artist": "YAHPP"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/final_audition_ep_2_x_short_cut.jpg",
+   "sha256": "285e0bd378294c16194918024cdace461564cb4507fd2361fddb1b940d9c6307",
+   "width": 256,
+   "height": 256,
+   "bytes": 15136
+  }
+ },
+ "extra": {
+  "cut": "Short Cut",
+  "titles": {
+   "kr": "파이널 오디션 에피소드 2-X"
+  },
+  "simfile_notes": [
+   "S21: simfile chart 'S20' has meter 20 (re-rated)"
+  ]
+ }
+}

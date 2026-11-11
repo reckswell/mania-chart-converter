@@ -55,6 +55,13 @@ def _ms(chart: Chart, beat: Fraction) -> int:
     return int(round(chart.timing.ms_at(beat)))
 
 
+def _version(m) -> str:
+    """Default difficulty name, e.g. "CHUNITHM MASTER 14+". The level is left out when the native name already ends
+    with it (Pump It Up's "S21")."""
+    level = m.level if m.level and not str(m.difficulty_native).endswith(str(m.level)) else ""
+    return " ".join(x for x in [m.game.upper(), m.difficulty_native, level] if x)
+
+
 def timing_lines(chart: Chart, kiai: list[tuple[Fraction, Fraction]] | None = None) -> list[str]:
     t = chart.timing
     end = chart.end_beat
@@ -104,7 +111,7 @@ def write_osu(chart: Chart, settings: OsuSettings | None = None) -> str:
     check_contract(chart)
     m = chart.meta
     keys = chart.lanes
-    version = s.version or " ".join(x for x in [m.game.upper(), m.difficulty_native, m.level] if x)
+    version = s.version or _version(m)
     title_r = m.title_romaji or m.title
     artist_r = m.artist_romaji or m.artist
     tags = s.tags or [m.game, m.genre.replace(" ", "_"), m.designer.replace(" ", "_"), "vsrgconv"]
@@ -145,7 +152,7 @@ def save_osu(chart: Chart, path: str | Path, settings: OsuSettings | None = None
 def osu_filename(chart: Chart, settings: OsuSettings | None = None) -> str:
     s = settings or OsuSettings()
     m = chart.meta
-    version = s.version or " ".join(x for x in [m.game.upper(), m.difficulty_native, m.level] if x)
+    version = s.version or _version(m)
     name = f"{_ascii(m.artist_romaji or m.artist)} - {_ascii(m.title_romaji or m.title)} ({s.creator}) [{version}].osu"
     return "".join(c for c in name if c not in '<>:"/\\|?*')
 

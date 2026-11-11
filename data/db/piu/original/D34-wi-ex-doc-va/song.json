@@ -1,0 +1,201 @@
+{
+ "game": "piu",
+ "song_id": "D34",
+ "title": "WI-EX-DOC-VA",
+ "artist": "Yahpp",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "195",
+ "version": "NX / New Xenesis",
+ "date_added": "",
+ "charts": {
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1000
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 716,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1000,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 48,
+      "tap": 805
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1800
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 717,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S21",
+     "meter": "21",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1800,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 66,
+      "tap": 1152
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1004
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 714,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-double",
+     "description": "D17",
+     "meter": "17",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1004,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 62,
+      "tap": 781
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 17 differs from the PHOENIX 2 level 18: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-24": {
+   "slot": "double-24",
+   "native": "D24",
+   "level": "24",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1837
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 715,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-double",
+     "description": "D24 INFOBAR TITLE",
+     "meter": "24",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1837,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 70,
+      "tap": 1193
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 109,
+   "game_id": "D34",
+   "card": "/img/card/275.png",
+   "first": "NX / New Xenesis 1.05",
+   "title": "WI-EX-DOC-VA"
+  },
+  "kalinathalie": {
+   "slug": "wi_ex_doc_va"
+  },
+  "simfile": {
+   "path": "05 - NX~NX2/(2) D34 - [Remix] Wi-Ex-Doc-Va/D34 - [Remix] Wi-Ex-Doc-Va.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/05%20-%20NX~NX2/%282%29%20D34%20-%20%5BRemix%5D%20Wi-Ex-Doc-Va/D34%20-%20%5BRemix%5D%20Wi-Ex-Doc-Va.ssc",
+   "id": "D34",
+   "title": "WI-EX-DOC-VA",
+   "artist": "YAHPP"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/wi_ex_doc_va.jpg",
+   "sha256": "653da76b7bf84d9a05f55c85fac81929921eed50d5c270bde1d74eab69d7b83a",
+   "width": 256,
+   "height": 256,
+   "bytes": 26644
+  }
+ },
+ "extra": {
+  "cut": "Remix",
+  "titles": {
+   "kr": "위엑닥바"
+  },
+  "simfile_notes": [
+   "D18: simfile chart 'D17' has meter 17 (re-rated)"
+  ]
+ }
+}

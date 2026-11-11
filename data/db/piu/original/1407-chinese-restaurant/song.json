@@ -1,0 +1,390 @@
+{
+ "game": "piu",
+ "song_id": "1407",
+ "title": "Chinese restaurant",
+ "artist": "Memme",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "175",
+ "version": "Prime",
+ "date_added": "",
+ "charts": {
+  "single-4": {
+   "slot": "single-4",
+   "native": "S4",
+   "level": "4",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 198
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1675,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S4",
+     "meter": "4",
+     "active": true,
+     "credit": "EXC",
+     "combo": 198,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 182,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-7": {
+   "slot": "single-7",
+   "native": "S7",
+   "level": "7",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 481
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1676,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S7",
+     "meter": "7",
+     "active": true,
+     "credit": "EXC",
+     "combo": 481,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 41,
+      "tap": 344
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-10": {
+   "slot": "single-10",
+   "native": "S10",
+   "level": "10",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 517
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1677,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S10",
+     "meter": "10",
+     "active": true,
+     "credit": "EXC",
+     "combo": 517,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 37,
+      "tap": 401
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 794
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1678,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "EXC",
+     "combo": 794,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 521,
+      "hold": 86
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-18": {
+   "slot": "single-18",
+   "native": "S18",
+   "level": "18",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 950
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1679,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S18",
+     "meter": "18",
+     "active": true,
+     "credit": "EXC",
+     "combo": 950,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 577,
+      "hold": 94
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-12": {
+   "slot": "double-12",
+   "native": "D12",
+   "level": "12",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 536
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1673,
+     "mode": "D"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-double",
+     "description": "D11",
+     "meter": "11",
+     "active": true,
+     "credit": "EXC",
+     "combo": 536,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 43,
+      "tap": 408
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 11 differs from the PHOENIX 2 level 12: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-19": {
+   "slot": "double-19",
+   "native": "D19",
+   "level": "19",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1122
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1674,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 8,
+     "steps_type": "pump-double",
+     "description": "D19",
+     "meter": "19",
+     "active": true,
+     "credit": "EXC",
+     "combo": 1122,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 578,
+      "hold": 151
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-11": {
+   "slot": "halfdouble-11",
+   "native": "HDB11",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8898,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "normal"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-18": {
+   "slot": "halfdouble-18",
+   "native": "HDB18",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8899,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "coop-3": {
+   "slot": "coop-3",
+   "native": "CO-OP x3",
+   "level": "3",
+   "constant": null,
+   "designer": "SUNNY",
+   "note_counts": {
+    "combo": 964
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6830,
+     "mode": "C"
+    },
+    "simfile": {
+     "chart": 9,
+     "steps_type": "pump-double",
+     "description": "DP COOP 3P",
+     "meter": "99",
+     "active": true,
+     "credit": "SUNNY",
+     "combo": 964,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 199,
+      "tap": 888
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 284,
+   "game_id": "1407",
+   "card": "/img/card/186.png",
+   "first": "Prime v1.00.0",
+   "title": "Chinese restaurant"
+  },
+  "kalinathalie": {
+   "slug": "chinese_restaurant"
+  },
+  "simfile": {
+   "path": "12 - PRIME/1407 - Chinese Restaurant/1407 - Chinese Restaurant.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/12%20-%20PRIME/1407%20-%20Chinese%20Restaurant/1407%20-%20Chinese%20Restaurant.ssc",
+   "id": "1407",
+   "title": "Chinese restaurant",
+   "artist": "Memme"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/chinese_restaurant.jpg",
+   "sha256": "17605418f28193275a4fae9e0dbf3ec56505365cce5400731636edb06d18fd43",
+   "width": 256,
+   "height": 256,
+   "bytes": 27229
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "차이니즈 레스토랑"
+  },
+  "simfile_notes": [
+   "D12: simfile chart 'D11' has meter 11 (re-rated)"
+  ]
+ }
+}

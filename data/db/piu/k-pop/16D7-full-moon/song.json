@@ -1,0 +1,160 @@
+{
+ "game": "piu",
+ "song_id": "16D7",
+ "title": "Full Moon",
+ "artist": "Dreamcatcher",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "190",
+ "version": "XX",
+ "date_added": "",
+ "charts": {
+  "single-20": {
+   "slot": "single-20",
+   "native": "S20",
+   "level": "20",
+   "constant": null,
+   "designer": "BME",
+   "note_counts": {
+    "combo": 1856
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6632,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S20",
+     "meter": "20",
+     "active": true,
+     "credit": "BME",
+     "combo": 1856,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 283,
+      "tap": 752
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "4 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-22": {
+   "slot": "single-22",
+   "native": "S22",
+   "level": "22",
+   "constant": null,
+   "designer": "BME",
+   "note_counts": {
+    "combo": 2200
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6633,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S22",
+     "meter": "22",
+     "active": true,
+     "credit": "BME",
+     "combo": 2200,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 272,
+      "tap": 980,
+      "other": 486
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "5 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-24": {
+   "slot": "double-24",
+   "native": "D24",
+   "level": "24",
+   "constant": null,
+   "designer": "BME",
+   "note_counts": {
+    "combo": 2233
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6634,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 10,
+     "steps_type": "pump-double",
+     "description": "D24",
+     "meter": "24",
+     "active": true,
+     "credit": "BME",
+     "combo": 2233,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 276,
+      "tap": 1014,
+      "other": 174
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "7 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 873,
+   "game_id": "16D7",
+   "card": "/img/card/16D7.png",
+   "first": "XX v2.05.0",
+   "title": "Full Moon"
+  },
+  "kalinathalie": {
+   "slug": "full_moon_full_song"
+  },
+  "simfile": {
+   "path": "14 - XX/16D7 - [Full Song] Full Moon/16D7 - [Full Song] Full Moon.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/14%20-%20XX/16D7%20-%20%5BFull%20Song%5D%20Full%20Moon/16D7%20-%20%5BFull%20Song%5D%20Full%20Moon.ssc",
+   "id": "16D7",
+   "title": "Full Moon - FULL SONG -",
+   "artist": "Dreamcatcher"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/full_moon_full_song.jpg",
+   "sha256": "bea699c0f01b2b704872be707788fbccb46e93d748e124e713d37981f60502ac",
+   "width": 256,
+   "height": 256,
+   "bytes": 18378
+  }
+ },
+ "extra": {
+  "cut": "Full Song"
+ }
+}

@@ -1,0 +1,142 @@
+{
+ "game": "piu",
+ "song_id": "1051",
+ "title": "Love is a Danger Zone",
+ "artist": "BanYa",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "140",
+ "version": "Fiesta",
+ "date_added": "",
+ "charts": {
+  "single-13": {
+   "slot": "single-13",
+   "native": "S13",
+   "level": "13",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 277
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 914,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S13",
+     "meter": "13",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 277,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 262,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-20": {
+   "slot": "single-20",
+   "native": "S20",
+   "level": "20",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 490
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 915,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S20",
+     "meter": "20",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 490,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 7,
+      "tap": 376
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "SANDSTORM",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 916,
+     "mode": "D"
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 150,
+   "game_id": "1051",
+   "card": "/img/card/69.png",
+   "first": "Fiesta v1.01",
+   "title": "Love is a Danger Zone"
+  },
+  "kalinathalie": {
+   "slug": "love_is_a_danger_zone_short_cut"
+  },
+  "simfile": {
+   "path": "08 - FIESTA/1051 - [Short Cut] Love is a Danger Zone/1051 - [Short Cut] Love is a Danger Zone.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/08%20-%20FIESTA/1051%20-%20%5BShort%20Cut%5D%20Love%20is%20a%20Danger%20Zone/1051%20-%20%5BShort%20Cut%5D%20Love%20is%20a%20Danger%20Zone.ssc",
+   "id": "1051",
+   "title": "Love is a Danger Zone - SHORT CUT -",
+   "artist": "Banya"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/love_is_a_danger_zone_short_cut.jpg",
+   "sha256": "5b5a55df4419c3619722efcfbcaad3cf0ba132bb6b757f1336be2226396b9fb3",
+   "width": 256,
+   "height": 256,
+   "bytes": 13748
+  }
+ },
+ "extra": {
+  "cut": "Short Cut",
+  "titles": {
+   "kr": "러브 이즈 어 데인저 존"
+  }
+ }
+}

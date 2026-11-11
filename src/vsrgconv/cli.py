@@ -87,42 +87,50 @@ def cmd_scrape(a: argparse.Namespace) -> int:
         except Exception as e:  # a reader bug must not stop a long scrape; it is reported
             return RuntimeError(f"{type(e).__name__}: {e}")
 
-    with ThreadPoolExecutor(max_workers=max(1, a.workers)) as pool:
-        for n, (job, result) in enumerate(zip(jobs, pool.map(work, jobs)), 1):
-            kind, song, slot = job
-            name = f"{song.song_id}/{slot or 'jacket'}"
-            if kind == "chart_jackets" and isinstance(result, list):
-                for cslot, data, ext, url in result:
-                    try:
-                        db.save_asset(a.game, song.song_id, f"jacket-{cslot}", data, ext=ext, url=url, slot=cslot,
-                                      max_size=None if a.full_images else a.image_size)
-                        stats["chart_jackets_saved"] = stats.get("chart_jackets_saved", 0) + 1
-                    except (OSError, ValueError) as e:
-                        errors.append(f"{song.song_id}/jacket-{cslot}: {e}"[:200])
-                continue
-            if kind == "chart_jackets":
-                errors.append(f"{song.song_id}/difficulty jackets: {result}"[:200])
-                continue
-            if isinstance(result, NotFound) or result is None:
-                stats[f"{kind}s_missing"] += 1
-                missing.append(name)
-            elif isinstance(result, Exception):
-                stats["charts_failed" if kind == "chart" else "jackets_missing"] += 1
-                errors.append(f"{name}: {result}"[:200])
-            elif kind == "jacket":
-                data, ext, url = result
+    def results():
+        """Results in job order, a batch at a time, so finished charts do not pile up in memory while the
+        database writes (on this thread) catch up."""
+        batch = max(1, a.workers) * 16
+        with ThreadPoolExecutor(max_workers=max(1, a.workers)) as pool:
+            for i in range(0, len(jobs), batch):
+                chunk = jobs[i:i + batch]
+                yield from zip(chunk, pool.map(work, chunk))
+
+    for n, (job, result) in enumerate(results(), 1):
+        kind, song, slot = job
+        name = f"{song.song_id}/{slot or 'jacket'}"
+        if kind == "chart_jackets" and isinstance(result, list):
+            for cslot, data, ext, url in result:
                 try:
-                    db.save_asset(a.game, song.song_id, "jacket", data, ext=ext, url=url,
+                    db.save_asset(a.game, song.song_id, f"jacket-{cslot}", data, ext=ext, url=url, slot=cslot,
                                   max_size=None if a.full_images else a.image_size)
-                    stats["jackets_saved"] += 1
+                    stats["chart_jackets_saved"] = stats.get("chart_jackets_saved", 0) + 1
                 except (OSError, ValueError) as e:
-                    stats["jackets_missing"] += 1
-                    errors.append(f"{name}: {e}"[:200])
-            else:
-                db.save_chart(result)
-                stats["charts_saved"] += 1
-            if a.progress and n % 250 == 0:
-                print(f"{n}/{len(jobs)} {json.dumps(stats)}", file=sys.stderr, flush=True)
+                    errors.append(f"{song.song_id}/jacket-{cslot}: {e}"[:200])
+            continue
+        if kind == "chart_jackets":
+            errors.append(f"{song.song_id}/difficulty jackets: {result}"[:200])
+            continue
+        if isinstance(result, NotFound) or result is None:
+            stats[f"{kind}s_missing"] += 1
+            missing.append(name)
+        elif isinstance(result, Exception):
+            stats["charts_failed" if kind == "chart" else "jackets_missing"] += 1
+            errors.append(f"{name}: {result}"[:200])
+        elif kind == "jacket":
+            data, ext, url = result
+            try:
+                db.save_asset(a.game, song.song_id, "jacket", data, ext=ext, url=url,
+                              max_size=None if a.full_images else a.image_size)
+                stats["jackets_saved"] += 1
+            except (OSError, ValueError) as e:
+                stats["jackets_missing"] += 1
+                errors.append(f"{name}: {e}"[:200])
+        else:
+            db.save_chart(result)
+            stats["charts_saved"] += 1
+        if a.progress and n % 250 == 0:
+            print(f"{n}/{len(jobs)} {json.dumps(stats)}", file=sys.stderr, flush=True)
     stats["error_count"] = len(errors)
     stats["errors"] = errors[:30]
     stats["missing_sample"] = missing[:60]

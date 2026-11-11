@@ -1,0 +1,202 @@
+{
+ "game": "piu",
+ "song_id": "B29",
+ "title": "Banya Classic Remix",
+ "artist": "BanYa",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "162-170",
+ "version": "Exceed 2",
+ "date_added": "",
+ "charts": {
+  "single-13": {
+   "slot": "single-13",
+   "native": "S13",
+   "level": "13",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 553
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 409,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S13",
+     "meter": "13",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 553,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 589,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "KANG2",
+   "note_counts": {
+    "combo": 992
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 410,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S19",
+     "meter": "19",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 992,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 978,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-15": {
+   "slot": "double-15",
+   "native": "D15",
+   "level": "15",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 580
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 407,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-double",
+     "description": "D15",
+     "meter": "15",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 580,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 605,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-22": {
+   "slot": "double-22",
+   "native": "D22",
+   "level": "22",
+   "constant": null,
+   "designer": "KANG2",
+   "note_counts": {
+    "combo": 1095
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 408,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-double",
+     "description": "D21",
+     "meter": "21",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1095,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 884,
+      "hold": 132
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 21 differs from the PHOENIX 2 level 22: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 60,
+   "game_id": "B29",
+   "card": "/img/card/253.png",
+   "first": "Exceed 2 default",
+   "title": "Banya Classic Remix"
+  },
+  "kalinathalie": {
+   "slug": "banya_classic_remix"
+  },
+  "simfile": {
+   "path": "04 - EXCEED~ZERO/(2) B29 - [Remix] Banya Classic Remix/B29 - [Remix] Banya Classic Remix.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/04%20-%20EXCEED~ZERO/%282%29%20B29%20-%20%5BRemix%5D%20Banya%20Classic%20Remix/B29%20-%20%5BRemix%5D%20Banya%20Classic%20Remix.ssc",
+   "id": "B29",
+   "title": "Banya Classic Remix",
+   "artist": "BanYa"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/banya_classic_remix.jpg",
+   "sha256": "1a4658e07f96855c46009eeb80f4fd07a1948725929496245275588281db4816",
+   "width": 256,
+   "height": 256,
+   "bytes": 23216
+  }
+ },
+ "extra": {
+  "cut": "Remix",
+  "titles": {
+   "kr": "반야 클래식 리믹스"
+  },
+  "revived_in": "Fiesta v1.10",
+  "simfile_notes": [
+   "D22: simfile chart 'D21' has meter 21 (re-rated)"
+  ]
+ }
+}

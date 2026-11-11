@@ -1,0 +1,207 @@
+{
+ "game": "piu",
+ "song_id": "E25",
+ "title": "Jam O Beat",
+ "artist": "BanYa Production",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "120",
+ "version": "NX2 / Next Xenesis",
+ "date_added": "",
+ "charts": {
+  "single-8": {
+   "slot": "single-8",
+   "native": "S8",
+   "level": "8",
+   "constant": null,
+   "designer": "Overdeath",
+   "note_counts": {
+    "combo": 225
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2379,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S7",
+     "meter": "7",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 225,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 260,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 7 differs from the PHOENIX 2 level 8: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "Rune",
+   "note_counts": {
+    "combo": 571
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2378,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 571,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 492,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-15": {
+   "slot": "double-15",
+   "native": "D15",
+   "level": "15",
+   "constant": null,
+   "designer": "EHWA",
+   "note_counts": {
+    "combo": 462
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2380,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 14,
+     "steps_type": "pump-double",
+     "description": "D15",
+     "meter": "15",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 462,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 412,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-8": {
+   "slot": "halfdouble-8",
+   "native": "HDB8",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9174,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "normal"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-14": {
+   "slot": "halfdouble-14",
+   "native": "HDB14",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9175,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 408,
+   "game_id": "E25",
+   "card": "/img/card/E25.png",
+   "first": "NX2 / Next Xenesis default",
+   "title": "Jam O Beat"
+  },
+  "kalinathalie": {
+   "slug": "jam_o_beat"
+  },
+  "simfile": {
+   "path": "05 - NX~NX2/(1) E25 - Jam O Beat/E25 - Jam O Beat.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/05%20-%20NX~NX2/%281%29%20E25%20-%20Jam%20O%20Beat/E25%20-%20Jam%20O%20Beat.ssc",
+   "id": "E25",
+   "title": "Jam O Beat",
+   "artist": "Banya Production"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/jam_o_beat.jpg",
+   "sha256": "2af7fb869df0b34db8ea33d8c9a9813f26b7ce9b26398524c2cf11a31bf2f593",
+   "width": 256,
+   "height": 256,
+   "bytes": 12826
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "잼 오 비트"
+  },
+  "revived_in": "Prime 2 v1.00.0",
+  "simfile_notes": [
+   "S8: simfile chart 'S7' has meter 7 (re-rated)"
+  ]
+ }
+}

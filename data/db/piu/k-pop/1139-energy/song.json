@@ -1,0 +1,73 @@
+{
+ "game": "piu",
+ "song_id": "1139",
+ "title": "Energy",
+ "artist": "Mighty Mouth",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "155",
+ "version": "Fiesta EX",
+ "date_added": "",
+ "charts": {
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 1333
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6479,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S15",
+     "meter": "15",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 1333,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 966,
+      "hold": 72
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'S15')",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 855,
+   "game_id": "1139",
+   "card": "/img/card/1139.png",
+   "first": "Fiesta EX v1.00",
+   "title": "Energy"
+  },
+  "simfile": {
+   "path": "09 - FIESTA EX/1139 - [Full Song] Energy/1139 - [Full Song] Energy.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/09%20-%20FIESTA%20EX/1139%20-%20%5BFull%20Song%5D%20Energy/1139%20-%20%5BFull%20Song%5D%20Energy.ssc",
+   "id": "1139",
+   "title": "Energy - FULL SONG -",
+   "artist": "Mighty Mouth"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Full Song",
+  "removed": true,
+  "removed_in": "Prime v1.00.0"
+ }
+}

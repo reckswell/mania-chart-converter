@@ -1,0 +1,165 @@
+{
+ "game": "piu",
+ "song_id": "1053",
+ "title": "Extravaganza",
+ "artist": "BanYa",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "195",
+ "version": "Fiesta",
+ "date_added": "",
+ "charts": {
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 422
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 920,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 422,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 372,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-17": {
+   "slot": "double-17",
+   "native": "D17",
+   "level": "17",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 308
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 921,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-double",
+     "description": "D16",
+     "meter": "16",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 308,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 329,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 16 differs from the PHOENIX 2 level 17: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-24": {
+   "slot": "double-24",
+   "native": "D24",
+   "level": "24",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 841
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 922,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-double",
+     "description": "D23",
+     "meter": "23",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 841,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 330,
+      "hold": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 23 differs from the PHOENIX 2 level 24: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 152,
+   "game_id": "1053",
+   "card": "/img/card/71.png",
+   "first": "Fiesta v1.01",
+   "title": "Extravaganza"
+  },
+  "kalinathalie": {
+   "slug": "extravaganza_short_cut"
+  },
+  "simfile": {
+   "path": "08 - FIESTA/1053 - [Short Cut] Extravaganza/1053 - [Short Cut] Extravaganza.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/08%20-%20FIESTA/1053%20-%20%5BShort%20Cut%5D%20Extravaganza/1053%20-%20%5BShort%20Cut%5D%20Extravaganza.ssc",
+   "id": "1053",
+   "title": "Extravaganza - SHORT CUT -",
+   "artist": "Banya"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/extravaganza_short_cut.jpg",
+   "sha256": "3b243acbd87335fbafaaa2aad7e37baaab6595ad3fcc0fd85601296a171160d5",
+   "width": 256,
+   "height": 256,
+   "bytes": 16700
+  }
+ },
+ "extra": {
+  "cut": "Short Cut",
+  "titles": {
+   "kr": "엑스트라바간자"
+  },
+  "simfile_notes": [
+   "D17: simfile chart 'D16' has meter 16 (re-rated)",
+   "D24: simfile chart 'D23' has meter 23 (re-rated)"
+  ]
+ }
+}

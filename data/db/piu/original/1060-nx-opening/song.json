@@ -1,0 +1,125 @@
+{
+ "game": "piu",
+ "song_id": "1060",
+ "title": "NX Opening",
+ "artist": "Yahpp",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "133",
+ "version": "Fiesta",
+ "date_added": "",
+ "charts": {
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 638
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 941,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 638,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 10,
+      "tap": 334
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "11 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 696
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 942,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 696,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 8,
+      "other": 41,
+      "tap": 357
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "6 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 159,
+   "game_id": "1060",
+   "card": "/img/card/78.png",
+   "first": "Fiesta v1.01",
+   "title": "NX Opening"
+  },
+  "kalinathalie": {
+   "slug": "nx_opening_short_cut"
+  },
+  "simfile": {
+   "path": "08 - FIESTA/1060 - [Short Cut] NX Opening/1060 - [Short Cut] NX Opening.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/08%20-%20FIESTA/1060%20-%20%5BShort%20Cut%5D%20NX%20Opening/1060%20-%20%5BShort%20Cut%5D%20NX%20Opening.ssc",
+   "id": "1060",
+   "title": "NX Opening - SHORT CUT -",
+   "artist": "YAHPP"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/nx_opening_short_cut.jpg",
+   "sha256": "95aca06d06c875a6146212811ad455becfbcea7ce5cb704273200d3f7aa99d73",
+   "width": 256,
+   "height": 256,
+   "bytes": 17302
+  }
+ },
+ "extra": {
+  "cut": "Short Cut",
+  "titles": {
+   "kr": "NX 오프닝"
+  }
+ }
+}

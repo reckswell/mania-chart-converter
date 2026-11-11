@@ -1,0 +1,235 @@
+{
+ "game": "piu",
+ "song_id": "15C0",
+ "title": "Donatello",
+ "artist": "Triplestar",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "XROSS",
+ "bpm": "175",
+ "version": "Prime 2",
+ "date_added": "",
+ "charts": {
+  "single-13": {
+   "slot": "single-13",
+   "native": "S13",
+   "level": "13",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 523
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4781,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S13",
+     "meter": "13",
+     "active": true,
+     "credit": "NIMGO",
+     "combo": 523,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 480,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 808
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4782,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": true,
+     "credit": "NIMGO",
+     "combo": 808,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 639,
+      "hold": 62
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-22": {
+   "slot": "single-22",
+   "native": "S22",
+   "level": "22",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 1061
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4783,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-single",
+     "description": "S22",
+     "meter": "22",
+     "active": true,
+     "credit": "NIMGO",
+     "combo": 1061,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 793,
+      "hold": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-19": {
+   "slot": "double-19",
+   "native": "D19",
+   "level": "19",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 785
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4784,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": true,
+     "credit": "NIMGO",
+     "combo": 785,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 626,
+      "hold": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 18 differs from the PHOENIX 2 level 19: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-22": {
+   "slot": "double-22",
+   "native": "D22",
+   "level": "22",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 1173
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4785,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-double",
+     "description": "D22",
+     "meter": "22",
+     "active": true,
+     "credit": "NIMGO",
+     "combo": 1173,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 762,
+      "hold": 71
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 671,
+   "game_id": "15C0",
+   "card": "/img/card/15C0.png",
+   "first": "Prime 2 v2.02.0",
+   "title": "Donatello"
+  },
+  "kalinathalie": {
+   "slug": "donatello"
+  },
+  "simfile": {
+   "path": "13 - PRIME 2/15C0 - Donatello/15C0 - Donatello.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/13%20-%20PRIME%202/15C0%20-%20Donatello/15C0%20-%20Donatello.ssc",
+   "id": "15C0",
+   "title": "Donatello",
+   "artist": "Triplestar"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/donatello.jpg",
+   "sha256": "4964aee4ea23e1aae135ec8b22447aa0f5365882c972152cfb18eed252bdc292",
+   "width": 256,
+   "height": 256,
+   "bytes": 26415
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "simfile_notes": [
+   "D19: simfile chart 'D18' has meter 18 (re-rated)"
+  ]
+ }
+}

@@ -1,0 +1,198 @@
+{
+ "game": "piu",
+ "song_id": "1154",
+ "title": "ASDF",
+ "artist": "Doin",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "170",
+ "version": "Fiesta EX",
+ "date_added": "",
+ "charts": {
+  "single-9": {
+   "slot": "single-9",
+   "native": "S9",
+   "level": "9",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 497
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1108,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S9",
+     "meter": "9",
+     "active": true,
+     "credit": "HP",
+     "combo": 497,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 309,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 958
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1109,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": true,
+     "credit": "HP",
+     "combo": 958,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 91,
+      "tap": 440
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-10": {
+   "slot": "double-10",
+   "native": "D10",
+   "level": "10",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 497
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1106,
+     "mode": "D"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-double",
+     "description": "D10",
+     "meter": "10",
+     "active": true,
+     "credit": "HP",
+     "combo": 497,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 261,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-17": {
+   "slot": "double-17",
+   "native": "D17",
+   "level": "17",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 1026
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1107,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 9,
+     "steps_type": "pump-double",
+     "description": "D17",
+     "meter": "17",
+     "active": true,
+     "credit": "HP",
+     "combo": 1026,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 90,
+      "tap": 431
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 191,
+   "game_id": "1154",
+   "card": "/img/card/120.png",
+   "first": "Fiesta EX v1.50",
+   "title": "ASDF"
+  },
+  "kalinathalie": {
+   "slug": "asdf"
+  },
+  "simfile": {
+   "path": "09 - FIESTA EX/1154 - ASDF/1154 - ASDF.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/09%20-%20FIESTA%20EX/1154%20-%20ASDF/1154%20-%20ASDF.ssc",
+   "id": "1154",
+   "title": "ASDF",
+   "artist": "Doin"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/asdf.jpg",
+   "sha256": "ba0d51ecc1bdb5f5b6dc4d031bcb8ad23fe540124f81e5a035659c11e16fa55a",
+   "width": 256,
+   "height": 256,
+   "bytes": 16520
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "ㅁㄴㅇㄹ"
+  }
+ }
+}

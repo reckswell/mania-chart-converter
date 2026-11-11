@@ -1,0 +1,110 @@
+{
+ "game": "piu",
+ "song_id": "16E0",
+ "title": "BBoom BBoom",
+ "artist": "MOMOLAND",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "126",
+ "version": "XX",
+ "date_added": "",
+ "charts": {
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1093
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5574,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": false,
+     "credit": "EXC",
+     "combo": 1093,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 1048,
+      "hold": 60
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'S17')",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "SUNNY",
+   "note_counts": {
+    "combo": 1321
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5575,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": false,
+     "credit": "SUNNY",
+     "combo": 1321,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 1104,
+      "hold": 100
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "92 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'D18')",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 760,
+   "game_id": "16E0",
+   "card": "/img/card/xx-bboom-bboom-full.png",
+   "first": "XX v1.00.1",
+   "title": "BBoom BBoom"
+  },
+  "simfile": {
+   "path": "14 - XX/16E0 - [Full Song] BBoom BBoom/16E0 - [Full Song] BBoom BBoom.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/14%20-%20XX/16E0%20-%20%5BFull%20Song%5D%20BBoom%20BBoom/16E0%20-%20%5BFull%20Song%5D%20BBoom%20BBoom.ssc",
+   "id": "16E0",
+   "title": "BBoom BBoom - FULL SONG -",
+   "artist": "MOMOLAND"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Full Song",
+  "removed": true,
+  "removed_in": "Phoenix v1.00.1"
+ }
+}

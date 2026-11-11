@@ -1,0 +1,162 @@
+{
+ "game": "piu",
+ "song_id": "502",
+ "title": "N",
+ "artist": "BanYa",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "106",
+ "version": "The Perfect Collection",
+ "date_added": "",
+ "charts": {
+  "single-5": {
+   "slot": "single-5",
+   "native": "S5",
+   "level": "5",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 180
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2557,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S5",
+     "meter": "5",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 180,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 171,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 606
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2558,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 606,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 484,
+      "hold": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-16": {
+   "slot": "double-16",
+   "native": "D16",
+   "level": "16",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 567
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2559,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 11,
+     "steps_type": "pump-double",
+     "description": "D16",
+     "meter": "16",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 567,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 445,
+      "hold": 52
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 446,
+   "game_id": "502",
+   "card": "/img/card/502.png",
+   "first": "The Perfect Collection default",
+   "title": "N"
+  },
+  "kalinathalie": {
+   "slug": "n"
+  },
+  "simfile": {
+   "path": "02 - S.E.~EXTRA/(3) 502 - N/502 - N.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/02%20-%20S.E.~EXTRA/%283%29%20502%20-%20N/502%20-%20N.ssc",
+   "id": "502",
+   "title": "N",
+   "artist": "BanYa"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/n.jpg",
+   "sha256": "cf762321327c325fb235ec666bf1036e0b655af89eac97aa6ccb9101c3fa886f",
+   "width": 256,
+   "height": 256,
+   "bytes": 33096
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "엔"
+  },
+  "revived_in": "Prime 2 v1.00.0"
+ }
+}

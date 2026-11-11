@@ -1,0 +1,73 @@
+{
+ "game": "piu",
+ "song_id": "1136",
+ "title": "Magic Girl",
+ "artist": "Orange Caramel",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "136",
+ "version": "Fiesta EX",
+ "date_added": "",
+ "charts": {
+  "single-12": {
+   "slot": "single-12",
+   "native": "S12",
+   "level": "12",
+   "constant": null,
+   "designer": "SANDSTORM",
+   "note_counts": {
+    "combo": 1934
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2139,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S12",
+     "meter": "12",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 1934,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 360,
+      "tap": 368
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'S12')",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 364,
+   "game_id": "1136",
+   "card": "/img/card/1136.png",
+   "first": "Fiesta EX v1.00",
+   "title": "Magic Girl"
+  },
+  "simfile": {
+   "path": "09 - FIESTA EX/1136 - [Full Song] Magic Girl/1136 - [Full Song] Magic Girl.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/09%20-%20FIESTA%20EX/1136%20-%20%5BFull%20Song%5D%20Magic%20Girl/1136%20-%20%5BFull%20Song%5D%20Magic%20Girl.ssc",
+   "id": "1136",
+   "title": "Magic Girl - FULL SONG -",
+   "artist": "Orange Caramel"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Full Song",
+  "removed": true,
+  "removed_in": "Prime v1.00.0"
+ }
+}

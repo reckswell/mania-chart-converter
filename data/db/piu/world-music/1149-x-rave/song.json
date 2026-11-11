@@ -1,0 +1,124 @@
+{
+ "game": "piu",
+ "song_id": "1149",
+ "title": "X-Rave",
+ "artist": "DM Ashura",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "WORLD MUSIC",
+ "bpm": "147",
+ "version": "Fiesta EX",
+ "date_added": "",
+ "charts": {
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "SANDSTORM",
+   "note_counts": {
+    "combo": 811
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1206,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 811,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 19,
+      "tap": 334
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 929
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1205,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 929,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 417,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 206,
+   "game_id": "1149",
+   "card": "/img/card/117.png",
+   "first": "Fiesta EX v1.00",
+   "title": "X-Rave"
+  },
+  "kalinathalie": {
+   "slug": "x_rave_short_cut"
+  },
+  "simfile": {
+   "path": "09 - FIESTA EX/1149 - [Short Cut] X-Rave/1149 - [Short Cut] X-Rave.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/09%20-%20FIESTA%20EX/1149%20-%20%5BShort%20Cut%5D%20X-Rave/1149%20-%20%5BShort%20Cut%5D%20X-Rave.ssc",
+   "id": "1149",
+   "title": "X-Rave - SHORT CUT -",
+   "artist": "DM Ashura"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/x_rave_short_cut.jpg",
+   "sha256": "9b6baeea5923816d9b6dccdc9ac6de3e9760ee64ce5378cc58fe1cb7d425f9e4",
+   "width": 256,
+   "height": 256,
+   "bytes": 18792
+  }
+ },
+ "extra": {
+  "cut": "Short Cut",
+  "titles": {
+   "kr": "엑스 레이브"
+  }
+ }
+}

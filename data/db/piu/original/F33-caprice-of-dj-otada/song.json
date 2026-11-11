@@ -1,0 +1,199 @@
+{
+ "game": "piu",
+ "song_id": "F33",
+ "title": "Caprice of DJ Otada",
+ "artist": "BanYa Production",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "180",
+ "version": "NX Absolute",
+ "date_added": "",
+ "charts": {
+  "single-12": {
+   "slot": "single-12",
+   "native": "S12",
+   "level": "12",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 876
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 577,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S12",
+     "meter": "12",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 876,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 498,
+      "hold": 90
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 760
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 578,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S21",
+     "meter": "21",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 760,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 831
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-23": {
+   "slot": "double-23",
+   "native": "D23",
+   "level": "23",
+   "constant": null,
+   "designer": "AHGOO",
+   "note_counts": {
+    "combo": 842
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 575,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-double",
+     "description": "D22",
+     "meter": "22",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 842,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 953
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 22 differs from the PHOENIX 2 level 23: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-25": {
+   "slot": "double-25",
+   "native": "D25",
+   "level": "25",
+   "constant": null,
+   "designer": "ESC, WINDFORCE",
+   "note_counts": {
+    "combo": 1321
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 576,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-double",
+     "description": "D25",
+     "meter": "25",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1321,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 1276,
+      "hold": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 88,
+   "game_id": "F33",
+   "card": "/img/card/352.png",
+   "first": "NX Absolute default",
+   "title": "Caprice of DJ Otada"
+  },
+  "kalinathalie": {
+   "slug": "caprice_of_dj_otada"
+  },
+  "simfile": {
+   "path": "06 - NX ABSOLUTE/F33 - [Remix] Caprice of DJ Otada/F33 - [Remix] Caprice of DJ Otada.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/06%20-%20NX%20ABSOLUTE/F33%20-%20%5BRemix%5D%20Caprice%20of%20DJ%20Otada/F33%20-%20%5BRemix%5D%20Caprice%20of%20DJ%20Otada.ssc",
+   "id": "F33",
+   "title": "Caprice of DJ Otada",
+   "artist": "Banya Production"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/caprice_of_dj_otada.jpg",
+   "sha256": "32e46c17a2c9c920b0096dbcfdff251599616e8ef94cb269942d37cd14dd4137",
+   "width": 256,
+   "height": 256,
+   "bytes": 21519
+  }
+ },
+ "extra": {
+  "cut": "Remix",
+  "titles": {
+   "kr": "카프리스 오브 디제이 오타다"
+  },
+  "simfile_notes": [
+   "D23: simfile chart 'D22' has meter 22 (re-rated)"
+  ]
+ }
+}

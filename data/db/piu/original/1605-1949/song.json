@@ -1,0 +1,338 @@
+{
+ "game": "piu",
+ "song_id": "1605",
+ "title": "1949",
+ "artist": "SLAM",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "220",
+ "version": "XX",
+ "date_added": "",
+ "charts": {
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "FEFEMZ",
+   "note_counts": {
+    "combo": 830
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5697,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "FEFEMZ",
+     "combo": 830,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 54,
+      "tap": 527
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "FEFEMZ",
+   "note_counts": {
+    "combo": 1000
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5698,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S21",
+     "meter": "21",
+     "active": true,
+     "credit": "FEFEMZ",
+     "combo": 1000,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 757,
+      "hold": 55
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-23": {
+   "slot": "single-23",
+   "native": "S23",
+   "level": "23",
+   "constant": null,
+   "designer": "FEFEMZ",
+   "note_counts": {
+    "combo": 1450
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5699,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S23",
+     "meter": "23",
+     "active": true,
+     "credit": "FEFEMZ",
+     "combo": 1450,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 852,
+      "hold": 79,
+      "other": 177
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "14 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-22": {
+   "slot": "double-22",
+   "native": "D22",
+   "level": "22",
+   "constant": null,
+   "designer": "FEFEMZ",
+   "note_counts": {
+    "combo": 1005
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5700,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 10,
+     "steps_type": "pump-double",
+     "description": "D22",
+     "meter": "22",
+     "active": true,
+     "credit": "FEFEMZ",
+     "combo": 1005,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 74,
+      "tap": 682
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-26": {
+   "slot": "double-26",
+   "native": "D26",
+   "level": "26",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1600
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5866,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 11,
+     "steps_type": "pump-double",
+     "description": "D26",
+     "meter": "26",
+     "active": true,
+     "credit": "EXC",
+     "combo": 1600,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 868,
+      "hold": 77,
+      "other": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "31 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-28": {
+   "slot": "double-28",
+   "native": "D28",
+   "level": "28",
+   "constant": null,
+   "designer": "FEFEMZ, EXC",
+   "note_counts": {
+    "combo": 1949
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5701,
+     "mode": "D",
+     "labels": [
+      "UPDATED"
+     ]
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 13,
+     "steps_type": "pump-double",
+     "description": "D28 INFOBAR TITLE",
+     "meter": "28",
+     "active": true,
+     "credit": "FEFEXC",
+     "combo": 1949,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 1180,
+      "hold": 84,
+      "other": 262
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "62 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "halfdouble-22": {
+   "slot": "halfdouble-22",
+   "native": "HDB22",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8668,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-25": {
+   "slot": "halfdouble-25",
+   "native": "HDB25",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8669,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-27": {
+   "slot": "halfdouble-27",
+   "native": "HDB27",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8670,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 777,
+   "game_id": "1605",
+   "card": "/img/card/xx-1949.png",
+   "first": "XX v1.02.0",
+   "title": "1949"
+  },
+  "kalinathalie": {
+   "slug": "1949"
+  },
+  "simfile": {
+   "path": "14 - XX/1605 - 1949/1605 - 1949.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/14%20-%20XX/1605%20-%201949/1605%20-%201949.ssc",
+   "id": "1605",
+   "title": "1949",
+   "artist": "SLAM"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/1949.jpg",
+   "sha256": "f3cea5295b685b4447b7e8d2f6626771b02dd489c434b176c0f84bf2876ab63e",
+   "width": 256,
+   "height": 256,
+   "bytes": 15004
+  }
+ },
+ "extra": {
+  "cut": "Arcade"
+ }
+}

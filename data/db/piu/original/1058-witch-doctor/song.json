@@ -1,0 +1,145 @@
+{
+ "game": "piu",
+ "song_id": "1058",
+ "title": "Witch Doctor",
+ "artist": "BanYa",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "195",
+ "version": "Fiesta",
+ "date_added": "",
+ "charts": {
+  "single-14": {
+   "slot": "single-14",
+   "native": "S14",
+   "level": "14",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 696
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 936,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S14",
+     "meter": "14",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 696,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 142,
+      "tap": 169
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 1004
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 937,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S20",
+     "meter": "20",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1004,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 492,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "3 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 20 differs from the PHOENIX 2 level 21: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 938,
+     "mode": "D"
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 157,
+   "game_id": "1058",
+   "card": "/img/card/76.png",
+   "first": "Fiesta v1.01",
+   "title": "Witch Doctor"
+  },
+  "kalinathalie": {
+   "slug": "witch_doctor_short_cut"
+  },
+  "simfile": {
+   "path": "08 - FIESTA/1058 - [Short Cut] Witch Doctor/1058 - [Short Cut] Witch Doctor.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/08%20-%20FIESTA/1058%20-%20%5BShort%20Cut%5D%20Witch%20Doctor/1058%20-%20%5BShort%20Cut%5D%20Witch%20Doctor.ssc",
+   "id": "1058",
+   "title": "Witch Doctor - SHORT CUT -",
+   "artist": "Banya"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/witch_doctor_short_cut.jpg",
+   "sha256": "bb6ae9d4ef4a75ecfc8aa61bd4a2b85a7a99365bed2a462bf91019a0f0a92747",
+   "width": 256,
+   "height": 256,
+   "bytes": 15377
+  }
+ },
+ "extra": {
+  "cut": "Short Cut",
+  "titles": {
+   "kr": "위치 닥터"
+  },
+  "simfile_notes": [
+   "S21: simfile chart 'S20' has meter 20 (re-rated)"
+  ]
+ }
+}

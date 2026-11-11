@@ -1,0 +1,164 @@
+{
+ "game": "piu",
+ "song_id": "1057",
+ "title": "Moonlight",
+ "artist": "BanYa",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "180",
+ "version": "Fiesta",
+ "date_added": "",
+ "charts": {
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 291
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 934,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S15",
+     "meter": "15",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 291,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 226,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 306
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 935,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S19",
+     "meter": "19",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 306,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 330,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-21": {
+   "slot": "double-21",
+   "native": "D21",
+   "level": "21",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 469
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 933,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-double",
+     "description": "D20",
+     "meter": "20",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 469,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 313,
+      "hold": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 20 differs from the PHOENIX 2 level 21: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 156,
+   "game_id": "1057",
+   "card": "/img/card/75.png",
+   "first": "Fiesta v1.06",
+   "title": "Moonlight"
+  },
+  "kalinathalie": {
+   "slug": "moonlight_short_cut"
+  },
+  "simfile": {
+   "path": "08 - FIESTA/1057 - [Short Cut] Moonlight/1057 - [Short Cut] Moonlight.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/08%20-%20FIESTA/1057%20-%20%5BShort%20Cut%5D%20Moonlight/1057%20-%20%5BShort%20Cut%5D%20Moonlight.ssc",
+   "id": "1057",
+   "title": "Moonlight - SHORT CUT -",
+   "artist": "Banya"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/moonlight_short_cut.jpg",
+   "sha256": "902cce82d33ec330b4105d2c2a787dac90ea86c4224a6e47203ae956aff60c22",
+   "width": 256,
+   "height": 256,
+   "bytes": 15048
+  }
+ },
+ "extra": {
+  "cut": "Short Cut",
+  "titles": {
+   "kr": "월광"
+  },
+  "simfile_notes": [
+   "D21: simfile chart 'D20' has meter 20 (re-rated)"
+  ]
+ }
+}

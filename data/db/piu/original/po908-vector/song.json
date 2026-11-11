@@ -1,0 +1,314 @@
+{
+ "game": "piu",
+ "song_id": "po908",
+ "title": "VECTOR",
+ "artist": "Zekk",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "178",
+ "version": "Phoenix",
+ "date_added": "",
+ "charts": {
+  "single-8": {
+   "slot": "single-8",
+   "native": "S8",
+   "level": "8",
+   "constant": null,
+   "designer": "SPHAM",
+   "note_counts": {
+    "combo": 398
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6985,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S8",
+     "meter": "8",
+     "active": true,
+     "credit": "SPHAM",
+     "combo": 398,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 280,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-14": {
+   "slot": "single-14",
+   "native": "S14",
+   "level": "14",
+   "constant": null,
+   "designer": "SPHAM",
+   "note_counts": {
+    "combo": 663
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6986,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S14",
+     "meter": "14",
+     "active": true,
+     "credit": "SPHAM",
+     "combo": 663,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 462,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-18": {
+   "slot": "single-18",
+   "native": "S18",
+   "level": "18",
+   "constant": null,
+   "designer": "SPHAM",
+   "note_counts": {
+    "combo": 921
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6987,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S18",
+     "meter": "18",
+     "active": true,
+     "credit": "SPHAM",
+     "combo": 921,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 525,
+      "hold": 171
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-22": {
+   "slot": "single-22",
+   "native": "S22",
+   "level": "22",
+   "constant": null,
+   "designer": "SPHAM",
+   "note_counts": {
+    "combo": 1427
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6988,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-single",
+     "description": "S22",
+     "meter": "22",
+     "active": true,
+     "credit": "SPHAM",
+     "combo": 1427,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 175,
+      "tap": 753,
+      "other": 95
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-15": {
+   "slot": "double-15",
+   "native": "D15",
+   "level": "15",
+   "constant": null,
+   "designer": "SPHAM",
+   "note_counts": {
+    "combo": 663
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6989,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-double",
+     "description": "D15",
+     "meter": "15",
+     "active": true,
+     "credit": "SPHAM",
+     "combo": 663,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 462,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-19": {
+   "slot": "double-19",
+   "native": "D19",
+   "level": "19",
+   "constant": null,
+   "designer": "SPHAM",
+   "note_counts": {
+    "combo": 921
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6990,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 8,
+     "steps_type": "pump-double",
+     "description": "D20",
+     "meter": "20",
+     "active": true,
+     "credit": "SPHAM",
+     "combo": 921,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 525,
+      "hold": 171
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 20 differs from the PHOENIX 2 level 19: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-24": {
+   "slot": "double-24",
+   "native": "D24",
+   "level": "24",
+   "constant": null,
+   "designer": "SPHAM",
+   "note_counts": {
+    "combo": 1427
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6991,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 10,
+     "steps_type": "pump-double",
+     "description": "D24",
+     "meter": "24",
+     "active": true,
+     "credit": "SPHAM",
+     "combo": 1427,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 175,
+      "tap": 752,
+      "other": 95
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 908,
+   "game_id": "17XX_0007",
+   "card": "/img/card/Phoenix_VECTOR.png",
+   "first": "Phoenix v1.00.1",
+   "title": "VECTOR"
+  },
+  "kalinathalie": {
+   "slug": "vector"
+  },
+  "simfile": {
+   "path": "16 - PHOENIX/18000 - VECTOR/VECTOR.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/16%20-%20PHOENIX/18000%20-%20VECTOR/VECTOR.ssc",
+   "id": "18000",
+   "title": "VECTOR",
+   "artist": "Zekk"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/vector.jpg",
+   "sha256": "6433f6f4eff18e2d093ee2744744ea76e067e464adfe67d5ce5fa982970f4900",
+   "width": 256,
+   "height": 256,
+   "bytes": 23368
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "벡터"
+  },
+  "simfile_notes": [
+   "D19: simfile chart 'D20' has meter 20 (re-rated)"
+  ]
+ }
+}

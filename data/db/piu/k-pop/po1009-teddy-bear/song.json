@@ -1,0 +1,165 @@
+{
+ "game": "piu",
+ "song_id": "po1009",
+ "title": "Teddy Bear",
+ "artist": "STAYC",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "119",
+ "version": "Phoenix",
+ "date_added": "",
+ "charts": {
+  "single-12": {
+   "slot": "single-12",
+   "native": "S12",
+   "level": "12",
+   "constant": null,
+   "designer": "SUNNY",
+   "note_counts": {
+    "combo": 754
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 7894,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S12",
+     "meter": "12",
+     "active": true,
+     "credit": "SUNNY",
+     "combo": 754,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 360,
+      "hold": 109
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-20": {
+   "slot": "single-20",
+   "native": "S20",
+   "level": "20",
+   "constant": null,
+   "designer": "SUNNY",
+   "note_counts": {
+    "combo": 1375
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 7895,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S20",
+     "meter": "20",
+     "active": true,
+     "credit": "SUNNY",
+     "combo": 1375,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 692,
+      "hold": 463,
+      "other": 97
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "18 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-22": {
+   "slot": "double-22",
+   "native": "D22",
+   "level": "22",
+   "constant": null,
+   "designer": "SUNNY",
+   "note_counts": {
+    "combo": 1400
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 7896,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-double",
+     "description": "D22",
+     "meter": "22",
+     "active": true,
+     "credit": "SUNNY",
+     "combo": 1400,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 702,
+      "hold": 506,
+      "other": 97
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "18 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 1009,
+   "game_id": "17XX_1506",
+   "card": "/img/card/Phoenix_Teddy_Bear_Full.png",
+   "first": "Phoenix v2.06.0",
+   "title": "Teddy Bear"
+  },
+  "kalinathalie": {
+   "slug": "teddy_bear_full_song"
+  },
+  "simfile": {
+   "path": "16 - PHOENIX/18E10 - [Full Song] Teddy Bear/[Full Song] Teddy Bear.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/16%20-%20PHOENIX/18E10%20-%20%5BFull%20Song%5D%20Teddy%20Bear/%5BFull%20Song%5D%20Teddy%20Bear.ssc",
+   "id": "18E10",
+   "title": "Teddy Bear -FULL SONG -",
+   "artist": "STAYC"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/teddy_bear_full_song.jpg",
+   "sha256": "c0a498e066eb9b401cf8b98aa56ec45299d7bc21a4f6e4801a1b3364a2d14ae8",
+   "width": 256,
+   "height": 256,
+   "bytes": 23228
+  }
+ },
+ "extra": {
+  "cut": "Full Song",
+  "titles": {
+   "kr": "테디베어"
+  },
+  "removed": true,
+  "removed_in": "Phoenix 2 v1.00.0"
+ }
+}

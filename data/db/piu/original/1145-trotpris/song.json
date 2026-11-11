@@ -1,0 +1,124 @@
+{
+ "game": "piu",
+ "song_id": "1145",
+ "title": "Trotpris",
+ "artist": "Doin",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "156.118",
+ "version": "Fiesta EX",
+ "date_added": "",
+ "charts": {
+  "single-14": {
+   "slot": "single-14",
+   "native": "S14",
+   "level": "14",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 440
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1089,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S14",
+     "meter": "14",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 440,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 220,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-15": {
+   "slot": "double-15",
+   "native": "D15",
+   "level": "15",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 271
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1088,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-double",
+     "description": "D15",
+     "meter": "15",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 271,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 237,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 185,
+   "game_id": "1145",
+   "card": "/img/card/113.png",
+   "first": "Fiesta EX v1.00",
+   "title": "Trotpris"
+  },
+  "kalinathalie": {
+   "slug": "trotpris_short_cut"
+  },
+  "simfile": {
+   "path": "09 - FIESTA EX/1145 - [Short Cut] Trotpris/1145 - [Short Cut] Trotpris.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/09%20-%20FIESTA%20EX/1145%20-%20%5BShort%20Cut%5D%20Trotpris/1145%20-%20%5BShort%20Cut%5D%20Trotpris.ssc",
+   "id": "1145",
+   "title": "Trotpris - SHORT CUT -",
+   "artist": "Doin"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/trotpris_short_cut.jpg",
+   "sha256": "592ce29e747e4235a3c5ab2383281f31508968103348a62a66e26ed5bc6edbe6",
+   "width": 256,
+   "height": 256,
+   "bytes": 20557
+  }
+ },
+ "extra": {
+  "cut": "Short Cut",
+  "titles": {
+   "kr": "트롯프리스"
+  }
+ }
+}

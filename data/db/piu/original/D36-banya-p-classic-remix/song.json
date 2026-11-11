@@ -1,0 +1,187 @@
+{
+ "game": "piu",
+ "song_id": "D36",
+ "title": "Banya-P Classic Remix",
+ "artist": "BanYa Production",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "92-180",
+ "version": "NX / New Xenesis",
+ "date_added": "",
+ "charts": {
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 897
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5597,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S15",
+     "meter": "15",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 897,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 594,
+      "hold": 73
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "3 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-22": {
+   "slot": "single-22",
+   "native": "S22",
+   "level": "22",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1185
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5598,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S21",
+     "meter": "21",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1185,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 886,
+      "hold": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "81 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 21 differs from the PHOENIX 2 level 22: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-16": {
+   "slot": "double-16",
+   "native": "D16",
+   "level": "16",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 862
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5599,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-double",
+     "description": "D16",
+     "meter": "16",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 862,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 634,
+      "hold": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "3 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-23": {
+   "slot": "double-23",
+   "native": "D23",
+   "level": "23",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1218
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5600,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-double",
+     "description": "D22",
+     "meter": "22",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1218,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 852,
+      "hold": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 22 differs from the PHOENIX 2 level 23: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 767,
+   "game_id": "D36",
+   "card": "/img/card/D36-revive.png",
+   "first": "NX / New Xenesis 1.05",
+   "title": "Banya-P Classic Remix"
+  },
+  "simfile": {
+   "path": "05 - NX~NX2/(2) D36 - [Remix] Banya-P Classic Mix/D36 - [Remix] Banya-P Classic Mix.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/05%20-%20NX~NX2/%282%29%20D36%20-%20%5BRemix%5D%20Banya-P%20Classic%20Mix/D36%20-%20%5BRemix%5D%20Banya-P%20Classic%20Mix.ssc",
+   "id": "D36",
+   "title": "Banya-P Classic Remix",
+   "artist": "Banya"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Remix",
+  "revived_in": "XX v1.00.1",
+  "simfile_notes": [
+   "S22: simfile chart 'S21' has meter 21 (re-rated)",
+   "D23: simfile chart 'D22' has meter 22 (re-rated)"
+  ]
+ }
+}

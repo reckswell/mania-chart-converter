@@ -1,0 +1,113 @@
+{
+ "game": "piu",
+ "song_id": "13C0",
+ "title": "STEP",
+ "artist": "KARA",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "123",
+ "version": "Fiesta 2",
+ "date_added": "",
+ "charts": {
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 958
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1518,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S15",
+     "meter": "15",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 958,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 860,
+      "hold": 69
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'S15')",
+   "assets": {}
+  },
+  "double-17": {
+   "slot": "double-17",
+   "native": "D17",
+   "level": "17",
+   "constant": null,
+   "designer": "SANDSTORM",
+   "note_counts": {
+    "combo": 1384
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1517,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-double",
+     "description": "D17",
+     "meter": "17",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 1384,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 761,
+      "hold": 168
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'D17')",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 252,
+   "game_id": "13C0",
+   "card": "/img/card/218.png",
+   "first": "Fiesta 2 v1.00",
+   "title": "STEP"
+  },
+  "simfile": {
+   "path": "10 - FIESTA 2/(1) 13C0 - [Full Song] Step/13C0 - [Full Song] Step.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/10%20-%20FIESTA%202/%281%29%2013C0%20-%20%5BFull%20Song%5D%20Step/13C0%20-%20%5BFull%20Song%5D%20Step.ssc",
+   "id": "13C0",
+   "title": "STEP - FULL SONG -",
+   "artist": "KARA"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Full Song",
+  "titles": {
+   "kr": "스텝"
+  },
+  "removed": true,
+  "removed_in": "Prime 2 v1.00.0"
+ }
+}

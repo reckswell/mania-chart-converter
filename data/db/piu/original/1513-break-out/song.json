@@ -1,0 +1,410 @@
+{
+ "game": "piu",
+ "song_id": "1513",
+ "title": "Break Out",
+ "artist": "Lunatic Sounds",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "175",
+ "version": "Prime 2",
+ "date_added": "",
+ "charts": {
+  "single-4": {
+   "slot": "single-4",
+   "native": "S4",
+   "level": "4",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 242
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4910,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S4",
+     "meter": "4",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 242,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 184,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-8": {
+   "slot": "single-8",
+   "native": "S8",
+   "level": "8",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 415
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4911,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S8",
+     "meter": "8",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 415,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 411,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-12": {
+   "slot": "single-12",
+   "native": "S12",
+   "level": "12",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 503
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4912,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S12",
+     "meter": "12",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 503,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 449,
+      "hold": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 826
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4913,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 826,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 99,
+      "tap": 585
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 1028
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4914,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S19",
+     "meter": "19",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 1028,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 110,
+      "tap": 685
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "9 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-14": {
+   "slot": "double-14",
+   "native": "D14",
+   "level": "14",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 483
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4915,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-double",
+     "description": "D12",
+     "meter": "12",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 483,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 475,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 12 differs from the PHOENIX 2 level 14: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 841
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4916,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 841,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 96,
+      "tap": 583
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-21": {
+   "slot": "double-21",
+   "native": "D21",
+   "level": "21",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 1053
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4917,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-double",
+     "description": "D20",
+     "meter": "20",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 1053,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 87,
+      "tap": 791
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "9 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 20 differs from the PHOENIX 2 level 21: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "halfdouble-11": {
+   "slot": "halfdouble-11",
+   "native": "HDB11",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8836,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "normal"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-17": {
+   "slot": "halfdouble-17",
+   "native": "HDB17",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8837,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-20": {
+   "slot": "halfdouble-20",
+   "native": "HDB20",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8838,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 685,
+   "game_id": "1513",
+   "card": "/img/card/1513.png",
+   "first": "Prime 2 v2.05.0",
+   "title": "Break Out"
+  },
+  "kalinathalie": {
+   "slug": "break_out"
+  },
+  "simfile": {
+   "path": "13 - PRIME 2/1513 - Break Out/1513 - Break Out.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/13%20-%20PRIME%202/1513%20-%20Break%20Out/1513%20-%20Break%20Out.ssc",
+   "id": "1513",
+   "title": "Break Out",
+   "artist": "Lunatic Sounds"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/break_out.jpg",
+   "sha256": "0df3f2b4fd460c15e4cd6c0f05914a8643718f87cb9830200f3f8d20a1a1fe6b",
+   "width": 256,
+   "height": 256,
+   "bytes": 23398
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "simfile_notes": [
+   "D14: simfile chart 'D12' has meter 12 (re-rated)",
+   "D21: simfile chart 'D20' has meter 20 (re-rated)"
+  ]
+ }
+}

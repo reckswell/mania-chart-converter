@@ -1,0 +1,113 @@
+{
+ "game": "piu",
+ "song_id": "1044",
+ "title": "Dawn of the Apocalypse",
+ "artist": "Vassline",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "100-210",
+ "version": "Fiesta",
+ "date_added": "",
+ "charts": {
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 1368
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 972,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S15",
+     "meter": "15",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 1368,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 1039,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'S15')",
+   "assets": {}
+  },
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 1667
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 973,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S21",
+     "meter": "21",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 1667,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 1482,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'S21')",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 167,
+   "game_id": "1044",
+   "card": "/img/card/65.png",
+   "first": "Fiesta v1.01",
+   "title": "Dawn of the Apocalypse"
+  },
+  "simfile": {
+   "path": "08 - FIESTA/1044 - [Full Song] Dawn of the Apocalypse/1044 - [Full Song] Dawn of the Apocalypse.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/08%20-%20FIESTA/1044%20-%20%5BFull%20Song%5D%20Dawn%20of%20the%20Apocalypse/1044%20-%20%5BFull%20Song%5D%20Dawn%20of%20the%20Apocalypse.ssc",
+   "id": "1044",
+   "title": "Dawn of The Apocalypse - FULL SONG -",
+   "artist": "Vassline"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Full Song",
+  "titles": {
+   "kr": "돈 오브 더 아포칼립스"
+  },
+  "removed": true,
+  "removed_in": "XX v1.00.1"
+ }
+}

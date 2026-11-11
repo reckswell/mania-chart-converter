@@ -1,0 +1,271 @@
+{
+ "game": "piu",
+ "song_id": "707",
+ "title": "My Way",
+ "artist": "BanYa",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "118",
+ "version": "The Rebirth",
+ "date_added": "",
+ "charts": {
+  "single-4": {
+   "slot": "single-4",
+   "native": "S4",
+   "level": "4",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 123
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 217,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S4",
+     "meter": "4",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 123,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 143
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-6": {
+   "slot": "single-6",
+   "native": "S6",
+   "level": "6",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 201
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 218,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S6",
+     "meter": "6",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 201,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 224
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-8": {
+   "slot": "single-8",
+   "native": "S8",
+   "level": "8",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 277
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 219,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S8",
+     "meter": "8",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 277,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 308
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 369
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 220,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-single",
+     "description": "S15",
+     "meter": "15",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 369,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 415
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 15 differs from the PHOENIX 2 level 16: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-16": {
+   "slot": "double-16",
+   "native": "D16",
+   "level": "16",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 395
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 216,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 12,
+     "steps_type": "pump-double",
+     "description": "D16",
+     "meter": "16",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 395,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 448
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 574
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4611,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 13,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 574,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 507,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 32,
+   "game_id": "707",
+   "card": "/img/card/27.png",
+   "first": "The Rebirth default",
+   "title": "My Way"
+  },
+  "kalinathalie": {
+   "slug": "my_way"
+  },
+  "simfile": {
+   "path": "03 - REBIRTH~PREX 3/(2) 707 - My Way/707 - My Way.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/03%20-%20REBIRTH~PREX%203/%282%29%20707%20-%20My%20Way/707%20-%20My%20Way.ssc",
+   "id": "707",
+   "title": "My Way",
+   "artist": "BanYa"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/my_way.jpg",
+   "sha256": "ce2930a5712b99e9c699e7976827a85b5161b0141d39b0fdd4488d35f68af5ba",
+   "width": 256,
+   "height": 256,
+   "bytes": 7595
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "마이 웨이"
+  },
+  "revived_in": "Fiesta v1.01",
+  "simfile_notes": [
+   "S16: simfile chart 'S15' has meter 15 (re-rated)"
+  ]
+ }
+}

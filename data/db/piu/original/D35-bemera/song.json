@@ -1,0 +1,202 @@
+{
+ "game": "piu",
+ "song_id": "D35",
+ "title": "BEMERA",
+ "artist": "Yahpp",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "210",
+ "version": "NX / New Xenesis",
+ "date_added": "",
+ "charts": {
+  "single-18": {
+   "slot": "single-18",
+   "native": "S18",
+   "level": "18",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1311
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 718,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1311,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 102,
+      "tap": 732
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 17 differs from the PHOENIX 2 level 18: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "single-24": {
+   "slot": "single-24",
+   "native": "S24",
+   "level": "24",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 2275
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 719,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-single",
+     "description": "S24 INFOBAR TITLE",
+     "meter": "24",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 2275,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 63,
+      "tap": 1320
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-19": {
+   "slot": "double-19",
+   "native": "D19",
+   "level": "19",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1321
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 720,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 9,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1321,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 101,
+      "tap": 745
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 18 differs from the PHOENIX 2 level 19: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-26": {
+   "slot": "double-26",
+   "native": "D26",
+   "level": "26",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 2304
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 721,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 11,
+     "steps_type": "pump-double",
+     "description": "D26 INFOBAR TITLE",
+     "meter": "26",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 2304,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 71,
+      "tap": 1358
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 110,
+   "game_id": "D35",
+   "card": "/img/card/276.png",
+   "first": "NX / New Xenesis 1.05",
+   "title": "BEMERA"
+  },
+  "kalinathalie": {
+   "slug": "bemera"
+  },
+  "simfile": {
+   "path": "05 - NX~NX2/(2) D35 - [Remix] Bemera/D35 - [Remix] Bemera.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/05%20-%20NX~NX2/%282%29%20D35%20-%20%5BRemix%5D%20Bemera/D35%20-%20%5BRemix%5D%20Bemera.ssc",
+   "id": "D35",
+   "title": "BEMERA",
+   "artist": "YAHPP"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/bemera.jpg",
+   "sha256": "655772c621c6b76c782ff8bd7775e7fdf1ab0579389f20a7bc45153b16fb5f4a",
+   "width": 256,
+   "height": 256,
+   "bytes": 27565
+  }
+ },
+ "extra": {
+  "cut": "Remix",
+  "titles": {
+   "kr": "비메라"
+  },
+  "simfile_notes": [
+   "S18: simfile chart 'S17' has meter 17 (re-rated)",
+   "D19: simfile chart 'D18' has meter 18 (re-rated)"
+  ]
+ }
+}

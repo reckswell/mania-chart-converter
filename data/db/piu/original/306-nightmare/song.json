@@ -1,0 +1,205 @@
+{
+ "game": "piu",
+ "song_id": "306",
+ "title": "Nightmare",
+ "artist": "BanYa",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "120",
+ "version": "3rd O.B.G",
+ "date_added": "",
+ "charts": {
+  "single-3": {
+   "slot": "single-3",
+   "native": "S3",
+   "level": "3",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 78
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2529,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S3",
+     "meter": "3",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 78,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 81
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-6": {
+   "slot": "single-6",
+   "native": "S6",
+   "level": "6",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 171
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2530,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S6",
+     "meter": "6",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 171,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 192
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-15": {
+   "slot": "double-15",
+   "native": "D15",
+   "level": "15",
+   "constant": null,
+   "designer": "BEEP",
+   "note_counts": {
+    "combo": 389
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2531,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 9,
+     "steps_type": "pump-double",
+     "description": "D14",
+     "meter": "14",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 389,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 429,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 14 differs from the PHOENIX 2 level 15: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "halfdouble-10": {
+   "slot": "halfdouble-10",
+   "native": "HDB10",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9297,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "normal"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-13": {
+   "slot": "halfdouble-13",
+   "native": "HDB13",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9298,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 440,
+   "game_id": "306",
+   "card": "/img/card/306.png",
+   "first": "3rd O.B.G default",
+   "title": "A nightmare"
+  },
+  "kalinathalie": {
+   "slug": "a_nightmare"
+  },
+  "simfile": {
+   "path": "01 - 1ST~3RD/(1) 306 - Nightmare/306 - Nightmare.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/01%20-%201ST~3RD/%281%29%20306%20-%20Nightmare/306%20-%20Nightmare.ssc",
+   "id": "306",
+   "title": "A Nightmare",
+   "artist": "BanYa"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/a_nightmare.jpg",
+   "sha256": "4ce49dc6fa62dc871aee8e34ad27503bb2fe9db880ac9c8f16af467917ef30ee",
+   "width": 256,
+   "height": 256,
+   "bytes": 28326
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "악몽"
+  },
+  "revived_in": "Prime 2 v1.00.0",
+  "simfile_notes": [
+   "D15: simfile chart 'D14' has meter 14 (re-rated)"
+  ]
+ }
+}

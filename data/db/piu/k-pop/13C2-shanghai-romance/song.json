@@ -1,0 +1,110 @@
+{
+ "game": "piu",
+ "song_id": "13C2",
+ "title": "Shanghai Romance",
+ "artist": "Orange Caramel",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "149",
+ "version": "Fiesta 2",
+ "date_added": "",
+ "charts": {
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "SANDSTORM",
+   "note_counts": {
+    "combo": 2079
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1522,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 2079,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 717,
+      "hold": 287
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "68 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'S17')",
+   "assets": {}
+  },
+  "double-16": {
+   "slot": "double-16",
+   "native": "D16",
+   "level": "16",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 1486
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1521,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-double",
+     "description": "D16",
+     "meter": "16",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 1486,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 721,
+      "hold": 128
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'D16')",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 254,
+   "game_id": "13C2",
+   "card": "/img/card/220.png",
+   "first": "Fiesta 2 v1.00",
+   "title": "Shanghai Romance"
+  },
+  "simfile": {
+   "path": "10 - FIESTA 2/(1) 13C2 - [Full Song] Shanghai Romance/13C2 - [Full Song] Shanghai Romance.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/10%20-%20FIESTA%202/%281%29%2013C2%20-%20%5BFull%20Song%5D%20Shanghai%20Romance/13C2%20-%20%5BFull%20Song%5D%20Shanghai%20Romance.ssc",
+   "id": "13C2",
+   "title": "Shanghai Romance - FULL SONG -",
+   "artist": "Orange Caramel"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Full Song",
+  "removed": true,
+  "removed_in": "Prime 2 v1.00.0"
+ }
+}

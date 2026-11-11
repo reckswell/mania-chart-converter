@@ -1,0 +1,318 @@
+{
+ "game": "piu",
+ "song_id": "B16",
+ "title": "J Bong",
+ "artist": "BanYa",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "140",
+ "version": "Exceed 2",
+ "date_added": "",
+ "charts": {
+  "single-3": {
+   "slot": "single-3",
+   "native": "S3",
+   "level": "3",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 103
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 376,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S3",
+     "meter": "3",
+     "active": true,
+     "credit": "HP",
+     "combo": 103,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 100,
+      "hold": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-5": {
+   "slot": "single-5",
+   "native": "S5",
+   "level": "5",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 209
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 377,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S5",
+     "meter": "5",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 209,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 189,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-7": {
+   "slot": "single-7",
+   "native": "S7",
+   "level": "7",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 341
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 378,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S7",
+     "meter": "7",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 341,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 267,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-8": {
+   "slot": "single-8",
+   "native": "S8",
+   "level": "8",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 288
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 379,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S8",
+     "meter": "8",
+     "active": true,
+     "credit": "HP",
+     "combo": 288,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 277,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 564
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 380,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S15",
+     "meter": "15",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 564,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 509,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 557
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 375,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 12,
+     "steps_type": "pump-double",
+     "description": "D17",
+     "meter": "17",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 557,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 507,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 17 differs from the PHOENIX 2 level 18: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "halfdouble-10": {
+   "slot": "halfdouble-10",
+   "native": "HDB10",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9216,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "normal"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-16": {
+   "slot": "halfdouble-16",
+   "native": "HDB16",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9217,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 55,
+   "game_id": "B16",
+   "card": "/img/card/248.png",
+   "first": "Exceed 2 default",
+   "title": "JBong"
+  },
+  "kalinathalie": {
+   "slug": "j_bong"
+  },
+  "simfile": {
+   "path": "04 - EXCEED~ZERO/(2) B16 - J Bong/B16 - J Bong.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/04%20-%20EXCEED~ZERO/%282%29%20B16%20-%20J%20Bong/B16%20-%20J%20Bong.ssc",
+   "id": "B16",
+   "title": "J Bong",
+   "artist": "BanYa"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/j_bong.jpg",
+   "sha256": "8a4a4c1e35e70b0adbf57de088293f5a00e17417e64dd53d00aefc96bbf3497d",
+   "width": 256,
+   "height": 256,
+   "bytes": 27134
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "제이 봉"
+  },
+  "revived_in": "Fiesta v1.01",
+  "simfile_notes": [
+   "D18: simfile chart 'D17' has meter 17 (re-rated)"
+  ]
+ }
+}

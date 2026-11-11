@@ -1,0 +1,130 @@
+{
+ "game": "piu",
+ "song_id": "13A2",
+ "title": "Infinity RMX",
+ "artist": "SynthWulf, MAX",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "175",
+ "version": "Fiesta 2",
+ "date_added": "",
+ "charts": {
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 1515
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1514,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S19",
+     "meter": "19",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1515,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 114,
+      "tap": 791,
+      "other": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "72 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-19": {
+   "slot": "double-19",
+   "native": "D19",
+   "level": "19",
+   "constant": null,
+   "designer": "SANDSTORM",
+   "note_counts": {
+    "combo": 1260
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1513,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-double",
+     "description": "D19",
+     "meter": "19",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1260,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 225,
+      "tap": 625,
+      "other": 1622
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "137 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 250,
+   "game_id": "13A2",
+   "card": "/img/card/216.png",
+   "first": "Fiesta 2 v1.00",
+   "title": "Infinity RMX"
+  },
+  "kalinathalie": {
+   "slug": "infinity_rmx"
+  },
+  "simfile": {
+   "path": "10 - FIESTA 2/(1) 13A2 - [Remix] Infinity RMX/13A2 - [Remix] Infinity RMX.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/10%20-%20FIESTA%202/%281%29%2013A2%20-%20%5BRemix%5D%20Infinity%20RMX/13A2%20-%20%5BRemix%5D%20Infinity%20RMX.ssc",
+   "id": "13A2",
+   "title": "Infinity RMX",
+   "artist": "SynthWulf & MAX"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/infinity_rmx.jpg",
+   "sha256": "86411c73bbddd8998d80850a3146a8f86904459b5c31c194d62eee43d42995d0",
+   "width": 256,
+   "height": 256,
+   "bytes": 20382
+  }
+ },
+ "extra": {
+  "cut": "Remix",
+  "titles": {
+   "kr": "인피니티 리믹스"
+  },
+  "artists": [
+   "SynthWulf",
+   "MAX"
+  ]
+ }
+}

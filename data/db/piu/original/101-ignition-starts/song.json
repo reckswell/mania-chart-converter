@@ -1,0 +1,224 @@
+{
+ "game": "piu",
+ "song_id": "101",
+ "title": "Ignition Starts",
+ "artist": "BanYa",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "146.05",
+ "version": "The 1st Dance Floor",
+ "date_added": "",
+ "charts": {
+  "single-8": {
+   "slot": "single-8",
+   "native": "S8",
+   "level": "8",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 172
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 101,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S8",
+     "meter": "8",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 172,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 203
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'S8')",
+   "assets": {}
+  },
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 378
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 102,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-single",
+     "description": "S15",
+     "meter": "15",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 378,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 423
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'S15')",
+   "assets": {}
+  },
+  "single-18": {
+   "slot": "single-18",
+   "native": "S18",
+   "level": "18",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 708
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3282,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-single",
+     "description": "S18",
+     "meter": "18",
+     "active": false,
+     "credit": "Nimgo",
+     "combo": 708,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 476,
+      "hold": 25,
+      "other": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "6 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'S18')",
+   "assets": {}
+  },
+  "double-10": {
+   "slot": "double-10",
+   "native": "D10",
+   "level": "10",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 174
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 103,
+     "mode": "D"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 9,
+     "steps_type": "pump-double",
+     "description": "D10",
+     "meter": "10",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 174,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 207
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'D10')",
+   "assets": {}
+  },
+  "double-17": {
+   "slot": "double-17",
+   "native": "D17",
+   "level": "17",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 625
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3281,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 12,
+     "steps_type": "pump-double",
+     "description": "D17",
+     "meter": "17",
+     "active": false,
+     "credit": "HP",
+     "combo": 625,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 561,
+      "hold": 9,
+      "other": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'D17')",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 15,
+   "game_id": "101",
+   "card": "/img/card/1.png",
+   "first": "The 1st Dance Floor default",
+   "title": "Ignition Starts"
+  },
+  "simfile": {
+   "path": "01 - 1ST~3RD/(3) 101 - Ignition Starts/101 - Ignition Starts.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/01%20-%201ST~3RD/%283%29%20101%20-%20Ignition%20Starts/101%20-%20Ignition%20Starts.ssc",
+   "id": "101",
+   "title": "Ignition Starts",
+   "artist": "BanYa"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "이그니션 스타트"
+  },
+  "removed": true,
+  "removed_in": "XX v1.00.1",
+  "revived_in": "Prime v1.01.0"
+ }
+}

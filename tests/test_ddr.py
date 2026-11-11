@@ -58,15 +58,19 @@ def test_sm_every_timing_tag():
     assert [(b.beat, b.bpm) for b in t.bpms] == [(0, 120.0), (8, 240.0), (F(37, 3), 120.0)]  # 12.333 -> 12 1/3
     assert t.stops == [(F(4), 500.0)]
     assert [(m.beat, m.numerator, m.denominator) for m in t.meters] == [(0, 4, 4), (8, 3, 4)]
-    assert [(s.beat, s.speed) for s in t.scrolls] == [(0, 1.0), (2, 0.5)]
+    # #SCROLLS × #SPEEDS: the speed tweens from 1 to 2 over beat 10-11 (steps every 1/4 beat, midpoint values)
+    assert [(s.beat, s.speed) for s in t.scrolls] == [(0, 1.0), (2, 0.5), (10, 0.5625), (F(41, 4), 0.6875),
+                                                      (F(21, 2), 0.8125), (F(43, 4), 0.9375), (11, 1.0)]
+    assert t.delays == [(F(6), 250.0)] and t.warps == [(F(14), F(1))]
     assert t.ms_at(4) == 250 + 2000 and t.ms_at(5) == 250 + 2000 + 500 + 500   # the stop comes after beat 4
-    assert t.ms_at(9) == 250 + 4000 + 500 + 250
+    assert t.ms_at(9) == 250 + 4000 + 500 + 250 + 250                           # + the delay at beat 6
+    assert t.ms_at(6) == t.ms_at(F(5999, 1000)) + 250 + 0.5                     # the delay comes before beat 6
+    assert t.ms_at(15) == t.ms_at(14)                                           # warped
     src = c.meta.source["stepmania"]
-    assert set(src["unrepresented"]) == {"DELAYS", "WARPS", "SPEEDS", "FAKES", "TICKCOUNTS"}
-    assert src["unrepresented"]["DELAYS"] == "6.000=0.250"
+    assert set(src["unrepresented"]) == {"SPEEDS", "FAKES", "TICKCOUNTS"}
+    assert src["unrepresented"]["SPEEDS"] == "0.000=1.000=0.000=0,10.000=2.000=1.000=0"
     assert src["timing_from"] == "song" and src["offset_s"] == -0.25 and src["offset_given"] and src["fake_notes"] == 2
-    for word in ("delays", "warps", "speed changes"):
-        assert any(word in w for w in c.warnings), word
+    assert any("1 tweened speed changes" in w for w in c.warnings)
 
 
 def test_sm_every_note_type_with_exact_beats():
@@ -120,7 +124,7 @@ def test_ssc_song_and_chart_timing():
     assert [(x.beat, x.bpm) for x in b.timing.bpms] == [(0, 200.0), (2, 100.0)]
     assert b.timing.stops == [] and b.timing.offset_ms == -100.0    # own timing: no song stops, the song's offset
     assert notes_of(b) == {(0, 0, "tap", 0), (F(3, 2), 1, "tap", 0), (2, 2, "tap", 0), (3, 3, "other", 0)}
-    assert src["unrepresented"] == {"WARPS": "3=0.5"}
+    assert "unrepresented" not in src and b.timing.warps == [(F(3), F(1, 2))]      # the warp is in the IR
     p = chart_to_ir(sim, pump, meta())                               # Pump It Up next: 5 panels
     assert p.lanes == 5 and notes_of(p) == {(0, 0, "tap", 0), (0, 4, "tap", 0), (1, 1, "hold", 1), (3, 2, "tap", 0)}
 

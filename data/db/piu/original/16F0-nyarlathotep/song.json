@@ -1,0 +1,121 @@
+{
+ "game": "piu",
+ "song_id": "16F0",
+ "title": "Nyarlathotep",
+ "artist": "Nato",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "200",
+ "version": "XX",
+ "date_added": "",
+ "charts": {
+  "single-22": {
+   "slot": "single-22",
+   "native": "S22",
+   "level": "22",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1000
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5472,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S22",
+     "meter": "22",
+     "active": true,
+     "credit": "EXC",
+     "combo": 1000,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 51,
+      "tap": 543
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "11 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-24": {
+   "slot": "double-24",
+   "native": "D24",
+   "level": "24",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1000
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5473,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-double",
+     "description": "D24",
+     "meter": "24",
+     "active": true,
+     "credit": "EXC",
+     "combo": 1000,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 53,
+      "tap": 568
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "11 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 745,
+   "game_id": "16F0",
+   "card": "/img/card/xx-nyarlathotep-short-cut.png",
+   "first": "XX v1.00.1",
+   "title": "Nyarlathotep"
+  },
+  "kalinathalie": {
+   "slug": "nyarlathotep_short_cut"
+  },
+  "simfile": {
+   "path": "14 - XX/16F0 - [Short Cut] Nyarlathotep/16F0 - [Short Cut] Nyarlathotep.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/14%20-%20XX/16F0%20-%20%5BShort%20Cut%5D%20Nyarlathotep/16F0%20-%20%5BShort%20Cut%5D%20Nyarlathotep.ssc",
+   "id": "16F0",
+   "title": "Nyarlathotep - SHORT CUT -",
+   "artist": "Nato"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/nyarlathotep_short_cut.jpg",
+   "sha256": "d6632bea544da65b645a060f101bbb1e5750cd3e6f53363531af975b3b6841fc",
+   "width": 256,
+   "height": 256,
+   "bytes": 15543
+  }
+ },
+ "extra": {
+  "cut": "Short Cut"
+ }
+}

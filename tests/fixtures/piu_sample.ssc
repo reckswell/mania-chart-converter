@@ -1,0 +1,157 @@
+#VERSION:0.81;
+#TITLE:Fixture Song;
+#SUBTITLE:;
+#ARTIST:vsrgconv;
+#TITLETRANSLIT:;
+#GENRE:ORIGINAL;
+#CREDIT:Andamiro;
+#MUSIC:1A01.mp3;
+#OFFSET:-0.100000;
+#SONGTYPE:ARCADE;
+#SONGCATEGORY:ORIGINAL;
+#DISPLAYBPM:120.000000;
+#BPMS:0.000=120.000;
+#TIMESIGNATURES:0.000=4=4;
+#TICKCOUNTS:0.000=2;
+#COMBOS:0.000=1;
+#SPEEDS:0.000=1.000=0.000=0;
+#SCROLLS:0.000=1.000;
+#LABELS:0.000=Song Start;
+
+//--------------- S5: own timing with a delay, a warp, a combo multiplier and an instant speed change
+#NOTEDATA:;
+#STEPSTYPE:pump-single;
+#DESCRIPTION:S5;
+#DIFFICULTY:Easy;
+#METER:5;
+#CREDIT:STEPMAKER A;
+#OFFSET:-0.100000;
+#BPMS:0.000000=120.000000
+;
+#STOPS:;
+#DELAYS:2.000000=0.500000
+;
+#WARPS:4.000000=1.000000
+;
+#TIMESIGNATURES:0.000000=4=4
+;
+#TICKCOUNTS:0.000000=4
+;
+#COMBOS:0.000000=1
+,7.000000=2
+;
+#SPEEDS:0.000000=1.000000=0.000000=0
+,6.000000=2.000000=0.000000=0
+;
+#SCROLLS:0.000000=1.000000
+;
+#FAKES:;
+#CHARTSTYLE:ACTIVE;
+#NOTES:
+// beat 0 jump, beat 1-2 hold (4 checkpoints at 4 ticks a beat), beat 3 tap
+10001
+02000
+03000
+00100
+,
+// beat 4 in the warp (fake), beat 5 a StepF2 fake, beat 6 a StepF2 hidden tap, beat 7 a tap worth 2 combo
+00010
+{1|n|1|0}0000
+0{1|h|0|0}000
+00001
+;
+
+//--------------- the same level, not the arcade chart
+#NOTEDATA:;
+#CHARTNAME:Another Easy;
+#STEPSTYPE:pump-single;
+#DESCRIPTION:S5 HIDDEN;
+#DIFFICULTY:Edit;
+#METER:5;
+#CREDIT:Andamiro;
+#NOTES:
+00100
+00000
+00000
+00000
+;
+
+//--------------- D10: song timing (2 ticks a beat)
+#NOTEDATA:;
+#STEPSTYPE:pump-double;
+#DESCRIPTION:D10;
+#DIFFICULTY:Edit;
+#METER:10;
+#CREDIT:STEPMAKER A;
+#CHARTSTYLE:ACTIVE;
+#NOTES:
+1000000001
+0000000000
+0000020000
+0000030000
+;
+
+//--------------- D12 in the simfile, D13 in PHOENIX 2 (re-rated)
+#NOTEDATA:;
+#STEPSTYPE:pump-double;
+#DESCRIPTION:D12;
+#DIFFICULTY:Edit;
+#METER:12;
+#CREDIT:STEPMAKER B;
+#CHARTSTYLE:ACTIVE;
+#NOTES:
+1100000000
+0000000011
+0011000000
+0000001100
+;
+
+//--------------- HALF-DOUBLE
+#NOTEDATA:;
+#STEPSTYPE:pump-halfdouble;
+#DESCRIPTION:D6;
+#DIFFICULTY:Edit;
+#METER:6;
+#CREDIT:STEPMAKER A;
+#CHARTSTYLE:ACTIVE;
+#NOTES:
+100001
+010000
+001000
+000100
+;
+
+//--------------- co-op for 2: player 2's notes are X (tap) and x (hold head)
+#NOTEDATA:;
+#STEPSTYPE:pump-double;
+#DESCRIPTION:DP COOP 2P;
+#DIFFICULTY:Edit;
+#METER:99;
+#CREDIT:STEPMAKER A;
+#CHARTSTYLE:ACTIVE;
+#NOTES:
+1000000000
+0000X00000
+x000000000
+3000000000
+;
+
+//--------------- routine: the players' notes are separated by &
+#NOTEDATA:;
+#CHARTNAME:Routine;
+#STEPSTYPE:pump-routine;
+#DESCRIPTION:DP COOP 2P;
+#DIFFICULTY:Edit;
+#METER:99;
+#CREDIT:STEPMAKER A;
+#NOTES:
+1000000000
+0000000000
+0000000000
+0000000000
+&
+0000010000
+0000000000
+0000000000
+0000000000
+;

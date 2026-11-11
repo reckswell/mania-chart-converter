@@ -1,0 +1,127 @@
+{
+ "game": "piu",
+ "song_id": "1054",
+ "title": "CHICKEN WING",
+ "artist": "BanYa",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "200",
+ "version": "Fiesta",
+ "date_added": "",
+ "charts": {
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 735
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 924,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S20",
+     "meter": "20",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 735,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 10,
+      "tap": 508
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 20 differs from the PHOENIX 2 level 21: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-15": {
+   "slot": "double-15",
+   "native": "D15",
+   "level": "15",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 489
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 925,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-double",
+     "description": "D15",
+     "meter": "15",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 489,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 304,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 153,
+   "game_id": "1054",
+   "card": "/img/card/72.png",
+   "first": "Fiesta v1.01",
+   "title": "CHICKEN WING"
+  },
+  "kalinathalie": {
+   "slug": "chicken_wing_short_cut"
+  },
+  "simfile": {
+   "path": "08 - FIESTA/1054 - [Short Cut] Chiken Wing/1054 - [Short Cut] Chicken Wing.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/08%20-%20FIESTA/1054%20-%20%5BShort%20Cut%5D%20Chiken%20Wing/1054%20-%20%5BShort%20Cut%5D%20Chicken%20Wing.ssc",
+   "id": "1054",
+   "title": "CHICKEN WING - SHORT CUT -",
+   "artist": "Banya"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/chicken_wing_short_cut.jpg",
+   "sha256": "e7429842390af9fcf55ee36100cda7ac52f6a65a083ff9bfb9e43a19a129d9c7",
+   "width": 256,
+   "height": 256,
+   "bytes": 15467
+  }
+ },
+ "extra": {
+  "cut": "Short Cut",
+  "titles": {
+   "kr": "치킨 윙"
+  },
+  "simfile_notes": [
+   "S21: simfile chart 'S20' has meter 20 (re-rated)"
+  ]
+ }
+}

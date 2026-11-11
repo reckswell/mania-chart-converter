@@ -1,0 +1,201 @@
+{
+ "game": "piu",
+ "song_id": "1153",
+ "title": "Pine Nut",
+ "artist": "Doin",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "200",
+ "version": "Fiesta EX",
+ "date_added": "",
+ "charts": {
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 641
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1103,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S15",
+     "meter": "15",
+     "active": true,
+     "credit": "HP",
+     "combo": 641,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 494,
+      "hold": 60
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 944
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1104,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S20",
+     "meter": "20",
+     "active": true,
+     "credit": "HP",
+     "combo": 944,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 627,
+      "hold": 88
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 20 differs from the PHOENIX 2 level 19: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-17": {
+   "slot": "double-17",
+   "native": "D17",
+   "level": "17",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 696
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1105,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-double",
+     "description": "D17",
+     "meter": "17",
+     "active": true,
+     "credit": "HP",
+     "combo": 696,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 484,
+      "hold": 91
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-23": {
+   "slot": "double-23",
+   "native": "D23",
+   "level": "23",
+   "constant": null,
+   "designer": "OSING",
+   "note_counts": {
+    "combo": 1150
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6128,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-double",
+     "description": "D23",
+     "meter": "23",
+     "active": true,
+     "credit": "OSING",
+     "combo": 1150,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 600,
+      "hold": 120
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "5 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 190,
+   "game_id": "1153",
+   "card": "/img/card/119.png",
+   "first": "Fiesta EX v1.50",
+   "title": "Pine Nut"
+  },
+  "kalinathalie": {
+   "slug": "pine_nut"
+  },
+  "simfile": {
+   "path": "09 - FIESTA EX/1153 - Pine Nut/1153 - Pine Nut.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/09%20-%20FIESTA%20EX/1153%20-%20Pine%20Nut/1153%20-%20Pine%20Nut.ssc",
+   "id": "1153",
+   "title": "Pine Nut",
+   "artist": "Doin"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/pine_nut.jpg",
+   "sha256": "0ff8e4d01237f7200dab38d55bb39863389b3ce98e2686f0831df229272555f0",
+   "width": 256,
+   "height": 256,
+   "bytes": 16726
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "잣"
+  },
+  "simfile_notes": [
+   "S19: simfile chart 'S20' has meter 20 (re-rated)"
+  ]
+ }
+}

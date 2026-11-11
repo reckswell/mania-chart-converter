@@ -1,0 +1,411 @@
+{
+ "game": "piu",
+ "song_id": "1422",
+ "title": "Hyacinth",
+ "artist": "Yahpp",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "192",
+ "version": "Prime",
+ "date_added": "",
+ "charts": {
+  "single-5": {
+   "slot": "single-5",
+   "native": "S5",
+   "level": "5",
+   "constant": null,
+   "designer": "SUNNY",
+   "note_counts": {
+    "combo": 280
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6624,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S5",
+     "meter": "5",
+     "active": true,
+     "credit": "SUNNY",
+     "combo": 280,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 22,
+      "tap": 199
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-10": {
+   "slot": "single-10",
+   "native": "S10",
+   "level": "10",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 574
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2685,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S10",
+     "meter": "10",
+     "active": true,
+     "credit": "Nimgo",
+     "combo": 574,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 50,
+      "tap": 379
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-14": {
+   "slot": "single-14",
+   "native": "S14",
+   "level": "14",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 726
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2684,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S14",
+     "meter": "14",
+     "active": true,
+     "credit": "Nimgo",
+     "combo": 726,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 88,
+      "tap": 413
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-18": {
+   "slot": "single-18",
+   "native": "S18",
+   "level": "18",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 1147
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2683,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S18",
+     "meter": "18",
+     "active": true,
+     "credit": "Nimgo",
+     "combo": 1147,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 90,
+      "tap": 499
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-22": {
+   "slot": "single-22",
+   "native": "S22",
+   "level": "22",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 1447
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2686,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-single",
+     "description": "S22",
+     "meter": "22",
+     "active": true,
+     "credit": "Nimgo",
+     "combo": 1447,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 97,
+      "tap": 652
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-14": {
+   "slot": "double-14",
+   "native": "D14",
+   "level": "14",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 712
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2689,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 8,
+     "steps_type": "pump-double",
+     "description": "D13",
+     "meter": "13",
+     "active": true,
+     "credit": "Nimgo",
+     "combo": 712,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 111,
+      "tap": 347
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 13 differs from the PHOENIX 2 level 14: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-20": {
+   "slot": "double-20",
+   "native": "D20",
+   "level": "20",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 1250
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2688,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 9,
+     "steps_type": "pump-double",
+     "description": "D20",
+     "meter": "20",
+     "active": true,
+     "credit": "Nimgo",
+     "combo": 1250,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 118,
+      "tap": 495
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-24": {
+   "slot": "double-24",
+   "native": "D24",
+   "level": "24",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 1370
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2687,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 10,
+     "steps_type": "pump-double",
+     "description": "D24",
+     "meter": "24",
+     "active": true,
+     "credit": "Nimgo",
+     "combo": 1370,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 59,
+      "tap": 751
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "halfdouble-13": {
+   "slot": "halfdouble-13",
+   "native": "HDB13",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8936,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-19": {
+   "slot": "halfdouble-19",
+   "native": "HDB19",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8937,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-23": {
+   "slot": "halfdouble-23",
+   "native": "HDB23",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8938,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 462,
+   "card": "/img/card/386.png",
+   "first": "Prime v1.10.0",
+   "title": "Hyacinth"
+  },
+  "kalinathalie": {
+   "slug": "hyacinth"
+  },
+  "simfile": {
+   "path": "12 - PRIME/1422 - Hyacinth/1422 - Hyacinth.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/12%20-%20PRIME/1422%20-%20Hyacinth/1422%20-%20Hyacinth.ssc",
+   "id": "1422",
+   "title": "Hyacinth",
+   "artist": "Yahpp"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/hyacinth.jpg",
+   "sha256": "b94fba6c50c8721f9f853c9da95d548c108f9f0641029dfde86e8de8176bfb98",
+   "width": 256,
+   "height": 256,
+   "bytes": 17190
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "히아신스"
+  },
+  "simfile_notes": [
+   "D14: simfile chart 'D13' has meter 13 (re-rated)"
+  ]
+ }
+}

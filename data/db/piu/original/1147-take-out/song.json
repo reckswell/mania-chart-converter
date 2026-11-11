@@ -1,0 +1,124 @@
+{
+ "game": "piu",
+ "song_id": "1147",
+ "title": "Take Out",
+ "artist": "SHK",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "170",
+ "version": "Fiesta EX",
+ "date_added": "",
+ "charts": {
+  "single-18": {
+   "slot": "single-18",
+   "native": "S18",
+   "level": "18",
+   "constant": null,
+   "designer": "SANDSTORM",
+   "note_counts": {
+    "combo": 600
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1093,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S18",
+     "meter": "18",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 600,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 14,
+      "tap": 296
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-19": {
+   "slot": "double-19",
+   "native": "D19",
+   "level": "19",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 561
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1092,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-double",
+     "description": "D19",
+     "meter": "19",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 561,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 314,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 187,
+   "game_id": "1147",
+   "card": "/img/card/115.png",
+   "first": "Fiesta EX v1.00",
+   "title": "Take Out"
+  },
+  "kalinathalie": {
+   "slug": "take_out_short_cut"
+  },
+  "simfile": {
+   "path": "09 - FIESTA EX/1147 - [Short Cut] Take Out/1147 - [Short Cut] Take Out.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/09%20-%20FIESTA%20EX/1147%20-%20%5BShort%20Cut%5D%20Take%20Out/1147%20-%20%5BShort%20Cut%5D%20Take%20Out.ssc",
+   "id": "1147",
+   "title": "Take Out - SHORT CUT -",
+   "artist": "SHK"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/take_out_short_cut.jpg",
+   "sha256": "983e1f0e93f72c08b5b8a194c168d2dcff5d905b416e8d1a6013349a2ccfad71",
+   "width": 256,
+   "height": 256,
+   "bytes": 17239
+  }
+ },
+ "extra": {
+  "cut": "Short Cut",
+  "titles": {
+   "kr": "테이크 아웃"
+  }
+ }
+}

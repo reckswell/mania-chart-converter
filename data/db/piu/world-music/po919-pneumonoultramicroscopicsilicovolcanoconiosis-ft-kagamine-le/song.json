@@ -1,0 +1,188 @@
+{
+ "game": "piu",
+ "song_id": "po919",
+ "title": "Pneumonoultramicroscopicsilicovolcanoconiosis ft. Kagamine Len/GUMI",
+ "artist": "Dasu ft. Kagamine Len / GUMI",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "WORLD MUSIC",
+ "bpm": "156",
+ "version": "Phoenix",
+ "date_added": "",
+ "charts": {
+  "single-12": {
+   "slot": "single-12",
+   "native": "S12",
+   "level": "12",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 745
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 7078,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S12",
+     "meter": "12",
+     "active": true,
+     "credit": "EXC",
+     "combo": 745,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 231,
+      "tap": 208
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1470
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 7079,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "EXC",
+     "combo": 1470,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 286,
+      "tap": 205
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-20": {
+   "slot": "single-20",
+   "native": "S20",
+   "level": "20",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1821
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 7080,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S19",
+     "meter": "19",
+     "active": true,
+     "credit": "EXC",
+     "combo": 1821,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 329,
+      "tap": 267,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "17 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 19 differs from the PHOENIX 2 level 20: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-22": {
+   "slot": "double-22",
+   "native": "D22",
+   "level": "22",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 7081,
+     "mode": "D"
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 919,
+   "game_id": "17XX_0018",
+   "card": "/img/card/Phoenix_Pneumonoultramicroscopicsilicovolcanoconiosis.png",
+   "first": "Phoenix v1.00.1",
+   "title": "Pneumonoultramicroscopicsilicovolcanoconiosis"
+  },
+  "kalinathalie": {
+   "slug": "pneumonoultramicroscopicsilicovolcanoconiosis"
+  },
+  "simfile": {
+   "path": "16 - PHOENIX/18225 - Pneumonoultramicroscopicsilicovolcanoconiosis ft. Kagamine Len GUMI/Pneumonoultramicroscopicsilicovolcanoconiosis ft. Kagamine Len GUMI.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/16%20-%20PHOENIX/18225%20-%20Pneumonoultramicroscopicsilicovolcanoconiosis%20ft.%20Kagamine%20Len%20GUMI/Pneumonoultramicroscopicsilicovolcanoconiosis%20ft.%20Kagamine%20Len%20GUMI.ssc",
+   "id": "18225",
+   "title": "Pneumonoultramicroscopicsilicovolcanoconiosis ft. Kagamine Len/GUMI",
+   "artist": "DASU"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/pneumonoultramicroscopicsilicovolcanoconiosis.jpg",
+   "sha256": "6b732cb1991634c03c903d94dd84783a4b42b074efe0820f052089ca893a717a",
+   "width": 256,
+   "height": 256,
+   "bytes": 18837
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "진폐증"
+  },
+  "artists": [
+   "Dasu",
+   "Kagamine Len",
+   "GUMI"
+  ],
+  "simfile_notes": [
+   "S20: simfile chart 'S19' has meter 19 (re-rated)"
+  ]
+ }
+}

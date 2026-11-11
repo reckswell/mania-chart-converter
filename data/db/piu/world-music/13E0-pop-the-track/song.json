@@ -1,0 +1,129 @@
+{
+ "game": "piu",
+ "song_id": "13E0",
+ "title": "Pop The Track",
+ "artist": "J-Mi, Midi-D Ft. Hanna Stockzell",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "WORLD MUSIC",
+ "bpm": "160",
+ "version": "Fiesta 2",
+ "date_added": "",
+ "charts": {
+  "single-18": {
+   "slot": "single-18",
+   "native": "S18",
+   "level": "18",
+   "constant": null,
+   "designer": "SANDSTORM",
+   "note_counts": {
+    "combo": 588
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1530,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S18",
+     "meter": "18",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 588,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 27,
+      "tap": 312
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "8 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-16": {
+   "slot": "double-16",
+   "native": "D16",
+   "level": "16",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 328
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1529,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-double",
+     "description": "D16",
+     "meter": "16",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 328,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 311,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 258,
+   "game_id": "13E0",
+   "card": "/img/card/224.png",
+   "first": "Fiesta 2 v1.00",
+   "title": "Pop The Track"
+  },
+  "kalinathalie": {
+   "slug": "pop_the_track_short_cut"
+  },
+  "simfile": {
+   "path": "10 - FIESTA 2/(1) 13E0 - [Short Cut] Pop The Track/13E0 - [Short Cut] Pop The Track.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/10%20-%20FIESTA%202/%281%29%2013E0%20-%20%5BShort%20Cut%5D%20Pop%20The%20Track/13E0%20-%20%5BShort%20Cut%5D%20Pop%20The%20Track.ssc",
+   "id": "13E0",
+   "title": "Pop The Track - SHORT CUT -",
+   "artist": "\"J-Mi & Midi-D & Ft. Hanna Stockzell\""
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/pop_the_track_short_cut.jpg",
+   "sha256": "1e8e99884107307985956e07f5ca403c8f3aaa9587cb9624471b5748c3522277",
+   "width": 256,
+   "height": 256,
+   "bytes": 16478
+  }
+ },
+ "extra": {
+  "cut": "Short Cut",
+  "titles": {
+   "kr": "팝 더 트랙"
+  },
+  "artists": [
+   "J-Mi",
+   "Midi-D",
+   "Hanna Stockzell"
+  ]
+ }
+}

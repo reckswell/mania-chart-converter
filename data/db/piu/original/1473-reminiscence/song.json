@@ -1,0 +1,450 @@
+{
+ "game": "piu",
+ "song_id": "1473",
+ "title": "Reminiscence",
+ "artist": "MAX",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "155",
+ "version": "Prime",
+ "date_added": "",
+ "charts": {
+  "single-4": {
+   "slot": "single-4",
+   "native": "S4",
+   "level": "4",
+   "constant": null,
+   "designer": "BME",
+   "note_counts": {
+    "combo": 190
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2703,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S3",
+     "meter": "3",
+     "active": true,
+     "credit": "BME",
+     "combo": 190,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 158,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 3 differs from the PHOENIX 2 level 4: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "single-7": {
+   "slot": "single-7",
+   "native": "S7",
+   "level": "7",
+   "constant": null,
+   "designer": "BME",
+   "note_counts": {
+    "combo": 445
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2702,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S6",
+     "meter": "6",
+     "active": true,
+     "credit": "BME",
+     "combo": 445,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 319,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 6 differs from the PHOENIX 2 level 7: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "single-10": {
+   "slot": "single-10",
+   "native": "S10",
+   "level": "10",
+   "constant": null,
+   "designer": "BME",
+   "note_counts": {
+    "combo": 552
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2701,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S10",
+     "meter": "10",
+     "active": true,
+     "credit": "BME",
+     "combo": 552,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 378,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "IMBA",
+   "note_counts": {
+    "combo": 765
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4647,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "IMBA",
+     "combo": 765,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 75,
+      "tap": 463
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "BME",
+   "note_counts": {
+    "combo": 1162
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2700,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S18",
+     "meter": "18",
+     "active": true,
+     "credit": "BME",
+     "combo": 1162,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 146,
+      "tap": 534
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "22 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 18 differs from the PHOENIX 2 level 19: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-11": {
+   "slot": "double-11",
+   "native": "D11",
+   "level": "11",
+   "constant": null,
+   "designer": "BME",
+   "note_counts": {
+    "combo": 569
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2705,
+     "mode": "D"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 8,
+     "steps_type": "pump-double",
+     "description": "D11",
+     "meter": "11",
+     "active": true,
+     "credit": "BME",
+     "combo": 569,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 42,
+      "tap": 367
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-17": {
+   "slot": "double-17",
+   "native": "D17",
+   "level": "17",
+   "constant": null,
+   "designer": "IMBA",
+   "note_counts": {
+    "combo": 795
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4648,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 9,
+     "steps_type": "pump-double",
+     "description": "D17",
+     "meter": "17",
+     "active": true,
+     "credit": "IMBA",
+     "combo": 795,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 92,
+      "tap": 444
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-20": {
+   "slot": "double-20",
+   "native": "D20",
+   "level": "20",
+   "constant": null,
+   "designer": "BME",
+   "note_counts": {
+    "combo": 1236
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2704,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 10,
+     "steps_type": "pump-double",
+     "description": "D20",
+     "meter": "20",
+     "active": true,
+     "credit": "BME",
+     "combo": 1236,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 203,
+      "tap": 425
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "9 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "halfdouble-11": {
+   "slot": "halfdouble-11",
+   "native": "HDB11",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8981,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "normal"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-17": {
+   "slot": "halfdouble-17",
+   "native": "HDB17",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8982,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-18": {
+   "slot": "halfdouble-18",
+   "native": "HDB18",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8983,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "coop-2": {
+   "slot": "coop-2",
+   "native": "CO-OP x2",
+   "level": "2",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 818
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2706,
+     "mode": "C"
+    },
+    "simfile": {
+     "chart": 15,
+     "steps_type": "pump-double",
+     "description": "UCS DP COOP 2P",
+     "meter": "99",
+     "active": true,
+     "credit": "Nimgo",
+     "combo": 818,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 161,
+      "tap": 676,
+      "other": 1769
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 463,
+   "card": "/img/card/377.png",
+   "first": "Prime v1.10.0",
+   "title": "Reminiscence"
+  },
+  "kalinathalie": {
+   "slug": "reminiscence"
+  },
+  "simfile": {
+   "path": "12 - PRIME/1473 - Reminiscence/1473 - Reminiscence.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/12%20-%20PRIME/1473%20-%20Reminiscence/1473%20-%20Reminiscence.ssc",
+   "id": "1473",
+   "title": "Reminiscence",
+   "artist": "MAX"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/reminiscence.jpg",
+   "sha256": "8a9839dff5924cbbe60ed1e0d4481bd4fdb994fec4e5a58db488c2ede904fad9",
+   "width": 256,
+   "height": 256,
+   "bytes": 27426
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "레미니선스"
+  },
+  "simfile_notes": [
+   "S4: simfile chart 'S3' has meter 3 (re-rated)",
+   "S7: simfile chart 'S6' has meter 6 (re-rated)",
+   "S19: simfile chart 'S18' has meter 18 (re-rated)"
+  ]
+ }
+}

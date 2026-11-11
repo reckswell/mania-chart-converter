@@ -50,4 +50,7 @@ Ordered. Each item has a "done when". Take the top item that is not `blocked`.
     - Sekai, Bandori and DDR EASY/NORMAL charts leave mania columns empty with centre mapping; need a spread rule.
     - Sekai `#TIL` hi-speed: 1-tick 10000× teleports and < 0.1× slowdowns become extreme SV; decide clamp/drop.
     - StepMania fakes and keysounds are `other` (dropped by baseline), rolls/lifts carry flags.
-12. **Hitsounds / keysounds** (later): soft sample set by default; keysounds for IIDX/BMS sources.
+12. **Re-catalog can leave stale chart pairings.** `SongRecord.merge` keeps a chart's old `source`, status and
+    chart file when a newer catalog run no longer pairs it with that file (seen while changing PIU matching).
+    *Done when:* a catalog run that drops a pairing resets the chart to `listed` and removes its chart file.
+13. **Hitsounds / keysounds** (later): soft sample set by default; keysounds for IIDX/BMS sources.

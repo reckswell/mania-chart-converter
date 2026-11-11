@@ -1,0 +1,198 @@
+{
+ "game": "piu",
+ "song_id": "16B8",
+ "title": "GOOD NIGHT",
+ "artist": "Dreamcatcher",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "196",
+ "version": "XX",
+ "date_added": "",
+ "charts": {
+  "single-18": {
+   "slot": "single-18",
+   "native": "S18",
+   "level": "18",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1340
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6910,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S18",
+     "meter": "18",
+     "active": true,
+     "credit": "EXC",
+     "combo": 1340,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 101,
+      "tap": 780
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1700
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6911,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S21",
+     "meter": "21",
+     "active": true,
+     "credit": "EXC",
+     "combo": 1700,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 141,
+      "tap": 1064,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "3 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-24": {
+   "slot": "single-24",
+   "native": "S24",
+   "level": "24",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 2400
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6912,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S24",
+     "meter": "24",
+     "active": true,
+     "credit": "EXC",
+     "combo": 2400,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 140,
+      "tap": 1282,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-26": {
+   "slot": "double-26",
+   "native": "D26",
+   "level": "26",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 2600
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6913,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 8,
+     "steps_type": "pump-double",
+     "description": "D26",
+     "meter": "26",
+     "active": true,
+     "credit": "EXC",
+     "combo": 2600,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 156,
+      "tap": 1295,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 901,
+   "game_id": "16B8",
+   "card": "/img/card/16B8.png",
+   "first": "XX v2.08.0",
+   "title": "GOOD NIGHT"
+  },
+  "kalinathalie": {
+   "slug": "good_night_full_song"
+  },
+  "simfile": {
+   "path": "14 - XX/16B8 - [Full Song] Good Night/16B8 - [Full Song] Good Night.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/14%20-%20XX/16B8%20-%20%5BFull%20Song%5D%20Good%20Night/16B8%20-%20%5BFull%20Song%5D%20Good%20Night.ssc",
+   "id": "16B8",
+   "title": "Good Night - FULL SONG -",
+   "artist": "Dreamcatcher"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/good_night_full_song.jpg",
+   "sha256": "2154af21cad89f2d95dc7caaecb0deb0c6b2c08e6523f34618e83236f172c716",
+   "width": 256,
+   "height": 256,
+   "bytes": 20253
+  }
+ },
+ "extra": {
+  "cut": "Full Song"
+ }
+}

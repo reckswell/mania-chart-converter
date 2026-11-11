@@ -1,0 +1,317 @@
+{
+ "game": "piu",
+ "song_id": "1533",
+ "title": "Hey U",
+ "artist": "MAZO",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "162",
+ "version": "Prime 2",
+ "date_added": "",
+ "charts": {
+  "single-3": {
+   "slot": "single-3",
+   "native": "S3",
+   "level": "3",
+   "constant": null,
+   "designer": "SUNNY",
+   "note_counts": {
+    "combo": 133
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6626,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S3",
+     "meter": "3",
+     "active": true,
+     "credit": "SUNNY",
+     "combo": 133,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 117,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-5": {
+   "slot": "single-5",
+   "native": "S5",
+   "level": "5",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 193
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4535,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S5",
+     "meter": "5",
+     "active": true,
+     "credit": "NIMGO",
+     "combo": 193,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 279,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-10": {
+   "slot": "single-10",
+   "native": "S10",
+   "level": "10",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 451
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4536,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S10",
+     "meter": "10",
+     "active": true,
+     "credit": "NIMGO",
+     "combo": 451,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 472,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 626
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4537,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S15",
+     "meter": "15",
+     "active": true,
+     "credit": "NIMGO",
+     "combo": 626,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 612,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "12 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-10": {
+   "slot": "double-10",
+   "native": "D10",
+   "level": "10",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 449
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4538,
+     "mode": "D"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-double",
+     "description": "D10",
+     "meter": "10",
+     "active": true,
+     "credit": "NIMGO",
+     "combo": 449,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 460,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-17": {
+   "slot": "double-17",
+   "native": "D17",
+   "level": "17",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 620
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4539,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-double",
+     "description": "D16",
+     "meter": "16",
+     "active": true,
+     "credit": "NIMGO",
+     "combo": 620,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 619,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "12 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 16 differs from the PHOENIX 2 level 17: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "halfdouble-10": {
+   "slot": "halfdouble-10",
+   "native": "HDB10",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8862,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "normal"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-16": {
+   "slot": "halfdouble-16",
+   "native": "HDB16",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8863,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 645,
+   "game_id": "1533",
+   "card": "/img/card/1533.png",
+   "first": "Prime 2 v1.07.0",
+   "title": "Hey U"
+  },
+  "kalinathalie": {
+   "slug": "hey_u"
+  },
+  "simfile": {
+   "path": "13 - PRIME 2/1533 - Hey U/1533 - Hey U.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/13%20-%20PRIME%202/1533%20-%20Hey%20U/1533%20-%20Hey%20U.ssc",
+   "id": "1533",
+   "title": "Hey U",
+   "artist": "MAZO"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/hey_u.jpg",
+   "sha256": "621fade40e8ae4c6fabdd6f1c7e854ab5bd4cd295a046dc7106e916a5bea53df",
+   "width": 256,
+   "height": 256,
+   "bytes": 32046
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "헤이 유"
+  },
+  "simfile_notes": [
+   "D17: simfile chart 'D16' has meter 16 (re-rated)"
+  ]
+ }
+}

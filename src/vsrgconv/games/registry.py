@@ -136,9 +136,13 @@ _add(Game(
     status="in-progress",
 ))
 _add(Game(
-    key="piu", name="PUMP IT UP", lanes=5, variable_width=False,
-    difficulties={},   # level-banded; see slot_for_level
-    native_names={"single": "SINGLE", "double": "DOUBLE", "coop": "CO-OP"},
+    key="piu", name="PUMP IT UP", lanes=5, variable_width=False,   # SINGLE 5 panels; DOUBLE 10, HALF-DOUBLE 6
+    difficulties={},   # level-banded: slots are <style>-<level> (docs/sources/piu.md); ladder via slot_for_level
+    native_names={"single": "SINGLE", "double": "DOUBLE", "halfdouble": "HALF-DOUBLE", "coop": "CO-OP"},
+    # genre = the Pumpout category (the in-game song categories)
+    genres={"ORIGINAL": "original", "K-POP": "k-pop", "WORLD MUSIC": "world-music", "J-MUSIC": "j-music",
+            "XROSS": "xross", "RISE": "rise", "": "unknown"},
+    status="in-progress",
 ))
 _add(Game(
     key="arcaea", name="Arcaea", lanes=4, variable_width=False,   # 4 floor lanes; 6-lane charts: Chart.lanes = 6

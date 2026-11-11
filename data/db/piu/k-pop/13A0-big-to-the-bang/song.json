@@ -1,0 +1,114 @@
+{
+ "game": "piu",
+ "song_id": "13A0",
+ "title": "BIG to the BANG",
+ "artist": "Bigbang, MAX",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "135",
+ "version": "Fiesta 2",
+ "date_added": "",
+ "charts": {
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 1126
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1510,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 1126,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 70,
+      "tap": 806
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'S17')",
+   "assets": {}
+  },
+  "double-17": {
+   "slot": "double-17",
+   "native": "D17",
+   "level": "17",
+   "constant": null,
+   "designer": "SANDSTORM",
+   "note_counts": {
+    "combo": 1006
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1509,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-double",
+     "description": "D17",
+     "meter": "17",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 1006,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 105,
+      "tap": 705
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'D17')",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 248,
+   "game_id": "13A0",
+   "card": "/img/card/214.png",
+   "first": "Fiesta 2 v1.00",
+   "title": "BIG to the BANG"
+  },
+  "simfile": {
+   "path": "10 - FIESTA 2/(1) 13A0 - [Remix] BIG to the BANG/13A0 - [Remix] BIG to the BANG.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/10%20-%20FIESTA%202/%281%29%2013A0%20-%20%5BRemix%5D%20BIG%20to%20the%20BANG/13A0%20-%20%5BRemix%5D%20BIG%20to%20the%20BANG.ssc",
+   "id": "13A0",
+   "title": "BIG to the BANG",
+   "artist": "Bigbang & MAX"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Remix",
+  "artists": [
+   "Bigbang",
+   "MAX"
+  ],
+  "removed": true,
+  "removed_in": "Prime 2 v1.00.0"
+ }
+}

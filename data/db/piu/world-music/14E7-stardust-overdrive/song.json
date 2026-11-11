@@ -1,0 +1,123 @@
+{
+ "game": "piu",
+ "song_id": "14E7",
+ "title": "Stardust Overdrive",
+ "artist": "typeMARS",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "WORLD MUSIC",
+ "bpm": "175",
+ "version": "Prime",
+ "date_added": "",
+ "charts": {
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 751
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2654,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "EXC",
+     "combo": 751,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 244,
+      "hold": 53
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "6 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-17": {
+   "slot": "double-17",
+   "native": "D17",
+   "level": "17",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 723
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2655,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-double",
+     "description": "D17",
+     "meter": "17",
+     "active": true,
+     "credit": "EXC",
+     "combo": 723,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 280,
+      "hold": 55
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "6 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 457,
+   "card": "/img/card/395.png",
+   "first": "Prime v1.09.0",
+   "title": "Stardust Overdrive"
+  },
+  "kalinathalie": {
+   "slug": "stardust_overdrive_short_cut"
+  },
+  "simfile": {
+   "path": "12 - PRIME/14E7 - [Short Cut] Stardust Overdrive/14E7 - [Short Cut] Stardust Overdrive.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/12%20-%20PRIME/14E7%20-%20%5BShort%20Cut%5D%20Stardust%20Overdrive/14E7%20-%20%5BShort%20Cut%5D%20Stardust%20Overdrive.ssc",
+   "id": "14E7",
+   "title": "Stardust Overdrive - SHORT CUT -",
+   "artist": "typeMARS"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/stardust_overdrive_short_cut.jpg",
+   "sha256": "58d210d1baa8844cabdd9752930558e539442354322246994f3dfa6db734db02",
+   "width": 256,
+   "height": 256,
+   "bytes": 24422
+  }
+ },
+ "extra": {
+  "cut": "Short Cut",
+  "titles": {
+   "kr": "스타더스트 오버드라이브"
+  }
+ }
+}

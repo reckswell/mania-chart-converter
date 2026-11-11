@@ -1,0 +1,318 @@
+{
+ "game": "piu",
+ "song_id": "1577",
+ "title": "Nakakapagpabagabag",
+ "artist": "Dasu feat. Kagamine Len",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "WORLD MUSIC",
+ "bpm": "145",
+ "version": "Prime 2",
+ "date_added": "",
+ "charts": {
+  "single-12": {
+   "slot": "single-12",
+   "native": "S12",
+   "level": "12",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 492
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4621,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S11",
+     "meter": "11",
+     "active": true,
+     "credit": "EXC",
+     "combo": 492,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 55,
+      "tap": 301
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 11 differs from the PHOENIX 2 level 12: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 824
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4622,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S15",
+     "meter": "15",
+     "active": true,
+     "credit": "EXC",
+     "combo": 824,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 183,
+      "tap": 244
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1283
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4623,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S19 INFOBAR TITLE",
+     "meter": "19",
+     "active": true,
+     "credit": "EXC",
+     "combo": 1283,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 167,
+      "tap": 360
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-16": {
+   "slot": "double-16",
+   "native": "D16",
+   "level": "16",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 4624,
+     "mode": "D"
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "double-20": {
+   "slot": "double-20",
+   "native": "D20",
+   "level": "20",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1272
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4625,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-double",
+     "description": "D20",
+     "meter": "20",
+     "active": true,
+     "credit": "EXC",
+     "combo": 1272,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 386,
+      "hold": 130
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "halfdouble-14": {
+   "slot": "halfdouble-14",
+   "native": "HDB14",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 848
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 8875,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-halfdouble",
+     "description": "D16",
+     "meter": "16",
+     "active": true,
+     "credit": "EXC",
+     "combo": 848,
+     "match": "near-level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 254,
+      "hold": 192
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 16 differs from the PHOENIX 2 level 14 and Pumpout never rated the chart 16: paired as the nearest left-over ACTIVE chart, which may be a different chart",
+   "assets": {}
+  },
+  "halfdouble-19": {
+   "slot": "halfdouble-19",
+   "native": "HDB19",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8876,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "coop-2": {
+   "slot": "coop-2",
+   "native": "CO-OP x2",
+   "level": "2",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1600
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4626,
+     "mode": "C"
+    },
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-double",
+     "description": "DP COOP 2P",
+     "meter": "99",
+     "active": true,
+     "credit": "EXC",
+     "combo": 1600,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 435,
+      "hold": 435
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 654,
+   "game_id": "1577",
+   "card": "/img/card/1577.png",
+   "first": "Prime 2 v1.10.0",
+   "title": "Nakakapagpabagabag"
+  },
+  "kalinathalie": {
+   "slug": "nakakapagpabagabag"
+  },
+  "simfile": {
+   "path": "13 - PRIME 2/1577 - Nakakapagpabagabag/1577 - Nakakapagpabagabag.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/13%20-%20PRIME%202/1577%20-%20Nakakapagpabagabag/1577%20-%20Nakakapagpabagabag.ssc",
+   "id": "1577",
+   "title": "Nakakapagpabagabag",
+   "artist": "Dasu feat. Kagamine Len"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/nakakapagpabagabag.jpg",
+   "sha256": "bf6c045eea1820e021adc9c87748e79a19571994a56ed88c0c5d70cbb5baa09f",
+   "width": 256,
+   "height": 256,
+   "bytes": 17380
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "artists": [
+   "Dasu",
+   "Kagamine Len"
+  ],
+  "simfile_notes": [
+   "S12: simfile chart 'S11' has meter 11 (re-rated)",
+   "HDB14: simfile chart 'D16' has meter 16 (near-level)"
+  ]
+ }
+}

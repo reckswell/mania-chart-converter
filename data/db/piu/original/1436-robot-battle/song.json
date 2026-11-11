@@ -1,0 +1,379 @@
+{
+ "game": "piu",
+ "song_id": "1436",
+ "title": "Robot battle",
+ "artist": "CYO Style",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "198",
+ "version": "Prime",
+ "date_added": "",
+ "charts": {
+  "single-9": {
+   "slot": "single-9",
+   "native": "S9",
+   "level": "9",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 500
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1728,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S9",
+     "meter": "9",
+     "active": true,
+     "credit": "EXC",
+     "combo": 500,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 433,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 555
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1729,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S14",
+     "meter": "14",
+     "active": true,
+     "credit": "EXC",
+     "combo": 555,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 445,
+      "hold": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 14 differs from the PHOENIX 2 level 15: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "FELIXOR",
+   "note_counts": {
+    "combo": 1000
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3250,
+     "mode": "S",
+     "labels": [
+      "UPDATED"
+     ]
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S19",
+     "meter": "19",
+     "active": true,
+     "credit": "Felixor",
+     "combo": 1000,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 85,
+      "tap": 562
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-22": {
+   "slot": "single-22",
+   "native": "S22",
+   "level": "22",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1200
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1730,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S22",
+     "meter": "22",
+     "active": true,
+     "credit": "EXC",
+     "combo": 1200,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 650,
+      "hold": 88
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-15": {
+   "slot": "double-15",
+   "native": "D15",
+   "level": "15",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 607
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1726,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-double",
+     "description": "D14",
+     "meter": "14",
+     "active": true,
+     "credit": "EXC",
+     "combo": 607,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 426,
+      "hold": 67
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 14 differs from the PHOENIX 2 level 15: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-19": {
+   "slot": "double-19",
+   "native": "D19",
+   "level": "19",
+   "constant": null,
+   "designer": "STACCATO",
+   "note_counts": {
+    "combo": 1337
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3251,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-double",
+     "description": "D19",
+     "meter": "19",
+     "active": true,
+     "credit": "Staccato",
+     "combo": 1337,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 473,
+      "hold": 167
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-24": {
+   "slot": "double-24",
+   "native": "D24",
+   "level": "24",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1300
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1727,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 9,
+     "steps_type": "pump-double",
+     "description": "D24",
+     "meter": "24",
+     "active": true,
+     "credit": "EXC",
+     "combo": 1300,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 111,
+      "tap": 689
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "halfdouble-14": {
+   "slot": "halfdouble-14",
+   "native": "HDB14",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8970,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-19": {
+   "slot": "halfdouble-19",
+   "native": "HDB19",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8971,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-23": {
+   "slot": "halfdouble-23",
+   "native": "HDB23",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8972,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 292,
+   "game_id": "1436",
+   "card": "/img/card/194.png",
+   "first": "Prime v1.00.0",
+   "title": "Robot battle"
+  },
+  "kalinathalie": {
+   "slug": "robot_battle"
+  },
+  "simfile": {
+   "path": "12 - PRIME/1436 - Robot Battle/1436 - Robot Battle.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/12%20-%20PRIME/1436%20-%20Robot%20Battle/1436%20-%20Robot%20Battle.ssc",
+   "id": "1436",
+   "title": "Robot battle",
+   "artist": "CYO Style"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/robot_battle.jpg",
+   "sha256": "d78611067fbf251b8a048a757acfe3ad40a45bd389441f7ba9028c8afb5ec6c0",
+   "width": 256,
+   "height": 256,
+   "bytes": 15149
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "로봇 배틀"
+  },
+  "simfile_notes": [
+   "S15: simfile chart 'S14' has meter 14 (re-rated)",
+   "D15: simfile chart 'D14' has meter 14 (re-rated)"
+  ]
+ }
+}

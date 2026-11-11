@@ -1,0 +1,112 @@
+{
+ "game": "piu",
+ "song_id": "14C4",
+ "title": "Pandora",
+ "artist": "KARA",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "140",
+ "version": "Prime",
+ "date_added": "",
+ "charts": {
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 1552
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2870,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": false,
+     "credit": "Nimgo",
+     "combo": 1552,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 748,
+      "hold": 216
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "14 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'S17')",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 1442
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2871,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": false,
+     "credit": "Nimgo",
+     "combo": 1442,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 764,
+      "hold": 149
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "18 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'D18')",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 480,
+   "card": "/img/card/483.png",
+   "first": "Prime v1.14.0",
+   "title": "Pandora"
+  },
+  "simfile": {
+   "path": "12 - PRIME/14C4 - [Full Song] Pandora/14C4 - [Full Song] Pandora.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/12%20-%20PRIME/14C4%20-%20%5BFull%20Song%5D%20Pandora/14C4%20-%20%5BFull%20Song%5D%20Pandora.ssc",
+   "id": "14C4",
+   "title": "Pandora - FULL SONG -",
+   "artist": "KARA"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Full Song",
+  "titles": {
+   "kr": "판도라"
+  },
+  "removed": true,
+  "removed_in": "XX v1.00.1"
+ }
+}

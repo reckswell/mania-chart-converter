@@ -1,0 +1,161 @@
+{
+ "game": "piu",
+ "song_id": "1135",
+ "title": "Interference",
+ "artist": "Doin",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "180.4",
+ "version": "Fiesta EX",
+ "date_added": "",
+ "charts": {
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "Tiny",
+   "note_counts": {
+    "combo": 1710
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1085,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S19",
+     "meter": "19",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1710,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 1310,
+      "hold": 135
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-16": {
+   "slot": "double-16",
+   "native": "D16",
+   "level": "16",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1350
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1086,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-double",
+     "description": "D16",
+     "meter": "16",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1350,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 1054,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "6 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 1748
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1087,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1748,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 1196,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "4 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 184,
+   "game_id": "1135",
+   "card": "/img/card/109.png",
+   "first": "Fiesta EX v1.40",
+   "title": "Interference"
+  },
+  "kalinathalie": {
+   "slug": "interference_full_song"
+  },
+  "simfile": {
+   "path": "09 - FIESTA EX/1135 - [Full Song] Interference/1135 - [Full Song] Interference.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/09%20-%20FIESTA%20EX/1135%20-%20%5BFull%20Song%5D%20Interference/1135%20-%20%5BFull%20Song%5D%20Interference.ssc",
+   "id": "1135",
+   "title": "Interference - FULL SONG -",
+   "artist": "Doin"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/interference_full_song.jpg",
+   "sha256": "6626c54206d0cd5b65af8b78fac4e225d3aaa71e4dc58e9d074f078f0f6b1658",
+   "width": 256,
+   "height": 256,
+   "bytes": 19782
+  }
+ },
+ "extra": {
+  "cut": "Full Song",
+  "titles": {
+   "kr": "인터퍼런스"
+  }
+ }
+}

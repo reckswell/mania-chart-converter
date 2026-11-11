@@ -1,0 +1,91 @@
+{
+ "game": "piu",
+ "song_id": "1040",
+ "title": "msgoon RMX pt.7",
+ "artist": "msgoon",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "130",
+ "version": "Fiesta",
+ "date_added": "",
+ "charts": {
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1386
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2241,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": false,
+     "credit": "",
+     "combo": 1386,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 84,
+      "tap": 854
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'S17')",
+   "assets": {}
+  },
+  "double-performance-4": {
+   "slot": "double-performance-4",
+   "native": "DP4",
+   "level": "4",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 2242,
+     "mode": "DP"
+    },
+    "ladder": "easy"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 383,
+   "game_id": "1040",
+   "card": "/img/card/1040.png",
+   "first": "Fiesta v1.01",
+   "title": "msgoon RMX pt.7"
+  },
+  "simfile": {
+   "path": "08 - FIESTA/1040 - [Remix] msgoon RMX pt.7/1040 - [Remix] msgoon RMX pt.7.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/08%20-%20FIESTA/1040%20-%20%5BRemix%5D%20msgoon%20RMX%20pt.7/1040%20-%20%5BRemix%5D%20msgoon%20RMX%20pt.7.ssc",
+   "id": "1040",
+   "title": "msgoon RMX pt.7",
+   "artist": "msgoon"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Remix",
+  "removed": true,
+  "removed_in": "Prime v1.00.0"
+ }
+}

@@ -1,0 +1,280 @@
+{
+ "game": "piu",
+ "song_id": "1414",
+ "title": "Mad5cience",
+ "artist": "Paul Bazooka",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "130",
+ "version": "Prime",
+ "date_added": "",
+ "charts": {
+  "single-5": {
+   "slot": "single-5",
+   "native": "S5",
+   "level": "5",
+   "constant": null,
+   "designer": "ENVYtic",
+   "note_counts": {
+    "combo": 259
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2888,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S5",
+     "meter": "5",
+     "active": true,
+     "credit": "ENVYtic",
+     "combo": 259,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 283,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "ENVYtic",
+   "note_counts": {
+    "combo": 681
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2889,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S15",
+     "meter": "15",
+     "active": true,
+     "credit": "ENVYtic",
+     "combo": 681,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 98,
+      "tap": 461
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "40 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-20": {
+   "slot": "single-20",
+   "native": "S20",
+   "level": "20",
+   "constant": null,
+   "designer": "ENVYtic",
+   "note_counts": {
+    "combo": 761
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2890,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S20 INFOBAR TITLE",
+     "meter": "20",
+     "active": true,
+     "credit": "ENVYtic",
+     "combo": 761,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 943,
+      "hold": 57
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-9": {
+   "slot": "double-9",
+   "native": "D9",
+   "level": "9",
+   "constant": null,
+   "designer": "ENVYtic",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 2891,
+     "mode": "D"
+    },
+    "ladder": "normal"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "double-16": {
+   "slot": "double-16",
+   "native": "D16",
+   "level": "16",
+   "constant": null,
+   "designer": "ENVYtic",
+   "note_counts": {
+    "combo": 652
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2892,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-double",
+     "description": "D16",
+     "meter": "16",
+     "active": true,
+     "credit": "ENVYtic",
+     "combo": 652,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 507,
+      "hold": 77
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "40 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "halfdouble-8": {
+   "slot": "halfdouble-8",
+   "native": "HDB8",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 421
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 8916,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-halfdouble",
+     "description": "D9 HALFDOUBLE",
+     "meter": "9",
+     "active": true,
+     "credit": "ENVYtic",
+     "combo": 421,
+     "match": "near-level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 325,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 9 differs from the PHOENIX 2 level 8 and Pumpout never rated the chart 9: paired as the nearest left-over ACTIVE chart, which may be a different chart",
+   "assets": {}
+  },
+  "halfdouble-16": {
+   "slot": "halfdouble-16",
+   "native": "HDB16",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8917,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 481,
+   "game_id": "1414",
+   "card": "/img/card/390.png",
+   "first": "Prime v1.15.0",
+   "title": "Mad5cience"
+  },
+  "kalinathalie": {
+   "slug": "mad5cience"
+  },
+  "simfile": {
+   "path": "12 - PRIME/1414 - Mad 5cience/1414 - Mad 5cience.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/12%20-%20PRIME/1414%20-%20Mad%205cience/1414%20-%20Mad%205cience.ssc",
+   "id": "1414",
+   "title": "Mad5cience",
+   "artist": "Paul Bazooka"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/mad5cience.jpg",
+   "sha256": "6717841456d879d6bd8a4d67b2c9e1e8cf53375924c0dccf72e5dbd2ea51a2e6",
+   "width": 256,
+   "height": 256,
+   "bytes": 12760
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "매드 사이언스"
+  },
+  "simfile_notes": [
+   "HDB8: simfile chart 'D9 HALFDOUBLE' has meter 9 (near-level)"
+  ]
+ }
+}

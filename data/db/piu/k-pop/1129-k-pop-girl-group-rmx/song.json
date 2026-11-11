@@ -1,0 +1,116 @@
+{
+ "game": "piu",
+ "song_id": "1129",
+ "title": "K-POP Girl Group RMX",
+ "artist": "Secret, Orange Caramel, 4Minute, 2NE1",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "128",
+ "version": "Fiesta EX",
+ "date_added": "",
+ "charts": {
+  "single-14": {
+   "slot": "single-14",
+   "native": "S14",
+   "level": "14",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 792
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2110,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S14",
+     "meter": "14",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 792,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 59,
+      "tap": 710
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'S14')",
+   "assets": {}
+  },
+  "double-15": {
+   "slot": "double-15",
+   "native": "D15",
+   "level": "15",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 792
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2111,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-double",
+     "description": "D15",
+     "meter": "15",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 792,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 59,
+      "tap": 710
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'D15')",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 360,
+   "game_id": "1129",
+   "card": "/img/card/1129.png",
+   "first": "Fiesta EX v1.00",
+   "title": "K-POP Girl Group RMX"
+  },
+  "simfile": {
+   "path": "09 - FIESTA EX/1129 - [Remix] K-Pop Girl Group RMX/1129 - [Remix] K-Pop Girl Group RMX.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/09%20-%20FIESTA%20EX/1129%20-%20%5BRemix%5D%20K-Pop%20Girl%20Group%20RMX/1129%20-%20%5BRemix%5D%20K-Pop%20Girl%20Group%20RMX.ssc",
+   "id": "1129",
+   "title": "K-POP Girl Group RMX",
+   "artist": "Secret & Orange Caramel & 4Minute & 2NE1"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Remix",
+  "artists": [
+   "Secret",
+   "Orange Caramel",
+   "4Minute",
+   "2NE1"
+  ],
+  "removed": true,
+  "removed_in": "Prime v1.00.0"
+ }
+}

@@ -1,0 +1,274 @@
+{
+ "game": "piu",
+ "song_id": "705",
+ "title": "Maria",
+ "artist": "BanYa",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "136",
+ "version": "The Rebirth",
+ "date_added": "",
+ "charts": {
+  "single-7": {
+   "slot": "single-7",
+   "native": "S7",
+   "level": "7",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 236
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 212,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S7",
+     "meter": "7",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 236,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 241
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-12": {
+   "slot": "single-12",
+   "native": "S12",
+   "level": "12",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 361
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 213,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-single",
+     "description": "S12",
+     "meter": "12",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 361,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 366
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 641
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 214,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 641,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 505,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-18": {
+   "slot": "single-18",
+   "native": "S18",
+   "level": "18",
+   "constant": null,
+   "designer": "IRFANH2",
+   "note_counts": {
+    "combo": 1065
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2790,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 9,
+     "steps_type": "pump-single",
+     "description": "S18",
+     "meter": "18",
+     "active": true,
+     "credit": "irfanh2",
+     "combo": 1065,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 148,
+      "tap": 436
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-16": {
+   "slot": "double-16",
+   "native": "D16",
+   "level": "16",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 602
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 215,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 15,
+     "steps_type": "pump-double",
+     "description": "D16",
+     "meter": "16",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 602,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 16,
+      "tap": 478
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-22": {
+   "slot": "double-22",
+   "native": "D22",
+   "level": "22",
+   "constant": null,
+   "designer": "MINAMI",
+   "note_counts": {
+    "combo": 1000
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4610,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 16,
+     "steps_type": "pump-double",
+     "description": "D21",
+     "meter": "21",
+     "active": true,
+     "credit": "MINAMI",
+     "combo": 1000,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 66,
+      "tap": 553
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 21 differs from the PHOENIX 2 level 22: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 31,
+   "game_id": "705",
+   "card": "/img/card/26.png",
+   "first": "The Rebirth default",
+   "title": "Maria"
+  },
+  "kalinathalie": {
+   "slug": "maria"
+  },
+  "simfile": {
+   "path": "03 - REBIRTH~PREX 3/(2) 705 - Maria/705 - Maria.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/03%20-%20REBIRTH~PREX%203/%282%29%20705%20-%20Maria/705%20-%20Maria.ssc",
+   "id": "705",
+   "title": "Maria",
+   "artist": "BanYa"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/maria.jpg",
+   "sha256": "ca6e5992823f49589abbdb38be4c6d0b15b37524286e2c2d079f2e44e76e37d5",
+   "width": 256,
+   "height": 256,
+   "bytes": 11163
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "마리아"
+  },
+  "revived_in": "Fiesta v1.01",
+  "simfile_notes": [
+   "D22: simfile chart 'D21' has meter 21 (re-rated)"
+  ]
+ }
+}

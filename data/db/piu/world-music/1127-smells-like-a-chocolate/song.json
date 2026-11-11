@@ -1,0 +1,276 @@
+{
+ "game": "piu",
+ "song_id": "1127",
+ "title": "Smells Like A Chocolate",
+ "artist": "Vospi",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "WORLD MUSIC",
+ "bpm": "175.9",
+ "version": "Fiesta EX",
+ "date_added": "",
+ "charts": {
+  "single-3": {
+   "slot": "single-3",
+   "native": "S3",
+   "level": "3",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 140
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1191,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S3",
+     "meter": "3",
+     "active": true,
+     "credit": "HP",
+     "combo": 140,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 127,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-6": {
+   "slot": "single-6",
+   "native": "S6",
+   "level": "6",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 512
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1192,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S6",
+     "meter": "6",
+     "active": true,
+     "credit": "HP",
+     "combo": 512,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 202,
+      "hold": 69
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-9": {
+   "slot": "single-9",
+   "native": "S9",
+   "level": "9",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 561
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1193,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-single",
+     "description": "S9",
+     "meter": "9",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 561,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 259,
+      "hold": 51
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "3 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "ESC",
+   "note_counts": {
+    "combo": 837
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1194,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 8,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "ESC",
+     "combo": 837,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 453,
+      "hold": 106
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 16 differs from the PHOENIX 2 level 17: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-12": {
+   "slot": "double-12",
+   "native": "D12",
+   "level": "12",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 676
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1189,
+     "mode": "D"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 13,
+     "steps_type": "pump-double",
+     "description": "D12",
+     "meter": "12",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 676,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 309,
+      "hold": 67
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 844
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1190,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 15,
+     "steps_type": "pump-double",
+     "description": "D17",
+     "meter": "17",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 844,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 441,
+      "hold": 106
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 17 differs from the PHOENIX 2 level 18: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 204,
+   "game_id": "1127",
+   "card": "/img/card/105.png",
+   "first": "Fiesta EX v1.30",
+   "title": "Smells Like A Chocolate"
+  },
+  "kalinathalie": {
+   "slug": "smells_like_a_chocolate"
+  },
+  "simfile": {
+   "path": "09 - FIESTA EX/1127 - Smells Like a Chocolate/1127 - Smells Like a Chocolate.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/09%20-%20FIESTA%20EX/1127%20-%20Smells%20Like%20a%20Chocolate/1127%20-%20Smells%20Like%20a%20Chocolate.ssc",
+   "id": "1127",
+   "title": "Smells Like A Chocolate",
+   "artist": "Vospi"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/smells_like_a_chocolate.jpg",
+   "sha256": "ea9c34e66475dc7a0e009b94284a9de814e151516de7e4535ff13ddb464d73b7",
+   "width": 256,
+   "height": 256,
+   "bytes": 16766
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "스멜스 라이크 어 초콜릿"
+  },
+  "simfile_notes": [
+   "S17: simfile chart 'S16' has meter 16 (re-rated)",
+   "D18: simfile chart 'D17' has meter 17 (re-rated)"
+  ]
+ }
+}

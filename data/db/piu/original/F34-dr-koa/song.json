@@ -1,0 +1,164 @@
+{
+ "game": "piu",
+ "song_id": "F34",
+ "title": "Dr. KOA",
+ "artist": "BanYa Production",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "156",
+ "version": "NX Absolute",
+ "date_added": "",
+ "charts": {
+  "single-12": {
+   "slot": "single-12",
+   "native": "S12",
+   "level": "12",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 725
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 579,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S12",
+     "meter": "12",
+     "active": true,
+     "credit": "",
+     "combo": 725,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 77,
+      "tap": 515
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1176
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 580,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S18",
+     "meter": "18",
+     "active": true,
+     "credit": "",
+     "combo": 1176,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 54,
+      "tap": 841
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 18 differs from the PHOENIX 2 level 19: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-20": {
+   "slot": "double-20",
+   "native": "D20",
+   "level": "20",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1201
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 581,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-double",
+     "description": "D20",
+     "meter": "20",
+     "active": true,
+     "credit": "",
+     "combo": 1201,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 825,
+      "hold": 65
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 89,
+   "game_id": "F34",
+   "card": "/img/card/353.png",
+   "first": "NX Absolute default",
+   "title": "Dr. KOA"
+  },
+  "kalinathalie": {
+   "slug": "dr_koa"
+  },
+  "simfile": {
+   "path": "06 - NX ABSOLUTE/F34 - [Remix] Dr. KOA/F34 - [Remix] Dr. KOA.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/06%20-%20NX%20ABSOLUTE/F34%20-%20%5BRemix%5D%20Dr.%20KOA/F34%20-%20%5BRemix%5D%20Dr.%20KOA.ssc",
+   "id": "F34",
+   "title": "Dr.KOA",
+   "artist": "Banya Production"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/dr_koa.jpg",
+   "sha256": "270757cc59d26fb633335cca8f56061d0eaac12ef78f6b8eac28c47ebc58d791",
+   "width": 256,
+   "height": 256,
+   "bytes": 30426
+  }
+ },
+ "extra": {
+  "cut": "Remix",
+  "titles": {
+   "kr": "닥터 케이오에이"
+  },
+  "simfile_notes": [
+   "S19: simfile chart 'S18' has meter 18 (re-rated)"
+  ]
+ }
+}

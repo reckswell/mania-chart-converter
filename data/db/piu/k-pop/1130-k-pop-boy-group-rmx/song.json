@@ -1,0 +1,78 @@
+{
+ "game": "piu",
+ "song_id": "1130",
+ "title": "K-POP Boy Group RMX",
+ "artist": "BEAST, Bigbang, SHINee",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "125-135",
+ "version": "Fiesta EX",
+ "date_added": "",
+ "charts": {
+  "double-17": {
+   "slot": "double-17",
+   "native": "D17",
+   "level": "17",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 838
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6592,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-double",
+     "description": "D17",
+     "meter": "17",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 838,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 49,
+      "tap": 792
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "17 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'D17')",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 871,
+   "game_id": "1130",
+   "card": "/img/card/1130.png",
+   "first": "Fiesta EX v1.30",
+   "title": "K-POP Boy Group RMX"
+  },
+  "simfile": {
+   "path": "09 - FIESTA EX/1130 - [Remix] K-Pop Boy Group RMX/1130 - [Remix] K-Pop Boy Group RMX.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/09%20-%20FIESTA%20EX/1130%20-%20%5BRemix%5D%20K-Pop%20Boy%20Group%20RMX/1130%20-%20%5BRemix%5D%20K-Pop%20Boy%20Group%20RMX.ssc",
+   "id": "1130",
+   "title": "K-POP Boy Group RMX",
+   "artist": "BEAST & BigBang & SHINee"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Remix",
+  "artists": [
+   "BEAST",
+   "Bigbang",
+   "SHINee"
+  ],
+  "removed": true,
+  "removed_in": "Fiesta 2 v1.00"
+ }
+}

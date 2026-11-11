@@ -1,0 +1,162 @@
+{
+ "game": "piu",
+ "song_id": "14E6",
+ "title": "PRIME Opening",
+ "artist": "MAX",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "128",
+ "version": "Prime",
+ "date_added": "",
+ "charts": {
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 628
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1906,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S15",
+     "meter": "15",
+     "active": true,
+     "credit": "EXC",
+     "combo": 628,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 61,
+      "tap": 259
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "4 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-15": {
+   "slot": "double-15",
+   "native": "D15",
+   "level": "15",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 626
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1907,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-double",
+     "description": "D15",
+     "meter": "15",
+     "active": true,
+     "credit": "EXC",
+     "combo": 626,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 60,
+      "tap": 281,
+      "other": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "4 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "coop-5": {
+   "slot": "coop-5",
+   "native": "CO-OP x5",
+   "level": "5",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1083
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1908,
+     "mode": "C"
+    },
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-double",
+     "description": "DP COOP 5P",
+     "meter": "99",
+     "active": true,
+     "credit": "EXC",
+     "combo": 1083,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 1313,
+      "hold": 297,
+      "other": 480
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 323,
+   "game_id": "14E6",
+   "card": "/img/card/368.png",
+   "first": "Prime v1.02.0",
+   "title": "PRIME Opening"
+  },
+  "kalinathalie": {
+   "slug": "prime_opening_short_cut"
+  },
+  "simfile": {
+   "path": "12 - PRIME/14E6 - [Short Cut] Prime Opening/14E6 - [Short Cut] Prime Opening.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/12%20-%20PRIME/14E6%20-%20%5BShort%20Cut%5D%20Prime%20Opening/14E6%20-%20%5BShort%20Cut%5D%20Prime%20Opening.ssc",
+   "id": "14E6",
+   "title": "Prime Opening - SHORT CUT -",
+   "artist": "MAX"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/prime_opening_short_cut.jpg",
+   "sha256": "3a5243f989a6ac71db018224f6cb1e707d1873557ac64dc066529b5a13fa70c3",
+   "width": 256,
+   "height": 256,
+   "bytes": 24745
+  }
+ },
+ "extra": {
+  "cut": "Short Cut",
+  "titles": {
+   "kr": "프라임 오프닝"
+  }
+ }
+}

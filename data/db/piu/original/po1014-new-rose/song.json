@@ -1,0 +1,312 @@
+{
+ "game": "piu",
+ "song_id": "po1014",
+ "title": "New Rose",
+ "artist": "Hommarju",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "190",
+ "version": "Phoenix",
+ "date_added": "",
+ "charts": {
+  "single-12": {
+   "slot": "single-12",
+   "native": "S12",
+   "level": "12",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 642
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 7933,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S11",
+     "meter": "11",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 642,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 72,
+      "tap": 404
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 11 differs from the PHOENIX 2 level 12: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 797
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 7934,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 797,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 124,
+      "tap": 480
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 1074
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 7935,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S19",
+     "meter": "19",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 1074,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 154,
+      "tap": 606
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "124 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 1200
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 7936,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S21",
+     "meter": "21",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 1200,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 190,
+      "tap": 764
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "124 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-17": {
+   "slot": "double-17",
+   "native": "D17",
+   "level": "17",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 834
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 7937,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-double",
+     "description": "D17",
+     "meter": "17",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 834,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 128,
+      "tap": 478
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-20": {
+   "slot": "double-20",
+   "native": "D20",
+   "level": "20",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 1088
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 7938,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-double",
+     "description": "D20",
+     "meter": "20",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 1088,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 156,
+      "tap": 602
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "124 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-23": {
+   "slot": "double-23",
+   "native": "D23",
+   "level": "23",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 1250
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 7939,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-double",
+     "description": "D23",
+     "meter": "23",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 1250,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 186,
+      "tap": 774
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "124 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 1014,
+   "game_id": "17XX_1603",
+   "card": "/img/card/Phoenix_New_Rose.png",
+   "first": "Phoenix v2.07.0",
+   "title": "New Rose"
+  },
+  "kalinathalie": {
+   "slug": "new_rose"
+  },
+  "simfile": {
+   "path": "16 - PHOENIX/18060 - New Rose/New Rose.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/16%20-%20PHOENIX/18060%20-%20New%20Rose/New%20Rose.ssc",
+   "id": "18060",
+   "title": "New Rose",
+   "artist": "Hommarju"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/new_rose.jpg",
+   "sha256": "a2dbe820a6a7ac4c7010d90f0f51d1687b2e50a08bb3894d1b64371131e56900",
+   "width": 256,
+   "height": 256,
+   "bytes": 20141
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "뉴 로즈"
+  },
+  "simfile_notes": [
+   "S12: simfile chart 'S11' has meter 11 (re-rated)"
+  ]
+ }
+}

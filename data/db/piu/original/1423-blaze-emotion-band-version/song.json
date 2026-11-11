@@ -1,0 +1,277 @@
+{
+ "game": "piu",
+ "song_id": "1423",
+ "title": "Blaze emotion (Band version)",
+ "artist": "Yahpp",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "170",
+ "version": "Prime",
+ "date_added": "",
+ "charts": {
+  "single-2": {
+   "slot": "single-2",
+   "native": "S2",
+   "level": "2",
+   "constant": null,
+   "designer": "ENVYtic",
+   "note_counts": {
+    "combo": 155
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3233,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S2",
+     "meter": "2",
+     "active": true,
+     "credit": "ENVYtic",
+     "combo": 155,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 53,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-9": {
+   "slot": "single-9",
+   "native": "S9",
+   "level": "9",
+   "constant": null,
+   "designer": "ENVYtic",
+   "note_counts": {
+    "combo": 465
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3234,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S9",
+     "meter": "9",
+     "active": true,
+     "credit": "ENVYtic",
+     "combo": 465,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 366,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 1092
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3236,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": true,
+     "credit": "Nimgo",
+     "combo": 1092,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 90,
+      "tap": 445
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "6 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-5": {
+   "slot": "double-5",
+   "native": "D5",
+   "level": "5",
+   "constant": null,
+   "designer": "ENVYtic",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 3235,
+     "mode": "D"
+    },
+    "ladder": "easy"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 1214
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3237,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": true,
+     "credit": "Nimgo",
+     "combo": 1214,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 153,
+      "tap": 379
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "4 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "halfdouble-5": {
+   "slot": "halfdouble-5",
+   "native": "HDB5",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 240
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 8939,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-halfdouble",
+     "description": "D5",
+     "meter": "5",
+     "active": true,
+     "credit": "Nimgo",
+     "combo": 240,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 120,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-17": {
+   "slot": "halfdouble-17",
+   "native": "HDB17",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8940,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 505,
+   "game_id": "1423",
+   "card": "/img/card/407.png",
+   "first": "Prime v1.17.0",
+   "title": "Blaze emotion (Band version)"
+  },
+  "kalinathalie": {
+   "slug": "blaze_emotion_band_version"
+  },
+  "simfile": {
+   "path": "12 - PRIME/1423 - Blaze Emotion (Band Version)/1423 - Blaze Emotion (Band Version).ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/12%20-%20PRIME/1423%20-%20Blaze%20Emotion%20%28Band%20Version%29/1423%20-%20Blaze%20Emotion%20%28Band%20Version%29.ssc",
+   "id": "1423",
+   "title": "Blaze Emotion (Band Version)",
+   "artist": "Yahpp"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/blaze_emotion_band_version.jpg",
+   "sha256": "d9a8c9e1a7fcb7d594f88f7f259214a5c5790f8a1113890ef7bd74fa512d6dae",
+   "width": 256,
+   "height": 256,
+   "bytes": 19816
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "블레이즈 이모션 (Band version)"
+  }
+ }
+}

@@ -1,0 +1,478 @@
+{
+ "game": "piu",
+ "song_id": "1306",
+ "title": "Ignis Fatuus(DM Ashura Mix)",
+ "artist": "BanYa, DM Ashura",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "220",
+ "version": "Fiesta 2",
+ "date_added": "",
+ "charts": {
+  "single-12": {
+   "slot": "single-12",
+   "native": "S12",
+   "level": "12",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 686
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1269,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S12",
+     "meter": "12",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 686,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 65,
+      "tap": 431
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 804
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1270,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 804,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 520,
+      "hold": 71
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 1565
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1271,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-single",
+     "description": "S19",
+     "meter": "19",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1565,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 378,
+      "other": 457,
+      "hold": 252
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-22": {
+   "slot": "single-22",
+   "native": "S22",
+   "level": "22",
+   "constant": null,
+   "designer": "H. FELKER, ANDAMIRO",
+   "note_counts": {
+    "combo": 941
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1272,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 9,
+     "steps_type": "pump-single",
+     "description": "S22 INFOBAR TITLE",
+     "meter": "22",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 941,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 782,
+      "hold": 27,
+      "other": 300
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "34 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-17": {
+   "slot": "double-17",
+   "native": "D17",
+   "level": "17",
+   "constant": null,
+   "designer": "H. FELKER, ANDAMIRO",
+   "note_counts": {
+    "combo": 600
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1264,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 12,
+     "steps_type": "pump-double",
+     "description": "D17",
+     "meter": "17",
+     "active": true,
+     "credit": "KAZE & Andamiro",
+     "combo": 600,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 541,
+      "hold": 12,
+      "other": 198
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 1232
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1266,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 14,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1232,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "other": 2328,
+      "tap": 404,
+      "hold": 179
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-24": {
+   "slot": "double-24",
+   "native": "D24",
+   "level": "24",
+   "constant": null,
+   "designer": "SANDSTORM",
+   "note_counts": {
+    "combo": 1436
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1267,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 15,
+     "steps_type": "pump-double",
+     "description": "D23",
+     "meter": "23",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1436,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 605,
+      "hold": 122,
+      "other": 90
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 23 differs from the PHOENIX 2 level 24: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-25": {
+   "slot": "double-25",
+   "native": "D25",
+   "level": "25",
+   "constant": null,
+   "designer": "LUIZSAN, ANDAMIRO",
+   "note_counts": {
+    "combo": 1155
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1268,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 17,
+     "steps_type": "pump-double",
+     "description": "D25 INFOBAR TITLE",
+     "meter": "25",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1155,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 888,
+      "hold": 84
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-17": {
+   "slot": "halfdouble-17",
+   "native": "HDB17",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9010,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-18": {
+   "slot": "halfdouble-18",
+   "native": "HDB18",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9011,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-23": {
+   "slot": "halfdouble-23",
+   "native": "HDB23",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9012,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-24": {
+   "slot": "halfdouble-24",
+   "native": "HDB24",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9013,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "coop-2": {
+   "slot": "coop-2",
+   "native": "CO-OP x2",
+   "level": "2",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 1104
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1263,
+     "mode": "C"
+    },
+    "simfile": {
+     "chart": 21,
+     "steps_type": "pump-double",
+     "description": "DP COOP 2P",
+     "meter": "99",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1104,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 935,
+      "hold": 99
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 215,
+   "game_id": "1306",
+   "card": "/img/card/147.png",
+   "first": "Fiesta 2 v1.00",
+   "title": "Ignis Fatuus(DM Ashura Mix)"
+  },
+  "kalinathalie": {
+   "slug": "ignis_fatuus_dm_ashura_mix"
+  },
+  "simfile": {
+   "path": "10 - FIESTA 2/(1) 1306 - Ignis Fatuus/1306 - Ignis Fatuus.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/10%20-%20FIESTA%202/%281%29%201306%20-%20Ignis%20Fatuus/1306%20-%20Ignis%20Fatuus.ssc",
+   "id": "1306",
+   "title": "Ignis Fatuus(DM Ashura Mix)",
+   "artist": "BanYa & DM Ashura"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/ignis_fatuus_dm_ashura_mix.jpg",
+   "sha256": "9a3bf87b14d82f186c5980e35713b4dd0bd4be2ebd4339c5bc8cfee041aa75d7",
+   "width": 256,
+   "height": 256,
+   "bytes": 19031
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "이그니스 패터스(DM Ashura 믹스)"
+  },
+  "artists": [
+   "BanYa",
+   "DM Ashura"
+  ],
+  "simfile_notes": [
+   "D24: simfile chart 'D23' has meter 23 (re-rated)"
+  ]
+ }
+}

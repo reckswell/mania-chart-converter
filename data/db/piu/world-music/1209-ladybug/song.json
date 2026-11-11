@@ -1,0 +1,254 @@
+{
+ "game": "piu",
+ "song_id": "1209",
+ "title": "Ladybug",
+ "artist": "Coconut",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "WORLD MUSIC",
+ "bpm": "133",
+ "version": "Fiesta EX",
+ "date_added": "",
+ "charts": {
+  "single-1": {
+   "slot": "single-1",
+   "native": "S1",
+   "level": "1",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 49
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1568,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S1",
+     "meter": "1",
+     "active": true,
+     "credit": "HP",
+     "combo": 49,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-3": {
+   "slot": "single-3",
+   "native": "S3",
+   "level": "3",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 131
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1569,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S3",
+     "meter": "3",
+     "active": true,
+     "credit": "HP",
+     "combo": 131,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 114,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-5": {
+   "slot": "single-5",
+   "native": "S5",
+   "level": "5",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 255
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1570,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S5",
+     "meter": "5",
+     "active": true,
+     "credit": "HP",
+     "combo": 255,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 228,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "Ekis",
+   "note_counts": {
+    "combo": 547
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1571,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-single",
+     "description": "S14",
+     "meter": "14",
+     "active": true,
+     "credit": "Ekis",
+     "combo": 547,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 438,
+      "hold": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 14 differs from the PHOENIX 2 level 15: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-15": {
+   "slot": "double-15",
+   "native": "D15",
+   "level": "15",
+   "constant": null,
+   "designer": "Z_AL",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 1567,
+     "mode": "D"
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "coop-2": {
+   "slot": "coop-2",
+   "native": "CO-OP x2",
+   "level": "2",
+   "constant": null,
+   "designer": "SSMAX",
+   "note_counts": {
+    "combo": 1162
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1572,
+     "mode": "C"
+    },
+    "simfile": {
+     "chart": 14,
+     "steps_type": "pump-routine",
+     "description": "DP COOP 2P",
+     "meter": "99",
+     "active": true,
+     "credit": "SSMAX",
+     "combo": 1162,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 342,
+      "hold": 378
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 268,
+   "game_id": "1209",
+   "card": "/img/card/127.png",
+   "first": "Fiesta EX v1.50",
+   "title": "Ladybug"
+  },
+  "kalinathalie": {
+   "slug": "ladybug"
+  },
+  "simfile": {
+   "path": "10 - FIESTA 2/(2) 1209 - Ladybug/1209 - Ladybug.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/10%20-%20FIESTA%202/%282%29%201209%20-%20Ladybug/1209%20-%20Ladybug.ssc",
+   "id": "1209",
+   "title": "Ladybug",
+   "artist": "Coconut"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/ladybug.jpg",
+   "sha256": "4aa9155bdd01fde5683d3c49a23a952f40aa402e61d707c64b6fa1da4b8c1052",
+   "width": 256,
+   "height": 256,
+   "bytes": 16950
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "레이디버그"
+  },
+  "simfile_notes": [
+   "S15: simfile chart 'S14' has meter 14 (re-rated)"
+  ]
+ }
+}
