@@ -1,0 +1,213 @@
+{
+ "game": "sekai",
+ "song_id": "360",
+ "title": "太陽系デスコ",
+ "artist": "ナユタン星人",
+ "title_romaji": "taiyoukeidesuko",
+ "artist_romaji": "nayutanseijin",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "150",
+ "version": "",
+ "date_added": "2023-07-12",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 257
+   },
+   "source": {
+    "music_difficulty_id": 1796,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 19,
+      "tap": 61,
+      "ex_tap": 8,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 489
+   },
+   "source": {
+    "music_difficulty_id": 1797,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 28,
+      "tap": 181,
+      "flick": 14,
+      "ex_tap": 12,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 651
+   },
+   "source": {
+    "music_difficulty_id": 1798,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 57,
+      "tap": 260,
+      "ex_tap": 90,
+      "flick": 22,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1018
+   },
+   "source": {
+    "music_difficulty_id": 1799,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 104,
+      "flick": 46,
+      "tap": 332,
+      "ex_tap": 108,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1188
+   },
+   "source": {
+    "music_difficulty_id": 1800,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 144,
+      "flick": 82,
+      "ex_tap": 108,
+      "tap": 355,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 360,
+   "assetbundle": "jacket_s_360",
+   "seq": 1530201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_360.png",
+   "sha256": "a1d029e0547d2d5c1e8f48384c152c4a172064c262771c014b3b77e50bbc309b",
+   "width": 320,
+   "height": 320,
+   "bytes": 25497
+  }
+ },
+ "extra": {
+  "pronunciation": "たいようけいですこ",
+  "lyricist": "ナユタン星人",
+  "composer": "ナユタン星人",
+  "arranger": "ナユタン星人",
+  "published_at": 1689141600000,
+  "released_at": 1484838000000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0360_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "天馬司",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0360_01"
+   },
+   {
+    "type": "streaming_live",
+    "caption": "コネクトライブ(DAY1)ver.",
+    "singers": [
+     "鏡音リン",
+     "天馬咲希",
+     "小豆沢こはね",
+     "天馬司",
+     "鳳えむ"
+    ],
+    "asset": "cl_0360_01"
+   }
+  ],
+  "filler_sec": 8.600000381469727,
+  "bpm_main": 150.0
+ }
+}

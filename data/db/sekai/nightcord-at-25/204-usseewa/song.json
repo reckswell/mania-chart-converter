@@ -1,0 +1,215 @@
+{
+ "game": "sekai",
+ "song_id": "204",
+ "title": "うっせぇわ",
+ "artist": "Ado×syudou",
+ "title_romaji": "usseewa",
+ "artist_romaji": "Ado×syudou",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "178",
+ "version": "",
+ "date_added": "2022-01-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 269
+   },
+   "source": {
+    "music_difficulty_id": 1016,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 70,
+      "hold": 19,
+      "ex_tap": 15,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 487
+   },
+   "source": {
+    "music_difficulty_id": 1017,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 135,
+      "hold": 11,
+      "slide": 38,
+      "ex_tap": 36,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 682
+   },
+   "source": {
+    "music_difficulty_id": 1018,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 256,
+      "ex_tap": 74,
+      "slide": 65,
+      "flick": 17,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1035
+   },
+   "source": {
+    "music_difficulty_id": 1019,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 25,
+      "tap": 298,
+      "ex_tap": 123,
+      "flick": 61,
+      "slide": 88
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1302
+   },
+   "source": {
+    "music_difficulty_id": 1020,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 31,
+      "flick": 86,
+      "tap": 418,
+      "ex_tap": 93,
+      "slide": 131
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 204,
+   "assetbundle": "jacket_s_204",
+   "seq": 1613201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_204.png",
+   "sha256": "e3f6fec8d94f43cb3546fcfbcf8cc2fb85e1fa6b4b672d02e11ecb70c56a27ac",
+   "width": 320,
+   "height": 320,
+   "bytes": 23324
+  }
+ },
+ "extra": {
+  "pronunciation": "うっせぇわ",
+  "lyricist": "syudou",
+  "composer": "syudou",
+  "arranger": "syudou",
+  "published_at": 1643608800000,
+  "released_at": 1603378800000,
+  "tags": [
+   "school_refusal",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0204_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "朝比奈まふゆ",
+     "暁山瑞希"
+    ],
+    "asset": "se_0204_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "朝比奈まふゆ"
+    ],
+    "asset": "an_0204_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "暁山瑞希"
+    ],
+    "asset": "an_0204_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 178.0
+ }
+}

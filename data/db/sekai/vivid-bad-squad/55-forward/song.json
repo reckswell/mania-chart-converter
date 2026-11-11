@@ -1,0 +1,219 @@
+{
+ "game": "sekai",
+ "song_id": "55",
+ "title": "Forward",
+ "artist": "R Sound Design",
+ "title_romaji": "Forward",
+ "artist_romaji": "R Sound Design",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "140",
+ "version": "",
+ "date_added": "2020-12-08",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 141
+   },
+   "source": {
+    "music_difficulty_id": 271,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 54,
+      "hold": 12,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 281
+   },
+   "source": {
+    "music_difficulty_id": 272,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 163,
+      "slide": 13,
+      "ex_tap": 10,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 449
+   },
+   "source": {
+    "music_difficulty_id": 273,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 332,
+      "ex_tap": 31,
+      "slide": 20,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 737
+   },
+   "source": {
+    "music_difficulty_id": 274,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 81,
+      "tap": 378,
+      "ex_tap": 46,
+      "flick": 33,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 895
+   },
+   "source": {
+    "music_difficulty_id": 275,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 98,
+      "tap": 487,
+      "flick": 67,
+      "ex_tap": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 55,
+   "assetbundle": "jacket_s_055",
+   "seq": 2403101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_055.png",
+   "sha256": "4a76c47bd573f1aa2794c17a3ab15c69264bb9badf6fcc379427f3f48518cc55",
+   "width": 320,
+   "height": 320,
+   "bytes": 26355
+  }
+ },
+ "extra": {
+  "pronunciation": "ふぉわーど",
+  "lyricist": "R Sound Design",
+  "composer": "R Sound Design",
+  "arranger": "R Sound Design",
+  "published_at": 1607432700000,
+  "released_at": 1607353200000,
+  "tags": [
+   "street",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0055_01"
+   },
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音リン",
+     "MEIKO",
+     "初音ミク",
+     "KAITO",
+     "鏡音レン"
+    ],
+    "asset": "vs_0055_02"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "白石杏",
+     "初音ミク",
+     "小豆沢こはね",
+     "東雲彰人",
+     "青柳冬弥"
+    ],
+    "asset": "0055_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "小豆沢こはね",
+     "白石杏"
+    ],
+    "asset": "an_0055_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 140.0
+ }
+}

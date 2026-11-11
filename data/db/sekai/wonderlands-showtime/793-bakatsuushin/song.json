@@ -1,0 +1,203 @@
+{
+ "game": "sekai",
+ "song_id": "793",
+ "title": "バカ通信",
+ "artist": "isonosuke",
+ "title_romaji": "bakatsuushin",
+ "artist_romaji": "isonosuke",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "240",
+ "version": "",
+ "date_added": "2026-10-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 203
+   },
+   "source": {
+    "music_difficulty_id": 3961,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 38,
+      "tap": 56,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 366
+   },
+   "source": {
+    "music_difficulty_id": 3962,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 8,
+      "hold": 11,
+      "ex_tap": 27,
+      "tap": 152,
+      "slide": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 608
+   },
+   "source": {
+    "music_difficulty_id": 3963,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 93,
+      "tap": 289,
+      "slide": 19,
+      "flick": 42,
+      "other": 2,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1176
+   },
+   "source": {
+    "music_difficulty_id": 3964,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 94,
+      "flick": 126,
+      "tap": 257,
+      "ex_tap": 85,
+      "hold": 27,
+      "other": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1324
+   },
+   "source": {
+    "music_difficulty_id": 3965,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 293,
+      "hold": 82,
+      "slide": 135,
+      "other": 68,
+      "tap": 333,
+      "flick": 221
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 793,
+   "assetbundle": "jacket_s_793",
+   "seq": 1570601
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_793.png",
+   "sha256": "464a5fd74789d1ce08b4782f3332af9eaaee0c7701ed25d1e3d5eabf48523f98",
+   "width": 320,
+   "height": 320,
+   "bytes": 11449
+  }
+ },
+ "extra": {
+  "pronunciation": "ばかつうしん",
+  "lyricist": "isonosuke",
+  "composer": "isonosuke",
+  "arranger": "isonosuke",
+  "published_at": 1792389600000,
+  "released_at": 1683817200000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "知声"
+    ],
+    "asset": "vs_0793_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "MEIKO",
+     "天馬司",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0793_01"
+   }
+  ],
+  "filler_sec": 8.25,
+  "bpm_main": 240.0
+ }
+}

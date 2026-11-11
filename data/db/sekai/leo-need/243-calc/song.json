@@ -1,0 +1,216 @@
+{
+ "game": "sekai",
+ "song_id": "243",
+ "title": "Calc.",
+ "artist": "ジミーサムP",
+ "title_romaji": "Calc.",
+ "artist_romaji": "jimiisamupii",
+ "genre": "Leo/need",
+ "bpm": "173",
+ "version": "",
+ "date_added": "2022-09-16",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 325
+   },
+   "source": {
+    "music_difficulty_id": 1211,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 77,
+      "hold": 16,
+      "ex_tap": 4,
+      "slide": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 464
+   },
+   "source": {
+    "music_difficulty_id": 1212,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 19,
+      "tap": 135,
+      "ex_tap": 12,
+      "hold": 10,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 844
+   },
+   "source": {
+    "music_difficulty_id": 1213,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 242,
+      "flick": 6,
+      "ex_tap": 59,
+      "slide": 94,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1126
+   },
+   "source": {
+    "music_difficulty_id": 1214,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 13,
+      "tap": 435,
+      "slide": 98,
+      "flick": 19,
+      "ex_tap": 66
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1295
+   },
+   "source": {
+    "music_difficulty_id": 1215,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 10,
+      "tap": 598,
+      "flick": 117,
+      "slide": 98,
+      "ex_tap": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 243,
+   "assetbundle": "jacket_s_243",
+   "seq": 1219301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_243.png",
+   "sha256": "d2ca9d15c0bd59c3c5540eb58bbe0f33a61bfecc493eacd8511e58a3292f93ee",
+   "width": 320,
+   "height": 320,
+   "bytes": 13089
+  }
+ },
+ "extra": {
+  "pronunciation": "かるく",
+  "lyricist": "ジミーサムP",
+  "composer": "ジミーサムP",
+  "arranger": "ジミーサムP",
+  "published_at": 1663308000000,
+  "released_at": 1283958000000,
+  "tags": [
+   "light_music_club",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0243_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "星乃一歌",
+     "日野森志歩"
+    ],
+    "asset": "se_0243_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "星乃一歌"
+    ],
+    "asset": "an_0243_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "日野森志歩"
+    ],
+    "asset": "an_0243_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 173.0
+ }
+}

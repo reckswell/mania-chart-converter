@@ -1,0 +1,221 @@
+{
+ "game": "sekai",
+ "song_id": "671",
+ "title": "怪獣になりたい",
+ "artist": "Sakuzyo",
+ "title_romaji": "kaijuuninaritai",
+ "artist_romaji": "Sakuzyo",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "220",
+ "version": "",
+ "date_added": "2025-11-23",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 500
+   },
+   "source": {
+    "music_difficulty_id": 3351,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 19,
+      "slide": 17,
+      "hold": 17,
+      "tap": 72
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 700
+   },
+   "source": {
+    "music_difficulty_id": 3352,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 29,
+      "hold": 18,
+      "tap": 160,
+      "ex_tap": 18,
+      "flick": 27,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1200
+   },
+   "source": {
+    "music_difficulty_id": 3353,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 59,
+      "tap": 226,
+      "flick": 26,
+      "ex_tap": 170,
+      "hold": 8,
+      "other": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "32",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1600
+   },
+   "source": {
+    "music_difficulty_id": 3354,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 62,
+      "tap": 378,
+      "flick": 81,
+      "ex_tap": 442,
+      "other": 33,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "35",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1900
+   },
+   "source": {
+    "music_difficulty_id": 3355,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 109,
+      "slide": 121,
+      "tap": 351,
+      "other": 228,
+      "ex_tap": 563,
+      "hold": 82
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 1",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "38",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 2800
+   },
+   "source": {
+    "music_difficulty_id": 4132,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 194,
+      "slide": 139,
+      "tap": 841,
+      "ex_tap": 507,
+      "flick": 69,
+      "other": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 7",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 671,
+   "assetbundle": "jacket_s_671",
+   "seq": 2158001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_671.png",
+   "sha256": "50ef7be97845c00e3d67fb247f4e8afa4390e61bc8906b1619b8df7bc07142a5",
+   "width": 320,
+   "height": 320,
+   "bytes": 34500
+  }
+ },
+ "extra": {
+  "pronunciation": "かいじゅうになりたい",
+  "lyricist": "Sakuzyo",
+  "composer": "Sakuzyo",
+  "arranger": "Sakuzyo",
+  "published_at": 1763877600000,
+  "released_at": 1760713200000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0671_01"
+   }
+  ],
+  "filler_sec": 6.81820011138916,
+  "bpm_main": 220.0
+ }
+}

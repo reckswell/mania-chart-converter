@@ -1,0 +1,224 @@
+{
+ "game": "sekai",
+ "song_id": "158",
+ "title": "ナンセンス文学",
+ "artist": "Eve",
+ "title_romaji": "nansensubungaku",
+ "artist_romaji": "Eve",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "154",
+ "version": "",
+ "date_added": "2022-02-24",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 234
+   },
+   "source": {
+    "music_difficulty_id": 786,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 10,
+      "tap": 74,
+      "ex_tap": 22,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 390
+   },
+   "source": {
+    "music_difficulty_id": 787,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 14,
+      "tap": 162,
+      "ex_tap": 40,
+      "hold": 4,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 604
+   },
+   "source": {
+    "music_difficulty_id": 788,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 342,
+      "ex_tap": 30,
+      "hold": 19,
+      "slide": 30,
+      "flick": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 856
+   },
+   "source": {
+    "music_difficulty_id": 789,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 518,
+      "ex_tap": 45,
+      "slide": 50,
+      "flick": 48,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1180
+   },
+   "source": {
+    "music_difficulty_id": 790,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 528,
+      "slide": 114,
+      "hold": 41,
+      "ex_tap": 61,
+      "flick": 96
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 158,
+   "assetbundle": "jacket_s_158",
+   "seq": 1513901
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_158.png",
+   "sha256": "78ef25fce9db561df9e42589f06b2be2155009d3d2955d3a4106ca6241d2f365",
+   "width": 320,
+   "height": 320,
+   "bytes": 25626
+  }
+ },
+ "extra": {
+  "pronunciation": "なんせんすぶんがく",
+  "lyricist": "Eve",
+  "composer": "Eve",
+  "arranger": "Numa",
+  "published_at": 1645682400000,
+  "released_at": 1495119600000,
+  "tags": [
+   "theme_park",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0158_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音レン",
+     "天馬司",
+     "神代類"
+    ],
+    "asset": "se_0158_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "天馬司"
+    ],
+    "asset": "an_0158_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "神代類"
+    ],
+    "asset": "an_0158_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "KAITO"
+    ],
+    "asset": "an_0158_03"
+   }
+  ],
+  "filler_sec": 8.220000267028809,
+  "bpm_main": 154.0
+ }
+}

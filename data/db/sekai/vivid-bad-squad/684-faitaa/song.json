@@ -1,0 +1,220 @@
+{
+ "game": "sekai",
+ "song_id": "684",
+ "title": "ファイター",
+ "artist": "jon-YAKITORY",
+ "title_romaji": "faitaa",
+ "artist_romaji": "jon-YAKITORY",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "135",
+ "version": "",
+ "date_added": "2025-11-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 133
+   },
+   "source": {
+    "music_difficulty_id": 3416,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 6,
+      "ex_tap": 8,
+      "tap": 43,
+      "slide": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 225
+   },
+   "source": {
+    "music_difficulty_id": 3417,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 11,
+      "flick": 4,
+      "tap": 65,
+      "ex_tap": 12,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 464
+   },
+   "source": {
+    "music_difficulty_id": 3418,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 4,
+      "tap": 136,
+      "ex_tap": 28,
+      "slide": 46,
+      "flick": 15,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 641
+   },
+   "source": {
+    "music_difficulty_id": 3419,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 24,
+      "tap": 192,
+      "ex_tap": 48,
+      "slide": 64,
+      "flick": 29,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 5",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 826
+   },
+   "source": {
+    "music_difficulty_id": 3420,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 73,
+      "tap": 190,
+      "ex_tap": 112,
+      "slide": 118,
+      "flick": 34,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 684,
+   "assetbundle": "jacket_s_684",
+   "seq": 2457801
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_684.png",
+   "sha256": "d95eb26616a90ddd10cb183b0046a1f820a066144afc0e58cf6512a19c76822b",
+   "width": 320,
+   "height": 320,
+   "bytes": 29830
+  }
+ },
+ "extra": {
+  "pronunciation": "ふぁいたー",
+  "lyricist": "jon-YAKITORY",
+  "composer": "jon-YAKITORY",
+  "arranger": "jon-YAKITORY",
+  "published_at": 1763618400000,
+  "released_at": 1763564400000,
+  "tags": [
+   "street"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0684_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "東雲彰人",
+     "鏡音レン",
+     "小豆沢こはね",
+     "白石杏",
+     "青柳冬弥"
+    ],
+    "asset": "se_0684_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "東雲彰人"
+    ],
+    "asset": "an_0684_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鏡音レン"
+    ],
+    "asset": "an_0684_02"
+   }
+  ],
+  "filler_sec": 8.111100196838379,
+  "bpm_main": 135.0
+ }
+}

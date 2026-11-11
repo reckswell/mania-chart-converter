@@ -1,0 +1,211 @@
+{
+ "game": "sekai",
+ "song_id": "195",
+ "title": "PaⅢ.SENSATION",
+ "artist": "雄之助",
+ "title_romaji": "PaIII.SENSATION",
+ "artist_romaji": "yuunosuke",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2022-04-18",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 323
+   },
+   "source": {
+    "music_difficulty_id": 971,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 54,
+      "hold": 24,
+      "ex_tap": 24,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 394
+   },
+   "source": {
+    "music_difficulty_id": 972,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 17,
+      "tap": 192,
+      "slide": 14,
+      "flick": 2,
+      "ex_tap": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 758
+   },
+   "source": {
+    "music_difficulty_id": 973,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 45,
+      "tap": 190,
+      "hold": 19,
+      "ex_tap": 129,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1032
+   },
+   "source": {
+    "music_difficulty_id": 974,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 315,
+      "hold": 23,
+      "slide": 129,
+      "ex_tap": 124,
+      "flick": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1244
+   },
+   "source": {
+    "music_difficulty_id": 975,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 510,
+      "hold": 59,
+      "flick": 69,
+      "slide": 101,
+      "ex_tap": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 195,
+   "assetbundle": "jacket_s_195",
+   "seq": 1415501
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_195.png",
+   "sha256": "30d546f2175b234cb33d71c503f44008544015c92542fbd3a1da5993c2498560",
+   "width": 320,
+   "height": 320,
+   "bytes": 40445
+  }
+ },
+ "extra": {
+  "pronunciation": "ぱっしょねーとすりーどっとせんせーしょん",
+  "lyricist": "牛肉",
+  "composer": "雄之助",
+  "arranger": "雄之助",
+  "published_at": 1650261600000,
+  "released_at": 1473865200000,
+  "tags": [
+   "street",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "GUMI",
+     "鏡音リン"
+    ],
+    "asset": "vs_0195_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "鏡音リン",
+     "小豆沢こはね",
+     "白石杏"
+    ],
+    "asset": "se_0195_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "白石杏"
+    ],
+    "asset": "an_0195_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 180.0
+ }
+}

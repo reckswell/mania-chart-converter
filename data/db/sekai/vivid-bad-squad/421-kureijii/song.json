@@ -1,0 +1,216 @@
+{
+ "game": "sekai",
+ "song_id": "421",
+ "title": "CR詠ZY",
+ "artist": "梅とら",
+ "title_romaji": "kureijii",
+ "artist_romaji": "umetora",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "122",
+ "version": "",
+ "date_added": "2023-10-12",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 149
+   },
+   "source": {
+    "music_difficulty_id": 2101,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 23,
+      "slide": 1,
+      "tap": 26,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 340
+   },
+   "source": {
+    "music_difficulty_id": 2102,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 16,
+      "ex_tap": 26,
+      "tap": 86,
+      "flick": 18,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 434
+   },
+   "source": {
+    "music_difficulty_id": 2103,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 6,
+      "tap": 222,
+      "flick": 58,
+      "slide": 15,
+      "hold": 9,
+      "ex_tap": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 615
+   },
+   "source": {
+    "music_difficulty_id": 2104,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 6,
+      "tap": 308,
+      "flick": 72,
+      "slide": 35,
+      "hold": 22,
+      "ex_tap": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 728
+   },
+   "source": {
+    "music_difficulty_id": 2105,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 98,
+      "tap": 376,
+      "ex_tap": 87,
+      "flick": 61,
+      "hold": 5,
+      "slide": 66
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 10",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 421,
+   "assetbundle": "jacket_s_421",
+   "seq": 2433501
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_421.png",
+   "sha256": "9b384a3ead63270a4301ffc57ea6b4624e411d1d45252cb6febada69d0df1cb1",
+   "width": 320,
+   "height": 320,
+   "bytes": 33983
+  }
+ },
+ "extra": {
+  "pronunciation": "くれいじー",
+  "lyricist": "梅とら",
+  "composer": "梅とら",
+  "arranger": "-",
+  "published_at": 1697090400000,
+  "released_at": 1697036400000,
+  "tags": [
+   "street"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "巡音ルカ",
+     "初音ミク",
+     "GUMI",
+     "IA",
+     "鏡音リン"
+    ],
+    "asset": "vs_0421_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "東雲彰人",
+     "巡音ルカ",
+     "小豆沢こはね",
+     "白石杏",
+     "青柳冬弥"
+    ],
+    "asset": "se_0421_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "東雲彰人"
+    ],
+    "asset": "an_0421_01"
+   }
+  ],
+  "filler_sec": 9.00100040435791,
+  "bpm_main": 122.0
+ }
+}

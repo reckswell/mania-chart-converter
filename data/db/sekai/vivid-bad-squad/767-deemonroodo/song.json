@@ -1,0 +1,205 @@
+{
+ "game": "sekai",
+ "song_id": "767",
+ "title": "デーモンロード",
+ "artist": "Kanaria",
+ "title_romaji": "deemonroodo",
+ "artist_romaji": "Kanaria",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "172",
+ "version": "",
+ "date_added": "2026-10-06",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 268
+   },
+   "source": {
+    "music_difficulty_id": 3831,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 19,
+      "tap": 44,
+      "hold": 16,
+      "slide": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 431
+   },
+   "source": {
+    "music_difficulty_id": 3832,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 13,
+      "flick": 17,
+      "tap": 113,
+      "slide": 21,
+      "hold": 1,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 632
+   },
+   "source": {
+    "music_difficulty_id": 3833,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 24,
+      "tap": 262,
+      "slide": 20,
+      "flick": 42,
+      "hold": 16,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 956
+   },
+   "source": {
+    "music_difficulty_id": 3834,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 67,
+      "flick": 58,
+      "ex_tap": 45,
+      "tap": 358,
+      "hold": 32,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 4",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1079
+   },
+   "source": {
+    "music_difficulty_id": 3835,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 132,
+      "flick": 55,
+      "ex_tap": 309,
+      "other": 35,
+      "hold": 23,
+      "tap": 298
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 767,
+   "assetbundle": "jacket_s_767",
+   "seq": 1469801
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_767.png",
+   "sha256": "b3c4f4ebda2fa0c8dd037594fcbcbe68435c943d8705c0f012c95cb695a3d8c0",
+   "width": 320,
+   "height": 320,
+   "bytes": 28430
+  }
+ },
+ "extra": {
+  "pronunciation": "でーもんろーど",
+  "lyricist": "Kanaria",
+  "composer": "Kanaria",
+  "arranger": "Kanaria",
+  "published_at": 1791266400000,
+  "released_at": 1688655600000,
+  "tags": [
+   "street"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0767_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音レン",
+     "小豆沢こはね",
+     "白石杏",
+     "東雲彰人",
+     "青柳冬弥"
+    ],
+    "asset": "se_0767_01"
+   }
+  ],
+  "filler_sec": 7.953499794006348,
+  "bpm_main": 172.0
+ }
+}

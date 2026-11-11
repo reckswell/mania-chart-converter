@@ -1,0 +1,220 @@
+{
+ "game": "sekai",
+ "song_id": "627",
+ "title": "テトリス",
+ "artist": "柊マグネタイト",
+ "title_romaji": "tetorisu",
+ "artist_romaji": "hiiragimagunetaito",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2025-06-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 169
+   },
+   "source": {
+    "music_difficulty_id": 3131,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 58,
+      "slide": 3,
+      "ex_tap": 7,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 288
+   },
+   "source": {
+    "music_difficulty_id": 3132,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 179,
+      "slide": 9,
+      "ex_tap": 15,
+      "flick": 7,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 481
+   },
+   "source": {
+    "music_difficulty_id": 3133,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 294,
+      "flick": 37,
+      "ex_tap": 33,
+      "hold": 9,
+      "slide": 19,
+      "other": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 653
+   },
+   "source": {
+    "music_difficulty_id": 3134,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 331,
+      "flick": 49,
+      "slide": 39,
+      "other": 11,
+      "hold": 18,
+      "ex_tap": 84
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 814
+   },
+   "source": {
+    "music_difficulty_id": 3135,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 405,
+      "flick": 98,
+      "ex_tap": 72,
+      "hold": 14,
+      "slide": 81,
+      "other": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 938
+   },
+   "source": {
+    "music_difficulty_id": 4114,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 413,
+      "flick": 88,
+      "ex_tap": 68,
+      "slide": 90,
+      "hold": 142,
+      "other": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 627,
+   "assetbundle": "jacket_s_627",
+   "seq": 1152501
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_627.png",
+   "sha256": "6c5bb4ed98d72fba57ba9602af2924857ec2daf1dcefd2c79825d3ff2464e5f1",
+   "width": 320,
+   "height": 320,
+   "bytes": 15056
+  }
+ },
+ "extra": {
+  "pronunciation": "てとりす",
+  "lyricist": "柊マグネタイト",
+  "composer": "ロシア民謡",
+  "arranger": "柊マグネタイト",
+  "published_at": 1748844000000,
+  "released_at": 1730991600000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "重音テト"
+    ],
+    "asset": "vs_0627_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 170.0
+ }
+}

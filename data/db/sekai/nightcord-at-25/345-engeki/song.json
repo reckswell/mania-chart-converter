@@ -1,0 +1,209 @@
+{
+ "game": "sekai",
+ "song_id": "345",
+ "title": "演劇",
+ "artist": "ナノウ",
+ "title_romaji": "engeki",
+ "artist_romaji": "nanou",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "176",
+ "version": "",
+ "date_added": "2023-07-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 364
+   },
+   "source": {
+    "music_difficulty_id": 1721,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 8,
+      "slide": 5,
+      "tap": 54,
+      "ex_tap": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 384
+   },
+   "source": {
+    "music_difficulty_id": 1722,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 15,
+      "slide": 12,
+      "ex_tap": 5,
+      "tap": 72,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 729
+   },
+   "source": {
+    "music_difficulty_id": 1723,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 37,
+      "tap": 150,
+      "flick": 18,
+      "ex_tap": 3,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 983
+   },
+   "source": {
+    "music_difficulty_id": 1724,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 220,
+      "slide": 70,
+      "flick": 25,
+      "hold": 13,
+      "ex_tap": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 984
+   },
+   "source": {
+    "music_difficulty_id": 1725,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 25,
+      "tap": 270,
+      "slide": 58,
+      "ex_tap": 69,
+      "flick": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 345,
+   "assetbundle": "jacket_s_345",
+   "seq": 2630401
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_345.png",
+   "sha256": "c29d987c3f362b45174ba1a35e8d503886a71b06ef5a24192ffb234448c0ad5a",
+   "width": 320,
+   "height": 317,
+   "bytes": 28267
+  }
+ },
+ "extra": {
+  "pronunciation": "えんげき",
+  "lyricist": "ナノウ",
+  "composer": "ナノウ",
+  "arranger": "ナノウ",
+  "published_at": 1689771900000,
+  "released_at": 1689692400000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0345_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "朝比奈まふゆ",
+     "巡音ルカ",
+     "宵崎奏",
+     "東雲絵名",
+     "暁山瑞希"
+    ],
+    "asset": "se_0345_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "朝比奈まふゆ"
+    ],
+    "asset": "an_0345_01"
+   }
+  ],
+  "filler_sec": 8.977999687194824,
+  "bpm_main": 176.0
+ }
+}

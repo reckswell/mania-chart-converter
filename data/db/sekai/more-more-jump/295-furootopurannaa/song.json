@@ -1,0 +1,216 @@
+{
+ "game": "sekai",
+ "song_id": "295",
+ "title": "フロート・プランナー",
+ "artist": "Heavenz",
+ "title_romaji": "furootopurannaa",
+ "artist_romaji": "Heavenz",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "138",
+ "version": "",
+ "date_added": "2022-11-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 199
+   },
+   "source": {
+    "music_difficulty_id": 1471,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 40,
+      "hold": 16,
+      "slide": 1,
+      "ex_tap": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 344
+   },
+   "source": {
+    "music_difficulty_id": 1472,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 111,
+      "hold": 7,
+      "slide": 16,
+      "flick": 9,
+      "ex_tap": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 445
+   },
+   "source": {
+    "music_difficulty_id": 1473,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 169,
+      "flick": 44,
+      "ex_tap": 34,
+      "slide": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 685
+   },
+   "source": {
+    "music_difficulty_id": 1474,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 59,
+      "tap": 327,
+      "flick": 58,
+      "ex_tap": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 832
+   },
+   "source": {
+    "music_difficulty_id": 1475,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 92,
+      "flick": 63,
+      "tap": 382,
+      "ex_tap": 47,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 295,
+   "assetbundle": "jacket_s_295",
+   "seq": 2322001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_295.png",
+   "sha256": "01a4afdc7e8c8ac6a7ccf2ccf9590674645558019eadc138ab321b58c5d85289",
+   "width": 320,
+   "height": 320,
+   "bytes": 29784
+  }
+ },
+ "extra": {
+  "pronunciation": "ふろーとぷらんなー",
+  "lyricist": "Heavenz",
+  "composer": "Heavenz",
+  "arranger": "Heavenz",
+  "published_at": 1669788000000,
+  "released_at": 1669734000000,
+  "tags": [
+   "idol"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音リン",
+     "初音ミク"
+    ],
+    "asset": "vs_0295_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "桐谷遥",
+     "鏡音リン",
+     "花里みのり",
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "se_0295_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "桐谷遥"
+    ],
+    "asset": "an_0295_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "日野森雫"
+    ],
+    "asset": "an_0295_02"
+   }
+  ],
+  "filler_sec": 8.130399703979492,
+  "bpm_main": 138.0
+ }
+}

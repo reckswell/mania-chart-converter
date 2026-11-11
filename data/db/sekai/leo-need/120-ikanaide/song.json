@@ -1,0 +1,233 @@
+{
+ "game": "sekai",
+ "song_id": "120",
+ "title": "いかないで",
+ "artist": "想太",
+ "title_romaji": "ikanaide",
+ "artist_romaji": "souta",
+ "genre": "Leo/need",
+ "bpm": "191",
+ "version": "",
+ "date_added": "2021-05-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 230
+   },
+   "source": {
+    "music_difficulty_id": 596,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 70,
+      "hold": 15,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 384
+   },
+   "source": {
+    "music_difficulty_id": 597,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 121,
+      "hold": 6,
+      "ex_tap": 10,
+      "slide": 20,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 626
+   },
+   "source": {
+    "music_difficulty_id": 598,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 290,
+      "slide": 58,
+      "flick": 43,
+      "ex_tap": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 977
+   },
+   "source": {
+    "music_difficulty_id": 599,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 425,
+      "flick": 75,
+      "slide": 109,
+      "ex_tap": 37,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1173
+   },
+   "source": {
+    "music_difficulty_id": 600,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 588,
+      "flick": 123,
+      "slide": 120,
+      "ex_tap": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1212
+   },
+   "source": {
+    "music_difficulty_id": 4062,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 450,
+      "ex_tap": 127,
+      "flick": 110,
+      "hold": 80,
+      "slide": 26,
+      "other": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 120,
+   "assetbundle": "jacket_s_120",
+   "seq": 1207201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_120.png",
+   "sha256": "611c0edb4b5b61c7c17243150dd53826f4675e9b2f8d4b2644bc57d64a25897f",
+   "width": 320,
+   "height": 320,
+   "bytes": 17660
+  }
+ },
+ "extra": {
+  "pronunciation": "いかないで",
+  "lyricist": "想太",
+  "composer": "想太",
+  "arranger": "-",
+  "published_at": 1622181600000,
+  "released_at": 1381244400000,
+  "tags": [
+   "light_music_club",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "歌愛ユキ"
+    ],
+    "asset": "vs_0120_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "星乃一歌",
+     "天馬咲希"
+    ],
+    "asset": "se_0120_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "天馬咲希"
+    ],
+    "asset": "an_0120_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 191.0
+ }
+}

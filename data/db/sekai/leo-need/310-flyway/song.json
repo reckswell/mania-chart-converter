@@ -1,0 +1,238 @@
+{
+ "game": "sekai",
+ "song_id": "310",
+ "title": "Flyway",
+ "artist": "halyosy",
+ "title_romaji": "Flyway",
+ "artist_romaji": "halyosy",
+ "genre": "Leo/need",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2023-01-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 361
+   },
+   "source": {
+    "music_difficulty_id": 1546,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 24,
+      "tap": 42,
+      "slide": 1,
+      "ex_tap": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 491
+   },
+   "source": {
+    "music_difficulty_id": 1547,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 17,
+      "ex_tap": 32,
+      "tap": 92,
+      "hold": 12,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 733
+   },
+   "source": {
+    "music_difficulty_id": 1548,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 149,
+      "slide": 64,
+      "hold": 14,
+      "ex_tap": 46,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1011
+   },
+   "source": {
+    "music_difficulty_id": 1549,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 324,
+      "slide": 83,
+      "hold": 18,
+      "flick": 20,
+      "ex_tap": 59
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1088
+   },
+   "source": {
+    "music_difficulty_id": 1550,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 494,
+      "slide": 76,
+      "flick": 29,
+      "hold": 5,
+      "ex_tap": 69
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1396
+   },
+   "source": {
+    "music_difficulty_id": 4046,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 90,
+      "tap": 346,
+      "slide": 39,
+      "flick": 90,
+      "ex_tap": 132,
+      "other": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 310,
+   "assetbundle": "jacket_s_310",
+   "seq": 2223701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_310.png",
+   "sha256": "29340aaf0633d3888e57352d0d54b340cce4d98e51a6d585e5775879468137ad",
+   "width": 320,
+   "height": 320,
+   "bytes": 14104
+  }
+ },
+ "extra": {
+  "pronunciation": "ふらいうぇい",
+  "lyricist": "halyosy",
+  "composer": "halyosy",
+  "arranger": "halyosy",
+  "published_at": 1674280800000,
+  "released_at": 1674226800000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音レン",
+     "KAITO"
+    ],
+    "asset": "vs_0310_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "望月穂波",
+     "鏡音レン",
+     "星乃一歌",
+     "天馬咲希",
+     "日野森志歩"
+    ],
+    "asset": "se_0310_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "望月穂波"
+    ],
+    "asset": "an_0310_01"
+   }
+  ],
+  "filler_sec": 9.319000244140625,
+  "bpm_main": 190.0
+ }
+}

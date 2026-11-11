@@ -1,0 +1,255 @@
+{
+ "game": "sekai",
+ "song_id": "188",
+ "title": "心予報",
+ "artist": "Eve",
+ "title_romaji": "kokoroyohou",
+ "artist_romaji": "Eve",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "143",
+ "version": "",
+ "date_added": "2022-03-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 273
+   },
+   "source": {
+    "music_difficulty_id": 936,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 49,
+      "hold": 23,
+      "ex_tap": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 400
+   },
+   "source": {
+    "music_difficulty_id": 937,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 8,
+      "tap": 130,
+      "slide": 21,
+      "flick": 10,
+      "ex_tap": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 638
+   },
+   "source": {
+    "music_difficulty_id": 938,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 143,
+      "ex_tap": 85,
+      "hold": 13,
+      "flick": 42,
+      "slide": 68
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2; stacked taps merged: 2",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 909
+   },
+   "source": {
+    "music_difficulty_id": 939,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 100,
+      "tap": 274,
+      "slide": 117,
+      "flick": 58,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1060
+   },
+   "source": {
+    "music_difficulty_id": 940,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 361,
+      "ex_tap": 89,
+      "slide": 150,
+      "hold": 24,
+      "flick": 79
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1318
+   },
+   "source": {
+    "music_difficulty_id": 4031,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 108,
+      "tap": 493,
+      "slide": 81,
+      "flick": 77,
+      "other": 8,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "modifier without target 7: 2; stacked taps identical: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 188,
+   "assetbundle": "jacket_s_188",
+   "seq": 1314001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_188.png",
+   "sha256": "bb2c91212cdf04a334037fa6851a1587fadb149cd4295285dbe6d57d9a68afe1",
+   "width": 320,
+   "height": 320,
+   "bytes": 25926
+  }
+ },
+ "extra": {
+  "pronunciation": "こころよほう",
+  "lyricist": "Eve",
+  "composer": "Eve",
+  "arranger": "TAKU INOUE、Numa",
+  "published_at": 1646200800000,
+  "released_at": 1580310000000,
+  "tags": [
+   "idol",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0188_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "花里みのり",
+     "桐谷遥",
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "se_0188_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "花里みのり",
+     "桐谷遥"
+    ],
+    "asset": "an_0188_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "an_0188_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "KAITO"
+    ],
+    "asset": "an_0188_03"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 143.0
+ }
+}

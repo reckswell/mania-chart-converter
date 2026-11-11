@@ -1,0 +1,222 @@
+{
+ "game": "sekai",
+ "song_id": "533",
+ "title": "転生林檎",
+ "artist": "ピノキオピー",
+ "title_romaji": "tenseiringo",
+ "artist_romaji": "pinokiopii",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "145",
+ "version": "",
+ "date_added": "2024-10-07",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 208
+   },
+   "source": {
+    "music_difficulty_id": 2661,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 64,
+      "hold": 10,
+      "slide": 5,
+      "ex_tap": 1,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 307
+   },
+   "source": {
+    "music_difficulty_id": 2662,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 14,
+      "tap": 142,
+      "ex_tap": 1,
+      "slide": 5,
+      "flick": 4,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 641
+   },
+   "source": {
+    "music_difficulty_id": 2663,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 12,
+      "tap": 296,
+      "slide": 22,
+      "flick": 17,
+      "ex_tap": 95,
+      "other": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 851
+   },
+   "source": {
+    "music_difficulty_id": 2664,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 31,
+      "tap": 440,
+      "hold": 67,
+      "slide": 32,
+      "flick": 39,
+      "ex_tap": 91
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 879
+   },
+   "source": {
+    "music_difficulty_id": 2665,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 436,
+      "hold": 42,
+      "flick": 64,
+      "other": 9,
+      "slide": 61,
+      "ex_tap": 73
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 533,
+   "assetbundle": "jacket_s_533",
+   "seq": 1544701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_533.png",
+   "sha256": "ddd2990c757e6b20a7edf25395e00bb29c403f15d7b5d456b2a0c37dd7173193",
+   "width": 320,
+   "height": 320,
+   "bytes": 30886
+  }
+ },
+ "extra": {
+  "pronunciation": "てんせいりんご",
+  "lyricist": "ピノキオピー",
+  "composer": "ピノキオピー",
+  "arranger": "ピノキオピー",
+  "published_at": 1728280800000,
+  "released_at": 1654182000000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0533_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "天馬司",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0533_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "神代類"
+    ],
+    "asset": "an_0533_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "巡音ルカ"
+    ],
+    "asset": "an_0533_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 145.0
+ }
+}

@@ -1,0 +1,201 @@
+{
+ "game": "sekai",
+ "song_id": "346",
+ "title": "嗚呼、素晴らしきニャン生",
+ "artist": "Nem",
+ "title_romaji": "aasubarashikinyansei",
+ "artist_romaji": "Nem",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "194",
+ "version": "",
+ "date_added": "2023-06-12",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 271
+   },
+   "source": {
+    "music_difficulty_id": 1726,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 88,
+      "hold": 19,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 460
+   },
+   "source": {
+    "music_difficulty_id": 1727,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 192,
+      "flick": 5,
+      "ex_tap": 56,
+      "slide": 18,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 870
+   },
+   "source": {
+    "music_difficulty_id": 1728,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 95,
+      "tap": 259,
+      "hold": 15,
+      "flick": 34,
+      "slide": 68
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1125
+   },
+   "source": {
+    "music_difficulty_id": 1729,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 328,
+      "ex_tap": 67,
+      "slide": 143,
+      "flick": 90,
+      "hold": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1374
+   },
+   "source": {
+    "music_difficulty_id": 1730,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 432,
+      "ex_tap": 55,
+      "slide": 155,
+      "flick": 181,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 346,
+   "assetbundle": "jacket_s_346",
+   "seq": 1529401
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_346.png",
+   "sha256": "2638963d78876ade6bdcbe0bf32329fd4fed7a8e7e9fcd1d2c25acee7b4a0ee0",
+   "width": 320,
+   "height": 320,
+   "bytes": 40920
+  }
+ },
+ "extra": {
+  "pronunciation": "ああすばらしきにゃんせい",
+  "lyricist": "Nem",
+  "composer": "Nem",
+  "arranger": "Nem",
+  "published_at": 1686549600000,
+  "released_at": 1310310000000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "GUMI",
+     "鏡音レン"
+    ],
+    "asset": "vs_0346_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音レン",
+     "天馬司",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0346_01"
+   }
+  ],
+  "filler_sec": 8.690699577331543,
+  "bpm_main": 194.0
+ }
+}

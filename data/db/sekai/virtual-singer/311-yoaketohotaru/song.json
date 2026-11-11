@@ -1,0 +1,217 @@
+{
+ "game": "sekai",
+ "song_id": "311",
+ "title": "夜明けと蛍",
+ "artist": "n-buna",
+ "title_romaji": "yoaketohotaru",
+ "artist_romaji": "n-buna",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "80",
+ "version": "",
+ "date_added": "2023-01-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 162
+   },
+   "source": {
+    "music_difficulty_id": 1551,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 64,
+      "hold": 16,
+      "ex_tap": 5,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 273
+   },
+   "source": {
+    "music_difficulty_id": 1552,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 111,
+      "flick": 3,
+      "ex_tap": 5,
+      "slide": 33,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 457
+   },
+   "source": {
+    "music_difficulty_id": 1553,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 182,
+      "ex_tap": 27,
+      "slide": 43,
+      "flick": 7,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 691
+   },
+   "source": {
+    "music_difficulty_id": 1554,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 373,
+      "ex_tap": 28,
+      "slide": 95,
+      "flick": 32,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 852
+   },
+   "source": {
+    "music_difficulty_id": 1555,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 489,
+      "slide": 108,
+      "ex_tap": 21,
+      "flick": 63,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 717
+   },
+   "source": {
+    "music_difficulty_id": 4126,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 46,
+      "tap": 257,
+      "hold": 42,
+      "slide": 83,
+      "ex_tap": 93,
+      "flick": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 311,
+   "assetbundle": "jacket_s_311",
+   "seq": 1123501
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_311.png",
+   "sha256": "985aff4df8e5ad4844cae8507b54632051ff66cd4fbba713537af4c828a3d49b",
+   "width": 320,
+   "height": 320,
+   "bytes": 30362
+  }
+ },
+ "extra": {
+  "pronunciation": "よあけとほたる",
+  "lyricist": "n-buna",
+  "composer": "n-buna",
+  "arranger": "n-buna",
+  "published_at": 1673330400000,
+  "released_at": 1415631600000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0311_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 80.0
+ }
+}

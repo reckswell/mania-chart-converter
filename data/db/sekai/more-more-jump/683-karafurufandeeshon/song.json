@@ -1,0 +1,221 @@
+{
+ "game": "sekai",
+ "song_id": "683",
+ "title": "カラフルファンデーション",
+ "artist": "みきとP",
+ "title_romaji": "karafurufandeeshon",
+ "artist_romaji": "mikitopii",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "168",
+ "version": "",
+ "date_added": "2026-03-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 306
+   },
+   "source": {
+    "music_difficulty_id": 3411,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 16,
+      "ex_tap": 9,
+      "tap": 37,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 371
+   },
+   "source": {
+    "music_difficulty_id": 3412,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 44,
+      "other": 4,
+      "flick": 8,
+      "tap": 96,
+      "slide": 20,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 677
+   },
+   "source": {
+    "music_difficulty_id": 3413,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 75,
+      "slide": 59,
+      "tap": 117,
+      "flick": 19,
+      "other": 11,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 815
+   },
+   "source": {
+    "music_difficulty_id": 3414,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 115,
+      "flick": 51,
+      "tap": 225,
+      "slide": 61,
+      "other": 14,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1091
+   },
+   "source": {
+    "music_difficulty_id": 3415,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 353,
+      "flick": 81,
+      "ex_tap": 140,
+      "hold": 38,
+      "other": 21,
+      "slide": 66
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 683,
+   "assetbundle": "jacket_s_683",
+   "seq": 2362401
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_683.png",
+   "sha256": "05716f758df447db5d9c70f3b7f4193ae06a421d1689dbeb7c9f025c502e8442",
+   "width": 320,
+   "height": 320,
+   "bytes": 18562
+  }
+ },
+ "extra": {
+  "pronunciation": "からふるふぁんでーしょん",
+  "lyricist": "みきとP",
+  "composer": "みきとP",
+  "arranger": "みきとP",
+  "published_at": 1773122400000,
+  "released_at": 1773068400000,
+  "tags": [
+   "idol"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0683_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "桃井愛莉",
+     "KAITO",
+     "花里みのり",
+     "桐谷遥",
+     "日野森雫"
+    ],
+    "asset": "se_0683_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "桃井愛莉"
+    ],
+    "asset": "an_0683_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "KAITO"
+    ],
+    "asset": "an_0683_02"
+   }
+  ],
+  "filler_sec": 8.642900466918945,
+  "bpm_main": 168.0
+ }
+}

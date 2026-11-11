@@ -1,0 +1,224 @@
+{
+ "game": "sekai",
+ "song_id": "596",
+ "title": "D/N/A",
+ "artist": "Azari",
+ "title_romaji": "D/N/A",
+ "artist_romaji": "Azari",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "150",
+ "version": "",
+ "date_added": "2025-03-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 310
+   },
+   "source": {
+    "music_difficulty_id": 2976,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 54,
+      "ex_tap": 5,
+      "slide": 12,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 417
+   },
+   "source": {
+    "music_difficulty_id": 2977,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 18,
+      "ex_tap": 15,
+      "tap": 98,
+      "slide": 17,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 740
+   },
+   "source": {
+    "music_difficulty_id": 2978,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 162,
+      "ex_tap": 98,
+      "hold": 34,
+      "flick": 10,
+      "slide": 49,
+      "other": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 913
+   },
+   "source": {
+    "music_difficulty_id": 2979,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 300,
+      "flick": 82,
+      "hold": 13,
+      "slide": 70,
+      "ex_tap": 163,
+      "other": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "modifier without target 8: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1276
+   },
+   "source": {
+    "music_difficulty_id": 2980,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 509,
+      "ex_tap": 247,
+      "slide": 34,
+      "flick": 116,
+      "hold": 36,
+      "other": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 596,
+   "assetbundle": "jacket_s_596",
+   "seq": 2650101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_596.png",
+   "sha256": "5d663cc93347d4f2daedb141ab9d636382008f58129f38f217e08a16b7148ced",
+   "width": 320,
+   "height": 320,
+   "bytes": 23701
+  }
+ },
+ "extra": {
+  "pronunciation": "でぃー・えぬ・えー",
+  "lyricist": "Azari",
+  "composer": "Azari",
+  "arranger": "Azari",
+  "published_at": 1742450400000,
+  "released_at": 1742396400000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "鏡音リン",
+     "巡音ルカ",
+     "MEIKO"
+    ],
+    "asset": "vs_0596_01"
+   },
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "重音テト",
+     "flower"
+    ],
+    "asset": "vs_0596_02"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "宵崎奏",
+     "鏡音リン",
+     "朝比奈まふゆ",
+     "東雲絵名",
+     "暁山瑞希"
+    ],
+    "asset": "se_0596_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "宵崎奏"
+    ],
+    "asset": "an_0596_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 150.0
+ }
+}

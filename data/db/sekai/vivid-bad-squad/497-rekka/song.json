@@ -1,0 +1,219 @@
+{
+ "game": "sekai",
+ "song_id": "497",
+ "title": "烈火",
+ "artist": "niki",
+ "title_romaji": "rekka",
+ "artist_romaji": "niki",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "132",
+ "version": "",
+ "date_added": "2024-04-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 305
+   },
+   "source": {
+    "music_difficulty_id": 2481,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 8,
+      "tap": 47,
+      "hold": 18,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 354
+   },
+   "source": {
+    "music_difficulty_id": 2482,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 11,
+      "tap": 146,
+      "hold": 4,
+      "slide": 15,
+      "ex_tap": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 574
+   },
+   "source": {
+    "music_difficulty_id": 2483,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 34,
+      "tap": 121,
+      "slide": 49,
+      "hold": 6,
+      "ex_tap": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 786
+   },
+   "source": {
+    "music_difficulty_id": 2484,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 41,
+      "slide": 85,
+      "tap": 224,
+      "hold": 18,
+      "ex_tap": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 948
+   },
+   "source": {
+    "music_difficulty_id": 2485,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 5,
+      "tap": 326,
+      "flick": 46,
+      "ex_tap": 170,
+      "slide": 59,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 497,
+   "assetbundle": "jacket_s_497",
+   "seq": 2440201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_497.png",
+   "sha256": "7dcd47cce9eedabdccf8d0c744d2aae32af2ba9d89fda1167cb8d8cce1fea1c2",
+   "width": 320,
+   "height": 320,
+   "bytes": 29507
+  }
+ },
+ "extra": {
+  "pronunciation": "れっか",
+  "lyricist": "niki",
+  "composer": "niki",
+  "arranger": "niki",
+  "published_at": 1714456800000,
+  "released_at": 1714402800000,
+  "tags": [
+   "street"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "鏡音リン"
+    ],
+    "asset": "vs_0497_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "白石杏",
+     "巡音ルカ",
+     "小豆沢こはね",
+     "東雲彰人",
+     "青柳冬弥"
+    ],
+    "asset": "se_0497_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "白石杏"
+    ],
+    "asset": "an_0497_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "巡音ルカ"
+    ],
+    "asset": "an_0497_01"
+   }
+  ],
+  "filler_sec": 8.543999671936035,
+  "bpm_main": 132.0
+ }
+}

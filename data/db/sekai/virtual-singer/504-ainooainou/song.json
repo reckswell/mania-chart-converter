@@ -1,0 +1,192 @@
+{
+ "game": "sekai",
+ "song_id": "504",
+ "title": "I know 愛脳.",
+ "artist": "吉田夜世",
+ "title_romaji": "ainooainou",
+ "artist_romaji": "yoshidayasei",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "150",
+ "version": "",
+ "date_added": "2024-05-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 180
+   },
+   "source": {
+    "music_difficulty_id": 2516,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 85,
+      "ex_tap": 5,
+      "slide": 4,
+      "hold": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 385
+   },
+   "source": {
+    "music_difficulty_id": 2517,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 20,
+      "tap": 186,
+      "hold": 5,
+      "flick": 7,
+      "slide": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 749
+   },
+   "source": {
+    "music_difficulty_id": 2518,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 16,
+      "tap": 263,
+      "ex_tap": 77,
+      "slide": 44,
+      "other": 5,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1016
+   },
+   "source": {
+    "music_difficulty_id": 2519,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 142,
+      "flick": 29,
+      "tap": 453,
+      "slide": 70,
+      "hold": 14,
+      "other": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 9",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1119
+   },
+   "source": {
+    "music_difficulty_id": 2520,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 90,
+      "tap": 614,
+      "ex_tap": 130,
+      "other": 20,
+      "hold": 8,
+      "slide": 67
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 504,
+   "assetbundle": "jacket_s_504",
+   "seq": 1141001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_504.png",
+   "sha256": "47f918e6e57b26f21540bc28fb2bae53156acb009dab6cbb46d3d65e8366f504",
+   "width": 320,
+   "height": 320,
+   "bytes": 24903
+  }
+ },
+ "extra": {
+  "pronunciation": "あいのーあいのう",
+  "lyricist": "吉田夜世",
+  "composer": "吉田夜世",
+  "arranger": "吉田夜世",
+  "published_at": 1716184800000,
+  "released_at": 1706540400000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0504_01"
+   }
+  ],
+  "filler_sec": 9.036700248718262,
+  "bpm_main": 150.0
+ }
+}

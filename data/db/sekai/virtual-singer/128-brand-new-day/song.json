@@ -1,0 +1,225 @@
+{
+ "game": "sekai",
+ "song_id": "128",
+ "title": "Brand New Day",
+ "artist": "いるかアイス",
+ "title_romaji": "Brand New Day",
+ "artist_romaji": "irukaaisu",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "185",
+ "version": "",
+ "date_added": "2021-02-22",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 300
+   },
+   "source": {
+    "music_difficulty_id": 636,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 59,
+      "hold": 13,
+      "slide": 12,
+      "ex_tap": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 378
+   },
+   "source": {
+    "music_difficulty_id": 637,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 215,
+      "flick": 1,
+      "ex_tap": 69,
+      "slide": 9,
+      "hold": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 829
+   },
+   "source": {
+    "music_difficulty_id": 638,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 414,
+      "slide": 56,
+      "flick": 39,
+      "ex_tap": 67,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1260
+   },
+   "source": {
+    "music_difficulty_id": 639,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 705,
+      "slide": 75,
+      "flick": 54,
+      "ex_tap": 87,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "32",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1316
+   },
+   "source": {
+    "music_difficulty_id": 640,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 920,
+      "slide": 38,
+      "flick": 130,
+      "ex_tap": 76
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "35",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1894
+   },
+   "source": {
+    "music_difficulty_id": 4013,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 220,
+      "other": 22,
+      "flick": 241,
+      "tap": 991,
+      "hold": 64,
+      "slide": 53
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 128,
+   "assetbundle": "jacket_s_128",
+   "seq": 1105301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_128.png",
+   "sha256": "b0f0fd7bfedddd149e60f85c6eefb9903633cb4fce8a513c56adc56f63c1013a",
+   "width": 320,
+   "height": 320,
+   "bytes": 32462
+  }
+ },
+ "extra": {
+  "pronunciation": "ぶらんどにゅーでい",
+  "lyricist": "いるかアイス",
+  "composer": "いるかアイス",
+  "arranger": "いるかアイス",
+  "published_at": 1613973600000,
+  "released_at": 1606662000000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0128_01"
+   },
+   {
+    "type": "streaming_live",
+    "caption": "コネクトライブ(DAY2)ver.",
+    "singers": [
+     "初音ミク",
+     "花里みのり"
+    ],
+    "asset": "cl_0128_01"
+   }
+  ],
+  "filler_sec": 9.324299812316895,
+  "bpm_main": 185.0
+ }
+}

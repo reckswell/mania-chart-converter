@@ -1,0 +1,226 @@
+{
+ "game": "sekai",
+ "song_id": "242",
+ "title": "トリノコシティ",
+ "artist": "40mP",
+ "title_romaji": "torinokoshiti",
+ "artist_romaji": "40mP",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "135",
+ "version": "",
+ "date_added": "2022-10-08",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 291
+   },
+   "source": {
+    "music_difficulty_id": 1206,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 14,
+      "tap": 36,
+      "slide": 2,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 360
+   },
+   "source": {
+    "music_difficulty_id": 1207,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 17,
+      "tap": 83,
+      "hold": 6,
+      "ex_tap": 2,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 514
+   },
+   "source": {
+    "music_difficulty_id": 1208,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 205,
+      "ex_tap": 62,
+      "flick": 14,
+      "hold": 3,
+      "slide": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 753
+   },
+   "source": {
+    "music_difficulty_id": 1209,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 287,
+      "slide": 69,
+      "hold": 9,
+      "ex_tap": 61,
+      "flick": 54
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 852
+   },
+   "source": {
+    "music_difficulty_id": 1210,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 103,
+      "tap": 422,
+      "ex_tap": 35,
+      "flick": 64,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 242,
+   "assetbundle": "jacket_s_242",
+   "seq": 1320301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_242.png",
+   "sha256": "d783cdf519eb0d35cbf7f953d6831552143ae365b6bb75567953f73132f954b0",
+   "width": 320,
+   "height": 320,
+   "bytes": 14600
+  }
+ },
+ "extra": {
+  "pronunciation": "とりのこしてぃ",
+  "lyricist": "40mP",
+  "composer": "40mP",
+  "arranger": "40mP",
+  "published_at": 1665208800000,
+  "released_at": 1280329200000,
+  "tags": [
+   "idol",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0242_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "桐谷遥",
+     "桃井愛莉"
+    ],
+    "asset": "se_0242_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "桐谷遥"
+    ],
+    "asset": "an_0242_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鏡音リン",
+     "鏡音レン"
+    ],
+    "asset": "an_0242_02"
+   },
+   {
+    "type": "streaming_live",
+    "caption": "コネクトライブver.",
+    "singers": [
+     "望月穂波",
+     "宵崎奏"
+    ],
+    "asset": "cl_0242_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 135.0
+ }
+}

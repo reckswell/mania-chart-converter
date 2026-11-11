@@ -1,0 +1,226 @@
+{
+ "game": "sekai",
+ "song_id": "368",
+ "title": "アイムマイン",
+ "artist": "halyosy",
+ "title_romaji": "aimumain",
+ "artist_romaji": "halyosy",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "135",
+ "version": "",
+ "date_added": "2023-10-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 328
+   },
+   "source": {
+    "music_difficulty_id": 1836,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 16,
+      "tap": 56,
+      "slide": 10,
+      "ex_tap": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 489
+   },
+   "source": {
+    "music_difficulty_id": 1837,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 28,
+      "tap": 104,
+      "hold": 5,
+      "flick": 5,
+      "ex_tap": 17,
+      "other": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 764
+   },
+   "source": {
+    "music_difficulty_id": 1838,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 54,
+      "ex_tap": 67,
+      "hold": 20,
+      "tap": 126,
+      "flick": 18,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1058
+   },
+   "source": {
+    "music_difficulty_id": 1839,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 103,
+      "tap": 317,
+      "flick": 76,
+      "ex_tap": 105,
+      "other": 12,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1189
+   },
+   "source": {
+    "music_difficulty_id": 1840,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 369,
+      "slide": 159,
+      "flick": 97,
+      "hold": 24,
+      "ex_tap": 117,
+      "other": 71
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1245
+   },
+   "source": {
+    "music_difficulty_id": 4124,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 272,
+      "flick": 87,
+      "slide": 264,
+      "hold": 210,
+      "ex_tap": 182,
+      "other": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 368,
+   "assetbundle": "jacket_s_368",
+   "seq": 2132403
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_368.png",
+   "sha256": "4f94c3b7558d817ca67892b031b8947deabff729f5edc2c6d50788210dbe6f06",
+   "width": 320,
+   "height": 320,
+   "bytes": 20583
+  }
+ },
+ "extra": {
+  "pronunciation": "あいむまいん",
+  "lyricist": "halyosy",
+  "composer": "halyosy",
+  "arranger": "halyosy",
+  "published_at": 1696140000000,
+  "released_at": 1696086000000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "鏡音リン",
+     "鏡音レン",
+     "巡音ルカ",
+     "MEIKO",
+     "KAITO"
+    ],
+    "asset": "vs_0368_01"
+   }
+  ],
+  "filler_sec": 9.015000343322754,
+  "bpm_main": 135.0
+ }
+}

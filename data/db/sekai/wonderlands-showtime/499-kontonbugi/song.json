@@ -1,0 +1,228 @@
+{
+ "game": "sekai",
+ "song_id": "499",
+ "title": "混沌ブギ",
+ "artist": "jon-YAKITORY",
+ "title_romaji": "kontonbugi",
+ "artist_romaji": "jon-YAKITORY",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2024-12-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 400
+   },
+   "source": {
+    "music_difficulty_id": 2491,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 21,
+      "tap": 61,
+      "hold": 17,
+      "slide": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 507
+   },
+   "source": {
+    "music_difficulty_id": 2492,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 181,
+      "ex_tap": 65,
+      "slide": 19,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 683
+   },
+   "source": {
+    "music_difficulty_id": 2493,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 61,
+      "tap": 287,
+      "flick": 46,
+      "ex_tap": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 962
+   },
+   "source": {
+    "music_difficulty_id": 2494,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 379,
+      "slide": 122,
+      "flick": 53,
+      "ex_tap": 27,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1189
+   },
+   "source": {
+    "music_difficulty_id": 2495,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 581,
+      "slide": 141,
+      "ex_tap": 58,
+      "flick": 93,
+      "hold": 26,
+      "other": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "33",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1615
+   },
+   "source": {
+    "music_difficulty_id": 4084,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 676,
+      "hold": 162,
+      "flick": 147,
+      "ex_tap": 232,
+      "slide": 131,
+      "other": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 499,
+   "assetbundle": "jacket_s_499",
+   "seq": 1546701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_499.png",
+   "sha256": "192724acf0fcc5e6a3eebd95004699025a4fe2cbdebbfdee802254cdaedf4b0a",
+   "width": 320,
+   "height": 320,
+   "bytes": 30462
+  }
+ },
+ "extra": {
+  "pronunciation": "こんとんぶぎ",
+  "lyricist": "jon-YAKITORY",
+  "composer": "jon-YAKITORY",
+  "arranger": "jon-YAKITORY",
+  "published_at": 1735452000000,
+  "released_at": 1693321200000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0499_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "KAITO",
+     "天馬司",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0499_01"
+   }
+  ],
+  "filler_sec": 9.315799713134766,
+  "bpm_main": 190.0
+ }
+}

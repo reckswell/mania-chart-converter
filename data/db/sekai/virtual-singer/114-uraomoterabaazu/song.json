@@ -1,0 +1,188 @@
+{
+ "game": "sekai",
+ "song_id": "114",
+ "title": "裏表ラバーズ",
+ "artist": "wowaka",
+ "title_romaji": "uraomoterabaazu",
+ "artist_romaji": "wowaka",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "159",
+ "version": "",
+ "date_added": "2020-11-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 152
+   },
+   "source": {
+    "music_difficulty_id": 566,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 78,
+      "ex_tap": 3,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 304
+   },
+   "source": {
+    "music_difficulty_id": 567,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 193,
+      "flick": 6,
+      "hold": 4,
+      "slide": 11,
+      "ex_tap": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 615
+   },
+   "source": {
+    "music_difficulty_id": 568,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 373,
+      "flick": 25,
+      "ex_tap": 26,
+      "slide": 36,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1017
+   },
+   "source": {
+    "music_difficulty_id": 569,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 512,
+      "hold": 24,
+      "ex_tap": 23,
+      "flick": 56,
+      "slide": 93
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1151
+   },
+   "source": {
+    "music_difficulty_id": 570,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 96,
+      "tap": 592,
+      "ex_tap": 21,
+      "slide": 78,
+      "flick": 73
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 114,
+   "assetbundle": "jacket_s_114",
+   "seq": 1102701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_114.png",
+   "sha256": "f84c5f45a1418f22493fbe0fbeb3202bde0ed7805f834c34601f6fb402639a5f",
+   "width": 320,
+   "height": 320,
+   "bytes": 6832
+  }
+ },
+ "extra": {
+  "pronunciation": "うらおもてらばーず",
+  "lyricist": "wowaka",
+  "composer": "wowaka",
+  "arranger": "wowaka",
+  "published_at": 1605938400000,
+  "released_at": 1251558000000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0114_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 159.0
+ }
+}

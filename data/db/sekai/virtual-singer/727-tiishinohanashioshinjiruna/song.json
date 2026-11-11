@@ -1,0 +1,193 @@
+{
+ "game": "sekai",
+ "song_id": "727",
+ "title": "T氏の話を信じるな",
+ "artist": "ピノキオピー",
+ "title_romaji": "tiishinohanashioshinjiruna",
+ "artist_romaji": "pinokiopii",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "143",
+ "version": "",
+ "date_added": "2026-04-06",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 237
+   },
+   "source": {
+    "music_difficulty_id": 3631,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 61,
+      "hold": 17,
+      "ex_tap": 4,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 324
+   },
+   "source": {
+    "music_difficulty_id": 3632,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 115,
+      "ex_tap": 29,
+      "slide": 17,
+      "flick": 14,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 658
+   },
+   "source": {
+    "music_difficulty_id": 3633,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 187,
+      "flick": 22,
+      "ex_tap": 28,
+      "slide": 61,
+      "hold": 6,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 948
+   },
+   "source": {
+    "music_difficulty_id": 3634,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 81,
+      "ex_tap": 80,
+      "flick": 36,
+      "tap": 407,
+      "other": 23,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1089
+   },
+   "source": {
+    "music_difficulty_id": 3635,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 440,
+      "slide": 109,
+      "flick": 97,
+      "ex_tap": 174,
+      "hold": 3,
+      "other": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "modifier without target 8: 2; stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 727,
+   "assetbundle": "jacket_s_727",
+   "seq": 1163601
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_727.png",
+   "sha256": "c5f99c1c622799d039fc395adc793c623bc22a80f851b65de880136670274163",
+   "width": 320,
+   "height": 320,
+   "bytes": 39184
+  }
+ },
+ "extra": {
+  "pronunciation": "てぃーしのはなしをしんじるな",
+  "lyricist": "ピノキオピー",
+  "composer": "ピノキオピー",
+  "arranger": "ピノキオピー",
+  "published_at": 1775455200000,
+  "released_at": 1750950000000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "重音テト"
+    ],
+    "asset": "vs_0727_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 143.0
+ }
+}

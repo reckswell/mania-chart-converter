@@ -1,0 +1,249 @@
+{
+ "game": "sekai",
+ "song_id": "423",
+ "title": "レグルス",
+ "artist": "ゆうゆ",
+ "title_romaji": "regurusu",
+ "artist_romaji": "yuuyu",
+ "genre": "Leo/need",
+ "bpm": "146",
+ "version": "",
+ "date_added": "2024-02-18",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 296
+   },
+   "source": {
+    "music_difficulty_id": 2111,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 15,
+      "tap": 57,
+      "slide": 5,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 387
+   },
+   "source": {
+    "music_difficulty_id": 2112,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 22,
+      "tap": 84,
+      "hold": 2,
+      "ex_tap": 12,
+      "other": 2,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 680
+   },
+   "source": {
+    "music_difficulty_id": 2113,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 207,
+      "other": 8,
+      "hold": 8,
+      "flick": 48,
+      "slide": 50,
+      "ex_tap": 58
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 949
+   },
+   "source": {
+    "music_difficulty_id": 2114,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 285,
+      "hold": 10,
+      "slide": 70,
+      "flick": 96,
+      "ex_tap": 83,
+      "other": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1014
+   },
+   "source": {
+    "music_difficulty_id": 2115,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 362,
+      "flick": 108,
+      "ex_tap": 164,
+      "hold": 13,
+      "slide": 95,
+      "other": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1268
+   },
+   "source": {
+    "music_difficulty_id": 4033,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 147,
+      "tap": 390,
+      "slide": 79,
+      "other": 29,
+      "ex_tap": 184,
+      "hold": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 423,
+   "assetbundle": "jacket_s_423",
+   "seq": 2237701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_423.png",
+   "sha256": "fb4d285392d9ac8f4e14a300d6f9fb8bf2898f3a922ed75e45cde1aea2415cc5",
+   "width": 320,
+   "height": 320,
+   "bytes": 22279
+  }
+ },
+ "extra": {
+  "pronunciation": "れぐるす",
+  "lyricist": "ゆうゆ",
+  "composer": "ゆうゆ",
+  "arranger": "ゆうゆ",
+  "published_at": 1708261500000,
+  "released_at": 1708182000000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音リン"
+    ],
+    "asset": "vs_0423_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "望月穂波",
+     "KAITO",
+     "星乃一歌",
+     "天馬咲希",
+     "日野森志歩"
+    ],
+    "asset": "se_0423_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "望月穂波"
+    ],
+    "asset": "an_0423_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "KAITO"
+    ],
+    "asset": "an_0423_02"
+   }
+  ],
+  "filler_sec": 7.767099857330322,
+  "bpm_main": 146.0
+ }
+}

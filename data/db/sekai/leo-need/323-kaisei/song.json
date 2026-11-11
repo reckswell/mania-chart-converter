@@ -1,0 +1,225 @@
+{
+ "game": "sekai",
+ "song_id": "323",
+ "title": "快晴",
+ "artist": "Orangestar",
+ "title_romaji": "kaisei",
+ "artist_romaji": "Orangestar",
+ "genre": "Leo/need",
+ "bpm": "172",
+ "version": "",
+ "date_added": "2023-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 415
+   },
+   "source": {
+    "music_difficulty_id": 1611,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 20,
+      "tap": 70,
+      "slide": 10,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 582
+   },
+   "source": {
+    "music_difficulty_id": 1612,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 35,
+      "flick": 10,
+      "tap": 172,
+      "ex_tap": 8,
+      "hold": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 959
+   },
+   "source": {
+    "music_difficulty_id": 1613,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 78,
+      "tap": 193,
+      "ex_tap": 42,
+      "flick": 18,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1286
+   },
+   "source": {
+    "music_difficulty_id": 1614,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 419,
+      "hold": 31,
+      "flick": 40,
+      "slide": 118,
+      "ex_tap": 85
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1533
+   },
+   "source": {
+    "music_difficulty_id": 1615,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 480,
+      "flick": 81,
+      "hold": 48,
+      "slide": 163,
+      "ex_tap": 84
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 323,
+   "assetbundle": "jacket_s_323",
+   "seq": 1228001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_323.png",
+   "sha256": "55a8dbff7eb4c3719d2eec746ab25c1ae9c6dd7d0610e0213634995552e77f04",
+   "width": 320,
+   "height": 320,
+   "bytes": 22657
+  }
+ },
+ "extra": {
+  "pronunciation": "かいせい",
+  "lyricist": "Orangestar",
+  "composer": "Orangestar",
+  "arranger": "Orangestar",
+  "published_at": 1682920800000,
+  "released_at": 1504105200000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "IA"
+    ],
+    "asset": "vs_0323_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "MEIKO",
+     "星乃一歌",
+     "天馬咲希",
+     "望月穂波",
+     "日野森志歩"
+    ],
+    "asset": "se_0323_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "望月穂波"
+    ],
+    "asset": "an_0323_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "an_0323_03"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "MEIKO"
+    ],
+    "asset": "an_0323_04"
+   }
+  ],
+  "filler_sec": 7.953499794006348,
+  "bpm_main": 172.0
+ }
+}

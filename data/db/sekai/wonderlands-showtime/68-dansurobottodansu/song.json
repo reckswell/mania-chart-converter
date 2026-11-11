@@ -1,0 +1,217 @@
+{
+ "game": "sekai",
+ "song_id": "68",
+ "title": "ダンスロボットダンス",
+ "artist": "ナユタン星人",
+ "title_romaji": "dansurobottodansu",
+ "artist_romaji": "nayutanseijin",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2020-10-07",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 157
+   },
+   "source": {
+    "music_difficulty_id": 336,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 72,
+      "hold": 9,
+      "ex_tap": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 407
+   },
+   "source": {
+    "music_difficulty_id": 337,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 149,
+      "hold": 7,
+      "slide": 29,
+      "flick": 3,
+      "ex_tap": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 719
+   },
+   "source": {
+    "music_difficulty_id": 338,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 226,
+      "ex_tap": 18,
+      "hold": 5,
+      "flick": 23,
+      "slide": 84
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 927
+   },
+   "source": {
+    "music_difficulty_id": 339,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 286,
+      "ex_tap": 30,
+      "hold": 53,
+      "slide": 100,
+      "flick": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1057
+   },
+   "source": {
+    "music_difficulty_id": 340,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 395,
+      "ex_tap": 27,
+      "slide": 142,
+      "flick": 82,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 68,
+   "assetbundle": "jacket_s_068",
+   "seq": 1500801
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_068.png",
+   "sha256": "d95fdfe42fd7b0ccb2f648582018c52a84e91ed064aa3080b8ab098cc18c35cb",
+   "width": 320,
+   "height": 320,
+   "bytes": 22244
+  }
+ },
+ "extra": {
+  "pronunciation": "だんすろぼっとだんす",
+  "lyricist": "ナユタン星人",
+  "composer": "ナユタン星人",
+  "arranger": "ナユタン星人",
+  "published_at": 1602050400000,
+  "released_at": 1480950000000,
+  "tags": [
+   "theme_park",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "0068_01"
+   },
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "鏡音リン",
+     "巡音ルカ"
+    ],
+    "asset": "vs_0068_02"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "鳳えむ",
+     "草薙寧々"
+    ],
+    "asset": "se_0068_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鳳えむ"
+    ],
+    "asset": "an_0068_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 190.0
+ }
+}

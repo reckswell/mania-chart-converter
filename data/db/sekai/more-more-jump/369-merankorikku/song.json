@@ -1,0 +1,221 @@
+{
+ "game": "sekai",
+ "song_id": "369",
+ "title": "メランコリック",
+ "artist": "Junky",
+ "title_romaji": "merankorikku",
+ "artist_romaji": "Junky",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "140",
+ "version": "",
+ "date_added": "2023-10-04",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 273
+   },
+   "source": {
+    "music_difficulty_id": 1841,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 16,
+      "tap": 62,
+      "slide": 3,
+      "ex_tap": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 369
+   },
+   "source": {
+    "music_difficulty_id": 1842,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 142,
+      "slide": 29,
+      "flick": 5,
+      "hold": 5,
+      "ex_tap": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 610
+   },
+   "source": {
+    "music_difficulty_id": 1843,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 194,
+      "hold": 13,
+      "slide": 55,
+      "ex_tap": 36,
+      "flick": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 917
+   },
+   "source": {
+    "music_difficulty_id": 1844,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 269,
+      "slide": 118,
+      "flick": 37,
+      "hold": 33,
+      "ex_tap": 44,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1100
+   },
+   "source": {
+    "music_difficulty_id": 1845,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 21,
+      "tap": 429,
+      "slide": 124,
+      "flick": 41,
+      "ex_tap": 44,
+      "other": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 369,
+   "assetbundle": "jacket_s_369",
+   "seq": 1332701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_369.png",
+   "sha256": "b3586c205ed293032e1ea192a9a32ae05ab8354f01c3553ea909117867dbc492",
+   "width": 320,
+   "height": 320,
+   "bytes": 40686
+  }
+ },
+ "extra": {
+  "pronunciation": "めらんこりっく",
+  "lyricist": "Junky",
+  "composer": "Junky",
+  "arranger": "Junky",
+  "published_at": 1696399200000,
+  "released_at": 1271602800000,
+  "tags": [
+   "idol"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音リン"
+    ],
+    "asset": "vs_0369_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音リン",
+     "花里みのり",
+     "桐谷遥",
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "se_0369_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "花里みのり"
+    ],
+    "asset": "an_0369_01"
+   },
+   {
+    "type": "streaming_live",
+    "caption": "コネクトライブver.",
+    "singers": [
+     "鏡音リン",
+     "MORE MORE JUMP！",
+     "ワンダーランズ×ショウタイム"
+    ],
+    "asset": "cl_0369_01"
+   }
+  ],
+  "filler_sec": 7.714300155639648,
+  "bpm_main": 140.0
+ }
+}

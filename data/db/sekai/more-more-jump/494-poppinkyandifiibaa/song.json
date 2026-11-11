@@ -1,0 +1,215 @@
+{
+ "game": "sekai",
+ "song_id": "494",
+ "title": "ポッピンキャンディ☆フィーバー！",
+ "artist": "キノシタ",
+ "title_romaji": "poppinkyandi☆fiibaa!",
+ "artist_romaji": "kinoshita",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2024-07-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 224
+   },
+   "source": {
+    "music_difficulty_id": 2466,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 19,
+      "ex_tap": 26,
+      "tap": 61
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 392
+   },
+   "source": {
+    "music_difficulty_id": 2467,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 143,
+      "hold": 18,
+      "ex_tap": 33,
+      "slide": 15,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 715
+   },
+   "source": {
+    "music_difficulty_id": 2468,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 228,
+      "hold": 14,
+      "slide": 51,
+      "flick": 57,
+      "ex_tap": 109,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1140
+   },
+   "source": {
+    "music_difficulty_id": 2469,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 97,
+      "tap": 338,
+      "other": 5,
+      "flick": 122,
+      "ex_tap": 130,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1323
+   },
+   "source": {
+    "music_difficulty_id": 2470,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 20,
+      "tap": 432,
+      "slide": 137,
+      "ex_tap": 209,
+      "hold": 13,
+      "flick": 182
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 4",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 494,
+   "assetbundle": "jacket_s_494",
+   "seq": 1341901
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_494.png",
+   "sha256": "e9e534d922875eb61081f4979ca1ccacf0b01d6c5a274db9d573c81f9e1f2170",
+   "width": 320,
+   "height": 320,
+   "bytes": 44404
+  }
+ },
+ "extra": {
+  "pronunciation": "ぽっぴんきゃんでぃ☆ふぃーばー！",
+  "lyricist": "キノシタ",
+  "composer": "キノシタ",
+  "arranger": "キノシタ",
+  "published_at": 1719813600000,
+  "released_at": 1572274800000,
+  "tags": [
+   "idol"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "音街ウナ",
+     "鏡音リン"
+    ],
+    "asset": "vs_0494_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音リン",
+     "花里みのり",
+     "桐谷遥",
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "se_0494_01"
+   },
+   {
+    "type": "streaming_live",
+    "caption": "コネクトライブ(DAY2)ver.",
+    "singers": [
+     "初音ミク",
+     "花里みのり",
+     "桃井愛莉",
+     "小豆沢こはね"
+    ],
+    "asset": "cl_0494_01"
+   }
+  ],
+  "filler_sec": 8.368499755859375,
+  "bpm_main": 190.0
+ }
+}

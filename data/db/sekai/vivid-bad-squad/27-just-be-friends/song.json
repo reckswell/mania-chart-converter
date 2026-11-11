@@ -1,0 +1,214 @@
+{
+ "game": "sekai",
+ "song_id": "27",
+ "title": "Just Be Friends",
+ "artist": "Dixie Flatline",
+ "title_romaji": "Just Be Friends",
+ "artist_romaji": "Dixie Flatline",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "128",
+ "version": "",
+ "date_added": "2020-10-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 148
+   },
+   "source": {
+    "music_difficulty_id": 131,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 55,
+      "ex_tap": 5,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 410
+   },
+   "source": {
+    "music_difficulty_id": 132,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 173,
+      "hold": 12,
+      "ex_tap": 7,
+      "slide": 23,
+      "flick": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 679
+   },
+   "source": {
+    "music_difficulty_id": 133,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 65,
+      "tap": 353,
+      "flick": 15,
+      "hold": 4,
+      "ex_tap": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 811
+   },
+   "source": {
+    "music_difficulty_id": 134,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 86,
+      "tap": 431,
+      "flick": 24,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 989
+   },
+   "source": {
+    "music_difficulty_id": 135,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 99,
+      "tap": 552,
+      "flick": 43,
+      "hold": 13,
+      "ex_tap": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 27,
+   "assetbundle": "jacket_s_027",
+   "seq": 1400401
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_027.png",
+   "sha256": "54b85c3b5b3e5489a85895365de9f25a72eccc9aa6c82d680f7fae29fac1878d",
+   "width": 320,
+   "height": 320,
+   "bytes": 33707
+  }
+ },
+ "extra": {
+  "pronunciation": "じゃすとびーふれんず",
+  "lyricist": "Dixie Flatline",
+  "composer": "Dixie Flatline",
+  "arranger": "-",
+  "published_at": 1601704800000,
+  "released_at": 1246633200000,
+  "tags": [
+   "street",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "巡音ルカ"
+    ],
+    "asset": "0027_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "巡音ルカ",
+     "小豆沢こはね",
+     "白石杏"
+    ],
+    "asset": "0027_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "小豆沢こはね"
+    ],
+    "asset": "an_0027_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "白石杏"
+    ],
+    "asset": "an_0027_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 128.0
+ }
+}

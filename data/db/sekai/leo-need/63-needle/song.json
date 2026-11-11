@@ -1,0 +1,225 @@
+{
+ "game": "sekai",
+ "song_id": "63",
+ "title": "needLe",
+ "artist": "DECO*27",
+ "title_romaji": "needLe",
+ "artist_romaji": "DECO*27",
+ "genre": "Leo/need",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2019-06-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 216
+   },
+   "source": {
+    "music_difficulty_id": 311,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 73,
+      "hold": 12,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 430
+   },
+   "source": {
+    "music_difficulty_id": 312,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 194,
+      "hold": 8,
+      "slide": 29,
+      "flick": 1,
+      "ex_tap": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 662
+   },
+   "source": {
+    "music_difficulty_id": 313,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 322,
+      "ex_tap": 24,
+      "hold": 21,
+      "slide": 39,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 889
+   },
+   "source": {
+    "music_difficulty_id": 314,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 443,
+      "ex_tap": 40,
+      "slide": 73,
+      "hold": 17,
+      "flick": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1029
+   },
+   "source": {
+    "music_difficulty_id": 315,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 517,
+      "ex_tap": 35,
+      "slide": 97,
+      "flick": 51,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 63,
+   "assetbundle": "jacket_s_063",
+   "seq": 2200101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_063.png",
+   "sha256": "2a8ce0c1367b6cf37b7c85546053b71bbd7a9a39773f6927757b3a9f31368df6",
+   "width": 320,
+   "height": 320,
+   "bytes": 23324
+  }
+ },
+ "extra": {
+  "pronunciation": "にーどる",
+  "lyricist": "DECO*27",
+  "composer": "DECO*27",
+  "arranger": "Rockwell",
+  "published_at": 1560148031000,
+  "released_at": 1601391600000,
+  "tags": [
+   "light_music_club",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0063_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "星乃一歌",
+     "天馬咲希",
+     "望月穂波",
+     "日野森志歩",
+     "初音ミク"
+    ],
+    "asset": "0063_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "望月穂波"
+    ],
+    "asset": "an_0063_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "日野森志歩"
+    ],
+    "asset": "an_0063_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "天馬咲希"
+    ],
+    "asset": "an_0063_03"
+   }
+  ],
+  "filler_sec": 8.982999801635742,
+  "bpm_main": 190.0
+ }
+}

@@ -1,0 +1,220 @@
+{
+ "game": "sekai",
+ "song_id": "434",
+ "title": "1000年生きてる",
+ "artist": "いよわ",
+ "title_romaji": "sennenikiteru",
+ "artist_romaji": "iyowa",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "100",
+ "version": "",
+ "date_added": "2024-03-25",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 106
+   },
+   "source": {
+    "music_difficulty_id": 2166,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 6,
+      "tap": 44,
+      "ex_tap": 3,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 236
+   },
+   "source": {
+    "music_difficulty_id": 2167,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 98,
+      "hold": 14,
+      "slide": 12,
+      "ex_tap": 11,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 500
+   },
+   "source": {
+    "music_difficulty_id": 2168,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 8,
+      "tap": 156,
+      "slide": 42,
+      "ex_tap": 26,
+      "flick": 6,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 673
+   },
+   "source": {
+    "music_difficulty_id": 2169,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 20,
+      "tap": 274,
+      "other": 15,
+      "ex_tap": 48,
+      "flick": 10,
+      "slide": 68
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 757
+   },
+   "source": {
+    "music_difficulty_id": 2170,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 306,
+      "hold": 18,
+      "slide": 71,
+      "other": 22,
+      "flick": 38,
+      "ex_tap": 83
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 434,
+   "assetbundle": "jacket_s_434",
+   "seq": 1538901
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_434.png",
+   "sha256": "0a798021c57ba6f34472efeb5ff62a8bfa01c486521e00bae2c94ab04a16e7f0",
+   "width": 320,
+   "height": 320,
+   "bytes": 16700
+  }
+ },
+ "extra": {
+  "pronunciation": "せんねんいきてる",
+  "lyricist": "いよわ",
+  "composer": "いよわ",
+  "arranger": "いよわ",
+  "published_at": 1711346400000,
+  "released_at": 1607612400000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0434_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "巡音ルカ",
+     "天馬司",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0434_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "草薙寧々"
+    ],
+    "asset": "an_0434_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "神代類"
+    ],
+    "asset": "an_0434_02"
+   }
+  ],
+  "filler_sec": 7.5,
+  "bpm_main": 100.0
+ }
+}

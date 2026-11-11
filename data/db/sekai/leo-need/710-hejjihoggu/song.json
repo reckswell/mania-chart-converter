@@ -1,0 +1,204 @@
+{
+ "game": "sekai",
+ "song_id": "710",
+ "title": "ヘッジホッグ",
+ "artist": "Noz.",
+ "title_romaji": "hejjihoggu",
+ "artist_romaji": "Noz.",
+ "genre": "Leo/need",
+ "bpm": "160",
+ "version": "",
+ "date_added": "2026-04-13",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 194
+   },
+   "source": {
+    "music_difficulty_id": 3546,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 13,
+      "ex_tap": 23,
+      "tap": 70
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 370
+   },
+   "source": {
+    "music_difficulty_id": 3547,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 144,
+      "flick": 14,
+      "ex_tap": 18,
+      "hold": 11,
+      "slide": 10,
+      "other": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 595
+   },
+   "source": {
+    "music_difficulty_id": 3548,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 44,
+      "tap": 215,
+      "flick": 48,
+      "ex_tap": 55,
+      "hold": 1,
+      "other": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 837
+   },
+   "source": {
+    "music_difficulty_id": 3549,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 124,
+      "tap": 332,
+      "flick": 55,
+      "slide": 72,
+      "hold": 15,
+      "other": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1133
+   },
+   "source": {
+    "music_difficulty_id": 3550,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 82,
+      "tap": 386,
+      "hold": 64,
+      "flick": 72,
+      "ex_tap": 204,
+      "other": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 710,
+   "assetbundle": "jacket_s_710",
+   "seq": 1263701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_710.png",
+   "sha256": "561c9f35a2ba9ed756f895a7a5a6969adc7769fcb9b30f838b771da62485d8f9",
+   "width": 320,
+   "height": 320,
+   "bytes": 22283
+  }
+ },
+ "extra": {
+  "pronunciation": "へっじほっぐ",
+  "lyricist": "Noz.",
+  "composer": "Noz.",
+  "arranger": "Noz.",
+  "published_at": 1776060000000,
+  "released_at": 1619190000000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音リン"
+    ],
+    "asset": "vs_0710_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音リン",
+     "星乃一歌",
+     "天馬咲希",
+     "望月穂波",
+     "日野森志歩"
+    ],
+    "asset": "se_0710_01"
+   }
+  ],
+  "filler_sec": 7.875,
+  "bpm_main": 160.0
+ }
+}

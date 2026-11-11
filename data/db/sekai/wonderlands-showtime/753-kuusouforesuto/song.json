@@ -1,0 +1,204 @@
+{
+ "game": "sekai",
+ "song_id": "753",
+ "title": "空想フォレスト",
+ "artist": "じん",
+ "title_romaji": "kuusouforesuto",
+ "artist_romaji": "jin",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "174",
+ "version": "",
+ "date_added": "2026-08-13",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 328
+   },
+   "source": {
+    "music_difficulty_id": 3761,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 9,
+      "ex_tap": 4,
+      "tap": 36,
+      "hold": 4,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 409
+   },
+   "source": {
+    "music_difficulty_id": 3762,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 21,
+      "ex_tap": 10,
+      "tap": 72,
+      "hold": 6,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 721
+   },
+   "source": {
+    "music_difficulty_id": 3763,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 56,
+      "ex_tap": 31,
+      "tap": 129,
+      "flick": 25,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 917
+   },
+   "source": {
+    "music_difficulty_id": 3764,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 52,
+      "slide": 90,
+      "tap": 212,
+      "other": 8,
+      "flick": 45,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 925
+   },
+   "source": {
+    "music_difficulty_id": 3765,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 41,
+      "tap": 291,
+      "ex_tap": 134,
+      "slide": 85,
+      "flick": 81,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 753,
+   "assetbundle": "jacket_s_753",
+   "seq": 1568001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_753.png",
+   "sha256": "3a043c9d07d3f31b57e56ab0e5e6af971d76f5996bca3b62245bb143baf91ecc",
+   "width": 320,
+   "height": 320,
+   "bytes": 9887
+  }
+ },
+ "extra": {
+  "pronunciation": "くうそうふぉれすと",
+  "lyricist": "じん",
+  "composer": "じん",
+  "arranger": "じん",
+  "published_at": 1786600800000,
+  "released_at": 1328022000000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0753_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "巡音ルカ",
+     "天馬司",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0753_01"
+   }
+  ],
+  "filler_sec": 7.966000080108643,
+  "bpm_main": 174.0
+ }
+}

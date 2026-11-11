@@ -1,0 +1,210 @@
+{
+ "game": "sekai",
+ "song_id": "237",
+ "title": "君の夜をくれ",
+ "artist": "古川本舗",
+ "title_romaji": "kiminoyoruokure",
+ "artist_romaji": "furukawahonpo",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "80",
+ "version": "",
+ "date_added": "2022-08-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 140
+   },
+   "source": {
+    "music_difficulty_id": 1181,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 8,
+      "tap": 30,
+      "slide": 5,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 179
+   },
+   "source": {
+    "music_difficulty_id": 1182,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 16,
+      "hold": 8,
+      "tap": 76,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 318
+   },
+   "source": {
+    "music_difficulty_id": 1183,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 49,
+      "hold": 17,
+      "tap": 65,
+      "flick": 7,
+      "ex_tap": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 482
+   },
+   "source": {
+    "music_difficulty_id": 1184,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 72,
+      "hold": 37,
+      "tap": 126,
+      "ex_tap": 9,
+      "flick": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 662
+   },
+   "source": {
+    "music_difficulty_id": 1185,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 100,
+      "tap": 253,
+      "hold": 34,
+      "flick": 21,
+      "ex_tap": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 237,
+   "assetbundle": "jacket_s_237",
+   "seq": 2618901
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_237.png",
+   "sha256": "c91fa28b6b0c933b3c799e5ae2f02474d23b3abb530c2eb0270cbff48b599fbb",
+   "width": 320,
+   "height": 320,
+   "bytes": 24558
+  }
+ },
+ "extra": {
+  "pronunciation": "きみのよるをくれ",
+  "lyricist": "古川本舗",
+  "composer": "古川本舗",
+  "arranger": "古川本舗・和音正人",
+  "published_at": 1661778300000,
+  "released_at": 1661698800000,
+  "tags": [
+   "school_refusal",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "巡音ルカ"
+    ],
+    "asset": "vs_0237_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "暁山瑞希",
+     "巡音ルカ",
+     "宵崎奏",
+     "朝比奈まふゆ",
+     "東雲絵名"
+    ],
+    "asset": "se_0237_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "暁山瑞希"
+    ],
+    "asset": "an_0237_01"
+   }
+  ],
+  "filler_sec": 7.491700172424316,
+  "bpm_main": 80.0
+ }
+}

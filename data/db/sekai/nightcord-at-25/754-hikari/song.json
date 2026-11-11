@@ -1,0 +1,203 @@
+{
+ "game": "sekai",
+ "song_id": "754",
+ "title": "光",
+ "artist": "水野あつ",
+ "title_romaji": "hikari",
+ "artist_romaji": "mizunoatsu",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "172",
+ "version": "",
+ "date_added": "2026-07-09",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 222
+   },
+   "source": {
+    "music_difficulty_id": 3766,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 49,
+      "hold": 11,
+      "ex_tap": 6,
+      "slide": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 364
+   },
+   "source": {
+    "music_difficulty_id": 3767,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 7,
+      "tap": 96,
+      "slide": 21,
+      "flick": 2,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 563
+   },
+   "source": {
+    "music_difficulty_id": 3768,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 5,
+      "other": 3,
+      "tap": 141,
+      "flick": 19,
+      "slide": 44,
+      "ex_tap": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 784
+   },
+   "source": {
+    "music_difficulty_id": 3769,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 3,
+      "tap": 210,
+      "flick": 31,
+      "slide": 100,
+      "ex_tap": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 853
+   },
+   "source": {
+    "music_difficulty_id": 3770,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 9,
+      "tap": 336,
+      "slide": 87,
+      "flick": 65,
+      "other": 22,
+      "ex_tap": 104
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 754,
+   "assetbundle": "jacket_s_754",
+   "seq": 2666701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_754.png",
+   "sha256": "cce6b2749e971d79139d07b7d78dbfee36ec62268aa8cf408e6614a53d778e62",
+   "width": 320,
+   "height": 320,
+   "bytes": 27346
+  }
+ },
+ "extra": {
+  "pronunciation": "ひかり",
+  "lyricist": "水野あつ",
+  "composer": "水野あつ",
+  "arranger": "小島英也",
+  "published_at": 1783576800000,
+  "released_at": 1783522800000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0754_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "東雲絵名",
+     "MEIKO",
+     "宵崎奏",
+     "朝比奈まふゆ",
+     "暁山瑞希"
+    ],
+    "asset": "se_0754_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 172.0
+ }
+}

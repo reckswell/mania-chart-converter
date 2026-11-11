@@ -1,0 +1,216 @@
+{
+ "game": "sekai",
+ "song_id": "293",
+ "title": "アイロニ",
+ "artist": "すこっぷ",
+ "title_romaji": "aironi",
+ "artist_romaji": "sukoppu",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "90",
+ "version": "",
+ "date_added": "2023-02-13",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 131
+   },
+   "source": {
+    "music_difficulty_id": 1461,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 50,
+      "hold": 9,
+      "slide": 1,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 261
+   },
+   "source": {
+    "music_difficulty_id": 1462,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 134,
+      "slide": 18,
+      "hold": 8,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 605
+   },
+   "source": {
+    "music_difficulty_id": 1463,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 271,
+      "hold": 11,
+      "slide": 43,
+      "ex_tap": 15,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 861
+   },
+   "source": {
+    "music_difficulty_id": 1464,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 526,
+      "hold": 14,
+      "slide": 76,
+      "flick": 48,
+      "ex_tap": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 943
+   },
+   "source": {
+    "music_difficulty_id": 1465,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 608,
+      "slide": 95,
+      "hold": 7,
+      "flick": 56,
+      "ex_tap": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 6",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 293,
+   "assetbundle": "jacket_s_293",
+   "seq": 1624501
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_293.png",
+   "sha256": "fd47ff49a56a0daadbf8b1ebaa6ee894a8b9885e1c5492b5f7ba49542cddf5a0",
+   "width": 320,
+   "height": 320,
+   "bytes": 25271
+  }
+ },
+ "extra": {
+  "pronunciation": "あいろに",
+  "lyricist": "すこっぷ",
+  "composer": "すこっぷ",
+  "arranger": "すこっぷ",
+  "published_at": 1676268000000,
+  "released_at": 1337785200000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0293_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音レン",
+     "宵崎奏",
+     "朝比奈まふゆ",
+     "東雲絵名",
+     "暁山瑞希"
+    ],
+    "asset": "se_0293_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "朝比奈まふゆ"
+    ],
+    "asset": "an_0293_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "東雲絵名"
+    ],
+    "asset": "an_0293_02"
+   }
+  ],
+  "filler_sec": 7.659999847412109,
+  "bpm_main": 90.0
+ }
+}

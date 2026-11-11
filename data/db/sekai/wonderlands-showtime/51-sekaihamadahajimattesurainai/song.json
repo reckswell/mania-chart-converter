@@ -1,0 +1,218 @@
+{
+ "game": "sekai",
+ "song_id": "51",
+ "title": "セカイはまだ始まってすらいない",
+ "artist": "ピノキオピー",
+ "title_romaji": "sekaihamadahajimattesurainai",
+ "artist_romaji": "pinokiopii",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "138",
+ "version": "",
+ "date_added": "2019-06-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 122
+   },
+   "source": {
+    "music_difficulty_id": 251,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 74,
+      "hold": 4,
+      "ex_tap": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 400
+   },
+   "source": {
+    "music_difficulty_id": 252,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 190,
+      "hold": 16,
+      "slide": 20,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 565
+   },
+   "source": {
+    "music_difficulty_id": 253,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 292,
+      "ex_tap": 29,
+      "flick": 16,
+      "slide": 40,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 774
+   },
+   "source": {
+    "music_difficulty_id": 254,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 375,
+      "ex_tap": 36,
+      "flick": 44,
+      "slide": 69,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1027
+   },
+   "source": {
+    "music_difficulty_id": 255,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 482,
+      "ex_tap": 29,
+      "slide": 117,
+      "hold": 27,
+      "flick": 62
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 51,
+   "assetbundle": "jacket_s_051",
+   "seq": 2500101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_051.png",
+   "sha256": "8ddb8f9f6831db3b0fdaf6fb57f847700c666f4ed0afc404ed70e7901b588189",
+   "width": 320,
+   "height": 320,
+   "bytes": 36778
+  }
+ },
+ "extra": {
+  "pronunciation": "せかいはまだはじまってすらいない",
+  "lyricist": "ピノキオピー",
+  "composer": "ピノキオピー",
+  "arranger": "ピノキオピー",
+  "published_at": 1560148031000,
+  "released_at": 1601391600000,
+  "tags": [
+   "theme_park",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0051_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "天馬司",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類",
+     "初音ミク"
+    ],
+    "asset": "0051_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "天馬司",
+     "鳳えむ"
+    ],
+    "asset": "an_0051_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "an_0051_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 138.0
+ }
+}

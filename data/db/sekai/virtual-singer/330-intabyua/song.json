@@ -1,0 +1,189 @@
+{
+ "game": "sekai",
+ "song_id": "330",
+ "title": "インタビュア",
+ "artist": "クワガタP",
+ "title_romaji": "intabyua",
+ "artist_romaji": "kuwagatapii",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "125",
+ "version": "",
+ "date_added": "2023-04-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 254
+   },
+   "source": {
+    "music_difficulty_id": 1646,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 56,
+      "hold": 19,
+      "ex_tap": 3,
+      "slide": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 305
+   },
+   "source": {
+    "music_difficulty_id": 1647,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 129,
+      "hold": 3,
+      "slide": 18,
+      "flick": 9,
+      "ex_tap": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 546
+   },
+   "source": {
+    "music_difficulty_id": 1648,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 50,
+      "tap": 287,
+      "flick": 38,
+      "ex_tap": 11,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1006
+   },
+   "source": {
+    "music_difficulty_id": 1649,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 404,
+      "slide": 101,
+      "flick": 83,
+      "ex_tap": 38,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 5; stacked taps merged: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1097
+   },
+   "source": {
+    "music_difficulty_id": 1650,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 390,
+      "slide": 129,
+      "flick": 100,
+      "ex_tap": 42,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 330,
+   "assetbundle": "jacket_s_330",
+   "seq": 1126801
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_330.png",
+   "sha256": "eafeafdd469a3e79d9c33c210dc2e21c6bdc8440cbceba74f824433ff32eb3fd",
+   "width": 320,
+   "height": 320,
+   "bytes": 27907
+  }
+ },
+ "extra": {
+  "pronunciation": "いんたびゅあ",
+  "lyricist": "クワガタP",
+  "composer": "クワガタP",
+  "arranger": "クワガタP",
+  "published_at": 1680415200000,
+  "released_at": 1320332400000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "巡音ルカ"
+    ],
+    "asset": "vs_0330_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 125.0
+ }
+}

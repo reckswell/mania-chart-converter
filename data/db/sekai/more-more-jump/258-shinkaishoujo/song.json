@@ -1,0 +1,226 @@
+{
+ "game": "sekai",
+ "song_id": "258",
+ "title": "深海少女",
+ "artist": "ゆうゆ",
+ "title_romaji": "shinkaishoujo",
+ "artist_romaji": "yuuyu",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "137",
+ "version": "",
+ "date_added": "2023-04-07",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 272
+   },
+   "source": {
+    "music_difficulty_id": 1286,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 48,
+      "hold": 17,
+      "ex_tap": 4,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 449
+   },
+   "source": {
+    "music_difficulty_id": 1287,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 8,
+      "tap": 118,
+      "ex_tap": 5,
+      "slide": 23,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 620
+   },
+   "source": {
+    "music_difficulty_id": 1288,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 10,
+      "slide": 33,
+      "tap": 195,
+      "ex_tap": 50,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 867
+   },
+   "source": {
+    "music_difficulty_id": 1289,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 353,
+      "slide": 72,
+      "ex_tap": 77,
+      "flick": 25,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 994
+   },
+   "source": {
+    "music_difficulty_id": 1290,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 546,
+      "hold": 13,
+      "slide": 66,
+      "ex_tap": 77,
+      "flick": 76
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 258,
+   "assetbundle": "jacket_s_258",
+   "seq": 1327101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_258.png",
+   "sha256": "4c506420492b62a4ae5cf238163cd9c17aa335308c7fd052e5a9d380b0bd3251",
+   "width": 320,
+   "height": 320,
+   "bytes": 43712
+  }
+ },
+ "extra": {
+  "pronunciation": "しんかいしょうじょ",
+  "lyricist": "ゆうゆ",
+  "composer": "ゆうゆ",
+  "arranger": "ゆうゆ",
+  "published_at": 1680847200000,
+  "released_at": 1283266800000,
+  "tags": [
+   "idol",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0258_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "花里みのり",
+     "桐谷遥",
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "se_0258_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "桐谷遥"
+    ],
+    "asset": "an_0258_05"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "日野森雫"
+    ],
+    "asset": "an_0258_06"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "MEIKO"
+    ],
+    "asset": "an_0258_07"
+   }
+  ],
+  "filler_sec": 8.124099731445312,
+  "bpm_main": 137.0
+ }
+}

@@ -1,0 +1,232 @@
+{
+ "game": "sekai",
+ "song_id": "605",
+ "title": "Sympathy",
+ "artist": "Eve",
+ "title_romaji": "Sympathy",
+ "artist_romaji": "Eve",
+ "genre": "Leo/need",
+ "bpm": "184",
+ "version": "",
+ "date_added": "2025-03-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 272
+   },
+   "source": {
+    "music_difficulty_id": 3021,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 10,
+      "tap": 43,
+      "slide": 11,
+      "ex_tap": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 349
+   },
+   "source": {
+    "music_difficulty_id": 3022,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 22,
+      "tap": 81,
+      "ex_tap": 7,
+      "hold": 5,
+      "flick": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 582
+   },
+   "source": {
+    "music_difficulty_id": 3023,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 55,
+      "tap": 145,
+      "hold": 5,
+      "ex_tap": 22,
+      "flick": 25,
+      "other": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 4",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 723
+   },
+   "source": {
+    "music_difficulty_id": 3024,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 227,
+      "hold": 14,
+      "slide": 61,
+      "ex_tap": 55,
+      "flick": 62,
+      "other": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 860
+   },
+   "source": {
+    "music_difficulty_id": 3025,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 12,
+      "tap": 284,
+      "slide": 58,
+      "flick": 85,
+      "ex_tap": 84,
+      "other": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "modifier without target 7: 1",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1043
+   },
+   "source": {
+    "music_difficulty_id": 4101,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 310,
+      "hold": 52,
+      "ex_tap": 67,
+      "slide": 45,
+      "flick": 138,
+      "other": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "modifier without target 7: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 605,
+   "assetbundle": "jacket_s_605",
+   "seq": 2250301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_605.png",
+   "sha256": "a97c6965ee52f2ea704c3fce4119f0734775df525b8567bac6d87dc5d95b390d",
+   "width": 320,
+   "height": 320,
+   "bytes": 19941
+  }
+ },
+ "extra": {
+  "pronunciation": "しんぱしー",
+  "lyricist": "Eve",
+  "composer": "Eve",
+  "arranger": "Numa",
+  "published_at": 1743314400000,
+  "released_at": 1743260400000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0605_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "日野森志歩",
+     "初音ミク",
+     "星乃一歌",
+     "天馬咲希",
+     "望月穂波"
+    ],
+    "asset": "se_0605_01"
+   }
+  ],
+  "filler_sec": 9.32610034942627,
+  "bpm_main": 184.0
+ }
+}

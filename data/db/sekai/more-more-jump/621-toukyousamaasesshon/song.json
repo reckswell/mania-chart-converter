@@ -1,0 +1,206 @@
+{
+ "game": "sekai",
+ "song_id": "621",
+ "title": "東京サマーセッション",
+ "artist": "HoneyWorks",
+ "title_romaji": "toukyousamaasesshon",
+ "artist_romaji": "HoneyWorks",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "160",
+ "version": "",
+ "date_added": "2025-10-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 290
+   },
+   "source": {
+    "music_difficulty_id": 3101,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 53,
+      "hold": 24,
+      "slide": 5,
+      "ex_tap": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 399
+   },
+   "source": {
+    "music_difficulty_id": 3102,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 121,
+      "ex_tap": 31,
+      "slide": 34,
+      "flick": 11,
+      "other": 4,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 781
+   },
+   "source": {
+    "music_difficulty_id": 3103,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 118,
+      "ex_tap": 130,
+      "hold": 6,
+      "slide": 47,
+      "flick": 13,
+      "other": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 892
+   },
+   "source": {
+    "music_difficulty_id": 3104,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 191,
+      "ex_tap": 163,
+      "other": 9,
+      "slide": 62,
+      "flick": 25,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1073
+   },
+   "source": {
+    "music_difficulty_id": 3105,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 27,
+      "tap": 634,
+      "ex_tap": 225,
+      "flick": 76,
+      "other": 36,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 621,
+   "assetbundle": "jacket_s_621",
+   "seq": 1355901
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_621.png",
+   "sha256": "00a3834242bf8f4838ea79a899813876759eee2968377df46d20bd59df4332e7",
+   "width": 320,
+   "height": 320,
+   "bytes": 40393
+  }
+ },
+ "extra": {
+  "pronunciation": "とうきょうさまーせっしょん",
+  "lyricist": "Gom, shito",
+  "composer": "Gom, Oji",
+  "arranger": "HoneyWorks",
+  "published_at": 1759471200000,
+  "released_at": 1437663600000,
+  "tags": [
+   "idol"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "GUMI",
+     "flower"
+    ],
+    "asset": "vs_0621_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "MEIKO",
+     "花里みのり",
+     "桐谷遥",
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "se_0621_01"
+   }
+  ],
+  "filler_sec": 9.375,
+  "bpm_main": 160.0
+ }
+}

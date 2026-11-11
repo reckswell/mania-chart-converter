@@ -1,0 +1,211 @@
+{
+ "game": "sekai",
+ "song_id": "241",
+ "title": "アサガオの散る頃に",
+ "artist": "ぷす(fromツユ)",
+ "title_romaji": "asagaonochirukoroni",
+ "artist_romaji": "pusu furomutsuyu",
+ "genre": "Leo/need",
+ "bpm": "85",
+ "version": "",
+ "date_added": "2022-05-23",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 210
+   },
+   "source": {
+    "music_difficulty_id": 1201,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 39,
+      "hold": 16,
+      "ex_tap": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 273
+   },
+   "source": {
+    "music_difficulty_id": 1202,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 18,
+      "tap": 82,
+      "ex_tap": 19,
+      "flick": 2,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 478
+   },
+   "source": {
+    "music_difficulty_id": 1203,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 189,
+      "slide": 37,
+      "ex_tap": 17,
+      "flick": 8,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 748
+   },
+   "source": {
+    "music_difficulty_id": 1204,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 16,
+      "tap": 250,
+      "slide": 70,
+      "flick": 16,
+      "ex_tap": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 832
+   },
+   "source": {
+    "music_difficulty_id": 1205,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 103,
+      "tap": 313,
+      "flick": 33,
+      "hold": 6,
+      "ex_tap": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 241,
+   "assetbundle": "jacket_s_241",
+   "seq": 1216801
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_241.png",
+   "sha256": "8c3a8990e9748062e3cc43a7a5a9d7969f10542cdc6fbfa50091569bd0514a98",
+   "width": 320,
+   "height": 320,
+   "bytes": 20562
+  }
+ },
+ "extra": {
+  "pronunciation": "あさがおのちるころに",
+  "lyricist": "ぷす(fromツユ)",
+  "composer": "ぷす(fromツユ)",
+  "arranger": "ぷす(fromツユ)",
+  "published_at": 1653285600000,
+  "released_at": 1426345200000,
+  "tags": [
+   "light_music_club",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0241_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "星乃一歌",
+     "望月穂波"
+    ],
+    "asset": "se_0241_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "望月穂波"
+    ],
+    "asset": "an_0241_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "categories": [
+   "original"
+  ],
+  "bpm_main": 85.0,
+  "bpm_source": "sus"
+ }
+}

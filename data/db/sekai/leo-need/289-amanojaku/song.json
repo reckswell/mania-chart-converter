@@ -1,0 +1,224 @@
+{
+ "game": "sekai",
+ "song_id": "289",
+ "title": "天ノ弱",
+ "artist": "164",
+ "title_romaji": "amanojaku",
+ "artist_romaji": "164",
+ "genre": "Leo/need",
+ "bpm": "200-205 (200)",
+ "version": "",
+ "date_added": "2022-10-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 265
+   },
+   "source": {
+    "music_difficulty_id": 1441,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 71,
+      "hold": 18,
+      "slide": 1,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 334
+   },
+   "source": {
+    "music_difficulty_id": 1442,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 143,
+      "slide": 13,
+      "hold": 4,
+      "ex_tap": 18,
+      "flick": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 685
+   },
+   "source": {
+    "music_difficulty_id": 1443,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 193,
+      "slide": 53,
+      "ex_tap": 18,
+      "flick": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 4",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 982
+   },
+   "source": {
+    "music_difficulty_id": 1444,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 326,
+      "hold": 15,
+      "slide": 102,
+      "ex_tap": 36,
+      "flick": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1131
+   },
+   "source": {
+    "music_difficulty_id": 1445,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 447,
+      "slide": 142,
+      "hold": 16,
+      "ex_tap": 49,
+      "flick": 61
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 289,
+   "assetbundle": "jacket_s_289",
+   "seq": 1219601
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_289.png",
+   "sha256": "57b2114e38eae121dae488b22204541a7bcf72f3c37dca49f63fec6309894411",
+   "width": 320,
+   "height": 320,
+   "bytes": 30652
+  }
+ },
+ "extra": {
+  "pronunciation": "あまのじゃく",
+  "lyricist": "164",
+  "composer": "164",
+  "arranger": "164",
+  "published_at": 1664604000000,
+  "released_at": 1306508400000,
+  "tags": [
+   "light_music_club",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "GUMI"
+    ],
+    "asset": "vs_0289_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "星乃一歌",
+     "天馬咲希",
+     "望月穂波",
+     "日野森志歩"
+    ],
+    "asset": "se_0289_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "日野森志歩"
+    ],
+    "asset": "an_0289_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鏡音レン"
+    ],
+    "asset": "an_0289_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "KAITO"
+    ],
+    "asset": "an_0289_03"
+   }
+  ],
+  "filler_sec": 8.399999618530273,
+  "bpm_main": 200.0
+ }
+}

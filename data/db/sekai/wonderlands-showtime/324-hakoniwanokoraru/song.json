@@ -1,0 +1,244 @@
+{
+ "game": "sekai",
+ "song_id": "324",
+ "title": "箱庭のコラル",
+ "artist": "koyori",
+ "title_romaji": "hakoniwanokoraru",
+ "artist_romaji": "koyori",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "138",
+ "version": "",
+ "date_added": "2023-05-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 255
+   },
+   "source": {
+    "music_difficulty_id": 1616,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 19,
+      "tap": 52,
+      "ex_tap": 7,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 387
+   },
+   "source": {
+    "music_difficulty_id": 1617,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 23,
+      "tap": 115,
+      "flick": 3,
+      "ex_tap": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 638
+   },
+   "source": {
+    "music_difficulty_id": 1618,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 64,
+      "tap": 136,
+      "ex_tap": 33,
+      "hold": 2,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 862
+   },
+   "source": {
+    "music_difficulty_id": 1619,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 84,
+      "ex_tap": 36,
+      "tap": 245,
+      "hold": 23,
+      "flick": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 981
+   },
+   "source": {
+    "music_difficulty_id": 1620,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 84,
+      "ex_tap": 33,
+      "tap": 366,
+      "hold": 19,
+      "flick": 95
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1220
+   },
+   "source": {
+    "music_difficulty_id": 4122,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 359,
+      "slide": 40,
+      "flick": 98,
+      "hold": 51,
+      "ex_tap": 184,
+      "other": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 324,
+   "assetbundle": "jacket_s_324",
+   "seq": 2529001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_324.png",
+   "sha256": "85105f3b8f0b3db4c787f1811f516b0aef35b9e41a7d900da730773fb54753e6",
+   "width": 320,
+   "height": 320,
+   "bytes": 24822
+  }
+ },
+ "extra": {
+  "pronunciation": "はこにわのこらる",
+  "lyricist": "koyori",
+  "composer": "koyori",
+  "arranger": "koyori",
+  "published_at": 1685365500000,
+  "released_at": 1685286000000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0324_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "草薙寧々",
+     "KAITO",
+     "天馬司",
+     "鳳えむ",
+     "神代類"
+    ],
+    "asset": "se_0324_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "草薙寧々"
+    ],
+    "asset": "an_0324_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "KAITO"
+    ],
+    "asset": "an_0324_02"
+   }
+  ],
+  "filler_sec": 8.991700172424316,
+  "bpm_main": 138.0
+ }
+}

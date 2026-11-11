@@ -1,0 +1,207 @@
+{
+ "game": "sekai",
+ "song_id": "438",
+ "title": "ハイドアンド・シーク",
+ "artist": "19's Sound Factory",
+ "title_romaji": "haidoandoshiiku",
+ "artist_romaji": "19's Sound Factory",
+ "genre": "Leo/need",
+ "bpm": "138",
+ "version": "",
+ "date_added": "2024-01-09",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 237
+   },
+   "source": {
+    "music_difficulty_id": 2186,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 15,
+      "tap": 48,
+      "slide": 6,
+      "ex_tap": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 321
+   },
+   "source": {
+    "music_difficulty_id": 2187,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 27,
+      "tap": 105,
+      "ex_tap": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 532
+   },
+   "source": {
+    "music_difficulty_id": 2188,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 42,
+      "tap": 209,
+      "ex_tap": 17,
+      "flick": 6,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 764
+   },
+   "source": {
+    "music_difficulty_id": 2189,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 375,
+      "slide": 88,
+      "ex_tap": 35,
+      "flick": 29,
+      "other": 2,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 898
+   },
+   "source": {
+    "music_difficulty_id": 2190,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 514,
+      "slide": 90,
+      "ex_tap": 42,
+      "other": 7,
+      "flick": 66,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 438,
+   "assetbundle": "jacket_s_438",
+   "seq": 1236201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_438.png",
+   "sha256": "e2a7bc8951f575683984f0edcee0901c58c9b5c9c94d55550eac9e11edd03a97",
+   "width": 320,
+   "height": 320,
+   "bytes": 22549
+  }
+ },
+ "extra": {
+  "pronunciation": "はいどあんどしーく",
+  "lyricist": "19 -iku-",
+  "composer": "19 -iku-",
+  "arranger": "19 -iku-",
+  "published_at": 1704780000000,
+  "released_at": 1415026800000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0438_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "星乃一歌",
+     "望月穂波"
+    ],
+    "asset": "se_0438_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "望月穂波"
+    ],
+    "asset": "an_0438_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 138.0
+ }
+}

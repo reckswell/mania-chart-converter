@@ -1,0 +1,211 @@
+{
+ "game": "sekai",
+ "song_id": "178",
+ "title": "にっこり^^調査隊のテーマ",
+ "artist": "ワンダフル☆オポチュニティ！",
+ "title_romaji": "nikkorichousatainoteema",
+ "artist_romaji": "wandafuruopochuniti",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2022-01-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 254
+   },
+   "source": {
+    "music_difficulty_id": 886,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 75,
+      "hold": 26,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 414
+   },
+   "source": {
+    "music_difficulty_id": 887,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 222,
+      "ex_tap": 17,
+      "hold": 14,
+      "flick": 6,
+      "slide": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 724
+   },
+   "source": {
+    "music_difficulty_id": 888,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 364,
+      "flick": 29,
+      "ex_tap": 45,
+      "slide": 63,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1026
+   },
+   "source": {
+    "music_difficulty_id": 889,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 442,
+      "flick": 104,
+      "slide": 109,
+      "ex_tap": 40,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "duplicate slides: 1; stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1195
+   },
+   "source": {
+    "music_difficulty_id": 890,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 489,
+      "slide": 139,
+      "ex_tap": 41,
+      "hold": 37,
+      "flick": 112
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 178,
+   "assetbundle": "jacket_s_178",
+   "seq": 2512901
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_178.png",
+   "sha256": "4ec80e19c562e555567b10408c4149c9519b2868aabdab82d9b27b9c231ad65c",
+   "width": 320,
+   "height": 320,
+   "bytes": 37555
+  }
+ },
+ "extra": {
+  "pronunciation": "にっこりちょうさたいのてーま",
+  "lyricist": "じーざす",
+  "composer": "じーざす",
+  "arranger": "ワンダフル☆オポチュニティ！",
+  "published_at": 1642597500000,
+  "released_at": 1642518000000,
+  "tags": [
+   "theme_park",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音リン",
+     "鏡音レン"
+    ],
+    "asset": "vs_0178_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鳳えむ",
+     "初音ミク",
+     "天馬司",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0178_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "初音ミク",
+     "巡音ルカ"
+    ],
+    "asset": "an_0178_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 180.0
+ }
+}

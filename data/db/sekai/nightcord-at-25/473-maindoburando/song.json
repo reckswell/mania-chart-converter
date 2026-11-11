@@ -1,0 +1,202 @@
+{
+ "game": "sekai",
+ "song_id": "473",
+ "title": "マインドブランド",
+ "artist": "MARETU",
+ "title_romaji": "maindoburando",
+ "artist_romaji": "MARETU",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "156",
+ "version": "",
+ "date_added": "2024-07-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 254
+   },
+   "source": {
+    "music_difficulty_id": 2361,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 8,
+      "ex_tap": 5,
+      "tap": 50,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 336
+   },
+   "source": {
+    "music_difficulty_id": 2362,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 27,
+      "ex_tap": 16,
+      "tap": 112,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 678
+   },
+   "source": {
+    "music_difficulty_id": 2363,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 39,
+      "ex_tap": 32,
+      "tap": 102,
+      "hold": 19,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 764
+   },
+   "source": {
+    "music_difficulty_id": 2364,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 10,
+      "tap": 291,
+      "flick": 27,
+      "slide": 62,
+      "ex_tap": 42,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1023
+   },
+   "source": {
+    "music_difficulty_id": 2365,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 16,
+      "tap": 319,
+      "flick": 57,
+      "slide": 90,
+      "hold": 38,
+      "ex_tap": 66
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 473,
+   "assetbundle": "jacket_s_473",
+   "seq": 1642501
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_473.png",
+   "sha256": "85e70b0bdb4f2d03b312732fc73288f308f7de466675bd401994df666200f5b5",
+   "width": 320,
+   "height": 320,
+   "bytes": 32825
+  }
+ },
+ "extra": {
+  "pronunciation": "まいんどぶらんど",
+  "lyricist": "MARETU",
+  "composer": "MARETU",
+  "arranger": "MARETU",
+  "published_at": 1722232800000,
+  "released_at": 1452351600000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0473_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "宵崎奏",
+     "朝比奈まふゆ",
+     "東雲絵名",
+     "暁山瑞希"
+    ],
+    "asset": "se_0473_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 156.0
+ }
+}

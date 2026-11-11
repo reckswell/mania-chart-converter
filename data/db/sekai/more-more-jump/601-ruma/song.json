@@ -1,0 +1,204 @@
+{
+ "game": "sekai",
+ "song_id": "601",
+ "title": "ルマ",
+ "artist": "かいりきベア",
+ "title_romaji": "ruma",
+ "artist_romaji": "kairikibea",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "154",
+ "version": "",
+ "date_added": "2025-11-04",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 206
+   },
+   "source": {
+    "music_difficulty_id": 3001,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 18,
+      "tap": 52,
+      "hold": 16,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 368
+   },
+   "source": {
+    "music_difficulty_id": 3002,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 121,
+      "ex_tap": 12,
+      "slide": 20,
+      "flick": 9,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 577
+   },
+   "source": {
+    "music_difficulty_id": 3003,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 32,
+      "slide": 45,
+      "ex_tap": 54,
+      "tap": 271,
+      "hold": 3,
+      "other": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 899
+   },
+   "source": {
+    "music_difficulty_id": 3004,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 25,
+      "tap": 406,
+      "slide": 82,
+      "flick": 118,
+      "ex_tap": 37,
+      "other": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1143
+   },
+   "source": {
+    "music_difficulty_id": 3005,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 150,
+      "tap": 544,
+      "flick": 119,
+      "hold": 22,
+      "other": 5,
+      "ex_tap": 84
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 601,
+   "assetbundle": "jacket_s_601",
+   "seq": 1357301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_601.png",
+   "sha256": "04831f1e5e48a984fccfbc1a31f9fe4b40051b53e1ff8858f66b5a1cfbb4551f",
+   "width": 320,
+   "height": 320,
+   "bytes": 45830
+  }
+ },
+ "extra": {
+  "pronunciation": "るま",
+  "lyricist": "かいりきベア",
+  "composer": "かいりきベア",
+  "arranger": "かいりきベア",
+  "published_at": 1762236000000,
+  "released_at": 1574434800000,
+  "tags": [
+   "idol"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0601_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音レン",
+     "花里みのり",
+     "桐谷遥",
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "se_0601_01"
+   }
+  ],
+  "filler_sec": 9.390000343322754,
+  "bpm_main": 154.0
+ }
+}

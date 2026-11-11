@@ -1,0 +1,201 @@
+{
+ "game": "sekai",
+ "song_id": "302",
+ "title": "フレー",
+ "artist": "HoneyWorks",
+ "title_romaji": "furee",
+ "artist_romaji": "HoneyWorks",
+ "genre": "Leo/need",
+ "bpm": "168",
+ "version": "",
+ "date_added": "2022-11-26",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 321
+   },
+   "source": {
+    "music_difficulty_id": 1506,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 26,
+      "tap": 58,
+      "ex_tap": 2,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 561
+   },
+   "source": {
+    "music_difficulty_id": 1507,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 29,
+      "tap": 116,
+      "ex_tap": 19,
+      "hold": 2,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 750
+   },
+   "source": {
+    "music_difficulty_id": 1508,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 64,
+      "tap": 184,
+      "ex_tap": 33,
+      "flick": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1067
+   },
+   "source": {
+    "music_difficulty_id": 1509,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 110,
+      "tap": 404,
+      "ex_tap": 49,
+      "flick": 55
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1328
+   },
+   "source": {
+    "music_difficulty_id": 1510,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 624,
+      "slide": 102,
+      "ex_tap": 57,
+      "flick": 100,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 302,
+   "assetbundle": "jacket_s_302",
+   "seq": 2221801
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_302.png",
+   "sha256": "bfa78f908b8216f4d9f49f062ccb5fc9a9c4ef587e74fe913a51e4df6bf836cf",
+   "width": 320,
+   "height": 320,
+   "bytes": 22669
+  }
+ },
+ "extra": {
+  "pronunciation": "ふれー",
+  "lyricist": "HoneyWorks",
+  "composer": "HoneyWorks",
+  "arranger": "HoneyWorks",
+  "published_at": 1669442400000,
+  "released_at": 1661871600000,
+  "tags": [
+   "light_music_club",
+   "other",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "MEIKO"
+    ],
+    "asset": "vs_0302_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "星乃一歌",
+     "日野森志歩"
+    ],
+    "asset": "se_0302_01"
+   }
+  ],
+  "filler_sec": 8.991700172424316,
+  "collaboration_id": 3,
+  "bpm_main": 168.0
+ }
+}

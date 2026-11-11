@@ -1,0 +1,199 @@
+{
+ "game": "sekai",
+ "song_id": "556",
+ "title": "サイハテ",
+ "artist": "小林オニキス",
+ "title_romaji": "saihate",
+ "artist_romaji": "kobayashionikisu",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "146",
+ "version": "",
+ "date_added": "2025-01-05",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 190
+   },
+   "source": {
+    "music_difficulty_id": 2776,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 66,
+      "ex_tap": 5,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 465
+   },
+   "source": {
+    "music_difficulty_id": 2777,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 122,
+      "flick": 1,
+      "ex_tap": 4,
+      "slide": 21,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 675
+   },
+   "source": {
+    "music_difficulty_id": 2778,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 38,
+      "tap": 216,
+      "ex_tap": 46,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 840
+   },
+   "source": {
+    "music_difficulty_id": 2779,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 270,
+      "ex_tap": 30,
+      "slide": 97,
+      "hold": 8,
+      "flick": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 999
+   },
+   "source": {
+    "music_difficulty_id": 2780,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 477,
+      "ex_tap": 116,
+      "hold": 19,
+      "slide": 76,
+      "flick": 75
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 556,
+   "assetbundle": "jacket_s_556",
+   "seq": 1647401
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_556.png",
+   "sha256": "3cce81f1235485820348157ba255b631c0d4a8fe59541c937695d735e213010b",
+   "width": 320,
+   "height": 320,
+   "bytes": 30884
+  }
+ },
+ "extra": {
+  "pronunciation": "さいはて",
+  "lyricist": "小林オニキス",
+  "composer": "小林オニキス",
+  "arranger": "-",
+  "published_at": 1736056800000,
+  "released_at": 1200409200000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0556_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "宵崎奏",
+     "朝比奈まふゆ",
+     "東雲絵名",
+     "暁山瑞希"
+    ],
+    "asset": "se_0556_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 146.0
+ }
+}

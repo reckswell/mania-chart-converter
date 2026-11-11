@@ -1,0 +1,212 @@
+{
+ "game": "sekai",
+ "song_id": "742",
+ "title": "旅に帰る",
+ "artist": "カンザキイオリ",
+ "title_romaji": "tabinikaeru",
+ "artist_romaji": "kanzakiiori",
+ "genre": "その他",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2026-06-18",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 305
+   },
+   "source": {
+    "music_difficulty_id": 3706,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 19,
+      "tap": 43,
+      "slide": 6,
+      "ex_tap": 3,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 361
+   },
+   "source": {
+    "music_difficulty_id": 3707,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 20,
+      "tap": 67,
+      "slide": 22,
+      "ex_tap": 7,
+      "flick": 3,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 529
+   },
+   "source": {
+    "music_difficulty_id": 3708,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 179,
+      "ex_tap": 16,
+      "slide": 27,
+      "flick": 7,
+      "hold": 17,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 670
+   },
+   "source": {
+    "music_difficulty_id": 3709,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 276,
+      "hold": 22,
+      "ex_tap": 16,
+      "slide": 50,
+      "flick": 13,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 876
+   },
+   "source": {
+    "music_difficulty_id": 3710,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 325,
+      "hold": 63,
+      "other": 65,
+      "ex_tap": 68,
+      "slide": 56,
+      "flick": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 742,
+   "assetbundle": "jacket_s_742",
+   "seq": 2765601
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_742.png",
+   "sha256": "e82154e09a6d4ff29169923e910104af4f950370790e72d86306e3fd61b423ab",
+   "width": 320,
+   "height": 320,
+   "bytes": 31096
+  }
+ },
+ "extra": {
+  "pronunciation": "たびにかえる",
+  "lyricist": "カンザキイオリ",
+  "composer": "カンザキイオリ",
+  "arranger": "カンザキイオリ",
+  "published_at": 1781781300000,
+  "released_at": 1781708400000,
+  "tags": [
+   "idol",
+   "light_music_club",
+   "other",
+   "school_refusal",
+   "street",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "重音テト"
+    ],
+    "asset": "vs_0742_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "望月穂波",
+     "日野森雫",
+     "小豆沢こはね",
+     "朝比奈まふゆ",
+     "巡音ルカ"
+    ],
+    "asset": "se_0742_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 170.0
+ }
+}

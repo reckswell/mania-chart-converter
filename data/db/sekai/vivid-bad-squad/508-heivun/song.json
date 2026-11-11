@@ -1,0 +1,220 @@
+{
+ "game": "sekai",
+ "song_id": "508",
+ "title": "ヘイヴン",
+ "artist": "煮ル果実",
+ "title_romaji": "heivun",
+ "artist_romaji": "nirukajitsu",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "144",
+ "version": "",
+ "date_added": "2025-01-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 234
+   },
+   "source": {
+    "music_difficulty_id": 2536,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "slide": 4,
+      "tap": 47,
+      "ex_tap": 8,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 312
+   },
+   "source": {
+    "music_difficulty_id": 2537,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "slide": 14,
+      "tap": 79,
+      "hold": 17,
+      "flick": 7,
+      "ex_tap": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "duplicate slides: 1; stacked taps identical: 1; from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 595
+   },
+   "source": {
+    "music_difficulty_id": 2538,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "tap": 208,
+      "slide": 49,
+      "ex_tap": 37,
+      "other": 15,
+      "flick": 31,
+      "hold": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 875
+   },
+   "source": {
+    "music_difficulty_id": 2539,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "slide": 77,
+      "tap": 305,
+      "ex_tap": 119,
+      "other": 5,
+      "hold": 7,
+      "flick": 76
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 977
+   },
+   "source": {
+    "music_difficulty_id": 2540,
+    "difficulty": "master",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "slide": 78,
+      "tap": 348,
+      "hold": 10,
+      "flick": 124,
+      "other": 6,
+      "ex_tap": 197
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1; from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 508,
+   "assetbundle": "jacket_s_508",
+   "seq": 2447701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Untitled-World/sekai-jacket-db/HEAD/src/jacket/jacket_s_508.png",
+   "sha256": "ea2526caa121a50724727f676b2c8cafea0f9c306801307fe137f81496f8ade3",
+   "width": 320,
+   "height": 320,
+   "bytes": 18309
+  }
+ },
+ "extra": {
+  "pronunciation": "へいヴん",
+  "lyricist": "煮ル果実",
+  "composer": "煮ル果実",
+  "arranger": "煮ル果実",
+  "published_at": 1737291900000,
+  "released_at": 1737212400000,
+  "tags": [
+   "street"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "flower"
+    ],
+    "asset": "vs_0508_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "青柳冬弥",
+     "鏡音レン",
+     "小豆沢こはね",
+     "白石杏",
+     "東雲彰人"
+    ],
+    "asset": "se_0508_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "青柳冬弥"
+    ],
+    "asset": "an_0508_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鏡音レン"
+    ],
+    "asset": "an_0508_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 144.0
+ }
+}

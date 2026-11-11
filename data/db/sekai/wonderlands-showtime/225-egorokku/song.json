@@ -1,0 +1,218 @@
+{
+ "game": "sekai",
+ "song_id": "225",
+ "title": "エゴロック",
+ "artist": "すりぃ",
+ "title_romaji": "egorokku",
+ "artist_romaji": "surii",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "225",
+ "version": "",
+ "date_added": "2022-10-06",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 262
+   },
+   "source": {
+    "music_difficulty_id": 1121,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 86,
+      "hold": 15,
+      "ex_tap": 8,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 523
+   },
+   "source": {
+    "music_difficulty_id": 1122,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 3,
+      "tap": 169,
+      "slide": 36,
+      "ex_tap": 13,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 4",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 841
+   },
+   "source": {
+    "music_difficulty_id": 1123,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 27,
+      "ex_tap": 57,
+      "tap": 202,
+      "slide": 73,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1041
+   },
+   "source": {
+    "music_difficulty_id": 1124,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 20,
+      "tap": 316,
+      "ex_tap": 98,
+      "slide": 91,
+      "flick": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1277
+   },
+   "source": {
+    "music_difficulty_id": 1125,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 13,
+      "slide": 106,
+      "tap": 469,
+      "ex_tap": 75,
+      "flick": 110
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 225,
+   "assetbundle": "jacket_s_225",
+   "seq": 1520101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_225.png",
+   "sha256": "9a1483d4c0c2bb8949650db6a5aec90735958d6c27bb148b4a0c5d32aedfc7bd",
+   "width": 320,
+   "height": 320,
+   "bytes": 22942
+  }
+ },
+ "extra": {
+  "pronunciation": "えごろっく",
+  "lyricist": "すりぃ",
+  "composer": "すりぃ",
+  "arranger": "すりぃ",
+  "published_at": 1665036000000,
+  "released_at": 1630940400000,
+  "tags": [
+   "theme_park",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音レン"
+    ],
+    "asset": "vs_0225_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音レン",
+     "天馬司",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0225_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "天馬司"
+    ],
+    "asset": "an_0225_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "an_0225_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 225.0
+ }
+}

@@ -1,0 +1,203 @@
+{
+ "game": "sekai",
+ "song_id": "436",
+ "title": "古書屋敷殺人事件",
+ "artist": "てにをは",
+ "title_romaji": "koshoyashikisatsujinjiken",
+ "artist_romaji": "tenioha",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "140",
+ "version": "",
+ "date_added": "2024-02-22",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 174
+   },
+   "source": {
+    "music_difficulty_id": 2176,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 11,
+      "ex_tap": 9,
+      "tap": 68
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 409
+   },
+   "source": {
+    "music_difficulty_id": 2177,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 122,
+      "ex_tap": 19,
+      "flick": 4,
+      "slide": 34,
+      "hold": 1,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 615
+   },
+   "source": {
+    "music_difficulty_id": 2178,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 4,
+      "tap": 310,
+      "flick": 5,
+      "ex_tap": 38,
+      "slide": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 823
+   },
+   "source": {
+    "music_difficulty_id": 2179,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 447,
+      "slide": 73,
+      "flick": 25,
+      "ex_tap": 49,
+      "other": 4,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 974
+   },
+   "source": {
+    "music_difficulty_id": 2180,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 506,
+      "slide": 96,
+      "flick": 67,
+      "ex_tap": 23,
+      "hold": 4,
+      "other": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 436,
+   "assetbundle": "jacket_s_436",
+   "seq": 1537801
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_436.png",
+   "sha256": "22b0cd419e7957c23fbdee249f0549a02778aea5dac92940fcf4d203f498361a",
+   "width": 320,
+   "height": 320,
+   "bytes": 36154
+  }
+ },
+ "extra": {
+  "pronunciation": "こしょやしきさつじんじけん",
+  "lyricist": "てにをは",
+  "composer": "てにをは",
+  "arranger": "てにをは",
+  "published_at": 1708581600000,
+  "released_at": 1341241200000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0436_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "KAITO",
+     "天馬司",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0436_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 140.0
+ }
+}

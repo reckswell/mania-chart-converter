@@ -1,0 +1,253 @@
+{
+ "game": "sekai",
+ "song_id": "135",
+ "title": "六兆年と一夜物語",
+ "artist": "kemu",
+ "title_romaji": "rokuchounentoichiyamonogatari",
+ "artist_romaji": "kemu",
+ "genre": "Leo/need",
+ "bpm": "93-186 (186)",
+ "version": "",
+ "date_added": "2021-07-12",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 283
+   },
+   "source": {
+    "music_difficulty_id": 671,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 17,
+      "tap": 75,
+      "ex_tap": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 448
+   },
+   "source": {
+    "music_difficulty_id": 672,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 20,
+      "tap": 156,
+      "hold": 3,
+      "ex_tap": 37,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 741
+   },
+   "source": {
+    "music_difficulty_id": 673,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 349,
+      "hold": 11,
+      "slide": 47,
+      "ex_tap": 36,
+      "flick": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1099
+   },
+   "source": {
+    "music_difficulty_id": 674,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 641,
+      "slide": 60,
+      "ex_tap": 64,
+      "flick": 78,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "35",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1288
+   },
+   "source": {
+    "music_difficulty_id": 675,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 700,
+      "hold": 36,
+      "slide": 99,
+      "ex_tap": 49,
+      "flick": 138
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "35",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1723
+   },
+   "source": {
+    "music_difficulty_id": 4141,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 50,
+      "tap": 768,
+      "slide": 69,
+      "other": 21,
+      "flick": 198,
+      "ex_tap": 281
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 135,
+   "assetbundle": "jacket_s_135",
+   "seq": 1208001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_135.png",
+   "sha256": "0cd47099da1efdc4e4f22bc3333086399102cdd4b45a64a58776b999433f3b68",
+   "width": 320,
+   "height": 320,
+   "bytes": 31603
+  }
+ },
+ "extra": {
+  "pronunciation": "ろくちょうねんといちやものがたり",
+  "lyricist": "kemu",
+  "composer": "kemu",
+  "arranger": "kemu",
+  "published_at": 1626069600000,
+  "released_at": 1334070000000,
+  "tags": [
+   "light_music_club",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "IA"
+    ],
+    "asset": "vs_0135_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "星乃一歌"
+    ],
+    "asset": "se_0135_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "星乃一歌"
+    ],
+    "asset": "an_0135_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "an_0135_02"
+   },
+   {
+    "type": "april_fool_2022",
+    "caption": "エイプリルフールver.",
+    "singers": [
+     "MEIKO",
+     "星乃一歌",
+     "白石杏",
+     "東雲絵名"
+    ],
+    "asset": "af_0135_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 186.0
+ }
+}

@@ -1,0 +1,217 @@
+{
+ "game": "sekai",
+ "song_id": "282",
+ "title": "星空オーケストラ",
+ "artist": "水野あつ",
+ "title_romaji": "hoshizoraookesutora",
+ "artist_romaji": "mizunoatsu",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "200",
+ "version": "",
+ "date_added": "2023-01-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 314
+   },
+   "source": {
+    "music_difficulty_id": 1406,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 17,
+      "tap": 77,
+      "ex_tap": 3,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 463
+   },
+   "source": {
+    "music_difficulty_id": 1407,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 139,
+      "hold": 13,
+      "slide": 17,
+      "ex_tap": 29,
+      "flick": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 777
+   },
+   "source": {
+    "music_difficulty_id": 1408,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 43,
+      "tap": 157,
+      "flick": 35,
+      "ex_tap": 53,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1057
+   },
+   "source": {
+    "music_difficulty_id": 1409,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 91,
+      "tap": 245,
+      "flick": 49,
+      "ex_tap": 80,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1159
+   },
+   "source": {
+    "music_difficulty_id": 1410,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 38,
+      "tap": 347,
+      "flick": 84,
+      "slide": 96,
+      "ex_tap": 81
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 282,
+   "assetbundle": "jacket_s_282",
+   "seq": 2523601
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_282.png",
+   "sha256": "dd60f49e1f5240f28178e1fa38e21531ebda0ce801aa67db5f7d4517ac885fa2",
+   "width": 320,
+   "height": 320,
+   "bytes": 18365
+  }
+ },
+ "extra": {
+  "pronunciation": "ほしぞらおーけすとら",
+  "lyricist": "水野あつ",
+  "composer": "水野あつ",
+  "arranger": "水野あつ、雪乃イト",
+  "published_at": 1674133500000,
+  "released_at": 1674054000000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0282_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鳳えむ",
+     "巡音ルカ",
+     "天馬司",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0282_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鳳えむ"
+    ],
+    "asset": "an_0282_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "巡音ルカ"
+    ],
+    "asset": "an_0282_02"
+   }
+  ],
+  "filler_sec": 8.399999618530273,
+  "bpm_main": 200.0
+ }
+}

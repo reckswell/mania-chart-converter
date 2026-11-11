@@ -1,0 +1,217 @@
+{
+ "game": "sekai",
+ "song_id": "226",
+ "title": "ロストエンファウンド",
+ "artist": "sasakure.UK",
+ "title_romaji": "rosutoenfaundo",
+ "artist_romaji": "sasakure.UK",
+ "genre": "Leo/need",
+ "bpm": "92-184 (184)",
+ "version": "",
+ "date_added": "2022-08-15",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 422
+   },
+   "source": {
+    "music_difficulty_id": 1126,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 18,
+      "tap": 64,
+      "ex_tap": 2,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 690
+   },
+   "source": {
+    "music_difficulty_id": 1127,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 8,
+      "tap": 78,
+      "ex_tap": 4,
+      "slide": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 868
+   },
+   "source": {
+    "music_difficulty_id": 1128,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 60,
+      "tap": 266,
+      "hold": 7,
+      "ex_tap": 32,
+      "flick": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1082
+   },
+   "source": {
+    "music_difficulty_id": 1129,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 124,
+      "tap": 348,
+      "ex_tap": 52,
+      "flick": 28,
+      "hold": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1271
+   },
+   "source": {
+    "music_difficulty_id": 1130,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 517,
+      "slide": 160,
+      "hold": 30,
+      "flick": 76,
+      "ex_tap": 52
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 226,
+   "assetbundle": "jacket_s_226",
+   "seq": 1218601
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_226.png",
+   "sha256": "156da07d99222ce12043b0fa3c520acdf20104a34ca7d8d8bf057222d4fcaf76",
+   "width": 320,
+   "height": 320,
+   "bytes": 16294
+  }
+ },
+ "extra": {
+  "pronunciation": "ろすとえんふぁうんど",
+  "lyricist": "sasakure.UK",
+  "composer": "sasakure.UK",
+  "arranger": "有形ランペイジ",
+  "published_at": 1660543200000,
+  "released_at": 1278601200000,
+  "tags": [
+   "light_music_club",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0226_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "星乃一歌",
+     "天馬咲希",
+     "望月穂波",
+     "日野森志歩"
+    ],
+    "asset": "se_0226_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "天馬咲希"
+    ],
+    "asset": "an_0226_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "望月穂波"
+    ],
+    "asset": "an_0226_02"
+   }
+  ],
+  "filler_sec": 7.361299991607666,
+  "bpm_main": 184.0
+ }
+}

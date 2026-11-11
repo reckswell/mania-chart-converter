@@ -1,0 +1,217 @@
+{
+ "game": "sekai",
+ "song_id": "458",
+ "title": "抜錨",
+ "artist": "ナナホシ管弦楽団",
+ "title_romaji": "batsubyou",
+ "artist_romaji": "nanahoshikangengakudan",
+ "genre": "Leo/need",
+ "bpm": "140",
+ "version": "",
+ "date_added": "2024-06-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 195
+   },
+   "source": {
+    "music_difficulty_id": 2286,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 17,
+      "tap": 55,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 317
+   },
+   "source": {
+    "music_difficulty_id": 2287,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 11,
+      "tap": 91,
+      "flick": 10,
+      "slide": 32,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 711
+   },
+   "source": {
+    "music_difficulty_id": 2288,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 43,
+      "tap": 215,
+      "slide": 70,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 831
+   },
+   "source": {
+    "music_difficulty_id": 2289,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 75,
+      "tap": 418,
+      "slide": 76,
+      "flick": 48,
+      "other": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 954
+   },
+   "source": {
+    "music_difficulty_id": 2290,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 488,
+      "ex_tap": 60,
+      "hold": 7,
+      "slide": 81,
+      "flick": 90,
+      "other": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 458,
+   "assetbundle": "jacket_s_458",
+   "seq": 1241301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_458.png",
+   "sha256": "a10774392e0406f8983fa6f9c6021d5f77b98e655f39a0e9b045882f9856e41e",
+   "width": 320,
+   "height": 320,
+   "bytes": 11801
+  }
+ },
+ "extra": {
+  "pronunciation": "ばつびょう",
+  "lyricist": "ナナホシ管弦楽団",
+  "composer": "岩見 陸",
+  "arranger": "-",
+  "published_at": 1717394400000,
+  "released_at": 1528815600000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "巡音ルカ"
+    ],
+    "asset": "vs_0458_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "巡音ルカ",
+     "星乃一歌",
+     "天馬咲希",
+     "望月穂波",
+     "日野森志歩"
+    ],
+    "asset": "se_0458_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "MEIKO"
+    ],
+    "asset": "an_0458_01"
+   },
+   {
+    "type": "streaming_live",
+    "caption": "コネクトライブver.",
+    "singers": [
+     "日野森雫",
+     "朝比奈まふゆ"
+    ],
+    "asset": "cl_0458_01"
+   }
+  ],
+  "filler_sec": 7.714300155639648,
+  "bpm_main": 140.0
+ }
+}

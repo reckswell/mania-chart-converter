@@ -1,0 +1,206 @@
+{
+ "game": "sekai",
+ "song_id": "607",
+ "title": "回る空うさぎ",
+ "artist": "Orangestar",
+ "title_romaji": "mawarusorausagi",
+ "artist_romaji": "Orangestar",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "120",
+ "version": "",
+ "date_added": "2025-04-22",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 181
+   },
+   "source": {
+    "music_difficulty_id": 3031,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 58,
+      "hold": 13,
+      "ex_tap": 6,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 274
+   },
+   "source": {
+    "music_difficulty_id": 3032,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 95,
+      "slide": 13,
+      "flick": 4,
+      "ex_tap": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 402
+   },
+   "source": {
+    "music_difficulty_id": 3033,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 179,
+      "slide": 29,
+      "flick": 2,
+      "ex_tap": 3,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 607
+   },
+   "source": {
+    "music_difficulty_id": 3034,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 202,
+      "slide": 72,
+      "flick": 20,
+      "other": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 607
+   },
+   "source": {
+    "music_difficulty_id": 3035,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 280,
+      "tap": 277,
+      "slide": 10,
+      "ex_tap": 43,
+      "flick": 5,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 607,
+   "assetbundle": "jacket_s_607",
+   "seq": 1351201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_607.png",
+   "sha256": "403aaad25af44b03045cb0e70e5b35010dcf4c7dbb000310bac688ea6ddc1f39",
+   "width": 320,
+   "height": 320,
+   "bytes": 22474
+  }
+ },
+ "extra": {
+  "pronunciation": "まわるそらうさぎ",
+  "lyricist": "Orangestar",
+  "composer": "Orangestar",
+  "arranger": "Orangestar",
+  "published_at": 1745301600000,
+  "released_at": 1479049200000,
+  "tags": [
+   "idol"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0607_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "巡音ルカ",
+     "花里みのり",
+     "日野森雫"
+    ],
+    "asset": "se_0607_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "巡音ルカ"
+    ],
+    "asset": "an_0607_01"
+   }
+  ],
+  "filler_sec": 7.5,
+  "bpm_main": 120.0
+ }
+}

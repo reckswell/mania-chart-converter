@@ -42,4 +42,10 @@ Ordered. Each item has a "done when". Take the top item that is not `blocked`.
 8. **Sekai via SUS files.** *Done when:* the same as 7.
 9. **DDR / PIU via StepMania .sm/.ssc**, IIDX via BMS or textage, SDVX via KSH, then Arcaea, GH and GITADORA (see
    docs/research/vsrg-mechanics.md "Order of work").
-10. **Hitsounds / keysounds** (later): soft sample set by default; keysounds for IIDX/BMS sources.
+10. **Per-game `check-counts`.** It only knows Chunithm note types; other games publish one combo number
+    (`note_counts.combo`). Adapters already warn on a combo mismatch; make `check-counts` read that too.
+11. **Rules found while filling the database** (feed into item 6 and its siblings):
+    - Sekai, Bandori and DDR EASY/NORMAL charts leave mania columns empty with centre mapping; need a spread rule.
+    - Sekai `#TIL` hi-speed: 1-tick 10000× teleports and < 0.1× slowdowns become extreme SV; decide clamp/drop.
+    - StepMania fakes and keysounds are `other` (dropped by baseline), rolls/lifts carry flags.
+12. **Hitsounds / keysounds** (later): soft sample set by default; keysounds for IIDX/BMS sources.

@@ -1,0 +1,204 @@
+{
+ "game": "sekai",
+ "song_id": "706",
+ "title": "永遠甚だしい",
+ "artist": "獅子志司",
+ "title_romaji": "eienhanahadashii",
+ "artist_romaji": "shishishishi",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "153",
+ "version": "",
+ "date_added": "2026-06-12",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 251
+   },
+   "source": {
+    "music_difficulty_id": 3526,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 50,
+      "hold": 15,
+      "ex_tap": 29,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 399
+   },
+   "source": {
+    "music_difficulty_id": 3527,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 21,
+      "ex_tap": 18,
+      "flick": 11,
+      "tap": 65,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 586
+   },
+   "source": {
+    "music_difficulty_id": 3528,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 164,
+      "slide": 55,
+      "flick": 45,
+      "ex_tap": 78,
+      "hold": 7,
+      "other": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 930
+   },
+   "source": {
+    "music_difficulty_id": 3529,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 79,
+      "tap": 387,
+      "ex_tap": 80,
+      "flick": 73,
+      "hold": 13,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1116
+   },
+   "source": {
+    "music_difficulty_id": 3530,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 538,
+      "other": 14,
+      "hold": 45,
+      "slide": 66,
+      "ex_tap": 90,
+      "flick": 91
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 706,
+   "assetbundle": "jacket_s_706",
+   "seq": 1465401
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_706.png",
+   "sha256": "a475beb51f8703c3311605cf043f53740825a75c05e315bfff6b77743e837d01",
+   "width": 320,
+   "height": 320,
+   "bytes": 25725
+  }
+ },
+ "extra": {
+  "pronunciation": "えいえんはなはだしい",
+  "lyricist": "獅子志司",
+  "composer": "獅子志司",
+  "arranger": "獅子志司",
+  "published_at": 1781244000000,
+  "released_at": 1596207600000,
+  "tags": [
+   "street"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0706_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "巡音ルカ",
+     "小豆沢こはね",
+     "白石杏",
+     "東雲彰人",
+     "青柳冬弥"
+    ],
+    "asset": "se_0706_01"
+   }
+  ],
+  "filler_sec": 9.39210033416748,
+  "bpm_main": 153.0
+ }
+}

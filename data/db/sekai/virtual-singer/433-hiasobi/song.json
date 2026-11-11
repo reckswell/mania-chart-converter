@@ -1,0 +1,192 @@
+{
+ "game": "sekai",
+ "song_id": "433",
+ "title": "ヒアソビ",
+ "artist": "かめりあ",
+ "title_romaji": "hiasobi",
+ "artist_romaji": "kameria",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "134",
+ "version": "",
+ "date_added": "2024-01-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 217
+   },
+   "source": {
+    "music_difficulty_id": 2161,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 15,
+      "tap": 64,
+      "hold": 16,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 382
+   },
+   "source": {
+    "music_difficulty_id": 2162,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 11,
+      "tap": 127,
+      "hold": 12,
+      "ex_tap": 11,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "modifier without target 3: 4",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 655
+   },
+   "source": {
+    "music_difficulty_id": 2163,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 32,
+      "hold": 11,
+      "flick": 57,
+      "tap": 170,
+      "slide": 68,
+      "other": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1053
+   },
+   "source": {
+    "music_difficulty_id": 2164,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 78,
+      "other": 36,
+      "tap": 412,
+      "ex_tap": 68,
+      "slide": 71,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1116
+   },
+   "source": {
+    "music_difficulty_id": 2165,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 101,
+      "flick": 206,
+      "tap": 349,
+      "slide": 89,
+      "hold": 17,
+      "other": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 433,
+   "assetbundle": "jacket_s_433",
+   "seq": 1135801
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_433.png",
+   "sha256": "a9c4e68a6b0b156652049e948a5885d50688ef7fd8a730c7df3d964c9938cee6",
+   "width": 320,
+   "height": 320,
+   "bytes": 24217
+  }
+ },
+ "extra": {
+  "pronunciation": "ひあそび",
+  "lyricist": "かめりあ",
+  "composer": "かめりあ",
+  "arranger": "かめりあ",
+  "published_at": 1704175200000,
+  "released_at": 1647097200000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0433_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 134.0
+ }
+}

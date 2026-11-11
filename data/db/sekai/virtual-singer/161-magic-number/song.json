@@ -1,0 +1,187 @@
+{
+ "game": "sekai",
+ "song_id": "161",
+ "title": "magic number",
+ "artist": "伊東 健人",
+ "title_romaji": "magic number",
+ "artist_romaji": "itoukento",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "120",
+ "version": "",
+ "date_added": "2021-09-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 98
+   },
+   "source": {
+    "music_difficulty_id": 801,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 51,
+      "hold": 7,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 280
+   },
+   "source": {
+    "music_difficulty_id": 802,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 156,
+      "hold": 3,
+      "ex_tap": 7,
+      "slide": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 535
+   },
+   "source": {
+    "music_difficulty_id": 803,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 51,
+      "tap": 163,
+      "ex_tap": 33,
+      "flick": 8,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 818
+   },
+   "source": {
+    "music_difficulty_id": 804,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 86,
+      "tap": 340,
+      "flick": 35,
+      "ex_tap": 59,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 988
+   },
+   "source": {
+    "music_difficulty_id": 805,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 463,
+      "slide": 109,
+      "ex_tap": 85,
+      "hold": 26,
+      "flick": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 161,
+   "assetbundle": "jacket_s_161",
+   "seq": 2108801
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_161.png",
+   "sha256": "673973b49a98fb4607a45b5636f2784423479aece7a532d608f9a5a8e8e857ef",
+   "width": 320,
+   "height": 320,
+   "bytes": 41793
+  }
+ },
+ "extra": {
+  "pronunciation": "まじっくなんばー",
+  "lyricist": "伊東 健人",
+  "composer": "伊東 健人",
+  "arranger": "OSTER project",
+  "published_at": 1630476000000,
+  "released_at": 1630422000000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0161_01"
+   }
+  ],
+  "filler_sec": 8.98330020904541,
+  "bpm_main": 120.0
+ }
+}

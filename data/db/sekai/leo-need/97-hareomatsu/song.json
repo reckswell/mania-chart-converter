@@ -1,0 +1,216 @@
+{
+ "game": "sekai",
+ "song_id": "97",
+ "title": "霽れを待つ",
+ "artist": "Orangestar",
+ "title_romaji": "hareomatsu",
+ "artist_romaji": "Orangestar",
+ "genre": "Leo/need",
+ "bpm": "168",
+ "version": "",
+ "date_added": "2021-01-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 192
+   },
+   "source": {
+    "music_difficulty_id": 481,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 72,
+      "hold": 8,
+      "ex_tap": 1,
+      "slide": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 461
+   },
+   "source": {
+    "music_difficulty_id": 482,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 189,
+      "hold": 2,
+      "slide": 24,
+      "flick": 2,
+      "ex_tap": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 562
+   },
+   "source": {
+    "music_difficulty_id": 483,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 252,
+      "ex_tap": 7,
+      "slide": 60,
+      "flick": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 974
+   },
+   "source": {
+    "music_difficulty_id": 484,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 536,
+      "flick": 58,
+      "ex_tap": 12,
+      "slide": 81,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1106
+   },
+   "source": {
+    "music_difficulty_id": 485,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 715,
+      "flick": 69,
+      "ex_tap": 21,
+      "slide": 66
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 97,
+   "assetbundle": "jacket_s_097",
+   "seq": 2204401
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_097.png",
+   "sha256": "6714abbe1fd3ecfdefc643b3e7bb07e67773abfae832c27bc5a3cbe04a701e46",
+   "width": 320,
+   "height": 320,
+   "bytes": 19335
+  }
+ },
+ "extra": {
+  "pronunciation": "はれをまつ",
+  "lyricist": "Orangestar",
+  "composer": "Orangestar",
+  "arranger": "Orangestar",
+  "published_at": 1610258400000,
+  "released_at": 1610204400000,
+  "tags": [
+   "light_music_club",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0097_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "望月穂波",
+     "初音ミク",
+     "星乃一歌",
+     "天馬咲希",
+     "日野森志歩"
+    ],
+    "asset": "se_0097_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "天馬咲希"
+    ],
+    "asset": "an_0097_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "望月穂波"
+    ],
+    "asset": "an_0097_02"
+   }
+  ],
+  "filler_sec": 8.285699844360352,
+  "bpm_main": 168.0
+ }
+}

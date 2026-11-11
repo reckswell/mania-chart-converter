@@ -1,0 +1,188 @@
+{
+ "game": "sekai",
+ "song_id": "265",
+ "title": "Change me",
+ "artist": "shu-t",
+ "title_romaji": "Change me",
+ "artist_romaji": "shu-t",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "135",
+ "version": "",
+ "date_added": "2022-11-04",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 268
+   },
+   "source": {
+    "music_difficulty_id": 1321,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 58,
+      "slide": 2,
+      "hold": 18,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 500
+   },
+   "source": {
+    "music_difficulty_id": 1322,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 156,
+      "hold": 5,
+      "slide": 27,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 664
+   },
+   "source": {
+    "music_difficulty_id": 1323,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 199,
+      "ex_tap": 25,
+      "slide": 73,
+      "hold": 2,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1019
+   },
+   "source": {
+    "music_difficulty_id": 1324,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 372,
+      "ex_tap": 73,
+      "slide": 124,
+      "hold": 10,
+      "flick": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1247
+   },
+   "source": {
+    "music_difficulty_id": 1325,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 23,
+      "tap": 388,
+      "ex_tap": 95,
+      "slide": 135,
+      "flick": 76
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 265,
+   "assetbundle": "jacket_s_265",
+   "seq": 1121201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_265.png",
+   "sha256": "21a92e716f329f7534b27560eb9cacd911ab3c68bdfe25279ee7ea256fda97df",
+   "width": 320,
+   "height": 320,
+   "bytes": 19278
+  }
+ },
+ "extra": {
+  "pronunciation": "ちぇんじみー",
+  "lyricist": "shu-t",
+  "composer": "shu-t",
+  "arranger": "shu-t",
+  "published_at": 1667541600000,
+  "released_at": 1257346800000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "MEIKO"
+    ],
+    "asset": "vs_0265_01"
+   }
+  ],
+  "filler_sec": 8.996700286865234,
+  "bpm_main": 135.0
+ }
+}

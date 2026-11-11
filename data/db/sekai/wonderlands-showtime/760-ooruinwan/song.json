@@ -1,0 +1,205 @@
+{
+ "game": "sekai",
+ "song_id": "760",
+ "title": "オールイン・ワン",
+ "artist": "和田たけあき",
+ "title_romaji": "ooruinwan",
+ "artist_romaji": "wadatakeaki",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "195-210 (200)",
+ "version": "",
+ "date_added": "2026-06-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 293
+   },
+   "source": {
+    "music_difficulty_id": 3796,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 18,
+      "tap": 49,
+      "slide": 7,
+      "hold": 11,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 462
+   },
+   "source": {
+    "music_difficulty_id": 3797,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 11,
+      "tap": 92,
+      "slide": 33,
+      "other": 3,
+      "ex_tap": 27,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 735
+   },
+   "source": {
+    "music_difficulty_id": 3798,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 37,
+      "ex_tap": 94,
+      "tap": 141,
+      "slide": 51,
+      "other": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1029
+   },
+   "source": {
+    "music_difficulty_id": 3799,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 93,
+      "flick": 62,
+      "slide": 92,
+      "tap": 222,
+      "hold": 11,
+      "other": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1357
+   },
+   "source": {
+    "music_difficulty_id": 3800,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 383,
+      "ex_tap": 178,
+      "slide": 106,
+      "flick": 97,
+      "other": 80,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 12",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 760,
+   "assetbundle": "jacket_s_760",
+   "seq": 2565701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_760.png",
+   "sha256": "7ec7981d78f9a7ecf8c585a02e7154c42da23bad3608769038bffe75c5923c89",
+   "width": 320,
+   "height": 320,
+   "bytes": 27791
+  }
+ },
+ "extra": {
+  "pronunciation": "おーるいんわん",
+  "lyricist": "和田たけあき",
+  "composer": "和田たけあき",
+  "arranger": "和田たけあき",
+  "published_at": 1781935200000,
+  "released_at": 1781881200000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "重音テト"
+    ],
+    "asset": "vs_0760_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "天馬司",
+     "鏡音レン",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0760_01"
+   }
+  ],
+  "filler_sec": 8.428600311279297,
+  "bpm_main": 200.0
+ }
+}

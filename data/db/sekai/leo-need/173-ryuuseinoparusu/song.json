@@ -1,0 +1,218 @@
+{
+ "game": "sekai",
+ "song_id": "173",
+ "title": "流星のパルス",
+ "artist": "*Luna",
+ "title_romaji": "ryuuseinoparusu",
+ "artist_romaji": "*Luna",
+ "genre": "Leo/need",
+ "bpm": "192",
+ "version": "",
+ "date_added": "2021-09-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 231
+   },
+   "source": {
+    "music_difficulty_id": 861,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 61,
+      "hold": 18,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 478
+   },
+   "source": {
+    "music_difficulty_id": 862,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 168,
+      "slide": 36,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 656
+   },
+   "source": {
+    "music_difficulty_id": 863,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 213,
+      "slide": 71,
+      "ex_tap": 14,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 958
+   },
+   "source": {
+    "music_difficulty_id": 864,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 478,
+      "slide": 67,
+      "flick": 52,
+      "ex_tap": 24,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1123
+   },
+   "source": {
+    "music_difficulty_id": 865,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 811,
+      "slide": 49,
+      "ex_tap": 22,
+      "flick": 79
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 173,
+   "assetbundle": "jacket_s_173",
+   "seq": 2208901
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_173.png",
+   "sha256": "3ba4d0fddcb7897e3790685e7a1372d932daad4e510fe37266944d079823735f",
+   "width": 320,
+   "height": 320,
+   "bytes": 22894
+  }
+ },
+ "extra": {
+  "pronunciation": "りゅうせいのぱるす",
+  "lyricist": "*Luna",
+  "composer": "*Luna",
+  "arranger": "*Luna",
+  "published_at": 1631253600000,
+  "released_at": 1631199600000,
+  "tags": [
+   "light_music_club",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音レン",
+     "初音ミク",
+     "鏡音リン",
+     "巡音ルカ",
+     "MEIKO",
+     "KAITO"
+    ],
+    "asset": "vs_0173_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "星乃一歌",
+     "MEIKO",
+     "天馬咲希",
+     "望月穂波",
+     "日野森志歩"
+    ],
+    "asset": "se_0173_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "星乃一歌"
+    ],
+    "asset": "an_0173_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "日野森志歩"
+    ],
+    "asset": "an_0173_02"
+   }
+  ],
+  "filler_sec": 8.991000175476074,
+  "bpm_main": 192.0
+ }
+}

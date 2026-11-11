@@ -1,0 +1,219 @@
+{
+ "game": "sekai",
+ "song_id": "538",
+ "title": "オールセーブチャレンジ",
+ "artist": "香椎モイミ",
+ "title_romaji": "ooruseebucharenji",
+ "artist_romaji": "kashii moimi",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "171",
+ "version": "",
+ "date_added": "2025-04-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 222
+   },
+   "source": {
+    "music_difficulty_id": 2686,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 9,
+      "slide": 6,
+      "ex_tap": 4,
+      "tap": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 347
+   },
+   "source": {
+    "music_difficulty_id": 2687,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 19,
+      "tap": 103,
+      "ex_tap": 23,
+      "hold": 4,
+      "flick": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 630
+   },
+   "source": {
+    "music_difficulty_id": 2688,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 47,
+      "ex_tap": 53,
+      "tap": 211,
+      "other": 22,
+      "flick": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 795
+   },
+   "source": {
+    "music_difficulty_id": 2689,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 54,
+      "slide": 46,
+      "tap": 327,
+      "ex_tap": 48,
+      "other": 19,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 918
+   },
+   "source": {
+    "music_difficulty_id": 2690,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 102,
+      "slide": 61,
+      "tap": 338,
+      "ex_tap": 87,
+      "hold": 39,
+      "other": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 538,
+   "assetbundle": "jacket_s_538",
+   "seq": 2551301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_538.png",
+   "sha256": "ffa04a8eee03b58cc885255d64bfaf8bb4845b8e1cc97f69c786c4849d0e3057",
+   "width": 320,
+   "height": 320,
+   "bytes": 18527
+  }
+ },
+ "extra": {
+  "pronunciation": "おーるせーぶちゃれんじ",
+  "lyricist": "香椎モイミ",
+  "composer": "香椎モイミ",
+  "arranger": "香椎モイミ",
+  "published_at": 1745845500000,
+  "released_at": 1745766000000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0538_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鳳えむ",
+     "KAITO",
+     "天馬司",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0538_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鳳えむ"
+    ],
+    "asset": "an_0538_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "KAITO"
+    ],
+    "asset": "an_0538_02"
+   }
+  ],
+  "filler_sec": 9.37279987335205,
+  "bpm_main": 171.0
+ }
+}

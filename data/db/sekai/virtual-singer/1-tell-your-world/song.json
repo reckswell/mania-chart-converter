@@ -1,0 +1,215 @@
+{
+ "game": "sekai",
+ "song_id": "1",
+ "title": "Tell Your World",
+ "artist": "livetune",
+ "title_romaji": "Tell Your World",
+ "artist_romaji": "livetune",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "150",
+ "version": "",
+ "date_added": "2019-06-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 220
+   },
+   "source": {
+    "music_difficulty_id": 1,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 61,
+      "hold": 11,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 492
+   },
+   "source": {
+    "music_difficulty_id": 2,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 115,
+      "flick": 8,
+      "hold": 12,
+      "slide": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 719
+   },
+   "source": {
+    "music_difficulty_id": 3,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 208,
+      "slide": 55,
+      "ex_tap": 24,
+      "flick": 12,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 961
+   },
+   "source": {
+    "music_difficulty_id": 4,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 350,
+      "flick": 18,
+      "ex_tap": 24,
+      "slide": 62,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1147
+   },
+   "source": {
+    "music_difficulty_id": 5,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 388,
+      "flick": 13,
+      "ex_tap": 13,
+      "slide": 107,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1353
+   },
+   "source": {
+    "music_difficulty_id": 4001,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 55,
+      "tap": 209,
+      "slide": 80,
+      "ex_tap": 34,
+      "other": 2,
+      "flick": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "duplicate slides: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 1,
+   "assetbundle": "jacket_s_001",
+   "seq": 1100101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_001.png",
+   "sha256": "f14aee8250bc2e7606cd42dc2411f67e1159ecaedbcc2b794fd9387b471594e3",
+   "width": 320,
+   "height": 320,
+   "bytes": 52062
+  }
+ },
+ "extra": {
+  "pronunciation": "てるゆあわーるど",
+  "lyricist": "kz",
+  "composer": "kz",
+  "arranger": "kz",
+  "published_at": 1560148031000,
+  "released_at": 1326812400000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "0001_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 150.0
+ }
+}

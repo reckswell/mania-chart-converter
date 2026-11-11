@@ -1,0 +1,203 @@
+{
+ "game": "sekai",
+ "song_id": "731",
+ "title": "アルティメットセンパイ",
+ "artist": "ピノキオピー",
+ "title_romaji": "arutimettosenpai",
+ "artist_romaji": "pinokiopii",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "145",
+ "version": "",
+ "date_added": "2026-10-08",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 297
+   },
+   "source": {
+    "music_difficulty_id": 3651,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 12,
+      "tap": 47,
+      "ex_tap": 13,
+      "slide": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 402
+   },
+   "source": {
+    "music_difficulty_id": 3652,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 19,
+      "tap": 90,
+      "ex_tap": 43,
+      "flick": 19,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 654
+   },
+   "source": {
+    "music_difficulty_id": 3653,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 35,
+      "tap": 190,
+      "ex_tap": 65,
+      "flick": 22,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 858
+   },
+   "source": {
+    "music_difficulty_id": 3654,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 10,
+      "tap": 313,
+      "hold": 9,
+      "slide": 87,
+      "ex_tap": 144,
+      "flick": 54
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1136
+   },
+   "source": {
+    "music_difficulty_id": 3655,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 103,
+      "tap": 380,
+      "hold": 25,
+      "other": 167,
+      "ex_tap": 279,
+      "flick": 82
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 731,
+   "assetbundle": "jacket_s_731",
+   "seq": 1570001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_731.png",
+   "sha256": "10e4b8ff5901e51626db30e12f5b54641d433f9f5980b632700311adc1cf0f5a",
+   "width": 320,
+   "height": 320,
+   "bytes": 35052
+  }
+ },
+ "extra": {
+  "pronunciation": "あるてぃめっとせんぱい",
+  "lyricist": "ピノキオピー",
+  "composer": "ピノキオピー",
+  "arranger": "ピノキオピー",
+  "published_at": 1791439200000,
+  "released_at": 1571151600000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0731_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "天馬司",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0731_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 145.0
+ }
+}

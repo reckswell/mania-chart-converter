@@ -1,0 +1,222 @@
+{
+ "game": "sekai",
+ "song_id": "81",
+ "title": "夜咄ディセイブ",
+ "artist": "じん",
+ "title_romaji": "yobanashidiseibu",
+ "artist_romaji": "jin",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "130",
+ "version": "",
+ "date_added": "2020-10-09",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 184
+   },
+   "source": {
+    "music_difficulty_id": 401,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 69,
+      "hold": 14,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 424
+   },
+   "source": {
+    "music_difficulty_id": 402,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 202,
+      "hold": 21,
+      "slide": 15,
+      "ex_tap": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 851
+   },
+   "source": {
+    "music_difficulty_id": 403,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 394,
+      "slide": 69,
+      "hold": 14,
+      "ex_tap": 47,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1165
+   },
+   "source": {
+    "music_difficulty_id": 404,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 570,
+      "slide": 109,
+      "flick": 41,
+      "ex_tap": 46,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1311
+   },
+   "source": {
+    "music_difficulty_id": 405,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 678,
+      "slide": 139,
+      "flick": 91,
+      "ex_tap": 45,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 81,
+   "assetbundle": "jacket_s_081",
+   "seq": 1401001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_081.png",
+   "sha256": "b4ead8a7c25725ca304adcc5adcfdf991b8de8ef36a568c7b4e12812e0f32047",
+   "width": 320,
+   "height": 320,
+   "bytes": 37160
+  }
+ },
+ "extra": {
+  "pronunciation": "よばなしでぃせいぶ",
+  "lyricist": "じん",
+  "composer": "じん",
+  "arranger": "じん",
+  "published_at": 1602223200000,
+  "released_at": 1361026800000,
+  "tags": [
+   "street",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "IA"
+    ],
+    "asset": "0081_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音レン",
+     "東雲彰人",
+     "青柳冬弥"
+    ],
+    "asset": "se_0081_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "東雲彰人"
+    ],
+    "asset": "an_0081_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "青柳冬弥"
+    ],
+    "asset": "an_0081_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鏡音レン"
+    ],
+    "asset": "an_0081_03"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 130.0
+ }
+}

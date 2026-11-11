@@ -1,0 +1,207 @@
+{
+ "game": "sekai",
+ "song_id": "28",
+ "title": "ドクター＝ファンクビート",
+ "artist": "nyanyannya（大天才P）",
+ "title_romaji": "dokutaafankubiito",
+ "artist_romaji": "nyanyannya daitensaipii",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "150",
+ "version": "",
+ "date_added": "2019-06-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 160
+   },
+   "source": {
+    "music_difficulty_id": 136,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 77,
+      "hold": 7,
+      "ex_tap": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 436
+   },
+   "source": {
+    "music_difficulty_id": 137,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 224,
+      "hold": 9,
+      "slide": 22,
+      "flick": 8,
+      "ex_tap": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 677
+   },
+   "source": {
+    "music_difficulty_id": 138,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 32,
+      "tap": 443,
+      "ex_tap": 28,
+      "flick": 47,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 984
+   },
+   "source": {
+    "music_difficulty_id": 139,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 26,
+      "slide": 62,
+      "tap": 510,
+      "hold": 47,
+      "flick": 74
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "32",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1198
+   },
+   "source": {
+    "music_difficulty_id": 140,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 44,
+      "slide": 97,
+      "tap": 580,
+      "flick": 78,
+      "hold": 58
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 28,
+   "assetbundle": "jacket_s_028",
+   "seq": 1400102
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_028.png",
+   "sha256": "b9b71517d23e4166934f9075072fdbe5728747847a35cbc4a29df1b5634ffed1",
+   "width": 320,
+   "height": 320,
+   "bytes": 60729
+  }
+ },
+ "extra": {
+  "pronunciation": "どくたーふぁんくびーと",
+  "lyricist": "nyanyannya（大天才P）",
+  "composer": "nyanyannya（大天才P）",
+  "arranger": "nyanyannya（大天才P）",
+  "published_at": 1560148031000,
+  "released_at": 1434034800000,
+  "tags": [
+   "street",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "KAITO"
+    ],
+    "asset": "0028_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "KAITO",
+     "東雲彰人",
+     "青柳冬弥"
+    ],
+    "asset": "0028_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鏡音レン"
+    ],
+    "asset": "an_0028_01"
+   }
+  ],
+  "filler_sec": 7.828000068664551,
+  "bpm_main": 150.0
+ }
+}

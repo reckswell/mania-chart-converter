@@ -1,0 +1,262 @@
+{
+ "game": "sekai",
+ "song_id": "127",
+ "title": "トンデモワンダーズ",
+ "artist": "sasakure.UK",
+ "title_romaji": "tondemowandaazu",
+ "artist_romaji": "sasakure.UK",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "160-180 (172)",
+ "version": "",
+ "date_added": "2021-06-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 356
+   },
+   "source": {
+    "music_difficulty_id": 631,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 14,
+      "tap": 56,
+      "ex_tap": 21,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 465
+   },
+   "source": {
+    "music_difficulty_id": 632,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 15,
+      "hold": 11,
+      "ex_tap": 37,
+      "tap": 205,
+      "flick": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 707
+   },
+   "source": {
+    "music_difficulty_id": 633,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 68,
+      "tap": 336,
+      "flick": 11,
+      "slide": 58
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1122
+   },
+   "source": {
+    "music_difficulty_id": 634,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 116,
+      "tap": 525,
+      "flick": 50,
+      "hold": 18,
+      "slide": 94
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "32",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1224
+   },
+   "source": {
+    "music_difficulty_id": 635,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 96,
+      "ex_tap": 109,
+      "tap": 590,
+      "flick": 111,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "33",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1631
+   },
+   "source": {
+    "music_difficulty_id": 4008,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 169,
+      "tap": 849,
+      "flick": 124,
+      "hold": 165,
+      "slide": 38,
+      "other": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 127,
+   "assetbundle": "jacket_s_127",
+   "seq": 2507501
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_127.png",
+   "sha256": "3dbeb96b75b37592059a9fc94cf5b78587c5d6eb52e82a883e2052dbdcd8c942",
+   "width": 320,
+   "height": 320,
+   "bytes": 39978
+  }
+ },
+ "extra": {
+  "pronunciation": "とんでもわんだーず",
+  "lyricist": "sasakure.UK",
+  "composer": "sasakure.UK",
+  "arranger": "sasakure.UK(Key 岸田勇気(有形ランペイジ))",
+  "published_at": 1624107900000,
+  "released_at": 1624028400000,
+  "tags": [
+   "theme_park",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "KAITO"
+    ],
+    "asset": "vs_0127_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "天馬司",
+     "KAITO",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0127_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "天馬司"
+    ],
+    "asset": "an_0127_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鳳えむ"
+    ],
+    "asset": "an_0127_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "草薙寧々"
+    ],
+    "asset": "an_0127_03"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "神代類"
+    ],
+    "asset": "an_0127_04"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 172.0
+ }
+}

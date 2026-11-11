@@ -1,0 +1,230 @@
+{
+ "game": "sekai",
+ "song_id": "268",
+ "title": "ノンブレス・オブリージュ",
+ "artist": "ピノキオピー",
+ "title_romaji": "nonburesuoburiiju",
+ "artist_romaji": "pinokiopii",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "148",
+ "version": "",
+ "date_added": "2022-12-05",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 342
+   },
+   "source": {
+    "music_difficulty_id": 1336,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 14,
+      "tap": 45,
+      "ex_tap": 2,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 459
+   },
+   "source": {
+    "music_difficulty_id": 1337,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 15,
+      "tap": 105,
+      "flick": 9,
+      "ex_tap": 5,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 927
+   },
+   "source": {
+    "music_difficulty_id": 1338,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 97,
+      "tap": 144,
+      "ex_tap": 52,
+      "flick": 14,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1071
+   },
+   "source": {
+    "music_difficulty_id": 1339,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 59,
+      "tap": 506,
+      "hold": 30,
+      "ex_tap": 69,
+      "flick": 68
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1203
+   },
+   "source": {
+    "music_difficulty_id": 1340,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 530,
+      "slide": 93,
+      "ex_tap": 73,
+      "flick": 96,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "32",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1287
+   },
+   "source": {
+    "music_difficulty_id": 4146,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 95,
+      "other": 20,
+      "tap": 428,
+      "flick": 64,
+      "hold": 33,
+      "ex_tap": 74
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 268,
+   "assetbundle": "jacket_s_268",
+   "seq": 1622101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_268.png",
+   "sha256": "e988c24a9174f01121343ac0950c0051e8e086de6afbeba70f63f9013adaaef5",
+   "width": 320,
+   "height": 320,
+   "bytes": 31252
+  }
+ },
+ "extra": {
+  "pronunciation": "のんぶれすおぶりーじゅ",
+  "lyricist": "ピノキオピー",
+  "composer": "ピノキオピー",
+  "arranger": "ピノキオピー",
+  "published_at": 1670220000000,
+  "released_at": 1622559600000,
+  "tags": [
+   "school_refusal",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0268_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "宵崎奏",
+     "朝比奈まふゆ",
+     "東雲絵名",
+     "暁山瑞希"
+    ],
+    "asset": "se_0268_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 148.0
+ }
+}

@@ -1,0 +1,214 @@
+{
+ "game": "sekai",
+ "song_id": "437",
+ "title": "え？あぁ、そう。",
+ "artist": "蝶々P",
+ "title_romaji": "eaasou",
+ "artist_romaji": "chouchoupii",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "192",
+ "version": "",
+ "date_added": "2024-02-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 189
+   },
+   "source": {
+    "music_difficulty_id": 2181,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 44,
+      "ex_tap": 29,
+      "hold": 7,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 378
+   },
+   "source": {
+    "music_difficulty_id": 2182,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 45,
+      "tap": 104,
+      "hold": 4,
+      "slide": 20,
+      "other": 1,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 521
+   },
+   "source": {
+    "music_difficulty_id": 2183,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 2,
+      "tap": 254,
+      "ex_tap": 48,
+      "slide": 35,
+      "flick": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 838
+   },
+   "source": {
+    "music_difficulty_id": 2184,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 421,
+      "ex_tap": 69,
+      "slide": 64,
+      "flick": 72,
+      "other": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1028
+   },
+   "source": {
+    "music_difficulty_id": 2185,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 626,
+      "ex_tap": 71,
+      "flick": 154,
+      "other": 14,
+      "slide": 47,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 437,
+   "assetbundle": "jacket_s_437",
+   "seq": 1437001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_437.png",
+   "sha256": "0a12106165c9ee03c7fb1c6b289f77ff57e2deca97bd3453bce6ec636fa12f44",
+   "width": 320,
+   "height": 320,
+   "bytes": 39288
+  }
+ },
+ "extra": {
+  "pronunciation": "えあぁそう",
+  "lyricist": "蝶々P",
+  "composer": "蝶々P",
+  "arranger": "蝶々P",
+  "published_at": 1706767200000,
+  "released_at": 1584802800000,
+  "tags": [
+   "street"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0437_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "小豆沢こはね",
+     "白石杏",
+     "東雲彰人",
+     "青柳冬弥"
+    ],
+    "asset": "se_0437_01"
+   },
+   {
+    "type": "april_fool_2022",
+    "caption": "エイプリルフールver.",
+    "singers": [
+     "MEIKO",
+     "日野森雫",
+     "白石杏",
+     "暁山瑞希"
+    ],
+    "asset": "af_0437_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 192.0
+ }
+}

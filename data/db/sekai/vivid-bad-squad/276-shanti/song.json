@@ -1,0 +1,217 @@
+{
+ "game": "sekai",
+ "song_id": "276",
+ "title": "シャンティ",
+ "artist": "wotaku",
+ "title_romaji": "shanti",
+ "artist_romaji": "wotaku",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "144",
+ "version": "",
+ "date_added": "2023-05-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 322
+   },
+   "source": {
+    "music_difficulty_id": 1376,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 3,
+      "tap": 49,
+      "hold": 14,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 467
+   },
+   "source": {
+    "music_difficulty_id": 1377,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 7,
+      "tap": 167,
+      "hold": 12,
+      "slide": 22,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 844
+   },
+   "source": {
+    "music_difficulty_id": 1378,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 23,
+      "slide": 58,
+      "tap": 195,
+      "flick": 35,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 942
+   },
+   "source": {
+    "music_difficulty_id": 1379,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 65,
+      "tap": 461,
+      "slide": 88,
+      "hold": 34,
+      "ex_tap": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1187
+   },
+   "source": {
+    "music_difficulty_id": 1380,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 84,
+      "slide": 115,
+      "tap": 574,
+      "hold": 30,
+      "ex_tap": 76
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 276,
+   "assetbundle": "jacket_s_276",
+   "seq": 1428701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_276.png",
+   "sha256": "8551a6b96a233e20ae5512f88beb84e49c84a949d1d04b45bdaade13779c1b86",
+   "width": 320,
+   "height": 320,
+   "bytes": 28973
+  }
+ },
+ "extra": {
+  "pronunciation": "しゃんてぃ",
+  "lyricist": "wotaku",
+  "composer": "wotaku",
+  "arranger": "-",
+  "published_at": 1684476000000,
+  "released_at": 1631804400000,
+  "tags": [
+   "street"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "KAITO"
+    ],
+    "asset": "vs_0276_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "KAITO",
+     "小豆沢こはね",
+     "白石杏",
+     "東雲彰人",
+     "青柳冬弥"
+    ],
+    "asset": "se_0276_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "東雲彰人"
+    ],
+    "asset": "an_0276_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "青柳冬弥"
+    ],
+    "asset": "an_0276_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 144.0
+ }
+}

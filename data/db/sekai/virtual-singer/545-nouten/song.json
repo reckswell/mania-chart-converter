@@ -1,0 +1,189 @@
+{
+ "game": "sekai",
+ "song_id": "545",
+ "title": "脳天",
+ "artist": "ムラタシユウ",
+ "title_romaji": "nouten",
+ "artist_romaji": "muratashiyuu",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "144",
+ "version": "",
+ "date_added": "2024-10-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 239
+   },
+   "source": {
+    "music_difficulty_id": 2721,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 65,
+      "hold": 6,
+      "slide": 5,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 297
+   },
+   "source": {
+    "music_difficulty_id": 2722,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 138,
+      "ex_tap": 5,
+      "slide": 8,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 489
+   },
+   "source": {
+    "music_difficulty_id": 2723,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 181,
+      "slide": 60,
+      "hold": 5,
+      "ex_tap": 6,
+      "flick": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 901
+   },
+   "source": {
+    "music_difficulty_id": 2724,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 245,
+      "hold": 7,
+      "slide": 109,
+      "flick": 56,
+      "ex_tap": 43,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 975
+   },
+   "source": {
+    "music_difficulty_id": 2725,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 37,
+      "tap": 296,
+      "flick": 90,
+      "ex_tap": 136,
+      "slide": 77
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "modifier without target 3: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 545,
+   "assetbundle": "jacket_s_545",
+   "seq": 1145401
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_545.png",
+   "sha256": "7bacbf266a5778f44dea294543c3f2cf880472d44e29b7ddde31f1c0cce0a2e3",
+   "width": 320,
+   "height": 320,
+   "bytes": 20512
+  }
+ },
+ "extra": {
+  "pronunciation": "のうてん",
+  "lyricist": "ムラタシユウ",
+  "composer": "ムラタシユウ",
+  "arranger": "ムラタシユウ",
+  "published_at": 1730095200000,
+  "released_at": 1717599600000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音リン"
+    ],
+    "asset": "vs_0545_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 144.0
+ }
+}

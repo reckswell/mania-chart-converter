@@ -1,0 +1,188 @@
+{
+ "game": "sekai",
+ "song_id": "223",
+ "title": "千年の独奏歌",
+ "artist": "yanagi",
+ "title_romaji": "sennennodokusouka",
+ "artist_romaji": "yanagi",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "108",
+ "version": "",
+ "date_added": "2022-04-04",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 214
+   },
+   "source": {
+    "music_difficulty_id": 1111,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 49,
+      "hold": 10,
+      "ex_tap": 12,
+      "slide": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 335
+   },
+   "source": {
+    "music_difficulty_id": 1112,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 117,
+      "hold": 15,
+      "slide": 15,
+      "ex_tap": 13,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 606
+   },
+   "source": {
+    "music_difficulty_id": 1113,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 20,
+      "flick": 5,
+      "tap": 187,
+      "slide": 69
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 791
+   },
+   "source": {
+    "music_difficulty_id": 1114,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 31,
+      "flick": 8,
+      "tap": 403,
+      "slide": 69,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 906
+   },
+   "source": {
+    "music_difficulty_id": 1115,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 34,
+      "flick": 13,
+      "tap": 587,
+      "slide": 65,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 223,
+   "assetbundle": "jacket_s_223",
+   "seq": 1115201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_223.png",
+   "sha256": "c1788cf563a7354d91bc69222af3ca9b908b9406ad547db5630909fc20fdd3d6",
+   "width": 320,
+   "height": 320,
+   "bytes": 36972
+  }
+ },
+ "extra": {
+  "pronunciation": "せんねんのどくそうか",
+  "lyricist": "yanagi",
+  "composer": "yanagi",
+  "arranger": "-",
+  "published_at": 1649052000000,
+  "released_at": 1209222000000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "KAITO"
+    ],
+    "asset": "vs_0223_01"
+   }
+  ],
+  "filler_sec": 7.333399772644043,
+  "bpm_main": 108.0
+ }
+}

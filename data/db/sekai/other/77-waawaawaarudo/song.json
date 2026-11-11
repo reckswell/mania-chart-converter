@@ -1,0 +1,228 @@
+{
+ "game": "sekai",
+ "song_id": "77",
+ "title": "ワーワーワールド",
+ "artist": "Giga＆Mitchie M",
+ "title_romaji": "waawaawaarudo",
+ "artist_romaji": "Giga&Mitchie M",
+ "genre": "その他",
+ "bpm": "160",
+ "version": "",
+ "date_added": "2019-06-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 127
+   },
+   "source": {
+    "music_difficulty_id": 381,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 67,
+      "hold": 4,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 343
+   },
+   "source": {
+    "music_difficulty_id": 382,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 166,
+      "slide": 12,
+      "ex_tap": 14,
+      "flick": 7,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 519
+   },
+   "source": {
+    "music_difficulty_id": 383,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 221,
+      "slide": 45,
+      "hold": 11,
+      "flick": 29,
+      "ex_tap": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 789
+   },
+   "source": {
+    "music_difficulty_id": 384,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 319,
+      "slide": 93,
+      "hold": 18,
+      "flick": 39,
+      "ex_tap": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 960
+   },
+   "source": {
+    "music_difficulty_id": 385,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 443,
+      "slide": 102,
+      "hold": 22,
+      "flick": 49,
+      "ex_tap": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1170
+   },
+   "source": {
+    "music_difficulty_id": 4096,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 18,
+      "tap": 437,
+      "flick": 81,
+      "hold": 46,
+      "ex_tap": 135,
+      "slide": 73
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 5",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 77,
+   "assetbundle": "jacket_s_077",
+   "seq": 2700102
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_077.png",
+   "sha256": "99abcb1db9127703a0642b3265272eec3745b59c1da3812fe4b2342c44964dfa",
+   "width": 320,
+   "height": 320,
+   "bytes": 35829
+  }
+ },
+ "extra": {
+  "pronunciation": "わーわーわーるど",
+  "lyricist": "Mitchie M",
+  "composer": "Giga & Mitchie M",
+  "arranger": "Giga",
+  "published_at": 1560148031000,
+  "released_at": 1601391600000,
+  "tags": [
+   "other",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "鏡音リン"
+    ],
+    "asset": "0077_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "花里みのり",
+     "小豆沢こはね",
+     "初音ミク"
+    ],
+    "asset": "se_0077_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 160.0
+ }
+}

@@ -1,0 +1,219 @@
+{
+ "game": "sekai",
+ "song_id": "513",
+ "title": "CH4NGE",
+ "artist": "Giga",
+ "title_romaji": "CH4NGE",
+ "artist_romaji": "Giga",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "115",
+ "version": "",
+ "date_added": "2025-01-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 158
+   },
+   "source": {
+    "music_difficulty_id": 2561,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 36,
+      "ex_tap": 20,
+      "hold": 13,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 300
+   },
+   "source": {
+    "music_difficulty_id": 2562,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 22,
+      "tap": 88,
+      "slide": 23,
+      "flick": 7,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 417
+   },
+   "source": {
+    "music_difficulty_id": 2563,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 56,
+      "flick": 61,
+      "tap": 163,
+      "slide": 23,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 789
+   },
+   "source": {
+    "music_difficulty_id": 2564,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 98,
+      "ex_tap": 49,
+      "flick": 78,
+      "tap": 301,
+      "other": 1,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1101
+   },
+   "source": {
+    "music_difficulty_id": 2565,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 112,
+      "ex_tap": 200,
+      "tap": 420,
+      "flick": 72,
+      "other": 40,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 513,
+   "assetbundle": "jacket_s_513",
+   "seq": 1447001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_513.png",
+   "sha256": "ece48a18a4d6272b708d32cd7ef8682ec14d41ea37304d33f7e0029dc8cfef6c",
+   "width": 320,
+   "height": 320,
+   "bytes": 35993
+  }
+ },
+ "extra": {
+  "pronunciation": "ちぇんじ",
+  "lyricist": "q*Left",
+  "composer": "Giga",
+  "arranger": "-",
+  "published_at": 1735711200000,
+  "released_at": 1640358000000,
+  "tags": [
+   "street"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "可不"
+    ],
+    "asset": "vs_0513_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音リン",
+     "小豆沢こはね",
+     "白石杏",
+     "東雲彰人",
+     "青柳冬弥"
+    ],
+    "asset": "se_0513_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "小豆沢こはね"
+    ],
+    "asset": "an_0513_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "白石杏"
+    ],
+    "asset": "an_0513_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 115.0
+ }
+}

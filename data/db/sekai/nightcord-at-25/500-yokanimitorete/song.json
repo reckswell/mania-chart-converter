@@ -1,0 +1,220 @@
+{
+ "game": "sekai",
+ "song_id": "500",
+ "title": "余花にみとれて",
+ "artist": "keeno",
+ "title_romaji": "yokanimitorete",
+ "artist_romaji": "keeno",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "83",
+ "version": "",
+ "date_added": "2024-12-09",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 152
+   },
+   "source": {
+    "music_difficulty_id": 2496,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 29,
+      "slide": 5,
+      "hold": 3,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 217
+   },
+   "source": {
+    "music_difficulty_id": 2497,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 15,
+      "slide": 7,
+      "flick": 3,
+      "tap": 39,
+      "ex_tap": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 389
+   },
+   "source": {
+    "music_difficulty_id": 2498,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 136,
+      "slide": 27,
+      "ex_tap": 23,
+      "flick": 4,
+      "hold": 6,
+      "other": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 599
+   },
+   "source": {
+    "music_difficulty_id": 2499,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 147,
+      "slide": 54,
+      "other": 3,
+      "hold": 5,
+      "ex_tap": 25,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 613
+   },
+   "source": {
+    "music_difficulty_id": 2500,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 52,
+      "tap": 184,
+      "other": 13,
+      "hold": 18,
+      "ex_tap": 43,
+      "flick": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 500,
+   "assetbundle": "jacket_s_500",
+   "seq": 2646201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_500.png",
+   "sha256": "40802e3e488a36c28161e3b3e5330a352c7128b374de6ec195d9d39fefd3143c",
+   "width": 320,
+   "height": 320,
+   "bytes": 16514
+  }
+ },
+ "extra": {
+  "pronunciation": "よかにみとれて",
+  "lyricist": "keeno",
+  "composer": "keeno",
+  "arranger": "keeno",
+  "published_at": 1733749500000,
+  "released_at": 1733670000000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0500_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "東雲絵名",
+     "MEIKO",
+     "宵崎奏",
+     "朝比奈まふゆ",
+     "暁山瑞希"
+    ],
+    "asset": "se_0500_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "東雲絵名"
+    ],
+    "asset": "an_0500_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "MEIKO"
+    ],
+    "asset": "an_0500_02"
+   }
+  ],
+  "filler_sec": 7.553999900817871,
+  "bpm_main": 83.0
+ }
+}

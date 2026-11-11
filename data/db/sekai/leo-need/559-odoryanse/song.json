@@ -1,0 +1,214 @@
+{
+ "game": "sekai",
+ "song_id": "559",
+ "title": "おどりゃんせ",
+ "artist": "ユリイ・カノン",
+ "title_romaji": "odoryanse",
+ "artist_romaji": "yuriikanon",
+ "genre": "Leo/need",
+ "bpm": "172",
+ "version": "",
+ "date_added": "2025-10-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 245
+   },
+   "source": {
+    "music_difficulty_id": 2791,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 82,
+      "hold": 12,
+      "ex_tap": 6,
+      "slide": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 437
+   },
+   "source": {
+    "music_difficulty_id": 2792,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 22,
+      "tap": 219,
+      "hold": 5,
+      "flick": 11,
+      "slide": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 732
+   },
+   "source": {
+    "music_difficulty_id": 2793,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 59,
+      "hold": 15,
+      "tap": 354,
+      "slide": 39,
+      "flick": 21,
+      "other": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1100
+   },
+   "source": {
+    "music_difficulty_id": 2794,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 87,
+      "ex_tap": 83,
+      "hold": 62,
+      "other": 6,
+      "tap": 480,
+      "flick": 70
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "32",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1303
+   },
+   "source": {
+    "music_difficulty_id": 2795,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 53,
+      "ex_tap": 125,
+      "tap": 767,
+      "slide": 88,
+      "flick": 128,
+      "other": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 559,
+   "assetbundle": "jacket_s_559",
+   "seq": 1255701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_559.png",
+   "sha256": "c18c831398891bfaa4f9f6c17902e3e0618de6301910172902d5346c17935c03",
+   "width": 320,
+   "height": 320,
+   "bytes": 35811
+  }
+ },
+ "extra": {
+  "pronunciation": "おどりゃんせ",
+  "lyricist": "ユリイ・カノン",
+  "composer": "ユリイ・カノン",
+  "arranger": "ユリイ・カノン",
+  "published_at": 1759298400000,
+  "released_at": 1477407600000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "GUMI",
+     "初音ミク"
+    ],
+    "asset": "vs_0559_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "KAITO",
+     "星乃一歌",
+     "天馬咲希",
+     "望月穂波",
+     "日野森志歩"
+    ],
+    "asset": "se_0559_01"
+   },
+   {
+    "type": "streaming_live",
+    "caption": "コネクトライブ(DAY2)ver.",
+    "singers": [
+     "天馬咲希",
+     "天馬司"
+    ],
+    "asset": "cl_0559_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 172.0
+ }
+}

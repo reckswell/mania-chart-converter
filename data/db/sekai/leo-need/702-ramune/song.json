@@ -1,0 +1,208 @@
+{
+ "game": "sekai",
+ "song_id": "702",
+ "title": "ラムネ",
+ "artist": "Aqu3ra",
+ "title_romaji": "ramune",
+ "artist_romaji": "Aqu3ra",
+ "genre": "Leo/need",
+ "bpm": "192",
+ "version": "",
+ "date_added": "2026-03-06",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 194
+   },
+   "source": {
+    "music_difficulty_id": 3506,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 82,
+      "ex_tap": 9,
+      "hold": 11,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 354
+   },
+   "source": {
+    "music_difficulty_id": 3507,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 17,
+      "ex_tap": 16,
+      "tap": 148,
+      "hold": 6,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 647
+   },
+   "source": {
+    "music_difficulty_id": 3508,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 224,
+      "hold": 4,
+      "ex_tap": 43,
+      "slide": 54,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 951
+   },
+   "source": {
+    "music_difficulty_id": 3509,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 94,
+      "tap": 360,
+      "ex_tap": 63,
+      "other": 4,
+      "flick": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1018
+   },
+   "source": {
+    "music_difficulty_id": 3510,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 51,
+      "tap": 388,
+      "flick": 125,
+      "ex_tap": 131,
+      "slide": 74,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 702,
+   "assetbundle": "jacket_s_702",
+   "seq": 1262201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_702.png",
+   "sha256": "d060caf046a0ffc52cc03c22aa3f029717f0d0764650761a4f0efec85e22a2e1",
+   "width": 320,
+   "height": 320,
+   "bytes": 21846
+  }
+ },
+ "extra": {
+  "pronunciation": "らむね",
+  "lyricist": "Aqu3ra",
+  "composer": "Aqu3ra",
+  "arranger": "Aqu3ra",
+  "published_at": 1772776800000,
+  "released_at": 1563202800000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "flower"
+    ],
+    "asset": "vs_0702_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音レン",
+     "星乃一歌",
+     "望月穂波"
+    ],
+    "asset": "se_0702_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "望月穂波"
+    ],
+    "asset": "an_0702_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 192.0
+ }
+}

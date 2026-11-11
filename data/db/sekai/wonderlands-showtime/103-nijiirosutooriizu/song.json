@@ -1,0 +1,223 @@
+{
+ "game": "sekai",
+ "song_id": "103",
+ "title": "ニジイロストーリーズ",
+ "artist": "OSTER project",
+ "title_romaji": "nijiirosutooriizu",
+ "artist_romaji": "OSTER project",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "115-230 (230)",
+ "version": "",
+ "date_added": "2020-12-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 284
+   },
+   "source": {
+    "music_difficulty_id": 511,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 53,
+      "hold": 21,
+      "ex_tap": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 428
+   },
+   "source": {
+    "music_difficulty_id": 512,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 26,
+      "tap": 94,
+      "flick": 2,
+      "slide": 24,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 673
+   },
+   "source": {
+    "music_difficulty_id": 513,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 267,
+      "flick": 9,
+      "slide": 52,
+      "hold": 5,
+      "ex_tap": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 881
+   },
+   "source": {
+    "music_difficulty_id": 514,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 364,
+      "flick": 18,
+      "hold": 15,
+      "slide": 67,
+      "ex_tap": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1054
+   },
+   "source": {
+    "music_difficulty_id": 515,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 540,
+      "flick": 30,
+      "hold": 14,
+      "slide": 63,
+      "ex_tap": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 103,
+   "assetbundle": "jacket_s_103",
+   "seq": 2503301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_103.png",
+   "sha256": "bff1aaf38ab721b31e5886fba0738ca1d7b2d9d17278fb283d0b8c16d3320d15",
+   "width": 320,
+   "height": 320,
+   "bytes": 36645
+  }
+ },
+ "extra": {
+  "pronunciation": "にじいろすとーりーず",
+  "lyricist": "OSTER project",
+  "composer": "OSTER project",
+  "arranger": "OSTER project",
+  "published_at": 1608444000000,
+  "released_at": 1608390000000,
+  "tags": [
+   "theme_park",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "鏡音リン",
+     "鏡音レン",
+     "巡音ルカ",
+     "MEIKO",
+     "KAITO"
+    ],
+    "asset": "vs_0103_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "草薙寧々",
+     "MEIKO",
+     "KAITO",
+     "神代類"
+    ],
+    "asset": "se_0103_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "an_0103_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "MEIKO",
+     "KAITO"
+    ],
+    "asset": "an_0103_02"
+   }
+  ],
+  "filler_sec": 8.217399597167969,
+  "bpm_main": 230.0
+ }
+}

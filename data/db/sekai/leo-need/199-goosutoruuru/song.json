@@ -1,0 +1,216 @@
+{
+ "game": "sekai",
+ "song_id": "199",
+ "title": "ゴーストルール",
+ "artist": "DECO*27",
+ "title_romaji": "goosutoruuru",
+ "artist_romaji": "DECO*27",
+ "genre": "Leo/need",
+ "bpm": "210",
+ "version": "",
+ "date_added": "2021-12-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 409
+   },
+   "source": {
+    "music_difficulty_id": 991,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 84,
+      "hold": 13,
+      "slide": 10,
+      "ex_tap": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 650
+   },
+   "source": {
+    "music_difficulty_id": 992,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 29,
+      "tap": 177,
+      "ex_tap": 10,
+      "hold": 10,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 740
+   },
+   "source": {
+    "music_difficulty_id": 993,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 457,
+      "flick": 64,
+      "slide": 41,
+      "ex_tap": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1174
+   },
+   "source": {
+    "music_difficulty_id": 994,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 669,
+      "flick": 79,
+      "slide": 77,
+      "ex_tap": 58,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "33",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1473
+   },
+   "source": {
+    "music_difficulty_id": 995,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 877,
+      "flick": 98,
+      "slide": 72,
+      "hold": 18,
+      "ex_tap": 56
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 199,
+   "assetbundle": "jacket_s_199",
+   "seq": 1212101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_199.png",
+   "sha256": "b308f9a00d6ea29d73616c19516f3aa1d3af59cb614650ddeb88c113473241da",
+   "width": 320,
+   "height": 320,
+   "bytes": 27124
+  }
+ },
+ "extra": {
+  "pronunciation": "ごーすとるーる",
+  "lyricist": "DECO*27",
+  "composer": "DECO*27",
+  "arranger": "Naoki Itai(MUSIC FOR MUSIC)",
+  "published_at": 1640844000000,
+  "released_at": 1452178800000,
+  "tags": [
+   "light_music_club",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0199_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "星乃一歌"
+    ],
+    "asset": "se_0199_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鏡音リン",
+     "鏡音レン"
+    ],
+    "asset": "an_0199_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "巡音ルカ",
+     "MEIKO"
+    ],
+    "asset": "an_0199_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 210.0
+ }
+}

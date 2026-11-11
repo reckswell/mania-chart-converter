@@ -1,0 +1,202 @@
+{
+ "game": "sekai",
+ "song_id": "759",
+ "title": "ハナタバ",
+ "artist": "MIMI",
+ "title_romaji": "hanataba",
+ "artist_romaji": "MIMI",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "119",
+ "version": "",
+ "date_added": "2026-07-13",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 169
+   },
+   "source": {
+    "music_difficulty_id": 3791,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 49,
+      "slide": 5,
+      "ex_tap": 4,
+      "hold": 10,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 230
+   },
+   "source": {
+    "music_difficulty_id": 3792,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 136,
+      "hold": 11,
+      "ex_tap": 3,
+      "flick": 10,
+      "slide": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 469
+   },
+   "source": {
+    "music_difficulty_id": 3793,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 30,
+      "hold": 2,
+      "tap": 244,
+      "flick": 13,
+      "ex_tap": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 894
+   },
+   "source": {
+    "music_difficulty_id": 3794,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 81,
+      "hold": 7,
+      "tap": 425,
+      "flick": 24,
+      "ex_tap": 20,
+      "other": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 938
+   },
+   "source": {
+    "music_difficulty_id": 3795,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 44,
+      "tap": 441,
+      "slide": 81,
+      "hold": 12,
+      "flick": 53,
+      "ex_tap": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 759,
+   "assetbundle": "jacket_s_759",
+   "seq": 1466801
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_759.png",
+   "sha256": "6d7e78c77a105762c13be904372733a01aab36990ac89d5ff093153b6f255f50",
+   "width": 320,
+   "height": 320,
+   "bytes": 28295
+  }
+ },
+ "extra": {
+  "pronunciation": "はなたば",
+  "lyricist": "MIMI",
+  "composer": "MIMI",
+  "arranger": "MIMI",
+  "published_at": 1783922400000,
+  "released_at": 1668783600000,
+  "tags": [
+   "street"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "可不"
+    ],
+    "asset": "vs_0759_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "MEIKO",
+     "小豆沢こはね",
+     "白石杏"
+    ],
+    "asset": "se_0759_01"
+   }
+  ],
+  "filler_sec": 7.992000102996826,
+  "bpm_main": 119.0
+ }
+}

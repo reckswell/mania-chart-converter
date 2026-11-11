@@ -1,0 +1,212 @@
+{
+ "game": "sekai",
+ "song_id": "600",
+ "title": "征け",
+ "artist": "せきこみごはん",
+ "title_romaji": "yuke",
+ "artist_romaji": "sekikomigohan",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "120.48-150 (150)",
+ "version": "",
+ "date_added": "2025-11-17",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 142
+   },
+   "source": {
+    "music_difficulty_id": 2996,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 49,
+      "slide": 6,
+      "ex_tap": 13,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 303
+   },
+   "source": {
+    "music_difficulty_id": 2997,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 17,
+      "tap": 59,
+      "ex_tap": 30,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 509
+   },
+   "source": {
+    "music_difficulty_id": 2998,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 34,
+      "tap": 96,
+      "hold": 7,
+      "other": 8,
+      "ex_tap": 63,
+      "flick": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 701
+   },
+   "source": {
+    "music_difficulty_id": 2999,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 50,
+      "flick": 65,
+      "tap": 139,
+      "other": 8,
+      "ex_tap": 91,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 825
+   },
+   "source": {
+    "music_difficulty_id": 3000,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 107,
+      "slide": 41,
+      "tap": 205,
+      "other": 26,
+      "ex_tap": 228,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 600,
+   "assetbundle": "jacket_s_600",
+   "seq": 2557701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_600.png",
+   "sha256": "46d5d6070d2332225641174067d0c5b4eae4b4a55eea9b2a41ca6b734b04af44",
+   "width": 320,
+   "height": 320,
+   "bytes": 20826
+  }
+ },
+ "extra": {
+  "pronunciation": "ゆけ",
+  "lyricist": "せきこみごはん",
+  "composer": "せきこみごはん",
+  "arranger": "せきこみごはん",
+  "published_at": 1763384700000,
+  "released_at": 1763305200000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音リン",
+     "鏡音レン"
+    ],
+    "asset": "vs_0600_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "草薙寧々",
+     "鏡音リン",
+     "天馬司",
+     "鳳えむ",
+     "神代類"
+    ],
+    "asset": "se_0600_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "草薙寧々"
+    ],
+    "asset": "an_0600_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 150.0
+ }
+}

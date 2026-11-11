@@ -1,0 +1,228 @@
+{
+ "game": "sekai",
+ "song_id": "291",
+ "title": "フェレス",
+ "artist": "栗山夕璃（蜂屋ななし）",
+ "title_romaji": "feresu",
+ "artist_romaji": "kuriyamayuuri hachiyananashi",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "220",
+ "version": "",
+ "date_added": "2023-01-05",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 397
+   },
+   "source": {
+    "music_difficulty_id": 1451,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 22,
+      "tap": 101,
+      "ex_tap": 6,
+      "slide": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 630
+   },
+   "source": {
+    "music_difficulty_id": 1452,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 29,
+      "tap": 212,
+      "hold": 17,
+      "ex_tap": 20,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 937
+   },
+   "source": {
+    "music_difficulty_id": 1453,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 25,
+      "tap": 171,
+      "slide": 84,
+      "ex_tap": 21,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1374
+   },
+   "source": {
+    "music_difficulty_id": 1454,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 108,
+      "flick": 39,
+      "tap": 382,
+      "hold": 72,
+      "ex_tap": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1397
+   },
+   "source": {
+    "music_difficulty_id": 1455,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 69,
+      "tap": 465,
+      "slide": 138,
+      "hold": 54,
+      "ex_tap": 58
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 3",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1744
+   },
+   "source": {
+    "music_difficulty_id": 4007,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 799,
+      "hold": 186,
+      "ex_tap": 85,
+      "flick": 50,
+      "slide": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 291,
+   "assetbundle": "jacket_s_291",
+   "seq": 1423401
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_291.png",
+   "sha256": "df2bf46a9a3b283691a956a380605805ec3dfb3b364f16d7563a29f447cbea5e",
+   "width": 320,
+   "height": 320,
+   "bytes": 28740
+  }
+ },
+ "extra": {
+  "pronunciation": "ふぇれす",
+  "lyricist": "栗山夕璃（蜂屋ななし）",
+  "composer": "栗山夕璃（蜂屋ななし）",
+  "arranger": "栗山夕璃（蜂屋ななし）",
+  "published_at": 1672898400000,
+  "released_at": 1647615600000,
+  "tags": [
+   "street"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "MEIKO"
+    ],
+    "asset": "vs_0291_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "MEIKO",
+     "小豆沢こはね",
+     "白石杏"
+    ],
+    "asset": "se_0291_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 220.0
+ }
+}

@@ -1,0 +1,205 @@
+{
+ "game": "sekai",
+ "song_id": "804",
+ "title": "正解",
+ "artist": "雨良 Amala",
+ "title_romaji": "seikai",
+ "artist_romaji": "amara",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "155",
+ "version": "",
+ "date_added": "2026-09-06",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 258
+   },
+   "source": {
+    "music_difficulty_id": 4187,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 12,
+      "tap": 42,
+      "ex_tap": 19,
+      "slide": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 346
+   },
+   "source": {
+    "music_difficulty_id": 4188,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 9,
+      "tap": 127,
+      "slide": 15,
+      "ex_tap": 46,
+      "other": 4,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 553
+   },
+   "source": {
+    "music_difficulty_id": 4189,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 41,
+      "tap": 234,
+      "other": 23,
+      "ex_tap": 71,
+      "slide": 29,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 815
+   },
+   "source": {
+    "music_difficulty_id": 4190,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 68,
+      "tap": 329,
+      "hold": 10,
+      "flick": 50,
+      "ex_tap": 111,
+      "other": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1210
+   },
+   "source": {
+    "music_difficulty_id": 4191,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 69,
+      "hold": 50,
+      "flick": 114,
+      "tap": 487,
+      "slide": 86,
+      "ex_tap": 204
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 804,
+   "assetbundle": "jacket_s_804",
+   "seq": 2468701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_804.png",
+   "sha256": "e911ebd64c8ff80bcf537b831bffca8986f15df74b06e2a729e43e7026b20c17",
+   "width": 320,
+   "height": 320,
+   "bytes": 41374
+  }
+ },
+ "extra": {
+  "pronunciation": "せいかい",
+  "lyricist": "雨良 Amala",
+  "composer": "雨良 Amala",
+  "arranger": "雨良 Amala",
+  "published_at": 1788674400000,
+  "released_at": 1788620400000,
+  "tags": [
+   "street"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "重音テト"
+    ],
+    "asset": "vs_0804_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "東雲彰人",
+     "鏡音リン",
+     "小豆沢こはね",
+     "白石杏",
+     "青柳冬弥"
+    ],
+    "asset": "se_0804_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 155.0
+ }
+}

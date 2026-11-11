@@ -1,0 +1,200 @@
+{
+ "game": "sekai",
+ "song_id": "229",
+ "title": "脳漿炸裂ガール",
+ "artist": "れるりり",
+ "title_romaji": "noushousakuretsugaaru",
+ "artist_romaji": "reruriri",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "155",
+ "version": "",
+ "date_added": "2022-06-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 296
+   },
+   "source": {
+    "music_difficulty_id": 1141,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 62,
+      "hold": 17,
+      "slide": 4,
+      "ex_tap": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 613
+   },
+   "source": {
+    "music_difficulty_id": 1142,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 132,
+      "slide": 32,
+      "ex_tap": 4,
+      "flick": 12,
+      "hold": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 985
+   },
+   "source": {
+    "music_difficulty_id": 1143,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 24,
+      "tap": 324,
+      "slide": 56,
+      "ex_tap": 5,
+      "flick": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1349
+   },
+   "source": {
+    "music_difficulty_id": 1144,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 27,
+      "tap": 752,
+      "slide": 112,
+      "ex_tap": 12,
+      "flick": 58
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "duplicate slides: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "32",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1500
+   },
+   "source": {
+    "music_difficulty_id": 1145,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 35,
+      "tap": 878,
+      "slide": 101,
+      "flick": 92,
+      "ex_tap": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 229,
+   "assetbundle": "jacket_s_229",
+   "seq": 1117701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_229.png",
+   "sha256": "0c6489c3581365c4e484881ed5174816b7fe9d047ede11f475e1caeb436ebf92",
+   "width": 320,
+   "height": 320,
+   "bytes": 28515
+  }
+ },
+ "extra": {
+  "pronunciation": "のうしょうさくれつがーる",
+  "lyricist": "れるりり",
+  "composer": "れるりり",
+  "arranger": "れるりり",
+  "published_at": 1656568800000,
+  "released_at": 1350572400000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "GUMI"
+    ],
+    "asset": "vs_0229_01"
+   },
+   {
+    "type": "streaming_live",
+    "caption": "コネクトライブver.",
+    "singers": [
+     "鏡音リン",
+     "巡音ルカ",
+     "MEIKO"
+    ],
+    "asset": "cl_0229_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 155.0
+ }
+}

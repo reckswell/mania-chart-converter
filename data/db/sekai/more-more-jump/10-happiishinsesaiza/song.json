@@ -1,0 +1,269 @@
+{
+ "game": "sekai",
+ "song_id": "10",
+ "title": "ハッピーシンセサイザ",
+ "artist": "EasyPop",
+ "title_romaji": "happiishinsesaiza",
+ "artist_romaji": "EasyPop",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "127",
+ "version": "",
+ "date_added": "2019-06-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 127
+   },
+   "source": {
+    "music_difficulty_id": 46,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 59,
+      "hold": 8,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 437
+   },
+   "source": {
+    "music_difficulty_id": 47,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 191,
+      "hold": 5,
+      "slide": 59,
+      "ex_tap": 4,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 685
+   },
+   "source": {
+    "music_difficulty_id": 48,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 497,
+      "hold": 21,
+      "ex_tap": 33,
+      "flick": 18,
+      "slide": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 859
+   },
+   "source": {
+    "music_difficulty_id": 49,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 559,
+      "slide": 68,
+      "ex_tap": 37,
+      "hold": 17,
+      "flick": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1136
+   },
+   "source": {
+    "music_difficulty_id": 50,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 596,
+      "hold": 25,
+      "flick": 68,
+      "ex_tap": 36,
+      "slide": 100
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1205
+   },
+   "source": {
+    "music_difficulty_id": 4088,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 125,
+      "other": 5,
+      "tap": 523,
+      "ex_tap": 113,
+      "flick": 55,
+      "slide": 79
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 10,
+   "assetbundle": "jacket_s_010",
+   "seq": 1300101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_010.png",
+   "sha256": "36474ce5b1af42ae38708af88907abb16ad8584927105831345238a77ebcfd84",
+   "width": 320,
+   "height": 320,
+   "bytes": 26903
+  }
+ },
+ "extra": {
+  "pronunciation": "はっぴーしんせさいざ",
+  "lyricist": "EasyPop",
+  "composer": "EasyPop",
+  "arranger": "-",
+  "published_at": 1560148031000,
+  "released_at": 1290351600000,
+  "tags": [
+   "idol",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "巡音ルカ",
+     "GUMI"
+    ],
+    "asset": "0010_01"
+   },
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "鏡音リン",
+     "巡音ルカ",
+     "MEIKO"
+    ],
+    "asset": "vs_0010_02"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "花里みのり",
+     "桐谷遥",
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "0010_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "花里みのり",
+     "桐谷遥"
+    ],
+    "asset": "an_0010_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "an_0010_02"
+   },
+   {
+    "type": "april_fool_2022",
+    "caption": "エイプリルフールver.",
+    "singers": [
+     "日野森志歩",
+     "日野森雫",
+     "白石杏",
+     "宵崎奏"
+    ],
+    "asset": "af_0010_01"
+   }
+  ],
+  "filler_sec": 9.006999969482422,
+  "bpm_main": 127.0
+ }
+}

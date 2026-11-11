@@ -1,0 +1,211 @@
+{
+ "game": "sekai",
+ "song_id": "252",
+ "title": "DREAM PLACE",
+ "artist": "EasyPop",
+ "title_romaji": "DREAM PLACE",
+ "artist_romaji": "EasyPop",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "136",
+ "version": "",
+ "date_added": "2022-10-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 226
+   },
+   "source": {
+    "music_difficulty_id": 1256,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 57,
+      "hold": 22,
+      "ex_tap": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 432
+   },
+   "source": {
+    "music_difficulty_id": 1257,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 163,
+      "hold": 12,
+      "slide": 25,
+      "flick": 5,
+      "ex_tap": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 716
+   },
+   "source": {
+    "music_difficulty_id": 1258,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 8,
+      "tap": 218,
+      "slide": 92,
+      "flick": 23,
+      "ex_tap": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 937
+   },
+   "source": {
+    "music_difficulty_id": 1259,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 13,
+      "tap": 478,
+      "slide": 85,
+      "flick": 31,
+      "ex_tap": 77
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1172
+   },
+   "source": {
+    "music_difficulty_id": 1260,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 74,
+      "tap": 695,
+      "flick": 68,
+      "ex_tap": 111,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 252,
+   "assetbundle": "jacket_s_252",
+   "seq": 2320701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_252.png",
+   "sha256": "ea7944334265ee8ca51ad5e8a3f893978403728cc313f784c5ee55f32588492e",
+   "width": 320,
+   "height": 320,
+   "bytes": 21888
+  }
+ },
+ "extra": {
+  "pronunciation": "どりーむぷれいす",
+  "lyricist": "EasyPop",
+  "composer": "EasyPop",
+  "arranger": "EasyPop",
+  "published_at": 1666184700000,
+  "released_at": 1666105200000,
+  "tags": [
+   "idol",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "鏡音リン",
+     "巡音ルカ"
+    ],
+    "asset": "vs_0252_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "花里みのり",
+     "MEIKO",
+     "桐谷遥",
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "se_0252_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "花里みのり"
+    ],
+    "asset": "an_0252_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 136.0
+ }
+}

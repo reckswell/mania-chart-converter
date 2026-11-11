@@ -1,0 +1,220 @@
+{
+ "game": "sekai",
+ "song_id": "509",
+ "title": "ライアーダンサー",
+ "artist": "マサラダ",
+ "title_romaji": "raiaadansaa",
+ "artist_romaji": "masarada",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2025-03-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 260
+   },
+   "source": {
+    "music_difficulty_id": 2541,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 63,
+      "hold": 12,
+      "ex_tap": 2,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 337
+   },
+   "source": {
+    "music_difficulty_id": 2542,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 144,
+      "slide": 11,
+      "hold": 9,
+      "ex_tap": 20,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 678
+   },
+   "source": {
+    "music_difficulty_id": 2543,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 37,
+      "tap": 274,
+      "other": 2,
+      "slide": 42,
+      "hold": 3,
+      "flick": 65
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 4",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 892
+   },
+   "source": {
+    "music_difficulty_id": 2544,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 54,
+      "flick": 127,
+      "tap": 334,
+      "slide": 93,
+      "hold": 10,
+      "other": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1224
+   },
+   "source": {
+    "music_difficulty_id": 2545,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 199,
+      "flick": 199,
+      "tap": 489,
+      "slide": 96,
+      "hold": 34,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 6",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 509,
+   "assetbundle": "jacket_s_509",
+   "seq": 1549801
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_509.png",
+   "sha256": "0388d87fab2e97a49bb4212958b6c8ba65905e3cb9a03e17e0f7b9667545a4cc",
+   "width": 320,
+   "height": 320,
+   "bytes": 18396
+  }
+ },
+ "extra": {
+  "pronunciation": "らいあーだんさー",
+  "lyricist": "マサラダ",
+  "composer": "マサラダ",
+  "arranger": "マサラダ",
+  "published_at": 1741586400000,
+  "released_at": 1683990000000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "重音テト"
+    ],
+    "asset": "vs_0509_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "KAITO",
+     "天馬司",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0509_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "草薙寧々"
+    ],
+    "asset": "an_0509_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "神代類"
+    ],
+    "asset": "an_0509_02"
+   }
+  ],
+  "filler_sec": 7.940999984741211,
+  "bpm_main": 170.0
+ }
+}

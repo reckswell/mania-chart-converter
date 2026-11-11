@@ -1,0 +1,210 @@
+{
+ "game": "sekai",
+ "song_id": "299",
+ "title": "エゴイスト",
+ "artist": "大沼パセリ",
+ "title_romaji": "egoisuto",
+ "artist_romaji": "oonumapaseri",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2023-03-13",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 316
+   },
+   "source": {
+    "music_difficulty_id": 1491,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "tap": 93,
+      "hold": 16,
+      "ex_tap": 4,
+      "slide": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 612
+   },
+   "source": {
+    "music_difficulty_id": 1492,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "hold": 4,
+      "slide": 31,
+      "tap": 208,
+      "ex_tap": 4,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 923
+   },
+   "source": {
+    "music_difficulty_id": 1493,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "slide": 101,
+      "tap": 269,
+      "ex_tap": 32,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1303
+   },
+   "source": {
+    "music_difficulty_id": 1494,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "hold": 28,
+      "flick": 47,
+      "tap": 547,
+      "slide": 170,
+      "ex_tap": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1548
+   },
+   "source": {
+    "music_difficulty_id": 1495,
+    "difficulty": "master",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "tap": 695,
+      "slide": 169,
+      "flick": 92,
+      "hold": 35,
+      "ex_tap": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 299,
+   "assetbundle": "jacket_s_299",
+   "seq": 1425901
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Untitled-World/sekai-jacket-db/HEAD/src/jacket/jacket_s_299.png",
+   "sha256": "d49c2a0c50cafdcd297ce61a10fbfa35bac2b9e5d87f7300d97935ccf5c05526",
+   "width": 320,
+   "height": 320,
+   "bytes": 26806
+  }
+ },
+ "extra": {
+  "pronunciation": "えごいすと",
+  "lyricist": "大沼パセリ",
+  "composer": "大沼パセリ",
+  "arranger": "大沼パセリ",
+  "published_at": 1678687200000,
+  "released_at": 1536678000000,
+  "tags": [
+   "street",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "flower"
+    ],
+    "asset": "vs_0299_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "MEIKO",
+     "小豆沢こはね",
+     "白石杏",
+     "東雲彰人",
+     "青柳冬弥"
+    ],
+    "asset": "se_0299_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "白石杏",
+     "東雲彰人"
+    ],
+    "asset": "an_0299_01"
+   }
+  ],
+  "filler_sec": 8.998299598693848,
+  "bpm_main": 180.0
+ }
+}

@@ -1,0 +1,217 @@
+{
+ "game": "sekai",
+ "song_id": "746",
+ "title": "Masquerade",
+ "artist": "M2U",
+ "title_romaji": "Masquerade",
+ "artist_romaji": "M2U",
+ "genre": "その他",
+ "bpm": "128",
+ "version": "",
+ "date_added": "2026-06-26",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 211
+   },
+   "source": {
+    "music_difficulty_id": 3726,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 69,
+      "hold": 14,
+      "ex_tap": 10,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 274
+   },
+   "source": {
+    "music_difficulty_id": 3727,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 124,
+      "flick": 16,
+      "slide": 14,
+      "hold": 6,
+      "ex_tap": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 497
+   },
+   "source": {
+    "music_difficulty_id": 3728,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 15,
+      "slide": 36,
+      "flick": 52,
+      "tap": 202,
+      "ex_tap": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 868
+   },
+   "source": {
+    "music_difficulty_id": 3729,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 20,
+      "tap": 394,
+      "slide": 56,
+      "ex_tap": 118,
+      "flick": 83,
+      "other": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 5",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1015
+   },
+   "source": {
+    "music_difficulty_id": 3730,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 12,
+      "tap": 340,
+      "flick": 108,
+      "ex_tap": 188,
+      "slide": 150
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1282
+   },
+   "source": {
+    "music_difficulty_id": 4157,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 619,
+      "ex_tap": 184,
+      "slide": 99,
+      "flick": 151,
+      "hold": 46,
+      "other": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 746,
+   "assetbundle": "jacket_s_746",
+   "seq": 3766301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_746.png",
+   "sha256": "0e9edf95de35619bbec8842e7d33d89e113aa34e156127495cedac8970786ca7",
+   "width": 320,
+   "height": 320,
+   "bytes": 33763
+  }
+ },
+ "extra": {
+  "pronunciation": "ますかれーど",
+  "lyricist": "-",
+  "composer": "M2U",
+  "arranger": "M2U",
+  "published_at": 1782453600000,
+  "released_at": 1376406000000,
+  "tags": [
+   "other"
+  ],
+  "vocals": [
+   {
+    "type": "instrumental",
+    "caption": "Inst.ver.",
+    "singers": [],
+    "asset": "in_0746_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "collaboration_id": 14,
+  "bpm_main": 128.0
+ }
+}

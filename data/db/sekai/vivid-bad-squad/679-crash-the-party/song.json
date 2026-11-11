@@ -1,0 +1,219 @@
+{
+ "game": "sekai",
+ "song_id": "679",
+ "title": "CRASH THE PARTY",
+ "artist": "KIRA",
+ "title_romaji": "CRASH THE PARTY",
+ "artist_romaji": "KIRA",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "162",
+ "version": "",
+ "date_added": "2026-04-16",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 237
+   },
+   "source": {
+    "music_difficulty_id": 3391,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 4,
+      "slide": 12,
+      "tap": 62,
+      "ex_tap": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 437
+   },
+   "source": {
+    "music_difficulty_id": 3392,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 27,
+      "tap": 142,
+      "flick": 10,
+      "ex_tap": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 526
+   },
+   "source": {
+    "music_difficulty_id": 3393,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 31,
+      "ex_tap": 60,
+      "tap": 219,
+      "flick": 33,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 818
+   },
+   "source": {
+    "music_difficulty_id": 3394,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 272,
+      "slide": 88,
+      "hold": 7,
+      "flick": 36,
+      "ex_tap": 74
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1135
+   },
+   "source": {
+    "music_difficulty_id": 3395,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 457,
+      "slide": 106,
+      "ex_tap": 179,
+      "flick": 53,
+      "other": 13,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 679,
+   "assetbundle": "jacket_s_679",
+   "seq": 2463801
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_679.png",
+   "sha256": "a2cf4f60c3e109a27bf3ede4ea42df2c3f6d9eb128e8e4364934fab6feb817d2",
+   "width": 320,
+   "height": 320,
+   "bytes": 48680
+  }
+ },
+ "extra": {
+  "pronunciation": "くらっしゅ ざ ぱーてぃ",
+  "lyricist": "Sena Kiryuin, monii, KIRA",
+  "composer": "KIRA, monii, Johnny R",
+  "arranger": "KIRA",
+  "published_at": 1776344700000,
+  "released_at": 1776265200000,
+  "tags": [
+   "street"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "重音テト",
+     "GUMI"
+    ],
+    "asset": "vs_0679_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "白石杏",
+     "巡音ルカ",
+     "小豆沢こはね",
+     "東雲彰人",
+     "青柳冬弥"
+    ],
+    "asset": "se_0679_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "白石杏"
+    ],
+    "asset": "an_0679_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "巡音ルカ"
+    ],
+    "asset": "an_0679_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 162.0
+ }
+}

@@ -1,0 +1,221 @@
+{
+ "game": "sekai",
+ "song_id": "549",
+ "title": "化けの花",
+ "artist": "なきそ",
+ "title_romaji": "bakenohana",
+ "artist_romaji": "nakiso",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2024-10-12",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 282
+   },
+   "source": {
+    "music_difficulty_id": 2741,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 72,
+      "hold": 8,
+      "slide": 8,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 346
+   },
+   "source": {
+    "music_difficulty_id": 2742,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 15,
+      "tap": 150,
+      "ex_tap": 7,
+      "slide": 5,
+      "flick": 9,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 579
+   },
+   "source": {
+    "music_difficulty_id": 2743,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 48,
+      "tap": 282,
+      "flick": 37,
+      "other": 4,
+      "hold": 8,
+      "slide": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 875
+   },
+   "source": {
+    "music_difficulty_id": 2744,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 140,
+      "tap": 472,
+      "slide": 45,
+      "flick": 57,
+      "other": 8,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1003
+   },
+   "source": {
+    "music_difficulty_id": 2745,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 85,
+      "ex_tap": 149,
+      "tap": 543,
+      "slide": 70,
+      "hold": 6,
+      "other": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 549,
+   "assetbundle": "jacket_s_549",
+   "seq": 2645101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_549.png",
+   "sha256": "8c0464985f047b43bc57e9dc0788da7041069ebc0299e4608618adc69e673f2a",
+   "width": 320,
+   "height": 320,
+   "bytes": 32277
+  }
+ },
+ "extra": {
+  "pronunciation": "ばけのはな",
+  "lyricist": "なきそ",
+  "composer": "なきそ",
+  "arranger": "なきそ",
+  "published_at": 1728723600000,
+  "released_at": 1728658800000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0549_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "暁山瑞希",
+     "KAITO",
+     "宵崎奏",
+     "朝比奈まふゆ",
+     "東雲絵名"
+    ],
+    "asset": "se_0549_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "暁山瑞希"
+    ],
+    "asset": "an_0549_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "KAITO"
+    ],
+    "asset": "an_0549_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 180.0
+ }
+}

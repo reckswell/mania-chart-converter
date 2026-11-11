@@ -1,0 +1,223 @@
+{
+ "game": "sekai",
+ "song_id": "322",
+ "title": "絶え間なく藍色",
+ "artist": "獅子志司",
+ "title_romaji": "taemanakuaiiro",
+ "artist_romaji": "shishishishi",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "125",
+ "version": "",
+ "date_added": "2023-04-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 287
+   },
+   "source": {
+    "music_difficulty_id": 1606,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 16,
+      "tap": 45,
+      "slide": 8,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 403
+   },
+   "source": {
+    "music_difficulty_id": 1607,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 11,
+      "tap": 144,
+      "slide": 36,
+      "flick": 8,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 682
+   },
+   "source": {
+    "music_difficulty_id": 1608,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 57,
+      "tap": 235,
+      "slide": 84,
+      "flick": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1002
+   },
+   "source": {
+    "music_difficulty_id": 1609,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 89,
+      "tap": 321,
+      "slide": 130,
+      "hold": 10,
+      "flick": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1089
+   },
+   "source": {
+    "music_difficulty_id": 1610,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 59,
+      "tap": 381,
+      "slide": 143,
+      "ex_tap": 68,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 322,
+   "assetbundle": "jacket_s_322",
+   "seq": 1427601
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_322.png",
+   "sha256": "b90884b29cace314f3f0524f8a2b16bcf979ae6743a42bf7ae8490ab28461c3a",
+   "width": 320,
+   "height": 320,
+   "bytes": 27801
+  }
+ },
+ "extra": {
+  "pronunciation": "たえまなくあいいろ",
+  "lyricist": "獅子志司",
+  "composer": "獅子志司",
+  "arranger": "獅子志司",
+  "published_at": 1682056800000,
+  "released_at": 1561388400000,
+  "tags": [
+   "street",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0322_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "KAITO",
+     "東雲彰人",
+     "青柳冬弥"
+    ],
+    "asset": "se_0322_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "東雲彰人"
+    ],
+    "asset": "an_0322_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "青柳冬弥"
+    ],
+    "asset": "an_0322_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "KAITO"
+    ],
+    "asset": "an_0322_03"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 125.0
+ }
+}

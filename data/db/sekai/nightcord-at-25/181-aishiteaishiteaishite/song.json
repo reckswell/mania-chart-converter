@@ -1,0 +1,216 @@
+{
+ "game": "sekai",
+ "song_id": "181",
+ "title": "愛して愛して愛して",
+ "artist": "きくお",
+ "title_romaji": "aishiteaishiteaishite",
+ "artist_romaji": "kikuo",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "115",
+ "version": "",
+ "date_added": "2022-02-07",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 205
+   },
+   "source": {
+    "music_difficulty_id": 901,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 54,
+      "hold": 13,
+      "ex_tap": 2,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 377
+   },
+   "source": {
+    "music_difficulty_id": 902,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 118,
+      "slide": 19,
+      "hold": 10,
+      "ex_tap": 5,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 509
+   },
+   "source": {
+    "music_difficulty_id": 903,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 20,
+      "tap": 190,
+      "slide": 50,
+      "hold": 2,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 928
+   },
+   "source": {
+    "music_difficulty_id": 904,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 22,
+      "tap": 285,
+      "slide": 75,
+      "hold": 10,
+      "flick": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1173
+   },
+   "source": {
+    "music_difficulty_id": 905,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 23,
+      "tap": 489,
+      "slide": 105,
+      "hold": 20,
+      "flick": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 181,
+   "assetbundle": "jacket_s_181",
+   "seq": 1613501
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_181.png",
+   "sha256": "e7a245ece5f5cf275dffe9d428cd4e1f41a52f59921754c9261a7255abceb2bc",
+   "width": 320,
+   "height": 320,
+   "bytes": 34504
+  }
+ },
+ "extra": {
+  "pronunciation": "あいしてあいしてあいして",
+  "lyricist": "きくお",
+  "composer": "きくお",
+  "arranger": "きくお",
+  "published_at": 1644213600000,
+  "released_at": 1425567600000,
+  "tags": [
+   "school_refusal",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0181_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "朝比奈まふゆ",
+     "東雲絵名"
+    ],
+    "asset": "se_0181_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "朝比奈まふゆ"
+    ],
+    "asset": "an_0181_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "東雲絵名"
+    ],
+    "asset": "an_0181_02"
+   }
+  ],
+  "filler_sec": 8.98330020904541,
+  "bpm_main": 115.0
+ }
+}

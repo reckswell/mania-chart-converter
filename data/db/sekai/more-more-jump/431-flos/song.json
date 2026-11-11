@@ -1,0 +1,220 @@
+{
+ "game": "sekai",
+ "song_id": "431",
+ "title": "flos",
+ "artist": "R Sound Design",
+ "title_romaji": "flos",
+ "artist_romaji": "R Sound Design",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "118",
+ "version": "",
+ "date_added": "2024-03-11",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 236
+   },
+   "source": {
+    "music_difficulty_id": 2151,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 7,
+      "tap": 48,
+      "slide": 4,
+      "ex_tap": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 294
+   },
+   "source": {
+    "music_difficulty_id": 2152,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 11,
+      "tap": 104,
+      "flick": 2,
+      "hold": 7,
+      "slide": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 543
+   },
+   "source": {
+    "music_difficulty_id": 2153,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 23,
+      "tap": 164,
+      "ex_tap": 102,
+      "flick": 7,
+      "slide": 25,
+      "hold": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "not represented: side-lane hold #mmm2xy×2",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 694
+   },
+   "source": {
+    "music_difficulty_id": 2154,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 39,
+      "tap": 256,
+      "ex_tap": 99,
+      "slide": 47,
+      "flick": 14,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 893
+   },
+   "source": {
+    "music_difficulty_id": 2155,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 295,
+      "ex_tap": 124,
+      "other": 39,
+      "slide": 85,
+      "flick": 22,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 431,
+   "assetbundle": "jacket_s_431",
+   "seq": 1338501
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_431.png",
+   "sha256": "d770f8584683e6a739a8457b9fb2756cab0d93a0e1b312bca2a12d2e7906fce7",
+   "width": 320,
+   "height": 320,
+   "bytes": 26634
+  }
+ },
+ "extra": {
+  "pronunciation": "ふろーす",
+  "lyricist": "R Sound Design",
+  "composer": "R Sound Design",
+  "arranger": "R Sound Design",
+  "published_at": 1710136800000,
+  "released_at": 1520434800000,
+  "tags": [
+   "idol"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0431_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "花里みのり",
+     "桐谷遥",
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "se_0431_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "花里みのり"
+    ],
+    "asset": "an_0431_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "日野森雫"
+    ],
+    "asset": "an_0431_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 118.0
+ }
+}

@@ -1,0 +1,201 @@
+{
+ "game": "sekai",
+ "song_id": "54",
+ "title": "Ready Steady",
+ "artist": "Giga",
+ "title_romaji": "Ready Steady",
+ "artist_romaji": "Giga",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "115",
+ "version": "",
+ "date_added": "2019-06-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 96
+   },
+   "source": {
+    "music_difficulty_id": 266,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 44,
+      "hold": 6,
+      "ex_tap": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 238
+   },
+   "source": {
+    "music_difficulty_id": 267,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 109,
+      "slide": 12,
+      "flick": 2,
+      "hold": 4,
+      "ex_tap": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 403
+   },
+   "source": {
+    "music_difficulty_id": 268,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 227,
+      "hold": 8,
+      "slide": 39,
+      "flick": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 564
+   },
+   "source": {
+    "music_difficulty_id": 269,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 347,
+      "slide": 47,
+      "flick": 19,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 667
+   },
+   "source": {
+    "music_difficulty_id": 270,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 345,
+      "slide": 85,
+      "flick": 69,
+      "hold": 7,
+      "ex_tap": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 54,
+   "assetbundle": "jacket_s_054",
+   "seq": 2400101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_054.png",
+   "sha256": "bf33fbf53049b89ecfd644c6815b76eb381d1be6eeb842e43a0b27ffe94cfc3e",
+   "width": 320,
+   "height": 320,
+   "bytes": 39785
+  }
+ },
+ "extra": {
+  "pronunciation": "れでぃすてでぃ",
+  "lyricist": "q*Left",
+  "composer": "Giga",
+  "arranger": "Giga",
+  "published_at": 1560148031000,
+  "released_at": 1601391600000,
+  "tags": [
+   "street",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "鏡音リン",
+     "鏡音レン"
+    ],
+    "asset": "vs_0054_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "小豆沢こはね",
+     "白石杏",
+     "東雲彰人",
+     "青柳冬弥",
+     "初音ミク"
+    ],
+    "asset": "0054_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 115.0
+ }
+}

@@ -1,0 +1,189 @@
+{
+ "game": "sekai",
+ "song_id": "83",
+ "title": "Gimme×Gimme",
+ "artist": "八王子P × Giga",
+ "title_romaji": "Gimme×Gimme",
+ "artist_romaji": "hachioujipii giga",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "105",
+ "version": "",
+ "date_added": "2020-10-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 137
+   },
+   "source": {
+    "music_difficulty_id": 411,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 60,
+      "hold": 11,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 348
+   },
+   "source": {
+    "music_difficulty_id": 412,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 181,
+      "hold": 8,
+      "slide": 18,
+      "ex_tap": 4,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 613
+   },
+   "source": {
+    "music_difficulty_id": 413,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 437,
+      "slide": 26,
+      "hold": 8,
+      "ex_tap": 37,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 842
+   },
+   "source": {
+    "music_difficulty_id": 414,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 495,
+      "slide": 49,
+      "flick": 42,
+      "hold": 43,
+      "ex_tap": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 907
+   },
+   "source": {
+    "music_difficulty_id": 415,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 478,
+      "flick": 86,
+      "slide": 89,
+      "hold": 16,
+      "ex_tap": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 83,
+   "assetbundle": "jacket_s_083",
+   "seq": 1101101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_083.png",
+   "sha256": "1c69606ea07054b389f54b2e0223de9f1310c24a583102dc18da27dca9ccb33a",
+   "width": 320,
+   "height": 320,
+   "bytes": 29535
+  }
+ },
+ "extra": {
+  "pronunciation": "ぎみぎみ",
+  "lyricist": "q*Left",
+  "composer": "八王子P / Giga",
+  "arranger": "八王子P / Giga",
+  "published_at": 1602309600000,
+  "released_at": 1572015600000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "鏡音リン"
+    ],
+    "asset": "0083_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 105.0
+ }
+}

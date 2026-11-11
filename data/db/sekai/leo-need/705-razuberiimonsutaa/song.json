@@ -1,0 +1,211 @@
+{
+ "game": "sekai",
+ "song_id": "705",
+ "title": "ラズベリー＊モンスター",
+ "artist": "HoneyWorks",
+ "title_romaji": "razuberiimonsutaa",
+ "artist_romaji": "HoneyWorks",
+ "genre": "Leo/need",
+ "bpm": "192",
+ "version": "",
+ "date_added": "2026-06-05",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 394
+   },
+   "source": {
+    "music_difficulty_id": 3521,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 39,
+      "slide": 7,
+      "hold": 19,
+      "ex_tap": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 560
+   },
+   "source": {
+    "music_difficulty_id": 3522,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 27,
+      "tap": 83,
+      "hold": 7,
+      "ex_tap": 3,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 905
+   },
+   "source": {
+    "music_difficulty_id": 3523,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 7,
+      "tap": 209,
+      "flick": 18,
+      "slide": 55,
+      "hold": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 933
+   },
+   "source": {
+    "music_difficulty_id": 3524,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 98,
+      "flick": 81,
+      "tap": 362,
+      "slide": 53,
+      "other": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1410
+   },
+   "source": {
+    "music_difficulty_id": 3525,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 135,
+      "other": 32,
+      "flick": 359,
+      "tap": 335,
+      "slide": 72,
+      "hold": 79
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 705,
+   "assetbundle": "jacket_s_705",
+   "seq": 1265101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_705.png",
+   "sha256": "00c5986b783066cf602c6fd41ef58c7f018c8851f6891297f6f1cf60e59fbe46",
+   "width": 320,
+   "height": 320,
+   "bytes": 31311
+  }
+ },
+ "extra": {
+  "pronunciation": "らずべりーもんすたー",
+  "lyricist": "Gom, shito",
+  "composer": "Gom",
+  "arranger": "HoneyWorks",
+  "published_at": 1780639200000,
+  "released_at": 1370444400000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0705_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "星乃一歌",
+     "天馬咲希",
+     "望月穂波",
+     "日野森志歩"
+    ],
+    "asset": "se_0705_01"
+   },
+   {
+    "type": "streaming_live",
+    "caption": "コネクトライブ(DAY1)ver.",
+    "singers": [
+     "天馬咲希",
+     "桃井愛莉"
+    ],
+    "asset": "cl_0705_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 192.0
+ }
+}

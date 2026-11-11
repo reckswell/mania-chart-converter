@@ -1,0 +1,229 @@
+{
+ "game": "sekai",
+ "song_id": "26",
+ "title": "劣等上等",
+ "artist": "Giga",
+ "title_romaji": "rettoujoutou",
+ "artist_romaji": "Giga",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "160",
+ "version": "",
+ "date_added": "2019-06-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 148
+   },
+   "source": {
+    "music_difficulty_id": 126,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 48,
+      "hold": 10,
+      "ex_tap": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 371
+   },
+   "source": {
+    "music_difficulty_id": 127,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 29,
+      "tap": 148,
+      "flick": 16,
+      "hold": 2,
+      "ex_tap": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 520
+   },
+   "source": {
+    "music_difficulty_id": 128,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 9,
+      "slide": 34,
+      "tap": 209,
+      "hold": 4,
+      "flick": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 825
+   },
+   "source": {
+    "music_difficulty_id": 129,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 25,
+      "tap": 316,
+      "slide": 76,
+      "flick": 37,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 952
+   },
+   "source": {
+    "music_difficulty_id": 130,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 26,
+      "slide": 104,
+      "flick": 67,
+      "tap": 384,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 939
+   },
+   "source": {
+    "music_difficulty_id": 4136,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 105,
+      "slide": 67,
+      "tap": 366,
+      "hold": 14,
+      "ex_tap": 231,
+      "other": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 26,
+   "assetbundle": "jacket_s_026",
+   "seq": 1400101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_026.png",
+   "sha256": "42d591199f4b67917b1f69f183d5d86287f4d7200267d2aee941b7d062754877",
+   "width": 320,
+   "height": 320,
+   "bytes": 41728
+  }
+ },
+ "extra": {
+  "pronunciation": "れっとうじょうとう",
+  "lyricist": "Reol",
+  "composer": "Giga",
+  "arranger": "Giga",
+  "published_at": 1560148031000,
+  "released_at": 1531407600000,
+  "tags": [
+   "street",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音リン",
+     "鏡音レン"
+    ],
+    "asset": "0026_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音リン",
+     "鏡音レン",
+     "小豆沢こはね",
+     "白石杏"
+    ],
+    "asset": "0026_02"
+   }
+  ],
+  "filler_sec": 7.562300205230713,
+  "bpm_main": 160.0
+ }
+}

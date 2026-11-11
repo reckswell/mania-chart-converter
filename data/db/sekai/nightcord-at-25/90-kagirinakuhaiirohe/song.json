@@ -1,0 +1,217 @@
+{
+ "game": "sekai",
+ "song_id": "90",
+ "title": "限りなく灰色へ",
+ "artist": "すりぃ",
+ "title_romaji": "kagirinakuhaiirohe",
+ "artist_romaji": "surii",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "108",
+ "version": "",
+ "date_added": "2021-02-26",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 108
+   },
+   "source": {
+    "music_difficulty_id": 446,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 50,
+      "hold": 8,
+      "ex_tap": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 227
+   },
+   "source": {
+    "music_difficulty_id": 447,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 8,
+      "tap": 70,
+      "slide": 14,
+      "ex_tap": 11,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 470
+   },
+   "source": {
+    "music_difficulty_id": 448,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 281,
+      "ex_tap": 38,
+      "hold": 15,
+      "flick": 72,
+      "slide": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 818
+   },
+   "source": {
+    "music_difficulty_id": 449,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 391,
+      "ex_tap": 59,
+      "hold": 24,
+      "flick": 69,
+      "slide": 88
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 849
+   },
+   "source": {
+    "music_difficulty_id": 450,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 501,
+      "ex_tap": 82,
+      "slide": 56,
+      "hold": 16,
+      "flick": 98
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 90,
+   "assetbundle": "jacket_s_090",
+   "seq": 2605401
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_090.png",
+   "sha256": "2ccc0a06561121b333d3ccc8fcc4c8a678c91d52539aef948430f85a79cc3b91",
+   "width": 320,
+   "height": 320,
+   "bytes": 21743
+  }
+ },
+ "extra": {
+  "pronunciation": "かぎりなくはいいろへ",
+  "lyricist": "すりぃ",
+  "composer": "すりぃ",
+  "arranger": "すりぃ",
+  "published_at": 1614344700000,
+  "released_at": 1614265200000,
+  "tags": [
+   "school_refusal",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音レン"
+    ],
+    "asset": "vs_0090_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "東雲絵名",
+     "鏡音リン",
+     "宵崎奏",
+     "朝比奈まふゆ",
+     "暁山瑞希"
+    ],
+    "asset": "se_0090_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "東雲絵名"
+    ],
+    "asset": "an_0090_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鏡音リン"
+    ],
+    "asset": "an_0090_02"
+   }
+  ],
+  "filler_sec": 7.888899803161621,
+  "bpm_main": 108.0
+ }
+}

@@ -1,0 +1,217 @@
+{
+ "game": "sekai",
+ "song_id": "260",
+ "title": "ラブカ？",
+ "artist": "柊キライ",
+ "title_romaji": "rabuka",
+ "artist_romaji": "hiiragikirai",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "78-135 (135)",
+ "version": "",
+ "date_added": "2022-11-14",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 131
+   },
+   "source": {
+    "music_difficulty_id": 1296,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 8,
+      "tap": 51,
+      "ex_tap": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 215
+   },
+   "source": {
+    "music_difficulty_id": 1297,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 95,
+      "hold": 14,
+      "flick": 5,
+      "ex_tap": 6,
+      "slide": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 517
+   },
+   "source": {
+    "music_difficulty_id": 1298,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 66,
+      "tap": 180,
+      "ex_tap": 32,
+      "flick": 8,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 710
+   },
+   "source": {
+    "music_difficulty_id": 1299,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 85,
+      "tap": 322,
+      "flick": 21,
+      "ex_tap": 47,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 878
+   },
+   "source": {
+    "music_difficulty_id": 1300,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 413,
+      "slide": 112,
+      "flick": 80,
+      "ex_tap": 31,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 260,
+   "assetbundle": "jacket_s_260",
+   "seq": 1521301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_260.png",
+   "sha256": "aa76a6416ea3687c0a8e4172cc61619786c30d1eeb36f0b003c67a1a0f8b9c67",
+   "width": 320,
+   "height": 320,
+   "bytes": 37177
+  }
+ },
+ "extra": {
+  "pronunciation": "らぶか",
+  "lyricist": "柊キライ",
+  "composer": "柊キライ",
+  "arranger": "柊キライ",
+  "published_at": 1668405600000,
+  "released_at": 1607612400000,
+  "tags": [
+   "theme_park",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "flower"
+    ],
+    "asset": "vs_0260_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "MEIKO",
+     "天馬司",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0260_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "天馬司"
+    ],
+    "asset": "an_0260_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "神代類"
+    ],
+    "asset": "an_0260_02"
+   }
+  ],
+  "filler_sec": 8.984999656677246,
+  "bpm_main": 135.0
+ }
+}

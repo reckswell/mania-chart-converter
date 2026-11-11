@@ -1,0 +1,190 @@
+{
+ "game": "sekai",
+ "song_id": "666",
+ "title": "少女A",
+ "artist": "椎名もた",
+ "title_romaji": "shoujoee",
+ "artist_romaji": "shiinamota",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "260",
+ "version": "",
+ "date_added": "2025-10-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 558
+   },
+   "source": {
+    "music_difficulty_id": 3326,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 6,
+      "tap": 64,
+      "slide": 8,
+      "ex_tap": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 656
+   },
+   "source": {
+    "music_difficulty_id": 3327,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 29,
+      "tap": 113,
+      "hold": 10,
+      "flick": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 951
+   },
+   "source": {
+    "music_difficulty_id": 3328,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 4,
+      "tap": 105,
+      "slide": 60,
+      "hold": 1,
+      "ex_tap": 53,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1265
+   },
+   "source": {
+    "music_difficulty_id": 3329,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 227,
+      "slide": 101,
+      "ex_tap": 75,
+      "hold": 52,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1312
+   },
+   "source": {
+    "music_difficulty_id": 3330,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 429,
+      "slide": 198,
+      "ex_tap": 97,
+      "hold": 8,
+      "flick": 88,
+      "other": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 666,
+   "assetbundle": "jacket_s_666",
+   "seq": 1155801
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_666.png",
+   "sha256": "8e201a5085872ecbb83f4681a77158839206bc2dbb254d8786188943412f9ab0",
+   "width": 320,
+   "height": 320,
+   "bytes": 18667
+  }
+ },
+ "extra": {
+  "pronunciation": "しょうじょえー",
+  "lyricist": "椎名もた",
+  "composer": "椎名もた",
+  "arranger": "-",
+  "published_at": 1759384800000,
+  "released_at": 1381071600000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音リン"
+    ],
+    "asset": "vs_0666_01"
+   }
+  ],
+  "filler_sec": 9.46150016784668,
+  "bpm_main": 260.0
+ }
+}

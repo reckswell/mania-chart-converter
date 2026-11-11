@@ -1,0 +1,192 @@
+{
+ "game": "sekai",
+ "song_id": "711",
+ "title": "ワンダーラスト",
+ "artist": "sasakure.UK",
+ "title_romaji": "wandaarasuto",
+ "artist_romaji": "sasakure.UK",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "185-230 (230)",
+ "version": "",
+ "date_added": "2026-04-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 466
+   },
+   "source": {
+    "music_difficulty_id": 3551,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 15,
+      "slide": 4,
+      "tap": 85,
+      "ex_tap": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 601
+   },
+   "source": {
+    "music_difficulty_id": 3552,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 3,
+      "slide": 31,
+      "ex_tap": 13,
+      "tap": 124,
+      "flick": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 920
+   },
+   "source": {
+    "music_difficulty_id": 3553,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 8,
+      "tap": 218,
+      "slide": 53,
+      "flick": 29,
+      "ex_tap": 20,
+      "other": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1418
+   },
+   "source": {
+    "music_difficulty_id": 3554,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 334,
+      "hold": 23,
+      "slide": 105,
+      "flick": 56,
+      "ex_tap": 169,
+      "other": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1577
+   },
+   "source": {
+    "music_difficulty_id": 3555,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 531,
+      "hold": 71,
+      "ex_tap": 185,
+      "slide": 129,
+      "flick": 113,
+      "other": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "modifier without target 8: 1; stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 711,
+   "assetbundle": "jacket_s_711",
+   "seq": 1163201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_711.png",
+   "sha256": "2beeb92a2215162a3c536a0314625b886a0bde69f8643c0134e9e911d0f8ced8",
+   "width": 320,
+   "height": 320,
+   "bytes": 36952
+  }
+ },
+ "extra": {
+  "pronunciation": "わんだーらすと",
+  "lyricist": "sasakure.UK",
+  "composer": "sasakure.UK",
+  "arranger": "sasakure.UK",
+  "published_at": 1775109600000,
+  "released_at": 1233500400000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "巡音ルカ"
+    ],
+    "asset": "vs_0711_01"
+   }
+  ],
+  "filler_sec": 8.479000091552734,
+  "bpm_main": 230.0
+ }
+}

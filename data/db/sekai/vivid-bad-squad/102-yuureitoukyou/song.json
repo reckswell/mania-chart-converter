@@ -1,0 +1,207 @@
+{
+ "game": "sekai",
+ "song_id": "102",
+ "title": "幽霊東京",
+ "artist": "Ayase",
+ "title_romaji": "yuureitoukyou",
+ "artist_romaji": "Ayase",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "124",
+ "version": "",
+ "date_added": "2021-05-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 184
+   },
+   "source": {
+    "music_difficulty_id": 506,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 49,
+      "hold": 12,
+      "slide": 4,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 375
+   },
+   "source": {
+    "music_difficulty_id": 507,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 175,
+      "hold": 8,
+      "slide": 26,
+      "flick": 2,
+      "ex_tap": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 595
+   },
+   "source": {
+    "music_difficulty_id": 508,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 25,
+      "tap": 291,
+      "slide": 55,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 904
+   },
+   "source": {
+    "music_difficulty_id": 509,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 33,
+      "slide": 67,
+      "tap": 512,
+      "hold": 47,
+      "flick": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1053
+   },
+   "source": {
+    "music_difficulty_id": 510,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 670,
+      "ex_tap": 30,
+      "hold": 32,
+      "slide": 80,
+      "flick": 55
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 102,
+   "assetbundle": "jacket_s_102",
+   "seq": 1406801
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_102.png",
+   "sha256": "32f43df0351940ea54616ce250605626f0935fd84f8c5c7f94c114b58551d8a0",
+   "width": 320,
+   "height": 320,
+   "bytes": 32506
+  }
+ },
+ "extra": {
+  "pronunciation": "ゆうれいとうきょう",
+  "lyricist": "Ayase",
+  "composer": "Ayase",
+  "arranger": "Ayase",
+  "published_at": 1620021600000,
+  "released_at": 1575298800000,
+  "tags": [
+   "street",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0102_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "KAITO",
+     "東雲彰人",
+     "青柳冬弥"
+    ],
+    "asset": "se_0102_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "青柳冬弥"
+    ],
+    "asset": "an_0102_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 124.0
+ }
+}
