@@ -1,0 +1,305 @@
+{
+ "game": "ddr",
+ "song_id": "gtit",
+ "title": "Get it",
+ "artist": "Dubscribe",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "DanceDanceRevolution A3",
+ "bpm": "174",
+ "version": "DanceDanceRevolution A3",
+ "date_added": "",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "BEGINNER",
+   "level": "3",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 92
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 276,
+     "sanbaiTier": 3.3
+    },
+    "tachi": {
+     "id": "C19d35e216973f4e3680"
+    },
+    "simfile": {
+     "chart": "dance-single/Beginner",
+     "meter": "3",
+     "steps": 83,
+     "freezes": 9,
+     "shocks": 0,
+     "combo": 92
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "hold": 9,
+      "tap": 82
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "BASIC",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 225
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 672,
+     "sanbaiTier": 7.3
+    },
+    "tachi": {
+     "id": "C19d35e21697d3073732"
+    },
+    "simfile": {
+     "chart": "dance-single/Easy",
+     "meter": "7",
+     "steps": 212,
+     "freezes": 19,
+     "shocks": 0,
+     "combo": 224
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 216,
+      "hold": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "combo 224 in the simfile (steps + freeze rows + shock rows), Tachi's stepCount is 225",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "DIFFICULT",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 405
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1215,
+     "sanbaiTier": 12.65
+    },
+    "tachi": {
+     "id": "C19d35e21697e1f3e040"
+    },
+    "simfile": {
+     "chart": "dance-single/Medium",
+     "meter": "12",
+     "steps": 391,
+     "freezes": 18,
+     "shocks": 0,
+     "combo": 405
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 391,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 586
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1758,
+     "sanbaiTier": 16.45
+    },
+    "tachi": {
+     "id": "C19d35e216979b9aab6a"
+    },
+    "simfile": {
+     "chart": "dance-single/Hard",
+     "meter": "16",
+     "steps": 566,
+     "freezes": 27,
+     "shocks": 0,
+     "combo": 586
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 574,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-normal": {
+   "slot": "double-normal",
+   "native": "DOUBLE BASIC",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 223
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 669,
+     "sanbaiTier": 7.25
+    },
+    "tachi": {
+     "id": "C19d35e21c8dd8494b17"
+    },
+    "simfile": {
+     "chart": "dance-double/Easy",
+     "meter": "7",
+     "steps": 211,
+     "freezes": 21,
+     "shocks": 0,
+     "combo": 223
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 201,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-hard": {
+   "slot": "double-hard",
+   "native": "DOUBLE DIFFICULT",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 399
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1197,
+     "sanbaiTier": 12.55
+    },
+    "tachi": {
+     "id": "C19d35e21c8daebf40f2"
+    },
+    "simfile": {
+     "chart": "dance-double/Medium",
+     "meter": "12",
+     "steps": 385,
+     "freezes": 18,
+     "shocks": 0,
+     "combo": 399
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 384,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-expert": {
+   "slot": "double-expert",
+   "native": "DOUBLE EXPERT",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 580
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1740,
+     "sanbaiTier": 17.45
+    },
+    "tachi": {
+     "id": "C19d35e21c8d09e6831f"
+    },
+    "simfile": {
+     "chart": "dance-double/Hard",
+     "meter": "17",
+     "steps": 564,
+     "freezes": 27,
+     "shocks": 0,
+     "combo": 580
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 566,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "ddrcarddraw": {
+   "id": "lb969IOOoI06P18PPq81o1lPD1b1OqqI",
+   "jacket": "ddr_a3/Get_it.jpg"
+  },
+  "tachi": {
+   "id": "S19d35e19a74dd8facd7",
+   "basename": "gtit",
+   "inGameID": 38452
+  },
+  "simfile": {
+   "path": "public/sm/A3/Get it/Get it.sm",
+   "url": "https://raw.githubusercontent.com/blackalice/ddr-dan-tool/HEAD/public/sm/A3/Get%20it/Get%20it.sm",
+   "song_id": "gtit"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/blackalice/ddr-dan-tool/HEAD/public/sm/A3/Get%20it/Get%20it-jacket.png",
+   "sha256": "2a56b3253d747d0aa96b7f204fb245421d57fd0c032929f7c861603756630918",
+   "width": 320,
+   "height": 320,
+   "bytes": 30785
+  }
+ },
+ "extra": {
+  "song_hash": "lb969IOOoI06P18PPq81o1lPD1b1OqqI",
+  "remywiki": "https://remywiki.com/Get_it",
+  "flare_category": "GOLD"
+ }
+}

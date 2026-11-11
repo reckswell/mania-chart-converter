@@ -1,0 +1,386 @@
+{
+ "game": "ddr",
+ "song_id": "dese",
+ "title": "Desert Journey",
+ "artist": "dj TAKA",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "DanceDanceRevolution (2013)",
+ "bpm": "140",
+ "version": "DanceDanceRevolution (2013)",
+ "date_added": "",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "BEGINNER",
+   "level": "3",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 83
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 249,
+     "sanbaiTier": 3.25
+    },
+    "tachi": {
+     "id": "C19d35e212a9fa171f83"
+    },
+    "simfile": {
+     "chart": "dance-single/Beginner",
+     "meter": "3",
+     "steps": 83,
+     "freezes": 0,
+     "shocks": 0,
+     "combo": 83
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 98
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "BASIC",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 144
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 429,
+     "sanbaiTier": 5.2
+    },
+    "tachi": {
+     "id": "C19d35e212a938536ecd"
+    },
+    "simfile": {
+     "chart": "dance-single/Easy",
+     "meter": "5",
+     "steps": 143,
+     "freezes": 2,
+     "shocks": 0,
+     "combo": 144
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 155,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "EX max 432 from the simfile (3 × combo), DDRCardDraw has 429",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "DIFFICULT",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 233
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 699,
+     "sanbaiTier": 8.5
+    },
+    "tachi": {
+     "id": "C19d35e212a921e371c3"
+    },
+    "simfile": {
+     "chart": "dance-single/Medium",
+     "meter": "8",
+     "steps": 225,
+     "freezes": 8,
+     "shocks": 0,
+     "combo": 233
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 246,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 379
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1137,
+     "sanbaiTier": 12.4
+    },
+    "tachi": {
+     "id": "C19d35e212a9166ac3d5"
+    },
+    "simfile": {
+     "chart": "dance-single/Hard",
+     "meter": "12",
+     "steps": 359,
+     "freezes": 20,
+     "shocks": 0,
+     "combo": 379
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 355,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "CHALLENGE",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 507
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1521,
+     "sanbaiTier": 15.5,
+     "flags": [
+      "shock"
+     ]
+    },
+    "tachi": {
+     "id": "C19d35e212a937c73387"
+    },
+    "simfile": {
+     "chart": "dance-single/Challenge",
+     "meter": "15",
+     "steps": 456,
+     "freezes": 16,
+     "shocks": 35,
+     "combo": 507
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 462,
+      "mine": 140,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-normal": {
+   "slot": "double-normal",
+   "native": "DOUBLE BASIC",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 153
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 459,
+     "sanbaiTier": 5.2
+    },
+    "tachi": {
+     "id": "C19d35e2189fa022d9b8"
+    },
+    "simfile": {
+     "chart": "dance-double/Easy",
+     "meter": "5",
+     "steps": 150,
+     "freezes": 5,
+     "shocks": 0,
+     "combo": 153
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 157,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-hard": {
+   "slot": "double-hard",
+   "native": "DOUBLE DIFFICULT",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 233
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 699,
+     "sanbaiTier": 8.45
+    },
+    "tachi": {
+     "id": "C19d35e2189f6afd3066"
+    },
+    "simfile": {
+     "chart": "dance-double/Medium",
+     "meter": "8",
+     "steps": 225,
+     "freezes": 9,
+     "shocks": 0,
+     "combo": 233
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 247,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-expert": {
+   "slot": "double-expert",
+   "native": "DOUBLE EXPERT",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 378
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1134,
+     "sanbaiTier": 12.6
+    },
+    "tachi": {
+     "id": "C19d35e2189f946885f1"
+    },
+    "simfile": {
+     "chart": "dance-double/Hard",
+     "meter": "12",
+     "steps": 358,
+     "freezes": 20,
+     "shocks": 0,
+     "combo": 378
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 353,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-master": {
+   "slot": "double-master",
+   "native": "DOUBLE CHALLENGE",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 479
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1437,
+     "sanbaiTier": 15.5,
+     "flags": [
+      "shock"
+     ]
+    },
+    "tachi": {
+     "id": "C19d35e2189f807e6fdf"
+    },
+    "simfile": {
+     "chart": "dance-double/Challenge",
+     "meter": "15",
+     "steps": 429,
+     "freezes": 15,
+     "shocks": 35,
+     "combo": 479
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 429,
+      "mine": 280,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "ddrcarddraw": {
+   "id": "PI1DiP0bIi8PodP6O1i8P0P1i8iI1oD8",
+   "jacket": "ddr_2013/Desert Journey.png"
+  },
+  "tachi": {
+   "id": "S19d35e19689780f747f",
+   "basename": "dese",
+   "inGameID": 37450
+  },
+  "simfile": {
+   "path": "public/sm/2013/Desert Journey/Desert Journey.sm",
+   "url": "https://raw.githubusercontent.com/blackalice/ddr-dan-tool/HEAD/public/sm/2013/Desert%20Journey/Desert%20Journey.sm",
+   "song_id": ""
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/blackalice/ddr-dan-tool/HEAD/public/sm/2013/Desert%20Journey/Desert%20Journey-jacket.png",
+   "sha256": "1db98a0f460845ff56863c8be25a1271d577ece08c207643f5614dd4754576bb",
+   "width": 320,
+   "height": 320,
+   "bytes": 15085
+  }
+ },
+ "extra": {
+  "song_hash": "PI1DiP0bIi8PodP6O1i8P0P1i8iI1oD8",
+  "remywiki": "https://remywiki.com/Desert_Journey",
+  "flare_category": "WHITE"
+ }
+}

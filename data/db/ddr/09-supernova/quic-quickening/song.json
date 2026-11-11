@@ -1,0 +1,305 @@
+{
+ "game": "ddr",
+ "song_id": "quic",
+ "title": "Quickening",
+ "artist": "dj TAKA",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "DanceDanceRevolution SuperNOVA",
+ "bpm": "150",
+ "version": "DanceDanceRevolution SuperNOVA",
+ "date_added": "",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "BEGINNER",
+   "level": "3",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 111
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 333,
+     "sanbaiTier": 3.4
+    },
+    "tachi": {
+     "id": "C19d35e2017628412cc9"
+    },
+    "simfile": {
+     "chart": "dance-single/Beginner",
+     "meter": "3",
+     "steps": 111,
+     "freezes": 0,
+     "shocks": 0,
+     "combo": 111
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 118
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "BASIC",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 185
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 555,
+     "sanbaiTier": 6.2
+    },
+    "tachi": {
+     "id": "C19d35e20176bb5aad84"
+    },
+    "simfile": {
+     "chart": "dance-single/Easy",
+     "meter": "6",
+     "steps": 161,
+     "freezes": 27,
+     "shocks": 0,
+     "combo": 185
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 144,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "DIFFICULT",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 249
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 747,
+     "sanbaiTier": 7.35
+    },
+    "tachi": {
+     "id": "C19d35e201768428818d"
+    },
+    "simfile": {
+     "chart": "dance-single/Medium",
+     "meter": "7",
+     "steps": 224,
+     "freezes": 31,
+     "shocks": 0,
+     "combo": 249
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 242,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 346
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1038,
+     "sanbaiTier": 11.45
+    },
+    "tachi": {
+     "id": "C19d35e20176459721c4"
+    },
+    "simfile": {
+     "chart": "dance-single/Hard",
+     "meter": "11",
+     "steps": 333,
+     "freezes": 13,
+     "shocks": 0,
+     "combo": 346
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 328,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-normal": {
+   "slot": "double-normal",
+   "native": "DOUBLE BASIC",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 159
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 477,
+     "sanbaiTier": 5.3
+    },
+    "tachi": {
+     "id": "C19d35e2076c42a5540f"
+    },
+    "simfile": {
+     "chart": "dance-double/Easy",
+     "meter": "5",
+     "steps": 139,
+     "freezes": 21,
+     "shocks": 0,
+     "combo": 159
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 131,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-hard": {
+   "slot": "double-hard",
+   "native": "DOUBLE DIFFICULT",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 244
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 732,
+     "sanbaiTier": 7.3
+    },
+    "tachi": {
+     "id": "C19d35e2076cf5989326"
+    },
+    "simfile": {
+     "chart": "dance-double/Medium",
+     "meter": "6",
+     "steps": 223,
+     "freezes": 25,
+     "shocks": 0,
+     "combo": 244
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 238,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 6 differs from the WORLD level 7",
+   "assets": {}
+  },
+  "double-expert": {
+   "slot": "double-expert",
+   "native": "DOUBLE EXPERT",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 286
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 858,
+     "sanbaiTier": 8.4
+    },
+    "tachi": {
+     "id": "C19d35e2076c3b6484c5"
+    },
+    "simfile": {
+     "chart": "dance-double/Hard",
+     "meter": "8",
+     "steps": 265,
+     "freezes": 29,
+     "shocks": 0,
+     "combo": 286
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 278,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "ddrcarddraw": {
+   "id": "QI96D9PqIQ90PidPQPdbqbi0q9q8lQbb",
+   "jacket": "ddr_sn-sn2/Quickening.png"
+  },
+  "tachi": {
+   "id": "S19d35e18556c33e112c",
+   "basename": "quic",
+   "inGameID": 33048
+  },
+  "simfile": {
+   "path": "public/sm/SN1/Quickening/Quickening.sm",
+   "url": "https://raw.githubusercontent.com/blackalice/ddr-dan-tool/HEAD/public/sm/SN1/Quickening/Quickening.sm",
+   "song_id": "quic"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/noahm/DDRCardDraw/HEAD/src/assets/jackets/ddr_sn-sn2/Quickening.png",
+   "sha256": "0b6ea3814efaebcbe01e6f0261e79dad5d2373f3b7affe3e25af06e73dcaa2a5",
+   "width": 150,
+   "height": 150,
+   "bytes": 6354
+  }
+ },
+ "extra": {
+  "song_hash": "QI96D9PqIQ90PidPQPdbqbi0q9q8lQbb",
+  "ingame_genre": "PSYCHEDELIC",
+  "remywiki": "https://remywiki.com/Quickening",
+  "flare_category": "CLASSIC"
+ }
+}

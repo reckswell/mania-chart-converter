@@ -1,0 +1,304 @@
+{
+ "game": "ddr",
+ "song_id": "daan",
+ "title": "DANCE ALL NIGHT (DDR EDITION)",
+ "artist": "Sota Fujimori",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "DanceDanceRevolution A",
+ "bpm": "144",
+ "version": "DanceDanceRevolution A",
+ "date_added": "",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "BEGINNER",
+   "level": "2",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 72
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 216,
+     "sanbaiTier": 2.35
+    },
+    "tachi": {
+     "id": "C19d35e2152083e092be"
+    },
+    "simfile": {
+     "chart": "dance-single/Beginner",
+     "meter": "2",
+     "steps": 72,
+     "freezes": 0,
+     "shocks": 0,
+     "combo": 72
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 74
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "BASIC",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 172
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 516,
+     "sanbaiTier": 5.25
+    },
+    "tachi": {
+     "id": "C19d35e215207e954869"
+    },
+    "simfile": {
+     "chart": "dance-single/Easy",
+     "meter": "5",
+     "steps": 166,
+     "freezes": 6,
+     "shocks": 0,
+     "combo": 172
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 169,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "DIFFICULT",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 268
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 804,
+     "sanbaiTier": 8.35
+    },
+    "tachi": {
+     "id": "C19d35e215208c1747ed"
+    },
+    "simfile": {
+     "chart": "dance-single/Medium",
+     "meter": "8",
+     "steps": 256,
+     "freezes": 12,
+     "shocks": 0,
+     "combo": 268
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 245,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 323
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 969,
+     "sanbaiTier": 10.3
+    },
+    "tachi": {
+     "id": "C19d35e215201412cf2a"
+    },
+    "simfile": {
+     "chart": "dance-single/Hard",
+     "meter": "10",
+     "steps": 301,
+     "freezes": 22,
+     "shocks": 0,
+     "combo": 323
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 296,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-normal": {
+   "slot": "double-normal",
+   "native": "DOUBLE BASIC",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 174
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 522,
+     "sanbaiTier": 5.3
+    },
+    "tachi": {
+     "id": "C19d35e21b1671122792"
+    },
+    "simfile": {
+     "chart": "dance-double/Easy",
+     "meter": "5",
+     "steps": 168,
+     "freezes": 6,
+     "shocks": 0,
+     "combo": 174
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 171,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-hard": {
+   "slot": "double-hard",
+   "native": "DOUBLE DIFFICULT",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 267
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 804,
+     "sanbaiTier": 8.4
+    },
+    "tachi": {
+     "id": "C19d35e21b1607af8183"
+    },
+    "simfile": {
+     "chart": "dance-double/Medium",
+     "meter": "8",
+     "steps": 256,
+     "freezes": 11,
+     "shocks": 0,
+     "combo": 267
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 247,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "EX max 801 from the simfile (3 × combo), DDRCardDraw has 804",
+   "assets": {}
+  },
+  "double-expert": {
+   "slot": "double-expert",
+   "native": "DOUBLE EXPERT",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 315
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 945,
+     "sanbaiTier": 10.35
+    },
+    "tachi": {
+     "id": "C19d35e21b16cf37c8f8"
+    },
+    "simfile": {
+     "chart": "dance-double/Hard",
+     "meter": "10",
+     "steps": 293,
+     "freezes": 22,
+     "shocks": 0,
+     "combo": 315
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 284,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "ddrcarddraw": {
+   "id": "Oi1DI99DO6i6llQ8DDD6oDqOQqiP118d",
+   "jacket": "ddr_a/DANCE ALL NIGHT (DDR EDITION).png"
+  },
+  "tachi": {
+   "id": "S19d35e198feda512865",
+   "basename": "daan",
+   "inGameID": 38079
+  },
+  "simfile": {
+   "path": "public/sm/A/DANCE ALL NIGHT (DDR EDITION)/DANCE ALL NIGHT (DDR EDITION).sm",
+   "url": "https://raw.githubusercontent.com/blackalice/ddr-dan-tool/HEAD/public/sm/A/DANCE%20ALL%20NIGHT%20%28DDR%20EDITION%29/DANCE%20ALL%20NIGHT%20%28DDR%20EDITION%29.sm",
+   "song_id": "daan"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/blackalice/ddr-dan-tool/HEAD/public/sm/A/DANCE%20ALL%20NIGHT%20%28DDR%20EDITION%29/DANCE%20ALL%20NIGHT%20%28DDR%20EDITION%29-jacket.png",
+   "sha256": "8ff0a6cea657b20d9034b8d3ad92b5ecd60e20f53d269b9e5bbbbbf946f286a3",
+   "width": 320,
+   "height": 320,
+   "bytes": 36513
+  }
+ },
+ "extra": {
+  "song_hash": "Oi1DI99DO6i6llQ8DDD6oDqOQqiP118d",
+  "remywiki": "https://remywiki.com/DANCE_ALL_NIGHT_(DDR_EDITION)",
+  "flare_category": "WHITE"
+ }
+}

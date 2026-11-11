@@ -159,8 +159,16 @@ _add(Game(
 ))
 _add(Game(
     key="guitarhero", name="Guitar Hero", lanes=5, variable_width=False,
+    # Lead guitar uses the ladder; other parts are prefixed: coop-, bass-, rhythm-, drums- (drums Expert+ = master).
     difficulties={"easy": "easy", "medium": "normal", "hard": "hard", "expert": "expert", "expert+": "master"},
     native_names={"easy": "EASY", "medium": "MEDIUM", "hard": "HARD", "expert": "EXPERT", "expert+": "EXPERT+"},
+    # Genre = the game (that is how the games sort their songs). Song ids are <slug>-<title-slug>.
+    genres={"Guitar Hero": "gh1", "Guitar Hero II": "gh2", "Guitar Hero Encore: Rocks the 80s": "gh80s",
+            "Guitar Hero III: Legends of Rock": "gh3", "Guitar Hero: Aerosmith": "gha",
+            "Guitar Hero World Tour": "ghwt", "Guitar Hero: Metallica": "ghm", "Guitar Hero Smash Hits": "ghsh",
+            "Guitar Hero 5": "gh5", "Guitar Hero: Van Halen": "ghvh", "Guitar Hero: Warriors of Rock": "ghwor",
+            "Guitar Hero Live": "ghl"},
+    status="in-progress",
 ))
 _add(Game(
     key="gitadora", name="GITADORA", lanes=5, variable_width=False,

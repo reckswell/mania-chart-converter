@@ -1,0 +1,386 @@
+{
+ "game": "ddr",
+ "song_id": "esca",
+ "title": "escape",
+ "artist": "U1 & Krystal B",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "DanceDanceRevolution (2013)",
+ "bpm": "140",
+ "version": "DanceDanceRevolution (2013)",
+ "date_added": "",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "BEGINNER",
+   "level": "3",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 109
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 327,
+     "sanbaiTier": 3.4
+    },
+    "tachi": {
+     "id": "C19d35e2128b6d68a45a"
+    },
+    "simfile": {
+     "chart": "dance-single/Beginner",
+     "meter": "3",
+     "steps": 109,
+     "freezes": 0,
+     "shocks": 0,
+     "combo": 109
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 110
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "BASIC",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 159
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 477,
+     "sanbaiTier": 5.25
+    },
+    "tachi": {
+     "id": "C19d35e2128b1c37c15f"
+    },
+    "simfile": {
+     "chart": "dance-single/Easy",
+     "meter": "5",
+     "steps": 156,
+     "freezes": 3,
+     "shocks": 0,
+     "combo": 159
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "hold": 3,
+      "tap": 159
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "DIFFICULT",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 223
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 669,
+     "sanbaiTier": 8.4
+    },
+    "tachi": {
+     "id": "C19d35e2128b3a7035ed"
+    },
+    "simfile": {
+     "chart": "dance-single/Medium",
+     "meter": "8",
+     "steps": 218,
+     "freezes": 5,
+     "shocks": 0,
+     "combo": 223
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "hold": 5,
+      "tap": 246
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 286
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 858,
+     "sanbaiTier": 10.45
+    },
+    "tachi": {
+     "id": "C19d35e2128bb030d874"
+    },
+    "simfile": {
+     "chart": "dance-single/Hard",
+     "meter": "10",
+     "steps": 281,
+     "freezes": 6,
+     "shocks": 0,
+     "combo": 286
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "hold": 6,
+      "tap": 318
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "CHALLENGE",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 397
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1296,
+     "sanbaiTier": 13.6,
+     "flags": [
+      "shock"
+     ]
+    },
+    "tachi": {
+     "id": "C19d35e2128ba8d61dba"
+    },
+    "simfile": {
+     "chart": "dance-single/Challenge",
+     "meter": "13",
+     "steps": 352,
+     "freezes": 11,
+     "shocks": 35,
+     "combo": 397
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 408,
+      "hold": 11,
+      "mine": 140
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "EX max 1191 from the simfile (3 × combo), DDRCardDraw has 1296",
+   "assets": {}
+  },
+  "double-normal": {
+   "slot": "double-normal",
+   "native": "DOUBLE BASIC",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 158
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 474,
+     "sanbaiTier": 5.25
+    },
+    "tachi": {
+     "id": "C19d35e21881a3c947c0"
+    },
+    "simfile": {
+     "chart": "dance-double/Easy",
+     "meter": "5",
+     "steps": 153,
+     "freezes": 5,
+     "shocks": 0,
+     "combo": 158
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "hold": 5,
+      "tap": 153
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-hard": {
+   "slot": "double-hard",
+   "native": "DOUBLE DIFFICULT",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 224
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 672,
+     "sanbaiTier": 8.45
+    },
+    "tachi": {
+     "id": "C19d35e21881b4dc68db"
+    },
+    "simfile": {
+     "chart": "dance-double/Medium",
+     "meter": "8",
+     "steps": 219,
+     "freezes": 5,
+     "shocks": 0,
+     "combo": 224
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "hold": 5,
+      "tap": 246
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-expert": {
+   "slot": "double-expert",
+   "native": "DOUBLE EXPERT",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 286
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 858,
+     "sanbaiTier": 10.5
+    },
+    "tachi": {
+     "id": "C19d35e21881c6f0eac0"
+    },
+    "simfile": {
+     "chart": "dance-double/Hard",
+     "meter": "10",
+     "steps": 281,
+     "freezes": 6,
+     "shocks": 0,
+     "combo": 286
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "hold": 6,
+      "tap": 315
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-master": {
+   "slot": "double-master",
+   "native": "DOUBLE CHALLENGE",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 396
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1290,
+     "sanbaiTier": 14.5,
+     "flags": [
+      "shock"
+     ]
+    },
+    "tachi": {
+     "id": "C19d35e218819369fd08"
+    },
+    "simfile": {
+     "chart": "dance-double/Challenge",
+     "meter": "14",
+     "steps": 353,
+     "freezes": 10,
+     "shocks": 34,
+     "combo": 396
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 405,
+      "hold": 10,
+      "mine": 272
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "EX max 1188 from the simfile (3 × combo), DDRCardDraw has 1290",
+   "assets": {}
+  }
+ },
+ "source": {
+  "ddrcarddraw": {
+   "id": "odQbP0bQqD89PolQ96II0PiqQQIddPi6",
+   "jacket": "ddr_2013/escape.png"
+  },
+  "tachi": {
+   "id": "S19d35e1966bae93c185",
+   "basename": "esca",
+   "inGameID": 37420
+  },
+  "simfile": {
+   "path": "public/sm/2013/escape/escape.sm",
+   "url": "https://raw.githubusercontent.com/blackalice/ddr-dan-tool/HEAD/public/sm/2013/escape/escape.sm",
+   "song_id": ""
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/blackalice/ddr-dan-tool/HEAD/public/sm/2013/escape/escape-jacket.png",
+   "sha256": "081ab97100215388e73fecfc25c52a02d7678d443f31e46406ece5bf76c6e62d",
+   "width": 320,
+   "height": 320,
+   "bytes": 29480
+  }
+ },
+ "extra": {
+  "song_hash": "odQbP0bQqD89PolQ96II0PiqQQIddPi6",
+  "remywiki": "https://remywiki.com/Escape",
+  "flare_category": "WHITE"
+ }
+}

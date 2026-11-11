@@ -320,3 +320,15 @@ def test_shrink_assets_reencodes_large_images_in_place(tmp_path):
     assert stats["shrunk"] == 1 and a.file == "assets/jacket.jpg" and (a.width, a.height) == (100, 100)
     assert not (tmp_path / "chunithm" / "original" / "t1-test" / "assets" / "jacket.png").exists()
     assert db.shrink_assets("chunithm", 100)["shrunk"] == 0
+
+
+def test_delays_and_warps():
+    t = TimingMap(bpms=[BpmChange(Fraction(0), 120)], stops=[(Fraction(2), 100.0)], delays=[(Fraction(4), 200.0)],
+                  warps=[(Fraction(6), Fraction(2))])
+    assert t.ms_at(2) == 1000 and t.ms_at(3) == 1600             # stop: after the note on beat 2
+    assert t.ms_at(4) == 2000 + 100 + 200                         # delay: before the note on beat 4
+    assert t.ms_at(7) == t.ms_at(6) == 3000 + 300                 # inside the warp: no time passes
+    assert t.ms_at(9) == 3300 + 500
+    c = Chart(meta=ChartMeta(game="chunithm", song_id="x", title="x", difficulty="master"), lanes=4, timing=t)
+    back = Chart.from_json(c.to_json()).timing
+    assert back.delays == t.delays and back.warps == t.warps

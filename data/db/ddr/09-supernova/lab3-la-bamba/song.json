@@ -1,0 +1,342 @@
+{
+ "game": "ddr",
+ "song_id": "lab3",
+ "title": "La Bamba",
+ "artist": "LH MUSIC CREATION",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "DanceDanceRevolution SuperNOVA",
+ "bpm": "156",
+ "version": "DanceDanceRevolution SuperNOVA",
+ "date_added": "",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "BEGINNER",
+   "level": "3",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 110
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 330,
+     "sanbaiTier": 3.5
+    },
+    "tachi": {
+     "id": "C19d35e2109e6190d5bf"
+    },
+    "simfile": {
+     "chart": "dance-single/Beginner",
+     "meter": "3",
+     "steps": 110,
+     "freezes": 0,
+     "shocks": 0,
+     "combo": 110
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 121
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "BASIC",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 156
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 468,
+     "sanbaiTier": 5.3
+    },
+    "tachi": {
+     "id": "C19d35e2109e6010d895"
+    },
+    "simfile": {
+     "chart": "dance-single/Easy",
+     "meter": "5",
+     "steps": 155,
+     "freezes": 2,
+     "shocks": 0,
+     "combo": 156
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 187,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "DIFFICULT",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 248
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 744,
+     "sanbaiTier": 8.6
+    },
+    "tachi": {
+     "id": "C19d35e2109eb0ddb4d2"
+    },
+    "simfile": {
+     "chart": "dance-single/Medium",
+     "meter": "8",
+     "steps": 247,
+     "freezes": 2,
+     "shocks": 0,
+     "combo": 248
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 308,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 329
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 987,
+     "sanbaiTier": 11.55
+    },
+    "tachi": {
+     "id": "C19d35e2109e4bcdedfd"
+    },
+    "simfile": {
+     "chart": "dance-single/Hard",
+     "meter": "11",
+     "steps": 328,
+     "freezes": 2,
+     "shocks": 0,
+     "combo": 329
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 384,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "CHALLENGE",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1173,
+     "flags": [
+      "grandPrixPack"
+     ]
+    }
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "double-normal": {
+   "slot": "double-normal",
+   "native": "DOUBLE BASIC",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 156
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 468,
+     "sanbaiTier": 6.35
+    },
+    "tachi": {
+     "id": "C19d35e216950ad614f3"
+    },
+    "simfile": {
+     "chart": "dance-double/Easy",
+     "meter": "6",
+     "steps": 155,
+     "freezes": 2,
+     "shocks": 0,
+     "combo": 156
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 186,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-hard": {
+   "slot": "double-hard",
+   "native": "DOUBLE DIFFICULT",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 248
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 744,
+     "sanbaiTier": 8.7
+    },
+    "tachi": {
+     "id": "C19d35e21695f4704a26"
+    },
+    "simfile": {
+     "chart": "dance-double/Medium",
+     "meter": "8",
+     "steps": 247,
+     "freezes": 2,
+     "shocks": 0,
+     "combo": 248
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 314,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-expert": {
+   "slot": "double-expert",
+   "native": "DOUBLE EXPERT",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 329
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 987,
+     "sanbaiTier": 12.7
+    },
+    "tachi": {
+     "id": "C19d35e21695f0899ffa"
+    },
+    "simfile": {
+     "chart": "dance-double/Hard",
+     "meter": "12",
+     "steps": 328,
+     "freezes": 2,
+     "shocks": 0,
+     "combo": 329
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 383,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-master": {
+   "slot": "double-master",
+   "native": "DOUBLE CHALLENGE",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1143,
+     "flags": [
+      "grandPrixPack"
+     ]
+    }
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "ddrcarddraw": {
+   "id": "qbQ9I1bI6q91Q18DlDlI1Qdi8q6Qlo91",
+   "jacket": "ddr_sn-sn2/La Bamba SN.png"
+  },
+  "tachi": {
+   "id": "S19d35e1947e42f5bcb5",
+   "basename": "lab3",
+   "inGameID": 36928
+  },
+  "simfile": {
+   "path": "public/sm/SN1/La Bamba/La Bamba.sm",
+   "url": "https://raw.githubusercontent.com/blackalice/ddr-dan-tool/HEAD/public/sm/SN1/La%20Bamba/La%20Bamba.sm",
+   "song_id": "laba2"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/noahm/DDRCardDraw/HEAD/src/assets/jackets/ddr_sn-sn2/La%20Bamba%20SN.png",
+   "sha256": "4759f2715d219bfb6641aaf0b704a1a8da6847ed972ead42b68e82b3e736206f",
+   "width": 150,
+   "height": 150,
+   "bytes": 11707
+  }
+ },
+ "extra": {
+  "song_hash": "qbQ9I1bI6q91Q18DlDlI1Qdi8q6Qlo91",
+  "remywiki": "https://remywiki.com/La_Bamba",
+  "flare_category": "CLASSIC"
+ }
+}

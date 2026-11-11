@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from fractions import Fraction
 from pathlib import Path
@@ -220,7 +221,7 @@ def coverage(db: ChartDB, games: list[str]) -> dict[str, dict[str, Any]]:
             for slot, cr in rec.charts.items():
                 row["charts"] += 1
                 row["by_status"][cr.status] = row["by_status"].get(cr.status, 0) + 1
-                base = slot.split("-")[0]
+                base = re.sub(r"-\d+$", "", slot)      # special-2 counts as special; double-expert stays
                 row["by_slot"][base] = row["by_slot"].get(base, 0) + 1
         row["genres"] = len(row["genres"])
         out[g] = row

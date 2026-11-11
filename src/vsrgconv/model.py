@@ -102,34 +102,51 @@ class TimingMap:
     bpms: list[BpmChange] = field(default_factory=list)
     meters: list[MeterChange] = field(default_factory=lambda: [MeterChange(Fraction(0))])
     scrolls: list[ScrollChange] = field(default_factory=list)
-    # Stops (DDR/PIU delays): beat, duration in ms. Time passes, beats do not.
+    # Stops: beat, duration in ms. Time passes, beats do not; a note on the stop's beat is hit before the pause.
     stops: list[tuple[Fraction, float]] = field(default_factory=list)
+    # Delays (StepMania #DELAYS): like stops, but the pause comes before the notes on that beat.
+    delays: list[tuple[Fraction, float]] = field(default_factory=list)
+    # Warps (StepMania #WARPS, negative BPMs/stops): beat, length in beats. The warped beats take no time; notes inside
+    # a warp cannot be hit (readers mark them as fakes).
+    warps: list[tuple[Fraction, Fraction]] = field(default_factory=list)
 
     def sorted(self) -> "TimingMap":
         self.bpms.sort(key=lambda b: b.beat)
         self.meters.sort(key=lambda m: m.beat)
         self.scrolls.sort(key=lambda s: s.beat)
         self.stops.sort(key=lambda s: s[0])
+        self.delays.sort(key=lambda s: s[0])
+        self.warps.sort(key=lambda s: s[0])
         return self
 
     def ms_at(self, beat: Fraction | float) -> float:
-        """Milliseconds from audio start at a beat (piecewise constant BPM, plus stops before it)."""
+        """Milliseconds from audio start at a beat: piecewise constant BPM, minus warped beats, plus stops before it
+        and delays at or before it."""
         if not self.bpms:
             raise ValueError("timing map has no BPM")
         beat = Fraction(beat)
+        ms = self.offset_ms + self._tempo_ms(beat)
+        for at, length in self.warps:
+            if beat > at:
+                ms -= self._tempo_ms(min(beat, at + length)) - self._tempo_ms(at)
+        for at, length in self.stops:
+            if at < beat:
+                ms += length
+        for at, length in self.delays:
+            if at <= beat:
+                ms += length
+        return ms
+
+    def _tempo_ms(self, beat: Fraction) -> float:
         bpms = sorted(self.bpms, key=lambda b: b.beat)
-        ms = self.offset_ms
+        ms = 0.0
         prev, current = Fraction(0), bpms[0].bpm   # the first BPM also covers beats before 0
         for change in bpms[1:]:
             if change.beat >= beat:
                 break
             ms += float(change.beat - prev) * 60000.0 / current
             prev, current = change.beat, change.bpm
-        ms += float(beat - prev) * 60000.0 / current
-        for at, length in self.stops:
-            if at < beat:
-                ms += length
-        return ms
+        return ms + float(beat - prev) * 60000.0 / current
 
     def bpm_at(self, beat: Fraction) -> float:
         current = self.bpms[0].bpm
@@ -222,6 +239,8 @@ class Chart:
             meters=[MeterChange(_frac(m["beat"]), m["numerator"], m["denominator"]) for m in t.get("meters", [])],
             scrolls=[ScrollChange(_frac(s["beat"]), s["speed"]) for s in t.get("scrolls", [])],
             stops=[(_frac(s[0]), s[1]) for s in t.get("stops", [])],
+            delays=[(_frac(s[0]), s[1]) for s in t.get("delays", [])],
+            warps=[(_frac(w[0]), _frac(w[1])) for w in t.get("warps", [])],
         )
         notes = [
             Note(

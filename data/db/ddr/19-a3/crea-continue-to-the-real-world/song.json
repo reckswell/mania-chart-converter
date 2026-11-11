@@ -1,0 +1,377 @@
+{
+ "game": "ddr",
+ "song_id": "crea",
+ "title": "Continue to the real world?",
+ "artist": "NUU$HI",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "DanceDanceRevolution A3",
+ "bpm": "93-187",
+ "version": "DanceDanceRevolution A3",
+ "date_added": "",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "BEGINNER",
+   "level": "3",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 106
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 318,
+     "sanbaiTier": 3.25
+    },
+    "tachi": {
+     "id": "C19d35e2174d32a42e98"
+    },
+    "simfile": {
+     "chart": "dance-single/Beginner",
+     "meter": "3",
+     "steps": 101,
+     "freezes": 8,
+     "shocks": 0,
+     "combo": 106
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 96,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "BASIC",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 288
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 864,
+     "sanbaiTier": 7.25
+    },
+    "tachi": {
+     "id": "C19d35e2174d6ecd9598"
+    },
+    "simfile": {
+     "chart": "dance-single/Easy",
+     "meter": "7",
+     "steps": 275,
+     "freezes": 16,
+     "shocks": 0,
+     "combo": 288
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 284,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "DIFFICULT",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 435
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1305,
+     "sanbaiTier": 12.2
+    },
+    "tachi": {
+     "id": "C19d35e2174dda3f0b22"
+    },
+    "simfile": {
+     "chart": "dance-single/Medium",
+     "meter": "12",
+     "steps": 429,
+     "freezes": 8,
+     "shocks": 0,
+     "combo": 435
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 462,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 666
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1998,
+     "sanbaiTier": 16.3
+    },
+    "tachi": {
+     "id": "C19d35e2174d111cfbe4"
+    },
+    "simfile": {
+     "chart": "dance-single/Hard",
+     "meter": "16",
+     "steps": 651,
+     "freezes": 20,
+     "shocks": 0,
+     "combo": 666
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 687,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "CHALLENGE",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 2505,
+     "flags": [
+      "shock",
+      "grandPrixPack"
+     ]
+    },
+    "simfile": {
+     "chart": "dance-single/Challenge",
+     "meter": "17",
+     "steps": 784,
+     "freezes": 43,
+     "shocks": 5,
+     "combo": 830
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 782,
+      "hold": 43,
+      "mine": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "EX max 2490 from the simfile (3 × combo), DDRCardDraw has 2505",
+   "assets": {}
+  },
+  "double-normal": {
+   "slot": "double-normal",
+   "native": "DOUBLE BASIC",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 289
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 867,
+     "sanbaiTier": 7.35
+    },
+    "tachi": {
+     "id": "C19d35e21d4300446725"
+    },
+    "simfile": {
+     "chart": "dance-double/Easy",
+     "meter": "7",
+     "steps": 283,
+     "freezes": 8,
+     "shocks": 0,
+     "combo": 289
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 298,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-hard": {
+   "slot": "double-hard",
+   "native": "DOUBLE DIFFICULT",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 423
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1269,
+     "sanbaiTier": 12.35
+    },
+    "tachi": {
+     "id": "C19d35e21d433cfd722c"
+    },
+    "simfile": {
+     "chart": "dance-double/Medium",
+     "meter": "12",
+     "steps": 416,
+     "freezes": 8,
+     "shocks": 0,
+     "combo": 423
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 443,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-expert": {
+   "slot": "double-expert",
+   "native": "DOUBLE EXPERT",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 655
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1965,
+     "sanbaiTier": 16.45
+    },
+    "tachi": {
+     "id": "C19d35e21d43f22d8946"
+    },
+    "simfile": {
+     "chart": "dance-double/Hard",
+     "meter": "16",
+     "steps": 636,
+     "freezes": 22,
+     "shocks": 0,
+     "combo": 655
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 637,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-master": {
+   "slot": "double-master",
+   "native": "DOUBLE CHALLENGE",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 2436,
+     "flags": [
+      "shock",
+      "grandPrixPack"
+     ]
+    },
+    "simfile": {
+     "chart": "dance-double/Challenge",
+     "meter": "17",
+     "steps": 772,
+     "freezes": 32,
+     "shocks": 5,
+     "combo": 807
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 754,
+      "hold": 32,
+      "mine": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "EX max 2421 from the simfile (3 × combo), DDRCardDraw has 2436",
+   "assets": {}
+  }
+ },
+ "source": {
+  "ddrcarddraw": {
+   "id": "1Dd0b8lIQOd011qqOPiq1QDbDqod9Od8",
+   "jacket": "ddr_a3/Continue to the real world.jpg"
+  },
+  "tachi": {
+   "id": "S19d35e19b2ac7117796",
+   "basename": "crea",
+   "inGameID": 38633
+  },
+  "simfile": {
+   "path": "public/sm/A3/Continue to the real world/Continue to the real world.sm",
+   "url": "https://raw.githubusercontent.com/blackalice/ddr-dan-tool/HEAD/public/sm/A3/Continue%20to%20the%20real%20world/Continue%20to%20the%20real%20world.sm",
+   "song_id": "crea"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/blackalice/ddr-dan-tool/HEAD/public/sm/A3/Continue%20to%20the%20real%20world/Continue%20to%20the%20real%20world-jacket.png",
+   "sha256": "36bdbad0338653e78c8fe8a4956e0dfdeaecc467571c30456105525f216c744f",
+   "width": 320,
+   "height": 320,
+   "bytes": 20861
+  }
+ },
+ "extra": {
+  "song_hash": "1Dd0b8lIQOd011qqOPiq1QDbDqod9Od8",
+  "remywiki": "https://remywiki.com/Continue_to_the_real_world%3F",
+  "flare_category": "GOLD"
+ }
+}
