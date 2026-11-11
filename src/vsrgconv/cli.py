@@ -65,6 +65,10 @@ def cmd_scrape(a: argparse.Namespace) -> int:
                 stats["jackets_skipped"] += 1
             else:
                 jobs.append(("jacket", song, ""))
+        if a.jackets and src.chart_jackets:
+            slots = [k for k, c in song.charts.items() if a.refresh or f"jacket-{k}" not in c.assets]
+            if slots:
+                jobs.append(("chart_jackets", song, ",".join(slots)))
         if a.charts and src.chart:
             for slot, cr in song.charts.items():
                 if cr.status in ("extracted", "converted") and not a.refresh:
@@ -75,6 +79,8 @@ def cmd_scrape(a: argparse.Namespace) -> int:
     def work(job: tuple[str, SongRecord, str]) -> Any:
         kind, song, slot = job
         try:
+            if kind == "chart_jackets":
+                return src.chart_jackets(f, song, slot.split(","))
             return src.jacket(f, song) if kind == "jacket" else src.chart(f, song, slot)
         except (NotFound, FetchError) as e:
             return e
@@ -85,6 +91,18 @@ def cmd_scrape(a: argparse.Namespace) -> int:
         for n, (job, result) in enumerate(zip(jobs, pool.map(work, jobs)), 1):
             kind, song, slot = job
             name = f"{song.song_id}/{slot or 'jacket'}"
+            if kind == "chart_jackets" and isinstance(result, list):
+                for cslot, data, ext, url in result:
+                    try:
+                        db.save_asset(a.game, song.song_id, f"jacket-{cslot}", data, ext=ext, url=url, slot=cslot,
+                                      max_size=None if a.full_images else a.image_size)
+                        stats["chart_jackets_saved"] = stats.get("chart_jackets_saved", 0) + 1
+                    except (OSError, ValueError) as e:
+                        errors.append(f"{song.song_id}/jacket-{cslot}: {e}"[:200])
+                continue
+            if kind == "chart_jackets":
+                errors.append(f"{song.song_id}/difficulty jackets: {result}"[:200])
+                continue
             if isinstance(result, NotFound) or result is None:
                 stats[f"{kind}s_missing"] += 1
                 missing.append(name)
@@ -208,18 +226,20 @@ def cmd_playtest(a: argparse.Namespace) -> int:
 
 
 def coverage(db: ChartDB, games: list[str]) -> dict[str, dict[str, Any]]:
-    """Per game: songs (current/removed), charts by status, jackets, and how many genres."""
+    """Per game: songs (removed; not_in_game also counts songs never in the arcade), charts by status, jackets."""
     out: dict[str, dict[str, Any]] = {}
     for g in games:
-        row: dict[str, Any] = {"songs": 0, "removed_songs": 0, "genres": set(), "charts": 0, "jackets": 0,
-                               "by_status": {}, "by_slot": {}}
+        row: dict[str, Any] = {"songs": 0, "removed_songs": 0, "not_in_game": 0, "genres": set(), "charts": 0,
+                               "jackets": 0, "chart_jackets": 0, "by_status": {}, "by_slot": {}}
         for rec in db.iter_songs(g):
             row["songs"] += 1
             row["removed_songs"] += bool(rec.extra.get("removed"))
+            row["not_in_game"] += bool(rec.extra.get("removed") or rec.extra.get("not_in_arcade"))
             row["genres"].add(rec.genre_slug)
             row["jackets"] += "jacket" in rec.assets
             for slot, cr in rec.charts.items():
                 row["charts"] += 1
+                row["chart_jackets"] += any(k.startswith("jacket") for k in cr.assets)
                 row["by_status"][cr.status] = row["by_status"].get(cr.status, 0) + 1
                 base = re.sub(r"-\d+$", "", slot)      # special-2 counts as special; double-expert stays
                 row["by_slot"][base] = row["by_slot"].get(base, 0) + 1

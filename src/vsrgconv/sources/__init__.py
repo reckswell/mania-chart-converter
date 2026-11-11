@@ -3,7 +3,9 @@
 A `GameSource` answers three questions for the `catalog` and `scrape` commands:
 - `catalog(fetcher)`: every song in the game with every difficulty (metadata only);
 - `chart(fetcher, song, slot)`: one chart's notes as an intermediate-format `Chart` (None if no source has it);
-- `jacket(fetcher, song)`: the song's jacket image as (bytes, extension, url), or None.
+- `jacket(fetcher, song)`: the song's jacket image as (bytes, extension, url), or None;
+- `chart_jackets(fetcher, song, slots)`: per-difficulty jackets that differ from the song's (SDVX), as a list of
+  (slot, bytes, extension, url); stored as chart assets named `jacket-<slot>`.
 """
 from __future__ import annotations
 
@@ -17,6 +19,7 @@ from .fetch import Fetcher
 CatalogFn = Callable[[Fetcher], tuple[list[SongRecord], dict[str, Any]]]
 ChartFn = Callable[[Fetcher, SongRecord, str], "Chart | None"]
 JacketFn = Callable[[Fetcher, SongRecord], "tuple[bytes, str, str] | None"]
+ChartJacketsFn = Callable[[Fetcher, SongRecord, list[str]], "list[tuple[str, bytes, str, str]]"]
 
 
 @dataclass
@@ -25,6 +28,7 @@ class GameSource:
     catalog: CatalogFn
     chart: ChartFn | None = None
     jacket: JacketFn | None = None
+    chart_jackets: ChartJacketsFn | None = None
     notes: str = ""
 
 
