@@ -8,8 +8,8 @@ import pytest
 
 from vsrgconv.db import ChartDB, ChartRecord, SongRecord
 from vsrgconv.formats.c2s import c2s_to_chart
-from vsrgconv.imaging.render import (BACKGROUND, COLOURS, LANE_BG, RenderConfig, _columns, measure_starts, preempt_ms,
-                                     render_chart, render_png)
+from vsrgconv.imaging.render import (BACKGROUND, COLOURS, LANE_BG, RAIL, RenderConfig, _columns, measure_starts,
+                                     preempt_ms, render_chart, render_png)
 from vsrgconv.model import BpmChange, Chart, ChartMeta, MeterChange, Note, NoteKind, PathPoint, TimingMap
 
 FIX = Path(__file__).parent / "fixtures"
@@ -42,10 +42,12 @@ def test_approach_rate_spaces_notes_by_time():
     for ar, gap in [(9, 80), (5, 40)]:
         cfg = RenderConfig(approach_rate=ar)
         img = render_chart(chart(taps, lanes=4, bpm=150), cfg).convert("RGB")
-        x = cfg.margin_px + cfg.gutter_px + cfg.lane_area_px // 8           # middle of lane 0 of the first column
+        x = cfg.margin_px + cfg.gutter_px + cfg.rail_px + cfg.lane_area_px // 8    # middle of lane 0, first column
         ys = [y for y in range(img.height) if img.getpixel((x, y)) == COLOURS["tap"]
               and img.getpixel((x, y + 1)) != COLOURS["tap"]]                # bottom row of each tap
         assert [a - b for a, b in zip(ys[::-1], ys[::-1][1:])] == [gap] * 3, (ar, ys)
+        assert img.getpixel((cfg.margin_px + cfg.gutter_px, ys[0])) == RAIL      # sdvx.in's gold rails
+        assert img.getpixel((cfg.margin_px + cfg.gutter_px + cfg.rail_px + cfg.lane_area_px, ys[0])) == RAIL
 
 
 def test_time_columns_end_on_measure_lines():
@@ -64,7 +66,7 @@ def test_time_columns_end_on_measure_lines():
 
 
 def test_wide_pictures_wrap_into_rows():
-    cfg = RenderConfig(max_width_px=700)                                  # 3 columns of 206 px a row
+    cfg = RenderConfig(max_width_px=700)                                  # 3 columns of 222 px a row
     c = chart([Note(Fraction(b), 0, 1, NoteKind.TAP) for b in range(80)], lanes=4)   # 20 measures, 1600 px each
     cols, _ = _columns(c, cfg)
     img = render_chart(c, cfg)

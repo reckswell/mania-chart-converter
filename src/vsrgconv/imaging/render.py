@@ -1,7 +1,7 @@
 """Draws a chart's layout as a picture from its notes (the intermediate format), for any game.
 
-The layout follows sdvx.in's chart pictures: columns read from the bottom left, each a 50 px gutter (measure numbers,
-BPM changes) and a 150 px lane area, breaking at measure lines. Every note kind has one colour in every game (see
+The layout follows sdvx.in's chart pictures: black, columns read from the bottom left, each a 50 px gutter (measure
+numbers, BPM changes) and a 150 px lane area between gold rails, breaking at measure lines. Every note kind has one colour in every game (see
 `COLOURS`), so a picture of a Sekai chart and a picture of a DDR chart read the same way. Pictures are made from the
 stored notes on demand (`vsrgconv render`), so they always match the database and never need to be fetched.
 
@@ -40,12 +40,13 @@ COLOURS: dict[str, tuple[int, int, int]] = {
 }
 #: opacity of long-note bodies over the lanes; `other` (invisible guides, decorations, fakes) is faint
 BODY_ALPHA = {"hold": 150, "slide": 120, "air_hold": 110, "knob": 120, "scratch": 150, "other": 22}
-BACKGROUND = (12, 12, 18)
-LANE_BG = (24, 24, 34)
-LANE_LINE = (44, 44, 60)
-BEAT_LINE = (52, 52, 70)
-MEASURE_LINE = (140, 140, 160)
-TEXT = (210, 210, 220)
+BACKGROUND = (0, 0, 0)             # sdvx.in: black, lanes framed by gold rails
+LANE_BG = (8, 8, 14)
+LANE_LINE = (40, 30, 56)
+BEAT_LINE = (58, 58, 72)
+MEASURE_LINE = (150, 150, 170)
+RAIL = (190, 160, 100)
+TEXT = (235, 235, 240)
 BPM_TEXT = (255, 200, 90)
 WHITE = (255, 255, 255)
 
@@ -95,6 +96,8 @@ class RenderConfig:
     lane_area_px: int = 150        # sdvx.in: a 150 px lane area after a 50 px gutter
     min_lane_px: int = 8
     gutter_px: int = 50
+    rail_px: int = 8               # gold rails either side of the lanes
+    label_px: int = 16             # measure numbers and BPMs
     margin_px: int = 6
     note_px: int = 6               # thickness of a tap
     footer_px: int = 16            # title line under the columns
@@ -106,8 +109,8 @@ class RenderConfig:
     @classmethod
     def compact(cls) -> RenderConfig:
         """The first layout: 24 px per beat, 8 measures a column, narrow lanes; time axis only for gimmick charts."""
-        return cls(axis="auto", px_per_beat=24, measures_per_column=8, lane_area_px=128, gutter_px=30, note_px=4,
-                   footer_px=14, max_columns=300, max_width_px=1 << 20)
+        return cls(axis="auto", px_per_beat=24, measures_per_column=8, lane_area_px=128, gutter_px=30, rail_px=0,
+                   label_px=10, note_px=4, footer_px=14, max_columns=300, max_width_px=1 << 20)
 
     @property
     def px_per_ms(self) -> float:
@@ -292,7 +295,7 @@ def render_chart(chart: Chart, cfg: RenderConfig | None = None, title: str | Non
     lanes = max(int(chart.lanes), 1)
     lane_px = max(cfg.min_lane_px, cfg.lane_area_px // lanes)
     area = lane_px * lanes
-    col_w = cfg.gutter_px + area + cfg.margin_px
+    col_w = cfg.gutter_px + 2 * cfg.rail_px + area + cfg.margin_px
     cols, cut = _columns(chart, cfg, axis)
     starts = [c.start for c in cols]
     col_h = math.ceil(max(c.end - c.start for c in cols))
@@ -306,7 +309,7 @@ def render_chart(chart: Chart, cfg: RenderConfig | None = None, title: str | Non
     pal = _Palette()
     img = Image.new("P", (width, height), pal(BACKGROUND))
     draw = ImageDraw.Draw(img)
-    font = ImageFont.load_default()
+    font = ImageFont.load_default(size=cfg.label_px)
     bottom = cfg.margin_px + col_h                 # of the first row
     top_pos = cols[-1].end
 
@@ -314,7 +317,7 @@ def render_chart(chart: Chart, cfg: RenderConfig | None = None, title: str | Non
         return cols[min(max(bisect_right(starts, p) - 1, 0), len(cols) - 1)]
 
     def x_of(col: _Column, lane: float) -> float:
-        return cfg.margin_px + col.slot * col_w + cfg.gutter_px + float(lane) * lane_px
+        return cfg.margin_px + col.slot * col_w + cfg.gutter_px + cfg.rail_px + float(lane) * lane_px
 
     def y_of(col: _Column, p: float) -> float:
         return bottom + col.row * row_h - (p - col.start)
@@ -323,6 +326,9 @@ def render_chart(chart: Chart, cfg: RenderConfig | None = None, title: str | Non
     for col in cols:
         x0, top, low = x_of(col, 0), y_of(col, col.end), y_of(col, col.start)
         draw.rectangle([x0, top, x0 + area - 1, low], fill=pal(LANE_BG))
+        if cfg.rail_px:
+            draw.rectangle([x0 - cfg.rail_px, top, x0 - 1, low], fill=pal(RAIL))
+            draw.rectangle([x0 + area, top, x0 + area + cfg.rail_px - 1, low], fill=pal(RAIL))
         for k in range(1, lanes):
             draw.line([x_of(col, k), top, x_of(col, k), low], fill=pal(LANE_LINE))
 
@@ -426,9 +432,11 @@ def render_chart(chart: Chart, cfg: RenderConfig | None = None, title: str | Non
             body(n, pal(_blend(COLOURS[n.kind.value], BODY_ALPHA[n.kind.value])), inset)
 
     def gutter_text(col: _Column, y: float, text: str, colour: tuple[int, int, int]) -> None:
-        """Right-aligned in the gutter, next to the column's own lanes."""
-        x = x_of(col, 0) - 3 - draw.textlength(text, font=font)
-        draw.text((max(x, x_of(col, 0) - cfg.gutter_px + 1), y), text, fill=pal(colour), font=font)
+        """Right-aligned in the gutter next to the column's own lanes, the text's bottom at y."""
+        left, top, right, low = draw.textbbox((0, 0), text, font=font)
+        x = x_of(col, 0) - cfg.rail_px - 3 - right
+        draw.text((max(x, x_of(col, 0) - cfg.rail_px - cfg.gutter_px + 1), y - low), text, fill=pal(colour),
+                  font=font)
 
     # ---- measure lines and numbers (the number's bottom row on its line, as on sdvx.in), BPM changes
     last_line: dict[int, float] = {}
@@ -441,9 +449,9 @@ def render_chart(chart: Chart, cfg: RenderConfig | None = None, title: str | Non
         if abs(last_line.get(c.index, 1e9) - y) >= 2:
             last_line[c.index] = y
             line_at(p, MEASURE_LINE)
-        if abs(last_label.get(c.index, 1e9) - y) >= 11:
+        if abs(last_label.get(c.index, 1e9) - y) >= cfg.label_px + 2:
             last_label[c.index] = y
-            gutter_text(c, y - 11, f"{number:03d}", TEXT)
+            gutter_text(c, y, f"{number:02d}", TEXT)
     for col in cols:
         draw.line([x_of(col, 0), y_of(col, col.end), x_of(col, lanes) - 1, y_of(col, col.end)], fill=pal(MEASURE_LINE))
     bpm_changes = sorted(chart.timing.bpms, key=lambda b: b.beat)
@@ -452,12 +460,12 @@ def render_chart(chart: Chart, cfg: RenderConfig | None = None, title: str | Non
         if len(bpm_changes) == 1 and change.beat <= 0:
             continue
         p = axis.pos(change.beat)
-        if p > top_pos or (last_bpm is not None and abs(p - last_bpm) < 24):
+        if p > top_pos or (last_bpm is not None and abs(p - last_bpm) < 2 * cfg.label_px):
             continue      # gimmick bursts (warps written as huge BPMs): label the first change only
         last_bpm = p
         c = col_of(p)
         text = f"{change.bpm:.4g}" if abs(change.bpm) < 10000 else "warp"
-        gutter_text(c, y_of(c, p) - 22, text, BPM_TEXT)
+        gutter_text(c, y_of(c, p) - cfg.label_px - 3, text, BPM_TEXT)
 
     for n in chart.notes:
         colour = pal(COLOURS[n.kind.value])

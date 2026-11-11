@@ -50,8 +50,11 @@ Counts as of 2026-11-11, from `vsrgconv stats`:
 | GITADORA GW DELTA | 1,820 (181 removed) | 34 versions | 0 / 19,497 | 1,593 | — | all charts (.dtx host, PC) |
 
 Every chart with notes has a layout picture drawn from its notes: `vsrgconv render` writes
-`data/renders/<game>/<genre>/<song>/<slot>.png`, the same layout as the database. Pictures are not committed; they
-are redrawn from the charts (docs/hosting.md says where they can be hosted). Charts without notes keep links to
+`data/renders/<game>/<genre>/<song>/<slot>.png`, the same layout as the database. The pictures follow sdvx.in's
+chart pictures (columns read bottom-up, left to right, measure numbers and BPM changes beside each column) and are
+spaced like osu!mania at approach rate 9, so the distance between notes is their distance in time
+(`--approach-rate` changes it, `--compact` draws the older beat-spaced layout). Pictures are not committed; they are
+redrawn from the charts (docs/hosting.md says where they can be hosted). Charts without notes keep links to
 pictures elsewhere (sdvx.in, RRRGR, textage) in their `source`; `vsrgconv render --report` lists them.
 
 Each game's sources, coverage and caveats are in `docs/sources/<game>.md`. Conversion rules are still placeholders
