@@ -18,8 +18,10 @@ pip install -e '.[dev]'          # or: PYTHONPATH=src python -m vsrgconv ...
 python -m pytest -q
 python -m vsrgconv demo          # offline end to end: synthetic sdvx.in picture -> .osu in out/demo
 python -m vsrgconv stats         # what the database holds, per game
+python -m vsrgconv games --all   # the games, and other VSRGs that can be added (docs/adding-a-game.md)
 python -m vsrgconv catalog sekai                        # refresh a game's song list (or: catalog all)
 python -m vsrgconv scrape sekai --charts --jackets --workers 8 --interval 0.02   # fetch what is missing
+python -m vsrgconv render chunithm --workers 4           # chart layout pictures into data/renders
 python -m vsrgconv convert chunithm 2490 master --keys 8
 python -m vsrgconv playtest "out/<map>.osu" --dry-run   # orthomania harness command (ORTHO_REPO)
 ```
@@ -47,6 +49,11 @@ Counts as of 2026-11-11, from `vsrgconv stats`:
 | beatmania IIDX 34 | 2,623 (647 not in arcade) | 37 versions | 0 / 16,700 | none exist | — | all charts (textage, PC) |
 | GITADORA GW DELTA | 1,820 (181 removed) | 34 versions | 0 / 19,497 | 1,593 | — | all charts (.dtx host, PC) |
 
+Every chart with notes has a layout picture drawn from its notes: `vsrgconv render` writes
+`data/renders/<game>/<genre>/<song>/<slot>.png`, the same layout as the database. Pictures are not committed; they
+are redrawn from the charts (docs/hosting.md says where they can be hosted). Charts without notes keep links to
+pictures elsewhere (sdvx.in, RRRGR, textage) in their `source`; `vsrgconv render --report` lists them.
+
 Each game's sources, coverage and caveats are in `docs/sources/<game>.md`. Conversion rules are still placeholders
 (`baseline` profile), so the .osu output is a working test, not a finished map.
 
@@ -57,7 +64,9 @@ Each game's sources, coverage and caveats are in `docs/sources/<game>.md`. Conve
 - `docs/research/vsrg-mechanics.md`: each source game's mechanics, where its chart data comes from, and what does not
   map to mania. Includes the cross-game difficulty ladder.
 - `docs/sources/`: per game, where the catalog, charts and jackets come from, the format, and what is missing.
-- `docs/architecture.md`: modules, and how to add a game.
+- `docs/architecture.md`: modules.
+- `docs/adding-a-game.md`: listing the games and adding another VSRG.
+- `docs/hosting.md`: where the database can live besides this machine and GitHub.
 - `docs/agent-loop.md`: the research → implement → verify → review → playtest → record loop (`/iterate`), with
   subagents in `.claude/agents/`.
 - `agent/`: the loop's backlog, log, decisions, eval set and metrics.

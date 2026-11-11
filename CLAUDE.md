@@ -12,7 +12,8 @@
   Never skip or weaken a test to pass.
 - Data:
   - commit `data/db` (catalog, extracted `*.chart.json.gz`, jackets shrunk to ≤320 px JPEG);
-  - never commit `data/cache` (downloaded pictures, audio) or `out/`.
+  - commit `data/games` (definitions of games added with `vsrgconv add-game`, docs/adding-a-game.md);
+  - never commit `data/cache` (downloaded pictures, audio), `data/renders` (redrawn by `vsrgconv render`) or `out/`.
 - Network: the cloud machine cannot reach sdvx.in, osu.ppy.sh or YouTube. GitHub raw files (osu-wiki, otoge-db,
   MarisaBot) work. Chunithm notes come from exact .c2s files (docs/sources/chunithm-c2s.md); sdvx.in is the fallback.
   Work that needs those sites runs on Alpha's PC (see docs/sources/chunithm-sdvxin.md). Record what is waiting for

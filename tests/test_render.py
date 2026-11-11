@@ -1,0 +1,131 @@
+"""Chart layout pictures drawn from the stored notes (imaging/render.py) and the `render` command."""
+import json
+import math
+from fractions import Fraction
+from pathlib import Path
+
+from vsrgconv.db import ChartDB, ChartRecord, SongRecord
+from vsrgconv.formats.c2s import c2s_to_chart
+from vsrgconv.imaging.render import (BACKGROUND, COLOURS, LANE_BG, RenderConfig, _columns, measure_starts, render_chart,
+                                     render_png)
+from vsrgconv.model import BpmChange, Chart, ChartMeta, MeterChange, Note, NoteKind, PathPoint, TimingMap
+
+FIX = Path(__file__).parent / "fixtures"
+
+
+def chart(notes: list[Note], lanes: int = 16) -> Chart:
+    return Chart(meta=ChartMeta(game="chunithm", song_id="t1", title="Test", difficulty="master",
+                                difficulty_native="MASTER", level="13"),
+                 lanes=lanes, timing=TimingMap(bpms=[BpmChange(Fraction(0), 120)], meters=[MeterChange(Fraction(0))]),
+                 notes=notes)
+
+
+def colours_in(img) -> set[tuple[int, int, int]]:
+    return {c for _, c in img.getcolors(maxcolors=1 << 20)}
+
+
+def test_columns_hold_a_fixed_number_of_measures():
+    c = chart([Note(Fraction(79), 0, 1, NoteKind.TAP)])           # last note in measure 20 (4/4)
+    cols, cut = _columns(c, RenderConfig(measures_per_column=8))
+    assert [(col.start, col.end) for col in cols] == [(0, 32), (32, 64), (64, 80)] and not cut
+    cols, cut = _columns(c, RenderConfig(measures_per_column=8, max_columns=2))
+    assert len(cols) == 2 and cut
+
+
+def test_measure_starts_jump_over_runs_of_one_time_signature():
+    t = TimingMap(bpms=[BpmChange(Fraction(0), 120)],
+                  meters=[MeterChange(Fraction(0)), MeterChange(Fraction(10), 3, 4), MeterChange(Fraction(10**9), 7, 8)])
+    every = t.measure_starts(Fraction(40))
+    assert list(measure_starts(t, Fraction(0), Fraction(40))) == list(enumerate(every, 1))
+    # a window a billion beats in: measure numbers still count from the start, without listing every measure
+    far = list(measure_starts(t, Fraction(10**9), Fraction(10**9 + 7)))
+    assert far[0][1] >= 10**9 and far[1][1] - far[0][1] == Fraction(7, 2)
+    assert far[0][0] == 1 + 3 + math.ceil((Fraction(10**9) - 12) / 3)
+
+
+def test_gimmick_bpm_charts_are_drawn_on_a_time_axis():
+    """Arcaea-style teleports: 99,999,999 BPM for a million beats takes under a millisecond."""
+    t = TimingMap(bpms=[BpmChange(Fraction(0), 200), BpmChange(Fraction(16), 99_999_999),
+                        BpmChange(Fraction(1_000_016), 200)], meters=[MeterChange(Fraction(0))])
+    c = Chart(meta=ChartMeta(game="arcaea", song_id="g", title="G"), lanes=4, timing=t,
+              notes=[Note(Fraction(b), b % 4, 1, NoteKind.TAP) for b in range(16)]
+              + [Note(Fraction(1_000_016 + b), b % 4, 1, NoteKind.TAP) for b in range(16)])
+    img = render_chart(c)
+    assert img.width < 400 and img.height < 1000                    # 32 beats of time: one column
+    cols, cut = _columns(c, RenderConfig(axis="beats"))               # on the beats axis it is 31,251 columns long
+    assert len(cols) == 300 and cut
+    taps = sum(1 for _, col in img.getcolors(1 << 20) if col == COLOURS["tap"])
+    assert taps > 0
+
+
+def test_notes_are_drawn_where_they_are():
+    """A hold on lanes 3-4, beats 0-4, of a 16-lane chart: lane px = 128 / 16 = 8, 24 px per beat."""
+    cfg = RenderConfig()
+    hold = Note(Fraction(0), 3, 2, NoteKind.HOLD, Fraction(4))
+    slide = Note(Fraction(4), 0, 2, NoteKind.SLIDE, Fraction(4), path=[PathPoint(Fraction(4), 12, 2)])
+    img = render_chart(chart([hold, slide, Note(Fraction(7), 8, 1, NoteKind.TAP)]), cfg)
+    bottom = img.height - cfg.footer_px - cfg.margin_px                # one column, as tall as its measures
+
+    def x(lane: float) -> int:                                          # centre of a lane
+        return int(cfg.margin_px + cfg.gutter_px + (lane + 0.5) * 8)
+
+    def y(beat: float) -> int:
+        return int(bottom - beat * cfg.px_per_beat)
+
+    body = img.getpixel((x(4), y(2) - 3))
+    assert body != LANE_BG and body[0] > body[2]                        # orange hold body
+    assert img.getpixel((x(10), y(2) - 3)) == LANE_BG                   # nothing in lane 10
+    # the slide moves from lane 0 to lane 12 over beats 4-8: halfway it is around lane 6-8
+    assert img.getpixel((x(7), y(6) - 3)) != LANE_BG
+    assert img.getpixel((x(1), y(6) - 3)) == LANE_BG
+    assert img.getpixel((x(8), y(7))) == COLOURS["tap"]
+    assert img.getpixel((1, 1)) == BACKGROUND
+
+
+def test_every_c2s_note_kind_gets_its_colour():
+    c = c2s_to_chart((FIX / "sample.c2s").read_text("utf-8"),
+                     ChartMeta(game="chunithm", song_id="t1", title="T", difficulty="master"))
+    seen = colours_in(render_chart(c))
+    kinds = {n.kind.value for n in c.notes if n.kind is not NoteKind.OTHER}
+    heads = {k for k in kinds if k not in ("air_hold", "slide")}   # bodies are translucent: their colour is blended
+    assert {COLOURS[k] for k in heads} <= seen
+
+
+def test_png_is_small_and_palette():
+    from io import BytesIO
+
+    from PIL import Image
+
+    c = chart([Note(Fraction(b), b % 16, 1, NoteKind.TAP) for b in range(64)])
+    data = render_png(c)
+    img = Image.open(BytesIO(data))
+    assert data[:8] == b"\x89PNG\r\n\x1a\n" and img.mode == "P" and len(data) < 30_000
+    half = Image.open(BytesIO(render_png(c, scale=0.5)))
+    assert half.width == render_chart(c).width // 2
+
+
+def test_render_command_mirrors_the_database(tmp_path, capsys):
+    from vsrgconv.cli import main
+
+    db = ChartDB(tmp_path / "db")
+    rec = SongRecord(game="chunithm", song_id="t1", title="Test", genre="ORIGINAL",
+                     charts={"master": ChartRecord("master", "MASTER", "13"),
+                             "special": ChartRecord("special", "WORLD'S END", source={
+                                 "picture": "https://example.invalid/t1we.png"})})
+    db.upsert_song(rec)
+    db.save_chart(c2s_to_chart((FIX / "sample.c2s").read_text("utf-8"),
+                               ChartMeta(game="chunithm", song_id="t1", title="Test", difficulty="master")))
+    out, report = tmp_path / "renders", tmp_path / "report.json"
+    args = ["--db", str(tmp_path / "db"), "render", "chunithm", "--out", str(out), "--report", str(report)]
+    assert main(args) == 0
+    png = out / db.song_dir(db.get_song("chunithm", "t1")).relative_to(db.root) / "master.png"
+    assert png.exists()
+    r = json.loads(report.read_text("utf-8"))
+    assert r["summary"]["chunithm"] == {"charts": 2, "with_notes": 1, "rendered": 1, "already": 0, "failed": 0,
+                                        "bytes": png.stat().st_size, "without_notes": 1,
+                                        "without_notes_with_reference": 1}
+    assert r["without_notes"] == [{"game": "chunithm", "song_id": "t1", "slot": "special", "status": "listed",
+                                   "references": {"picture": "https://example.invalid/t1we.png"}}]
+    capsys.readouterr()
+    assert main(args) == 0                                              # second run: nothing to draw
+    assert json.loads(capsys.readouterr().out)["summary"]["chunithm"]["already"] == 1

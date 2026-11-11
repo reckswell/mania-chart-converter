@@ -332,3 +332,18 @@ def test_delays_and_warps():
     c = Chart(meta=ChartMeta(game="chunithm", song_id="x", title="x", difficulty="master"), lanes=4, timing=t)
     back = Chart.from_json(c.to_json()).timing
     assert back.delays == t.delays and back.warps == t.warps
+
+
+def test_ms_lookup_matches_ms_at():
+    import random
+
+    rng = random.Random(7)
+    t = TimingMap(offset_ms=-30, bpms=[BpmChange(Fraction(0), 150), BpmChange(Fraction(9, 2), 75),
+                                       BpmChange(Fraction(20), 999_999), BpmChange(Fraction(21), 150)],
+                  stops=[(Fraction(2), 100.0), (Fraction(30), 50.0)], delays=[(Fraction(4), 200.0)],
+                  warps=[(Fraction(6), Fraction(2)), (Fraction(40), Fraction(3)), (Fraction(41), Fraction(1))])
+    ms = t.ms_lookup()
+    beats = [Fraction(rng.randrange(-40, 4000), 48) for _ in range(500)]
+    beats += [Fraction(b) for b in (0, 2, 4, 6, 7, 8, 20, 21, 30, 40, 41, 42, 43, 44)]
+    for b in beats:
+        assert abs(ms(b) - t.ms_at(b)) < 1e-6, b

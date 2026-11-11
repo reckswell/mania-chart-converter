@@ -14,6 +14,8 @@ Conventions:
 from __future__ import annotations
 
 import json
+from bisect import bisect_left, bisect_right
+from collections.abc import Callable
 from dataclasses import asdict, dataclass, field
 from enum import Enum
 from fractions import Fraction
@@ -135,6 +137,57 @@ class TimingMap:
         for at, length in self.delays:
             if at <= beat:
                 ms += length
+        return ms
+
+    def ms_lookup(self) -> Callable[[Fraction], float]:
+        """`ms_at` for many lookups: bisects precomputed sums instead of rescanning every change on each call (a PIU
+        co-op chart has 330,000 notes and 784 warps). Same values as ms_at, up to float rounding."""
+        if not self.bpms:
+            raise ValueError("timing map has no BPM")
+        bpms = sorted(self.bpms, key=lambda b: b.beat)
+        change_beats = [b.beat for b in bpms[1:]]
+        seg_start, seg_ms, seg_rate = [Fraction(0)], [0.0], [60000.0 / bpms[0].bpm]
+        for b in bpms[1:]:
+            seg_ms.append(seg_ms[-1] + float(b.beat - seg_start[-1]) * seg_rate[-1])
+            seg_start.append(b.beat)
+            seg_rate.append(60000.0 / b.bpm)
+
+        def tempo(beat: Fraction) -> float:
+            i = bisect_left(change_beats, beat)
+            return seg_ms[i] + float(beat - seg_start[i]) * seg_rate[i]
+
+        warps = sorted(self.warps)
+        warp_at = [w[0] for w in warps]
+        warp_ms, warp_end = [0.0], [Fraction(-10**18)]     # prefix sums of whole warps, latest end so far
+        for at, length in warps:
+            warp_ms.append(warp_ms[-1] + tempo(at + length) - tempo(at))
+            warp_end.append(max(warp_end[-1], at + length))
+        stops = sorted(self.stops)
+        stop_at, stop_ms = [s[0] for s in stops], [0.0]
+        for _, length in stops:
+            stop_ms.append(stop_ms[-1] + length)
+        delays = sorted(self.delays)
+        delay_at, delay_ms = [d[0] for d in delays], [0.0]
+        for _, length in delays:
+            delay_ms.append(delay_ms[-1] + length)
+
+        def ms(beat: Fraction | float) -> float:
+            beat = Fraction(beat)
+            out = self.offset_ms + tempo(beat)
+            j = bisect_left(warp_at, beat)                  # warps that start before this beat
+            if j:
+                if warp_end[j] <= beat:                     # all of them are behind it
+                    out -= warp_ms[j]
+                elif warp_end[j - 1] <= beat:               # inside the last one
+                    at, length = warps[j - 1]
+                    out -= warp_ms[j - 1] + tempo(min(beat, at + length)) - tempo(at)
+                else:                                       # overlapping warps: the plain way
+                    for at, length in warps[:j]:
+                        out -= tempo(min(beat, at + length)) - tempo(at)
+            out += stop_ms[bisect_left(stop_at, beat)]
+            out += delay_ms[bisect_right(delay_at, beat)]
+            return out
+
         return ms
 
     def _tempo_ms(self, beat: Fraction) -> float:

@@ -6,9 +6,12 @@ slot; the native name is always kept beside it.
 """
 from __future__ import annotations
 
+import json
 import re
 import unicodedata
-from dataclasses import dataclass, field
+from pathlib import Path
+from dataclasses import dataclass, field, fields
+from typing import Any
 
 LADDER = ["easy", "normal", "hard", "expert", "master", "extra", "special"]
 
@@ -22,7 +25,38 @@ class Game:
     difficulties: dict[str, str]   # native key (as sources spell it, lowercased) -> canonical slot
     native_names: dict[str, str]   # native key -> display name
     genres: dict[str, str] = field(default_factory=dict)  # native genre -> slug
-    status: str = "planned"        # planned | in-progress | working
+    status: str = "planned"        # planned | in-progress | working | candidate (known, nothing to read it yet)
+    origin: str = "built-in"       # built-in | candidate | the definition file a user added it with
+    chart_format: str = ""         # the format its charts come in, e.g. "stepmania", "c2s", "simai"
+    notes: str = ""
+
+    def to_dict(self) -> dict[str, Any]:
+        return {f.name: getattr(self, f.name) for f in fields(self) if f.name != "origin"}
+
+    @classmethod
+    def from_dict(cls, d: dict[str, Any], origin: str = "built-in") -> "Game":
+        """A game from a definition file (data/games/<key>.json; docs/adding-a-game.md). Only `key` and `name` are
+        required; difficulty keys are lower-cased like the built-in games'."""
+        missing = [k for k in ("key", "name") if not d.get(k)]
+        if missing:
+            raise ValueError(f"game definition {origin}: missing {', '.join(missing)}")
+        if not re.fullmatch(r"[a-z0-9][a-z0-9_-]*", d["key"]):
+            raise ValueError(f"game definition {origin}: key {d['key']!r} must be lower-case letters, digits, - or _")
+        diffs = {str(k).lower(): str(v) for k, v in d.get("difficulties", {}).items()}
+        bad = sorted({v for v in diffs.values() if _ladder_base(v) not in LADDER})
+        if bad:
+            raise ValueError(f"game definition {origin}: {', '.join(bad)} not on the ladder ({', '.join(LADDER)}), "
+                             f"optionally with a style prefix such as double-")
+        return cls(key=d["key"], name=d["name"], lanes=int(d.get("lanes", 4)),
+                   variable_width=bool(d.get("variable_width", False)), difficulties=diffs,
+                   native_names={str(k).lower(): str(v) for k, v in d.get("native_names", {}).items()},
+                   genres=dict(d.get("genres", {})), status=d.get("status", "planned"), origin=origin,
+                   chart_format=d.get("chart_format", ""), notes=d.get("notes", ""))
+
+
+def _ladder_base(slot: str) -> str:
+    """"double-expert" -> "expert", "special-2" -> "special"."""
+    return re.sub(r"-\d+$", "", slot).rsplit("-", 1)[-1]
 
 
 GAMES: dict[str, Game] = {}
@@ -245,3 +279,25 @@ def slugify(text: str, fallback: str = "untitled") -> str:
 def genre_slug(game_key: str, genre: str) -> str:
     g = game(game_key)
     return g.genres.get(genre) or slugify(genre, fallback="other")
+
+
+# ------------------------------------------------------------------------------------------------ other games
+
+CANDIDATES_FILE = Path(__file__).parent / "candidates.json"
+
+
+def candidates() -> dict[str, dict[str, Any]]:
+    """Other VSRGs, known but not added: what they are, their difficulty names, the format of their charts and
+    whether a reader for it exists (`readable`). `vsrgconv games --all` lists them and `vsrgconv add-game <key>`
+    starts a definition from one. Keys already in the registry are left out."""
+    data = json.loads(CANDIDATES_FILE.read_text("utf-8"))
+    return {d["key"]: {**d, "status": "candidate"} for d in data["games"] if d["key"] not in GAMES}
+
+
+def register_game(game: Game, replace: bool = False) -> Game:
+    """Add a game to the registry (definition files, plugins). A built-in game cannot be replaced."""
+    old = GAMES.get(game.key)
+    if old is not None and old.origin == "built-in" and not replace:
+        raise ValueError(f"{game.key!r} is a built-in game; pick another key")
+    GAMES[game.key] = game
+    return game
