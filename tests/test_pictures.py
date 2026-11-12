@@ -221,3 +221,64 @@ def test_a_web_page_served_in_place_of_a_picture_is_not_kept(tmp_path):
     s = pic.fetch_pictures(db, f, "chunithm", out, slot="master")
     assert s["failed"] == 1 and "not a picture" in s["failed_charts"]["t1/master"][0]
     assert not p.exists() and not list(out.rglob("master.*"))      # retried on the next run
+
+
+def test_a_bad_sdvxin_layer_fails_that_chart_only(tmp_path):
+    from vsrgconv.sources.chunithm import layer_urls
+
+    db, f = setup_sdvxin(tmp_path)
+    bg = f.cache_path(layer_urls({"id": "01001", "key": "exp"})["bg"][0])
+    bg.write_bytes(webp((40, 40, 60))[:30])          # cut off mid-download
+    s = pic.fetch_sdvxin(db, f, tmp_path / "pictures", workers=2)
+    # the lanes layer is optional, so the chart is kept without it; the cut-off file is dropped to be fetched again
+    assert (s["downloaded"], s["failed"]) == (3, 0) and not bg.exists()
+    e = pic.load_manifest(tmp_path / "pictures", "chunithm", "sdvxin")["s1/expert"]
+    assert e["missing_layers"] == ["bg"] and sorted(e["layers"]) == ["bar", "obj"]
+    obj = f.cache_path(layer_urls({"id": "100", "key": "end"})["obj"][0])
+    obj.write_bytes(b"<!doctype html>")
+    s = pic.fetch_sdvxin(db, f, tmp_path / "pictures2", workers=2)
+    assert (s["downloaded"], s["failed"]) == (2, 1) and "not a picture" in s["failed_charts"]["w1/special"][0]
+
+
+def test_a_cached_download_appears_whole(tmp_path, monkeypatch):
+    """Charts of one song share layers, so a thread may read a cache file while another is writing it."""
+    import threading
+    import time
+
+    data = bytes(range(256)) * 400
+
+    class Response:
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *a):
+            return False
+
+        def read(self):
+            return data
+
+    f = Fetcher(cache_dir=tmp_path / "cache", min_interval=0)
+    f._opener = type("Opener", (), {"open": lambda self, req, timeout: Response()})()
+    real_write = Path.write_bytes
+
+    def slow_write(self, b):                         # a large file takes a while to write
+        with self.open("wb") as fh:
+            fh.write(b[:100])
+            fh.flush()
+            time.sleep(0.3)
+            fh.write(b[100:])
+        return len(b)
+
+    monkeypatch.setattr(Path, "write_bytes", slow_write)
+    url = "https://example.invalid/layer.webp"
+    seen = []
+    writer = threading.Thread(target=f.get, args=(url,))
+    writer.start()
+    while writer.is_alive():
+        p = f.cache_path(url)
+        if p.exists():
+            seen.append(len(p.read_bytes()))
+        time.sleep(0.01)
+    monkeypatch.setattr(Path, "write_bytes", real_write)
+    assert set(seen) <= {len(data)} and f.cache_path(url).read_bytes() == data
+    assert [q.name for q in f.cache_path(url).parent.iterdir()] == ["layer.webp"]

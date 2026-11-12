@@ -53,11 +53,13 @@ def _sha256(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
-def _size(path: Path) -> list[int] | None:
+def _size(path: Path | bytes) -> list[int] | None:
+    from io import BytesIO
+
     from PIL import Image
 
     try:
-        with Image.open(path) as im:
+        with Image.open(BytesIO(path) if isinstance(path, bytes) else path) as im:
             return [im.width, im.height]
     except Exception:       # a file that is not a picture is reported, not fatal
         return None
@@ -128,8 +130,15 @@ def fetch_pictures(db: ChartDB, fetcher: Fetcher, game: str, out: str | Path = "
         return key, {"errors": errors}, "failed"
 
     failed: dict[str, list[str]] = {}
+
+    def safe(job: Any) -> tuple[str, Any, str]:
+        try:
+            return one(job)
+        except Exception as e:      # one chart must not stop a run of hours
+            return job[0], {"errors": [f"{type(e).__name__}: {e}"]}, "failed"
+
     with ThreadPoolExecutor(max(1, workers)) as pool:
-        for i, (key, entry, status) in enumerate(pool.map(one, jobs), 1):
+        for i, (key, entry, status) in enumerate(pool.map(safe, jobs), 1):
             summary[status] += 1
             if status == "failed":
                 failed[key] = entry["errors"] if entry else []
@@ -363,6 +372,10 @@ def fetch_sdvxin(db: ChartDB, fetcher: Fetcher, out: str | Path = "data/pictures
                 except FetchError as e:
                     errors.append(str(e))
                     continue
+                if _size(data[name]) is None:       # not a picture (a web page, a cut-off download): fetch it again
+                    fetcher.cache_path(url).unlink(missing_ok=True)
+                    errors.append(f"{url}: not a picture ({data.pop(name)[:40]!r})")
+                    continue
                 dst = folder / f"{s}.{name}{_ext(url)}"
                 if dst.exists():
                     dst.unlink()
@@ -396,8 +409,15 @@ def fetch_sdvxin(db: ChartDB, fetcher: Fetcher, out: str | Path = "data/pictures
     failed: dict[str, list[str]] = {}
     p = _manifest_path(out, game, "sdvxin")
     p.parent.mkdir(parents=True, exist_ok=True)
+
+    def safe(job: Any) -> tuple[str, Any, str]:
+        try:
+            return one(job)
+        except Exception as e:      # one chart must not stop a run of hours
+            return job[0], {"errors": [f"{type(e).__name__}: {e}"]}, "failed"
+
     with ThreadPoolExecutor(max(1, workers)) as pool:
-        for i, (key, entry, status) in enumerate(pool.map(one, jobs), 1):
+        for i, (key, entry, status) in enumerate(pool.map(safe, jobs), 1):
             summary[status] += 1
             if status == "failed":
                 failed[key] = entry.get("errors", [])

@@ -6,6 +6,7 @@ cannot reach sdvx.in, so this is how its data gets in (docs/sources/chunithm-sdv
 """
 from __future__ import annotations
 
+import os
 import threading
 import time
 import urllib.error
@@ -68,5 +69,9 @@ class Fetcher:
         except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
             raise FetchError(f"{url}: {getattr(e, 'reason', e)}") from None
         p.parent.mkdir(parents=True, exist_ok=True)
-        p.write_bytes(data)
+        # whole or not at all: another thread (or process) may read this file the moment it exists, as when several
+        # charts share one picture layer
+        tmp = p.with_name(f"{p.name}.part-{os.getpid()}-{threading.get_ident()}")
+        tmp.write_bytes(data)
+        os.replace(tmp, p)
         return data
