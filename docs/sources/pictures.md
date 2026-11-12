@@ -49,6 +49,31 @@ For every chart with both a source picture and stored notes:
   notes redrawn at the source's scale (B): the same column height and the source's measured beat spacing.
 - `--report <file>`: every chart's result; the console shows the summary and the 15 lowest charts.
 
+## Results (2026-11-12)
+
+`vsrgconv pictures`, from the cloud:
+
+| Game | Charts with a picture URL | Downloaded | Not downloaded | Size |
+|---|---|---|---|---|
+| Chunithm (punipu2, MASTER and ULTIMA) | 1,901 | 1,899 | 2 missing upstream (404) | 2.1 GB |
+| SDVX (RRRGR column pictures) | 8,664 | 7,948 | 667 only on sdvxindex.com (blocked), 49 missing upstream | 1.2 GB |
+
+Every downloaded file opens as a picture. 32 Chunithm charts share their picture with another chart (the groups in
+chunithm-pictures.md).
+
+`vsrgconv ab chunithm --images` on the 1,819 Chunithm charts that have both a picture and notes:
+
+- 1,783 compared; 36 pictures the reader cannot lay out (no measure lines found: mostly the older drawing style with
+  light-blue lane walls).
+- Agreement: 71% of 1.81 million notes; median chart 79%. 19 charts at 95% or more, 827 at 80–95%, 664 at 50–80%, 273
+  under 50%.
+- By kind: tap 80%, ExTAP 65%, flick 58%, hold 57%, slide 44%. These match the reader's measured accuracy
+  (chunithm-pictures.md), so today the score mostly measures the reader. The charts under 50% that were looked at
+  (for example Aleph-0 MASTER, 0.1%) are gimmick charts with many BPM changes or the older drawing style, where the
+  reader's timeline fails, not wrong stored charts.
+- The comparison pictures (`data/ab`, 2.0 GB) and the report (`data/ab/chunithm/report.json`) are on the Hugging
+  Face dataset under `ab/`.
+
 ## What is not done yet
 
 - sdvx.in itself (Chunithm EXPERT and WORLD'S END, full-size MASTER and ULTIMA, Project SEKAI, SDVX), sdvxindex.com

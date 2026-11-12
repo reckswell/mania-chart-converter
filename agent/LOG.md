@@ -36,3 +36,12 @@
   (db 64,569, renders 36,839), checked file by file (sizes; hashes on a 3,000-file sample). Network: one secret on
   `huggingface.co`, `*.hf.co` allowed with no secret. `publish` makes its own 1,000-file commits (upload_folder
   re-sent commits whose answer the proxy dropped), about 1,500 files a minute; `--no-xet` is the slow LFS fallback.
+
+## 2026-11-12: source pictures ("true source") and A/B
+
+- `vsrgconv pictures` keeps each chart's published picture in data/pictures (not committed; on the HF dataset):
+  Chunithm 1,899 (punipu2 merged sdvx.in MASTER/ULTIMA), SDVX 7,948 (RRRGR). `vsrgconv ab` compares them with the
+  stored notes: Chunithm 1,783 charts, median 79% of notes read back from the picture; limited by the picture reader
+  (docs/sources/pictures.md).
+- Waiting for Alpha: `sdvx.in`, `sdvxindex.com`, `textage.cc` under Allowed domains, or a PC run, for Chunithm
+  EXPERT/WORLD'S END and full-size pictures, Sekai, the 667 sdvxindex-only SDVX charts and IIDX.
