@@ -105,6 +105,11 @@ def fetch_pictures(db: ChartDB, fetcher: Fetcher, game: str, out: str | Path = "
             return key, old, "already"
         errors = []
         for source_key, url in urls:
+            if sdvxindex_layer_urls(url):       # sdvxindex.com's column pictures are now layers on its asset host
+                entry = fetch_sdvxindex_layers(fetcher, url, stem, out / game, refresh, errors)
+                if entry:
+                    return key, {"url": url, "key": source_key, **entry}, "downloaded"
+                continue
             try:
                 data = fetcher.get(url, refresh=refresh)
             except FetchError as e:
@@ -154,6 +159,111 @@ def fetch_pictures(db: ChartDB, fetcher: Fetcher, game: str, out: str | Path = "
     summary["shared"] = sum(1 for e in manifest.values() if e.get("shared_with"))
     summary["failed_charts"] = failed
     return summary
+
+
+# ---------------------------------------------------------------------------------------- sdvxindex.com (SDVX)
+#
+# sdvxindex.com became a single-page app in 2026. Its old column pictures (`/img/<dir>/<stem>_column_rendered.png`,
+# the URLs in `source.sdvxindex_picture`) now answer with the app's index.html. The app draws a chart from same-size
+# PNG layers on sdvxindexasset.com, `/img/<dir>/<stem>_xl_columns/<layer>.png` (its bundle, module `rB`). The
+# layers it shows by default, bottom to top, stacked on the old pictures' grey, give the old column picture again:
+# on 0061 EXHAUST, 96% of pixels are identical to RRRGR's copy of the old picture and the rest are laser shading.
+# Hold and laser ticks, a PUC pace overlay and MEGAMIX markers are further layers the site hides by default; they
+# are not fetched.
+
+SDVXINDEX_ASSET = "https://sdvxindexasset.com"
+SDVXINDEX_LAYERS = ("lane", "holds_normal", "laser_left_normal", "laser_left_icon_normal", "laser_right_normal",
+                    "laser_right_icon_normal", "text_normal", "buttons_normal")
+SDVXINDEX_NOTES = "buttons_normal"          # without the chips there is no chart picture
+SDVXINDEX_BACKGROUND = (25, 25, 25)         # the old column pictures' background
+_SDVXINDEX_COLUMN = re.compile(r"^https?://(?:www\.)?sdvxindex\.com/+img/(.+)/([^/]+)_column_rendered\.\w+$")
+
+
+def sdvxindex_layer_urls(url: str) -> dict[str, str] | None:
+    """An old sdvxindex.com column picture URL -> its layers on sdvxindexasset.com, bottom to top; None for any
+    other URL."""
+    m = _SDVXINDEX_COLUMN.match(url)
+    if not m:
+        return None
+    folder = f"{SDVXINDEX_ASSET}/img/{m[1]}/{m[2]}_xl_columns"
+    return {name: f"{folder}/{name}.png" for name in SDVXINDEX_LAYERS}
+
+
+def stack_layers(layers: Iterable[bytes]):
+    """Layers stacked bottom to top as one RGBA picture; smaller layers sit at the top left, as in the viewers."""
+    from io import BytesIO
+
+    from PIL import Image
+
+    ims = []
+    for data in layers:
+        with Image.open(BytesIO(data)) as im:
+            ims.append(im.convert("RGBA"))
+    w, h = max(i.width for i in ims), max(i.height for i in ims)
+    out = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    for im in ims:
+        layer = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+        layer.paste(im, (0, 0))
+        out = Image.alpha_composite(out, layer)
+    return out
+
+
+def _keep_layer(fetcher: Fetcher, url: str, dst: Path, refresh: bool) -> bytes:
+    """Download one layer and keep it at `dst` exactly as published (hard-linked from the download cache). A page
+    served in place of the picture is dropped from the cache, so the next run fetches it again."""
+    data = fetcher.get(url, refresh=refresh)
+    if _size(data) is None:
+        fetcher.cache_path(url).unlink(missing_ok=True)
+        raise FetchError(f"{url}: not a picture ({data[:40]!r})")
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    if dst.exists():
+        dst.unlink()
+    try:
+        os.link(fetcher.cache_path(url), dst)
+    except OSError:
+        dst.write_bytes(data)
+    return data
+
+
+def fetch_sdvxindex_layers(fetcher: Fetcher, url: str, stem: Path, game_dir: Path, refresh: bool = False,
+                           errors: list[str] | None = None) -> dict[str, Any] | None:
+    """The layers behind an old sdvxindex.com column picture, kept as published in `<song>/sdvxindex/<slot>.<layer>
+    .png`, and their stack on the old grey as `<song>/<slot>.png` (lossless). Returns the manifest entry (paths
+    relative to `game_dir`), or None when the notes layer cannot be had (reasons appended to `errors`)."""
+    from io import BytesIO
+
+    from PIL import Image
+
+    errors = [] if errors is None else errors
+    entry: dict[str, Any] = {"layers": {}}
+    data: dict[str, bytes] = {}
+    for name, layer_url in (sdvxindex_layer_urls(url) or {}).items():
+        dst = stem.parent / "sdvxindex" / f"{stem.name}.{name}.png"
+        try:
+            data[name] = _keep_layer(fetcher, layer_url, dst, refresh)
+        except FetchError as e:
+            if name == SDVXINDEX_NOTES:
+                errors.append(str(e))
+                return None
+            entry.setdefault("missing_layers", []).append(name)
+            continue
+        entry["layers"][name] = {"url": layer_url, "file": dst.relative_to(game_dir).as_posix(),
+                                 "bytes": len(data[name]), "sha256": _sha256(data[name])}
+    sizes = {Image.open(BytesIO(b)).size for b in data.values()}
+    if len(sizes) > 1:
+        entry["layer_sizes_differ"] = sorted(list(x) for x in sizes)
+    stacked = stack_layers(data.values())
+    flat = Image.new("RGB", stacked.size, SDVXINDEX_BACKGROUND)
+    flat.paste(stacked, mask=stacked.getchannel("A"))
+    buf = BytesIO()
+    flat.save(buf, "PNG", optimize=True)
+    dst = stem.with_suffix(".png")
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    dst.write_bytes(buf.getvalue())
+    entry.update({"file": dst.relative_to(game_dir).as_posix(), "bytes": len(buf.getvalue()),
+                  "sha256": _sha256(buf.getvalue()), "size": list(flat.size),
+                  "made": "sdvxindex.com's default layers stacked on #191919, PNG"})
+    return entry
 
 
 # ----------------------------------------------------------------------------------- sdvx.in (Chunithm, Sekai)
@@ -315,22 +425,7 @@ def sdvxin_chunithm_refs(db: ChartDB, fetcher: Fetcher) -> tuple[dict[str, dict[
 def sdvxin_merge(layers: dict[str, bytes]):
     """The viewer's stack of the layers (bg, obj, bar) as one RGBA picture; layers of other sizes sit at the top
     left, as in the viewer."""
-    from io import BytesIO
-
-    from PIL import Image
-
-    ims = []
-    for name in SDVXIN_LAYERS:
-        if name in layers:
-            with Image.open(BytesIO(layers[name])) as im:
-                ims.append(im.convert("RGBA"))
-    w, h = max(i.width for i in ims), max(i.height for i in ims)
-    out = Image.new("RGBA", (w, h), (0, 0, 0, 0))
-    for im in ims:
-        layer = Image.new("RGBA", (w, h), (0, 0, 0, 0))
-        layer.paste(im, (0, 0))
-        out = Image.alpha_composite(out, layer)
-    return out
+    return stack_layers(layers[name] for name in SDVXIN_LAYERS if name in layers)
 
 
 def fetch_sdvxin(db: ChartDB, fetcher: Fetcher, out: str | Path = "data/pictures", only: set[str] | None = None,

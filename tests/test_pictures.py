@@ -282,3 +282,75 @@ def test_a_cached_download_appears_whole(tmp_path, monkeypatch):
     monkeypatch.setattr(Path, "write_bytes", real_write)
     assert set(seen) <= {len(data)} and f.cache_path(url).read_bytes() == data
     assert [q.name for q in f.cache_path(url).parent.iterdir()] == ["layer.webp"]
+
+
+# ------------------------------------------------------------------------------------- sdvxindex.com (SDVX) layers
+
+SDVXINDEX_OLD = "https://sdvxindex.com/img/0061_retrospec_harunaba/0061_retrospec_harunaba_4i_column_rendered.png"
+
+
+def layer_png(colour, box, size=(400, 300)) -> bytes:
+    im = Image.new("RGBA", size, (0, 0, 0, 0))
+    im.paste(colour + (255,), box)
+    buf = BytesIO()
+    im.save(buf, "PNG")
+    return buf.getvalue()
+
+
+def test_sdvxindex_column_pictures_map_to_their_layers_on_the_asset_host():
+    urls = pic.sdvxindex_layer_urls(SDVXINDEX_OLD)
+    folder = "https://sdvxindexasset.com/img/0061_retrospec_harunaba/0061_retrospec_harunaba_4i_xl_columns/"
+    assert list(urls) == list(pic.SDVXINDEX_LAYERS) and urls["lane"] == folder + "lane.png"
+    assert urls["buttons_normal"] == folder + "buttons_normal.png"
+    assert pic.sdvxindex_layer_urls("https://sdvxindex.com//img/x/x_1n_column_rendered.png")["lane"] == \
+        "https://sdvxindexasset.com/img/x/x_1n_xl_columns/lane.png"
+    assert pic.sdvxindex_layer_urls(URL.format("t1mst")) is None
+    assert pic.sdvxindex_layer_urls("https://sdvxindex.com/img/x/jk_0061_1_b.webp") is None
+
+
+def setup_sdvxindex(tmp_path, skip=()):
+    db = ChartDB(tmp_path / "db")
+    db.upsert_song(SongRecord(game="sdvx", song_id="0061", title="Song", genre="FLOOR", charts={
+        "master": ChartRecord("master", "INFINITE", "17", source={"sdvxindex_picture": SDVXINDEX_OLD})}))
+    f = Fetcher(cache_dir=tmp_path / "cache", offline=True)
+    boxes = {"lane": ((40, 40, 60), (50, 0, 150, 300)), "buttons_normal": ((250, 250, 250), (60, 100, 80, 104)),
+             "holds_normal": ((250, 120, 0), (100, 50, 120, 90)), "text_normal": ((255, 255, 255), (0, 0, 5, 5))}
+    for name, url in pic.sdvxindex_layer_urls(SDVXINDEX_OLD).items():
+        if name in skip:
+            continue
+        p = f.cache_path(url)
+        p.parent.mkdir(parents=True, exist_ok=True)
+        colour, box = boxes.get(name, ((0, 120, 250), (0, 0, 1, 1)))
+        p.write_bytes(layer_png(colour, box))
+    return db, f
+
+
+def test_sdvxindex_pictures_are_fetched_as_published_layers_and_stacked(tmp_path):
+    db, f = setup_sdvxindex(tmp_path)
+    out = tmp_path / "pictures"
+    s = pic.fetch_pictures(db, f, "sdvx", out)
+    assert (s["downloaded"], s["failed"]) == (1, 0)
+    rel = db.song_dir(db.get_song("sdvx", "0061")).relative_to(db.root)
+    layers = pic.sdvxindex_layer_urls(SDVXINDEX_OLD)
+    kept = out / rel / "sdvxindex" / "master.buttons_normal.png"
+    assert kept.read_bytes() == f.cache_path(layers["buttons_normal"]).read_bytes()      # the published bytes
+    e = pic.load_manifest(out, "sdvx")["0061/master"]
+    assert e["url"] == SDVXINDEX_OLD and e["key"] == "sdvxindex_picture" and e["size"] == [400, 300]
+    assert list(e["layers"]) == list(pic.SDVXINDEX_LAYERS) and "missing_layers" not in e
+    assert e["layers"]["lane"]["url"] == layers["lane"]
+    assert e["file"] == f"{rel.relative_to('sdvx').as_posix()}/master.png"
+    with Image.open(out / "sdvx" / e["file"]) as im:       # chips over holds over lanes, on the old grey
+        px = im.convert("RGB")
+        assert px.getpixel((300, 200)) == pic.SDVXINDEX_BACKGROUND and px.getpixel((55, 200)) == (40, 40, 60)
+        assert px.getpixel((70, 102)) == (250, 250, 250) and px.getpixel((110, 60)) == (250, 120, 0)
+    assert pic.fetch_pictures(db, f, "sdvx", out)["already"] == 1
+
+
+def test_an_sdvxindex_chart_without_its_notes_layer_fails(tmp_path):
+    db, f = setup_sdvxindex(tmp_path, skip=("buttons_normal",))
+    s = pic.fetch_pictures(db, f, "sdvx", tmp_path / "pictures")
+    assert s["failed"] == 1 and "buttons_normal.png" in s["failed_charts"]["0061/master"][0]
+    db, f = setup_sdvxindex(tmp_path / "b", skip=("text_normal",))
+    s = pic.fetch_pictures(db, f, "sdvx", tmp_path / "b" / "pictures")
+    assert s["downloaded"] == 1
+    assert pic.load_manifest(tmp_path / "b" / "pictures", "sdvx")["0061/master"]["missing_layers"] == ["text_normal"]
