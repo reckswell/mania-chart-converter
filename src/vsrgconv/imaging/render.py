@@ -107,6 +107,7 @@ class RenderConfig:
     row_gap_px: int = 24
     max_pause_ms: float = 2000.0   # stops and delays longer than this are drawn this long (Pump It Up ends charts
     #                                with 999-second stops; a picture of them would be hundreds of empty columns)
+    px_per_ms_override: float | None = None   # time axis scale instead of the approach rate's (A/B pictures)
 
     @classmethod
     def compact(cls) -> RenderConfig:
@@ -116,7 +117,7 @@ class RenderConfig:
 
     @property
     def px_per_ms(self) -> float:
-        return self.screen_px / preempt_ms(self.approach_rate)
+        return self.px_per_ms_override or self.screen_px / preempt_ms(self.approach_rate)
 
     def column_height(self, time_axis: bool) -> int:
         if self.column_px:
@@ -498,7 +499,7 @@ def render_chart(chart: Chart, cfg: RenderConfig | None = None, title: str | Non
     native = m.difficulty_native or m.difficulty
     level = f" {m.level}" if m.level and not str(native).endswith(str(m.level)) else ""
     label = title if title is not None else f"{m.game.upper()} {m.song_id} {m.title_romaji or m.title} [{native}{level}]"
-    if axis.time and cfg.axis == "time":
+    if axis.time and cfg.axis == "time" and not cfg.px_per_ms_override:
         label += f"  (AR {cfg.approach_rate:g})"
     elif axis.time:
         label += " (time axis)"

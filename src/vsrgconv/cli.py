@@ -537,6 +537,67 @@ def cmd_publish(a: argparse.Namespace) -> int:
     return 0
 
 
+def _games_arg(db: ChartDB, game: str) -> list[str]:
+    return sorted(p.name for p in db.root.iterdir() if (p / "index.json").exists()) if game == "all" else [game]
+
+
+def cmd_pictures(a: argparse.Namespace) -> int:
+    """Download each chart's source picture (the "true source") next to the database: data/pictures."""
+    from .pictures import fetch_pictures
+
+    db = ChartDB(a.db)
+    only = set(a.only.split(",")) if a.only else None
+    log = (lambda m: print(m, file=sys.stderr, flush=True)) if a.progress else None
+    out = {g: fetch_pictures(db, _fetcher(a), g, a.out, only=only, slot=a.slot, workers=a.workers,
+                             refresh=a.refresh, log=log) for g in _games_arg(db, a.game)}
+    shown = {g: {k: (v if k != "failed_charts" else dict(list(v.items())[:10])) for k, v in r.items()}
+             for g, r in out.items() if r["charts"]}
+    print(json.dumps(shown, ensure_ascii=False, indent=1))
+    return 1 if any(r["failed"] for r in out.values()) else 0
+
+
+def _ab_worker(args: tuple[dict, str | None]) -> dict:
+    from .pictures import ab_one
+
+    return ab_one(*args)
+
+
+def cmd_ab(a: argparse.Namespace) -> int:
+    """A/B: each chart's source picture against its stored notes (metrics, and comparison pictures with --images)."""
+    from .pictures import READERS, ab_jobs, ab_summary
+
+    db = ChartDB(a.db)
+    only = set(a.only.split(",")) if a.only else None
+    report: dict[str, Any] = {}
+    for g in _games_arg(db, a.game):
+        jobs, counts = ab_jobs(db, g, a.pictures, only=only, slot=a.slot)
+        if not counts["pictures"]:
+            continue
+        if g not in READERS and not a.images:
+            report[g] = {**counts, "note": "no picture reader for this game: use --images to compare by eye"}
+            continue
+        args = [(j, a.out if a.images else None) for j in jobs]
+        if a.workers > 1 and len(args) > 1:
+            from multiprocessing import Pool
+
+            with Pool(a.workers) as pool:
+                results = list(_progress(pool.imap_unordered(_ab_worker, args, chunksize=4), len(args), a.progress))
+        else:
+            results = list(_progress(map(_ab_worker, args), len(args), a.progress))
+        results.sort(key=lambda r: r["key"])
+        errors = [r for r in results if "error" in r]
+        report[g] = {**counts, **ab_summary(results), "errors": len(errors),
+                     "lowest": [{k: r[k] for k in ("key", "agreement", "notes", "matched", "shared_with") if k in r}
+                                for r in sorted((r for r in results if r.get("agreement") is not None),
+                                                key=lambda r: r["agreement"])[:15]],
+                     "results": results}
+    if a.report:
+        Path(a.report).write_text(json.dumps(report, ensure_ascii=False, indent=1, default=str), "utf-8")
+    print(json.dumps({g: {k: v for k, v in r.items() if k != "results"} for g, r in report.items()},
+                     ensure_ascii=False, indent=1, default=str))
+    return 0
+
+
 def cmd_index(a: argparse.Namespace) -> int:
     print(ChartDB(a.db).build_sqlite(a.sqlite))
     return 0
@@ -633,6 +694,28 @@ def main(argv: list[str] | None = None) -> int:
                                     "external picture URLs) to this JSON file")
     s.set_defaults(fn=cmd_render)
 
+    s = sub.add_parser("pictures", help="download each chart's source picture, the \"true source\" (data/pictures)")
+    s.add_argument("game", nargs="?", default="all")
+    s.add_argument("--only", help="comma-separated song ids")
+    s.add_argument("--slot", help="only this difficulty slot")
+    s.add_argument("--out", default="data/pictures", help="picture folder; mirrors the database layout")
+    s.add_argument("--workers", type=int, default=8)
+    s.add_argument("--refresh", action="store_true", help="download pictures again")
+    s.add_argument("--progress", action="store_true")
+    s.set_defaults(fn=cmd_pictures)
+
+    s = sub.add_parser("ab", help="A/B: source pictures against the stored notes (docs/sources/pictures.md)")
+    s.add_argument("game", nargs="?", default="all")
+    s.add_argument("--only", help="comma-separated song ids")
+    s.add_argument("--slot", help="only this difficulty slot")
+    s.add_argument("--pictures", default="data/pictures", help="where `vsrgconv pictures` put the source pictures")
+    s.add_argument("--images", action="store_true", help="also write comparison pictures (source above redrawn)")
+    s.add_argument("--out", default="data/ab", help="comparison pictures; mirrors the database layout")
+    s.add_argument("--workers", type=int, default=1)
+    s.add_argument("--progress", action="store_true")
+    s.add_argument("--report", help="write every chart's result to this JSON file")
+    s.set_defaults(fn=cmd_ab)
+
     s = sub.add_parser("games", help="list the games: added ones, and with --all other VSRGs not added yet")
     s.add_argument("key", nargs="?", help="show one game in full")
     s.add_argument("--all", action="store_true", help="also list known VSRGs that are not added yet")
@@ -655,8 +738,8 @@ def main(argv: list[str] | None = None) -> int:
 
     s = sub.add_parser("publish", help="mirror the database and pictures to a private Hugging Face dataset")
     s.add_argument("repo", help="<user>/<dataset>; created private if missing (token: $HF_TOKEN)")
-    s.add_argument("--data", default="data", help="folder holding db/, renders/ and games/")
-    s.add_argument("--parts", help="comma-separated: db, renders, games (default: all three)")
+    s.add_argument("--data", default="data", help="folder holding db/, renders/, pictures/, games/ and ab/")
+    s.add_argument("--parts", help="comma-separated: db, renders, pictures, games, ab (default: all but ab)")
     s.add_argument("--delete", action="store_true", help="also remove dataset files that are gone locally")
     s.add_argument("--dry-run", action="store_true", help="only count what would be uploaded")
     s.add_argument("--no-xet", action="store_true", help="upload through Git LFS in batches instead of Xet storage "

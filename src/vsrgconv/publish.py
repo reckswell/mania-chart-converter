@@ -1,7 +1,8 @@
 """Mirror the database to a private Hugging Face dataset, so it is not only on one machine (docs/hosting.md).
 
-`vsrgconv publish <user>/<dataset>` uploads `data/db`, `data/renders` and `data/games` to the dataset, keeping the
-same paths (`db/chunithm/...`, `renders/chunithm/...`). The dataset is created private if it does not exist. The
+`vsrgconv publish <user>/<dataset>` uploads `data/db`, `data/renders`, `data/pictures` and `data/games` to the
+dataset, keeping the same paths (`db/chunithm/...`, `renders/chunithm/...`); `--parts ab` adds the A/B comparison
+pictures. The dataset is created private if it does not exist. The
 token comes from $HF_TOKEN (or `hf auth login`). Uploads are incremental and resumable: files already on the Hub are
 skipped, and an interrupted upload continues where it stopped when run again. `--delete` also removes files from the
 dataset that are gone locally.
@@ -26,7 +27,8 @@ import time
 from collections.abc import Callable
 from typing import Any
 
-PARTS = ["db", "renders", "games"]
+PARTS = ["db", "renders", "pictures", "games", "ab"]
+DEFAULT_PARTS = ["db", "renders", "pictures", "games"]       # `ab` (comparison pictures) only when asked
 
 
 def plan(data_root: str | Path, parts: list[str]) -> dict[str, dict[str, int]]:
@@ -42,7 +44,7 @@ def plan(data_root: str | Path, parts: list[str]) -> dict[str, dict[str, int]]:
 def publish_hf(repo_id: str, data_root: str | Path = "data", parts: list[str] | None = None, delete: bool = False,
                dry_run: bool = False, api: Any = None, xet: bool = True, batch_files: int = 1000,
                log: Callable[[str], None] | None = None) -> dict[str, Any]:
-    parts = parts or PARTS
+    parts = parts or DEFAULT_PARTS
     unknown = [p for p in parts if p not in PARTS]
     if unknown:
         raise ValueError(f"unknown parts {unknown}; choose from {PARTS}")
