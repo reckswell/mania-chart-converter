@@ -14,13 +14,14 @@
   - commit `data/db` (catalog, extracted `*.chart.json.gz`, jackets shrunk to ≤320 px JPEG);
   - commit `data/games` (definitions of games added with `vsrgconv add-game`, docs/adding-a-game.md);
   - never commit `data/cache` (downloaded pictures, audio), `data/renders` (redrawn by `vsrgconv render`) or `out/`.
-- Network (cloud environment "Default", Allowed domains since 2026-11-12):
-  - reachable: GitHub raw files (osu-wiki, otoge-db, MarisaBot), sdvx.in, sdvxindex.com, textage.cc, bestdori.com,
-    gddata-mdb.selundine.top, remywiki.com, zenius-i-vanisher.com, enchor.us, osu.ppy.sh, YouTube, Hugging Face
-    (`*.hf.co`; the token is a network secret on huggingface.co only, so run with `HF_TOKEN=placeholder`,
-    docs/hosting.md);
-  - bilibili and niconico are allowed but need `*.bilibili.com` and `*.nicovideo.jp` to work. Alpha's rule: search
-    bilibili in Chinese and niconico in Japanese;
+- Network (cloud environment "vsrgs", Allowed domains, checked 2026-11-12; the older "Default" environment lacks the
+  Hugging Face secret and the newer domains):
+  - reachable: GitHub raw files (osu-wiki, otoge-db, MarisaBot), sdvx.in, sdvxindex.com, sdvxindexasset.com,
+    textage.cc, bestdori.com, gddata-mdb.selundine.top, remywiki.com, zenius-i-vanisher.com, enchor.us, osu.ppy.sh,
+    YouTube, Hugging Face (`*.hf.co`; the token is a network secret on huggingface.co only, so run with
+    `HF_TOKEN=placeholder`, docs/hosting.md);
+  - bilibili (`*.bilibili.com`) and niconico (`*.nicovideo.jp`). Alpha's rule: search bilibili in Chinese and
+    niconico in Japanese;
   - Chunithm notes come from exact .c2s files (docs/sources/chunithm-c2s.md); sdvx.in's pictures are the "true
     source" kept beside them (docs/sources/pictures.md);
   - playtests and anything signed in run on Alpha's PC. Record what is waiting for the PC in `agent/LOG.md`.
