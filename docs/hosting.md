@@ -82,10 +82,11 @@ The cloud environment reaches Hugging Face through a network secret that adds th
   short-lived token of their own; if any secret covers `*.hf.co`, the proxy replaces that token and every upload
   fails with 401. Add `*.hf.co` under Allowed domains instead;
 - the token comes from the proxy, but `huggingface_hub` wants one locally: run with `HF_TOKEN=placeholder`;
-- until the secret is fixed, `publish --no-xet` uploads through Git LFS, which works with the secret on `*.hf.co`.
-  It is slow: Hugging Face rate-limits LFS to about 1,000 files per 5 minutes per account, about 8 hours for the
-  whole database and pictures. It commits 1,000 files at a time and skips files already on the Hub, so it can be
-  stopped and run again, and a later run without `--no-xet` carries on from where it stopped;
+- `publish` commits 1,000 files at a time and skips files whose content is already on the Hub, so it can be stopped
+  and run again. About 1,500 files a minute: the whole database and pictures take a bit over an hour;
 - the proxy gives up on an answer after 30 seconds, and Hugging Face can take longer to answer a large commit, so the
-  client sees a 502 although the commit landed. `publish` re-runs the upload while the dataset keeps advancing, and
-  the re-run skips what is already there.
+  client sees a 502 although the commit landed. `huggingface_hub`'s `upload_folder` then sends the commit again
+  (every large commit landed two or three times), so `publish` makes its own commits and, when an answer is lost,
+  waits for the dataset's head to move instead;
+- `publish --no-xet` uploads through Git LFS, which works even with a secret on `*.hf.co`. It is slow: Hugging Face
+  rate-limits LFS to about 1,000 files per 5 minutes per account, about 8 hours for everything.

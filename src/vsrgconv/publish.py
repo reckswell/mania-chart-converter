@@ -8,9 +8,14 @@ dataset that are gone locally.
 
 Needs `huggingface_hub` (`pip install -e '.[hosting]'`) and network access to huggingface.co.
 
-`xet=False` (`--no-xet`) uploads through Git LFS instead of Hugging Face's Xet storage, in commits of at most
-`batch_files` files, skipping files whose content is already on the Hub. The cloud sessions need it: their network
-secret adds the Hugging Face token to every *.hf.co request, which replaces Xet's own token (401).
+Files go up in commits of at most `batch_files` files (`--batch-files`, default 1,000), and files whose content is
+already on the Hub are skipped. upload_folder is not used: it re-sends a commit whose answer was lost, and through
+the cloud machine's proxy, which gives up on an answer after 30 seconds, every large commit's answer is lost, so each
+one landed two or three times. Here a lost answer is checked against the dataset's head instead.
+
+`xet=False` (`--no-xet`) uploads through Git LFS instead of Hugging Face's Xet storage. It works when *.hf.co is
+unreachable, or when a network secret adds the Hugging Face token to *.hf.co requests (which replaces Xet's own token:
+401), but Hugging Face rate-limits it to about 1,000 files per 5 minutes.
 """
 from __future__ import annotations
 
@@ -54,14 +59,7 @@ def publish_hf(repo_id: str, data_root: str | Path = "data", parts: list[str] | 
             raise SystemExit("publish needs huggingface_hub: pip install -e '.[hosting]'") from None
         api = HfApi()
     api.create_repo(repo_id, repo_type="dataset", private=True, exist_ok=True)
-    if xet:
-        info = _resuming(api, repo_id, lambda: api.upload_folder(
-            repo_id=repo_id, repo_type="dataset", folder_path=str(data_root),
-            allow_patterns=[f"{p}/**" for p in parts], commit_message=f"vsrgconv publish: {', '.join(parts)}"),
-            log=log)
-        summary["commit"] = str(getattr(info, "commit_url", info))
-    else:
-        summary.update(_upload_in_batches(api, repo_id, Path(data_root), parts, batch_files, log))
+    summary.update(_upload_in_batches(api, repo_id, Path(data_root), parts, batch_files, log))
     if delete:          # after the upload, so a failed upload never leaves the dataset emptier than before
         root = Path(data_root)
         gone = [f for f in api.list_repo_files(repo_id, repo_type="dataset")
@@ -106,8 +104,8 @@ def _on_hub(path: Path, entry: Any) -> bool:
 
 def _upload_in_batches(api: Any, repo_id: str, root: Path, parts: list[str], batch_files: int,
                        log: Callable[[str], None]) -> dict[str, Any]:
-    """Upload through Git LFS, a commit per `batch_files` files, skipping files already on the Hub. Running it again
-    after an interruption carries on: committed batches are on the Hub and are skipped."""
+    """Upload a commit per `batch_files` files, skipping files already on the Hub. Running it again after an
+    interruption carries on: committed batches are on the Hub and are skipped."""
     from huggingface_hub import CommitOperationAdd
 
     remote = {e.path: e for e in api.list_repo_tree(repo_id, repo_type="dataset", recursive=True)

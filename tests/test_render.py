@@ -208,9 +208,15 @@ def test_publish_uploads_the_data_folders_and_removes_what_is_gone(tmp_path):
         def create_repo(self, repo_id, **kw):
             self.calls.append(("create", repo_id, kw))
 
-        def upload_folder(self, **kw):
-            self.calls.append(("upload", kw))
-            return type("Info", (), {"commit_url": "https://hf.example/commit/1"})()
+        def repo_info(self, repo_id, **kw):
+            return type("Info", (), {"sha": "a"})()
+
+        def list_repo_tree(self, repo_id, **kw):
+            return []
+
+        def create_commit(self, repo_id, operations, **kw):
+            self.calls.append(("upload", sorted(op.path_in_repo for op in operations)))
+            return type("Info", (), {"oid": "b"})()
 
         def list_repo_files(self, repo_id, **kw):
             return ["db/chunithm/index.json", "renders/a.png", "renders/old.png", "README.md"]
@@ -221,9 +227,9 @@ def test_publish_uploads_the_data_folders_and_removes_what_is_gone(tmp_path):
     dry = publish_hf("me/charts", tmp_path, ["db", "renders"], dry_run=True)
     assert dry["parts"] == {"db": {"files": 1, "bytes": 2}, "renders": {"files": 1, "bytes": 10}}
     api = FakeApi()
-    out = publish_hf("me/charts", tmp_path, ["db", "renders"], delete=True, api=api)
+    out = publish_hf("me/charts", tmp_path, ["db", "renders"], delete=True, api=api, log=lambda m: None)
     assert api.calls[0] == ("create", "me/charts", {"repo_type": "dataset", "private": True, "exist_ok": True})
-    assert api.calls[1][1]["allow_patterns"] == ["db/**", "renders/**"]
+    assert api.calls[1] == ("upload", ["db/chunithm/index.json", "renders/a.png"])
     assert api.calls[2] == ("delete", ["renders/old.png"]) and out["deleted"] == 1
 
 
