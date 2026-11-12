@@ -25,3 +25,13 @@
   database and pictures (`vsrgconv publish`). Waiting for Alpha's choice, an HF token and network access to
   huggingface.co.
 - `vsrgconv games --all` / `add-game`: other VSRGs (docs/adding-a-game.md).
+
+## 2026-11-12: pictures in sdvx.in's layout at AR 9, Hugging Face
+
+- Layout pictures redrawn for all 36,839 charts in sdvx.in's look (black, gold rails, measure numbers by each column),
+  spaced as at osu! approach rate 9 (0.8 px per ms) instead of 24 px per beat; 2.0 GiB, every picture checked to
+  open. Stops and delays over 2 s are drawn 2 s long (Pump It Up's 999-second end stops made hundreds of empty
+  columns). `render --approach-rate N` / `--compact` for other spacing.
+- Hugging Face dataset `Reckswell/vsrgs` (private) is linked: the token works, commits land. Upload waits for Alpha to
+  limit the environment's network secret to `huggingface.co` (it also covers `*.hf.co`, so Xet uploads get 401).
+  `publish` now resumes after the proxy's 30-second 502s.

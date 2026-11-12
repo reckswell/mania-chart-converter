@@ -9,7 +9,7 @@ Checked 2026-11-11. Prices and limits change; the links are the sources.
 | Catalog (`index.json`, `song.json`) | 15,036 | 66 MiB | git (`data/db`) |
 | Charts (`*.chart.json.gz`) | 36,839 | 134 MiB | git (`data/db`) |
 | Jackets (JPEG, ≤320 px) | 12,694 | 322 MiB | git (`data/db/**/assets`) |
-| Layout pictures (`vsrgconv render`) | 36,839, one per chart with notes | 842 MiB | `data/renders`, not committed |
+| Layout pictures (`vsrgconv render`) | 36,839, one per chart with notes | 2.0 GiB | `data/renders`, not committed |
 | Download cache (full-size pictures, simfiles, audio) | | several GB | `data/cache`, not committed |
 
 On GitHub the repository is about 434 MB packed. GitHub asks for repositories to stay under 1 GB, and strongly under
@@ -18,10 +18,11 @@ On GitHub the repository is about 434 MB packed. GitHub asks for repositories to
 The catalog, charts and jackets fit. Every re-scrape that changes files adds to the history, so the repository grows
 over time even when the database does not.
 
-Layout pictures are drawn from the stored charts, so they are always reproducible. They average 11 KB (Pump It Up) to
-45 KB (Arcaea) each, 842 MiB in all. That is too much for git, and does not need to be in git: `vsrgconv render all
---workers 4` redraws all of them in about half an hour on a 4-core machine, and only draws pictures that are
-missing unless given `--refresh`.
+Layout pictures are drawn from the stored charts, so they are always reproducible. They follow sdvx.in's layout,
+spaced as at osu! approach rate 9 (README). They average 20 KB (DDR) to 115 KB (Chunithm) each, 2.0 GiB in all; long
+Guitar Hero songs reach 16,212 x 9,714 px. That is too much for git, and does not need to be in git: `vsrgconv render
+all --workers 4` redraws all of them in about 40 minutes on a 4-core machine, and only draws pictures that are
+missing unless given `--refresh`. (The older compact layout, `--compact`, was 842 MiB.)
 
 ## The repository is public
 
@@ -60,14 +61,26 @@ Uploading needs:
   (`huggingface.co`, or `<account>.r2.cloudflarestorage.com`) to the environment's allowed domains, or upload from the
   PC.
 
-For the Hugging Face option, `vsrgconv publish` does the upload (`pip install -e '.[hosting]'` first):
+For the Hugging Face option, `vsrgconv publish` does the upload (`pip install -e '.[hosting]'` first). Alpha's
+dataset is `Reckswell/vsrgs` (private):
 
 ```bash
-vsrgconv publish --dry-run <user>/vsrg-charts            # what would go up: files and bytes per folder
-vsrgconv publish <user>/vsrg-charts --parts db,games     # the database (about 64,600 files)
-vsrgconv publish <user>/vsrg-chart-pictures --parts renders   # the layout pictures (one per chart with notes)
+vsrgconv publish --dry-run Reckswell/vsrgs                # what would go up: files and bytes per folder
+vsrgconv publish Reckswell/vsrgs --parts db,games         # the database (64,569 files, 522 MiB)
+vsrgconv publish Reckswell/vsrgs --parts renders          # the layout pictures (36,839 files, 2.0 GiB)
 ```
 
-The dataset is created private. Uploads skip files already on the Hub and resume after an interruption; `--delete`
-also removes files that are gone locally. The database and the pictures go to two datasets because together they are
-just over the 100,000 files Hugging Face advises per repository.
+A dataset is created private if it does not exist. Uploads skip files already on the Hub and resume after an
+interruption; `--delete` also removes files that are gone locally. Together the parts are about 101,400 files, just
+over the 100,000 Hugging Face advises per repository; if the Hub complains, put the pictures in a second dataset.
+
+### From a cloud session
+
+The cloud environment reaches Hugging Face through a network secret that adds the token to requests:
+
+- the secret's host must be `huggingface.co` only. Uploads go to Hugging Face's Xet storage (`*.hf.co`) with a
+  short-lived token of their own; if the secret also covers `*.hf.co`, the proxy replaces that token and every upload
+  fails with 401. Add `*.hf.co` under Allowed domains instead;
+- the proxy gives up on an answer after 30 seconds, and Hugging Face can take longer to answer a large commit, so the
+  client sees a 502 although the commit landed. `publish` re-runs the upload while the dataset keeps advancing, and
+  the re-run skips what is already there.
