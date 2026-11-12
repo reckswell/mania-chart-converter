@@ -532,7 +532,8 @@ def cmd_publish(a: argparse.Namespace) -> int:
     from .publish import publish_hf
 
     parts = a.parts.split(",") if a.parts else None
-    print(json.dumps(publish_hf(a.repo, a.data, parts, delete=a.delete, dry_run=a.dry_run), indent=1))
+    print(json.dumps(publish_hf(a.repo, a.data, parts, delete=a.delete, dry_run=a.dry_run, xet=not a.no_xet,
+                                batch_files=a.batch_files), indent=1))
     return 0
 
 
@@ -658,6 +659,9 @@ def main(argv: list[str] | None = None) -> int:
     s.add_argument("--parts", help="comma-separated: db, renders, games (default: all three)")
     s.add_argument("--delete", action="store_true", help="also remove dataset files that are gone locally")
     s.add_argument("--dry-run", action="store_true", help="only count what would be uploaded")
+    s.add_argument("--no-xet", action="store_true", help="upload through Git LFS in batches instead of Xet storage "
+                                                         "(cloud sessions: docs/hosting.md)")
+    s.add_argument("--batch-files", type=int, default=1000, help="files per commit with --no-xet")
     s.set_defaults(fn=cmd_publish)
 
     s = sub.add_parser("index", help="build a SQLite index of the database for queries")

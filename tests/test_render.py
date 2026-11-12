@@ -255,3 +255,53 @@ def test_publish_resumes_when_a_commit_answer_is_lost():
     with pytest.raises(ConnectionError):
         _resuming(api, "me/charts", lambda: calls.append(1) or stuck(), log=lambda m: None)
     assert len(calls) == 3
+
+
+def test_publish_without_xet_commits_in_batches_and_skips_what_is_on_the_hub(tmp_path):
+    """The LFS path: one commit per batch, files whose content is already on the Hub are not sent again, and a commit
+    whose answer is lost but which landed counts as done."""
+    import hashlib
+
+    from vsrgconv.publish import publish_hf
+
+    for i in range(5):
+        (tmp_path / "renders" / "g").mkdir(parents=True, exist_ok=True)
+        (tmp_path / "renders" / "g" / f"{i}.png").write_bytes(bytes([i]) * 100)
+    same = (tmp_path / "renders" / "g" / "0.png").read_bytes()
+
+    class Lfs:
+        size, sha256 = 100, hashlib.sha256(same).hexdigest()
+
+    class Entry:
+        def __init__(self, path, size, lfs=None, blob_id=None):
+            self.path, self.size, self.lfs, self.blob_id = path, size, lfs, blob_id
+
+    class FakeApi:
+        sha = "a"
+
+        def __init__(self):
+            self.commits = []
+
+        def create_repo(self, repo_id, **kw):
+            pass
+
+        def repo_info(self, repo_id, **kw):
+            return type("Info", (), {"sha": self.sha})()
+
+        def list_repo_tree(self, repo_id, **kw):
+            return [Entry("renders/g/0.png", 100, Lfs()),                 # same content: skipped
+                    Entry("renders/g/1.png", 100, type("L", (), {"sha256": "old"})()),   # changed: sent
+                    Entry("README.md", 10, None, "x")]
+
+        def create_commit(self, repo_id, operations, **kw):
+            self.commits.append(sorted(op.path_in_repo for op in operations))
+            self.sha += "x"
+            if len(self.commits) == 1:
+                raise ConnectionError("502 Bad Gateway")       # landed, but the answer was lost
+            return type("Info", (), {"oid": self.sha})()
+
+    api = FakeApi()
+    out = publish_hf("me/charts", tmp_path, ["renders"], api=api, xet=False, batch_files=2, log=lambda m: None)
+    assert api.commits == [["renders/g/1.png", "renders/g/2.png"], ["renders/g/3.png", "renders/g/4.png"]]
+    assert out["uploaded"] == 4 and out["skipped"] == 1 and out["commits"] == 2
+
