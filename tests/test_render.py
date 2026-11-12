@@ -65,6 +65,19 @@ def test_time_columns_end_on_measure_lines():
     assert [round(col.end) for col in cols] == [2400, 4800, 7200, 9600]
 
 
+def test_long_pauses_are_drawn_short():
+    """Pump It Up ends charts with a 999-second stop or delay: it must not become hundreds of empty columns."""
+    for pause in ("stops", "delays"):
+        c = chart([Note(Fraction(b), b % 4, 1, NoteKind.TAP) for b in range(8)], lanes=4)
+        setattr(c.timing, pause, [(Fraction(7), 999_000.0)])
+        cols, cut = _columns(c, RenderConfig())
+        assert not cut and len(cols) <= 3 and cols[-1].end < 3 * 2401, pause
+    mid = chart([Note(Fraction(0), 0, 1, NoteKind.TAP), Note(Fraction(4), 0, 1, NoteKind.TAP)], lanes=4)
+    mid.timing.stops = [(Fraction(2), 60_000.0)]                    # a minute's stop is drawn as 2 s (1,600 px)
+    cols, _ = _columns(mid, RenderConfig(max_pause_ms=2000))
+    assert round(cols[-1].end) == 3200 + 1600                       # beat 4 + the stop, closed at beat 8
+
+
 def test_wide_pictures_wrap_into_rows():
     cfg = RenderConfig(max_width_px=700)                                  # 3 columns of 222 px a row
     c = chart([Note(Fraction(b), 0, 1, NoteKind.TAP) for b in range(80)], lanes=4)   # 20 measures, 1600 px each

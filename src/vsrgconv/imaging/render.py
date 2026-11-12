@@ -19,7 +19,7 @@ from __future__ import annotations
 import math
 from bisect import bisect_right
 from collections.abc import Iterator
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from fractions import Fraction
 from io import BytesIO
 
@@ -105,6 +105,8 @@ class RenderConfig:
     max_columns: int = 400         # a chart longer than this is cut, and the title says so
     max_width_px: int = 16384      # wider pictures wrap into rows of columns, read top to bottom
     row_gap_px: int = 24
+    max_pause_ms: float = 2000.0   # stops and delays longer than this are drawn this long (Pump It Up ends charts
+    #                                with 999-second stops; a picture of them would be hundreds of empty columns)
 
     @classmethod
     def compact(cls) -> RenderConfig:
@@ -140,6 +142,11 @@ class _Axis:
 
     def __init__(self, chart: Chart, cfg: RenderConfig):
         self.timing = chart.timing
+        cap = cfg.max_pause_ms
+        if cap and any(abs(ms) > cap for _, ms in [*self.timing.stops, *self.timing.delays]):
+            def clamp(pauses: list[tuple[Fraction, float]]) -> list[tuple[Fraction, float]]:
+                return [(b, max(-cap, min(cap, ms))) for b, ms in pauses]
+            self.timing = replace(self.timing, stops=clamp(self.timing.stops), delays=clamp(self.timing.delays))
         end = max(chart.end_beat, Fraction(1))
         self._cache: dict[Fraction, float] = {}
         self.scale = float(cfg.px_per_beat)            # px per beat (beats) or px per ms (time)
@@ -242,7 +249,7 @@ def _columns(chart: Chart, cfg: RenderConfig, axis: _Axis | None = None) -> tupl
         if gaps and (typical := gaps[len(gaps) // 2]) <= height * 1.5:
             height = typical * max(1, int(height // typical)) + 1
     above = [p for p in lines if p > last]
-    top = above[0] if above else last + 1.0
+    top = min(above) if above and min(above) - last <= height else last + cfg.note_px + 1.0
     breaks = sorted({p for p in lines if p < top} | {top})
     bounds, start, prev = [first], first, first
     limit = cfg.max_columns + 1
