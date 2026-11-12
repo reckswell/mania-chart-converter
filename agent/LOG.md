@@ -62,3 +62,20 @@
   The environment this session ran in lost its Hugging Face secret when Alpha set up the new `vsrgs` environment;
   they were handed to a session on `vsrgs` (project files, `handoff/sekai-sdvxin.tar`). sdvxindexasset.com (667 SDVX
   charts) is allowed on `vsrgs` only. bilibili and niconico need `*.bilibili.com` and `*.nicovideo.jp`.
+
+## 2026-11-12 (night): SEKAI pictures on Hugging Face, SDVX from sdvxindexasset.com
+
+- The SEKAI handoff archive (3 GB) never reached the project folder (only its .sha256 did), so the `vsrgs` session
+  downloaded sdvx.in's SEKAI layers again (1,631 of 1,633, the same two EXPERTs missing) and redrew the 1,619
+  comparison pictures. Published with `ab/chunithm/report-sdvxin.json` and the dataset README; all 8,148 files and
+  the 6,524 hashes in `manifest-sdvxin.json` match the Hub.
+- sdvxindex.com's column pictures are now same-size PNG layers on sdvxindexasset.com
+  (`/img/<dir>/<stem>_xl_columns/<layer>.png`). `vsrgconv pictures` rewrites the old URLs, keeps the eight default
+  layers as published (`<song>/sdvxindex/`) and stacks them on the old grey as `<slot>.png` (96% of pixels identical
+  to RRRGR's copy of an old picture). All 716 SDVX charts without a picture (667 only on sdvxindex.com, 49 missing on
+  RRRGR) fetched and published; the SDVX picture set is complete at 8,664 charts, every hash checked on the Hub.
+- Network on `vsrgs`: sdvxindexasset.com, www.bilibili.com, api.bilibili.com, search.bilibili.com and
+  www.nicovideo.jp answer.
+- Next: `catalog sdvx` from sdvxindex.com's own list (1.4.9) for about 81 newer charts; a reader for SEKAI's sdvx.in
+  pictures; IIDX pictures need browser screenshots.
+

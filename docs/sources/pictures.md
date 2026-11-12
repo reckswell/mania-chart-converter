@@ -11,7 +11,7 @@ domains. "Blocked" means the network policy still refuses the host (proxy 403).
 | Game | Notes in the database come from | Published chart pictures | Reachable from the cloud |
 |---|---|---|---|
 | Chunithm | the game's `.c2s` files (MarisaBot) | sdvx.in draws ADVANCED (a few), EXPERT, MASTER, ULTIMA and WORLD'S END, three layers per chart (lanes, notes, measure numbers; chunithm-sdvxin.md). punipu2/chunithm-chart-downloader mirrors merged MASTER and ULTIMA pictures (`source.picture`, 1,901 charts) | yes, both |
-| SOUND VOLTEX | none (no notes) | RRRGR's sdvxindex clone column pictures (`source.picture`, 7,997 charts); sdvxindex.com (`source.sdvxindex_picture`, 8,597, 667 of them only there); sdvx.in | RRRGR yes; sdvxindex.com yes, but its pictures moved to `sdvxindexasset.com` (blocked) |
+| SOUND VOLTEX | none (no notes) | RRRGR's sdvxindex clone column pictures (`source.picture`, 7,997 charts); sdvxindex.com (`source.sdvxindex_picture`, 8,597, 667 of them only there), now as layers on `sdvxindexasset.com`; sdvx.in | yes (sdvxindexasset.com on the `vsrgs` environment) |
 | Project SEKAI | the game's SUS files | sdvx.in draws EXPERT, MASTER and APPEND, three layers per chart | yes |
 | beatmania IIDX | none (no notes) | textage.cc score pages, drawn by script in the browser: a picture needs a browser screenshot | textage.cc yes; no picture files to fetch |
 | BanG Dream! | Bestdori JSON | Bestdori draws charts in the browser; there are no picture files | n/a |
@@ -34,6 +34,16 @@ picture is the only picture of the chart.
   `shared_with` (other charts whose picture is the same file; such a picture is right for at most one of them).
 - Resumable: pictures already there are kept unless `--refresh`. `data/pictures` is not committed (`.gitignore`);
   `vsrgconv publish` uploads it to the Hugging Face dataset as `pictures/`.
+- sdvxindex.com's old column pictures (`/img/<dir>/<stem>_column_rendered.png`, `source.sdvxindex_picture`) now
+  answer with the single-page app's `index.html`. The app draws each chart from same-size PNG layers at
+  `https://sdvxindexasset.com/img/<dir>/<stem>_xl_columns/<layer>.png` (its bundle, module `rB`), so those URLs are
+  fetched as layers instead: the eight it shows by default (`lane`, `holds_normal`, `laser_left_normal`,
+  `laser_left_icon_normal`, `laser_right_normal`, `laser_right_icon_normal`, `text_normal`, `buttons_normal`, bottom
+  to top) are kept as published in `<song>/sdvxindex/<slot>.<layer>.png`, and their stack on the old pictures' grey
+  (#191919) is `<song>/<slot>.png`, lossless. On 0061 EXHAUST the stack is identical to RRRGR's copy of the old
+  picture on 96% of pixels; the rest is laser shading. The layers the site hides by default (hold and laser ticks,
+  a PUC pace overlay, MEGAMIX markers) are not fetched. The chips layer is required; any other missing layer is
+  listed under `missing_layers`.
 
 ## `vsrgconv pictures <chunithm|sekai|all> --from sdvxin`
 
@@ -82,12 +92,17 @@ For every chart with both a source picture and stored notes:
 | Game | Charts with a picture URL | Downloaded | Not downloaded | Size |
 |---|---|---|---|---|
 | Chunithm (punipu2, MASTER and ULTIMA) | 1,901 | 1,899 | 2 missing upstream (404) | 2.1 GB |
-| SDVX (RRRGR column pictures) | 8,664 | 7,948 | 667 only on sdvxindex.com (now on sdvxindexasset.com, blocked), 49 missing upstream | 1.2 GB |
+| SDVX (RRRGR column pictures, else sdvxindex.com's layers) | 8,664 | 8,664: 7,948 from RRRGR, 716 from sdvxindexasset.com (the 667 only on sdvxindex.com, and 49 that RRRGR lists but answers 404 for) | none | 1.2 GB from RRRGR; 215 MB of sdvxindex layers, 140 MB stacked |
 | Chunithm (sdvx.in, `--from sdvxin`) | 3,854 drawn (1,787 EXPERT, 1,787 MASTER, 114 ULTIMA, 129 WORLD'S END, 37 ADVANCED) | 3,853 | 1 EXPERT listed but not published yet (01037) | 16.5 GB of layers (16.2 GB the notes layers), 3.9 GB merged |
 | Project SEKAI (sdvx.in, `--from sdvxin`) | 1,633 drawn (738 EXPERT, 739 MASTER, 156 APPEND) | 1,631 | 2 EXPERT listed but not published (sdvx.in 0240, 0329) | 1.5 GB of layers, 0.5 GB merged |
 
 Every downloaded file opens as a picture. 32 Chunithm charts share their picture with another chart (the groups in
 chunithm-pictures.md).
+
+The 716 SDVX charts from sdvxindex.com were fetched from the `vsrgs` environment with `vsrgconv pictures sdvx --only
+<their 230 songs>`, starting from the Hub's `pictures/sdvx/manifest.json` so it keeps every entry (8,664 now). One
+layer of one chart failed once (2353 MAXIMUM, `laser_right_icon_normal`) and came on a second try. All 6,650 local
+files and the 14,392 sha256s in the manifest (RRRGR pictures, sdvxindex layers and stacks) match the Hub.
 
 `vsrgconv ab chunithm --images` on the 1,819 Chunithm charts that have both a picture and notes:
 
@@ -123,14 +138,18 @@ ab sekai --from sdvxin --images` only drew the 1,619 comparison pictures (12 cha
 The redrawn half uses the same beat spacing as sdvx.in (96 px a beat) but breaks columns every 5 measures where
 sdvx.in breaks every 4.
 
+The SEKAI pictures went to Hugging Face from the `vsrgs` environment. The 3 GB archive meant to carry them from the
+session that made them never reached the project folder, so they were downloaded from sdvx.in again (the same
+1,631 of 1,633 charts, 1.5 GB of layers) and the comparison pictures redrawn. All 6,527 files under
+`pictures/sekai/` and the 1,621 under `ab/` (`ab/sekai/`, `ab/sekai/report-sdvxin.json`,
+`ab/chunithm/report-sdvxin.json`) match the Hub by sha256, as do the 6,524 hashes in `manifest-sdvxin.json`.
+
 ## What is not done yet
 
-- Project SEKAI's sdvx.in pictures, its comparison pictures and `ab/chunithm/report-sdvxin.json` are not on the
-  Hugging Face dataset yet: the session that made them lost its Hugging Face access when the cloud environment
-  changed (agent/LOG.md).
-- SDVX: 667 charts whose only picture is on sdvxindex.com wait for `sdvxindexasset.com` under Allowed domains (the
-  site became a single-page app and serves its pictures from there; the old picture URLs answer with the app's
-  `index.html`, which `vsrgconv pictures` now refuses). sdvx.in's own SDVX pictures are not fetched.
+- SDVX: sdvxindex.com's own song list (`/songsv1.4.9.json` on the site: 2,325 songs, 8,678 charts) is newer than the
+  GitHub copy the catalog reads (1.4.2: 2,306 songs, 8,597 charts). About 81 charts it has pictures for are not in
+  the picture set (newer songs and charts, such as ∇ charts added to old songs); reading the site's list in `catalog
+  sdvx` would add them. sdvx.in's own SDVX pictures are not fetched.
 - IIDX: textage.cc draws charts in the browser, so a true-source picture needs browser screenshots, and notes need a
   reader for textage's script data. Neither is started.
 - BanG Dream!: Bestdori draws in the browser too; its JSON is already the source of the stored notes.
