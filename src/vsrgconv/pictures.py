@@ -117,8 +117,14 @@ def fetch_pictures(db: ChartDB, fetcher: Fetcher, game: str, out: str | Path = "
                 os.link(cached, dst)
             except OSError:
                 dst.write_bytes(data)
+            size = _size(dst)
+            if size is None:        # a site that moved its pictures can answer with a web page: not the source
+                dst.unlink()
+                cached.unlink(missing_ok=True)
+                errors.append(f"{url}: not a picture ({data[:40]!r})")
+                continue
             return key, {"url": url, "key": source_key, "file": dst.relative_to(out / game).as_posix(),
-                         "bytes": len(data), "sha256": _sha256(data), "size": _size(dst)}, "downloaded"
+                         "bytes": len(data), "sha256": _sha256(data), "size": size}, "downloaded"
         return key, {"errors": errors}, "failed"
 
     failed: dict[str, list[str]] = {}

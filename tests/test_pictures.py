@@ -211,3 +211,13 @@ def test_sdvxin_sekai_charts_are_matched_by_title_then_artist(tmp_path):
     assert stats["near_matches"] == ["207 Peaky Peaky = 0164 Peaky"] and stats["unmatched"] == ["826 スロウライト"]
     assert pic.sdvxin_layer_urls(refs["709/extra"], "sekai")["obj"][0] == "https://sdvx.in/prsk/obj/data0647apd.webp"
     assert pic.sdvxin_viewer_url("0647", "apd", "sekai") == "https://sdvx.in/prsk/_/viewer.php?id=0647&diff=apd"
+
+
+def test_a_web_page_served_in_place_of_a_picture_is_not_kept(tmp_path):
+    db, f = setup_db(tmp_path)
+    p = f.cache_path(URL.format("t1mst"))
+    p.write_bytes(b"<!doctype html><html>moved</html>")
+    out = tmp_path / "pictures"
+    s = pic.fetch_pictures(db, f, "chunithm", out, slot="master")
+    assert s["failed"] == 1 and "not a picture" in s["failed_charts"]["t1/master"][0]
+    assert not p.exists() and not list(out.rglob("master.*"))      # retried on the next run
