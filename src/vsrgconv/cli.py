@@ -543,11 +543,20 @@ def _games_arg(db: ChartDB, game: str) -> list[str]:
 
 def cmd_pictures(a: argparse.Namespace) -> int:
     """Download each chart's source picture (the "true source") next to the database: data/pictures."""
-    from .pictures import fetch_pictures
+    from .pictures import fetch_pictures, fetch_sdvxin
 
     db = ChartDB(a.db)
     only = set(a.only.split(",")) if a.only else None
     log = (lambda m: print(m, file=sys.stderr, flush=True)) if a.progress else None
+    if a.source == "sdvxin":
+        from .pictures import SDVXIN_GAMES
+
+        res = {g: fetch_sdvxin(db, _fetcher(a), a.out, only=only, slot=a.slot, workers=min(a.workers, 4),
+                               refresh=a.refresh, log=log, game=g)
+               for g in (SDVXIN_GAMES if a.game == "all" else [a.game])}
+        print(json.dumps({g: {**r, "failed_charts": dict(list(r["failed_charts"].items())[:10])}
+                          for g, r in res.items()}, ensure_ascii=False, indent=1))
+        return 1 if any(r["failed"] for r in res.values()) else 0
     out = {g: fetch_pictures(db, _fetcher(a), g, a.out, only=only, slot=a.slot, workers=a.workers,
                              refresh=a.refresh, log=log) for g in _games_arg(db, a.game)}
     shown = {g: {k: (v if k != "failed_charts" else dict(list(v.items())[:10])) for k, v in r.items()}
@@ -570,7 +579,8 @@ def cmd_ab(a: argparse.Namespace) -> int:
     only = set(a.only.split(",")) if a.only else None
     report: dict[str, Any] = {}
     for g in _games_arg(db, a.game):
-        jobs, counts = ab_jobs(db, g, a.pictures, only=only, slot=a.slot)
+        jobs, counts = ab_jobs(db, g, a.pictures, only=only, slot=a.slot,
+                               source=None if a.source == "db" else a.source)
         if not counts["pictures"]:
             continue
         if g not in READERS and not a.images:
@@ -701,6 +711,9 @@ def main(argv: list[str] | None = None) -> int:
     s.add_argument("--out", default="data/pictures", help="picture folder; mirrors the database layout")
     s.add_argument("--workers", type=int, default=8)
     s.add_argument("--refresh", action="store_true", help="download pictures again")
+    s.add_argument("--from", dest="source", choices=["db", "sdvxin"], default="db",
+                   help="db: the picture URLs in the database; sdvxin: sdvx.in's layers of every drawn chart "
+                        "(chunithm, sekai)")
     s.add_argument("--progress", action="store_true")
     s.set_defaults(fn=cmd_pictures)
 
@@ -714,6 +727,8 @@ def main(argv: list[str] | None = None) -> int:
     s.add_argument("--workers", type=int, default=1)
     s.add_argument("--progress", action="store_true")
     s.add_argument("--report", help="write every chart's result to this JSON file")
+    s.add_argument("--from", dest="source", choices=["db", "sdvxin"], default="db",
+                   help="which source pictures: db (manifest.json) or sdvxin (manifest-sdvxin.json)")
     s.set_defaults(fn=cmd_ab)
 
     s = sub.add_parser("games", help="list the games: added ones, and with --all other VSRGs not added yet")

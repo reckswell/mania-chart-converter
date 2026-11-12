@@ -23,6 +23,7 @@ where = ["src"]
 [tool.setuptools.package-data]
 "vsrgconv.sources" = ["data/*.json"]
 "vsrgconv.games" = ["candidates.json"]
+"vsrgconv.imaging" = ["sdvxin_palette.json"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

@@ -579,8 +579,9 @@ class PictureReading:
         return [(m.start, m.beats) for m in self.timeline.measures]
 
 
-def read_picture(data: bytes) -> PictureReading:
-    a = load_rgba(data)
+def read_picture(data: bytes | np.ndarray) -> PictureReading:
+    """Read a merged picture: its file bytes, or an RGBA array (height, width, 4)."""
+    a = data if isinstance(data, np.ndarray) else load_rgba(data)
     tl = Timeline(find_columns(a))
     hs = hsv(a[:, :, :3])
     heads: list[Head] = []

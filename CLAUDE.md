@@ -14,9 +14,15 @@
   - commit `data/db` (catalog, extracted `*.chart.json.gz`, jackets shrunk to ≤320 px JPEG);
   - commit `data/games` (definitions of games added with `vsrgconv add-game`, docs/adding-a-game.md);
   - never commit `data/cache` (downloaded pictures, audio), `data/renders` (redrawn by `vsrgconv render`) or `out/`.
-- Network: the cloud machine cannot reach sdvx.in, osu.ppy.sh or YouTube. GitHub raw files (osu-wiki, otoge-db,
-  MarisaBot) work. Chunithm notes come from exact .c2s files (docs/sources/chunithm-c2s.md); sdvx.in is the fallback.
-  Work that needs those sites runs on Alpha's PC (see docs/sources/chunithm-sdvxin.md). Record what is waiting for
-  the PC in `agent/LOG.md`.
+- Network (cloud environment "Default", Allowed domains since 2026-11-12):
+  - reachable: GitHub raw files (osu-wiki, otoge-db, MarisaBot), sdvx.in, sdvxindex.com, textage.cc, bestdori.com,
+    gddata-mdb.selundine.top, remywiki.com, zenius-i-vanisher.com, enchor.us, osu.ppy.sh, YouTube, Hugging Face
+    (`*.hf.co`; the token is a network secret on huggingface.co only, so run with `HF_TOKEN=placeholder`,
+    docs/hosting.md);
+  - bilibili and niconico are allowed but need `*.bilibili.com` and `*.nicovideo.jp` to work. Alpha's rule: search
+    bilibili in Chinese and niconico in Japanese;
+  - Chunithm notes come from exact .c2s files (docs/sources/chunithm-c2s.md); sdvx.in's pictures are the "true
+    source" kept beside them (docs/sources/pictures.md);
+  - playtests and anything signed in run on Alpha's PC. Record what is waiting for the PC in `agent/LOG.md`.
 - The orthomania game repo (for playtests) is `Reckswell/osu`, cloned on the PC at `Documents\Projects\osu!\ortho`. Its
   viewfield research is in `docs/ortho/research/game-*.md`.
