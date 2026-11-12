@@ -45,3 +45,20 @@
   (docs/sources/pictures.md).
 - Waiting for Alpha: `sdvx.in`, `sdvxindex.com`, `textage.cc` under Allowed domains, or a PC run, for Chunithm
   EXPERT/WORLD'S END and full-size pictures, Sekai, the 667 sdvxindex-only SDVX charts and IIDX.
+
+## 2026-11-12 (evening): sdvx.in pictures as the true source
+
+- `vsrgconv pictures <chunithm|sekai> --from sdvxin` keeps sdvx.in's three layers per chart exactly as published,
+  plus a merged WebP for viewing (docs/sources/pictures.md). Chunithm: 3,853 of 3,854 drawn charts (16.5 GB of
+  layers); Project SEKAI: 1,631 of 1,633 (1.5 GB). The missing three are listed on sdvx.in but answer 302.
+- `vsrgconv ab chunithm --from sdvxin`: stacked layers snapped to a lossless sdvx.in palette, then read with
+  merged_chart.py. 3,681 charts compared, median 81% of stored notes read back (73% of 3.09 million notes);
+  the same as punipu2's lossless pictures on the charts both have, so the reader is still the limit.
+- Chunithm went to Hugging Face in batches of about 300 (download, A/B, upload, sha256 check, delete the local notes
+  layer) to fit the disk; all 15,412 files and 3,691 comparison pictures checked on the Hub.
+- Fixed: the cache wrote files in place, so a thread could read a layer shared by two charts while another thread
+  was still writing it (SEKAI stopped at 1,300); cache files are now renamed into place whole.
+- Waiting: the SEKAI pictures, its 1,619 comparison pictures and `ab/chunithm/report-sdvxin.json` are not uploaded.
+  The environment this session ran in lost its Hugging Face secret when Alpha set up the new `vsrgs` environment;
+  they were handed to a session on `vsrgs` (project files, `handoff/sekai-sdvxin.tar`). sdvxindexasset.com (667 SDVX
+  charts) is allowed on `vsrgs` only. bilibili and niconico need `*.bilibili.com` and `*.nicovideo.jp`.

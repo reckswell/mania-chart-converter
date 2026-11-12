@@ -142,3 +142,10 @@ extra rule was needed:
   `end_direction` on a hidden end and counts it. This rests on that one case.
 
 Guides, mines, skill and fever markers do not count.
+
+## Pictures
+
+sdvx.in draws EXPERT, MASTER and APPEND for almost every song. `vsrgconv pictures sekai --from sdvxin` keeps its three
+layers per chart as published, beside the database (1,631 charts on 2026-11-12). sdvx.in's Sekai ids are its own;
+charts are matched by title, then artist (docs/sources/pictures.md). There is no reader for them yet, so the A/B
+check gives comparison pictures only.

@@ -93,9 +93,10 @@ BPM changes are drawn as text and are **not read**. Songs with variable BPM get 
 The cloud machine reaches sdvx.in directly (since 2026-11-12). Files saved any other way (a browser, the PC) can still
 be dropped into `data/cache/sdvx.in/...` (it mirrors URL paths), after which every command works with `--offline`.
 
-The reader above was written before any real picture was seen and is still uncalibrated. The A/B check reads the
-merged pictures with `imaging/merged_chart.py` instead, after snapping the lossy colours to a palette
-(docs/sources/pictures.md).
+`vsrgconv pictures chunithm --from sdvxin` downloaded all 3,853 published charts on 2026-11-12 (docs/sources/pictures.md).
+The reader above was written before any real picture was seen and is still uncalibrated. The A/B check stacks the
+three layers and reads them with `imaging/merged_chart.py` instead, after snapping the lossy colours to a palette:
+median chart 81% of stored notes read back (docs/sources/pictures.md).
 
 Be polite: the fetcher waits 1 s between requests by default. sdvx.in has been known to put a human check in front of
 heavy traffic.
