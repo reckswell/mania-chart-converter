@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "695",
+ "title": "Bunny Girl",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "160",
+ "version": "",
+ "date_added": "2025-05-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 136
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 136
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 86,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 269
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 269
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 171,
+      "hold": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 496
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/695/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/695/hard.json",
+     "raw_sha256": "9866e2e642ad4528b86bcef454e8ee469304df6a6407bd3824382d79572e6a34"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 496
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 258,
+      "hold": 53,
+      "slide": 38,
+      "flick": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 690
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/695/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/695/expert.json",
+     "raw_sha256": "8930249e9edc84e71940e849f6a2653f1ded003d10d3787f8d6c57d6186756a0"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 690
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 432,
+      "hold": 41,
+      "slide": 62,
+      "flick": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 695,
+   "bandId": 2,
+   "jacketImage": "695_bunny_girl",
+   "bgmId": "bgm695"
+  },
+  "maa": {
+   "bestdori_song_id": 695,
+   "jacket": {
+    "path": "bestdori/695/jacket-cn-1.png",
+    "server": "cn",
+    "name": "695_bunny_girl"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/695/jacket-cn-1.png",
+   "sha256": "35b3761a14cd257ee21489f63ea128d828b154699bcdb045628e2d83a07e7c32",
+   "width": 320,
+   "height": 320,
+   "bytes": 23478
+  }
+ },
+ "extra": {
+  "lyricist": "AKASAKI",
+  "composer": "AKASAKI",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1746252000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "bunnygirl",
+  "length_s": 120.816
+ }
+}

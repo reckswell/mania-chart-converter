@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "543",
+ "title": "THRONE OF ROSE",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "160",
+ "version": "",
+ "date_added": "2023-09-16",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 170
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 170
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 35,
+      "tap": 100
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 305
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 305
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 165,
+      "hold": 64,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 535
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/543/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/543/hard.json",
+     "raw_sha256": "51f79b3ca5c225ac17ab1827bec672879752cbe85e288e63d317fce50bf5c06f"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 535
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 308,
+      "flick": 22,
+      "hold": 89,
+      "slide": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 913
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/543/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/543/expert.json",
+     "raw_sha256": "f43b9337c8e7f738f14891026522e5717acf8c2f334927ccf9034be38e6c011a"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 913
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 502,
+      "flick": 67,
+      "hold": 55,
+      "slide": 86
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 543,
+   "bandId": 5,
+   "jacketImage": "543_thron_of_rose",
+   "bgmId": "bgm543"
+  },
+  "maa": {
+   "bestdori_song_id": 543,
+   "jacket": {
+    "path": "bestdori/543/jacket-cn-1.png",
+    "server": "cn",
+    "name": "543_thron_of_rose"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/543/jacket-cn-1.png",
+   "sha256": "e89b3747ac3dfd792993010b2e926aa8d36af3b668fc571988f3e1915311c16a",
+   "width": 320,
+   "height": 320,
+   "bytes": 33358
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "笠井雄太（Elements Garden）",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1694867400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "throneofrose",
+  "length_s": 118.56
+ }
+}

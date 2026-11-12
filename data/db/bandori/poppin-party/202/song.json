@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "202",
+ "title": "アニバーサリー",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2019-06-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 160
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 160
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 126,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 333
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 333
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 215,
+      "hold": 59
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 511
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/202/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/202/hard.json",
+     "raw_sha256": "b7223bdfcace5ad8ece1c0a8201b78c38322d95a0ad58cb9a775e2cc243cced5"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 511
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 326,
+      "slide": 18,
+      "hold": 72
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 698
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/202/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/202/expert.json",
+     "raw_sha256": "3751dceaffb881ef97d3160017d9a16953fc5c3764bf9f8d0694a992c7cf84ed"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 698
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 501,
+      "slide": 45,
+      "hold": 47,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 202,
+   "bandId": 1,
+   "jacketImage": "202_anniversary",
+   "bgmId": "bgm202"
+  },
+  "maa": {
+   "bestdori_song_id": 202,
+   "jacket": {
+    "path": "bestdori/202/jacket-cn-1.png",
+    "server": "cn",
+    "name": "202_anniversary"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/202/jacket-cn-1.png",
+   "sha256": "74faa2bc41a0019f1824e59c80a994e5c9534a46732400eefde5bb3f507a9b4b",
+   "width": 320,
+   "height": 320,
+   "bytes": 20001
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "岩橋星実（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1561874400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "あにばーさりー",
+  "title_en": "Anniversary",
+  "length_s": 116.52
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "349",
+ "title": "ここから先は歌にならない",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2021-07-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 151
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 151
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 123,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 268
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 268
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 192,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 490
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/349/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/349/hard.json",
+     "raw_sha256": "3cb1ab5ca56c63402828d36144b45389f374156597da5d2a4f7a26ec48652f2e"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 490
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 342,
+      "hold": 44,
+      "flick": 9,
+      "slide": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 746
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/349/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/349/expert.json",
+     "raw_sha256": "33203ba0beef62714df6de2d25e2ed8dfecc481a491aa1a2e2453afe63124a6d"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 746
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 520,
+      "hold": 37,
+      "slide": 41,
+      "flick": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 349,
+   "bandId": 1,
+   "jacketImage": "349_kokokara",
+   "bgmId": "bgm349"
+  },
+  "maa": {
+   "bestdori_song_id": 349,
+   "jacket": {
+    "path": "bestdori/349/jacket-cn-1.png",
+    "server": "cn",
+    "name": "349_kokokara"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/349/jacket-cn-1.png",
+   "sha256": "ded51caa5fc444645067e7503ec5c7cdcb4d49621bac58a353d39fa949ebb01d",
+   "width": 320,
+   "height": 320,
+   "bytes": 28019
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1625292000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ここからさきはうたにならない",
+  "title_en": "A Song No More",
+  "length_s": 106.176
+ }
+}

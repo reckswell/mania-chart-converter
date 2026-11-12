@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "59",
+ "title": "ふわふわ時間",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2017-07-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 104
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 104
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 70,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 195
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 195
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 137,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 384
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/59/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/59/hard.json",
+     "raw_sha256": "8cd208c3a043746c857939cbf5fbd2e3a49884fdf34c22c4fe5f56f763182e8c"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 384
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 228,
+      "flick": 9,
+      "hold": 56,
+      "slide": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 544
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/59/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/59/expert.json",
+     "raw_sha256": "cb33cccaee81c3df5151a74b72bc3467dda14922b8621212ea70835aed3082da"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 544
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 55,
+      "tap": 253,
+      "flick": 39,
+      "hold": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 541
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1615795200000,
+    "maa": {
+     "path": "bestdori/59/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/59/special.json",
+     "raw_sha256": "5db57dc47f3f7f1cffcf17762cf4e20e539b72421cf74212acfb7f463ae02ef8"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 541
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 63,
+      "tap": 214,
+      "flick": 30,
+      "hold": 38
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 59,
+   "bandId": 4,
+   "jacketImage": "059_huwahuwa_time",
+   "bgmId": "bgm059"
+  },
+  "maa": {
+   "bestdori_song_id": 59,
+   "jacket": {
+    "path": "bestdori/59/jacket-cn-1.png",
+    "server": "cn",
+    "name": "059_huwahuwa_time"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/59/jacket-cn-1.png",
+   "sha256": "f5c252fee7c0a04d0f506a17641e325326df8f7d9e08a273bbaa82ff6b4ab837",
+   "width": 320,
+   "height": 320,
+   "bytes": 27001
+  }
+ },
+ "extra": {
+  "lyricist": "秋山澪",
+  "composer": "前澤寛之",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1501480800000,
+  "closed_at": 4102455600000,
+  "music_data_type": "normal",
+  "ruby": "ふわふわたいむ",
+  "title_en": "Fuwa-Fuwa Time",
+  "length_s": 95.4
+ }
+}

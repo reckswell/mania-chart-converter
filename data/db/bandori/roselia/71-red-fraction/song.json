@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "71",
+ "title": "Red fraction",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "142",
+ "version": "",
+ "date_added": "2017-09-25",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 155
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 155
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 129,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 289
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 289
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 225,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 490
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/71/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/71/hard.json",
+     "raw_sha256": "e6d46145dea8ee75b496d0eca69d9e2489046b107d6d1c8d036762c8965ab62c"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 490
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 365,
+      "hold": 47,
+      "flick": 4,
+      "slide": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 724
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/71/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/71/expert.json",
+     "raw_sha256": "39450b7865b3552181fd3a88017126863e022f4b7576603cc154b56c874d7aee"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 724
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 577,
+      "hold": 63,
+      "flick": 4,
+      "slide": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 71,
+   "bandId": 5,
+   "jacketImage": "071_red_fraction",
+   "bgmId": "bgm071"
+  },
+  "maa": {
+   "bestdori_song_id": 71,
+   "jacket": {
+    "path": "bestdori/71/jacket-cn-1.png",
+    "server": "cn",
+    "name": "071_red_fraction"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/71/jacket-cn-1.png",
+   "sha256": "ada2a57ee216a673050fe01581380f220d21ef581d714ccdb4dd1aa5fd0fc114",
+   "width": 320,
+   "height": 320,
+   "bytes": 22765
+  }
+ },
+ "extra": {
+  "lyricist": "MELL",
+  "composer": "高瀬一矢",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1506319200000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "redfraction",
+  "length_s": 107.376
+ }
+}

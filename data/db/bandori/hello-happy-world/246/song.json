@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "246",
+ "title": "ドレミファロンド",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "125",
+ "version": "",
+ "date_added": "2020-02-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 151
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 151
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 79,
+      "hold": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 221
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 221
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 142,
+      "hold": 39,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 439
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/246/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/246/hard.json",
+     "raw_sha256": "e655cfcb3a346f9a8a96024d68b4c08100a486425c479da0f161003b160aed44"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 439
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 177,
+      "hold": 29,
+      "slide": 70,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 600
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/246/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/246/expert.json",
+     "raw_sha256": "9b06170332acccbd0e40429eeb2a8f009676377615b14464b8861088f7e1d404"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 600
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 31,
+      "tap": 291,
+      "hold": 29,
+      "slide": 79
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 246,
+   "bandId": 3,
+   "jacketImage": "246_doremifa",
+   "bgmId": "bgm246"
+  },
+  "maa": {
+   "bestdori_song_id": 246,
+   "jacket": {
+    "path": "bestdori/246/jacket-cn-1.png",
+    "server": "cn",
+    "name": "246_doremifa"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/246/jacket-cn-1.png",
+   "sha256": "4ac99e959d66d859762c75a1f6916513bc7d84d087283f18c12b9a8c46f99174",
+   "width": 320,
+   "height": 320,
+   "bytes": 29537
+  }
+ },
+ "extra": {
+  "lyricist": "40mP",
+  "composer": "40mP",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1582178400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "どれみふぁろんど",
+  "title_en": "Do Re Mi Fa Rondo",
+  "length_s": 107.592
+ }
+}

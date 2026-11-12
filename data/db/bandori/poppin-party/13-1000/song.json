@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "13",
+ "title": "1000回潤んだ空",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "182",
+ "version": "",
+ "date_added": "2016-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 105
+   },
+   "source": {
+    "notesQuantity": 103,
+    "bestdori": {
+     "level": 6,
+     "notes": 105
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 97,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 103 differs from combo 105 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 220
+   },
+   "source": {
+    "notesQuantity": 211,
+    "bestdori": {
+     "level": 12,
+     "notes": 220
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 202,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 211 differs from combo 220 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 459
+   },
+   "source": {
+    "notesQuantity": 436,
+    "maa": {
+     "path": "bestdori/13/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/13/hard.json",
+     "raw_sha256": "403e36f3a7a1d868ccb5cd240464198e5039570a98ad67c6922a73b2719c7c2c"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 459
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 17,
+      "tap": 341,
+      "hold": 17,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 436 differs from combo 459 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 868
+   },
+   "source": {
+    "notesQuantity": 864,
+    "maa": {
+     "path": "bestdori/13/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/13/expert.json",
+     "raw_sha256": "d0d775efed3be5abccde77035dc679f490bea45f8dd9fa577643cbe9aa06f70a"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 868
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 589,
+      "hold": 21,
+      "slide": 48,
+      "flick": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 864 differs from combo 868 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 13,
+   "bandId": 1,
+   "jacketImage": "miracle",
+   "bgmId": "bgm013"
+  },
+  "maa": {
+   "bestdori_song_id": 13,
+   "jacket": {
+    "path": "bestdori/13/jacket-cn-1.png",
+    "server": "cn",
+    "name": "miracle"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/13/jacket-cn-1.png",
+   "sha256": "0d2fdd7b8b92fa426d7b03303d33d3e084f3bc6775ff54ecb3e47723a060b4d2",
+   "width": 320,
+   "height": 320,
+   "bytes": 40556
+  }
+ },
+ "extra": {
+  "lyricist": "上松範康（Elements Garden）",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1462071600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "1000かいうるんだひとみ",
+  "title_en": "1000 Crying Skies",
+  "length_s": 152.04
+ }
+}

@@ -1,0 +1,220 @@
+{
+ "game": "sekai",
+ "song_id": "385",
+ "title": "神っぽいな",
+ "artist": "ピノキオピー",
+ "title_romaji": "kamippoina",
+ "artist_romaji": "pinokiopii",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "142",
+ "version": "",
+ "date_added": "2023-10-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 266
+   },
+   "source": {
+    "music_difficulty_id": 1921,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 15,
+      "tap": 72,
+      "slide": 3,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 352
+   },
+   "source": {
+    "music_difficulty_id": 1922,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 151,
+      "hold": 17,
+      "ex_tap": 7,
+      "slide": 6,
+      "flick": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 781
+   },
+   "source": {
+    "music_difficulty_id": 1923,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 31,
+      "tap": 337,
+      "hold": 31,
+      "ex_tap": 105,
+      "flick": 27,
+      "other": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1035
+   },
+   "source": {
+    "music_difficulty_id": 1924,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 45,
+      "hold": 61,
+      "tap": 501,
+      "other": 18,
+      "ex_tap": 111,
+      "flick": 61
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1162
+   },
+   "source": {
+    "music_difficulty_id": 1925,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 82,
+      "hold": 36,
+      "tap": 507,
+      "ex_tap": 155,
+      "flick": 68,
+      "other": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 385,
+   "assetbundle": "jacket_s_385",
+   "seq": 1633301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_385.png",
+   "sha256": "69c73c6b968f1d26f64f7b98cdeb2b853d668cf1248f7735480b2f0f6cbbbabf",
+   "width": 320,
+   "height": 320,
+   "bytes": 36902
+  }
+ },
+ "extra": {
+  "pronunciation": "かみっぽいな",
+  "lyricist": "ピノキオピー",
+  "composer": "ピノキオピー",
+  "arranger": "ピノキオピー",
+  "published_at": 1696917600000,
+  "released_at": 1631804400000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0385_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "宵崎奏",
+     "朝比奈まふゆ",
+     "東雲絵名",
+     "暁山瑞希"
+    ],
+    "asset": "se_0385_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "朝比奈まふゆ"
+    ],
+    "asset": "an_0385_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "暁山瑞希"
+    ],
+    "asset": "an_0385_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 142.0
+ }
+}

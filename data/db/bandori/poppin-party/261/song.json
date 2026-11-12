@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "261",
+ "title": "群青日和",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "175",
+ "version": "",
+ "date_added": "2020-03-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 129
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 129
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 81,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 242
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 242
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 166,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 375
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/261/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/261/hard.json",
+     "raw_sha256": "3f7b9718429227e08c8ce99f6f423c0b3229063caeff3514c09b4721edf70681"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 375
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 249,
+      "hold": 53,
+      "slide": 4,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 657
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/261/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/261/expert.json",
+     "raw_sha256": "fdd6740a26c576bf9da8178846a04d93260c469f8e46659d0df64a0322a92517"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 657
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 473,
+      "slide": 22,
+      "hold": 46,
+      "flick": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 261,
+   "bandId": 1,
+   "jacketImage": "261_gunjo",
+   "bgmId": "bgm261"
+  },
+  "maa": {
+   "bestdori_song_id": 261,
+   "jacket": {
+    "path": "bestdori/261/jacket-cn-1.png",
+    "server": "cn",
+    "name": "261_gunjo"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/261/jacket-cn-1.png",
+   "sha256": "90c8c1b3c34cd1fce1696a5519c5f15632b0c2057289c74b8eb5a0239d9e0d32",
+   "width": 320,
+   "height": 320,
+   "bytes": 22001
+  }
+ },
+ "extra": {
+  "lyricist": "椎名林檎",
+  "composer": "H是都M",
+  "arranger": "笠井雄太（Elements Garden）/川渕龍成",
+  "tag": "anime",
+  "published_at": 1585375200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ぐんじょうびより",
+  "title_en": "Ideal Days For Ultramarine",
+  "length_s": 104.976
+ }
+}

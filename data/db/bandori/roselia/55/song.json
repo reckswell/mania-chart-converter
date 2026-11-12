@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "55",
+ "title": "紅蓮の弓矢",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "181",
+ "version": "",
+ "date_added": "2017-06-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 179
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 179
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 145,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 291
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 291
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 233,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 482
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/55/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/55/hard.json",
+     "raw_sha256": "954b8210abd36c742bc910a23401d59b66326ed75d90e0048ded56147c67a043"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 482
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 344,
+      "flick": 14,
+      "slide": 37,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 707
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/55/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/55/expert.json",
+     "raw_sha256": "0271e8b11b47d7e396f2663614726dcae86c429dc5291b5baa2cb5cbea17e000"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 707
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 492,
+      "flick": 23,
+      "slide": 49,
+      "hold": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 579
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1571486400000,
+    "maa": {
+     "path": "bestdori/55/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/55/special.json",
+     "raw_sha256": "f201b6529da8ea4b33470ed4824245997e58491ce6237a65178d976f96b00944"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 579
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 349,
+      "flick": 19,
+      "slide": 43,
+      "hold": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 55,
+   "bandId": 5,
+   "jacketImage": "055_guren",
+   "bgmId": "bgm055"
+  },
+  "maa": {
+   "bestdori_song_id": 55,
+   "jacket": {
+    "path": "bestdori/55/jacket-cn-1.png",
+    "server": "cn",
+    "name": "055_guren"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/55/jacket-cn-1.png",
+   "sha256": "a0fbec080907768c1550f94b80abbe4b7e42baec61f25a52e8858962a8191e85",
+   "width": 320,
+   "height": 320,
+   "bytes": 30696
+  }
+ },
+ "extra": {
+  "lyricist": "Revo",
+  "composer": "Revo",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1498802400000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "ぐれんのゆみや",
+  "title_en": "Guren no Yumiya",
+  "length_s": 98.856
+ }
+}

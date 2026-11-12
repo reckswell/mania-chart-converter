@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "281",
+ "title": "右肩の蝶",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "140",
+ "version": "",
+ "date_added": "2020-07-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 139
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 139
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 93,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 246
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 246
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 194,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 423
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/281/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/281/hard.json",
+     "raw_sha256": "a4261ffe1d42c8ca5d2412f89c8aac0364a7f8f7666eb4b329a04096152d9f78"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 423
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 50,
+      "tap": 270,
+      "flick": 3,
+      "slide": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 695
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/281/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/281/expert.json",
+     "raw_sha256": "025214f02c36210c1d8f302be83357aa0cfdda75a1d30d5e067382863e90fbab"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 695
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 58,
+      "tap": 441,
+      "slide": 41,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 281,
+   "bandId": 5,
+   "jacketImage": "281_migikata",
+   "bgmId": "bgm281"
+  },
+  "maa": {
+   "bestdori_song_id": 281,
+   "jacket": {
+    "path": "bestdori/281/jacket-cn-1.png",
+    "server": "cn",
+    "name": "281_migikata"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/281/jacket-cn-1.png",
+   "sha256": "cbd1c305fe70252883356d8769b8aeae06ced07dd0344da77cf495c0ebfd82e0",
+   "width": 320,
+   "height": 320,
+   "bytes": 26479
+  }
+ },
+ "extra": {
+  "lyricist": "水野悠良",
+  "composer": "のりぴー",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1595916000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "みぎかたのちょう",
+  "title_en": "Butterfly on your Right Shoulder",
+  "length_s": 118.344
+ }
+}

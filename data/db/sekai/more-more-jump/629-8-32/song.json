@@ -1,0 +1,212 @@
+{
+ "game": "sekai",
+ "song_id": "629",
+ "title": "8.32",
+ "artist": "*Luna",
+ "title_romaji": "8.32",
+ "artist_romaji": "*Luna",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "110",
+ "version": "",
+ "date_added": "2025-09-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 188
+   },
+   "source": {
+    "music_difficulty_id": 3141,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 13,
+      "ex_tap": 5,
+      "tap": 41,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 337
+   },
+   "source": {
+    "music_difficulty_id": 3142,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 19,
+      "flick": 10,
+      "tap": 67,
+      "hold": 5,
+      "ex_tap": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 476
+   },
+   "source": {
+    "music_difficulty_id": 3143,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 33,
+      "tap": 110,
+      "other": 15,
+      "flick": 10,
+      "ex_tap": 49,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 659
+   },
+   "source": {
+    "music_difficulty_id": 3144,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 52,
+      "tap": 194,
+      "ex_tap": 61,
+      "flick": 22,
+      "other": 3,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 832
+   },
+   "source": {
+    "music_difficulty_id": 3145,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 70,
+      "tap": 330,
+      "flick": 29,
+      "ex_tap": 71,
+      "hold": 18,
+      "other": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 629,
+   "assetbundle": "jacket_s_629",
+   "seq": 1355001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_629.png",
+   "sha256": "5f14e86e2fc2a581c5e765e919e4baf3f6ee314b5efafefd3bcdbb11053c1719",
+   "width": 320,
+   "height": 320,
+   "bytes": 19833
+  }
+ },
+ "extra": {
+  "pronunciation": "はってんさんにー",
+  "lyricist": "*Luna",
+  "composer": "*Luna",
+  "arranger": "*Luna",
+  "published_at": 1756706400000,
+  "released_at": 1530889200000,
+  "tags": [
+   "idol"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "flower"
+    ],
+    "asset": "vs_0629_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音レン",
+     "花里みのり",
+     "桐谷遥",
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "se_0629_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "桐谷遥"
+    ],
+    "asset": "an_0629_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 110.0
+ }
+}

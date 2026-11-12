@@ -1,0 +1,221 @@
+{
+ "game": "sekai",
+ "song_id": "492",
+ "title": "私は雨",
+ "artist": "稲葉曇",
+ "title_romaji": "watashihaame",
+ "artist_romaji": "inabakumori",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "144",
+ "version": "",
+ "date_added": "2024-04-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 242
+   },
+   "source": {
+    "music_difficulty_id": 2456,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 13,
+      "tap": 56,
+      "slide": 4,
+      "ex_tap": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 289
+   },
+   "source": {
+    "music_difficulty_id": 2457,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 141,
+      "hold": 12,
+      "slide": 5,
+      "flick": 3,
+      "ex_tap": 30,
+      "other": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 506
+   },
+   "source": {
+    "music_difficulty_id": 2458,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 14,
+      "tap": 303,
+      "slide": 16,
+      "flick": 41,
+      "ex_tap": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 823
+   },
+   "source": {
+    "music_difficulty_id": 2459,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 410,
+      "other": 28,
+      "ex_tap": 94,
+      "hold": 6,
+      "slide": 27,
+      "flick": 65
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 918
+   },
+   "source": {
+    "music_difficulty_id": 2460,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 583,
+      "other": 135,
+      "ex_tap": 134,
+      "slide": 26,
+      "flick": 89,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 492,
+   "assetbundle": "jacket_s_492",
+   "seq": 2639701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_492.png",
+   "sha256": "1a1f7abd211111598c127489912cd21dd4d447cb40e9feefd680895abf45c39f",
+   "width": 320,
+   "height": 320,
+   "bytes": 13379
+  }
+ },
+ "extra": {
+  "pronunciation": "わたしはあめ",
+  "lyricist": "稲葉曇",
+  "composer": "稲葉曇",
+  "arranger": "稲葉曇",
+  "published_at": 1712728800000,
+  "released_at": 1712674800000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "歌愛ユキ"
+    ],
+    "asset": "vs_0492_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "東雲絵名",
+     "鏡音レン",
+     "宵崎奏",
+     "朝比奈まふゆ",
+     "暁山瑞希"
+    ],
+    "asset": "se_0492_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "東雲絵名"
+    ],
+    "asset": "an_0492_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鏡音リン"
+    ],
+    "asset": "an_0492_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 144.0
+ }
+}

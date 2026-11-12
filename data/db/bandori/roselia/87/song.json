@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "87",
+ "title": "残酷な天使のテーゼ",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "85-140",
+ "version": "",
+ "date_added": "2018-01-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 164
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 164
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 110,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 276
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 276
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 210,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 435
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/87/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/87/hard.json",
+     "raw_sha256": "f10a289d8ecc28d31f3f55de20d6467a991bed92af15915519e874115139a66b"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 435
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 331,
+      "hold": 31,
+      "slide": 9,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 659
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/87/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/87/expert.json",
+     "raw_sha256": "b977bbcc41cc1b60ff0ce1532eb10e08dd44f9b2d83a217b255fcef693d03640"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 659
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 486,
+      "hold": 34,
+      "slide": 27,
+      "flick": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 649
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1651125600000,
+    "maa": {
+     "path": "bestdori/87/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/87/special.json",
+     "raw_sha256": "e720cb072eaedee09e2b846e3320b0b251a4005e79fb409841709c0f8f0a3388"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 649
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 62,
+      "tap": 348,
+      "hold": 26,
+      "flick": 17
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 87,
+   "bandId": 5,
+   "jacketImage": "087_thesis",
+   "bgmId": "bgm087"
+  },
+  "maa": {
+   "bestdori_song_id": 87,
+   "jacket": {
+    "path": "bestdori/87/jacket-cn-1.png",
+    "server": "cn",
+    "name": "087_thesis"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/87/jacket-cn-1.png",
+   "sha256": "4d04bac46f8ccf815a2f977f3fb9a881f5981a8682d40366a5d3c80ac122ef2a",
+   "width": 320,
+   "height": 320,
+   "bytes": 27328
+  }
+ },
+ "extra": {
+  "lyricist": "及川眠子",
+  "composer": "佐藤英敏",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1514786400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "ざんこくなてんしのてーぜ",
+  "title_en": "A Cruel Angel's Thesis",
+  "length_s": 117.528
+ }
+}

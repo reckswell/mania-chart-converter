@@ -1,0 +1,206 @@
+{
+ "game": "sekai",
+ "song_id": "73",
+ "title": "ニア",
+ "artist": "夏代孝明",
+ "title_romaji": "nia",
+ "artist_romaji": "natsushirotakaaki",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "128",
+ "version": "",
+ "date_added": "2020-10-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 139
+   },
+   "source": {
+    "music_difficulty_id": 361,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 42,
+      "hold": 11,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 266
+   },
+   "source": {
+    "music_difficulty_id": 362,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 138,
+      "hold": 4,
+      "slide": 13,
+      "flick": 8,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 517
+   },
+   "source": {
+    "music_difficulty_id": 363,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 249,
+      "ex_tap": 23,
+      "slide": 55,
+      "hold": 3,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 702
+   },
+   "source": {
+    "music_difficulty_id": 364,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 378,
+      "ex_tap": 30,
+      "slide": 60,
+      "hold": 14,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 841
+   },
+   "source": {
+    "music_difficulty_id": 365,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 460,
+      "ex_tap": 30,
+      "slide": 75,
+      "flick": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 73,
+   "assetbundle": "jacket_s_073",
+   "seq": 1300301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_073.png",
+   "sha256": "9434d5d721129894dcba32e3f4616d688ba232ffbace8763d8dfba83354eb6c2",
+   "width": 320,
+   "height": 320,
+   "bytes": 15098
+  }
+ },
+ "extra": {
+  "pronunciation": "にあ",
+  "lyricist": "夏代孝明",
+  "composer": "夏代孝明",
+  "arranger": "渡辺拓也",
+  "published_at": 1601618400000,
+  "released_at": 1498662000000,
+  "tags": [
+   "idol",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "0073_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "花里みのり",
+     "桐谷遥"
+    ],
+    "asset": "se_0073_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "桐谷遥"
+    ],
+    "asset": "an_0073_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 128.0
+ }
+}

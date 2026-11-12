@@ -1,0 +1,61 @@
+[Song]
+{
+  Name = "Fixture Song"
+  Artist = "vsrgconv"
+  Charter = "Neversoft"
+  Offset = 0.5
+  Resolution = 192
+}
+[SyncTrack]
+{
+  0 = TS 4
+  0 = B 120000
+  768 = TS 3 2
+  768 = A 2000000
+  768 = B 180500
+}
+[Events]
+{
+  0 = E "section Intro"
+  768 = E "section Verse 1"
+}
+[ExpertSingle]
+{
+  0 = N 0 0
+  0 = S 2 192
+  64 = N 1 0
+  128 = N 1 0
+  192 = N 2 0
+  192 = N 5 0
+  384 = N 3 0
+  384 = N 6 0
+  576 = N 7 96
+  768 = N 0 0
+  768 = N 4 0
+  768 = E solo
+  832 = N 4 0
+  960 = N 1 384
+  960 = E soloend
+}
+[ExpertDoubleBass]
+{
+  0 = N 0 0
+  192 = N 7 0
+}
+[ExpertDrums]
+{
+  0 = N 0 0
+  0 = N 1 0
+  0 = N 34 0
+  96 = N 5 0
+  192 = N 32 0
+  288 = N 2 0
+  288 = S 2 192
+}
+[ExpertGHLGuitar]
+{
+  0 = N 3 0
+  0 = N 0 0
+  96 = N 8 0
+  192 = N 7 0
+}

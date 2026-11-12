@@ -1,0 +1,201 @@
+{
+ "game": "sekai",
+ "song_id": "184",
+ "title": "Hello,world!",
+ "artist": "作詞作曲：藤原 基央",
+ "title_romaji": "Hello,world!",
+ "artist_romaji": "fujiwaramotoo",
+ "genre": "Leo/need",
+ "bpm": "211",
+ "version": "",
+ "date_added": "2021-10-13",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 201
+   },
+   "source": {
+    "music_difficulty_id": 916,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 63,
+      "hold": 15,
+      "ex_tap": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 382
+   },
+   "source": {
+    "music_difficulty_id": 917,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 11,
+      "tap": 110,
+      "flick": 7,
+      "hold": 10,
+      "slide": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 572
+   },
+   "source": {
+    "music_difficulty_id": 918,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 240,
+      "slide": 50,
+      "ex_tap": 35,
+      "hold": 1,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 900
+   },
+   "source": {
+    "music_difficulty_id": 919,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 452,
+      "slide": 73,
+      "hold": 3,
+      "ex_tap": 48,
+      "flick": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 949
+   },
+   "source": {
+    "music_difficulty_id": 920,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 545,
+      "slide": 78,
+      "ex_tap": 34,
+      "flick": 64,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 184,
+   "assetbundle": "jacket_s_184",
+   "seq": 1210501
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_184.png",
+   "sha256": "41e2fc0259192079f3270b03fd13f76e7b6603ca1e15ca3e507dbc950c7a0e8f",
+   "width": 320,
+   "height": 320,
+   "bytes": 35714
+  }
+ },
+ "extra": {
+  "pronunciation": "はろーわーるど",
+  "lyricist": "藤原 基央",
+  "composer": "藤原 基央",
+  "arranger": "-",
+  "published_at": 1634104800000,
+  "released_at": 1429628400000,
+  "tags": [
+   "light_music_club",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0184_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "星乃一歌",
+     "天馬咲希",
+     "望月穂波",
+     "日野森志歩"
+    ],
+    "asset": "se_0184_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 211.0
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "417",
+ "title": "Light a fire",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "138",
+ "version": "",
+ "date_added": "2022-04-27",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 83
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 83
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 49,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 191
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 191
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 46,
+      "tap": 85,
+      "slide": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 334
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/417/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/417/hard.json",
+     "raw_sha256": "936bea3e4087e0c2af4381d94242e9c6b5bc49422f443a86e615dab082ef17b0"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 334
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 32,
+      "tap": 189,
+      "hold": 27,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 522
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/417/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/417/expert.json",
+     "raw_sha256": "2c41c5a3971548689eb8ec44c128c03e23b9829da1b422b659ccaf2d6b91e9c4"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 522
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 42,
+      "tap": 304,
+      "hold": 27,
+      "flick": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 417,
+   "bandId": 18,
+   "jacketImage": "417_light_a_fire",
+   "bgmId": "bgm417"
+  },
+  "maa": {
+   "bestdori_song_id": 417,
+   "jacket": {
+    "path": "bestdori/417/jacket-cn-1.png",
+    "server": "cn",
+    "name": "417_light_a_fire"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/417/jacket-cn-1.png",
+   "sha256": "39c018d21b6a37230646f2d93a5267f82f9b9290b9ebccb6cd200f3ceac1b7bc",
+   "width": 320,
+   "height": 320,
+   "bytes": 22394
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1651039200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "lightafire",
+  "length_s": 109.632
+ }
+}

@@ -1,0 +1,212 @@
+{
+ "game": "bandori",
+ "song_id": "409",
+ "title": "脳漿炸裂ガール",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "155",
+ "version": "",
+ "date_added": "2022-03-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 132
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 132
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 110,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 289
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 289
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "slide": 10,
+      "tap": 219,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 612
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/409/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/409/hard.json",
+     "raw_sha256": "b6354f1c030ef32000ecda3e438f55ec978cb4cdd85cff47ceef0ac080badf92"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 612
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 459,
+      "slide": 18,
+      "hold": 39,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1009
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/409/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/409/expert.json",
+     "raw_sha256": "7ab1c1394c763babbc7f727f38e5f6ebc75acf9c48fbd6405bd41e0649b70c2a"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 1009
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 649,
+      "hold": 70,
+      "flick": 27,
+      "slide": 69
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1201
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1743141600000,
+    "maa": {
+     "path": "bestdori/409/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/409/special.json",
+     "raw_sha256": "fb5c3aa589c11e0d5265e7219ec472ef6faa675054d0bf20c810e1a8b13e4af0"
+    },
+    "bestdori": {
+     "level": 29,
+     "notes": 1201
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 713,
+      "hold": 87,
+      "slide": 69,
+      "flick": 98
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 409,
+   "bandId": 18,
+   "jacketImage": "409_noushou",
+   "bgmId": "bgm409"
+  },
+  "maa": {
+   "bestdori_song_id": 409,
+   "jacket": {
+    "path": "bestdori/409/jacket-cn-1.png",
+    "server": "cn",
+    "name": "409_noushou"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/409/jacket-cn-1.png",
+   "sha256": "0e318f978a69b94e4d83714615464e2f9e6d5aff7b40d252cfb8b1bf46fbe750",
+   "width": 320,
+   "height": 320,
+   "bytes": 40927
+  }
+ },
+ "extra": {
+  "lyricist": "れるりり",
+  "composer": "れるりり",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1647669600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "のうしょうさくれつがーる",
+  "title_en": "Noushou Sakuretsu Girl",
+  "length_s": 122.376
+ }
+}

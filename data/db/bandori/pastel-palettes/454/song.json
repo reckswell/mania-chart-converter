@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "454",
+ "title": "だから、ひとりじゃない",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2024-08-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 149
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 149
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 73,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 235
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 235
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 135,
+      "hold": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 471
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/454/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/454/hard.json",
+     "raw_sha256": "faeaae75b8f9958544de88aa78d3f92d03fbbcb92fac10389c4c013dcb521a81"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 471
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 209,
+      "hold": 57,
+      "slide": 51,
+      "flick": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 620
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/454/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/454/expert.json",
+     "raw_sha256": "97bbac7e118d909c3ff7465ed0274ad422ece85d932eda54dc6dabc1f945c8d9"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 620
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 319,
+      "hold": 43,
+      "flick": 52,
+      "slide": 71
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 454,
+   "bandId": 4,
+   "jacketImage": "454_dakara_hitori_janai",
+   "bgmId": "bgm454"
+  },
+  "maa": {
+   "bestdori_song_id": 454,
+   "jacket": {
+    "path": "bestdori/454/jacket-cn-1.png",
+    "server": "cn",
+    "name": "454_dakara_hitori_janai"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/454/jacket-cn-1.png",
+   "sha256": "d2a1d4798385ff6271e15c6d06192dee378e76e6ef84a333f173618fc10338de",
+   "width": 320,
+   "height": 320,
+   "bytes": 43635
+  }
+ },
+ "extra": {
+  "lyricist": "KANATA OKAJIMA・Carlos K.",
+  "composer": "Carlos K.・加賀爪 タッド",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1723269600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "だからひとりじゃない",
+  "title_en": "Dakara, Hitori Ja Nai",
+  "length_s": 134.736
+ }
+}

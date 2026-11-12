@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "696",
+ "title": "Dazzle the Destiny",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "191",
+ "version": "",
+ "date_added": "2025-05-04",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 106
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 106
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 48,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 235
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 235
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 145,
+      "hold": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 483
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/696/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/696/hard.json",
+     "raw_sha256": "e417c63a71e0846e4d2a6105f1002f2e34b49336ca83dd84717013725902212e"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 483
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 327,
+      "flick": 19,
+      "hold": 35,
+      "slide": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 710
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/696/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/696/expert.json",
+     "raw_sha256": "4cfce472dc0154607c38aaeaa3a7a88fe5a30ec97ffc2594cec7605b0c7e6b07"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 710
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 24,
+      "tap": 564,
+      "flick": 55,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 696,
+   "bandId": 5,
+   "jacketImage": "696_dazzle_the_destiny",
+   "bgmId": "bgm696"
+  },
+  "maa": {
+   "bestdori_song_id": 696,
+   "jacket": {
+    "path": "bestdori/696/jacket-cn-1.png",
+    "server": "cn",
+    "name": "696_dazzle_the_destiny"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/696/jacket-cn-1.png",
+   "sha256": "0daac05b9fec6453f7c54bc9ba17c693d175bd16971f681f6265d0e237c80a0f",
+   "width": 320,
+   "height": 320,
+   "bytes": 43615
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1746338400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "dazzlethedestiny",
+  "length_s": 106.872
+ }
+}

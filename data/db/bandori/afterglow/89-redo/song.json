@@ -1,0 +1,209 @@
+{
+ "game": "bandori",
+ "song_id": "89",
+ "title": "Redo",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2018-01-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 170
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 170
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 120,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 285
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 285
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 219,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 478
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/89/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/89/hard.json",
+     "raw_sha256": "a089db0820b01187c93e0033c6ccf44306df342cbe3c2538802808fd865affa3"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 478
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 310,
+      "hold": 48,
+      "slide": 13,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 712
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/89/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/89/expert.json",
+     "raw_sha256": "6e001b1573dccf95c6df54e9632fcf188e01652ca67e34157953d6eee9347a2b"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 712
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 528,
+      "hold": 37,
+      "slide": 14,
+      "flick": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 713
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1574942400000,
+    "maa": {
+     "path": "bestdori/89/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/89/special.json",
+     "raw_sha256": "4df2bf00fdc04b712f08018fd8f95d49cfcd6e4bf8598ab60745920616381402"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 713
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 555,
+      "hold": 35,
+      "slide": 13,
+      "flick": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 89,
+   "bandId": 2,
+   "jacketImage": "089_redo",
+   "bgmId": "bgm089"
+  },
+  "maa": {
+   "bestdori_song_id": 89,
+   "jacket": {
+    "path": "bestdori/89/jacket-cn-1.png",
+    "server": "cn",
+    "name": "089_redo"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/89/jacket-cn-1.png",
+   "sha256": "83d9f0479c9b03f73dac293ec035489804dd9bb19f9ed635d0b637e3473566a0",
+   "width": 320,
+   "height": 320,
+   "bytes": 45670
+  }
+ },
+ "extra": {
+  "lyricist": "ミズノゲンキ",
+  "composer": "宮崎誠",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1514872800000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "redo",
+  "length_s": 97.32
+ }
+}

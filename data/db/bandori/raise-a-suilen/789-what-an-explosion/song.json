@@ -1,0 +1,145 @@
+{
+ "game": "bandori",
+ "song_id": "789",
+ "title": "WHAT AN EXPLOSION",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "150-190",
+ "version": "",
+ "date_added": "2026-05-08",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 579
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/789/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/789/hard.json",
+     "raw_sha256": "95ea64d42836a30971ee69baca1fad304354f3576f78b142fbd72c567974471e"
+    },
+    "bestdori": {
+     "notes": 579
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 19,
+      "tap": 352,
+      "hold": 82,
+      "flick": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 880
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/789/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/789/expert.json",
+     "raw_sha256": "89c74f5d4ec64e40662c11c56f3f771fb5109302c06ba38a7175ad032f292e5a"
+    },
+    "bestdori": {
+     "notes": 880
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 48,
+      "tap": 542,
+      "flick": 44,
+      "hold": 53
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 789,
+   "bandId": 18,
+   "jacketImage": "789_what_an_explosion",
+   "bgmId": "bgm789"
+  },
+  "maa": {
+   "bestdori_song_id": 789,
+   "jacket": {
+    "path": "bestdori/789/jacket-jp-1.png",
+    "server": "jp",
+    "name": "789_what_an_explosion"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/789/jacket-jp-1.png",
+   "sha256": "37091a5baf57ff68db90ecce8b8b13e8696eff5c8fa17088f23cdfd939b92b68",
+   "width": 320,
+   "height": 320,
+   "bytes": 37623
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "日高勇輝（Elements Garden）",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1778241600000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "whatanexplosion"
+ }
+}

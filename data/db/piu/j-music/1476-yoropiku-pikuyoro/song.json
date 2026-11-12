@@ -1,0 +1,386 @@
+{
+ "game": "piu",
+ "song_id": "1476",
+ "title": "Yoropiku Pikuyoro!",
+ "artist": "Bakusute Sotokanda Icchome",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "J-MUSIC",
+ "bpm": "198",
+ "version": "Prime",
+ "date_added": "",
+ "charts": {
+  "single-3": {
+   "slot": "single-3",
+   "native": "S3",
+   "level": "3",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 223
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2713,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S3",
+     "meter": "3",
+     "active": true,
+     "credit": "EXC",
+     "combo": 223,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 108,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-5": {
+   "slot": "single-5",
+   "native": "S5",
+   "level": "5",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 351
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2711,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S5",
+     "meter": "5",
+     "active": true,
+     "credit": "EXC",
+     "combo": 351,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 165,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-10": {
+   "slot": "single-10",
+   "native": "S10",
+   "level": "10",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 583
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2710,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S10",
+     "meter": "10",
+     "active": true,
+     "credit": "EXC",
+     "combo": 583,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 435,
+      "hold": 70
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 717
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2712,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S15",
+     "meter": "15",
+     "active": true,
+     "credit": "EXC",
+     "combo": 717,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 520,
+      "hold": 65
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-22": {
+   "slot": "single-22",
+   "native": "S22",
+   "level": "22",
+   "constant": null,
+   "designer": "GGWANG",
+   "note_counts": {
+    "combo": 1100
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 8267,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 10,
+     "steps_type": "pump-single",
+     "description": "S22",
+     "meter": "22",
+     "active": true,
+     "credit": "GGWANG",
+     "combo": 1100,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 816,
+      "hold": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "40 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-6": {
+   "slot": "double-6",
+   "native": "D6",
+   "level": "6",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 228
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2714,
+     "mode": "D"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-double",
+     "description": "D5",
+     "meter": "5",
+     "active": true,
+     "credit": "EXC",
+     "combo": 228,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 135,
+      "hold": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 5 differs from the PHOENIX 2 level 6: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-16": {
+   "slot": "double-16",
+   "native": "D16",
+   "level": "16",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 774
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2715,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 8,
+     "steps_type": "pump-double",
+     "description": "D16",
+     "meter": "16",
+     "active": true,
+     "credit": "EXC",
+     "combo": 774,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 470,
+      "hold": 138
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-24": {
+   "slot": "double-24",
+   "native": "D24",
+   "level": "24",
+   "constant": null,
+   "designer": "GGWANG",
+   "note_counts": {
+    "combo": 1300
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 8268,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 11,
+     "steps_type": "pump-double",
+     "description": "D24",
+     "meter": "24",
+     "active": true,
+     "credit": "GGWANG",
+     "combo": 1300,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 846,
+      "hold": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "48 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "coop-2": {
+   "slot": "coop-2",
+   "native": "CO-OP x2",
+   "level": "2",
+   "constant": null,
+   "designer": "SUNNY",
+   "note_counts": {
+    "combo": 846
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6776,
+     "mode": "C"
+    },
+    "simfile": {
+     "chart": 9,
+     "steps_type": "pump-double",
+     "description": "DP COOP 2P",
+     "meter": "99",
+     "active": true,
+     "credit": "SUNNY",
+     "combo": 846,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 848,
+      "hold": 336
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 465,
+   "game_id": "1476",
+   "card": "/img/card/384.png",
+   "first": "Prime v1.10.0",
+   "title": "Yoropiku Pikuyoro!"
+  },
+  "kalinathalie": {
+   "slug": "yoropiku_pikuyoro"
+  },
+  "simfile": {
+   "path": "12 - PRIME/1476 - Yoropiku Pikuyoro!/1476 - Yoropiku Pikuyoro!.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/12%20-%20PRIME/1476%20-%20Yoropiku%20Pikuyoro%21/1476%20-%20Yoropiku%20Pikuyoro%21.ssc",
+   "id": "1476",
+   "title": "Yoropiku Pikuyoro!",
+   "artist": "Bakusute Sotokanda Icchome"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/yoropiku_pikuyoro.jpg",
+   "sha256": "a6dc8829d6bcfc3c4d1326f81bb87d2e4c6deed8465ec66ddc54bccc3b611b82",
+   "width": 256,
+   "height": 256,
+   "bytes": 36135
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "jp": "ヨロピク ピクヨロ!",
+   "kr": "요로피쿠 피쿠요로!"
+  },
+  "simfile_notes": [
+   "D6: simfile chart 'D5' has meter 5 (re-rated)"
+  ]
+ }
+}

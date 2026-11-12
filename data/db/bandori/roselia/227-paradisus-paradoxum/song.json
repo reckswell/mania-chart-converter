@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "227",
+ "title": "Paradisus-Paradoxum",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "201",
+ "version": "",
+ "date_added": "2019-11-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 189
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 189
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 43,
+      "tap": 103
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 302
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 302
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 77,
+      "tap": 148
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 500
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/227/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/227/hard.json",
+     "raw_sha256": "e8848c5a2b4ea728c5b16ee8a8fcf78639ea391af2b8f403027042bdabcfca95"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 500
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 39,
+      "tap": 262,
+      "hold": 40,
+      "flick": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 813
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/227/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/227/expert.json",
+     "raw_sha256": "d98c4f21f4151b96b928652c7948e0b93711f9fd25c9752ae054eb1b59144961"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 813
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 56,
+      "tap": 530,
+      "hold": 30,
+      "flick": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 227,
+   "bandId": 5,
+   "jacketImage": "227_paradisus",
+   "bgmId": "bgm227"
+  },
+  "maa": {
+   "bestdori_song_id": 227,
+   "jacket": {
+    "path": "bestdori/227/jacket-cn-1.png",
+    "server": "cn",
+    "name": "227_paradisus"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/227/jacket-cn-1.png",
+   "sha256": "3623293576c743cff5082855309aac79e6fe7da60040d0eda53e9adf263adede",
+   "width": 320,
+   "height": 320,
+   "bytes": 20819
+  }
+ },
+ "extra": {
+  "lyricist": "MYTH & ROID",
+  "composer": "MYTH & ROID",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1574229600000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "paradisusparadoxum",
+  "length_s": 94.392
+ }
+}

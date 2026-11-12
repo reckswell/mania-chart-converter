@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "262",
+ "title": "うぃーきゃん☆フレフレっ！",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "160-180",
+ "version": "",
+ "date_added": "2020-03-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 164
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 164
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 122,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 289
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 289
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 219,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 415
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/262/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/262/hard.json",
+     "raw_sha256": "60ef76667c07927630c17dd4cfc2ff7713157693bb85c7347eb8942ddbfcf872"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 415
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 283,
+      "hold": 41,
+      "slide": 4,
+      "flick": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 720
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/262/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/262/expert.json",
+     "raw_sha256": "e7a17484ec2fe3f0d7e6c91ac175714a7308e770f946084bfba2028cb5353621"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 720
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 524,
+      "hold": 41,
+      "flick": 19,
+      "slide": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 262,
+   "bandId": 3,
+   "jacketImage": "262_hurehure_1",
+   "bgmId": "bgm262"
+  },
+  "maa": {
+   "bestdori_song_id": 262,
+   "jacket": {
+    "path": "bestdori/262/jacket-cn-2.png",
+    "server": "cn",
+    "name": "262_hurehure_1"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/262/jacket-cn-2.png",
+   "sha256": "f923f63f162fadb3e7994e5436c75a04ed8a0f61a0cc3e724db8d8a4aa8d5ae7",
+   "width": 320,
+   "height": 320,
+   "bytes": 48934
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1585634400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "うぃーきゃんふれふれ",
+  "title_en": "We Can☆Hurray!",
+  "length_s": 99.168
+ }
+}

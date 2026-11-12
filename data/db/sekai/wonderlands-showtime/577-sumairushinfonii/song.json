@@ -1,0 +1,204 @@
+{
+ "game": "sekai",
+ "song_id": "577",
+ "title": "スマイル*シンフォニー",
+ "artist": "DECO*27",
+ "title_romaji": "sumairushinfonii",
+ "artist_romaji": "DECO*27",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "122",
+ "version": "",
+ "date_added": "2025-02-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 121
+   },
+   "source": {
+    "music_difficulty_id": 2881,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 3,
+      "tap": 44,
+      "hold": 4,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 216
+   },
+   "source": {
+    "music_difficulty_id": 2882,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 5,
+      "tap": 135,
+      "flick": 8,
+      "slide": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 1",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 360
+   },
+   "source": {
+    "music_difficulty_id": 2883,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 29,
+      "tap": 215,
+      "slide": 20,
+      "ex_tap": 30,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 594
+   },
+   "source": {
+    "music_difficulty_id": 2884,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 41,
+      "tap": 249,
+      "slide": 60,
+      "ex_tap": 31,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 667
+   },
+   "source": {
+    "music_difficulty_id": 2885,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 96,
+      "flick": 46,
+      "tap": 349,
+      "ex_tap": 68,
+      "other": 3,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 577,
+   "assetbundle": "jacket_s_577",
+   "seq": 2548601
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_577.png",
+   "sha256": "7fe49c5aa1800516df06c268012f65c3eda131e9a91eb42f2e694e2ed865deb5",
+   "width": 320,
+   "height": 320,
+   "bytes": 32261
+  }
+ },
+ "extra": {
+  "pronunciation": "すまいるしんふぉにー",
+  "lyricist": "DECO*27",
+  "composer": "DECO*27",
+  "arranger": "煮ル果実",
+  "published_at": 1738573800000,
+  "released_at": 1737039600000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "鏡音リン",
+     "鏡音レン",
+     "KAITO"
+    ],
+    "asset": "vs_0577_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "天馬司",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0577_01"
+   }
+  ],
+  "filler_sec": 8.020500183105469,
+  "collaboration_id": 8,
+  "bpm_main": 122.0
+ }
+}

@@ -1,0 +1,234 @@
+{
+ "game": "sekai",
+ "song_id": "91",
+ "title": "ドラマツルギー",
+ "artist": "Eve",
+ "title_romaji": "doramatsurugii",
+ "artist_romaji": "Eve",
+ "genre": "Leo/need",
+ "bpm": "149",
+ "version": "",
+ "date_added": "2020-12-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 116
+   },
+   "source": {
+    "music_difficulty_id": 451,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 50,
+      "ex_tap": 5,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 284
+   },
+   "source": {
+    "music_difficulty_id": 452,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 94,
+      "hold": 7,
+      "flick": 7,
+      "slide": 19,
+      "ex_tap": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 515
+   },
+   "source": {
+    "music_difficulty_id": 453,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 50,
+      "tap": 242,
+      "ex_tap": 20,
+      "hold": 7,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 747
+   },
+   "source": {
+    "music_difficulty_id": 454,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 79,
+      "ex_tap": 16,
+      "tap": 344,
+      "flick": 32,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 862
+   },
+   "source": {
+    "music_difficulty_id": 455,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 109,
+      "flick": 54,
+      "tap": 371,
+      "hold": 8,
+      "ex_tap": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 931
+   },
+   "source": {
+    "music_difficulty_id": 4143,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 37,
+      "other": 44,
+      "tap": 328,
+      "flick": 85,
+      "ex_tap": 112,
+      "slide": 90
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 91,
+   "assetbundle": "jacket_s_091",
+   "seq": 1203501
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_091.png",
+   "sha256": "37ea9d139d31151f51f0e834471efd629083da950e0a27e3d572e4ab7f8f96c6",
+   "width": 320,
+   "height": 320,
+   "bytes": 23459
+  }
+ },
+ "extra": {
+  "pronunciation": "どらまつるぎー",
+  "lyricist": "Eve",
+  "composer": "Eve",
+  "arranger": "Numa",
+  "published_at": 1609135200000,
+  "released_at": 1507561200000,
+  "tags": [
+   "light_music_club",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0091_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "星乃一歌"
+    ],
+    "asset": "se_0091_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "星乃一歌"
+    ],
+    "asset": "an_0091_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 149.0
+ }
+}

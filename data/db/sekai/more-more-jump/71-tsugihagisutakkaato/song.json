@@ -1,0 +1,209 @@
+{
+ "game": "sekai",
+ "song_id": "71",
+ "title": "ツギハギスタッカート",
+ "artist": "とあ",
+ "title_romaji": "tsugihagisutakkaato",
+ "artist_romaji": "toa",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "139",
+ "version": "",
+ "date_added": "2019-06-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 168
+   },
+   "source": {
+    "music_difficulty_id": 351,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 65,
+      "hold": 11,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 316
+   },
+   "source": {
+    "music_difficulty_id": 352,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 162,
+      "hold": 2,
+      "slide": 35,
+      "flick": 16,
+      "ex_tap": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 583
+   },
+   "source": {
+    "music_difficulty_id": 353,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 298,
+      "slide": 64,
+      "flick": 6,
+      "hold": 16,
+      "ex_tap": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 854
+   },
+   "source": {
+    "music_difficulty_id": 354,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 488,
+      "slide": 99,
+      "hold": 3,
+      "flick": 5,
+      "ex_tap": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 861
+   },
+   "source": {
+    "music_difficulty_id": 355,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 554,
+      "flick": 75,
+      "slide": 64,
+      "hold": 2,
+      "ex_tap": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 71,
+   "assetbundle": "jacket_s_071",
+   "seq": 1300103
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_071.png",
+   "sha256": "d544231d1c90e80b54401634325993a4cf47422382ce6143a75631373a5c0920",
+   "width": 320,
+   "height": 320,
+   "bytes": 26760
+  }
+ },
+ "extra": {
+  "pronunciation": "つぎはぎすたっかーと",
+  "lyricist": "とあ",
+  "composer": "とあ",
+  "arranger": "とあ",
+  "published_at": 1560148031000,
+  "released_at": 1402498800000,
+  "tags": [
+   "idol",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "0071_01"
+   },
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "鏡音リン",
+     "MEIKO"
+    ],
+    "asset": "vs_0071_02"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "0071_02"
+   }
+  ],
+  "filler_sec": 7.177999973297119,
+  "bpm_main": 139.0
+ }
+}

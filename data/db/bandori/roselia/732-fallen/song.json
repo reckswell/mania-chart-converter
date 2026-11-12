@@ -1,0 +1,160 @@
+{
+ "game": "bandori",
+ "song_id": "732",
+ "title": "Fallen",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "193",
+ "version": "",
+ "date_added": "2025-09-14",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 181
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 181
+    }
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 333
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 333
+    }
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 727
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/732/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/732/hard.json",
+     "raw_sha256": "d8adef629755c4090b0bb1b79dcdb61c88efd4edcf68ab60f11e67f907040853"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 727
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 515,
+      "hold": 50,
+      "slide": 28,
+      "flick": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1081
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/732/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/732/expert.json",
+     "raw_sha256": "6a666714b1b8a22e021a24e4d5f612658e568632ec4ee38fb8ae7e70acd6c6d7"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 1081
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 766,
+      "hold": 56,
+      "flick": 34,
+      "slide": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 732,
+   "bandId": 5,
+   "jacketImage": "732_fallen",
+   "bgmId": "bgm732"
+  },
+  "maa": {
+   "bestdori_song_id": 732,
+   "jacket": {
+    "path": "bestdori/732/jacket-cn-1.png",
+    "server": "cn",
+    "name": "732_fallen"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/732/jacket-cn-1.png",
+   "sha256": "05e56605049b3d25ae490520d20e9f6b3685e5711be0634b8addcd75a69bc42f",
+   "width": 320,
+   "height": 320,
+   "bytes": 15850
+  }
+ },
+ "extra": {
+  "lyricist": "ryo(supercell)",
+  "composer": "ryo(supercell)",
+  "arranger": "堀川大翼（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1757829600000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "fallen",
+  "length_s": 134.352
+ }
+}

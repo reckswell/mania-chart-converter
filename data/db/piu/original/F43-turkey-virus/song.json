@@ -1,0 +1,125 @@
+{
+ "game": "piu",
+ "song_id": "F43",
+ "title": "Turkey Virus",
+ "artist": "BanYa Production",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "150-162",
+ "version": "NX Absolute",
+ "date_added": "",
+ "charts": {
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 1140
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2433,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S15",
+     "meter": "15",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1140,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 704,
+      "hold": 83
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-14": {
+   "slot": "double-14",
+   "native": "D14",
+   "level": "14",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 622
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2435,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-double",
+     "description": "D14",
+     "meter": "14",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 622,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 560,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 421,
+   "game_id": "F43",
+   "card": "/img/card/F43.png",
+   "first": "NX Absolute default",
+   "title": "Turkey Virus"
+  },
+  "kalinathalie": {
+   "slug": "turkey_virus"
+  },
+  "simfile": {
+   "path": "06 - NX ABSOLUTE/F43 - [Remix] Turkey Virus/F43 - [Remix] Turkey Virus.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/06%20-%20NX%20ABSOLUTE/F43%20-%20%5BRemix%5D%20Turkey%20Virus/F43%20-%20%5BRemix%5D%20Turkey%20Virus.ssc",
+   "id": "F43",
+   "title": "Turkey Virus",
+   "artist": "Banya Production"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/turkey_virus.jpg",
+   "sha256": "ce0559a6ab2637c6c14793ad145f9d4950149bd11914a21180cc06a0cea4e60a",
+   "width": 256,
+   "height": 256,
+   "bytes": 26242
+  }
+ },
+ "extra": {
+  "cut": "Remix",
+  "titles": {
+   "kr": "터키 바이러스"
+  },
+  "revived_in": "Prime 2 v1.00.0"
+ }
+}

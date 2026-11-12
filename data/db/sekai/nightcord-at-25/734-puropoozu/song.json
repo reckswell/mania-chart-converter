@@ -1,0 +1,200 @@
+{
+ "game": "sekai",
+ "song_id": "734",
+ "title": "プロポーズ",
+ "artist": "内緒のピアス",
+ "title_romaji": "puropoozu",
+ "artist_romaji": "naishonopiasu",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "126",
+ "version": "",
+ "date_added": "2026-06-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 174
+   },
+   "source": {
+    "music_difficulty_id": 3666,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 46,
+      "hold": 10,
+      "ex_tap": 10,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 249
+   },
+   "source": {
+    "music_difficulty_id": 3667,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 19,
+      "ex_tap": 33,
+      "tap": 69,
+      "flick": 5,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 549
+   },
+   "source": {
+    "music_difficulty_id": 3668,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 5,
+      "tap": 149,
+      "slide": 50,
+      "ex_tap": 14,
+      "flick": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 830
+   },
+   "source": {
+    "music_difficulty_id": 3669,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 109,
+      "tap": 227,
+      "ex_tap": 60,
+      "flick": 104,
+      "other": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1; stacked taps merged: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1116
+   },
+   "source": {
+    "music_difficulty_id": 3670,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 409,
+      "ex_tap": 165,
+      "other": 40,
+      "flick": 112,
+      "slide": 99,
+      "hold": 55
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 734,
+   "assetbundle": "jacket_s_734",
+   "seq": 1665001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_734.png",
+   "sha256": "da1e86f05eed589797942fae1c2d6a9a978b83e80ece967cbc2efb2766b9be8d",
+   "width": 320,
+   "height": 320,
+   "bytes": 29032
+  }
+ },
+ "extra": {
+  "pronunciation": "ぷろぽーず",
+  "lyricist": "内緒のピアス",
+  "composer": "内緒のピアス",
+  "arranger": "内緒のピアス",
+  "published_at": 1780293600000,
+  "released_at": 1688914800000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "可不"
+    ],
+    "asset": "vs_0734_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "巡音ルカ",
+     "朝比奈まふゆ",
+     "暁山瑞希"
+    ],
+    "asset": "se_0734_01"
+   }
+  ],
+  "filler_sec": 8.285699844360352,
+  "bpm_main": 126.0
+ }
+}

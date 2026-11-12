@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "15",
+ "title": "Don’t say “lazy”",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "181",
+ "version": "",
+ "date_added": "2017-03-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 167
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 167
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 163,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 280
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 280
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 216,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 505
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/15/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/15/hard.json",
+     "raw_sha256": "40f8ba3bfcd0cabbd9685e14895d8d3ae6e06f51be39adfc43727f8932476fb0"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 505
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 284,
+      "flick": 13,
+      "hold": 97,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 925
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/15/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/15/expert.json",
+     "raw_sha256": "5cf929a817cae59fe73ef2b8313ef667fab4b1bbe6c135ddbbbf723c6476953b"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 925
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 304,
+      "flick": 15,
+      "hold": 133,
+      "slide": 112
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 763
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1534593600000,
+    "maa": {
+     "path": "bestdori/15/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/15/special.json",
+     "raw_sha256": "39764ac8c9f0ac27193e3a8d5b13c010e3d405c736f4a26d5d143e2f6e2b87cd"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 763
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 451,
+      "flick": 29,
+      "hold": 63,
+      "slide": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 15,
+   "bandId": 2,
+   "jacketImage": "dont_say_lazy",
+   "bgmId": "bgm015"
+  },
+  "maa": {
+   "bestdori_song_id": 15,
+   "jacket": {
+    "path": "bestdori/15/jacket-cn-1.png",
+    "server": "cn",
+    "name": "dont_say_lazy"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/15/jacket-cn-1.png",
+   "sha256": "a41711bb27c2bd0f8307b4139a8e2ec13c7a6e0a3db36e4c269d8727dd11c3b9",
+   "width": 320,
+   "height": 320,
+   "bytes": 22522
+  }
+ },
+ "extra": {
+  "lyricist": "大森祥子",
+  "composer": "前澤寛之",
+  "arranger": "母里治樹（Elements Garden）/加納望",
+  "tag": "anime",
+  "published_at": 1489989600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "dontsaylazy",
+  "title_en": "Don't Say \"lazy\"",
+  "length_s": 126.6
+ }
+}

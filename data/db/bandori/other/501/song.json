@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "501",
+ "title": "惑星ループ",
+ "artist": "Pastel＊Palettes×パレオ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes×パレオ",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2023-05-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 162
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 162
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 138,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 279
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 279
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 217,
+      "hold": 22,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 546
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/501/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/501/hard.json",
+     "raw_sha256": "6f09f49e652d5984c6de2b4f6d8cbaaee006dad665116c73b0f6335426525758"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 546
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 393,
+      "hold": 26,
+      "slide": 40,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 823
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/501/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/501/expert.json",
+     "raw_sha256": "9f46c685ee9fe8fa51c5967f7b7d1fee17e3f2ebddfa4e2fe704d214899aeba1"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 823
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 620,
+      "hold": 45,
+      "slide": 41,
+      "flick": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 501,
+   "bandId": 65,
+   "jacketImage": "501_wakusei_loop",
+   "bgmId": "bgm501"
+  },
+  "maa": {
+   "bestdori_song_id": 501,
+   "jacket": {
+    "path": "bestdori/501/jacket-cn-1.png",
+    "server": "cn",
+    "name": "501_wakusei_loop"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/501/jacket-cn-1.png",
+   "sha256": "cfadebb33d01f7aca9821533e3cb3d2c2468229f60aa5c71916589b12b9a7b7d",
+   "width": 320,
+   "height": 320,
+   "bytes": 15782
+  }
+ },
+ "extra": {
+  "lyricist": "ナユタン星人",
+  "composer": "ナユタン星人",
+  "arranger": "Seonoo Kim（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1685512800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "わくせいるーぷ",
+  "title_en": "Planet Loop",
+  "length_s": 128.52
+ }
+}

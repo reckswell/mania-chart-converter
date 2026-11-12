@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "395",
+ "title": "Sparkling Daydream",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "175",
+ "version": "",
+ "date_added": "2022-03-18",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 113
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 113
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 81,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 212
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 212
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 128,
+      "hold": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 446
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/395/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/395/hard.json",
+     "raw_sha256": "e429edc5aae9cf9e2218044bab21b87e35dfd2136c6bcfe9be5ce378f6b1528b"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 446
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 30,
+      "tap": 257,
+      "hold": 44,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 585
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/395/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/395/expert.json",
+     "raw_sha256": "a110cb2ab72d017ec1d797fe55f3ab6be54aacdd02c5565180fc5601690feffe"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 585
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 35,
+      "tap": 356,
+      "hold": 42,
+      "flick": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 774
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1742882400000,
+    "maa": {
+     "path": "bestdori/395/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/395/special.json",
+     "raw_sha256": "3aa3c391356460877778b092e3de809b6a012db61e6f9875fe126a3918d3aba7"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 774
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 450,
+      "slide": 58,
+      "flick": 83,
+      "hold": 51
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 395,
+   "bandId": 4,
+   "jacketImage": "395_sparking",
+   "bgmId": "bgm395"
+  },
+  "maa": {
+   "bestdori_song_id": 395,
+   "jacket": {
+    "path": "bestdori/395/jacket-cn-1.png",
+    "server": "cn",
+    "name": "395_sparking"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/395/jacket-cn-1.png",
+   "sha256": "18b6ed17674cb09a73c246834dedfb4ca2d2ac56cc0e0bc266bf4b80584d23ab",
+   "width": 320,
+   "height": 320,
+   "bytes": 44929
+  }
+ },
+ "extra": {
+  "lyricist": "ZAQ",
+  "composer": "ZAQ",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1647583200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "sparklingdaydream",
+  "length_s": 100.176
+ }
+}

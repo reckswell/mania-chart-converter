@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "651",
+ "title": "愛包ダンスホール",
+ "artist": "Pastel＊Palettes×蘭",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes×蘭",
+ "bpm": "141",
+ "version": "",
+ "date_added": "2024-12-27",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 134
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 134
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 88,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 253
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 253
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 157,
+      "hold": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 618
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/651/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/651/hard.json",
+     "raw_sha256": "f0d75707bdb9a03f1d87fccb15d115938a311be03217979186db1cc8d3d14f76"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 618
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 340,
+      "slide": 53,
+      "hold": 42,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 854
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/651/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/651/expert.json",
+     "raw_sha256": "62b21ca89c7126c920e3b006a01918e34228f6a0260b6e9bb31488107750e8b5"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 854
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 441,
+      "slide": 95,
+      "hold": 50,
+      "flick": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 651,
+   "bandId": 80,
+   "jacketImage": "651_ai_pai",
+   "bgmId": "bgm651"
+  },
+  "maa": {
+   "bestdori_song_id": 651,
+   "jacket": {
+    "path": "bestdori/651/jacket-cn-1.png",
+    "server": "cn",
+    "name": "651_ai_pai"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/651/jacket-cn-1.png",
+   "sha256": "242ac977a2c4144871fc3ea7f19a3b94cb4654bbba5d8fb5825d159dbebc8281",
+   "width": 320,
+   "height": 320,
+   "bytes": 29565
+  }
+ },
+ "extra": {
+  "lyricist": "Gohgo",
+  "composer": "涼木シンジ、Gohgo",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1735279200000,
+  "closed_at": 4122500400000,
+  "music_data_type": "normal",
+  "ruby": "あいぱいだんすほーる",
+  "title_en": "Heart Pie Dancehall",
+  "length_s": 131.112
+ }
+}

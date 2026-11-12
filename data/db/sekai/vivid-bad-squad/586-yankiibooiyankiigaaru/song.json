@@ -1,0 +1,205 @@
+{
+ "game": "sekai",
+ "song_id": "586",
+ "title": "ヤンキーボーイ・ヤンキーガール",
+ "artist": "トーマ",
+ "title_romaji": "yankiibooiyankiigaaru",
+ "artist_romaji": "tooma",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "125",
+ "version": "",
+ "date_added": "2025-12-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 191
+   },
+   "source": {
+    "music_difficulty_id": 2926,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 7,
+      "tap": 49,
+      "ex_tap": 10,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 299
+   },
+   "source": {
+    "music_difficulty_id": 2927,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 10,
+      "flick": 11,
+      "tap": 114,
+      "ex_tap": 15,
+      "slide": 19,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 575
+   },
+   "source": {
+    "music_difficulty_id": 2928,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 282,
+      "slide": 22,
+      "ex_tap": 78,
+      "flick": 38,
+      "other": 13,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 903
+   },
+   "source": {
+    "music_difficulty_id": 2929,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 25,
+      "other": 21,
+      "tap": 375,
+      "slide": 64,
+      "ex_tap": 95,
+      "flick": 58
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1087
+   },
+   "source": {
+    "music_difficulty_id": 2930,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 15,
+      "tap": 547,
+      "other": 77,
+      "ex_tap": 181,
+      "flick": 84,
+      "slide": 72
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 586,
+   "assetbundle": "jacket_s_586",
+   "seq": 1459201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_586.png",
+   "sha256": "69255cdd8e9cabc5c9958ccfaa03b17b0f5719052c4a6414bdd2d9ae013681ca",
+   "width": 320,
+   "height": 320,
+   "bytes": 41424
+  }
+ },
+ "extra": {
+  "pronunciation": "やんきーぼーいやんきーがーる",
+  "lyricist": "トーマ",
+  "composer": "トーマ",
+  "arranger": "トーマ",
+  "published_at": 1767160800000,
+  "released_at": 1362409200000,
+  "tags": [
+   "street"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "GUMI"
+    ],
+    "asset": "vs_0586_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "KAITO",
+     "小豆沢こはね",
+     "白石杏",
+     "東雲彰人",
+     "青柳冬弥"
+    ],
+    "asset": "se_0586_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 125.0
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "101",
+ "title": "SAKURAスキップ",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "165",
+ "version": "",
+ "date_added": "2018-02-17",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 135
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 135
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 103,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 240
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 240
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 210,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 471
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/101/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/101/hard.json",
+     "raw_sha256": "0505efde9c3667657d5798ad567f5ad46cf9164338b3ddf31bec0d116f562683"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 471
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 330,
+      "hold": 27,
+      "slide": 24,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 650
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/101/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/101/expert.json",
+     "raw_sha256": "4a577b4aded8e146be6f0829251ca26aaee1ec9ed1a1819334c3bd6ce7c467b0"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 650
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 481,
+      "hold": 43,
+      "slide": 19,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 101,
+   "bandId": 4,
+   "jacketImage": "101_sakura_skip",
+   "bgmId": "bgm101"
+  },
+  "maa": {
+   "bestdori_song_id": 101,
+   "jacket": {
+    "path": "bestdori/101/jacket-cn-1.png",
+    "server": "cn",
+    "name": "101_sakura_skip"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/101/jacket-cn-1.png",
+   "sha256": "f3e23ce0eb1a0af808c8669faf92c5e9ec1ab660267f0a920c5761dae046e9d4",
+   "width": 320,
+   "height": 320,
+   "bytes": 18563
+  }
+ },
+ "extra": {
+  "lyricist": "KOCHO",
+  "composer": "奥井康介",
+  "arranger": "末益涼太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1518868800000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "sakuraすきっぷ",
+  "title_en": "SAKURA SKIP",
+  "length_s": 104.784
+ }
+}

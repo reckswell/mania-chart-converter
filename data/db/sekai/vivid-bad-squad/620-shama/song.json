@@ -1,0 +1,220 @@
+{
+ "game": "sekai",
+ "song_id": "620",
+ "title": "紗痲",
+ "artist": "煮ル果実",
+ "title_romaji": "shama",
+ "artist_romaji": "nirukajitsu",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "160",
+ "version": "",
+ "date_added": "2025-05-09",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 275
+   },
+   "source": {
+    "music_difficulty_id": 3096,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 81,
+      "ex_tap": 5,
+      "hold": 20,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 360
+   },
+   "source": {
+    "music_difficulty_id": 3097,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 180,
+      "hold": 16,
+      "ex_tap": 9,
+      "slide": 14,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 761
+   },
+   "source": {
+    "music_difficulty_id": 3098,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 13,
+      "tap": 338,
+      "ex_tap": 80,
+      "flick": 43,
+      "slide": 39,
+      "other": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1088
+   },
+   "source": {
+    "music_difficulty_id": 3099,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 97,
+      "slide": 93,
+      "ex_tap": 101,
+      "tap": 487,
+      "other": 13,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1192
+   },
+   "source": {
+    "music_difficulty_id": 3100,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 144,
+      "slide": 83,
+      "tap": 580,
+      "ex_tap": 123,
+      "hold": 16,
+      "other": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 620,
+   "assetbundle": "jacket_s_620",
+   "seq": 1451801
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_620.png",
+   "sha256": "1918f7c1791f2ffbff16b61936818c569f7f0564a7e79724b43752a3b9298e9b",
+   "width": 320,
+   "height": 320,
+   "bytes": 11880
+  }
+ },
+ "extra": {
+  "pronunciation": "しゃま",
+  "lyricist": "煮ル果実",
+  "composer": "煮ル果実",
+  "arranger": "煮ル果実",
+  "published_at": 1746770400000,
+  "released_at": 1538924400000,
+  "tags": [
+   "street"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "flower"
+    ],
+    "asset": "vs_0620_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音レン",
+     "小豆沢こはね",
+     "白石杏",
+     "東雲彰人",
+     "青柳冬弥"
+    ],
+    "asset": "se_0620_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "東雲彰人"
+    ],
+    "asset": "an_0620_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "青柳冬弥"
+    ],
+    "asset": "an_0620_02"
+   }
+  ],
+  "filler_sec": 8.984999656677246,
+  "bpm_main": 160.0
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "590",
+ "title": "ノンブレス・オブリージュ",
+ "artist": "MyGO!!!!!",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "MyGO!!!!!",
+ "bpm": "148",
+ "version": "",
+ "date_added": "2024-03-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 189
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 189
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 35,
+      "tap": 119
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 337
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 337
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 60,
+      "tap": 191,
+      "slide": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 605
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/590/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/590/hard.json",
+     "raw_sha256": "7b32eff6d734cec4ddc0b663a5f8fe8dff4744482478cab1baf0cc6ca3bbcee3"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 605
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 76,
+      "tap": 376,
+      "hold": 19,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 921
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/590/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/590/expert.json",
+     "raw_sha256": "65ae7699f49851b9bda8c5da9228e0b9d09779f7f21a7263547119a6afbfd24f"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 921
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 55,
+      "tap": 539,
+      "hold": 97,
+      "flick": 51
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 590,
+   "bandId": 45,
+   "jacketImage": "590_non_breath",
+   "bgmId": "bgm590"
+  },
+  "maa": {
+   "bestdori_song_id": 590,
+   "jacket": {
+    "path": "bestdori/590/jacket-cn-1.png",
+    "server": "cn",
+    "name": "590_non_breath"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/590/jacket-cn-1.png",
+   "sha256": "675580a3ac1881cec4c7d168983888cc8e863c3f92d300da465925184e195cd8",
+   "width": 320,
+   "height": 320,
+   "bytes": 25143
+  }
+ },
+ "extra": {
+  "lyricist": "ピノキオピー",
+  "composer": "ピノキオピー",
+  "arranger": "小木岳司",
+  "tag": "anime",
+  "published_at": 1710828000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "のんぶれすおぶりーじゅ",
+  "title_en": "Non-Breath Oblige",
+  "length_s": 131.4
+ }
+}

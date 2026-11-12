@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "157",
+ "title": "エクストラ・マジック・アワー",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2018-12-18",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 142
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 142
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 78,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 226
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 226
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 146,
+      "hold": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 413
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/157/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/157/hard.json",
+     "raw_sha256": "b3f4c8a062476d168f8d8a5a263376473c1600b8be9f9ead8758deab540a7409"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 413
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 240,
+      "slide": 26,
+      "hold": 37,
+      "flick": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 782
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/157/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/157/expert.json",
+     "raw_sha256": "69e5404875c64a6748d871f5b82acacb44bc54a50377893e01e7ab085d14cfa9"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 782
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 460,
+      "slide": 25,
+      "flick": 66,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 157,
+   "bandId": 3,
+   "jacketImage": "157_extra_magic",
+   "bgmId": "bgm157"
+  },
+  "maa": {
+   "bestdori_song_id": 157,
+   "jacket": {
+    "path": "bestdori/157/jacket-cn-1.png",
+    "server": "cn",
+    "name": "157_extra_magic"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/157/jacket-cn-1.png",
+   "sha256": "36c61709d4c7376adf8708b6058fb1d90a94401d45b1eef22ddf72958af2603d",
+   "width": 320,
+   "height": 320,
+   "bytes": 33355
+  }
+ },
+ "extra": {
+  "lyricist": "藤林聖子",
+  "composer": "鴇沢直",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1545134400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "えくすとらまじっくあわー",
+  "title_en": "Extra Magic Hour",
+  "length_s": 97.392
+ }
+}

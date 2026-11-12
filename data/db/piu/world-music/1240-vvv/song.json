@@ -1,0 +1,197 @@
+{
+ "game": "piu",
+ "song_id": "1240",
+ "title": "VVV",
+ "artist": "Zig Zag",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "WORLD MUSIC",
+ "bpm": "310",
+ "version": "Fiesta 2",
+ "date_added": "",
+ "charts": {
+  "single-18": {
+   "slot": "single-18",
+   "native": "S18",
+   "level": "18",
+   "constant": null,
+   "designer": "SANDSTORM",
+   "note_counts": {
+    "combo": 1186
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1221,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-single",
+     "description": "S18",
+     "meter": "18",
+     "active": true,
+     "credit": "Sandstorm",
+     "combo": 1186,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 149,
+      "tap": 552
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "4 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-23": {
+   "slot": "single-23",
+   "native": "S23",
+   "level": "23",
+   "constant": null,
+   "designer": "MINAMI",
+   "note_counts": {
+    "combo": 1046
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1222,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 8,
+     "steps_type": "pump-single",
+     "description": "S23",
+     "meter": "23",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1046,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 39,
+      "tap": 748
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "4 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-17": {
+   "slot": "double-17",
+   "native": "D17",
+   "level": "17",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 844
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1219,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 14,
+     "steps_type": "pump-double",
+     "description": "D17",
+     "meter": "17",
+     "active": true,
+     "credit": "HP",
+     "combo": 844,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 143,
+      "tap": 442
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "3 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-20": {
+   "slot": "double-20",
+   "native": "D20",
+   "level": "20",
+   "constant": null,
+   "designer": "SANDSTORM",
+   "note_counts": {
+    "combo": 1136
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1220,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 16,
+     "steps_type": "pump-double",
+     "description": "D19",
+     "meter": "19",
+     "active": true,
+     "credit": "Sandstorm",
+     "combo": 1136,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 139,
+      "tap": 552
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "4 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 19 differs from the PHOENIX 2 level 20: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 209,
+   "card": "/img/card/140.png",
+   "first": "Fiesta 2 v1.50",
+   "title": "VVV"
+  },
+  "kalinathalie": {
+   "slug": "vvv"
+  },
+  "simfile": {
+   "path": "10 - FIESTA 2/(1) 1240 - VVV/1240 - VVV.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/10%20-%20FIESTA%202/%281%29%201240%20-%20VVV/1240%20-%20VVV.ssc",
+   "id": "1240",
+   "title": "VVV",
+   "artist": "ZiGZaG"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/vvv.jpg",
+   "sha256": "df02028bbe4f8a587b3ff3021e1d8a47f10b971cbafb9dca1914bd8d212d921e",
+   "width": 256,
+   "height": 256,
+   "bytes": 28731
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "simfile_notes": [
+   "D20: simfile chart 'D19' has meter 19 (re-rated)"
+  ]
+ }
+}

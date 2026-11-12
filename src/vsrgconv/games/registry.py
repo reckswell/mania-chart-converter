@@ -6,9 +6,12 @@ slot; the native name is always kept beside it.
 """
 from __future__ import annotations
 
+import json
 import re
 import unicodedata
-from dataclasses import dataclass, field
+from pathlib import Path
+from dataclasses import dataclass, field, fields
+from typing import Any
 
 LADDER = ["easy", "normal", "hard", "expert", "master", "extra", "special"]
 
@@ -22,7 +25,38 @@ class Game:
     difficulties: dict[str, str]   # native key (as sources spell it, lowercased) -> canonical slot
     native_names: dict[str, str]   # native key -> display name
     genres: dict[str, str] = field(default_factory=dict)  # native genre -> slug
-    status: str = "planned"        # planned | in-progress | working
+    status: str = "planned"        # planned | in-progress | working | candidate (known, nothing to read it yet)
+    origin: str = "built-in"       # built-in | candidate | the definition file a user added it with
+    chart_format: str = ""         # the format its charts come in, e.g. "stepmania", "c2s", "simai"
+    notes: str = ""
+
+    def to_dict(self) -> dict[str, Any]:
+        return {f.name: getattr(self, f.name) for f in fields(self) if f.name != "origin"}
+
+    @classmethod
+    def from_dict(cls, d: dict[str, Any], origin: str = "built-in") -> "Game":
+        """A game from a definition file (data/games/<key>.json; docs/adding-a-game.md). Only `key` and `name` are
+        required; difficulty keys are lower-cased like the built-in games'."""
+        missing = [k for k in ("key", "name") if not d.get(k)]
+        if missing:
+            raise ValueError(f"game definition {origin}: missing {', '.join(missing)}")
+        if not re.fullmatch(r"[a-z0-9][a-z0-9_-]*", d["key"]):
+            raise ValueError(f"game definition {origin}: key {d['key']!r} must be lower-case letters, digits, - or _")
+        diffs = {str(k).lower(): str(v) for k, v in d.get("difficulties", {}).items()}
+        bad = sorted({v for v in diffs.values() if _ladder_base(v) not in LADDER})
+        if bad:
+            raise ValueError(f"game definition {origin}: {', '.join(bad)} not on the ladder ({', '.join(LADDER)}), "
+                             f"optionally with a style prefix such as double-")
+        return cls(key=d["key"], name=d["name"], lanes=int(d.get("lanes", 4)),
+                   variable_width=bool(d.get("variable_width", False)), difficulties=diffs,
+                   native_names={str(k).lower(): str(v) for k, v in d.get("native_names", {}).items()},
+                   genres=dict(d.get("genres", {})), status=d.get("status", "planned"), origin=origin,
+                   chart_format=d.get("chart_format", ""), notes=d.get("notes", ""))
+
+
+def _ladder_base(slot: str) -> str:
+    """"double-expert" -> "expert", "special-2" -> "special"."""
+    return re.sub(r"-\d+$", "", slot).rsplit("-", 1)[-1]
 
 
 GAMES: dict[str, Game] = {}
@@ -56,50 +90,149 @@ _add(Game(
     genres={"VIRTUAL SINGER": "virtual-singer", "Leo/need": "leo-need", "MORE MORE JUMP!": "more-more-jump",
             "Vivid BAD SQUAD": "vivid-bad-squad", "ワンダーランズ×ショウタイム": "wonderlands-showtime",
             "25時、ナイトコードで。": "nightcord-at-25", "その他": "other"},
+    status="in-progress",
 ))
 _add(Game(
     key="bandori", name="BanG Dream! Girls Band Party!", lanes=7, variable_width=False,
     difficulties={"easy": "easy", "normal": "normal", "hard": "hard", "expert": "expert", "special": "master"},
     native_names={k: k.upper() for k in ["easy", "normal", "hard", "expert", "special"]},
+    # Genre = band name (masterBandMap). Main bands get a folder each; every one-off unit or collaboration goes to
+    # "other", as in the game's band filter (listed so "Afterglow×香澄" does not slugify into afterglow/). New units
+    # show up in the catalog report as `unmapped_bands` (docs/sources/bandori.md).
+    genres={"Poppin'Party": "poppin-party", "Afterglow": "afterglow", "ハロー、ハッピーワールド！": "hello-happy-world",
+            "Pastel＊Palettes": "pastel-palettes", "Roselia": "roselia", "RAISE A SUILEN": "raise-a-suilen",
+            "Morfonica": "morfonica", "MyGO!!!!!": "mygo", "Ave Mujica": "ave-mujica",
+            **dict.fromkeys([
+                "Glitter*Green", "Afterglow×香澄", "Poppin'Party×グリグリ", "戸山香澄", "花園たえ", "牛込りみ", "山吹沙綾",
+                "市ヶ谷有咲", "GBP!スペシャルバンド", "ハロー、ハッピーワールド！×蘭×彩", "香澄×蘭×彩×友希那×こころ",
+                "彩×モカ×リサ×花音×つぐみ", "Roselia×蘭", "Poppin'Party×彩×こころ", "Poppin'Party×友希那", "Afterglow×こころ",
+                "コラボレーション", "RAISE A SUILEN×友希那", "Pastel＊Palettes×こころ×ましろ", "Poppin'Party×鈴木このみ",
+                "Poppin'Party×Pastel＊Palettes×Morfonica", "Roselia×Afterglow", "RAISE A SUILEN×ハロー、ハッピーワールド！",
+                "ハロー、ハッピーワールド！×Machico", "香澄×蘭×彩×友希那×こころ×ましろ×レイヤ", "花園たえ×レイヤ",
+                "Poppin'Party×ときのそら", "Pastel＊Palettes×湊あくあ", "ハロー、ハッピーワールド！×白上フブキ",
+                "Afterglow×FLOW", "FLOW", "ClariS × 丸山彩 from Pastel＊Palettes", "Roselia×レイヤ",
+                "ハロー、ハッピーワールド！×彩×ましろ", "Pastel＊Palettes×ClariS", "レイヤ×紗夜×沙綾×ミッシェル×瑠唯",
+                "CiRCLE THANKS PARTY！スペシャルバンド", "Poppin'Party×夏希", "Morfonica×fhána", "Roselia×いとうかなこ",
+                "RAISE A SUILEN×MYTH & ROID", "ハロー、ハッピーワールド！×P丸様。", "Poppin'Party×P丸様。",
+                "ハロー、ハッピーワールド！×香澄×有咲×イヴ", "Afterglow×96猫", "Morfonica×友希那", "Roselia×＋α／あるふぁきゅん。",
+                "Afterglow×レイヤ", "彩×日菜×千聖×麻弥×友希那×紗夜×リサ×燐子×薫×花音", "Pastel＊Palettes×有咲×つぐみ×ましろ",
+                "kemu feat. 夢ノ結唱 POPY×夢ノ結唱 ROSE", "Poppin'Party×ましろ", "ハロー、ハッピーワールド！×蘭",
+                "Pastel＊Palettes×パレオ", "ますかっと feat. 夢ノ結唱 POPY", "Pastel＊Palettes 日菜×千聖×麻弥×イヴ",
+                "メガテラ・ゼロ feat. 夢ノ結唱 POPY", "Roselia×ロボ子さん×常闇トワ×沙花叉クロヱ", "Roselia×沙花叉クロヱ",
+                "RAISE A SUILEN×星街すいせい", "Afterglow×宝鐘マリン", "Morfonica×雪花ラミィ", "MyGO!!!!!×獅白ぼたん",
+                "john feat. 夢ノ結唱 ROSE", "ラプラス・ダークネス", "Pastel＊Palettes×花音", "あこがれの共演",
+                "Pastel＊Palettes×蘭", "Poppin'Party×燈", "ハロー、ハッピーワールド！×ましろ", "I♡インドア", "夢ノ結唱 ROSE",
+                "CRYCHIC", "羽沢珈琲店にようこそ♪", "優雅なティータイムを♪", "友希那×愛音×りみ×つくし×つぐみ", "ぽわぽわが～るず",
+                "クールビューティーズ", "香澄×蘭×彩×友希那×こころ×ましろ×レイヤ×燈×ドロリス×あられ", "Poppin'Party×ハローキティ",
+                "Pastel＊Palettes×マイメロディ", "夢ノ結唱 PASTEL", "夢ノ結唱 HALO", "Poppin'Party×蘭", "Morfonica×燈",
+                "Pastel＊Palettes×友希那", "ハロー、ハッピーワールド！×レイヤ", "スキを貫け♡", "SISTER'S QUARTET",
+                "さんふらわー！", "ぺぺ（CV: Machico）", "星降るティーパーティー", "PINKISH!!!!", "GO OUR WAYS！", "月島まりな",
+                "モカ×つくし×愛音", "有咲×ひまり×友希那×燐子×ミッシェル", "麻弥×瑠唯×燈"], "other")},
+    status="in-progress",
 ))
 _add(Game(
     key="sdvx", name="SOUND VOLTEX", lanes=6, variable_width=False,   # 4 BT + 2 FX; lasers via KNOB notes
+    # NOV/ADV/EXH, then one 4th chart per song (MXM/INF/GRV/HVN/VVD/XCD/NBL) = master, ULT (5th) = extra.
+    # A song never has two 4th charts (checked); if one did, the second would go to master-2 (sources/sdvx.py).
     difficulties={"nov": "normal", "adv": "hard", "exh": "expert", "mxm": "master", "inf": "master",
-                  "grv": "master", "hvn": "master", "vvd": "master", "xcd": "master"},
+                  "grv": "master", "hvn": "master", "vvd": "master", "xcd": "master", "nbl": "master",
+                  "ult": "extra",
+                  "novice": "normal", "advanced": "hard", "exhaust": "expert", "maximum": "master",
+                  "infinite": "master", "gravity": "master", "heavenly": "master", "vivid": "master",
+                  "exceed": "master", "nabla": "master", "ultimate": "extra"},
     native_names={"nov": "NOVICE", "adv": "ADVANCED", "exh": "EXHAUST", "mxm": "MAXIMUM", "inf": "INFINITE",
-                  "grv": "GRAVITY", "hvn": "HEAVENLY", "vvd": "VIVID", "xcd": "EXCEED"},
+                  "grv": "GRAVITY", "hvn": "HEAVENLY", "vvd": "VIVID", "xcd": "EXCEED", "nbl": "NABLA",
+                  "ult": "ULTIMATE"},
+    genres={"FLOOR": "floor", "BEMANI": "bemani", "東方アレンジ": "touhou-arrange", "SDVXオリジナル": "sdvx-original",
+            "ボーカロイド": "vocaloid", "その他": "other", "EXIT TUNES": "exit-tunes",
+            "ひなビタ♪/バンめし♪": "hinabita-banmeshi", "POPS&アニメ": "pops-anime", "": "unknown"},
 ))
 _add(Game(
-    key="ddr", name="DanceDanceRevolution", lanes=4, variable_width=False,
+    key="ddr", name="DanceDanceRevolution", lanes=4, variable_width=False,   # SINGLE 4 panels; DOUBLE charts are 8
     difficulties={"beginner": "easy", "basic": "normal", "difficult": "hard", "expert": "expert",
-                  "challenge": "master"},
-    native_names={k: k.upper() for k in ["beginner", "basic", "difficult", "expert", "challenge"]},
+                  "challenge": "master",
+                  # second play style: "double-<slot>", 8 lanes (docs/sources/ddr.md)
+                  "double basic": "double-normal", "double difficult": "double-hard",
+                  "double expert": "double-expert", "double challenge": "double-master"},
+    native_names={**{k: k.upper() for k in ["beginner", "basic", "difficult", "expert", "challenge"]},
+                  **{f"double {k}": f"DOUBLE {k.upper()}" for k in ["basic", "difficult", "expert", "challenge"]}},
+    # genre = the version folder the song was added in (DDRCardDraw `folder`); slugs sort in release order
+    genres={"DanceDanceRevolution 1st Mix": "01-1st-mix", "DanceDanceRevolution 2nd Mix": "02-2nd-mix",
+            "DanceDanceRevolution 3rd Mix": "03-3rd-mix", "DanceDanceRevolution 4th Mix": "04-4th-mix",
+            "DanceDanceRevolution 5th Mix": "05-5th-mix", "DDRMAX -DanceDanceRevolution 6thMIX-": "06-ddrmax",
+            "DDRMAX2 -DanceDanceRevolution 7thMIX-": "07-ddrmax2", "DanceDanceRevolution EXTREME": "08-extreme",
+            "DanceDanceRevolution SuperNOVA": "09-supernova", "DanceDanceRevolution SuperNOVA2": "10-supernova2",
+            "DanceDanceRevolution X": "11-x", "DanceDanceRevolution X2": "12-x2",
+            "DanceDanceRevolution X3 vs 2nd MIX": "13-x3-vs-2ndmix", "DanceDanceRevolution (2013)": "14-2013",
+            "DanceDanceRevolution (2014)": "15-2014", "DanceDanceRevolution A": "16-a",
+            "DanceDanceRevolution A20": "17-a20", "DanceDanceRevolution A20 PLUS": "18-a20-plus",
+            "DanceDanceRevolution A3": "19-a3", "DanceDanceRevolution World": "20-world"},
+    status="in-progress",
 ))
 _add(Game(
-    key="piu", name="PUMP IT UP", lanes=5, variable_width=False,
-    difficulties={},   # level-banded; see slot_for_level
-    native_names={"single": "SINGLE", "double": "DOUBLE", "coop": "CO-OP"},
+    key="piu", name="PUMP IT UP", lanes=5, variable_width=False,   # SINGLE 5 panels; DOUBLE 10, HALF-DOUBLE 6
+    difficulties={},   # level-banded: slots are <style>-<level> (docs/sources/piu.md); ladder via slot_for_level
+    native_names={"single": "SINGLE", "double": "DOUBLE", "halfdouble": "HALF-DOUBLE", "coop": "CO-OP"},
+    # genre = the Pumpout category (the in-game song categories)
+    genres={"ORIGINAL": "original", "K-POP": "k-pop", "WORLD MUSIC": "world-music", "J-MUSIC": "j-music",
+            "XROSS": "xross", "RISE": "rise", "": "unknown"},
+    status="in-progress",
 ))
 _add(Game(
-    key="arcaea", name="Arcaea", lanes=4, variable_width=False,
+    key="arcaea", name="Arcaea", lanes=4, variable_width=False,   # 4 floor lanes; 6-lane charts: Chart.lanes = 6
     difficulties={"pst": "normal", "prs": "hard", "ftr": "expert", "byd": "master", "etr": "extra"},
     native_names={"pst": "PAST", "prs": "PRESENT", "ftr": "FUTURE", "byd": "BEYOND", "etr": "ETERNAL"},
+    # genre = pack (append packs under their parent; songlist set "single" = Memory Archive)
+    genres={"Arcaea": "arcaea", "World Extend 4": "world-extend-4", "Extend Archive 3": "extend-archive-3",
+            "Extend Archive 2": "extend-archive-2", "Extend Archive 1": "extend-archive-1",
+            "Diverse System": "diverse-system", "Divine Oblivion": "divine-oblivion",
+            "Liminal Eclipse": "liminal-eclipse", "Lucent Historia": "lucent-historia",
+            "Final Verdict": "final-verdict", "Black Fate": "black-fate", "Adverse Prelude": "adverse-prelude",
+            "Luminous Sky": "luminous-sky", "Vicious Labyrinth": "vicious-labyrinth", "Eternal Core": "eternal-core",
+            "Absolute Nihil": "absolute-nihil", "Lasting Eden": "lasting-eden", "MEGAREX": "megarex",
+            "Extant Anima": "extant-anima", "Esoteric Order": "esoteric-order", "Divided Heart": "divided-heart",
+            "Ephemeral Page": "ephemeral-page", "Sunset Radiance": "sunset-radiance",
+            "Absolute Reason": "absolute-reason", "Binary Enfold": "binary-enfold",
+            "Ambivalent Vision": "ambivalent-vision", "Crimson Solace": "crimson-solace", "DJMAX": "djmax",
+            "Rotaeno": "rotaeno", "CYTUS II": "cytus-ii", "Muse Dash": "muse-dash", "WACCA": "wacca",
+            "maimai": "maimai", "O.N.G.E.K.I.": "ongeki", "CHUNITHM": "chunithm",
+            "Groove Coaster": "groove-coaster", "Tone Sphere": "tone-sphere", "Lanota": "lanota",
+            "Dynamix": "dynamix", "Virtual Singers": "virtual-singers", "Arcaea Next Stage": "arcaea-next-stage",
+            "UNDERTALE": "undertale", "Memory Archive": "memory-archive"},
+    status="in-progress",
 ))
 _add(Game(
     key="iidx", name="beatmania IIDX", lanes=8, variable_width=False,   # 7 keys + scratch (SP)
+    # SP on the ladder; DP (the second play style) as double-<slot>. Folders are versions ("34 ZINRAI"), not genres.
     difficulties={"beginner": "easy", "normal": "normal", "hyper": "hard", "another": "expert",
-                  "leggendaria": "master"},
-    native_names={k: k.upper() for k in ["beginner", "normal", "hyper", "another", "leggendaria"]},
+                  "leggendaria": "master",
+                  "spb": "easy", "spn": "normal", "sph": "hard", "spa": "expert", "spl": "master",
+                  "dpb": "double-easy", "dpn": "double-normal", "dph": "double-hard", "dpa": "double-expert",
+                  "dpl": "double-master"},
+    native_names={**{k: k.upper() for k in ["beginner", "normal", "hyper", "another", "leggendaria"]},
+                  **{f"{s}{d[0]}": f"{s.upper()} {d.upper()}" for s in ("sp", "dp")
+                     for d in ["beginner", "normal", "hyper", "another", "leggendaria"]}},
 ))
 _add(Game(
     key="guitarhero", name="Guitar Hero", lanes=5, variable_width=False,
+    # Lead guitar uses the ladder; other parts are prefixed: coop-, bass-, rhythm-, drums- (drums Expert+ = master).
     difficulties={"easy": "easy", "medium": "normal", "hard": "hard", "expert": "expert", "expert+": "master"},
     native_names={"easy": "EASY", "medium": "MEDIUM", "hard": "HARD", "expert": "EXPERT", "expert+": "EXPERT+"},
+    # Genre = the game (that is how the games sort their songs). Song ids are <slug>-<title-slug>.
+    genres={"Guitar Hero": "gh1", "Guitar Hero II": "gh2", "Guitar Hero Encore: Rocks the 80s": "gh80s",
+            "Guitar Hero III: Legends of Rock": "gh3", "Guitar Hero: Aerosmith": "gha",
+            "Guitar Hero World Tour": "ghwt", "Guitar Hero: Metallica": "ghm", "Guitar Hero Smash Hits": "ghsh",
+            "Guitar Hero 5": "gh5", "Guitar Hero: Van Halen": "ghvh", "Guitar Hero: Warriors of Rock": "ghwor",
+            "Guitar Hero Live": "ghl"},
+    status="in-progress",
 ))
 _add(Game(
     key="gitadora", name="GITADORA", lanes=5, variable_width=False,
-    difficulties={"bsc": "normal", "adv": "hard", "ext": "expert", "mas": "master"},
-    native_names={"bsc": "BASIC", "adv": "ADVANCED", "ext": "EXTREME", "mas": "MASTER"},
+    # Three parts, no unprefixed default: guitar-<slot>, bass-<slot>, drum-<slot>. Folders are first versions.
+    difficulties={f"{p}-{d}": f"{p}-{s}" for p in ("guitar", "bass", "drum")
+                  for d, s in (("bsc", "normal"), ("adv", "hard"), ("ext", "expert"), ("mas", "master"))},
+    native_names={f"{p}-{d}": f"{p.upper()} {n}" for p in ("guitar", "bass", "drum")
+                  for d, n in (("bsc", "BASIC"), ("adv", "ADVANCED"), ("ext", "EXTREME"), ("mas", "MASTER"))},
 ))
 
 
@@ -146,3 +279,25 @@ def slugify(text: str, fallback: str = "untitled") -> str:
 def genre_slug(game_key: str, genre: str) -> str:
     g = game(game_key)
     return g.genres.get(genre) or slugify(genre, fallback="other")
+
+
+# ------------------------------------------------------------------------------------------------ other games
+
+CANDIDATES_FILE = Path(__file__).parent / "candidates.json"
+
+
+def candidates() -> dict[str, dict[str, Any]]:
+    """Other VSRGs, known but not added: what they are, their difficulty names, the format of their charts and
+    whether a reader for it exists (`readable`). `vsrgconv games --all` lists them and `vsrgconv add-game <key>`
+    starts a definition from one. Keys already in the registry are left out."""
+    data = json.loads(CANDIDATES_FILE.read_text("utf-8"))
+    return {d["key"]: {**d, "status": "candidate"} for d in data["games"] if d["key"] not in GAMES}
+
+
+def register_game(game: Game, replace: bool = False) -> Game:
+    """Add a game to the registry (definition files, plugins). A built-in game cannot be replaced."""
+    old = GAMES.get(game.key)
+    if old is not None and old.origin == "built-in" and not replace:
+        raise ValueError(f"{game.key!r} is a built-in game; pick another key")
+    GAMES[game.key] = game
+    return game

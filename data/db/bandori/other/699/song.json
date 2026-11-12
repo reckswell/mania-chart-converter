@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "699",
+ "title": "雪華は無常に微笑む",
+ "artist": "友希那×愛音×りみ×つくし×つぐみ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "友希那×愛音×りみ×つくし×つぐみ",
+ "bpm": "152",
+ "version": "",
+ "date_added": "2025-05-07",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 132
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 132
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 100,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 250
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 250
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 174,
+      "hold": 30,
+      "slide": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 469
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/699/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/699/hard.json",
+     "raw_sha256": "3213b2192d3be2bb1675e5b46dcc0521cdb6932c8e1173a00fd78e6fcafc7e89"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 469
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 298,
+      "slide": 37,
+      "hold": 30,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 742
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/699/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/699/expert.json",
+     "raw_sha256": "d32390ea3ffb8483ea59671647e8f9fde6d16d8c9192d68f4815744b455881c5"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 742
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 30,
+      "tap": 478,
+      "slide": 53,
+      "flick": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 699,
+   "bandId": 88,
+   "jacketImage": "699_sekka_mujo",
+   "bgmId": "bgm699"
+  },
+  "maa": {
+   "bestdori_song_id": 699,
+   "jacket": {
+    "path": "bestdori/699/jacket-cn-1.png",
+    "server": "cn",
+    "name": "699_sekka_mujo"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/699/jacket-cn-1.png",
+   "sha256": "d9c6acb2059b827440f00d7a25d157035b87c1eb8359fb99fdaa77c2185665da",
+   "width": 320,
+   "height": 320,
+   "bytes": 30437
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1746597600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "せっかはむじょうにほほえむ",
+  "title_en": "Sekka wa Mujouni Hohoemu ",
+  "length_s": 122.424
+ }
+}

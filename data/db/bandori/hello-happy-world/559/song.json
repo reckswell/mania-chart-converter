@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "559",
+ "title": "らいふ・いず・みゅーじかるっ♪♪♪",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "140",
+ "version": "",
+ "date_added": "2023-12-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 98
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 98
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 76,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 186
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 186
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 150,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 336
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/559/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/559/hard.json",
+     "raw_sha256": "5d1fdf07356c9c1b68684872266e5b1525e1fea5723801431506baf1593cd7d2"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 336
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 206,
+      "hold": 35,
+      "slide": 15,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 558
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/559/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/559/expert.json",
+     "raw_sha256": "dce0734667cd9f3737c90bd3bfbc8f20e787cb34743bdf33781eb93c8d3da78a"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 558
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 30,
+      "tap": 387,
+      "hold": 20,
+      "slide": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 559,
+   "bandId": 3,
+   "jacketImage": "559_life_is_musical",
+   "bgmId": "bgm559"
+  },
+  "maa": {
+   "bestdori_song_id": 559,
+   "jacket": {
+    "path": "bestdori/559/jacket-cn-1.png",
+    "server": "cn",
+    "name": "559_life_is_musical"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/559/jacket-cn-1.png",
+   "sha256": "0b6d06dae1128d9aa9291aaa52dc8931b7784b51b01b430ac82d5bc3c5add892",
+   "width": 320,
+   "height": 320,
+   "bytes": 34200
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "岩橋星実（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1703138400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "らいふいずみゅーじかるっ",
+  "title_en": "Life is Musical♪♪♪",
+  "length_s": 107.208
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "181",
+ "title": "NO GIRL NO CRY",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2019-03-25",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 192
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 192
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 114,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 311
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 311
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 183,
+      "hold": 64
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 470
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/181/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/181/hard.json",
+     "raw_sha256": "7e1693f0c64770514394cfd5a8915dd527b91a55a01c211650b21ab571a26070"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 470
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 282,
+      "hold": 65,
+      "slide": 17,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 587
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/181/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/181/expert.json",
+     "raw_sha256": "c68ad76b422d59de0c3a7116f55c882cad594baae01ffb407d036f65b843b096"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 587
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 328,
+      "slide": 45,
+      "hold": 46,
+      "flick": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 181,
+   "bandId": 1,
+   "jacketImage": "181_nocry",
+   "bgmId": "bgm181"
+  },
+  "maa": {
+   "bestdori_song_id": 181,
+   "jacket": {
+    "path": "bestdori/181/jacket-cn-1.png",
+    "server": "cn",
+    "name": "181_nocry"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/181/jacket-cn-1.png",
+   "sha256": "b0955658f3285f651d232547605184c79ebb24fdd87f20fab5051d354c29bbbf",
+   "width": 320,
+   "height": 320,
+   "bytes": 30723
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1553493600000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "nogirlnocry",
+  "length_s": 113.112
+ }
+}

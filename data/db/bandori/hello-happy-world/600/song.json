@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "600",
+ "title": "むすんでわらって",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "130",
+ "version": "",
+ "date_added": "2024-04-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 86
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 86
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 56,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 177
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 177
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 34,
+      "tap": 109
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 419
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/600/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/600/hard.json",
+     "raw_sha256": "b10423947bb6059495643bda8a0bfe8a78dbc5b2acdcaba8d16f82c985a6bc11"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 419
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 224,
+      "slide": 45,
+      "hold": 29,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 617
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/600/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/600/expert.json",
+     "raw_sha256": "5d993c42183dacdf29d0f289ee3e6eda4fdca03d033c5995eb13aa8cfa6c653f"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 617
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 335,
+      "slide": 62,
+      "hold": 45,
+      "flick": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 600,
+   "bandId": 3,
+   "jacketImage": "600_musunde_waratte",
+   "bgmId": "bgm600"
+  },
+  "maa": {
+   "bestdori_song_id": 600,
+   "jacket": {
+    "path": "bestdori/600/jacket-cn-1.png",
+    "server": "cn",
+    "name": "600_musunde_waratte"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/600/jacket-cn-1.png",
+   "sha256": "1dd953302bf1b5b0a316b08b1815281b097db9e7c201d7c1329b996dcc7f5571",
+   "width": 320,
+   "height": 320,
+   "bytes": 22033
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "都丸椋太（Elements Garden）",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1712728800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "むすんでわらって",
+  "title_en": "Connect and Smile",
+  "length_s": 107.136
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "161",
+ "title": "ツキアカリのミチシルベ",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "125-133",
+ "version": "",
+ "date_added": "2018-12-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 133
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 133
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 85,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 230
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 230
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 158,
+      "hold": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 392
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/161/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/161/hard.json",
+     "raw_sha256": "a781b787ac3733084c1b3e18ab91b275076c49ec460b5f6c47c0da8544993bdc"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 392
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 255,
+      "hold": 51,
+      "slide": 7,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 569
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/161/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/161/expert.json",
+     "raw_sha256": "63454b00f83ec6ca18abd73f4e81d8bbbbfb74576f5940fa2d4a9a92acaa87e1"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 569
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 391,
+      "hold": 56,
+      "slide": 7,
+      "flick": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 161,
+   "bandId": 5,
+   "jacketImage": "161_moon_road",
+   "bgmId": "bgm161"
+  },
+  "maa": {
+   "bestdori_song_id": 161,
+   "jacket": {
+    "path": "bestdori/161/jacket-cn-1.png",
+    "server": "cn",
+    "name": "161_moon_road"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/161/jacket-cn-1.png",
+   "sha256": "ba0ff47efbef8fc72e87b85a079006cf12a66c851c616f4be7a6377c6a06633c",
+   "width": 320,
+   "height": 320,
+   "bytes": 23382
+  }
+ },
+ "extra": {
+  "lyricist": "AIMI",
+  "composer": "AIMI",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1545285600000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "つきあかりのみちしるべ",
+  "title_en": "Moonlight Waymark",
+  "length_s": 112.512
+ }
+}

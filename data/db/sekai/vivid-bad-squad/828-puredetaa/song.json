@@ -1,0 +1,201 @@
+{
+ "game": "sekai",
+ "song_id": "828",
+ "title": "プレデター",
+ "artist": "遼遼",
+ "title_romaji": "puredetaa",
+ "artist_romaji": "harukaryou",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "104",
+ "version": "",
+ "date_added": "2026-11-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 104
+   },
+   "source": {
+    "music_difficulty_id": 4331,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 51,
+      "ex_tap": 4,
+      "hold": 8,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 260
+   },
+   "source": {
+    "music_difficulty_id": 4332,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 15,
+      "tap": 146,
+      "ex_tap": 19,
+      "flick": 12,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 506
+   },
+   "source": {
+    "music_difficulty_id": 4333,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 205,
+      "slide": 33,
+      "flick": 21,
+      "ex_tap": 35,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 727
+   },
+   "source": {
+    "music_difficulty_id": 4334,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 357,
+      "slide": 90,
+      "ex_tap": 38,
+      "flick": 72,
+      "other": 13,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1029
+   },
+   "source": {
+    "music_difficulty_id": 4335,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 584,
+      "other": 154,
+      "ex_tap": 105,
+      "slide": 67,
+      "flick": 106,
+      "hold": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 828,
+   "assetbundle": "jacket_s_828",
+   "seq": 1470901
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_828.png",
+   "sha256": "19546e6f5b94e304c04de1d6175ddfccc3bad9eacbce571311ed9cf47f94b2e6",
+   "width": 320,
+   "height": 320,
+   "bytes": 18281
+  }
+ },
+ "extra": {
+  "pronunciation": "ぷれでたー",
+  "lyricist": "遼遼",
+  "composer": "遼遼",
+  "arranger": "遼遼",
+  "published_at": 1793599200000,
+  "released_at": 1553958000000,
+  "tags": [
+   "street"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "flower"
+    ],
+    "asset": "vs_0828_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "KAITO",
+     "東雲彰人",
+     "青柳冬弥"
+    ],
+    "asset": "se_0828_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 104.0
+ }
+}

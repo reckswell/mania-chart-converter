@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "236",
+ "title": "創聖のアクエリオン",
+ "artist": "Poppin'Party×友希那",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party×友希那",
+ "bpm": "59-189",
+ "version": "",
+ "date_added": "2019-12-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 108
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 108
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 78,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 224
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 224
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 154,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 393
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/236/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/236/hard.json",
+     "raw_sha256": "d10df2bdd45be43f5c151ec35dc0a26333b090ee96dfbab318823be793c6c789"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 393
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 279,
+      "hold": 50,
+      "flick": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 591
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/236/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/236/expert.json",
+     "raw_sha256": "6f5ee90fbc0cc22405f99ac5ece37e82d40964b1872db21ef57ef710c34ee615"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 591
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 17,
+      "tap": 379,
+      "flick": 42,
+      "hold": 64
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 236,
+   "bandId": 22,
+   "jacketImage": "236_ aquarion",
+   "bgmId": "bgm236"
+  },
+  "maa": {
+   "bestdori_song_id": 236,
+   "jacket": {
+    "path": "bestdori/236/jacket-cn-1.png",
+    "server": "cn",
+    "name": "236_ aquarion"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/236/jacket-cn-1.png",
+   "sha256": "9f9ef6244ca72a9401db66f55dedf079a510a97d747f8b9fb3c1cc6ee4c20277",
+   "width": 320,
+   "height": 320,
+   "bytes": 31880
+  }
+ },
+ "extra": {
+  "lyricist": "岩里祐穂",
+  "composer": "菅野よう子",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1577772000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "そうせいのあくえりおん",
+  "title_en": "Genesis of Aquarion",
+  "length_s": 111.48
+ }
+}

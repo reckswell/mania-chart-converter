@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "51",
+ "title": "どきどきSING OUT!",
+ "artist": "戸山香澄",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "戸山香澄",
+ "bpm": "194",
+ "version": "",
+ "date_added": "2017-06-05",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 133
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 133
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 89,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 265
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 265
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 201,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 498
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/51/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/51/hard.json",
+     "raw_sha256": "a248237249ef41882a9bf44971ef567c1ae0d39331fa772a3db00c681e6e9b46"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 498
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 374,
+      "hold": 58,
+      "flick": 4,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 605
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/51/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/51/expert.json",
+     "raw_sha256": "1e81b9cb463025b1a596906261e7bd349e430b2170215f3508d21ad65deaf60f"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 605
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 53,
+      "tap": 385,
+      "flick": 54,
+      "slide": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 51,
+   "bandId": 9,
+   "jacketImage": "051_singout",
+   "bgmId": "bgm051"
+  },
+  "maa": {
+   "bestdori_song_id": 51,
+   "jacket": {
+    "path": "bestdori/51/jacket-cn-1.png",
+    "server": "cn",
+    "name": "051_singout"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/51/jacket-cn-1.png",
+   "sha256": "b31614096158c0fef9267e417992463a3c48b8248e5f5cc3883bccc3da266082",
+   "width": 320,
+   "height": 320,
+   "bytes": 35237
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "藤間仁（Elements Garden）",
+  "arranger": "藤間仁（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1496631600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "どきどきsingout",
+  "title_en": "Doki-Doki Sing Out!",
+  "length_s": 114.504
+ }
+}

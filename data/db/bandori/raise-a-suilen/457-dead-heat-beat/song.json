@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "457",
+ "title": "DEAD HEAT BEAT",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "193",
+ "version": "",
+ "date_added": "2022-11-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 215
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 215
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 129,
+      "hold": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 354
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 16,
+     "notes": 354
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 241,
+      "hold": 56,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 591
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/457/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/457/hard.json",
+     "raw_sha256": "86341cb28488b592048f9190a6764a13f1440ea43d5642a2226b41bdd997e2a0"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 591
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 332,
+      "slide": 44,
+      "hold": 44,
+      "flick": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 949
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/457/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/457/expert.json",
+     "raw_sha256": "0d1459fa5540dee01dca0cb73af5849f58a48d9bb67a2630ace2e86247df8016"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 949
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 567,
+      "hold": 88,
+      "slide": 50,
+      "flick": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 457,
+   "bandId": 18,
+   "jacketImage": "457_dead_heat_beat",
+   "bgmId": "bgm457"
+  },
+  "maa": {
+   "bestdori_song_id": 457,
+   "jacket": {
+    "path": "bestdori/457/jacket-cn-1.png",
+    "server": "cn",
+    "name": "457_dead_heat_beat"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/457/jacket-cn-1.png",
+   "sha256": "f097c4da3936806a184bdc7bcc63ae07555eeec5d8194d8010a056d291e3e545",
+   "width": 320,
+   "height": 320,
+   "bytes": 30522
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "菊田大介（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1668837600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "deadheatbeat",
+  "length_s": 104.52
+ }
+}

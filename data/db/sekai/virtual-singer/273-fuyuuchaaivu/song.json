@@ -1,0 +1,189 @@
+{
+ "game": "sekai",
+ "song_id": "273",
+ "title": "フューチャー・イヴ",
+ "artist": "sasakure.UK",
+ "title_romaji": "fuyuuchaaivu",
+ "artist_romaji": "sasakure.UK",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2022-09-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 497
+   },
+   "source": {
+    "music_difficulty_id": 1361,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 82,
+      "hold": 18,
+      "slide": 5,
+      "ex_tap": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 698
+   },
+   "source": {
+    "music_difficulty_id": 1362,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 37,
+      "tap": 145,
+      "hold": 21,
+      "ex_tap": 11,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1087
+   },
+   "source": {
+    "music_difficulty_id": 1363,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 69,
+      "tap": 262,
+      "ex_tap": 45,
+      "flick": 40,
+      "hold": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 6; stacked taps merged: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1462
+   },
+   "source": {
+    "music_difficulty_id": 1364,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 483,
+      "slide": 131,
+      "hold": 15,
+      "ex_tap": 108,
+      "flick": 72
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "32",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1628
+   },
+   "source": {
+    "music_difficulty_id": 1365,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 119,
+      "tap": 718,
+      "hold": 11,
+      "ex_tap": 141,
+      "flick": 85
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 273,
+   "assetbundle": "jacket_s_273",
+   "seq": 1119001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_273.png",
+   "sha256": "b5d1e921dab7e18895af838c3b390d3e19443996106eebc46ebfefa19574052e",
+   "width": 320,
+   "height": 320,
+   "bytes": 38419
+  }
+ },
+ "extra": {
+  "pronunciation": "ふゅーちゃーいヴ",
+  "lyricist": "sasakure.UK",
+  "composer": "sasakure.UK",
+  "arranger": "有形ランペイジ",
+  "published_at": 1662098400000,
+  "released_at": 1655391600000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0273_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 190.0
+ }
+}

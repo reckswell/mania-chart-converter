@@ -1,0 +1,111 @@
+{
+ "game": "piu",
+ "song_id": "1047",
+ "title": "PUMP IT UP with YOU",
+ "artist": "msgoon",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "0",
+ "version": "Fiesta",
+ "date_added": "",
+ "charts": {
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "ANDAMIRO, BPM, SANDSTORM, KANG2, ESC, AHGOO",
+   "note_counts": {
+    "combo": 1549
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2250,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 1549,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 897,
+      "other": 12,
+      "hold": 78
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "35 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'S17')",
+   "assets": {}
+  },
+  "double-17": {
+   "slot": "double-17",
+   "native": "D17",
+   "level": "17",
+   "constant": null,
+   "designer": "ANDAMIRO, BPM, SANDSTORM, KANG2, ESC, AHGOO",
+   "note_counts": {
+    "combo": 1339
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2251,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-double",
+     "description": "D17",
+     "meter": "17",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 1339,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 869,
+      "hold": 62
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "5 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'D17')",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 386,
+   "game_id": "1047",
+   "card": "/img/card/1047.png",
+   "first": "Fiesta v1.01",
+   "title": "PUMP IT UP with YOU"
+  },
+  "simfile": {
+   "path": "08 - FIESTA/1047 - [Remix] Pump it Up With You/1047 - [Remix] Pump It Up With You.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/08%20-%20FIESTA/1047%20-%20%5BRemix%5D%20Pump%20it%20Up%20With%20You/1047%20-%20%5BRemix%5D%20Pump%20It%20Up%20With%20You.ssc",
+   "id": "1047",
+   "title": "PUMP IT UP with YOU",
+   "artist": "msgoon"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Remix",
+  "removed": true,
+  "removed_in": "Prime v1.00.0"
+ }
+}

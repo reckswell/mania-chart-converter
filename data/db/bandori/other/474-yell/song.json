@@ -1,0 +1,173 @@
+{
+ "game": "bandori",
+ "song_id": "474",
+ "title": "YELL",
+ "artist": "彩×日菜×千聖×麻弥×友希那×紗夜×リサ×燐子×薫×花音",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "彩×日菜×千聖×麻弥×友希那×紗夜×リサ×燐子×薫×花音",
+ "bpm": "61-75",
+ "version": "",
+ "date_added": "2023-02-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 84
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 84
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 54,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 196
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 196
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 116,
+      "hold": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 355
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/474/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/474/hard.json",
+     "raw_sha256": "cd77330d4a91605407148be2097843276251617d249ca2ae5c598a829998b0c4"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 355
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 205,
+      "hold": 26,
+      "slide": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 536
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/474/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/474/expert.json",
+     "raw_sha256": "f925f8be8a94b005548637b1052d43274074d3140b482d03f4d507742f759142"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 536
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 366,
+      "hold": 33,
+      "slide": 40,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 474,
+   "bandId": 58,
+   "jacketImage": "474_yell",
+   "bgmId": "bgm474"
+  },
+  "maa": {
+   "bestdori_song_id": 474,
+   "jacket": {
+    "path": "bestdori/474/jacket-cn-1.png",
+    "server": "cn",
+    "name": "474_yell"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/474/jacket-cn-1.png",
+   "sha256": "420330d27d092d9a835f85faa5b9b395384f4ba7ed6b3b389418813d1cb52f0d",
+   "width": 320,
+   "height": 320,
+   "bytes": 21335
+  }
+ },
+ "extra": {
+  "lyricist": "水野　良樹",
+  "composer": "水野　良樹",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1677564000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "yell",
+  "length_s": 129.312
+ }
+}

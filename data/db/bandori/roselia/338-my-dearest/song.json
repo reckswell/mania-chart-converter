@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "338",
+ "title": "My Dearest",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "168",
+ "version": "",
+ "date_added": "2021-05-11",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 131
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 131
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 91,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 251
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 251
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 157,
+      "hold": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 436
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/338/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/338/hard.json",
+     "raw_sha256": "4c00bbff9e1d8cf89d223863413a14b42bd09fdaf014bbbc813cdba82c627fce"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 436
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 280,
+      "flick": 20,
+      "hold": 56,
+      "slide": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 618
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/338/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/338/expert.json",
+     "raw_sha256": "79eb1ae907834ff2b455016526da55ca96d3ef5ddaa709eeff4552d14244c52f"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 618
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 371,
+      "flick": 52,
+      "slide": 31,
+      "hold": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 338,
+   "bandId": 5,
+   "jacketImage": "338_my_dearest",
+   "bgmId": "bgm338"
+  },
+  "maa": {
+   "bestdori_song_id": 338,
+   "jacket": {
+    "path": "bestdori/338/jacket-cn-1.png",
+    "server": "cn",
+    "name": "338_my_dearest"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/338/jacket-cn-1.png",
+   "sha256": "149a9a5f63187ceb5c5e9953eae46fec6e571c3f89c7c36eb5a584ca9a1142cf",
+   "width": 320,
+   "height": 320,
+   "bytes": 23203
+  }
+ },
+ "extra": {
+  "lyricist": "ryo",
+  "composer": "ryo",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1620712800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "mydearest",
+  "length_s": 99.336
+ }
+}

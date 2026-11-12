@@ -1,0 +1,205 @@
+{
+ "game": "sekai",
+ "song_id": "751",
+ "title": "アディショナルメモリー",
+ "artist": "じん",
+ "title_romaji": "adishonarumemorii",
+ "artist_romaji": "jin",
+ "genre": "Leo/need",
+ "bpm": "200",
+ "version": "",
+ "date_added": "2026-08-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 284
+   },
+   "source": {
+    "music_difficulty_id": 3751,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 21,
+      "slide": 4,
+      "tap": 54,
+      "hold": 12,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 454
+   },
+   "source": {
+    "music_difficulty_id": 3752,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 11,
+      "slide": 15,
+      "ex_tap": 9,
+      "tap": 122,
+      "hold": 14,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 661
+   },
+   "source": {
+    "music_difficulty_id": 3753,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 78,
+      "slide": 39,
+      "tap": 181,
+      "flick": 41,
+      "other": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 995
+   },
+   "source": {
+    "music_difficulty_id": 3754,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 100,
+      "flick": 123,
+      "other": 5,
+      "ex_tap": 118,
+      "tap": 258,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1226
+   },
+   "source": {
+    "music_difficulty_id": 3755,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 138,
+      "other": 140,
+      "ex_tap": 179,
+      "tap": 446,
+      "hold": 9,
+      "slide": 70
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 7",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 751,
+   "assetbundle": "jacket_s_751",
+   "seq": 1267701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_751.png",
+   "sha256": "1bd1b026b9637bc9de919fc0d0f62cc5caf830552fc0cbae31bab5b1487b185a",
+   "width": 320,
+   "height": 320,
+   "bytes": 11988
+  }
+ },
+ "extra": {
+  "pronunciation": "あでぃしょなるめもりー",
+  "lyricist": "じん",
+  "composer": "じん",
+  "arranger": "じん",
+  "published_at": 1786341600000,
+  "released_at": 1536850800000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0751_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音レン",
+     "星乃一歌",
+     "天馬咲希",
+     "望月穂波",
+     "日野森志歩"
+    ],
+    "asset": "se_0751_01"
+   }
+  ],
+  "filler_sec": 8.100000381469727,
+  "bpm_main": 200.0
+ }
+}

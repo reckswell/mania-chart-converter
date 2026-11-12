@@ -1,0 +1,202 @@
+{
+ "game": "sekai",
+ "song_id": "146",
+ "title": "リモコン",
+ "artist": "ワンダフル☆オポチュニティ！",
+ "title_romaji": "rimokon",
+ "artist_romaji": "wandafuruopochuniti",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "165",
+ "version": "",
+ "date_added": "2022-05-16",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 304
+   },
+   "source": {
+    "music_difficulty_id": 726,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 22,
+      "tap": 69,
+      "ex_tap": 6,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 480
+   },
+   "source": {
+    "music_difficulty_id": 727,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 25,
+      "tap": 167,
+      "flick": 9,
+      "ex_tap": 8,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 612
+   },
+   "source": {
+    "music_difficulty_id": 728,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 256,
+      "hold": 7,
+      "slide": 39,
+      "ex_tap": 74,
+      "flick": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 903
+   },
+   "source": {
+    "music_difficulty_id": 729,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 308,
+      "hold": 28,
+      "slide": 88,
+      "ex_tap": 68,
+      "flick": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1206
+   },
+   "source": {
+    "music_difficulty_id": 730,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 182,
+      "tap": 373,
+      "flick": 82,
+      "ex_tap": 45,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 146,
+   "assetbundle": "jacket_s_146",
+   "seq": 1516601
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_146.png",
+   "sha256": "27509958ac66d8e04a85221572324c4d213c0d4179a36db56914e1c0d73c9da8",
+   "width": 320,
+   "height": 320,
+   "bytes": 31290
+  }
+ },
+ "extra": {
+  "pronunciation": "りもこん",
+  "lyricist": "じーざす",
+  "composer": "じーざす",
+  "arranger": "ワンダフル☆オポチュニティ！",
+  "published_at": 1652680800000,
+  "released_at": 1297782000000,
+  "tags": [
+   "theme_park",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音リン",
+     "鏡音レン"
+    ],
+    "asset": "vs_0146_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音リン",
+     "鏡音レン",
+     "鳳えむ",
+     "草薙寧々"
+    ],
+    "asset": "se_0146_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 165.0
+ }
+}

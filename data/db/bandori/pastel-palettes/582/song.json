@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "582",
+ "title": "ドラマチック！アライブ",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "185",
+ "version": "",
+ "date_added": "2024-02-09",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 165
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 165
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 111,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 195
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 195
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 147,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 473
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/582/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/582/hard.json",
+     "raw_sha256": "c057eaf2ff1de2371498a6577ff17aed88a301220100734b299f51d1e3d14a1d"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 473
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 304,
+      "hold": 40,
+      "slide": 28,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 799
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/582/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/582/expert.json",
+     "raw_sha256": "8b2d762623f7a3e73c0cf639ae7a57cb28a29a8b80825b82f2d42469543a0ec1"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 799
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 512,
+      "hold": 36,
+      "slide": 52,
+      "flick": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 582,
+   "bandId": 4,
+   "jacketImage": "582_dramatic_alive",
+   "bgmId": "bgm582"
+  },
+  "maa": {
+   "bestdori_song_id": 582,
+   "jacket": {
+    "path": "bestdori/582/jacket-cn-1.png",
+    "server": "cn",
+    "name": "582_dramatic_alive"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/582/jacket-cn-1.png",
+   "sha256": "f8d538bd70657147b465f586479b4a70a54992dd1740fe9d26551d5084e4b1db",
+   "width": 320,
+   "height": 320,
+   "bytes": 35311
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "笠井雄太（Elements Garden）",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1707458400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "どらまちっくあらいぶ",
+  "title_en": "Dramatic! Alive",
+  "length_s": 113.568
+ }
+}

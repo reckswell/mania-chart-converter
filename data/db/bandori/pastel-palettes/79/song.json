@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "79",
+ "title": "世界は恋に落ちている",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "130",
+ "version": "",
+ "date_added": "2017-10-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 137
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 137
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 79,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 267
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 267
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 56,
+      "tap": 155
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 405
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/79/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/79/hard.json",
+     "raw_sha256": "495fe3c3531e4a0e51f786b1cf102efa611f37aa2d7cedc21209ef58cb766da8"
+    },
+    "bestdori": {
+     "level": 18,
+     "notes": 405
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 85,
+      "tap": 217,
+      "flick": 4,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 527
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/79/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/79/expert.json",
+     "raw_sha256": "46aa07bae66ea27ca03426a7935439aa0f5c21e2ecf7a0a2e4e7bace6cd7f1e2"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 527
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 62,
+      "tap": 349,
+      "slide": 12,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 686
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1651471200000,
+    "maa": {
+     "path": "bestdori/79/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/79/special.json",
+     "raw_sha256": "357abef8bb45cd50048d88519f106ebbec76186df92a1b23c7612e607b1701f3"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 686
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 350,
+      "slide": 100,
+      "flick": 23,
+      "hold": 22
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 79,
+   "bandId": 4,
+   "jacketImage": "079_sekaochi",
+   "bgmId": "bgm079"
+  },
+  "maa": {
+   "bestdori_song_id": 79,
+   "jacket": {
+    "path": "bestdori/79/jacket-cn-1.png",
+    "server": "cn",
+    "name": "079_sekaochi"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/79/jacket-cn-1.png",
+   "sha256": "8d8b7bd7e2ba9d83ca02fb148874175592a75b375bb8b0abfe6c09adb66564c8",
+   "width": 320,
+   "height": 320,
+   "bytes": 24023
+  }
+ },
+ "extra": {
+  "lyricist": "HoneyWorks",
+  "composer": "HoneyWorks",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1509429600000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "せかいはこいにおちている",
+  "title_en": "Sekaiwa Koini Ochiteiru",
+  "length_s": 116.376
+ }
+}

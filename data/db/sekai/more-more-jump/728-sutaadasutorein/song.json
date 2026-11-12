@@ -1,0 +1,205 @@
+{
+ "game": "sekai",
+ "song_id": "728",
+ "title": "スターダストレイン",
+ "artist": "STEAKA",
+ "title_romaji": "sutaadasutorein",
+ "artist_romaji": "STEAKA",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "100.55-118 (118)",
+ "version": "",
+ "date_added": "2026-08-15",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 190
+   },
+   "source": {
+    "music_difficulty_id": 3636,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 9,
+      "tap": 35,
+      "ex_tap": 4,
+      "slide": 6,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 340
+   },
+   "source": {
+    "music_difficulty_id": 3637,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 26,
+      "tap": 37,
+      "hold": 5,
+      "ex_tap": 9,
+      "flick": 3,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 531
+   },
+   "source": {
+    "music_difficulty_id": 3638,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 37,
+      "tap": 70,
+      "hold": 11,
+      "ex_tap": 75,
+      "flick": 5,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 671
+   },
+   "source": {
+    "music_difficulty_id": 3639,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 76,
+      "tap": 118,
+      "flick": 51,
+      "ex_tap": 72,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 827
+   },
+   "source": {
+    "music_difficulty_id": 3640,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 75,
+      "other": 151,
+      "ex_tap": 174,
+      "tap": 192,
+      "flick": 56,
+      "hold": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 728,
+   "assetbundle": "jacket_s_728",
+   "seq": 2368201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_728.png",
+   "sha256": "c0b1077b91b3b05c4a603c3a40a95c4e13bb335d0bc1e883664db0bac85cb76f",
+   "width": 320,
+   "height": 320,
+   "bytes": 32801
+  }
+ },
+ "extra": {
+  "pronunciation": "すたーだすとれいん",
+  "lyricist": "STEAKA",
+  "composer": "STEAKA",
+  "arranger": "STEAKA",
+  "published_at": 1786799100000,
+  "released_at": 1786719600000,
+  "tags": [
+   "idol"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0728_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "桐谷遥",
+     "KAITO",
+     "花里みのり",
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "se_0728_01"
+   }
+  ],
+  "filler_sec": 8.491499900817871,
+  "bpm_main": 118.0
+ }
+}

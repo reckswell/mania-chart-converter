@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "252",
+ "title": "インフェルノ",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "185",
+ "version": "",
+ "date_added": "2020-03-08",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 158
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 158
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 84,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 276
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 276
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 118,
+      "hold": 79
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 523
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/252/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/252/hard.json",
+     "raw_sha256": "7acbd91d5aef19015df40f910917f1c50f0cd9f4b00d9535e86ad0e7f321d7f6"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 523
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 253,
+      "hold": 93,
+      "slide": 24,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 790
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/252/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/252/expert.json",
+     "raw_sha256": "2f9d8c0508bbf9a7262f219d9679de2f3ec1018bb9ceef64450cdc4d006aaf97"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 790
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 482,
+      "hold": 101,
+      "flick": 15,
+      "slide": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 252,
+   "bandId": 2,
+   "jacketImage": "252_inferno",
+   "bgmId": "bgm252"
+  },
+  "maa": {
+   "bestdori_song_id": 252,
+   "jacket": {
+    "path": "bestdori/252/jacket-cn-1.png",
+    "server": "cn",
+    "name": "252_inferno"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/252/jacket-cn-1.png",
+   "sha256": "148651d53f66a9c3dbf5d811202688077e802bcc656510e58dcb90684cb2eb21",
+   "width": 320,
+   "height": 320,
+   "bytes": 21227
+  }
+ },
+ "extra": {
+  "lyricist": "大森元貴",
+  "composer": "大森元貴",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1583647200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "いんふぇるの",
+  "title_en": "Inferno",
+  "length_s": 110.328
+ }
+}

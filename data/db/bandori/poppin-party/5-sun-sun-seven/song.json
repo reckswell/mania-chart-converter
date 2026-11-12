@@ -1,0 +1,173 @@
+{
+ "game": "bandori",
+ "song_id": "5",
+ "title": "夏空 SUN! SUN! SEVEN!",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "176",
+ "version": "",
+ "date_added": "2016-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 152
+   },
+   "source": {
+    "notesQuantity": 131,
+    "bestdori": {
+     "level": 8,
+     "notes": 152
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 142,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 131 differs from combo 152 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 231
+   },
+   "source": {
+    "notesQuantity": 225,
+    "bestdori": {
+     "level": 12,
+     "notes": 231
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 221,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 225 differs from combo 231 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 521
+   },
+   "source": {
+    "notesQuantity": 537,
+    "maa": {
+     "path": "bestdori/5/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/5/hard.json",
+     "raw_sha256": "4fd7ee3aee6e5fef46fd27d4c7d5a40801c0812ae2891e12d5ef5fef9a19b6db"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 521
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 417,
+      "hold": 49,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 537 differs from combo 521 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 750
+   },
+   "source": {
+    "notesQuantity": 750,
+    "maa": {
+     "path": "bestdori/5/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/5/expert.json",
+     "raw_sha256": "c7512a36adc18cb2b2adbf69d7a208191a72e5a73036cc8f017a8193e44ca59b"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 750
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 564,
+      "hold": 91,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 5,
+   "bandId": 1,
+   "jacketImage": "star_beat",
+   "bgmId": "bgm005"
+  },
+  "maa": {
+   "bestdori_song_id": 5,
+   "jacket": {
+    "path": "bestdori/5/jacket-cn-1.png",
+    "server": "cn",
+    "name": "star_beat"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/5/jacket-cn-1.png",
+   "sha256": "e8fa4037625cc12e943a7f64baa3fb17657d292ab6a9b7f461f6492b16f469f8",
+   "width": 320,
+   "height": 320,
+   "bytes": 43748
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1462071600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "なつぞらsunsunseven",
+  "title_en": "Summer Skies & Sun! Sun! Seven!",
+  "length_s": 146.184
+ }
+}

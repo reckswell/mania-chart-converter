@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "697",
+ "title": "最高到達点",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "132",
+ "version": "",
+ "date_added": "2025-05-05",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 72
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 72
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 52,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 114
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 114
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 78,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 345
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/697/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/697/hard.json",
+     "raw_sha256": "b15221b058f6c3491e72e7b2f90934c0b05d803ebf92b7b04248d11872eedf71"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 345
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 169,
+      "hold": 58,
+      "slide": 22,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 490
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/697/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/697/expert.json",
+     "raw_sha256": "d94259a42d2927cc771df10ffef0d527668c9ead0ba844f2fd00e1ecd1db0d7d"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 490
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 336,
+      "hold": 44,
+      "flick": 18,
+      "slide": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 697,
+   "bandId": 3,
+   "jacketImage": "697_saiko_totatsu",
+   "bgmId": "bgm697"
+  },
+  "maa": {
+   "bestdori_song_id": 697,
+   "jacket": {
+    "path": "bestdori/697/jacket-cn-1.png",
+    "server": "cn",
+    "name": "697_saiko_totatsu"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/697/jacket-cn-1.png",
+   "sha256": "ba6c062d935ead416678242bbdfa3e8d4121cb81f0da16791d41b79a224f2e2a",
+   "width": 320,
+   "height": 320,
+   "bytes": 31215
+  }
+ },
+ "extra": {
+  "lyricist": "Fukase",
+  "composer": "Nakajin",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1746424800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "さいこうとうたつてん",
+  "title_en": "The Peak",
+  "length_s": 96.432
+ }
+}

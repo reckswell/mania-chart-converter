@@ -1,0 +1,224 @@
+{
+ "game": "sekai",
+ "song_id": "74",
+ "title": "独りんぼエンヴィー",
+ "artist": "koyori（電ポルP）",
+ "title_romaji": "hitorinboenvii",
+ "artist_romaji": "koyori denporupii",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "132",
+ "version": "",
+ "date_added": "2020-12-14",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 74
+   },
+   "source": {
+    "music_difficulty_id": 366,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 38,
+      "ex_tap": 9,
+      "hold": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 171
+   },
+   "source": {
+    "music_difficulty_id": 367,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 94,
+      "ex_tap": 9,
+      "flick": 4,
+      "slide": 9,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 356
+   },
+   "source": {
+    "music_difficulty_id": 368,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 170,
+      "hold": 6,
+      "slide": 34,
+      "flick": 4,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 544
+   },
+   "source": {
+    "music_difficulty_id": 369,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 243,
+      "flick": 11,
+      "hold": 16,
+      "slide": 56,
+      "ex_tap": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 589
+   },
+   "source": {
+    "music_difficulty_id": 370,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 23,
+      "tap": 319,
+      "flick": 24,
+      "slide": 51
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 74,
+   "assetbundle": "jacket_s_074",
+   "seq": 1603201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_074.png",
+   "sha256": "4a454179ee1c7204e4efa839638490636419c49ab9025aefd8ad8b3cde07be24",
+   "width": 320,
+   "height": 320,
+   "bytes": 23128
+  }
+ },
+ "extra": {
+  "pronunciation": "ひとりんぼえんヴぃー",
+  "lyricist": "koyori",
+  "composer": "koyori",
+  "arranger": "koyori",
+  "published_at": 1607925600000,
+  "released_at": 1354114800000,
+  "tags": [
+   "school_refusal",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0074_01"
+   },
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "巡音ルカ",
+     "鏡音リン"
+    ],
+    "asset": "vs_0074_02"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "宵崎奏",
+     "暁山瑞希"
+    ],
+    "asset": "se_0074_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "宵崎奏"
+    ],
+    "asset": "an_0074_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "暁山瑞希"
+    ],
+    "asset": "an_0074_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 132.0
+ }
+}

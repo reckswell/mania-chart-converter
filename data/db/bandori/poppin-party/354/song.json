@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "354",
+ "title": "夏に閉じこめて",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2021-08-22",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 147
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 147
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 89,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 295
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 295
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 189,
+      "hold": 53
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 489
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/354/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/354/hard.json",
+     "raw_sha256": "0d7b3d48968c9d4dd76f0d5635ded7ce382c7bcd9204527d570e4ae8f7c226c6"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 489
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 283,
+      "hold": 60,
+      "flick": 5,
+      "slide": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 696
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/354/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/354/expert.json",
+     "raw_sha256": "55e892dd685d33855d03b44695a74c3a39072c5a0dc62e28d94cb399d0bcc5e9"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 696
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 471,
+      "hold": 49,
+      "slide": 38,
+      "flick": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 354,
+   "bandId": 1,
+   "jacketImage": "354_natsuni_tojikomete_1",
+   "bgmId": "bgm354"
+  },
+  "maa": {
+   "bestdori_song_id": 354,
+   "jacket": {
+    "path": "bestdori/354/jacket-cn-2.png",
+    "server": "cn",
+    "name": "354_natsuni_tojikomete_1"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/354/jacket-cn-2.png",
+   "sha256": "6206c5968d5207509c622e2cfb295f952bbb6bc698ed4348fa992234f8d24d22",
+   "width": 320,
+   "height": 320,
+   "bytes": 39491
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "都丸椋太（Elements Garden）",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1629612000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "なつにとじこめて",
+  "title_en": "Shut Away in Summer",
+  "length_s": 109.944
+ }
+}

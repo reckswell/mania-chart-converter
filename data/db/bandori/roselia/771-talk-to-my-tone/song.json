@@ -1,0 +1,145 @@
+{
+ "game": "bandori",
+ "song_id": "771",
+ "title": "Talk to My Tone",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "104",
+ "version": "",
+ "date_added": "2026-02-18",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 313
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/771/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/771/hard.json",
+     "raw_sha256": "beb1d57980f000996aadd010d173feb2fcc5633663dee86326c3eef156fa4e62"
+    },
+    "bestdori": {
+     "notes": 313
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 37,
+      "tap": 134,
+      "hold": 29,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 458
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/771/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/771/expert.json",
+     "raw_sha256": "8fa0e3088163ece50a7ed3b8c4a44849ddbb440eb8ec420563a6f0009e7f256d"
+    },
+    "bestdori": {
+     "notes": 458
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 46,
+      "tap": 248,
+      "flick": 30,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 771,
+   "bandId": 5,
+   "jacketImage": "771_talk_to_my_tone",
+   "bgmId": "bgm771"
+  },
+  "maa": {
+   "bestdori_song_id": 771,
+   "jacket": {
+    "path": "bestdori/771/jacket-cn-1.png",
+    "server": "cn",
+    "name": "771_talk_to_my_tone"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/771/jacket-cn-1.png",
+   "sha256": "dcaae0e892421189828cd43563fddeb81c27b20dc84ad46af274b1d1dcb6a797",
+   "width": 320,
+   "height": 320,
+   "bytes": 22088
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1771394400000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "talktomytone"
+ }
+}

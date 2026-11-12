@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "182",
+ "title": "Dreamers Go!",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "185",
+ "version": "",
+ "date_added": "2019-03-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 141
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 141
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 71,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 267
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 267
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 185,
+      "hold": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 438
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/182/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/182/hard.json",
+     "raw_sha256": "a91a5ae7d8906c0efe1ed4d4025a032f42f2ea60c85beae149918c280ad57acc"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 438
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 295,
+      "slide": 16,
+      "hold": 46,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 669
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/182/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/182/expert.json",
+     "raw_sha256": "57a69db1ca85bffc16d0dc1771cef15375da896700ddc6bcb76847a078743907"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 669
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 474,
+      "slide": 33,
+      "flick": 26,
+      "hold": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 182,
+   "bandId": 1,
+   "jacketImage": "182_dreamersgo_1",
+   "bgmId": "bgm182"
+  },
+  "maa": {
+   "bestdori_song_id": 182,
+   "jacket": {
+    "path": "bestdori/182/jacket-cn-2.png",
+    "server": "cn",
+    "name": "182_dreamersgo_1"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/182/jacket-cn-2.png",
+   "sha256": "f50fa694ba0660019e260372f7883c12af199fcf6ee431f452c181fad45ec7ae",
+   "width": 320,
+   "height": 320,
+   "bytes": 44562
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "菊田大介（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1553839200000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "dreamersgo",
+  "length_s": 105.792
+ }
+}

@@ -1,0 +1,229 @@
+{
+ "game": "sekai",
+ "song_id": "439",
+ "title": "一千光年",
+ "artist": "いよわ",
+ "title_romaji": "issenkounen",
+ "artist_romaji": "iyowa",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "192",
+ "version": "",
+ "date_added": "2023-12-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 414
+   },
+   "source": {
+    "music_difficulty_id": 2191,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 7,
+      "tap": 49,
+      "hold": 8,
+      "ex_tap": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 410
+   },
+   "source": {
+    "music_difficulty_id": 2192,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 7,
+      "tap": 78,
+      "hold": 18,
+      "ex_tap": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 804
+   },
+   "source": {
+    "music_difficulty_id": 2193,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 57,
+      "tap": 194,
+      "ex_tap": 43,
+      "hold": 4,
+      "other": 6,
+      "flick": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 941
+   },
+   "source": {
+    "music_difficulty_id": 2194,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 54,
+      "tap": 382,
+      "flick": 56,
+      "other": 9,
+      "hold": 23,
+      "ex_tap": 72
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 3",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1141
+   },
+   "source": {
+    "music_difficulty_id": 2195,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 60,
+      "hold": 25,
+      "tap": 457,
+      "flick": 83,
+      "other": 20,
+      "ex_tap": 198
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1496
+   },
+   "source": {
+    "music_difficulty_id": 4024,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 33,
+      "slide": 37,
+      "other": 33,
+      "tap": 341,
+      "flick": 73,
+      "ex_tap": 74
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 439,
+   "assetbundle": "jacket_s_439",
+   "seq": 1135601
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_439.png",
+   "sha256": "97d23054d51ac6e1c2d4f0eed543618372d8b67c7ec9dc99ff17fa1822ebda8b",
+   "width": 320,
+   "height": 320,
+   "bytes": 25865
+  }
+ },
+ "extra": {
+  "pronunciation": "いっせんこうねん",
+  "lyricist": "いよわ",
+  "composer": "いよわ",
+  "arranger": "いよわ",
+  "published_at": 1704002400000,
+  "released_at": 1679151600000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "flower",
+     "歌愛ユキ",
+     "GUMI",
+     "可不",
+     "星界",
+     "足立レイ",
+     "裏命",
+     "花隈千冬",
+     "VY1",
+     "SOLARIA"
+    ],
+    "asset": "vs_0439_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 192.0
+ }
+}

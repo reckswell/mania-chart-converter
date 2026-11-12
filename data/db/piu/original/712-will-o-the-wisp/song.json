@@ -1,0 +1,524 @@
+{
+ "game": "piu",
+ "song_id": "712",
+ "title": "Will-O-The-Wisp",
+ "artist": "BanYa",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "210",
+ "version": "The Rebirth",
+ "date_added": "",
+ "charts": {
+  "single-2": {
+   "slot": "single-2",
+   "native": "S2",
+   "level": "2",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 65
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 239,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S2",
+     "meter": "2",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 65,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 68
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-6": {
+   "slot": "single-6",
+   "native": "S6",
+   "level": "6",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 176
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 240,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S5",
+     "meter": "5",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 176,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 205
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 5 differs from the PHOENIX 2 level 6: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "single-13": {
+   "slot": "single-13",
+   "native": "S13",
+   "level": "13",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 381
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 241,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S13",
+     "meter": "13",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 381,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 416
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 449
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 242,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 449,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 489
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 999
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 243,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-single",
+     "description": "S19",
+     "meter": "19",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 999,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 468,
+      "hold": 62
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-14": {
+   "slot": "double-14",
+   "native": "D14",
+   "level": "14",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 235,
+     "mode": "D"
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "double-17": {
+   "slot": "double-17",
+   "native": "D17",
+   "level": "17",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 384
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 236,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 16,
+     "steps_type": "pump-double",
+     "description": "D16",
+     "meter": "16",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 384,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 436
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 16 differs from the PHOENIX 2 level 17: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-21": {
+   "slot": "double-21",
+   "native": "D21",
+   "level": "21",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 1004
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 237,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 20,
+     "steps_type": "pump-double",
+     "description": "D21",
+     "meter": "21",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1004,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 476,
+      "hold": 62
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-22": {
+   "slot": "double-22",
+   "native": "D22",
+   "level": "22",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 510
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 238,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 18,
+     "steps_type": "pump-double",
+     "description": "D20",
+     "meter": "20",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 510,
+     "match": "near-level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 554
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 20 differs from the PHOENIX 2 level 22 and Pumpout never rated the chart 20: paired as the nearest left-over ACTIVE chart, which may be a different chart",
+   "assets": {}
+  },
+  "double-25": {
+   "slot": "double-25",
+   "native": "D25",
+   "level": "25",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 1274
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6141,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 22,
+     "steps_type": "pump-double",
+     "description": "D25",
+     "meter": "25",
+     "active": true,
+     "credit": "WINDFORCE",
+     "combo": 1274,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 624,
+      "hold": 249
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "96 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "halfdouble-14": {
+   "slot": "halfdouble-14",
+   "native": "HDB14",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 402
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 9264,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 15,
+     "steps_type": "pump-halfdouble",
+     "description": "D14 HALFDOUBLE",
+     "meter": "14",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 402,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 401,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-15": {
+   "slot": "halfdouble-15",
+   "native": "HDB15",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9265,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-19": {
+   "slot": "halfdouble-19",
+   "native": "HDB19",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9266,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-20": {
+   "slot": "halfdouble-20",
+   "native": "HDB20",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9267,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-24": {
+   "slot": "halfdouble-24",
+   "native": "HDB24",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9268,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 35,
+   "game_id": "712",
+   "card": "/img/card/30.png",
+   "first": "The Rebirth default",
+   "title": "Will-O-The-Wisp"
+  },
+  "kalinathalie": {
+   "slug": "will_o_the_wisp"
+  },
+  "simfile": {
+   "path": "03 - REBIRTH~PREX 3/(2) 712 - Will O The Wisp/712 - Will O The Wisp.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/03%20-%20REBIRTH~PREX%203/%282%29%20712%20-%20Will%20O%20The%20Wisp/712%20-%20Will%20O%20The%20Wisp.ssc",
+   "id": "712",
+   "title": "Will-O-The-Wisp",
+   "artist": "BanYa"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/will_o_the_wisp.jpg",
+   "sha256": "30ae38300c0d54910a8cbf0588d9da151da82b14e332f153ff00b07d7a05d05b",
+   "width": 256,
+   "height": 256,
+   "bytes": 18972
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "윌 오 더 위스프"
+  },
+  "simfile_notes": [
+   "S6: simfile chart 'S5' has meter 5 (re-rated)",
+   "D17: simfile chart 'D16' has meter 16 (re-rated)",
+   "D22: simfile chart 'D20' has meter 20 (near-level)"
+  ]
+ }
+}

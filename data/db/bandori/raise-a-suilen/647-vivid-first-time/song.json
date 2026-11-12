@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "647",
+ "title": "VIVID FIRST TIME",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "200",
+ "version": "",
+ "date_added": "2024-12-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 136
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 136
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 70,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 230
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 230
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 134,
+      "hold": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 537
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/647/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/647/hard.json",
+     "raw_sha256": "5ff889735d46d409c9a912e2d4e34cacd13f97fb9e06ff6c6128865b0b4378c9"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 537
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 28,
+      "tap": 299,
+      "slide": 76,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 727
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/647/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/647/expert.json",
+     "raw_sha256": "9dbcf77d571077ed325bd1eb10e8356f312faf6dadb90dfea12d2a20eb1831a8"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 727
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 482,
+      "flick": 44,
+      "hold": 42,
+      "slide": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 647,
+   "bandId": 18,
+   "jacketImage": "647_vivid_first_time",
+   "bgmId": "bgm647"
+  },
+  "maa": {
+   "bestdori_song_id": 647,
+   "jacket": {
+    "path": "bestdori/647/jacket-cn-1.png",
+    "server": "cn",
+    "name": "647_vivid_first_time"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/647/jacket-cn-1.png",
+   "sha256": "f13ccaa801b710b1155833a573e1136ab6e0689904af7bd1bbf16e116002dd01",
+   "width": 320,
+   "height": 320,
+   "bytes": 49268
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "日高勇輝（Elements Garden）",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1734760800000,
+  "closed_at": 4122154800000,
+  "music_data_type": "normal",
+  "ruby": "vividfirsttime",
+  "length_s": 100.872
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "324",
+ "title": "るんっ♪てぃてぃー！",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "163",
+ "version": "",
+ "date_added": "2021-03-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 164
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 164
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 92,
+      "hold": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 276
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 276
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 172,
+      "hold": 52
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 438
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/324/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/324/hard.json",
+     "raw_sha256": "82827e4685abee33fa3077556ef471e9a255df9cac8dc484a775f4e3f2bdcf89"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 438
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 283,
+      "hold": 42,
+      "slide": 23,
+      "flick": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 618
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/324/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/324/expert.json",
+     "raw_sha256": "ebb0743ff1edaedc2e144f6920369f02b33271aefb3d0db73fe67999ae4c5c1d"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 618
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 447,
+      "hold": 50,
+      "slide": 19,
+      "flick": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 324,
+   "bandId": 4,
+   "jacketImage": "324_run_teitei",
+   "bgmId": "bgm324"
+  },
+  "maa": {
+   "bestdori_song_id": 324,
+   "jacket": {
+    "path": "bestdori/324/jacket-cn-1.png",
+    "server": "cn",
+    "name": "324_run_teitei"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/324/jacket-cn-1.png",
+   "sha256": "25d7d8a61625748176bc4f3189d5ae86ff0e738c996665e6dfaf61bafde03574",
+   "width": 320,
+   "height": 320,
+   "bytes": 25216
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "岩橋星実（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1617170400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "るんってぃてぃー",
+  "title_en": "Boppin'♪ Identity!",
+  "length_s": 103.872
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "game": "bandori",
+ "song_id": "821",
+ "title": "ライムライト",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "186",
+ "version": "",
+ "date_added": "2026-09-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 492
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/821/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/821/hard.json",
+     "raw_sha256": "9b7759275776211e2f2b889f7651c634c5e324097f7bcf165adf9c98e3eed7a0"
+    },
+    "bestdori": {
+     "notes": 492
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 73,
+      "tap": 292,
+      "flick": 10,
+      "slide": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 666
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/821/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/821/expert.json",
+     "raw_sha256": "c8c4ad60d95ebb04694b227a3aaa18b0dd7ba7e7f86e2012e867a2333e424500"
+    },
+    "bestdori": {
+     "notes": 666
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 383,
+      "slide": 51,
+      "flick": 23,
+      "hold": 70
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 821,
+   "bandId": 1,
+   "jacketImage": "821_lime_light",
+   "bgmId": "bgm821"
+  },
+  "maa": {
+   "bestdori_song_id": 821,
+   "jacket": {
+    "path": "bestdori/821/jacket-jp-1.png",
+    "server": "jp",
+    "name": "821_lime_light"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/821/jacket-jp-1.png",
+   "sha256": "ff1abfa57202c688ccc5aaadc280601b6c7217ebc5f59967dc092cfe96288243",
+   "width": 320,
+   "height": 320,
+   "bytes": 25814
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "岩橋星実（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1789797600000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "らいむらいと"
+ }
+}

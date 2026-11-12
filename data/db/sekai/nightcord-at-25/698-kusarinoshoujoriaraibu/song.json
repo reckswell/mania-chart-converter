@@ -1,0 +1,210 @@
+{
+ "game": "sekai",
+ "song_id": "698",
+ "title": "鎖の少女-Re Alive-",
+ "artist": "のぼる↑",
+ "title_romaji": "kusarinoshoujoriaraibu",
+ "artist_romaji": "noboru",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "100-135 (135)",
+ "version": "",
+ "date_added": "2026-01-06",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 192
+   },
+   "source": {
+    "music_difficulty_id": 3486,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 13,
+      "slide": 2,
+      "ex_tap": 7,
+      "tap": 54
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 379
+   },
+   "source": {
+    "music_difficulty_id": 3487,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 9,
+      "slide": 27,
+      "tap": 127,
+      "flick": 3,
+      "ex_tap": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 664
+   },
+   "source": {
+    "music_difficulty_id": 3488,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 45,
+      "hold": 7,
+      "tap": 183,
+      "ex_tap": 29,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 920
+   },
+   "source": {
+    "music_difficulty_id": 3489,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 23,
+      "slide": 110,
+      "tap": 248,
+      "flick": 34,
+      "ex_tap": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1029
+   },
+   "source": {
+    "music_difficulty_id": 3490,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 58,
+      "slide": 135,
+      "tap": 443,
+      "other": 32,
+      "flick": 78,
+      "ex_tap": 112
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 698,
+   "assetbundle": "jacket_s_698",
+   "seq": 1659801
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_698.png",
+   "sha256": "1966d87bd951d07126a7964f329e4628b710bd654960bfbaf31e92d6633bac53",
+   "width": 320,
+   "height": 320,
+   "bytes": 41816
+  }
+ },
+ "extra": {
+  "pronunciation": "くさりのしょうじょりあらいぶ",
+  "lyricist": "のぼる↑",
+  "composer": "のぼる↑",
+  "arranger": "のぼる↑",
+  "published_at": 1767679200000,
+  "released_at": 1577026800000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0698_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "宵崎奏",
+     "朝比奈まふゆ",
+     "東雲絵名",
+     "暁山瑞希"
+    ],
+    "asset": "se_0698_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "朝比奈まふゆ"
+    ],
+    "asset": "an_0698_01"
+   }
+  ],
+  "filler_sec": 6.616700172424316,
+  "bpm_main": 135.0
+ }
+}

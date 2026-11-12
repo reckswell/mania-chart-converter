@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "439",
+ "title": "STYX HELIX",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "123",
+ "version": "",
+ "date_added": "2022-08-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 124
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 124
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 98,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 247
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 247
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 189,
+      "hold": 24,
+      "slide": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 447
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/439/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/439/hard.json",
+     "raw_sha256": "e2925b206cd4267c8f6ee49fa11f23254b6bd3c233cfe313c71447c1d28d03c9"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 447
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 309,
+      "hold": 39,
+      "slide": 22,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 775
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/439/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/439/expert.json",
+     "raw_sha256": "101b49b3e37919214c7e96740f38c9d979e65dc5793252d00fa1bb493b2b7c1f"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 775
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 79,
+      "tap": 500,
+      "flick": 19,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 439,
+   "bandId": 5,
+   "jacketImage": "439_styx_helix",
+   "bgmId": "bgm439"
+  },
+  "maa": {
+   "bestdori_song_id": 439,
+   "jacket": {
+    "path": "bestdori/439/jacket-cn-1.png",
+    "server": "cn",
+    "name": "439_styx_helix"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/439/jacket-cn-1.png",
+   "sha256": "3cfbc4d7d6354ff18d710e4685e682296545b29178344344fb0582e6571b2a94",
+   "width": 320,
+   "height": 320,
+   "bytes": 15772
+  }
+ },
+ "extra": {
+  "lyricist": "MYTH & ROID",
+  "composer": "MYTH & ROID",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1660975200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "styxhelix",
+  "length_s": 126.888
+ }
+}

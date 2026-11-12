@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "645",
+ "title": "ホワイト ノスタルジア",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "138",
+ "version": "",
+ "date_added": "2024-11-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 96
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 96
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 54,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 177
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 177
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 123,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 379
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/645/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/645/hard.json",
+     "raw_sha256": "2f0fe08c733fe2a2084e584006ad4c4c2efec2e433ed79734dc458d4e5b4c871"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 379
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 205,
+      "hold": 42,
+      "slide": 27,
+      "flick": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 542
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/645/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/645/expert.json",
+     "raw_sha256": "f7ca3fd3bcd6b2b2b167de55d6f2c19fd70ac65c87c7e96b428215daf00d50e2"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 542
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 284,
+      "hold": 33,
+      "flick": 29,
+      "slide": 51
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 645,
+   "bandId": 4,
+   "jacketImage": "645_white_nostalgia",
+   "bgmId": "bgm645"
+  },
+  "maa": {
+   "bestdori_song_id": 645,
+   "jacket": {
+    "path": "bestdori/645/jacket-cn-1.png",
+    "server": "cn",
+    "name": "645_white_nostalgia"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/645/jacket-cn-1.png",
+   "sha256": "75a5c51f9721fe0d0490403d4c394cc2545c7745faf7b401603573f6b7c526a5",
+   "width": 320,
+   "height": 320,
+   "bytes": 15514
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "菊田大介（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1732946400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ほわいとのすたるじあ",
+  "title_en": "White Nostalgia",
+  "length_s": 111.36
+ }
+}

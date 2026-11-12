@@ -1,0 +1,189 @@
+{
+ "game": "piu",
+ "song_id": "14A1",
+ "title": "Avalanquiem",
+ "artist": "MAX, Memme",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "175",
+ "version": "Prime",
+ "date_added": "",
+ "charts": {
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 1465
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2707,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S20",
+     "meter": "20",
+     "active": true,
+     "credit": "Nimgo",
+     "combo": 1465,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 936,
+      "hold": 138
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "11 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 20 differs from the PHOENIX 2 level 21: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "single-23": {
+   "slot": "single-23",
+   "native": "S23",
+   "level": "23",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1539
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1939,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S23",
+     "meter": "23",
+     "active": true,
+     "credit": "EXC",
+     "combo": 1539,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 1223,
+      "hold": 93
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "4 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-25": {
+   "slot": "double-25",
+   "native": "D25",
+   "level": "25",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1645
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1940,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-double",
+     "description": "D25",
+     "meter": "25",
+     "active": true,
+     "credit": "EXC",
+     "combo": 1645,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 1235,
+      "hold": 105
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "11 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "halfdouble-24": {
+   "slot": "halfdouble-24",
+   "native": "HDB24",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8997,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 329,
+   "game_id": "14A1",
+   "card": "/img/card/376.png",
+   "first": "Prime v1.04.0",
+   "title": "Avalanquiem"
+  },
+  "kalinathalie": {
+   "slug": "avalanquiem"
+  },
+  "simfile": {
+   "path": "12 - PRIME/14A1 - [Remix] Avalanquiem/14A1 - [Remix] Avalanquiem.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/12%20-%20PRIME/14A1%20-%20%5BRemix%5D%20Avalanquiem/14A1%20-%20%5BRemix%5D%20Avalanquiem.ssc",
+   "id": "14A1",
+   "title": "Avalanquiem",
+   "artist": "MAX & MEMME"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/avalanquiem.jpg",
+   "sha256": "99262db106e77b53bedba1a3047e36b0476e44b0b24fe9a81bd1a73299e67f59",
+   "width": 256,
+   "height": 256,
+   "bytes": 29278
+  }
+ },
+ "extra": {
+  "cut": "Remix",
+  "titles": {
+   "kr": "아발란퀴엠"
+  },
+  "artists": [
+   "MAX",
+   "Memme"
+  ],
+  "simfile_notes": [
+   "S21: simfile chart 'S20' has meter 20 (re-rated)"
+  ]
+ }
+}

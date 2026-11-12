@@ -1,0 +1,206 @@
+{
+ "game": "sekai",
+ "song_id": "812",
+ "title": "星、ときどき光",
+ "artist": "あばらや",
+ "title_romaji": "hoshi、tokidokihikari",
+ "artist_romaji": "abaraya",
+ "genre": "Leo/need",
+ "bpm": "160",
+ "version": "",
+ "date_added": "2026-10-12",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 238
+   },
+   "source": {
+    "music_difficulty_id": 4235,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 60,
+      "slide": 7,
+      "ex_tap": 2,
+      "hold": 11,
+      "other": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 331
+   },
+   "source": {
+    "music_difficulty_id": 4236,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 13,
+      "tap": 78,
+      "flick": 12,
+      "hold": 11,
+      "ex_tap": 22,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 628
+   },
+   "source": {
+    "music_difficulty_id": 4237,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 36,
+      "ex_tap": 74,
+      "hold": 15,
+      "tap": 170,
+      "flick": 49,
+      "other": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 941
+   },
+   "source": {
+    "music_difficulty_id": 4238,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 244,
+      "flick": 58,
+      "ex_tap": 196,
+      "hold": 16,
+      "slide": 116,
+      "other": 69
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1078
+   },
+   "source": {
+    "music_difficulty_id": 4239,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 101,
+      "tap": 336,
+      "flick": 115,
+      "ex_tap": 169,
+      "other": 16,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 812,
+   "assetbundle": "jacket_s_812",
+   "seq": 2270401
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_812.png",
+   "sha256": "ae770c37044f433ff810cef543f99d9afb3670ab7764d822d96f9be1933aa63e",
+   "width": 320,
+   "height": 320,
+   "bytes": 21702
+  }
+ },
+ "extra": {
+  "pronunciation": "ほし、ときどきひかり",
+  "lyricist": "あばらや",
+  "composer": "あばらや",
+  "arranger": "あばらや",
+  "published_at": 1791784800000,
+  "released_at": 1791730800000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "flower"
+    ],
+    "asset": "vs_0812_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "望月穂波",
+     "MEIKO",
+     "星乃一歌",
+     "天馬咲希",
+     "日野森志歩"
+    ],
+    "asset": "se_0812_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 160.0
+ }
+}

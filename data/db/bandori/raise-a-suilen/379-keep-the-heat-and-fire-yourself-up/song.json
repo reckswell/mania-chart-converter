@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "379",
+ "title": "Keep the Heat and Fire Yourself Up",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "155",
+ "version": "",
+ "date_added": "2021-12-04",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 172
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 172
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 102,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 250
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 250
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 162,
+      "hold": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 572
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/379/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/379/hard.json",
+     "raw_sha256": "9bc9b48c83a9b63a5297c2e52a9c7f6a4349f7b75f592bf18910daf22621db28"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 572
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 285,
+      "slide": 59,
+      "hold": 51,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 921
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/379/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/379/expert.json",
+     "raw_sha256": "736712aaf612063cd7fc5d76599b3b1f279b909048e7d50b9027236818e64491"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 921
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 35,
+      "tap": 512,
+      "slide": 61,
+      "hold": 79
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 379,
+   "bandId": 18,
+   "jacketImage": "379_keep_the_heat",
+   "bgmId": "bgm379"
+  },
+  "maa": {
+   "bestdori_song_id": 379,
+   "jacket": {
+    "path": "bestdori/379/jacket-cn-1.png",
+    "server": "cn",
+    "name": "379_keep_the_heat"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/379/jacket-cn-1.png",
+   "sha256": "6735c4bd00480808186be00d990e2e111823ba7351e20235e5054370ffd38337",
+   "width": 320,
+   "height": 320,
+   "bytes": 33639
+  }
+ },
+ "extra": {
+  "lyricist": "Fear, and Loathing in Las Vegas",
+  "composer": "Fear, and Loathing in Las Vegas",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1638621000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "keeptheheatandfireyourselfup",
+  "length_s": 113.856
+ }
+}

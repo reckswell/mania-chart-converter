@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "473",
+ "title": "一逢のFull Glory",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "200",
+ "version": "",
+ "date_added": "2023-02-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 114
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 114
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 68,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 200
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 200
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 134,
+      "hold": 30,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 397
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/473/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/473/hard.json",
+     "raw_sha256": "26527ab64de7f6cc0a314aa53107e89f2c341ca3e7d4a0022001ed05a60cb134"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 397
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 184,
+      "hold": 35,
+      "slide": 54,
+      "flick": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 614
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/473/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/473/expert.json",
+     "raw_sha256": "3b056dbccf61ee1ce1f40e1af27846e8c8716995a1f8dbac1f997c84b8acd8e2"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 614
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 315,
+      "hold": 27,
+      "slide": 77,
+      "flick": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 473,
+   "bandId": 5,
+   "jacketImage": "473_ichie_full_glory",
+   "bgmId": "bgm473"
+  },
+  "maa": {
+   "bestdori_song_id": 473,
+   "jacket": {
+    "path": "bestdori/473/jacket-cn-1.png",
+    "server": "cn",
+    "name": "473_ichie_full_glory"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/473/jacket-cn-1.png",
+   "sha256": "75072a8c98eb7dff376beda35117d9f9db95c151714efd5cd1376d3c98a1284f",
+   "width": 320,
+   "height": 320,
+   "bytes": 28533
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "竹田祐介（Elements Garden）",
+  "arranger": "Seonoo Kim（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1676786400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "いちえのfullglory",
+  "title_en": "The Sole Full Glory",
+  "length_s": 112.272
+ }
+}

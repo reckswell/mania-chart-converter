@@ -1,0 +1,210 @@
+{
+ "game": "sekai",
+ "song_id": "140",
+ "title": "アイスドロップ",
+ "artist": "Aqu3ra",
+ "title_romaji": "aisudoroppu",
+ "artist_romaji": "Aqu3ra",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "158",
+ "version": "",
+ "date_added": "2021-08-18",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 162
+   },
+   "source": {
+    "music_difficulty_id": 696,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "tap": 54,
+      "ex_tap": 4,
+      "hold": 10,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 267
+   },
+   "source": {
+    "music_difficulty_id": 697,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "tap": 165,
+      "hold": 4,
+      "slide": 12,
+      "ex_tap": 17,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 484
+   },
+   "source": {
+    "music_difficulty_id": 698,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "tap": 266,
+      "ex_tap": 54,
+      "slide": 38,
+      "flick": 12,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 704
+   },
+   "source": {
+    "music_difficulty_id": 699,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "tap": 427,
+      "hold": 4,
+      "ex_tap": 81,
+      "flick": 27,
+      "slide": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 802
+   },
+   "source": {
+    "music_difficulty_id": 700,
+    "difficulty": "master",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "tap": 530,
+      "slide": 40,
+      "flick": 45,
+      "ex_tap": 69,
+      "hold": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 140,
+   "assetbundle": "jacket_s_140",
+   "seq": 2308501
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Untitled-World/sekai-jacket-db/HEAD/src/jacket/jacket_s_140.png",
+   "sha256": "32fa757b24ee62d2e9e5abdb7642b425a709ffd3d46896c54ff32c3561fd9053",
+   "width": 320,
+   "height": 320,
+   "bytes": 25234
+  }
+ },
+ "extra": {
+  "pronunciation": "あいすどろっぷ",
+  "lyricist": "Aqu3ra",
+  "composer": "Aqu3ra",
+  "arranger": "Aqu3ra",
+  "published_at": 1629291900000,
+  "released_at": 1629212400000,
+  "tags": [
+   "idol",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0140_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "桃井愛莉",
+     "鏡音レン",
+     "花里みのり",
+     "桐谷遥",
+     "日野森雫"
+    ],
+    "asset": "se_0140_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "桃井愛莉"
+    ],
+    "asset": "an_0140_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 158.0
+ }
+}

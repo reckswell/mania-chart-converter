@@ -22,9 +22,22 @@
     "slide": 120,
     "air": 140
    },
-   "source": {},
-   "status": "listed",
-   "notes": ""
+   "source": {
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "tap": 116,
+      "hold": 27,
+      "air": 21,
+      "ex_tap": 26,
+      "slide": 25,
+      "air_hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "MET 0/0 at tick 44364 ignored",
+   "assets": {}
   },
   "hard": {
    "slot": "hard",
@@ -38,9 +51,22 @@
     "slide": 545,
     "air": 54
    },
-   "source": {},
-   "status": "listed",
-   "notes": ""
+   "source": {
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "hold": 21,
+      "tap": 285,
+      "slide": 43,
+      "ex_tap": 30,
+      "air": 15,
+      "air_hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "MET 0/0 at tick 44364 ignored",
+   "assets": {}
   },
   "expert": {
    "slot": "expert",
@@ -55,10 +81,22 @@
     "air": 158
    },
    "source": {
-    "sdvxin_legacy": "05/05013exp"
+    "sdvxin_legacy": "05/05013exp",
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "slide": 44,
+      "hold": 34,
+      "tap": 508,
+      "ex_tap": 131,
+      "air_hold": 32,
+      "air": 44
+     }
+    }
    },
-   "status": "listed",
-   "notes": ""
+   "status": "extracted",
+   "notes": "MET 0/0 at tick 44364 ignored",
+   "assets": {}
   },
   "master": {
    "slot": "master",
@@ -74,10 +112,24 @@
     "flick": 170
    },
    "source": {
-    "sdvxin_legacy": "05/05013mst"
+    "sdvxin_legacy": "05/05013mst",
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/05013mst.png",
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "hold": 20,
+      "ex_tap": 193,
+      "tap": 738,
+      "slide": 43,
+      "air": 104,
+      "flick": 170,
+      "air_hold": 13
+     }
+    }
    },
-   "status": "listed",
-   "notes": ""
+   "status": "extracted",
+   "notes": "MET 0/0 at tick 44364 ignored",
+   "assets": {}
   }
  },
  "source": {
@@ -85,5 +137,17 @@
    "id": "833",
    "image": "a338f1888ea29d77.jpg"
   }
- }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/zvuc/otoge-db/master/chunithm/jacket/a338f1888ea29d77.jpg",
+   "sha256": "2bd3ac2eb1016ac0f87f489780c556d89aa494016d76ba9170a10bfacae8392a",
+   "width": 190,
+   "height": 190,
+   "bytes": 11369
+  }
+ },
+ "extra": {}
 }

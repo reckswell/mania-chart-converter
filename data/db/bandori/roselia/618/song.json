@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "618",
+ "title": "礎の花冠",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "174",
+ "version": "",
+ "date_added": "2024-07-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 118
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 118
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 92,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 305
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 305
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 62,
+      "tap": 181
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 571
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/618/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/618/hard.json",
+     "raw_sha256": "12b7fb5226f6744ef86a05ca21484f54675e29d9ba7f8273d54c5aab8a2b0fad"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 571
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 90,
+      "tap": 278,
+      "hold": 26,
+      "flick": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 829
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/618/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/618/expert.json",
+     "raw_sha256": "77e7634bd19c81a3ba5c3bde00aa3a8e075f44de2ad577fa440db223adc2ccab"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 829
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 30,
+      "tap": 482,
+      "slide": 94,
+      "flick": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 618,
+   "bandId": 5,
+   "jacketImage": "618_ishizue_hanakanmuri",
+   "bgmId": "bgm618"
+  },
+  "maa": {
+   "bestdori_song_id": 618,
+   "jacket": {
+    "path": "bestdori/618/jacket-cn-1.png",
+    "server": "cn",
+    "name": "618_ishizue_hanakanmuri"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/618/jacket-cn-1.png",
+   "sha256": "f407cecd5c06d319ffb3efb3e4600194ff8c27bfe95c0f1e0a7b68eeb554de9d",
+   "width": 320,
+   "height": 320,
+   "bytes": 21417
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1720591200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "いしずえのはなかんむり",
+  "title_en": "Cornerstone Corolla",
+  "length_s": 123.504
+ }
+}

@@ -1,0 +1,205 @@
+{
+ "game": "sekai",
+ "song_id": "661",
+ "title": "卑怯戦隊うろたんだー",
+ "artist": "シンP",
+ "title_romaji": "hikyoosentaiurotandaa",
+ "artist_romaji": "shinpii",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "152",
+ "version": "",
+ "date_added": "2026-05-11",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 217
+   },
+   "source": {
+    "music_difficulty_id": 3301,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 61,
+      "ex_tap": 9,
+      "hold": 10,
+      "slide": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 428
+   },
+   "source": {
+    "music_difficulty_id": 3302,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 11,
+      "tap": 138,
+      "slide": 26,
+      "flick": 9,
+      "hold": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 617
+   },
+   "source": {
+    "music_difficulty_id": 3303,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 28,
+      "flick": 35,
+      "tap": 133,
+      "slide": 56,
+      "other": 2,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1025
+   },
+   "source": {
+    "music_difficulty_id": 3304,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 29,
+      "flick": 55,
+      "slide": 137,
+      "tap": 240,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1148
+   },
+   "source": {
+    "music_difficulty_id": 3305,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 71,
+      "flick": 162,
+      "tap": 407,
+      "slide": 110,
+      "hold": 79,
+      "other": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 661,
+   "assetbundle": "jacket_s_661",
+   "seq": 1564501
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_661.png",
+   "sha256": "938be6280ab1bdf68e45be169fe81330082b515d33ea829b0771c68263b8635c",
+   "width": 320,
+   "height": 320,
+   "bytes": 19938
+  }
+ },
+ "extra": {
+  "pronunciation": "ひきょーせんたいうろたんだー",
+  "lyricist": "シンP",
+  "composer": "シンP",
+  "arranger": "シンP",
+  "published_at": 1778479200000,
+  "released_at": 1196175600000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "KAITO",
+     "MEIKO",
+     "初音ミク"
+    ],
+    "asset": "vs_0661_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "KAITO",
+     "天馬司",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0661_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 152.0
+ }
+}

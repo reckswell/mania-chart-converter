@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "173",
+ "title": "夜行性ハイズ",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "132",
+ "version": "",
+ "date_added": "2019-02-04",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 120
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 120
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 88,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 214
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 214
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 164,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 450
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/173/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/173/hard.json",
+     "raw_sha256": "5b783f742ed066776409a687aa7e190b0a672dca0d790128d767c50b7bb49055"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 450
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 349,
+      "hold": 37,
+      "flick": 4,
+      "slide": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 662
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/173/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/173/expert.json",
+     "raw_sha256": "aeceb384d7add17474791e8f613d42fccaf982ced448e7e6afc5384704932ff3"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 662
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 512,
+      "flick": 31,
+      "hold": 31,
+      "slide": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 173,
+   "bandId": 1,
+   "jacketImage": "173_yakousei",
+   "bgmId": "bgm173"
+  },
+  "maa": {
+   "bestdori_song_id": 173,
+   "jacket": {
+    "path": "bestdori/173/jacket-cn-1.png",
+    "server": "cn",
+    "name": "173_yakousei"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/173/jacket-cn-1.png",
+   "sha256": "8d03d278900bc91ddd015d5c10a1d8f375af7df5d9b025860b5ed926045ec877",
+   "width": 320,
+   "height": 320,
+   "bytes": 28561
+  }
+ },
+ "extra": {
+  "lyricist": "DECO*27",
+  "composer": "DECO*27",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1549260000000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "やこうせいはいず",
+  "title_en": "Nocturnal Kids",
+  "length_s": 105.504
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "277",
+ "title": "カサブタ",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "172",
+ "version": "",
+ "date_added": "2020-07-05",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 148
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 148
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 92,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 233
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 233
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 157,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 372
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/277/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/277/hard.json",
+     "raw_sha256": "8ec6c6d3b57a033b59ce27ade661acd323eafd483f1a94add987cbef24911aab"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 372
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 278,
+      "hold": 43,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 532
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/277/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/277/expert.json",
+     "raw_sha256": "cbb1d9ebdd9c0eb9a1937b62c4aba826d8542d1038e4d2ca8b10f951300cc570"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 532
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 48,
+      "tap": 349,
+      "slide": 25,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 277,
+   "bandId": 2,
+   "jacketImage": "277_kasabuta",
+   "bgmId": "bgm277"
+  },
+  "maa": {
+   "bestdori_song_id": 277,
+   "jacket": {
+    "path": "bestdori/277/jacket-cn-1.png",
+    "server": "cn",
+    "name": "277_kasabuta"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/277/jacket-cn-1.png",
+   "sha256": "c8c9ba4dc38f741f049abb12e9f65b798f92b3558eb20eef7cb5494878107020",
+   "width": 320,
+   "height": 320,
+   "bytes": 18467
+  }
+ },
+ "extra": {
+  "lyricist": "千綿偉功",
+  "composer": "千綿偉功",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1593928800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "かさぶた",
+  "title_en": "KASABUTA",
+  "length_s": 92.856
+ }
+}

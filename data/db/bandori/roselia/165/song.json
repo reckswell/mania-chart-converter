@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "165",
+ "title": "名前のない怪物",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2019-01-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 139
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 139
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 83,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 197
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 197
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 131,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 521
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/165/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/165/hard.json",
+     "raw_sha256": "3a583e0d6240817e4f78a2ee8d9379012ad11fece557227a54010ba944859515"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 521
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 23,
+      "tap": 276,
+      "hold": 48,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 734
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/165/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/165/expert.json",
+     "raw_sha256": "54b9ecfe273d6ac070510662093b0a6f72b0de15027e26c54984552ff9bf869e"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 734
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 42,
+      "tap": 459,
+      "flick": 45,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 165,
+   "bandId": 5,
+   "jacketImage": "165_noname_monster",
+   "bgmId": "bgm165"
+  },
+  "maa": {
+   "bestdori_song_id": 165,
+   "jacket": {
+    "path": "bestdori/165/jacket-cn-1.png",
+    "server": "cn",
+    "name": "165_noname_monster"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/165/jacket-cn-1.png",
+   "sha256": "3fcd54c9587c61083dbcde72cc21af9cf4eb6ebfba8805ec38d97a65f83bdc42",
+   "width": 320,
+   "height": 320,
+   "bytes": 29118
+  }
+ },
+ "extra": {
+  "lyricist": "ryo",
+  "composer": "ryo",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1546322400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "なまえのないかいぶつ",
+  "title_en": "NAMAENO NAI KAIBUTSU",
+  "length_s": 116.064
+ }
+}

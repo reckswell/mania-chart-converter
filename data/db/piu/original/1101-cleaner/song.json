@@ -1,0 +1,449 @@
+{
+ "game": "piu",
+ "song_id": "1101",
+ "title": "Cleaner",
+ "artist": "Doin",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "203",
+ "version": "Fiesta EX",
+ "date_added": "",
+ "charts": {
+  "single-4": {
+   "slot": "single-4",
+   "native": "S4",
+   "level": "4",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 198
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 990,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S4",
+     "meter": "4",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 198,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 115,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-7": {
+   "slot": "single-7",
+   "native": "S7",
+   "level": "7",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 414
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 991,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S7",
+     "meter": "7",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 414,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 311,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-14": {
+   "slot": "single-14",
+   "native": "S14",
+   "level": "14",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 760
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 992,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S13",
+     "meter": "13",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 760,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 76,
+      "tap": 370
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 13 differs from the PHOENIX 2 level 14: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 865
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 993,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 865,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 90,
+      "tap": 453
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1255
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 994,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-single",
+     "description": "S21",
+     "meter": "21",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1255,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 50,
+      "tap": 713
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-23": {
+   "slot": "single-23",
+   "native": "S23",
+   "level": "23",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 1442
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 995,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-single",
+     "description": "S23",
+     "meter": "23",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1442,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 884,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-20": {
+   "slot": "double-20",
+   "native": "D20",
+   "level": "20",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1160
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 996,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 12,
+     "steps_type": "pump-double",
+     "description": "D20",
+     "meter": "20",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1160,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 67,
+      "tap": 478
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-25": {
+   "slot": "double-25",
+   "native": "D25",
+   "level": "25",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 1270
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 997,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 15,
+     "steps_type": "pump-double",
+     "description": "D25",
+     "meter": "25",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1270,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 869,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-26": {
+   "slot": "double-26",
+   "native": "D26",
+   "level": "26",
+   "constant": null,
+   "designer": "SANDSTORM, WINDFORCE",
+   "note_counts": {
+    "combo": 1584
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 998,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 16,
+     "steps_type": "pump-double",
+     "description": "D26",
+     "meter": "26",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1584,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 837,
+      "hold": 59
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "halfdouble-20": {
+   "slot": "halfdouble-20",
+   "native": "HDB20",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9052,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-24": {
+   "slot": "halfdouble-24",
+   "native": "HDB24",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9053,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-25": {
+   "slot": "halfdouble-25",
+   "native": "HDB25",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9054,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 172,
+   "game_id": "1101",
+   "card": "/img/card/87.png",
+   "first": "Fiesta EX v1.00",
+   "title": "Cleaner"
+  },
+  "kalinathalie": {
+   "slug": "cleaner"
+  },
+  "simfile": {
+   "path": "09 - FIESTA EX/1101 - Cleaner/1101 - Cleaner.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/09%20-%20FIESTA%20EX/1101%20-%20Cleaner/1101%20-%20Cleaner.ssc",
+   "id": "1101",
+   "title": "Cleaner",
+   "artist": "Doin"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/cleaner.jpg",
+   "sha256": "b4e2559f2debbbaffaefa7125174c1e24cb7880f1c2d98fe6ca83ac0c6f11c58",
+   "width": 256,
+   "height": 256,
+   "bytes": 23092
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "클리너"
+  },
+  "simfile_notes": [
+   "S14: simfile chart 'S13' has meter 13 (re-rated)"
+  ]
+ }
+}

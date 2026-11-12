@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "493",
+ "title": "最強☆ソング",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2023-04-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 123
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 123
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 8,
+      "tap": 107
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 230
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 230
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 39,
+      "tap": 152
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 446
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/493/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/493/hard.json",
+     "raw_sha256": "7144ec4fa8dee932556e015b6cb17c5284e539cc94431e5778d8bc0dc14bc735"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 446
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 60,
+      "tap": 250,
+      "flick": 6,
+      "slide": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 677
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/493/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/493/expert.json",
+     "raw_sha256": "cf5fdc3c750d26af5f90710a30b91a9cb38f0ce82f9638b36bcc92978564567c"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 677
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 459,
+      "hold": 59,
+      "flick": 29,
+      "slide": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 493,
+   "bandId": 1,
+   "jacketImage": "493_saikyo_song",
+   "bgmId": "bgm493"
+  },
+  "maa": {
+   "bestdori_song_id": 493,
+   "jacket": {
+    "path": "bestdori/493/jacket-cn-1.png",
+    "server": "cn",
+    "name": "493_saikyo_song"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/493/jacket-cn-1.png",
+   "sha256": "b0177d4b83fc82b93a27f50e6569c08e6fdfadc58190c6b07219c4f862f7fea4",
+   "width": 320,
+   "height": 320,
+   "bytes": 43388
+  }
+ },
+ "extra": {
+  "lyricist": "HoneyWorks",
+  "composer": "HoneyWorks",
+  "arranger": "HoneyWorks",
+  "tag": "normal",
+  "published_at": 1682748000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "さいきょうそんぐ",
+  "title_en": "Ultimate☆Song",
+  "length_s": 102.072
+ }
+}

@@ -1,0 +1,237 @@
+{
+ "game": "sekai",
+ "song_id": "257",
+ "title": "てらてら",
+ "artist": "和田たけあき",
+ "title_romaji": "teratera",
+ "artist_romaji": "wadatakeaki",
+ "genre": "Leo/need",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2022-07-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 251
+   },
+   "source": {
+    "music_difficulty_id": 1281,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 60,
+      "hold": 21,
+      "ex_tap": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 433
+   },
+   "source": {
+    "music_difficulty_id": 1282,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 157,
+      "ex_tap": 26,
+      "slide": 24,
+      "flick": 8,
+      "hold": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 809
+   },
+   "source": {
+    "music_difficulty_id": 1283,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 18,
+      "tap": 246,
+      "slide": 73,
+      "ex_tap": 80,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2; stacked taps merged: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1035
+   },
+   "source": {
+    "music_difficulty_id": 1284,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 56,
+      "tap": 372,
+      "slide": 95,
+      "ex_tap": 133,
+      "hold": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 4",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1262
+   },
+   "source": {
+    "music_difficulty_id": 1285,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 85,
+      "tap": 549,
+      "slide": 111,
+      "hold": 6,
+      "ex_tap": 126
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1450
+   },
+   "source": {
+    "music_difficulty_id": 4115,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 186,
+      "tap": 667,
+      "flick": 173,
+      "hold": 77,
+      "slide": 67,
+      "other": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 257,
+   "assetbundle": "jacket_s_257",
+   "seq": 2218201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_257.png",
+   "sha256": "4940940295038999fc2fc79c1fdb42b29bafc2a40e3db66a6c1786ec75c6e78d",
+   "width": 320,
+   "height": 320,
+   "bytes": 36553
+  }
+ },
+ "extra": {
+  "pronunciation": "てらてら",
+  "lyricist": "和田たけあき",
+  "composer": "和田たけあき",
+  "arranger": "和田たけあき",
+  "published_at": 1658383200000,
+  "released_at": 1658329200000,
+  "tags": [
+   "light_music_club",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0257_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "天馬咲希",
+     "初音ミク",
+     "星乃一歌",
+     "望月穂波",
+     "日野森志歩"
+    ],
+    "asset": "se_0257_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "天馬咲希"
+    ],
+    "asset": "an_0257_01"
+   }
+  ],
+  "filler_sec": 8.679300308227539,
+  "bpm_main": 190.0
+ }
+}

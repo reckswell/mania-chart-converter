@@ -1,0 +1,450 @@
+{
+ "game": "piu",
+ "song_id": "1405",
+ "title": "Yog-Sothoth",
+ "artist": "Nato",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "200",
+ "version": "Prime",
+ "date_added": "",
+ "charts": {
+  "single-10": {
+   "slot": "single-10",
+   "native": "S10",
+   "level": "10",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 542
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1667,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S9",
+     "meter": "9",
+     "active": true,
+     "credit": "EXC",
+     "combo": 542,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 514,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 9 differs from the PHOENIX 2 level 10: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "PBTO90",
+   "note_counts": {
+    "combo": 841
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4406,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "PBTO90",
+     "combo": 841,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 135,
+      "tap": 433
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "6 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 1100
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1668,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": true,
+     "credit": "Nimgo",
+     "combo": 1100,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 122,
+      "tap": 498
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "8 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "MINAMI",
+   "note_counts": {
+    "combo": 1238
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1669,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S21",
+     "meter": "21",
+     "active": true,
+     "credit": "Minami",
+     "combo": 1238,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 691,
+      "hold": 76
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "4 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-23": {
+   "slot": "single-23",
+   "native": "S23",
+   "level": "23",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 1400
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1670,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-single",
+     "description": "S23",
+     "meter": "23",
+     "active": true,
+     "credit": "Conrad",
+     "combo": 1400,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 66,
+      "tap": 724,
+      "other": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "20 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1051
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3287,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 10,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": true,
+     "credit": "EXC",
+     "combo": 1051,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 80,
+      "tap": 572
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-24": {
+   "slot": "double-24",
+   "native": "D24",
+   "level": "24",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1398
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1671,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 12,
+     "steps_type": "pump-double",
+     "description": "D24 INFOBAR TITLE",
+     "meter": "24",
+     "active": true,
+     "credit": "EXC",
+     "combo": 1398,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 58,
+      "other": 18,
+      "tap": 704
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "26 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-25": {
+   "slot": "double-25",
+   "native": "D25",
+   "level": "25",
+   "constant": null,
+   "designer": "MINAMI",
+   "note_counts": {
+    "combo": 1646
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1672,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 14,
+     "steps_type": "pump-double",
+     "description": "D25",
+     "meter": "25",
+     "active": true,
+     "credit": "Minami",
+     "combo": 1646,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 800,
+      "hold": 144
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "18 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "halfdouble-18": {
+   "slot": "halfdouble-18",
+   "native": "HDB18",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8893,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-23": {
+   "slot": "halfdouble-23",
+   "native": "HDB23",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8894,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-24": {
+   "slot": "halfdouble-24",
+   "native": "HDB24",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8895,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "coop-3": {
+   "slot": "coop-3",
+   "native": "CO-OP x3",
+   "level": "3",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 2572
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1666,
+     "mode": "C"
+    },
+    "simfile": {
+     "chart": 16,
+     "steps_type": "pump-double",
+     "description": "DP COOP 3P",
+     "meter": "99",
+     "active": true,
+     "credit": "EXC",
+     "combo": 2572,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 1111,
+      "hold": 139
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 283,
+   "game_id": "1405",
+   "card": "/img/card/185.png",
+   "first": "Prime v1.00.0",
+   "title": "Yog-Sothoth"
+  },
+  "kalinathalie": {
+   "slug": "yog_sothoth"
+  },
+  "simfile": {
+   "path": "12 - PRIME/1405 - Yog Sothoth/1405 - Yog Sothoth.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/12%20-%20PRIME/1405%20-%20Yog%20Sothoth/1405%20-%20Yog%20Sothoth.ssc",
+   "id": "1405",
+   "title": "Yog-Sothoth",
+   "artist": "Nato"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/yog_sothoth.jpg",
+   "sha256": "1e4d17e204ca67db5aeaf9c59d23155a62503b5650d738d757005fb38767eac3",
+   "width": 256,
+   "height": 256,
+   "bytes": 17170
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "요그 소토스"
+  },
+  "simfile_notes": [
+   "S10: simfile chart 'S9' has meter 9 (re-rated)"
+  ]
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "138",
+ "title": "ロミオとシンデレラ",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2018-08-26",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 136
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 136
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 82,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 282
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 282
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 180,
+      "hold": 51
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 479
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/138/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/138/hard.json",
+     "raw_sha256": "a7feed465b8736a8e62205caa461359d3539069c9bf451e0fcfef9a1eb3aa4ab"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 479
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 356,
+      "hold": 44,
+      "slide": 11,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 744
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/138/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/138/expert.json",
+     "raw_sha256": "5f2ab32cfdcb6dccbd9f5322587cb6dcc1dab0b725b2c35db07fad8c137e98dc"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 744
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 515,
+      "slide": 35,
+      "hold": 49,
+      "flick": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 138,
+   "bandId": 1,
+   "jacketImage": "138_romishin",
+   "bgmId": "bgm138"
+  },
+  "maa": {
+   "bestdori_song_id": 138,
+   "jacket": {
+    "path": "bestdori/138/jacket-cn-1.png",
+    "server": "cn",
+    "name": "138_romishin"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/138/jacket-cn-1.png",
+   "sha256": "6ff7c6c385ca9244ffda240e34e1079e5961a45fba1de5a8c1934520f34ed12f",
+   "width": 320,
+   "height": 320,
+   "bytes": 30655
+  }
+ },
+ "extra": {
+  "lyricist": "doriko",
+  "composer": "doriko",
+  "arranger": "末益涼太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1535263200000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "ろみおとしんでれら",
+  "title_en": "Romeo＆Cinderella",
+  "length_s": 113.712
+ }
+}

@@ -1,0 +1,214 @@
+{
+ "game": "sekai",
+ "song_id": "8",
+ "title": "タイムマシン",
+ "artist": "1640mP（164×40mP）",
+ "title_romaji": "taimumashin",
+ "artist_romaji": "1640mP(164×40mP)",
+ "genre": "Leo/need",
+ "bpm": "126",
+ "version": "",
+ "date_added": "2021-02-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 193
+   },
+   "source": {
+    "music_difficulty_id": 36,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 15,
+      "tap": 35,
+      "ex_tap": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 268
+   },
+   "source": {
+    "music_difficulty_id": 37,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 91,
+      "flick": 4,
+      "ex_tap": 2,
+      "slide": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 488
+   },
+   "source": {
+    "music_difficulty_id": 38,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 49,
+      "tap": 265,
+      "ex_tap": 6,
+      "flick": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 719
+   },
+   "source": {
+    "music_difficulty_id": 39,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 368,
+      "slide": 86,
+      "ex_tap": 12,
+      "flick": 43,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 903
+   },
+   "source": {
+    "music_difficulty_id": 40,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 511,
+      "slide": 81,
+      "flick": 70,
+      "ex_tap": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 8,
+   "assetbundle": "jacket_s_008",
+   "seq": 1205001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_008.png",
+   "sha256": "f1e0bb110221338b74e6c909c97f57fb177272a1a6fd47898d5a6f88b314b72b",
+   "width": 320,
+   "height": 320,
+   "bytes": 25865
+  }
+ },
+ "extra": {
+  "pronunciation": "たいむましん",
+  "lyricist": "164",
+  "composer": "40mP",
+  "arranger": "1640mP",
+  "published_at": 1612936800000,
+  "released_at": 1284303600000,
+  "tags": [
+   "light_music_club",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "0008_01"
+   },
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "巡音ルカ",
+     "MEIKO"
+    ],
+    "asset": "vs_0008_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "星乃一歌",
+     "天馬咲希"
+    ],
+    "asset": "0008_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "天馬咲希"
+    ],
+    "asset": "an_0008_01"
+   }
+  ],
+  "filler_sec": 7.571400165557861,
+  "bpm_main": 126.0
+ }
+}

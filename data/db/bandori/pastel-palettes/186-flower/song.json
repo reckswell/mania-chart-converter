@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "186",
+ "title": "きゅ〜まい＊flower",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "183",
+ "version": "",
+ "date_added": "2019-04-12",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 145
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 145
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 99,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 216
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 216
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 36,
+      "tap": 144
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 452
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/186/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/186/hard.json",
+     "raw_sha256": "ee4a41bd4080219ab1bae30d95b3cff4840f4e485d5ffd98dc05f29201e1f9cc"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 452
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 51,
+      "tap": 249,
+      "flick": 47,
+      "slide": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 702
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/186/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/186/expert.json",
+     "raw_sha256": "999b7d4939c2ff3989de5687b87c0ed027252e7b636d994f70137f9455e529ff"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 702
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 55,
+      "tap": 457,
+      "flick": 67,
+      "slide": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 800
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1767420000000,
+    "maa": {
+     "path": "bestdori/186/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/186/special.json",
+     "raw_sha256": "0a57d82ceb7b0afa1138ebfb2cffaa5d4351e86dab470f3ba771314d60acf604"
+    },
+    "bestdori": {
+     "notes": 800
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 485,
+      "hold": 17,
+      "slide": 72,
+      "flick": 102
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 186,
+   "bandId": 4,
+   "jacketImage": "186_myflower_1",
+   "bgmId": "bgm186"
+  },
+  "maa": {
+   "bestdori_song_id": 186,
+   "jacket": {
+    "path": "bestdori/186/jacket-cn-2.png",
+    "server": "cn",
+    "name": "186_myflower_1"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/186/jacket-cn-2.png",
+   "sha256": "71cfd89a9208d36fff649c815bc985c7764381e4f8ca8f748217d1a420e0f5d1",
+   "width": 320,
+   "height": 320,
+   "bytes": 37938
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "末益涼太（Elements Garden）",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1555048800000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "きゅーまいflower",
+  "title_en": "Kyu～Mai＊Flower",
+  "length_s": 92.52
+ }
+}

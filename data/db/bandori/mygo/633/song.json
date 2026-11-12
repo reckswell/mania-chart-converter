@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "633",
+ "title": "雑踏、僕らの街",
+ "artist": "MyGO!!!!!",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "MyGO!!!!!",
+ "bpm": "171",
+ "version": "",
+ "date_added": "2024-09-17",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 166
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 166
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 114,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 363
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 363
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 283,
+      "hold": 34,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 538
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/633/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/633/hard.json",
+     "raw_sha256": "d095f68544181e42d3815dc60839c07c74e4c5ab17714927bd03ac08df8c3d9d"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 538
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 252,
+      "hold": 42,
+      "flick": 83,
+      "slide": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 928
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/633/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/633/expert.json",
+     "raw_sha256": "cc4474181128802ca0abed254bd1b3b3040ebe95240b8bf90bed8bfa4716dd51"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 928
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 509,
+      "slide": 33,
+      "hold": 100,
+      "flick": 94
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 633,
+   "bandId": 45,
+   "jacketImage": "633_zatto",
+   "bgmId": "bgm633"
+  },
+  "maa": {
+   "bestdori_song_id": 633,
+   "jacket": {
+    "path": "bestdori/633/jacket-cn-1.png",
+    "server": "cn",
+    "name": "633_zatto"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/633/jacket-cn-1.png",
+   "sha256": "4b3ca1629825b72c32c8c1b612b1513d670ec27662b09a2e93796dcf7096c317",
+   "width": 320,
+   "height": 320,
+   "bytes": 38614
+  }
+ },
+ "extra": {
+  "lyricist": "大濱 健悟",
+  "composer": "大濱 健悟",
+  "arranger": "植木建象、加藤貴之",
+  "tag": "anime",
+  "published_at": 1726552800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ざっとうぼくらのまち",
+  "title_en": "Wrong World",
+  "length_s": 105.312
+ }
+}

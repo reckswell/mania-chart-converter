@@ -1,0 +1,190 @@
+{
+ "game": "sekai",
+ "song_id": "481",
+ "title": "明鏡止水",
+ "artist": "旅路",
+ "title_romaji": "meikyoushisui",
+ "artist_romaji": "tabiji",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "150",
+ "version": "",
+ "date_added": "2024-03-08",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 211
+   },
+   "source": {
+    "music_difficulty_id": 2401,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 55,
+      "hold": 14,
+      "ex_tap": 4,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 331
+   },
+   "source": {
+    "music_difficulty_id": 2402,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 19,
+      "tap": 145,
+      "slide": 11,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 557
+   },
+   "source": {
+    "music_difficulty_id": 2403,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 17,
+      "tap": 236,
+      "slide": 39,
+      "hold": 16,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 728
+   },
+   "source": {
+    "music_difficulty_id": 2404,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 13,
+      "tap": 353,
+      "ex_tap": 20,
+      "slide": 67,
+      "hold": 11,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 938
+   },
+   "source": {
+    "music_difficulty_id": 2405,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 130,
+      "other": 15,
+      "tap": 551,
+      "flick": 38,
+      "slide": 55,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 481,
+   "assetbundle": "jacket_s_481",
+   "seq": 1138301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_481.png",
+   "sha256": "3c3ba9d7b952c9049c7db444779395505ab384a5d0c2b5f9ef6bdc947a17dabd",
+   "width": 320,
+   "height": 320,
+   "bytes": 33033
+  }
+ },
+ "extra": {
+  "pronunciation": "めいきょうしすい",
+  "lyricist": "旅路",
+  "composer": "旅路",
+  "arranger": "旅路",
+  "published_at": 1709877600000,
+  "released_at": 1700838000000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0481_01"
+   }
+  ],
+  "filler_sec": 8.996700286865234,
+  "bpm_main": 150.0
+ }
+}

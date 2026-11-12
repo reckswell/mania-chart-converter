@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "551",
+ "title": "That's why I'm here",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "185",
+ "version": "",
+ "date_added": "2023-10-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 133
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 133
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 89,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 292
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 292
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 204,
+      "hold": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 508
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/551/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/551/hard.json",
+     "raw_sha256": "e3a9048a583d3dd2733b88c268bad3ce3a90333964779e31c38219aaa7d15264"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 508
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 333,
+      "slide": 21,
+      "hold": 56,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 879
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/551/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/551/expert.json",
+     "raw_sha256": "de07097dae49fad85e23e855cf5a20707e0503fb2116129fb8fa421e1ce6440d"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 879
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 37,
+      "tap": 608,
+      "hold": 57,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 551,
+   "bandId": 2,
+   "jacketImage": "551_thats_why_im_here",
+   "bgmId": "bgm551"
+  },
+  "maa": {
+   "bestdori_song_id": 551,
+   "jacket": {
+    "path": "bestdori/551/jacket-cn-1.png",
+    "server": "cn",
+    "name": "551_thats_why_im_here"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/551/jacket-cn-1.png",
+   "sha256": "3af717ff0896d717476b9352fdc2574d4bc12c540673dc4d593953b1c4e3f5ad",
+   "width": 320,
+   "height": 320,
+   "bytes": 22983
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "笠井雄太（Elements Garden）",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1698732000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "thatswhyimhere",
+  "length_s": 111.624
+ }
+}

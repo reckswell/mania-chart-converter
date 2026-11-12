@@ -1,0 +1,207 @@
+{
+ "game": "piu",
+ "song_id": "1029",
+ "title": "Mission Possible -Blow Back-",
+ "artist": "BanYa Production",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "128",
+ "version": "Fiesta",
+ "date_added": "",
+ "charts": {
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 991
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2233,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S19",
+     "meter": "19",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 991,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 526,
+      "hold": 76
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-20": {
+   "slot": "double-20",
+   "native": "D20",
+   "level": "20",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 660
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2234,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 8,
+     "steps_type": "pump-double",
+     "description": "D19",
+     "meter": "19",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 660,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 584,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 19 differs from the PHOENIX 2 level 20: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-21": {
+   "slot": "double-21",
+   "native": "D21",
+   "level": "21",
+   "constant": null,
+   "designer": "OSING",
+   "note_counts": {
+    "combo": 1000
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5722,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 9,
+     "steps_type": "pump-double",
+     "description": "D21",
+     "meter": "21",
+     "active": true,
+     "credit": "OSING",
+     "combo": 1000,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 531,
+      "hold": 100
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-18": {
+   "slot": "halfdouble-18",
+   "native": "HDB18",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9124,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-20": {
+   "slot": "halfdouble-20",
+   "native": "HDB20",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9125,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 381,
+   "game_id": "1029",
+   "card": "/img/card/1029.png",
+   "first": "Fiesta v1.01",
+   "title": "Mission Possible -Blow Back-"
+  },
+  "kalinathalie": {
+   "slug": "mission_possible_blow_back"
+  },
+  "simfile": {
+   "path": "08 - FIESTA/1029 - Mission Possible -BlowBack-/1029 - Mission Possible - BlowBack-.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/08%20-%20FIESTA/1029%20-%20Mission%20Possible%20-BlowBack-/1029%20-%20Mission%20Possible%20-%20BlowBack-.ssc",
+   "id": "1029",
+   "title": "Mission Possible -Blow Back-",
+   "artist": "Banya Production"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/mission_possible_blow_back.jpg",
+   "sha256": "09eae5705a9eceee31097a0b52da3f3380251d14c75f51b9fe342e994a99e2bf",
+   "width": 256,
+   "height": 256,
+   "bytes": 29623
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "미션 파서블 -블로우 백-"
+  },
+  "revived_in": "Prime 2 v1.00.0",
+  "simfile_notes": [
+   "D20: simfile chart 'D19' has meter 19 (re-rated)"
+  ]
+ }
+}

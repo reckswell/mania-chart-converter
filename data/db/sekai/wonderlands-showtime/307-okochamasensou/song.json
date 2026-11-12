@@ -1,0 +1,210 @@
+{
+ "game": "sekai",
+ "song_id": "307",
+ "title": "おこちゃま戦争",
+ "artist": "ギガ",
+ "title_romaji": "okochamasensou",
+ "artist_romaji": "giga",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "175",
+ "version": "",
+ "date_added": "2023-04-17",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 276
+   },
+   "source": {
+    "music_difficulty_id": 1531,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 90,
+      "hold": 22,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 413
+   },
+   "source": {
+    "music_difficulty_id": 1532,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 164,
+      "hold": 9,
+      "slide": 12,
+      "ex_tap": 5,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 861
+   },
+   "source": {
+    "music_difficulty_id": 1533,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 277,
+      "ex_tap": 139,
+      "slide": 55,
+      "flick": 76,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1259
+   },
+   "source": {
+    "music_difficulty_id": 1534,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 332,
+      "ex_tap": 119,
+      "hold": 33,
+      "flick": 117,
+      "slide": 136
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1394
+   },
+   "source": {
+    "music_difficulty_id": 1535,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 457,
+      "flick": 172,
+      "ex_tap": 121,
+      "slide": 205,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 307,
+   "assetbundle": "jacket_s_307",
+   "seq": 1527501
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_307.png",
+   "sha256": "4672738748cefb4cdcdcd5ea5de5448a6133435ec3dd5f0e29694ca88df4b674",
+   "width": 320,
+   "height": 320,
+   "bytes": 30396
+  }
+ },
+ "extra": {
+  "pronunciation": "おこちゃませんそう",
+  "lyricist": "れをる",
+  "composer": "ギガ",
+  "arranger": "ギガ(バーチャル・シンガーver.)",
+  "published_at": 1681711200000,
+  "released_at": 1385650800000,
+  "tags": [
+   "theme_park",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音リン",
+     "鏡音レン"
+    ],
+    "asset": "vs_0307_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音リン",
+     "鏡音レン",
+     "天馬司",
+     "草薙寧々"
+    ],
+    "asset": "se_0307_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "天馬司",
+     "草薙寧々"
+    ],
+    "asset": "an_0307_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 175.0
+ }
+}

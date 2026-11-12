@@ -22,9 +22,22 @@
     "slide": 60,
     "air": 37
    },
-   "source": {},
-   "status": "listed",
-   "notes": ""
+   "source": {
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "tap": 110,
+      "hold": 17,
+      "air": 13,
+      "ex_tap": 11,
+      "slide": 13,
+      "air_hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
   },
   "hard": {
    "slot": "hard",
@@ -38,9 +51,22 @@
     "slide": 247,
     "air": 39
    },
-   "source": {},
-   "status": "listed",
-   "notes": ""
+   "source": {
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "ex_tap": 21,
+      "tap": 218,
+      "slide": 51,
+      "hold": 23,
+      "air": 22,
+      "air_hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 exact duplicate lines ignored",
+   "assets": {}
   },
   "expert": {
    "slot": "expert",
@@ -55,10 +81,23 @@
     "air": 88
    },
    "source": {
-    "sdvxin_legacy": "10/10210exp"
+    "sdvxin_legacy": "10/10210exp",
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "slide": 87,
+      "tap": 326,
+      "ex_tap": 88,
+      "hold": 20,
+      "air": 27,
+      "air_hold": 20,
+      "other": 6
+     }
+    }
    },
-   "status": "listed",
-   "notes": ""
+   "status": "extracted",
+   "notes": "7 exact duplicate lines ignored",
+   "assets": {}
   },
   "master": {
    "slot": "master",
@@ -74,10 +113,25 @@
     "flick": 158
    },
    "source": {
-    "sdvxin_legacy": "10/10210mst"
+    "sdvxin_legacy": "10/10210mst",
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/10210mst.png",
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "slide": 52,
+      "tap": 483,
+      "hold": 78,
+      "air": 64,
+      "air_hold": 43,
+      "other": 85,
+      "flick": 158,
+      "ex_tap": 65
+     }
+    }
    },
-   "status": "listed",
-   "notes": ""
+   "status": "extracted",
+   "notes": "2 exact duplicate lines ignored; not represented: SLP×2; combo 1570 in the .c2s differs from the published note count 1562 (chart revised since this file?)",
+   "assets": {}
   }
  },
  "source": {
@@ -85,5 +139,17 @@
    "id": "2926",
    "image": "2d874aecc46cca02.jpg"
   }
- }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/zvuc/otoge-db/master/chunithm/jacket/2d874aecc46cca02.jpg",
+   "sha256": "98fb0c2929b0c9513bf438129be5432f0704851f663647e754a7ccc19186b2b0",
+   "width": 190,
+   "height": 190,
+   "bytes": 15456
+  }
+ },
+ "extra": {}
 }

@@ -1,0 +1,110 @@
+{
+ "game": "piu",
+ "song_id": "1140",
+ "title": "Like A Man",
+ "artist": "Outsider",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "180",
+ "version": "Fiesta EX",
+ "date_added": "",
+ "charts": {
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "AHGOO",
+   "note_counts": {
+    "combo": 1734
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1147,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S19",
+     "meter": "19",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 1734,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 126,
+      "tap": 1156
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'S19')",
+   "assets": {}
+  },
+  "double-19": {
+   "slot": "double-19",
+   "native": "D19",
+   "level": "19",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 1679
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1148,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-double",
+     "description": "D19",
+     "meter": "19",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 1679,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 1053,
+      "hold": 172
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'D19')",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 197,
+   "game_id": "1140",
+   "card": "/img/card/110.png",
+   "first": "Fiesta EX v1.00",
+   "title": "Like A Man"
+  },
+  "simfile": {
+   "path": "09 - FIESTA EX/1140 - [Full Song] Like a Man/1140 - [Full Song] Like a Man.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/09%20-%20FIESTA%20EX/1140%20-%20%5BFull%20Song%5D%20Like%20a%20Man/1140%20-%20%5BFull%20Song%5D%20Like%20a%20Man.ssc",
+   "id": "1140",
+   "title": "Like A Man - FULL SONG -",
+   "artist": "Outsider"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Full Song",
+  "removed": true,
+  "removed_in": "Prime 2 v1.00.0"
+ }
+}

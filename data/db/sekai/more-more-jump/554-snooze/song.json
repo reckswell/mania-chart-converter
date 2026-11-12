@@ -1,0 +1,232 @@
+{
+ "game": "sekai",
+ "song_id": "554",
+ "title": "snooze",
+ "artist": "wotaku",
+ "title_romaji": "snooze",
+ "artist_romaji": "wotaku",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "150",
+ "version": "",
+ "date_added": "2025-01-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 248
+   },
+   "source": {
+    "music_difficulty_id": 2766,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 64,
+      "hold": 5,
+      "ex_tap": 6,
+      "slide": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 416
+   },
+   "source": {
+    "music_difficulty_id": 2767,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 8,
+      "tap": 115,
+      "flick": 7,
+      "hold": 17,
+      "ex_tap": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 798
+   },
+   "source": {
+    "music_difficulty_id": 2768,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 113,
+      "hold": 11,
+      "slide": 50,
+      "ex_tap": 110,
+      "flick": 33,
+      "other": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 961
+   },
+   "source": {
+    "music_difficulty_id": 2769,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 54,
+      "flick": 91,
+      "tap": 310,
+      "ex_tap": 191,
+      "other": 7,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "32",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1142
+   },
+   "source": {
+    "music_difficulty_id": 2770,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 59,
+      "flick": 151,
+      "tap": 482,
+      "ex_tap": 235,
+      "hold": 12,
+      "other": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "33",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1429
+   },
+   "source": {
+    "music_difficulty_id": 4085,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 366,
+      "slide": 28,
+      "tap": 536,
+      "hold": 28,
+      "flick": 283,
+      "other": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 554,
+   "assetbundle": "jacket_s_554",
+   "seq": 1347101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_554.png",
+   "sha256": "25181871f21338f0a14f5fb7efee50bb77b0561cb6ff9e16639b043e5abef0ed",
+   "width": 320,
+   "height": 320,
+   "bytes": 20225
+  }
+ },
+ "extra": {
+  "pronunciation": "すぬーず",
+  "lyricist": "wotaku",
+  "composer": "wotaku",
+  "arranger": "wotaku",
+  "published_at": 1735797600000,
+  "released_at": 1629385200000,
+  "tags": [
+   "idol"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0554_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音レン",
+     "花里みのり",
+     "桐谷遥",
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "se_0554_01"
+   }
+  ],
+  "filler_sec": 9.399999618530273,
+  "bpm_main": 150.0
+ }
+}

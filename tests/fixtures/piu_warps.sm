@@ -1,0 +1,28 @@
+#TITLE:Old Warp Tricks;
+#ARTIST:vsrgconv;
+#OFFSET:0.000;
+// beat 4: BPM -120 for a beat, then 120 again: StepMania warps beats 4-6
+// beat 10: a stop of -0.5 s at 120 BPM: StepMania warps beats 10-11
+#BPMS:0.000=120.000,4.000=-120.000,5.000=120.000;
+#STOPS:10.000=-0.500;
+#NOTES:
+     pump-single:
+     :
+     Hard:
+     8:
+     :
+10000
+01000
+00100
+00010
+,
+10000
+01000
+00100
+00010
+,
+00001
+00000
+10000
+01000
+;

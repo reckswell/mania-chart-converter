@@ -1,0 +1,208 @@
+{
+ "game": "sekai",
+ "song_id": "391",
+ "title": "キュートなカノジョ",
+ "artist": "syudou",
+ "title_romaji": "kyuutonakanojo",
+ "artist_romaji": "syudou",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "160",
+ "version": "",
+ "date_added": "2023-11-22",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 317
+   },
+   "source": {
+    "music_difficulty_id": 1951,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 65,
+      "hold": 20,
+      "ex_tap": 8,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 416
+   },
+   "source": {
+    "music_difficulty_id": 1952,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 147,
+      "slide": 39,
+      "ex_tap": 25,
+      "flick": 10,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 590
+   },
+   "source": {
+    "music_difficulty_id": 1953,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 37,
+      "tap": 250,
+      "slide": 56,
+      "ex_tap": 67
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1006
+   },
+   "source": {
+    "music_difficulty_id": 1954,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 98,
+      "flick": 86,
+      "tap": 534,
+      "slide": 83,
+      "other": 11,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1208
+   },
+   "source": {
+    "music_difficulty_id": 1955,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 90,
+      "flick": 122,
+      "tap": 581,
+      "slide": 128,
+      "hold": 6,
+      "other": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 391,
+   "assetbundle": "jacket_s_391",
+   "seq": 1634501
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_391.png",
+   "sha256": "9a97dfde0a1bf78596d1f94101acab045bd9648d156b18d47658c79fe7392717",
+   "width": 320,
+   "height": 320,
+   "bytes": 30186
+  }
+ },
+ "extra": {
+  "pronunciation": "きゅーとなかのじょ",
+  "lyricist": "syudou",
+  "composer": "syudou",
+  "arranger": "syudou",
+  "published_at": 1700632800000,
+  "released_at": 1613746800000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "可不"
+    ],
+    "asset": "vs_0391_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "巡音ルカ",
+     "宵崎奏",
+     "東雲絵名"
+    ],
+    "asset": "se_0391_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "東雲絵名"
+    ],
+    "asset": "an_0391_01"
+   }
+  ],
+  "filler_sec": 8.625,
+  "bpm_main": 160.0
+ }
+}

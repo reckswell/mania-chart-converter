@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "668",
+ "title": "音一会",
+ "artist": "MyGO!!!!!",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "MyGO!!!!!",
+ "bpm": "200",
+ "version": "",
+ "date_added": "2025-02-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 159
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 159
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 69,
+      "hold": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 272
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 272
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 132,
+      "hold": 68,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 550
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/668/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/668/hard.json",
+     "raw_sha256": "74568c4a5af50cd83535b2ec7f809513af37fc94c3756d275f77b4a49942f935"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 550
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 219,
+      "hold": 39,
+      "slide": 87,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 809
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/668/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/668/expert.json",
+     "raw_sha256": "6d3ee2f22bb2b7200e517e51cf484fde5f2be2e7e30076568a6b8e4d3ee58529"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 809
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 424,
+      "hold": 51,
+      "slide": 113,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 668,
+   "bandId": 45,
+   "jacketImage": "668_otoichie",
+   "bgmId": "bgm668"
+  },
+  "maa": {
+   "bestdori_song_id": 668,
+   "jacket": {
+    "path": "bestdori/668/jacket-cn-1.png",
+    "server": "cn",
+    "name": "668_otoichie"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/668/jacket-cn-1.png",
+   "sha256": "e571cf0f6364c1bc149b096914fab299af68766bf47c644843e86bc09c4053b7",
+   "width": 320,
+   "height": 320,
+   "bytes": 26885
+  }
+ },
+ "extra": {
+  "lyricist": "藤原優樹(SUPA LOVE)",
+  "composer": "尾崎豪(SUPA LOVE)",
+  "arranger": "尾崎豪(SUPA LOVE)",
+  "tag": "normal",
+  "published_at": 1739944800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "おといちえ",
+  "title_en": "Otoichie",
+  "length_s": 129.672
+ }
+}

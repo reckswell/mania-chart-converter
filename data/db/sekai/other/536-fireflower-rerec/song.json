@@ -1,0 +1,204 @@
+{
+ "game": "sekai",
+ "song_id": "536",
+ "title": "Fire◎Flower (Rerec)",
+ "artist": "halyosy",
+ "title_romaji": "Fire◎Flower (Rerec)",
+ "artist_romaji": "halyosy",
+ "genre": "その他",
+ "bpm": "153-175 (175)",
+ "version": "",
+ "date_added": "2025-03-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 238
+   },
+   "source": {
+    "music_difficulty_id": 2676,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 14,
+      "slide": 4,
+      "tap": 39,
+      "ex_tap": 3,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 403
+   },
+   "source": {
+    "music_difficulty_id": 2677,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 2,
+      "tap": 59,
+      "slide": 29,
+      "ex_tap": 19,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 568
+   },
+   "source": {
+    "music_difficulty_id": 2678,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 56,
+      "ex_tap": 54,
+      "tap": 67,
+      "flick": 26,
+      "other": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 734
+   },
+   "source": {
+    "music_difficulty_id": 2679,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 83,
+      "tap": 150,
+      "ex_tap": 74,
+      "flick": 51,
+      "other": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 863
+   },
+   "source": {
+    "music_difficulty_id": 2680,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 116,
+      "tap": 263,
+      "other": 31,
+      "ex_tap": 126,
+      "flick": 98,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 536,
+   "assetbundle": "jacket_s_536",
+   "seq": 3749401
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_536.png",
+   "sha256": "86ad2ade302ac3ec0261f6f9a5caa546da82efb27d29e283fd08629215937887",
+   "width": 320,
+   "height": 320,
+   "bytes": 26222
+  }
+ },
+ "extra": {
+  "pronunciation": "ふぁいあふらわー",
+  "lyricist": "halyosy",
+  "composer": "halyosy",
+  "arranger": "halyosy",
+  "published_at": 1740895200000,
+  "released_at": 1723906800000,
+  "tags": [
+   "other"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音レン"
+    ],
+    "asset": "vs_0536_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音レン",
+     "KAITO",
+     "東雲彰人",
+     "青柳冬弥",
+     "天馬司",
+     "神代類"
+    ],
+    "asset": "se_0536_01"
+   }
+  ],
+  "filler_sec": 8.215700149536133,
+  "bpm_main": 175.0
+ }
+}

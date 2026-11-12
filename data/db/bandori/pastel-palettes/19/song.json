@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "19",
+ "title": "ドリームパレード",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "172",
+ "version": "",
+ "date_added": "2016-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 104
+   },
+   "source": {
+    "notesQuantity": 78,
+    "bestdori": {
+     "level": 6,
+     "notes": 104
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 88,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 78 differs from combo 104 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 223
+   },
+   "source": {
+    "notesQuantity": 165,
+    "bestdori": {
+     "level": 13,
+     "notes": 223
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 197,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 165 differs from combo 223 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 394
+   },
+   "source": {
+    "notesQuantity": 358,
+    "maa": {
+     "path": "bestdori/19/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/19/hard.json",
+     "raw_sha256": "30f9782737ad38099b71353c0e519164d9e3cf84123ea96ad03d7790bb47bf76"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 394
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 344,
+      "flick": 10,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 358 differs from combo 394 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 575
+   },
+   "source": {
+    "notesQuantity": 519,
+    "maa": {
+     "path": "bestdori/19/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/19/expert.json",
+     "raw_sha256": "225047dd1826f7ae1fa49d71eef414488534afee233fc7c1e10b710b5fc6377e"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 575
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 22,
+      "tap": 353,
+      "hold": 61,
+      "flick": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 519 differs from combo 575 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 19,
+   "bandId": 4,
+   "jacketImage": "drepare",
+   "bgmId": "bgm019"
+  },
+  "maa": {
+   "bestdori_song_id": 19,
+   "jacket": {
+    "path": "bestdori/19/jacket-cn-1.png",
+    "server": "cn",
+    "name": "drepare"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/19/jacket-cn-1.png",
+   "sha256": "5657da345d010f69538d461f8d3080b730a3fbe4501a36124a3f1b71fd4b11d8",
+   "width": 320,
+   "height": 320,
+   "bytes": 17035
+  }
+ },
+ "extra": {
+  "lyricist": "渡辺徹/森月キャス",
+  "composer": "渡辺徹",
+  "arranger": "都丸椋太（Elements Garden）／宮崎京一",
+  "tag": "anime",
+  "published_at": 1462071600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "どりーむぱれーど",
+  "title_en": "Dream Parade",
+  "length_s": 107.64
+ }
+}

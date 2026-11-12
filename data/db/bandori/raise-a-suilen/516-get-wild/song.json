@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "516",
+ "title": "Get Wild",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "134",
+ "version": "",
+ "date_added": "2023-07-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 138
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 138
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 94,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 222
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 222
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 162,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 488
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/516/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/516/hard.json",
+     "raw_sha256": "37258053b3ecf1e557cac73c0f79428451da4eccb746df6df50278ddf1a3d416"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 488
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 324,
+      "slide": 48,
+      "flick": 27,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 692
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/516/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/516/expert.json",
+     "raw_sha256": "41f8d423188a5b5587dc81215f94cc91be3390832fe29731c2fd9b12ab412aaa"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 692
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 513,
+      "slide": 49,
+      "flick": 30,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 516,
+   "bandId": 18,
+   "jacketImage": "516_get_wild",
+   "bgmId": "bgm516"
+  },
+  "maa": {
+   "bestdori_song_id": 516,
+   "jacket": {
+    "path": "bestdori/516/jacket-cn-1.png",
+    "server": "cn",
+    "name": "516_get_wild"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/516/jacket-cn-1.png",
+   "sha256": "c8e590254e6034e9160d2898c6a3cb875bee7531b215ecdb8d2354f6032d07c9",
+   "width": 320,
+   "height": 320,
+   "bytes": 24415
+  }
+ },
+ "extra": {
+  "lyricist": "小室 みつ子",
+  "composer": "小室 哲哉",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1690610400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "getwild",
+  "length_s": 125.424
+ }
+}

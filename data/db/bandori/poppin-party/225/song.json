@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "225",
+ "title": "ブルーバード",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "152",
+ "version": "",
+ "date_added": "2019-10-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 168
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 168
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 94,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 245
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 245
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 49,
+      "tap": 147
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 397
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/225/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/225/hard.json",
+     "raw_sha256": "74b99aa635da738b6e5fd66da1b07366a23b71f556c1843eb2d012bd5c934461"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 397
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 195,
+      "hold": 44,
+      "slide": 40,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 605
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/225/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/225/expert.json",
+     "raw_sha256": "7ed22c7452e0b57e3852da49b2c94dc7a915c033a508f2e3c37e64f26f98228c"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 605
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 391,
+      "hold": 45,
+      "slide": 39,
+      "flick": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 225,
+   "bandId": 1,
+   "jacketImage": "225_bluebird",
+   "bgmId": "bgm225"
+  },
+  "maa": {
+   "bestdori_song_id": 225,
+   "jacket": {
+    "path": "bestdori/225/jacket-cn-1.png",
+    "server": "cn",
+    "name": "225_bluebird"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/225/jacket-cn-1.png",
+   "sha256": "bb3e4da9f640e27d194c642d8d9740d255e3b8dadca14cfff05898aeb4d35fe7",
+   "width": 320,
+   "height": 320,
+   "bytes": 26587
+  }
+ },
+ "extra": {
+  "lyricist": "水野良樹",
+  "composer": "水野良樹",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1572501600000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "ぶるーばーど",
+  "title_en": "Bluebird",
+  "length_s": 100.32
+ }
+}

@@ -1,0 +1,230 @@
+{
+ "game": "sekai",
+ "song_id": "644",
+ "title": "生きる",
+ "artist": "水野あつ",
+ "title_romaji": "ikiru",
+ "artist_romaji": "mizunoatsu",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "112",
+ "version": "",
+ "date_added": "2025-07-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 181
+   },
+   "source": {
+    "music_difficulty_id": 3216,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 8,
+      "hold": 10,
+      "tap": 22,
+      "ex_tap": 4,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 165
+   },
+   "source": {
+    "music_difficulty_id": 3217,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 76,
+      "slide": 6,
+      "hold": 6,
+      "ex_tap": 1,
+      "flick": 7,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 379
+   },
+   "source": {
+    "music_difficulty_id": 3218,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 128,
+      "slide": 27,
+      "hold": 3,
+      "ex_tap": 32,
+      "flick": 29,
+      "other": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 536
+   },
+   "source": {
+    "music_difficulty_id": 3219,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 22,
+      "tap": 180,
+      "other": 13,
+      "slide": 62,
+      "flick": 34,
+      "ex_tap": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 704
+   },
+   "source": {
+    "music_difficulty_id": 3220,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 325,
+      "hold": 19,
+      "other": 118,
+      "slide": 15,
+      "flick": 7,
+      "ex_tap": 108
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "32",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1131
+   },
+   "source": {
+    "music_difficulty_id": 4118,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 351,
+      "tap": 192,
+      "other": 11,
+      "ex_tap": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "duplicate slides: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 644,
+   "assetbundle": "jacket_s_644",
+   "seq": 1653901
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_644.png",
+   "sha256": "1b77f484e79096ec9edb43946ad5001f2f01c65628733fa95025fed19f5c36c8",
+   "width": 320,
+   "height": 320,
+   "bytes": 22516
+  }
+ },
+ "extra": {
+  "pronunciation": "いきる",
+  "lyricist": "水野あつ",
+  "composer": "水野あつ",
+  "arranger": "水野あつ",
+  "published_at": 1753682400000,
+  "released_at": 1626879600000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "可不"
+    ],
+    "asset": "vs_0644_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "MEIKO",
+     "宵崎奏",
+     "暁山瑞希"
+    ],
+    "asset": "se_0644_01"
+   }
+  ],
+  "filler_sec": 7.928599834442139,
+  "bpm_main": 112.0
+ }
+}

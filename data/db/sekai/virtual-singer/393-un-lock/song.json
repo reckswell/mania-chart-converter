@@ -1,0 +1,189 @@
+{
+ "game": "sekai",
+ "song_id": "393",
+ "title": "Un-Lock",
+ "artist": "無力P",
+ "title_romaji": "Un-Lock",
+ "artist_romaji": "muryokupii",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "130",
+ "version": "",
+ "date_added": "2023-09-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 215
+   },
+   "source": {
+    "music_difficulty_id": 1961,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 13,
+      "ex_tap": 8,
+      "tap": 58,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 366
+   },
+   "source": {
+    "music_difficulty_id": 1962,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 23,
+      "ex_tap": 9,
+      "tap": 135,
+      "flick": 9,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 598
+   },
+   "source": {
+    "music_difficulty_id": 1963,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 46,
+      "flick": 25,
+      "hold": 6,
+      "tap": 178,
+      "ex_tap": 51
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 894
+   },
+   "source": {
+    "music_difficulty_id": 1964,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 100,
+      "flick": 72,
+      "tap": 337,
+      "ex_tap": 71,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1096
+   },
+   "source": {
+    "music_difficulty_id": 1965,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 84,
+      "flick": 133,
+      "tap": 517,
+      "ex_tap": 28,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 393,
+   "assetbundle": "jacket_s_393",
+   "seq": 2132101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_393.png",
+   "sha256": "e9852d117979ff57a6ad6b62fbd36254f24f21d1512b59a6fb5e30e662221de5",
+   "width": 320,
+   "height": 320,
+   "bytes": 27470
+  }
+ },
+ "extra": {
+  "pronunciation": "あんろっく",
+  "lyricist": "無力P",
+  "composer": "無力P",
+  "arranger": "無力P",
+  "published_at": 1695103200000,
+  "released_at": 1685718000000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "巡音ルカ"
+    ],
+    "asset": "vs_0393_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 130.0
+ }
+}

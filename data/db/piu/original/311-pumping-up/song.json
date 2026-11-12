@@ -1,0 +1,199 @@
+{
+ "game": "piu",
+ "song_id": "311",
+ "title": "Pumping Up",
+ "artist": "BanYa",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "135",
+ "version": "3rd O.B.G",
+ "date_added": "",
+ "charts": {
+  "single-5": {
+   "slot": "single-5",
+   "native": "S5",
+   "level": "5",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 170
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3141,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S5",
+     "meter": "5",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 170,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 200,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-10": {
+   "slot": "single-10",
+   "native": "S10",
+   "level": "10",
+   "constant": null,
+   "designer": "SUNNY",
+   "note_counts": {
+    "combo": 333
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6765,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S10",
+     "meter": "10",
+     "active": true,
+     "credit": "SUNNY",
+     "combo": 333,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 298,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-13": {
+   "slot": "single-13",
+   "native": "S13",
+   "level": "13",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 526
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3142,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-single",
+     "description": "S13",
+     "meter": "13",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 526,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 49,
+      "tap": 367
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-15": {
+   "slot": "double-15",
+   "native": "D15",
+   "level": "15",
+   "constant": null,
+   "designer": "BME",
+   "note_counts": {
+    "combo": 604
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4504,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 13,
+     "steps_type": "pump-double",
+     "description": "D15",
+     "meter": "15",
+     "active": true,
+     "credit": "BME",
+     "combo": 604,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 92,
+      "tap": 322
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 500,
+   "game_id": "311",
+   "card": "/img/card/311.png",
+   "first": "3rd O.B.G default",
+   "title": "Pumping Up"
+  },
+  "kalinathalie": {
+   "slug": "pumping_up"
+  },
+  "simfile": {
+   "path": "01 - 1ST~3RD/(1) 311 - Pumping Up/311 - Pumping Up.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/01%20-%201ST~3RD/%281%29%20311%20-%20Pumping%20Up/311%20-%20Pumping%20Up.ssc",
+   "id": "311",
+   "title": "Pumping Up",
+   "artist": "BanYa"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/pumping_up.jpg",
+   "sha256": "b7f57a8c3e3f4fab6210f89d58ed4b3f26bc7cb67ca05d7a30705eafdc773665",
+   "width": 256,
+   "height": 256,
+   "bytes": 27274
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "펌핑 업"
+  },
+  "revived_in": "Prime 2 v1.00.0"
+ }
+}

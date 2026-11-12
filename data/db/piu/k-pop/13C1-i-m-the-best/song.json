@@ -1,0 +1,110 @@
+{
+ "game": "piu",
+ "song_id": "13C1",
+ "title": "I'm The Best",
+ "artist": "2NE1",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "128",
+ "version": "Fiesta 2",
+ "date_added": "",
+ "charts": {
+  "single-18": {
+   "slot": "single-18",
+   "native": "S18",
+   "level": "18",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 1295
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1519,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S18",
+     "meter": "18",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 1295,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 842,
+      "hold": 114
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'S18')",
+   "assets": {}
+  },
+  "double-14": {
+   "slot": "double-14",
+   "native": "D14",
+   "level": "14",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 1149
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1520,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-double",
+     "description": "D14",
+     "meter": "14",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 1149,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 89,
+      "tap": 738
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "22 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'D14')",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 253,
+   "game_id": "13C1",
+   "card": "/img/card/219.png",
+   "first": "Fiesta 2 v1.00",
+   "title": "I'm The Best"
+  },
+  "simfile": {
+   "path": "10 - FIESTA 2/(1) 13C1 - [Full Song] I'm The Best/13C1 - [Full Song] I'm The Best.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/10%20-%20FIESTA%202/%281%29%2013C1%20-%20%5BFull%20Song%5D%20I%27m%20The%20Best/13C1%20-%20%5BFull%20Song%5D%20I%27m%20The%20Best.ssc",
+   "id": "13C1",
+   "title": "I'm The Best - FULL SONG -",
+   "artist": "2NE1"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Full Song",
+  "removed": true,
+  "removed_in": "Prime 2 v1.00.0"
+ }
+}

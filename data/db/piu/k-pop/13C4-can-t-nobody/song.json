@@ -1,0 +1,110 @@
+{
+ "game": "piu",
+ "song_id": "13C4",
+ "title": "Can't Nobody",
+ "artist": "2NE1",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "130",
+ "version": "Fiesta 2",
+ "date_added": "",
+ "charts": {
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 1288
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1526,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S15",
+     "meter": "15",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 1288,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 221,
+      "tap": 690
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "18 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'S15')",
+   "assets": {}
+  },
+  "double-16": {
+   "slot": "double-16",
+   "native": "D16",
+   "level": "16",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 1209
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1525,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-double",
+     "description": "D16",
+     "meter": "16",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 1209,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 207,
+      "tap": 714
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'D16')",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 256,
+   "game_id": "13C4",
+   "card": "/img/card/222.png",
+   "first": "Fiesta 2 v1.60",
+   "title": "Can't Nobody"
+  },
+  "simfile": {
+   "path": "10 - FIESTA 2/(1) 13C4 - [Full Song] Can't Nobody/13C4 - [Full Song] Can't Nobody.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/10%20-%20FIESTA%202/%281%29%2013C4%20-%20%5BFull%20Song%5D%20Can%27t%20Nobody/13C4%20-%20%5BFull%20Song%5D%20Can%27t%20Nobody.ssc",
+   "id": "13C4",
+   "title": "Can't Nobody - FULL SONG -",
+   "artist": "2NE1"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Full Song",
+  "removed": true,
+  "removed_in": "Prime 2 v1.00.0"
+ }
+}

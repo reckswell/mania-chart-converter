@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "195",
+ "title": "午夜の待ち合わせ",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "189",
+ "version": "",
+ "date_added": "2019-05-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 117
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 117
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 79,
+      "hold": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 222
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 222
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 178,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 519
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/195/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/195/hard.json",
+     "raw_sha256": "034bfa31ec76b55ff606f4ea1bda5989170c30570cef0732c510def3405d1be8"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 519
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 263,
+      "slide": 17,
+      "hold": 79,
+      "flick": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 735
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/195/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/195/expert.json",
+     "raw_sha256": "b7bcb35d56176cd7299f01fc8024272757a06691699978b2adfc0c9b701b3a4b"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 735
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 60,
+      "slide": 35,
+      "tap": 320,
+      "hold": 104
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 195,
+   "bandId": 2,
+   "jacketImage": "195_goyanomatiawase",
+   "bgmId": "bgm195"
+  },
+  "maa": {
+   "bestdori_song_id": 195,
+   "jacket": {
+    "path": "bestdori/195/jacket-cn-1.png",
+    "server": "cn",
+    "name": "195_goyanomatiawase"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/195/jacket-cn-1.png",
+   "sha256": "8381eaea4effb11f1ecbfdf25da52676f789e51cc3efeb154ae8dd79e6d4dfce",
+   "width": 320,
+   "height": 320,
+   "bytes": 24855
+  }
+ },
+ "extra": {
+  "lyricist": "シュンタロウ",
+  "composer": "シュンタロウ",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1558267200000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "ごやのまちあわせ",
+  "title_en": "Midnight Rendezvous",
+  "length_s": 99.096
+ }
+}

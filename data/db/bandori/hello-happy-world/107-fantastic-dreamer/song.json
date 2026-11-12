@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "107",
+ "title": "fantastic dreamer",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "150-185",
+ "version": "",
+ "date_added": "2018-02-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 146
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 146
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 98,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 235
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 235
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 145,
+      "hold": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 388
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/107/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/107/hard.json",
+     "raw_sha256": "147ecb975e171f216d25ad431f158a2ae2543f4904118f2a203ec3e930c5cea1"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 388
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 252,
+      "hold": 49,
+      "slide": 7,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 553
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/107/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/107/expert.json",
+     "raw_sha256": "a7cdfee75223245aa9e9a1487f0bb683c71efd9874a9b364d6285f46a45386ea"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 553
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 372,
+      "hold": 45,
+      "slide": 19,
+      "flick": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 107,
+   "bandId": 3,
+   "jacketImage": "107_fantastic_dreamer",
+   "bgmId": "bgm107"
+  },
+  "maa": {
+   "bestdori_song_id": 107,
+   "jacket": {
+    "path": "bestdori/107/jacket-cn-1.png",
+    "server": "cn",
+    "name": "107_fantastic_dreamer"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/107/jacket-cn-1.png",
+   "sha256": "4e0701d1cec6a66c4c6422e3de14945111b82bfebbc9fd5769f6458b2ae7d393",
+   "width": 320,
+   "height": 320,
+   "bytes": 28957
+  }
+ },
+ "extra": {
+  "lyricist": "園田智也",
+  "composer": "園田智也",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1519797600000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "fantasticdreamer",
+  "length_s": 99.816
+ }
+}

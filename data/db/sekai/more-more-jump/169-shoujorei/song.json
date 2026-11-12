@@ -1,0 +1,244 @@
+{
+ "game": "sekai",
+ "song_id": "169",
+ "title": "少女レイ",
+ "artist": "みきとP",
+ "title_romaji": "shoujorei",
+ "artist_romaji": "mikitopii",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "150",
+ "version": "",
+ "date_added": "2022-01-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 326
+   },
+   "source": {
+    "music_difficulty_id": 841,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 69,
+      "hold": 23,
+      "ex_tap": 12,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 561
+   },
+   "source": {
+    "music_difficulty_id": 842,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 168,
+      "ex_tap": 2,
+      "flick": 25,
+      "slide": 47,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 816
+   },
+   "source": {
+    "music_difficulty_id": 843,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 40,
+      "tap": 171,
+      "slide": 83,
+      "hold": 6,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1168
+   },
+   "source": {
+    "music_difficulty_id": 844,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 29,
+      "tap": 315,
+      "slide": 123,
+      "flick": 49,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1400
+   },
+   "source": {
+    "music_difficulty_id": 845,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 37,
+      "slide": 175,
+      "tap": 428,
+      "flick": 44,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1300
+   },
+   "source": {
+    "music_difficulty_id": 4066,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 44,
+      "slide": 142,
+      "tap": 311,
+      "other": 46,
+      "hold": 37,
+      "ex_tap": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 169,
+   "assetbundle": "jacket_s_169",
+   "seq": 1312401
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_169.png",
+   "sha256": "8a90da1fa19d970f7d1446c9ec967747823e003781e084c90e04d7173b4eb96e",
+   "width": 320,
+   "height": 320,
+   "bytes": 24777
+  }
+ },
+ "extra": {
+  "pronunciation": "しょうじょれい",
+  "lyricist": "みきとP",
+  "composer": "みきとP",
+  "arranger": "-",
+  "published_at": 1641103200000,
+  "released_at": 1531839600000,
+  "tags": [
+   "idol",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0169_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "桐谷遥",
+     "日野森雫"
+    ],
+    "asset": "se_0169_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "桐谷遥"
+    ],
+    "asset": "an_0169_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "日野森雫"
+    ],
+    "asset": "an_0169_02"
+   }
+  ],
+  "filler_sec": 9.012499809265137,
+  "bpm_main": 150.0
+ }
+}

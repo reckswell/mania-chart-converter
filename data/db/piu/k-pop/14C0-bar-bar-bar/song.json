@@ -1,0 +1,113 @@
+{
+ "game": "piu",
+ "song_id": "14C0",
+ "title": "Bar Bar Bar",
+ "artist": "Crayon Pop",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "134",
+ "version": "Prime",
+ "date_added": "",
+ "charts": {
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1176
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1845,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": false,
+     "credit": "EXC",
+     "combo": 1176,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 63,
+      "tap": 785
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "24 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'S16')",
+   "assets": {}
+  },
+  "double-15": {
+   "slot": "double-15",
+   "native": "D15",
+   "level": "15",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 927
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1846,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-double",
+     "description": "D15",
+     "meter": "15",
+     "active": false,
+     "credit": "EXC",
+     "combo": 927,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 60,
+      "tap": 637
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "4 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'D15')",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 311,
+   "game_id": "14C0",
+   "card": "/img/card/231.png",
+   "first": "Prime v1.00.0",
+   "title": "Bar Bar Bar"
+  },
+  "simfile": {
+   "path": "12 - PRIME/14C0 - [Full Song] Bar Bar Bar/14C0 - Bar Bar Bar.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/12%20-%20PRIME/14C0%20-%20%5BFull%20Song%5D%20Bar%20Bar%20Bar/14C0%20-%20Bar%20Bar%20Bar.ssc",
+   "id": "14C0",
+   "title": "Bar Bar Bar - FULL SONG -",
+   "artist": "Crayon Pop"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Full Song",
+  "titles": {
+   "kr": "빠빠빠"
+  },
+  "removed": true,
+  "removed_in": "XX v1.00.1"
+ }
+}

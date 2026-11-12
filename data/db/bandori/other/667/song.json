@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "667",
+ "title": "春日影",
+ "artist": "CRYCHIC",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "CRYCHIC",
+ "bpm": "96-103",
+ "version": "",
+ "date_added": "2025-02-14",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 106
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 106
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 74,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 245
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 245
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 157,
+      "hold": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 409
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/667/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/667/hard.json",
+     "raw_sha256": "90d0a7ab1017d3f5fe883b8c7e1e94f1dc3e9017514899a5f5368a1a390f98f4"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 409
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 213,
+      "hold": 29,
+      "slide": 42,
+      "flick": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 571
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/667/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/667/expert.json",
+     "raw_sha256": "c8e71ffab135918aa7c1bf3ad4bef0593a2e440af04fcaebb81d7c87c18d0b68"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 571
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 35,
+      "tap": 318,
+      "slide": 60,
+      "flick": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 667,
+   "bandId": 85,
+   "jacketImage": "667_haruhikage",
+   "bgmId": "bgm667"
+  },
+  "maa": {
+   "bestdori_song_id": 667,
+   "jacket": {
+    "path": "bestdori/667/jacket-cn-1.png",
+    "server": "cn",
+    "name": "667_haruhikage"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/667/jacket-cn-1.png",
+   "sha256": "d0682533121b0df52f1d5d28f260b4c98ea25f0f2ba056e601926cdbf7581c66",
+   "width": 320,
+   "height": 320,
+   "bytes": 13943
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1739458800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "はるひかげ",
+  "title_en": "Haruhikage",
+  "length_s": 120.048
+ }
+}

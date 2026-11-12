@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "282",
+ "title": "深海少女",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "137",
+ "version": "",
+ "date_added": "2020-07-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 159
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 159
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 33,
+      "tap": 93
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 252
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 252
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 166,
+      "hold": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 472
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/282/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/282/hard.json",
+     "raw_sha256": "d1c5ec362624914ccf404c5f02bbe75a11a543b081ed6ba64878c536e7082aca"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 472
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 73,
+      "tap": 316,
+      "slide": 4,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 722
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/282/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/282/expert.json",
+     "raw_sha256": "58e7745f086977a1edb17fc48ffc6ee0c01fda7a248ad358dee3253d19777648"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 722
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 43,
+      "tap": 506,
+      "slide": 37,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 857
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1774677600000,
+    "maa": {
+     "path": "bestdori/282/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/282/special.json",
+     "raw_sha256": "b0a89f1963d2180e5f752d024b7c33a7937a316f8d49609fe2f51c6eecee0dc3"
+    },
+    "bestdori": {
+     "notes": 857
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 458,
+      "slide": 79,
+      "flick": 114,
+      "hold": 13
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 282,
+   "bandId": 21,
+   "jacketImage": "282_shinkai",
+   "bgmId": "bgm282"
+  },
+  "maa": {
+   "bestdori_song_id": 282,
+   "jacket": {
+    "path": "bestdori/282/jacket-cn-1.png",
+    "server": "cn",
+    "name": "282_shinkai"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/282/jacket-cn-1.png",
+   "sha256": "d0517e418660c12ee983776f83a265b852b7df1a589093850fb8a2356a73695b",
+   "width": 320,
+   "height": 320,
+   "bytes": 25973
+  }
+ },
+ "extra": {
+  "lyricist": "ゆうゆ",
+  "composer": "ゆうゆ",
+  "arranger": "近藤世真（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1596002400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "しんかいしょうじょ",
+  "title_en": "Shinkai Shoujo",
+  "length_s": 125.304
+ }
+}

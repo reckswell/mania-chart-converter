@@ -1,0 +1,204 @@
+{
+ "game": "sekai",
+ "song_id": "625",
+ "title": "このふざけた素晴らしき世界は、僕の為にある",
+ "artist": "n.k",
+ "title_romaji": "konofuzaketasubarashikisekaihabokunotameniaru",
+ "artist_romaji": "n.k",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "152",
+ "version": "",
+ "date_added": "2025-06-09",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 236
+   },
+   "source": {
+    "music_difficulty_id": 3121,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 11,
+      "tap": 73,
+      "ex_tap": 6,
+      "slide": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 397
+   },
+   "source": {
+    "music_difficulty_id": 3122,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 26,
+      "tap": 116,
+      "ex_tap": 21,
+      "flick": 5,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 721
+   },
+   "source": {
+    "music_difficulty_id": 3123,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 59,
+      "tap": 163,
+      "hold": 3,
+      "flick": 10,
+      "ex_tap": 45,
+      "other": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 946
+   },
+   "source": {
+    "music_difficulty_id": 3124,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 87,
+      "tap": 282,
+      "flick": 32,
+      "other": 7,
+      "hold": 14,
+      "ex_tap": 56
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1093
+   },
+   "source": {
+    "music_difficulty_id": 3125,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 34,
+      "tap": 459,
+      "ex_tap": 146,
+      "other": 25,
+      "slide": 101,
+      "flick": 63
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 625,
+   "assetbundle": "jacket_s_625",
+   "seq": 1552601
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_625.png",
+   "sha256": "622ca7f8b7e05f3c6385b6ca7f7927107b2cdd30c3f3786f6ea72a5ace8f72b7",
+   "width": 320,
+   "height": 320,
+   "bytes": 40853
+  }
+ },
+ "extra": {
+  "pronunciation": "このふざけたすばらしきせかいはぼくのためにある",
+  "lyricist": "n.k",
+  "composer": "n.k",
+  "arranger": "n.k",
+  "published_at": 1749448800000,
+  "released_at": 1421593200000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0625_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "MEIKO",
+     "天馬司",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0625_01"
+   }
+  ],
+  "filler_sec": 8.605299949645996,
+  "bpm_main": 152.0
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "game": "bandori",
+ "song_id": "801",
+ "title": "Amore",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "119",
+ "version": "",
+ "date_added": "2026-05-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 409
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/801/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/801/hard.json",
+     "raw_sha256": "307ec5c474c546263e33baf9dae8f4acc8e6bfafad36ee6ece813f2e91b00339"
+    },
+    "bestdori": {
+     "notes": 409
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 206,
+      "hold": 37,
+      "slide": 42,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 536
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/801/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/801/expert.json",
+     "raw_sha256": "2baa68481619a7dea6bc9824cea06c09117597a5a9d5b78889652fbb5e81f776"
+    },
+    "bestdori": {
+     "notes": 536
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 60,
+      "tap": 272,
+      "slide": 45,
+      "flick": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 801,
+   "bandId": 1,
+   "jacketImage": "801_amore",
+   "bgmId": "bgm801"
+  },
+  "maa": {
+   "bestdori_song_id": 801,
+   "jacket": {
+    "path": "bestdori/801/jacket-jp-1.png",
+    "server": "jp",
+    "name": "801_amore"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/801/jacket-jp-1.png",
+   "sha256": "845c2ee3ce2a3297228f491a9a3ad85dc2345c008fe6e10fad6e15a2f51c34a8",
+   "width": 320,
+   "height": 320,
+   "bytes": 17757
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "竹田祐介（Elements Garden）",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1780207200000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "amore"
+ }
+}

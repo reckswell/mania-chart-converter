@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "123",
+ "title": "ふわふわ☆ゆめいろサンドイッチ",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "130",
+ "version": "",
+ "date_added": "2018-04-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 158
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 158
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 106,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 235
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 235
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 167,
+      "hold": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 461
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/123/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/123/hard.json",
+     "raw_sha256": "743433aed358ea0e7eee4370756a0574d428cec529cb37c52a51cdd7c54f3aac"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 461
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 226,
+      "hold": 51,
+      "slide": 48,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 613
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/123/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/123/expert.json",
+     "raw_sha256": "1fb0184cfcde9dfe8ea77aff2ff3845f91518670b343c6e97d9cc0d2b6f9d377"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 613
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 275,
+      "hold": 35,
+      "slide": 88,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 123,
+   "bandId": 3,
+   "jacketImage": "123_yumeiro",
+   "bgmId": "bgm123"
+  },
+  "maa": {
+   "bestdori_song_id": 123,
+   "jacket": {
+    "path": "bestdori/123/jacket-cn-1.png",
+    "server": "cn",
+    "name": "123_yumeiro"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/123/jacket-cn-1.png",
+   "sha256": "e03d814cf8ad99367f90bd3fe2152f2bf706e70a28ab1924f994e42347f0f685",
+   "width": 320,
+   "height": 320,
+   "bytes": 23756
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "笠井雄太（Elements Garden）",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1524204000000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "ふわふわゆめいろさんどいっち",
+  "title_en": "Fuwa Fuwa ☆ Dreamy Sandwich",
+  "length_s": 119.136
+ }
+}

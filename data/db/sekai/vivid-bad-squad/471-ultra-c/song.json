@@ -1,0 +1,223 @@
+{
+ "game": "sekai",
+ "song_id": "471",
+ "title": "ULTRA C",
+ "artist": "Giga & TeddyLoid",
+ "title_romaji": "ULTRA C",
+ "artist_romaji": "Giga & TeddyLoid",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "128",
+ "version": "",
+ "date_added": "2024-07-07",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 134
+   },
+   "source": {
+    "music_difficulty_id": 2351,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 4,
+      "tap": 43,
+      "slide": 3,
+      "ex_tap": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 238
+   },
+   "source": {
+    "music_difficulty_id": 2352,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 10,
+      "tap": 70,
+      "ex_tap": 9,
+      "hold": 13,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 500
+   },
+   "source": {
+    "music_difficulty_id": 2353,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 41,
+      "tap": 123,
+      "hold": 10,
+      "ex_tap": 52,
+      "flick": 17,
+      "other": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 651
+   },
+   "source": {
+    "music_difficulty_id": 2354,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 56,
+      "slide": 59,
+      "tap": 162,
+      "ex_tap": 81,
+      "hold": 4,
+      "other": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "modifier without target 3: 1; stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 769
+   },
+   "source": {
+    "music_difficulty_id": 2355,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 129,
+      "slide": 74,
+      "tap": 230,
+      "flick": 61,
+      "other": 27,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 471,
+   "assetbundle": "jacket_s_471",
+   "seq": 2442001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_471.png",
+   "sha256": "369d9411dc9b5b26dbe7a54f17f3117345730c384dacbef0cc3a1bc61c991aef",
+   "width": 320,
+   "height": 320,
+   "bytes": 34082
+  }
+ },
+ "extra": {
+  "pronunciation": "うるとらしー",
+  "lyricist": "Reol",
+  "composer": "Giga＆TeddyLoid",
+  "arranger": "Giga＆TeddyLoid",
+  "published_at": 1720357500000,
+  "released_at": 1720278000000,
+  "tags": [
+   "street"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音リン",
+     "鏡音レン"
+    ],
+    "asset": "vs_0471_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "小豆沢こはね",
+     "初音ミク",
+     "白石杏",
+     "東雲彰人",
+     "青柳冬弥"
+    ],
+    "asset": "se_0471_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "小豆沢こはね",
+     "東雲彰人"
+    ],
+    "asset": "an_0471_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "白石杏",
+     "青柳冬弥"
+    ],
+    "asset": "an_0471_02"
+   }
+  ],
+  "filler_sec": 9.010000228881836,
+  "bpm_main": 128.0
+ }
+}

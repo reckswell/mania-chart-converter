@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "334",
+ "title": "Happy Girl",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "145",
+ "version": "",
+ "date_added": "2021-05-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 170
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 170
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 134,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 268
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 268
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 170,
+      "hold": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 445
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/334/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/334/hard.json",
+     "raw_sha256": "d143febc2c7d6b6fadac8dca54a7ab3f1845fbea6b11ed530de4db9c0a8d4576"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 445
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 258,
+      "hold": 60,
+      "slide": 20,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 645
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/334/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/334/expert.json",
+     "raw_sha256": "affa4d1f12a946f855bdf7ef8f85f68545659bdd2b728ed0cafdfce3030968d3"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 645
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 54,
+      "tap": 353,
+      "slide": 63,
+      "flick": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 334,
+   "bandId": 3,
+   "jacketImage": "334_happy_girl",
+   "bgmId": "bgm334"
+  },
+  "maa": {
+   "bestdori_song_id": 334,
+   "jacket": {
+    "path": "bestdori/334/jacket-cn-1.png",
+    "server": "cn",
+    "name": "334_happy_girl"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/334/jacket-cn-1.png",
+   "sha256": "c9d4f56459b9a9ef556aedac473061003ed37d495e0da3e9f2bf56ab8a829580",
+   "width": 320,
+   "height": 320,
+   "bytes": 25523
+  }
+ },
+ "extra": {
+  "lyricist": "大森祥子",
+  "composer": "河合英嗣",
+  "arranger": "Elements Garden",
+  "tag": "anime",
+  "published_at": 1620021600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "happygirl",
+  "length_s": 103.512
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "86",
+ "title": "君じゃなきゃダメみたい",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "131",
+ "version": "",
+ "date_added": "2018-01-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 140
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 140
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 92,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 269
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 269
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 179,
+      "hold": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 398
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/86/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/86/hard.json",
+     "raw_sha256": "a999c6c8b4b6234f19ed69fb43516315d6fadc69e686443e80a03938a7a6fcdd"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 398
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 274,
+      "hold": 53,
+      "flick": 14,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 620
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/86/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/86/expert.json",
+     "raw_sha256": "4a228306c5736e39cea0f5075501468ad2294f347a367948845cc60803c1fcba"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 620
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 453,
+      "hold": 39,
+      "flick": 16,
+      "slide": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 86,
+   "bandId": 1,
+   "jacketImage": "086_damemitai",
+   "bgmId": "bgm086"
+  },
+  "maa": {
+   "bestdori_song_id": 86,
+   "jacket": {
+    "path": "bestdori/86/jacket-cn-1.png",
+    "server": "cn",
+    "name": "086_damemitai"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/86/jacket-cn-1.png",
+   "sha256": "b9325965478b0a1b142026bcd02c26968073e8c38ca740e7a6b67b438899f3c0",
+   "width": 320,
+   "height": 320,
+   "bytes": 32271
+  }
+ },
+ "extra": {
+  "lyricist": "大石昌良",
+  "composer": "大石昌良",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1514959200000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "きみじゃなきゃだめみたい",
+  "title_en": "Kimi Ja Nakya Dame Mitai",
+  "length_s": 101.736
+ }
+}

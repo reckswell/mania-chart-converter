@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "296",
+ "title": "セツナトリップ",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "68-145",
+ "version": "",
+ "date_added": "2020-09-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 188
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 188
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 35,
+      "tap": 118
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 304
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 304
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 62,
+      "tap": 180
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 554
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/296/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/296/hard.json",
+     "raw_sha256": "ebc7ca99d1bf7f529d772a9c752c08f56113091b363914e458a20639b20c171b"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 554
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 86,
+      "tap": 373,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1034
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/296/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/296/expert.json",
+     "raw_sha256": "7af051800f15757337eaf0ca5057ef898a92a734ae6d28a686be05121aa61523"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 1034
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 116,
+      "tap": 483,
+      "slide": 114,
+      "flick": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1087
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1616306400000,
+    "maa": {
+     "path": "bestdori/296/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/296/special.json",
+     "raw_sha256": "6a76baa5b7df554e52720412051fd3836d3b1e86dcb1ce6d0022c7c1f6328eae"
+    },
+    "bestdori": {
+     "level": 30,
+     "notes": 1087
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 53,
+      "tap": 526,
+      "slide": 103,
+      "flick": 141
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 296,
+   "bandId": 1,
+   "jacketImage": "296_setsunatrip",
+   "bgmId": "bgm296"
+  },
+  "maa": {
+   "bestdori_song_id": 296,
+   "jacket": {
+    "path": "bestdori/296/jacket-cn-1.png",
+    "server": "cn",
+    "name": "296_setsunatrip"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/296/jacket-cn-1.png",
+   "sha256": "8eb61f7ee67c325b7fc18f7cdde64533553be23074378970b0be8432a0bd2033",
+   "width": 320,
+   "height": 320,
+   "bytes": 25528
+  }
+ },
+ "extra": {
+  "lyricist": "Last Note.",
+  "composer": "Last Note.",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1601445600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "せつなとりっぷ",
+  "title_en": "Setsuna Trip",
+  "length_s": 128.376
+ }
+}

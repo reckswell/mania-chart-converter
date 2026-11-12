@@ -1,0 +1,207 @@
+{
+ "game": "sekai",
+ "song_id": "61",
+ "title": "携帯恋話",
+ "artist": "まふまふ",
+ "title_romaji": "keitairenwa",
+ "artist_romaji": "mafumafu",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "150",
+ "version": "",
+ "date_added": "2020-10-15",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 204
+   },
+   "source": {
+    "music_difficulty_id": 301,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 73,
+      "hold": 5,
+      "slide": 3,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 361
+   },
+   "source": {
+    "music_difficulty_id": 302,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 179,
+      "flick": 3,
+      "ex_tap": 19,
+      "hold": 12,
+      "slide": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 651
+   },
+   "source": {
+    "music_difficulty_id": 303,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 55,
+      "tap": 302,
+      "flick": 29,
+      "hold": 11,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 981
+   },
+   "source": {
+    "music_difficulty_id": 304,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 69,
+      "hold": 30,
+      "tap": 519,
+      "flick": 38,
+      "ex_tap": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1131
+   },
+   "source": {
+    "music_difficulty_id": 305,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 606,
+      "hold": 35,
+      "flick": 82,
+      "slide": 93,
+      "ex_tap": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 61,
+   "assetbundle": "jacket_s_061",
+   "seq": 2601601
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_061.png",
+   "sha256": "1a5c8ac349e9fb1afad665ed65ea9d4b42b1519222f57fd55d1564785d87c33f",
+   "width": 320,
+   "height": 320,
+   "bytes": 31043
+  }
+ },
+ "extra": {
+  "pronunciation": "けいたいれんわ",
+  "lyricist": "まふまふ",
+  "composer": "まふまふ",
+  "arranger": "まふまふ",
+  "published_at": 1602741600000,
+  "released_at": 1602687600000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "東雲絵名",
+     "暁山瑞希"
+    ],
+    "asset": "0061_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "東雲絵名"
+    ],
+    "asset": "an_0061_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "an_0061_02"
+   }
+  ],
+  "filler_sec": 9.005000114440918,
+  "bpm_main": 150.0
+ }
+}

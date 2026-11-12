@@ -1,0 +1,215 @@
+{
+ "game": "sekai",
+ "song_id": "256",
+ "title": "ダブルラリアット",
+ "artist": "アゴアニキ",
+ "title_romaji": "dabururariatto",
+ "artist_romaji": "agoaniki",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "138",
+ "version": "",
+ "date_added": "2022-10-04",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 211
+   },
+   "source": {
+    "music_difficulty_id": 1276,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 54,
+      "hold": 14,
+      "ex_tap": 4,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 338
+   },
+   "source": {
+    "music_difficulty_id": 1277,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 164,
+      "slide": 25,
+      "flick": 4,
+      "ex_tap": 4,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 678
+   },
+   "source": {
+    "music_difficulty_id": 1278,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 244,
+      "slide": 91,
+      "ex_tap": 24,
+      "flick": 12,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 936
+   },
+   "source": {
+    "music_difficulty_id": 1279,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 343,
+      "slide": 125,
+      "ex_tap": 33,
+      "flick": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1115
+   },
+   "source": {
+    "music_difficulty_id": 1280,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 490,
+      "slide": 153,
+      "ex_tap": 46,
+      "flick": 40,
+      "hold": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1207
+   },
+   "source": {
+    "music_difficulty_id": 4119,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 78,
+      "tap": 322,
+      "slide": 96,
+      "ex_tap": 103,
+      "flick": 74
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 256,
+   "assetbundle": "jacket_s_256",
+   "seq": 1119901
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_256.png",
+   "sha256": "4e5f62826445435d72cc4eaa152214f879e4e39949486e8418f4fa27de7e7b82",
+   "width": 320,
+   "height": 320,
+   "bytes": 32642
+  }
+ },
+ "extra": {
+  "pronunciation": "だぶるらりあっと",
+  "lyricist": "アゴアニキ",
+  "composer": "アゴアニキ",
+  "arranger": "アゴアニキ",
+  "published_at": 1664863200000,
+  "released_at": 1233759600000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "巡音ルカ"
+    ],
+    "asset": "vs_0256_01"
+   }
+  ],
+  "filler_sec": 7.922999858856201,
+  "bpm_main": 138.0
+ }
+}

@@ -1,0 +1,218 @@
+{
+ "game": "sekai",
+ "song_id": "708",
+ "title": "幽玄ノ乱",
+ "artist": "世阿弥",
+ "title_romaji": "yuugennoran",
+ "artist_romaji": "zeami",
+ "genre": "その他",
+ "bpm": "160-300 (300)",
+ "version": "",
+ "date_added": "2026-02-23",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 492
+   },
+   "source": {
+    "music_difficulty_id": 3536,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 21,
+      "ex_tap": 15,
+      "tap": 64,
+      "slide": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 848
+   },
+   "source": {
+    "music_difficulty_id": 3537,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 171,
+      "ex_tap": 123,
+      "slide": 41,
+      "hold": 1,
+      "other": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1012
+   },
+   "source": {
+    "music_difficulty_id": 3538,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 77,
+      "tap": 363,
+      "flick": 12,
+      "ex_tap": 215,
+      "slide": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1354
+   },
+   "source": {
+    "music_difficulty_id": 3539,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 419,
+      "flick": 70,
+      "ex_tap": 297,
+      "slide": 42,
+      "other": 18,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "35",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1410
+   },
+   "source": {
+    "music_difficulty_id": 3540,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 543,
+      "ex_tap": 324,
+      "flick": 132,
+      "other": 8,
+      "slide": 35,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "36",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 2206
+   },
+   "source": {
+    "music_difficulty_id": 4139,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 50,
+      "tap": 916,
+      "ex_tap": 436,
+      "slide": 41,
+      "hold": 119,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 708,
+   "assetbundle": "jacket_s_708",
+   "seq": 3761901
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_708.png",
+   "sha256": "df27159beb27df8a5551768caa781918419c3249a12485938e0f4245dcc67e11",
+   "width": 320,
+   "height": 320,
+   "bytes": 26543
+  }
+ },
+ "extra": {
+  "pronunciation": "ゆうげんのらん",
+  "lyricist": "-",
+  "composer": "世阿弥",
+  "arranger": "世阿弥",
+  "published_at": 1771826400000,
+  "released_at": 1771686000000,
+  "tags": [
+   "other"
+  ],
+  "vocals": [
+   {
+    "type": "instrumental",
+    "caption": "Inst.ver.",
+    "singers": [],
+    "asset": "in_0708_01"
+   }
+  ],
+  "filler_sec": 7.5,
+  "collaboration_id": 12,
+  "bpm_main": 300.0
+ }
+}

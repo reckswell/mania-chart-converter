@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "367",
+ "title": "ファンサ",
+ "artist": "Pastel＊Palettes×湊あくあ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes×湊あくあ",
+ "bpm": "152-176",
+ "version": "",
+ "date_added": "2021-10-22",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 147
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 147
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 87,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 236
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 236
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 138,
+      "hold": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 552
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/367/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/367/hard.json",
+     "raw_sha256": "ff7d9512b335a00bc83e0d61d11d6d3da3a0dc71cc0f5ce095d377fa33e4b3b6"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 552
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 227,
+      "hold": 80,
+      "slide": 50,
+      "flick": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 794
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/367/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/367/expert.json",
+     "raw_sha256": "0d354cf525321641b4546bef1c153896f5027f680a27fde24d65017fbf5c703c"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 794
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 436,
+      "hold": 72,
+      "slide": 64,
+      "flick": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 367,
+   "bandId": 35,
+   "jacketImage": "367_fansa",
+   "bgmId": "bgm367"
+  },
+  "maa": {
+   "bestdori_song_id": 367,
+   "jacket": {
+    "path": "bestdori/367/jacket-cn-1.png",
+    "server": "cn",
+    "name": "367_fansa"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/367/jacket-cn-1.png",
+   "sha256": "4cea0e0242888efa3596d0cc39d30941ea8f774c202e9eb4f9b430b846f158ad",
+   "width": 320,
+   "height": 320,
+   "bytes": 40474
+  }
+ },
+ "extra": {
+  "lyricist": "HoneyWorks",
+  "composer": "HoneyWorks",
+  "arranger": "Elements Garden",
+  "tag": "tie_up",
+  "published_at": 1634882400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ふぁんさ",
+  "title_en": "Fansa",
+  "length_s": 136.968
+ }
+}

@@ -1,0 +1,199 @@
+{
+ "game": "sekai",
+ "song_id": "245",
+ "title": "阿吽のビーツ",
+ "artist": "羽生まゐご",
+ "title_romaji": "aunnobiitsu",
+ "artist_romaji": "hanyuumaigo",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "103",
+ "version": "",
+ "date_added": "2022-06-06",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 203
+   },
+   "source": {
+    "music_difficulty_id": 1221,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 57,
+      "hold": 19,
+      "ex_tap": 6,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 365
+   },
+   "source": {
+    "music_difficulty_id": 1222,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 19,
+      "slide": 19,
+      "tap": 100,
+      "ex_tap": 23,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 588
+   },
+   "source": {
+    "music_difficulty_id": 1223,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 234,
+      "hold": 9,
+      "ex_tap": 66,
+      "flick": 7,
+      "slide": 55
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 802
+   },
+   "source": {
+    "music_difficulty_id": 1224,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 310,
+      "ex_tap": 70,
+      "flick": 6,
+      "hold": 14,
+      "slide": 83
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 918
+   },
+   "source": {
+    "music_difficulty_id": 1225,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 419,
+      "ex_tap": 89,
+      "flick": 29,
+      "hold": 10,
+      "slide": 100
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 245,
+   "assetbundle": "jacket_s_245",
+   "seq": 1417101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_245.png",
+   "sha256": "9d5ab6121525224fe18c0e727fd7b5181783cc780cbacfa5244ebd2440cd5314",
+   "width": 320,
+   "height": 320,
+   "bytes": 22459
+  }
+ },
+ "extra": {
+  "pronunciation": "あうんのびーつ",
+  "lyricist": "羽生まゐご",
+  "composer": "羽生まゐご",
+  "arranger": "羽生まゐご",
+  "published_at": 1654495200000,
+  "released_at": 1503068400000,
+  "tags": [
+   "street",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "flower"
+    ],
+    "asset": "vs_0245_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "東雲彰人",
+     "青柳冬弥"
+    ],
+    "asset": "se_0245_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 103.0
+ }
+}

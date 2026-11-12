@@ -1,0 +1,218 @@
+{
+ "game": "sekai",
+ "song_id": "561",
+ "title": "プロトディスコ",
+ "artist": "ぬゆり",
+ "title_romaji": "purotodisuko",
+ "artist_romaji": "nuyuri",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "140",
+ "version": "",
+ "date_added": "2024-12-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 227
+   },
+   "source": {
+    "music_difficulty_id": 2801,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 15,
+      "tap": 69,
+      "slide": 4,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 317
+   },
+   "source": {
+    "music_difficulty_id": 2802,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 137,
+      "ex_tap": 23,
+      "hold": 15,
+      "slide": 15,
+      "flick": 6,
+      "other": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 562
+   },
+   "source": {
+    "music_difficulty_id": 2803,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 210,
+      "ex_tap": 50,
+      "flick": 40,
+      "slide": 54,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 913
+   },
+   "source": {
+    "music_difficulty_id": 2804,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 370,
+      "flick": 91,
+      "hold": 42,
+      "slide": 71,
+      "ex_tap": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "32",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1057
+   },
+   "source": {
+    "music_difficulty_id": 2805,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 94,
+      "flick": 157,
+      "tap": 549,
+      "slide": 73,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 4",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "34",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1404
+   },
+   "source": {
+    "music_difficulty_id": 4089,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 207,
+      "tap": 649,
+      "ex_tap": 166,
+      "hold": 96,
+      "other": 3,
+      "slide": 65
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 561,
+   "assetbundle": "jacket_s_561",
+   "seq": 1146901
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_561.png",
+   "sha256": "bf4aeb1524c635524ab07becfd5e4e8960229816bfdf71ad29aa465e45fdc6c6",
+   "width": 320,
+   "height": 320,
+   "bytes": 18036
+  }
+ },
+ "extra": {
+  "pronunciation": "ぷろとでぃすこ",
+  "lyricist": "ぬゆり",
+  "composer": "ぬゆり",
+  "arranger": "-",
+  "published_at": 1735624800000,
+  "released_at": 1510066800000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "flower"
+    ],
+    "asset": "vs_0561_01"
+   }
+  ],
+  "filler_sec": 9.004199981689453,
+  "bpm_main": 140.0
+ }
+}

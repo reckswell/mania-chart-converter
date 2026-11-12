@@ -1,0 +1,207 @@
+{
+ "game": "sekai",
+ "song_id": "811",
+ "title": "ヘレディティ",
+ "artist": "サツキ",
+ "title_romaji": "herediti",
+ "artist_romaji": "satsuki",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "135",
+ "version": "",
+ "date_added": "2026-09-14",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 199
+   },
+   "source": {
+    "music_difficulty_id": 4229,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 6,
+      "tap": 51,
+      "slide": 5,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 328
+   },
+   "source": {
+    "music_difficulty_id": 4230,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 26,
+      "ex_tap": 10,
+      "tap": 76,
+      "hold": 2,
+      "flick": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 541
+   },
+   "source": {
+    "music_difficulty_id": 4231,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 38,
+      "slide": 42,
+      "tap": 187,
+      "flick": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 760
+   },
+   "source": {
+    "music_difficulty_id": 4232,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 148,
+      "slide": 58,
+      "hold": 14,
+      "tap": 262,
+      "other": 18,
+      "flick": 82
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1043
+   },
+   "source": {
+    "music_difficulty_id": 4233,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 159,
+      "slide": 76,
+      "flick": 130,
+      "tap": 478,
+      "hold": 23,
+      "other": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 811,
+   "assetbundle": "jacket_s_811",
+   "seq": 2568801
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_811.png",
+   "sha256": "85d9ab9f7cd65a78100f613b17aed9101a781640b419d9c9b6edc4522ca2148e",
+   "width": 320,
+   "height": 320,
+   "bytes": 42037
+  }
+ },
+ "extra": {
+  "pronunciation": "へれでぃてぃ",
+  "lyricist": "サツキ",
+  "composer": "サツキ",
+  "arranger": "サツキ",
+  "published_at": 1789365600000,
+  "released_at": 1789311600000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "GUMI",
+     "IA",
+     "flower",
+     "可不",
+     "重音テト"
+    ],
+    "asset": "vs_0811_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "草薙寧々",
+     "巡音ルカ",
+     "天馬司",
+     "鳳えむ",
+     "神代類"
+    ],
+    "asset": "se_0811_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 135.0
+ }
+}

@@ -1,0 +1,203 @@
+{
+ "game": "sekai",
+ "song_id": "232",
+ "title": "青色絵具",
+ "artist": "くじら",
+ "title_romaji": "aoiroenogu",
+ "artist_romaji": "kujira",
+ "genre": "その他",
+ "bpm": "126",
+ "version": "",
+ "date_added": "2022-05-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 253
+   },
+   "source": {
+    "music_difficulty_id": 1156,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 16,
+      "tap": 55,
+      "ex_tap": 4,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 446
+   },
+   "source": {
+    "music_difficulty_id": 1157,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 162,
+      "slide": 26,
+      "ex_tap": 5,
+      "hold": 4,
+      "flick": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 619
+   },
+   "source": {
+    "music_difficulty_id": 1158,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 230,
+      "slide": 60,
+      "hold": 2,
+      "ex_tap": 27,
+      "flick": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 846
+   },
+   "source": {
+    "music_difficulty_id": 1159,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 423,
+      "slide": 76,
+      "ex_tap": 34,
+      "flick": 41,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1058
+   },
+   "source": {
+    "music_difficulty_id": 1160,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 583,
+      "slide": 100,
+      "ex_tap": 37,
+      "flick": 43,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 232,
+   "assetbundle": "jacket_s_232",
+   "seq": 1715901
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_232.png",
+   "sha256": "5bcd376ef033ff1cf2c34087a86d7c727ab3dc59811557b5c2982fda741de069",
+   "width": 320,
+   "height": 320,
+   "bytes": 42018
+  }
+ },
+ "extra": {
+  "pronunciation": "あおいろえのぐ",
+  "lyricist": "くじら",
+  "composer": "くじら",
+  "arranger": "くじら",
+  "published_at": 1651471200000,
+  "released_at": 1642604400000,
+  "tags": [
+   "other",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "巡音ルカ",
+     "MEIKO"
+    ],
+    "asset": "vs_0232_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "日野森志歩",
+     "日野森雫"
+    ],
+    "asset": "se_0232_01"
+   }
+  ],
+  "filler_sec": 7.086699962615967,
+  "collaboration_id": 2,
+  "bpm_main": 126.0
+ }
+}

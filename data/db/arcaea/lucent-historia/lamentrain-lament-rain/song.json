@@ -1,0 +1,201 @@
+{
+ "game": "arcaea",
+ "song_id": "lamentrain",
+ "title": "Lament Rain",
+ "artist": "Ashrount vs. 打打だいず",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Lucent Historia",
+ "bpm": "200",
+ "version": "6.0",
+ "date_added": "2024-11-21",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "6",
+   "constant": 6.5,
+   "designer": "⇆ Fixation",
+   "note_counts": {
+    "combo": 1025
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "ああもんど"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/lamentrain/lamentrain_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "hold": 110,
+      "air_hold": 267,
+      "tap": 243,
+      "other": 108
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "8+",
+   "constant": 8.8,
+   "designer": "⇆ Sublimation",
+   "note_counts": {
+    "combo": 1186
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "ああもんど"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/lamentrain/lamentrain_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 314,
+      "hold": 45,
+      "other": 313,
+      "air": 218,
+      "tap": 250
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "10",
+   "constant": 10.6,
+   "designer": "⇆ Separation",
+   "note_counts": {
+    "combo": 1380
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "ああもんど"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/lamentrain/lamentrain_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 445,
+      "other": 626,
+      "air": 333,
+      "hold": 65,
+      "tap": 337
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "BEYOND",
+   "level": "11",
+   "constant": 11.4,
+   "designer": "⇆ Projection",
+   "note_counts": {
+    "combo": 1637
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "ああもんど",
+     "legacy11": true,
+     "hidden_until": "none"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/lamentrain/lamentrain_3.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "other": 902,
+      "air_hold": 446,
+      "air": 416,
+      "hold": 44,
+      "tap": 430
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 432,
+   "set": "lephon"
+  },
+  "matty": {
+   "jacket": "00ef",
+   "title": "Lament Rain"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/00ef.png",
+   "sha256": "09db2097663e52ed45d4b5d214b13e8d96ca2e7133a545194ecf2f474cd3dad5",
+   "width": 320,
+   "height": 320,
+   "bytes": 34529
+  }
+ },
+ "extra": {
+  "pack": "lephon",
+  "pack_name": "Lucent Historia",
+  "songlist": {
+   "idx": 432,
+   "search_title": {
+    "ja": [
+     "らめんとれいん"
+    ],
+    "ko": [
+     "라멘트 레인"
+    ]
+   },
+   "search_artist": {
+    "en": [
+     "dadadaizu",
+     "dddice"
+    ],
+    "ja": [
+     "あしゅらうんと",
+     "だだだいず"
+    ],
+    "ko": [
+     "애쉬라운트",
+     "애쉬런트",
+     "다다다이즈"
+    ]
+   },
+   "bpm_base": 200,
+   "purchase": "lephon",
+   "audioPreview": 0,
+   "audioPreviewEnd": 0,
+   "side": 3,
+   "bg": "lamentrain",
+   "bg_inverse": "lamentrain",
+   "remote_dl": true,
+   "world_unlock": false,
+   "byd_local_unlock": true
+  },
+  "length_s": 165
+ }
+}

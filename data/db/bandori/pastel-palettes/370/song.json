@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "370",
+ "title": "パッパレ☆人生！バーン万歳！",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2021-10-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 165
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 165
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 111,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 291
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 291
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 195,
+      "hold": 46,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 525
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/370/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/370/hard.json",
+     "raw_sha256": "33480e385f7e0b64e90d2e7d073b17738ee400102bac7f7701f1c17d12e11e01"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 525
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 333,
+      "flick": 50,
+      "slide": 21,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 741
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/370/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/370/expert.json",
+     "raw_sha256": "f1a5c3a9c4f144f5d6c390ec1d792dae471c7f1088d1da31545d5880db4623d4"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 741
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 427,
+      "flick": 102,
+      "slide": 48,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 370,
+   "bandId": 4,
+   "jacketImage": "370_ban_ban_zai",
+   "bgmId": "bgm370"
+  },
+  "maa": {
+   "bestdori_song_id": 370,
+   "jacket": {
+    "path": "bestdori/370/jacket-cn-1.png",
+    "server": "cn",
+    "name": "370_ban_ban_zai"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/370/jacket-cn-1.png",
+   "sha256": "dd5a97d9c3721b62d19097592acce6b6b155fc0c0bcebd9f579300ddfdd553c6",
+   "width": 320,
+   "height": 320,
+   "bytes": 27648
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1635660000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ぱっぱれじんせいばーんざい",
+  "title_en": "Pappare☆Life! Bang! Banzai!",
+  "length_s": 104.52
+ }
+}

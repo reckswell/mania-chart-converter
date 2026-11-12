@@ -1,0 +1,174 @@
+{
+ "game": "arcaea",
+ "song_id": "arghena",
+ "title": "Arghena",
+ "artist": "Feryquitous vs Laur",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Lasting Eden",
+ "bpm": "185",
+ "version": "5.0",
+ "date_added": "2023-09-27",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "7",
+   "constant": 7.5,
+   "designer": "第一識 \"Reality\"",
+   "note_counts": {
+    "combo": 883
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "すずなし"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/arghena/arghena_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 294,
+      "tap": 172,
+      "hold": 93
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "27 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "9",
+   "constant": 9.6,
+   "designer": "第二識 \"Causality\"",
+   "note_counts": {
+    "combo": 1082
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "すずなし"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/arghena/arghena_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "hold": 79,
+      "tap": 227,
+      "air_hold": 266,
+      "other": 324,
+      "air": 260
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "27 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "11",
+   "constant": 11.3,
+   "designer": "第三識 \"Pluriversality\"",
+   "note_counts": {
+    "combo": 1444
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "すずなし",
+     "legacy11": true
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/arghena/arghena_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "other": 1556,
+      "air_hold": 396,
+      "air": 363,
+      "tap": 284,
+      "hold": 66
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "31 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 352,
+   "set": "eden_append_1"
+  },
+  "matty": {
+   "jacket": "0100",
+   "title": "Arghena"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/0100.png",
+   "sha256": "1e9bcf9b81fe84292a35263e711cb777c4bca572b424cbce8cc18a4b4299f4ba",
+   "width": 320,
+   "height": 320,
+   "bytes": 41384
+  }
+ },
+ "extra": {
+  "pack": "eden_append_1",
+  "pack_name": "Lasting Eden",
+  "songlist": {
+   "idx": 352,
+   "search_title": {
+    "ja": [
+     "あーげな",
+     "あげな"
+    ],
+    "ko": [
+     "아르게나",
+     "아게나"
+    ]
+   },
+   "search_artist": {
+    "ja": [
+     "ふぇりきたす",
+     "らうる"
+    ],
+    "ko": [
+     "페리퀴토스",
+     "라우르"
+    ]
+   },
+   "bpm_base": 185,
+   "purchase": "eden_append_1",
+   "audioPreview": 0,
+   "audioPreviewEnd": 0,
+   "side": 1,
+   "bg": "arghena",
+   "bg_inverse": "arghena",
+   "remote_dl": true,
+   "world_unlock": false,
+   "additional_files": [
+    {
+     "file_name": "video_720.mp4",
+     "requirement": "low_res"
+    },
+    {
+     "file_name": "video_1080.mp4",
+     "requirement": "hi_res"
+    }
+   ]
+  },
+  "length_s": 153
+ }
+}

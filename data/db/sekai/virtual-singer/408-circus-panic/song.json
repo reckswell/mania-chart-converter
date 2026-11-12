@@ -1,0 +1,202 @@
+{
+ "game": "sekai",
+ "song_id": "408",
+ "title": "CIRCUS PANIC!!!",
+ "artist": "サツキ",
+ "title_romaji": "CIRCUS PANIC!!!",
+ "artist_romaji": "satsuki",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "136-166 (136)",
+ "version": "",
+ "date_added": "2023-09-04",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 290
+   },
+   "source": {
+    "music_difficulty_id": 2036,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 17,
+      "tap": 59,
+      "ex_tap": 2,
+      "slide": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 428
+   },
+   "source": {
+    "music_difficulty_id": 2037,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 17,
+      "hold": 12,
+      "tap": 124,
+      "flick": 6,
+      "ex_tap": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 754
+   },
+   "source": {
+    "music_difficulty_id": 2038,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 37,
+      "tap": 250,
+      "hold": 23,
+      "flick": 33,
+      "ex_tap": 58
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1083
+   },
+   "source": {
+    "music_difficulty_id": 2039,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 54,
+      "flick": 117,
+      "tap": 488,
+      "hold": 21,
+      "ex_tap": 109
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "32",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1239
+   },
+   "source": {
+    "music_difficulty_id": 2040,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 59,
+      "flick": 173,
+      "tap": 582,
+      "ex_tap": 135,
+      "hold": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 408,
+   "assetbundle": "jacket_s_408",
+   "seq": 1131901
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_408.png",
+   "sha256": "a3cb2fe81f0cf18c7a8474f27a2da87c4036e80357afcf0f9a5bb62ab77897d2",
+   "width": 320,
+   "height": 320,
+   "bytes": 31342
+  }
+ },
+ "extra": {
+  "pronunciation": "さーかすぱにっく",
+  "lyricist": "サツキ",
+  "composer": "サツキ",
+  "arranger": "サツキ",
+  "published_at": 1693807200000,
+  "released_at": 1683126000000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0408_01"
+   },
+   {
+    "type": "streaming_live",
+    "caption": "コネクトライブver.",
+    "singers": [
+     "初音ミク",
+     "鏡音リン",
+     "鏡音レン",
+     "巡音ルカ",
+     "MEIKO",
+     "KAITO"
+    ],
+    "asset": "cl_0408_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 136.0
+ }
+}

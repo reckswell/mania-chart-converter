@@ -1,0 +1,216 @@
+{
+ "game": "sekai",
+ "song_id": "87",
+ "title": "恋愛裁判",
+ "artist": "40mP",
+ "title_romaji": "renaisaiban",
+ "artist_romaji": "40mP",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "134",
+ "version": "",
+ "date_added": "2020-12-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 174
+   },
+   "source": {
+    "music_difficulty_id": 431,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 62,
+      "ex_tap": 6,
+      "hold": 12,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 447
+   },
+   "source": {
+    "music_difficulty_id": 432,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 33,
+      "ex_tap": 11,
+      "tap": 125,
+      "hold": 19,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 591
+   },
+   "source": {
+    "music_difficulty_id": 433,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 247,
+      "hold": 12,
+      "flick": 17,
+      "slide": 71,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 889
+   },
+   "source": {
+    "music_difficulty_id": 434,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 11,
+      "tap": 385,
+      "slide": 102,
+      "flick": 30,
+      "ex_tap": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 2",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1149
+   },
+   "source": {
+    "music_difficulty_id": 435,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 125,
+      "tap": 519,
+      "hold": 20,
+      "flick": 66,
+      "ex_tap": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 87,
+   "assetbundle": "jacket_s_087",
+   "seq": 1303701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_087.png",
+   "sha256": "7cfc4c1a8a0c05ad8c62dc9723c8ae1cad6773c076ff4961ba02a0343b8a352d",
+   "width": 320,
+   "height": 320,
+   "bytes": 16536
+  }
+ },
+ "extra": {
+  "pronunciation": "れんあいさいばん",
+  "lyricist": "40mP",
+  "composer": "40mP",
+  "arranger": "40mP",
+  "published_at": 1609308000000,
+  "released_at": 1402326000000,
+  "tags": [
+   "idol",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "0087_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "花里みのり",
+     "桃井愛莉"
+    ],
+    "asset": "se_0087_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "花里みのり"
+    ],
+    "asset": "an_0087_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "桃井愛莉"
+    ],
+    "asset": "an_0087_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 134.0
+ }
+}

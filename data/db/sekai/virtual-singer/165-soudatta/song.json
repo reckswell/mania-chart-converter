@@ -1,0 +1,197 @@
+{
+ "game": "sekai",
+ "song_id": "165",
+ "title": "そうだった！！",
+ "artist": "タケノコ少年",
+ "title_romaji": "soudatta",
+ "artist_romaji": "takenokoshounen",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "192",
+ "version": "",
+ "date_added": "2021-08-06",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 258
+   },
+   "source": {
+    "music_difficulty_id": 821,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 88,
+      "hold": 17,
+      "ex_tap": 4,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 409
+   },
+   "source": {
+    "music_difficulty_id": 822,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 225,
+      "ex_tap": 22,
+      "hold": 12,
+      "slide": 22,
+      "flick": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 14",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 794
+   },
+   "source": {
+    "music_difficulty_id": 823,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 89,
+      "tap": 358,
+      "slide": 70,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1175
+   },
+   "source": {
+    "music_difficulty_id": 824,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 30,
+      "tap": 478,
+      "ex_tap": 80,
+      "flick": 51,
+      "slide": 115
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1297
+   },
+   "source": {
+    "music_difficulty_id": 825,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 78,
+      "tap": 696,
+      "slide": 131,
+      "flick": 91,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 165,
+   "assetbundle": "jacket_s_165",
+   "seq": 1108301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_165.png",
+   "sha256": "828bcdcabfb970c8603ad9a626482b0e00103db30a4f5b97b32a1b398b01c970",
+   "width": 320,
+   "height": 320,
+   "bytes": 30812
+  }
+ },
+ "extra": {
+  "pronunciation": "そうだった",
+  "lyricist": "タケノコ少年",
+  "composer": "タケノコ少年",
+  "arranger": "タケノコ少年",
+  "published_at": 1628229600000,
+  "released_at": 1619190000000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0165_01"
+   },
+   {
+    "type": "streaming_live",
+    "caption": "コネクトライブ(DAY1)ver.",
+    "singers": [
+     "初音ミク",
+     "天馬司"
+    ],
+    "asset": "cl_0165_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 192.0
+ }
+}

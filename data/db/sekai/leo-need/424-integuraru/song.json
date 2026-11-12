@@ -1,0 +1,233 @@
+{
+ "game": "sekai",
+ "song_id": "424",
+ "title": "インテグラル",
+ "artist": "*Luna",
+ "title_romaji": "integuraru",
+ "artist_romaji": "*Luna",
+ "genre": "Leo/need",
+ "bpm": "192",
+ "version": "",
+ "date_added": "2024-03-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 351
+   },
+   "source": {
+    "music_difficulty_id": 2116,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 18,
+      "ex_tap": 4,
+      "tap": 44,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 479
+   },
+   "source": {
+    "music_difficulty_id": 2117,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 7,
+      "slide": 24,
+      "tap": 67,
+      "flick": 8,
+      "ex_tap": 13,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 701
+   },
+   "source": {
+    "music_difficulty_id": 2118,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 4,
+      "slide": 49,
+      "tap": 127,
+      "flick": 7,
+      "ex_tap": 23,
+      "other": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 868
+   },
+   "source": {
+    "music_difficulty_id": 2119,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 32,
+      "tap": 197,
+      "slide": 65,
+      "flick": 20,
+      "ex_tap": 41,
+      "other": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 868
+   },
+   "source": {
+    "music_difficulty_id": 2120,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 19,
+      "tap": 335,
+      "ex_tap": 54,
+      "hold": 13,
+      "slide": 81,
+      "flick": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1357
+   },
+   "source": {
+    "music_difficulty_id": 4111,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 80,
+      "tap": 305,
+      "slide": 62,
+      "ex_tap": 100,
+      "flick": 72,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 424,
+   "assetbundle": "jacket_s_424",
+   "seq": 2238101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_424.png",
+   "sha256": "dd4a3b57773de5f84bed5e79e9861e26551512114d6bc46f1930fd3777dfd705",
+   "width": 320,
+   "height": 320,
+   "bytes": 18204
+  }
+ },
+ "extra": {
+  "pronunciation": "いんてぐらる",
+  "lyricist": "*Luna",
+  "composer": "*Luna",
+  "arranger": "*Luna",
+  "published_at": 1709272800000,
+  "released_at": 1709218800000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0424_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "星乃一歌",
+     "天馬咲希",
+     "望月穂波",
+     "日野森志歩",
+     "初音ミク"
+    ],
+    "asset": "se_0424_01"
+   }
+  ],
+  "filler_sec": 8.993300437927246,
+  "bpm_main": 192.0
+ }
+}

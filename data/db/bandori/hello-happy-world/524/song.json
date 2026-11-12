@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "524",
+ "title": "ふぁいぶスマイル◯オールインっ！",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "126",
+ "version": "",
+ "date_added": "2023-08-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 135
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 135
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 77,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 230
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 230
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 152,
+      "hold": 33,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 498
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/524/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/524/hard.json",
+     "raw_sha256": "d7ebaf2a225a57a465ec40f758170d2ea2b6e13a6253df6a4f1aac4a88fd4745"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 498
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 302,
+      "hold": 51,
+      "flick": 11,
+      "slide": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 999
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/524/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/524/expert.json",
+     "raw_sha256": "12cf14fe5c7aee584d075e911988e4fe770299aa47fe98f326f17a3f937ac71a"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 999
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 596,
+      "slide": 89,
+      "hold": 51,
+      "flick": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 524,
+   "bandId": 3,
+   "jacketImage": "524_five_smile_all_in",
+   "bgmId": "bgm524"
+  },
+  "maa": {
+   "bestdori_song_id": 524,
+   "jacket": {
+    "path": "bestdori/524/jacket-cn-1.png",
+    "server": "cn",
+    "name": "524_five_smile_all_in"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/524/jacket-cn-1.png",
+   "sha256": "202ebd93b99050a2d35950ba5353211e23f6c934ee6f2a208403e6833cd25a7e",
+   "width": 320,
+   "height": 320,
+   "bytes": 38937
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "竹田祐介（Elements Garden）",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1693310400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ふぁいぶすまいるおーるいん",
+  "title_en": "Five Smiles 〇All In!",
+  "length_s": 124.824
+ }
+}

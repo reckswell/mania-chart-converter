@@ -1,0 +1,227 @@
+{
+ "game": "sekai",
+ "song_id": "352",
+ "title": "命ばっかり",
+ "artist": "ぬゆり",
+ "title_romaji": "inochibakkari",
+ "artist_romaji": "nuyuri",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "128",
+ "version": "",
+ "date_added": "2023-04-24",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 221
+   },
+   "source": {
+    "music_difficulty_id": 1756,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 48,
+      "hold": 16,
+      "ex_tap": 1,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 356
+   },
+   "source": {
+    "music_difficulty_id": 1757,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 123,
+      "flick": 5,
+      "hold": 10,
+      "slide": 25,
+      "ex_tap": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 708
+   },
+   "source": {
+    "music_difficulty_id": 1758,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 16,
+      "tap": 253,
+      "slide": 55,
+      "hold": 19,
+      "ex_tap": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1037
+   },
+   "source": {
+    "music_difficulty_id": 1759,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 314,
+      "flick": 63,
+      "slide": 150,
+      "hold": 41,
+      "ex_tap": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1092
+   },
+   "source": {
+    "music_difficulty_id": 1760,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 96,
+      "tap": 381,
+      "hold": 37,
+      "slide": 118,
+      "ex_tap": 80
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 352,
+   "assetbundle": "jacket_s_352",
+   "seq": 1627701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_352.png",
+   "sha256": "8ff2de8ac6dcd6d207679fa6603209110327bf97d097da8279ccae316efb5450",
+   "width": 320,
+   "height": 320,
+   "bytes": 16820
+  }
+ },
+ "extra": {
+  "pronunciation": "いのちばっかり",
+  "lyricist": "ぬゆり",
+  "composer": "ぬゆり",
+  "arranger": "ぬゆり",
+  "published_at": 1682316000000,
+  "released_at": 1501772400000,
+  "tags": [
+   "school_refusal",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "flower",
+     "結月ゆかり"
+    ],
+    "asset": "vs_0352_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "MEIKO",
+     "宵崎奏",
+     "朝比奈まふゆ",
+     "東雲絵名",
+     "暁山瑞希"
+    ],
+    "asset": "se_0352_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "朝比奈まふゆ"
+    ],
+    "asset": "an_0352_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "暁山瑞希"
+    ],
+    "asset": "an_0352_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "MEIKO"
+    ],
+    "asset": "an_0352_03"
+   }
+  ],
+  "filler_sec": 9.468799591064453,
+  "bpm_main": 128.0
+ }
+}

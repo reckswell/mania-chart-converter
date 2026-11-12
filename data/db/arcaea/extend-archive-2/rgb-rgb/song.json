@@ -1,0 +1,161 @@
+{
+ "game": "arcaea",
+ "song_id": "rgb",
+ "title": "RGB",
+ "artist": "MEMODEMO X AQUASINE",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Extend Archive 2",
+ "bpm": "163",
+ "version": "4.7",
+ "date_added": "2023-08-17",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "4",
+   "constant": 4.0,
+   "designer": "NO₂",
+   "note_counts": {
+    "combo": 652
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "いわこ脳"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/rgb/rgb_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "hold": 51,
+      "tap": 101,
+      "air_hold": 220
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "7+",
+   "constant": 7.8,
+   "designer": "NO₂",
+   "note_counts": {
+    "combo": 803
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "いわこ脳"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/rgb/rgb_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 158,
+      "hold": 94,
+      "tap": 173,
+      "other": 207,
+      "air": 158
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "9+",
+   "constant": 9.8,
+   "designer": "NO₂",
+   "note_counts": {
+    "combo": 1131
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "いわこ脳"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/rgb/rgb_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 390,
+      "other": 744,
+      "hold": 107,
+      "air": 238,
+      "tap": 221
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "14 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 336,
+   "set": "extend_2"
+  },
+  "matty": {
+   "jacket": "00ce",
+   "title": "RGB"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/00ce.png",
+   "sha256": "571879c6bd95af88bc319ada87226b08bd187847ed086795ad6b240536ef2afa",
+   "width": 320,
+   "height": 320,
+   "bytes": 27315
+  }
+ },
+ "extra": {
+  "pack": "extend_2",
+  "pack_name": "Extend Archive 2",
+  "songlist": {
+   "idx": 336,
+   "search_title": {
+    "ja": [
+     "あーるじーびー"
+    ],
+    "ko": [
+     "알지비"
+    ]
+   },
+   "search_artist": {
+    "ja": [
+     "めもでも",
+     "あくあさいん"
+    ],
+    "ko": [
+     "메모데모",
+     "아쿠아사인"
+    ]
+   },
+   "bpm_base": 163,
+   "purchase": "extend_2",
+   "audioPreview": 0,
+   "audioPreviewEnd": 0,
+   "side": 0,
+   "bg": "observer_light",
+   "bg_inverse": "observer_conflict",
+   "remote_dl": true,
+   "world_unlock": true
+  },
+  "length_s": 160
+ }
+}

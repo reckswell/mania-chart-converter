@@ -1,0 +1,202 @@
+{
+ "game": "sekai",
+ "song_id": "750",
+ "title": "ロスタイムメモリー",
+ "artist": "じん",
+ "title_romaji": "rosutaimumemorii",
+ "artist_romaji": "jin",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "202",
+ "version": "",
+ "date_added": "2026-08-12",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 399
+   },
+   "source": {
+    "music_difficulty_id": 3746,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 7,
+      "ex_tap": 14,
+      "tap": 70,
+      "slide": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 552
+   },
+   "source": {
+    "music_difficulty_id": 3747,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 24,
+      "ex_tap": 21,
+      "tap": 121,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 783
+   },
+   "source": {
+    "music_difficulty_id": 3748,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 51,
+      "ex_tap": 46,
+      "tap": 260,
+      "flick": 61,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 997
+   },
+   "source": {
+    "music_difficulty_id": 3749,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 5,
+      "other": 2,
+      "tap": 376,
+      "flick": 118,
+      "ex_tap": 134,
+      "slide": 70
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1314
+   },
+   "source": {
+    "music_difficulty_id": 3750,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 114,
+      "other": 64,
+      "tap": 537,
+      "flick": 197,
+      "ex_tap": 124,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 750,
+   "assetbundle": "jacket_s_750",
+   "seq": 1467901
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_750.png",
+   "sha256": "624213f6dbbe6cf55882df644a5c771fd72d181818a739fd53fd9a506ae3d3b6",
+   "width": 320,
+   "height": 320,
+   "bytes": 14219
+  }
+ },
+ "extra": {
+  "pronunciation": "ろすたいむめもりー",
+  "lyricist": "じん",
+  "composer": "じん",
+  "arranger": "じん",
+  "published_at": 1786514400000,
+  "released_at": 1364569200000,
+  "tags": [
+   "street"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0750_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "KAITO",
+     "小豆沢こはね",
+     "白石杏",
+     "東雲彰人",
+     "青柳冬弥"
+    ],
+    "asset": "se_0750_01"
+   }
+  ],
+  "filler_sec": 8.399999618530273,
+  "bpm_main": 202.0
+ }
+}

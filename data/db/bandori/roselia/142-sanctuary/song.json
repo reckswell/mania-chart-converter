@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "142",
+ "title": "Sanctuary",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "182",
+ "version": "",
+ "date_added": "2018-08-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 213
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 213
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 119,
+      "hold": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 303
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 303
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 163,
+      "hold": 70
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 494
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/142/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/142/hard.json",
+     "raw_sha256": "b8121da51af92fa94530a14ba8888dbf536b8985cad2545b11a859ba36755e69"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 494
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 308,
+      "hold": 66,
+      "flick": 18,
+      "slide": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 768
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/142/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/142/expert.json",
+     "raw_sha256": "c393e32bd4227d453942acca96d1b98e13916b6354ebe3a939711513b822da42"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 768
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 489,
+      "slide": 57,
+      "hold": 46,
+      "flick": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 142,
+   "bandId": 5,
+   "jacketImage": "142_sanctuary",
+   "bgmId": "bgm142"
+  },
+  "maa": {
+   "bestdori_song_id": 142,
+   "jacket": {
+    "path": "bestdori/142/jacket-cn-1.png",
+    "server": "cn",
+    "name": "142_sanctuary"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/142/jacket-cn-1.png",
+   "sha256": "f35a5055c8e29ad3e5d37e3853b7d948281788f6cd4bef289aa8c1a8908788ff",
+   "width": 320,
+   "height": 320,
+   "bytes": 25477
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1534744800000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "sanctuary",
+  "length_s": 126
+ }
+}

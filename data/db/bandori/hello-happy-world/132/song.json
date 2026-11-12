@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "132",
+ "title": "ハイファイブ∞あどべんちゃっ",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "198",
+ "version": "",
+ "date_added": "2018-07-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 203
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 203
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 123,
+      "hold": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 307
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 307
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 215,
+      "hold": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 504
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/132/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/132/hard.json",
+     "raw_sha256": "f850e3f93f2ba9e2b7e356b902c95e4701181c375f3d5bd2b5d3d2d650c60c3e"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 504
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 58,
+      "flick": 66,
+      "tap": 308,
+      "slide": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 853
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/132/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/132/expert.json",
+     "raw_sha256": "0ade28c8f734012aa4f342344fc525a2aee00d8a0eff02ef4da7d3b06c6869d5"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 853
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 88,
+      "tap": 533,
+      "flick": 80,
+      "slide": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 706
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1624017600000,
+    "maa": {
+     "path": "bestdori/132/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/132/special.json",
+     "raw_sha256": "bedf3644cde2b220707cecc2280d386fe0c575a2cd026169beb19e2cfe7fbfcc"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 706
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 401,
+      "hold": 41,
+      "slide": 58,
+      "flick": 62
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 132,
+   "bandId": 3,
+   "jacketImage": "132_hifive",
+   "bgmId": "bgm132"
+  },
+  "maa": {
+   "bestdori_song_id": 132,
+   "jacket": {
+    "path": "bestdori/132/jacket-cn-1.png",
+    "server": "cn",
+    "name": "132_hifive"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/132/jacket-cn-1.png",
+   "sha256": "a62af7efec9211c88e86f7f1612eb63814ab1f0c0f407cbf128453f6c7792447",
+   "width": 320,
+   "height": 320,
+   "bytes": 35012
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "笠井雄太（Elements Garden）",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1531202400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "はいふぁいぶあどべんちゃっ",
+  "title_en": "High Five ∞ Adventure",
+  "length_s": 117.624
+ }
+}

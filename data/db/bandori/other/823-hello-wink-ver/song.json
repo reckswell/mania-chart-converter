@@ -1,0 +1,179 @@
+{
+ "game": "bandori",
+ "song_id": "823",
+ "title": "Hello! Wink!(パラレルver.)",
+ "artist": "有咲×ひまり×友希那×燐子×ミッシェル",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "有咲×ひまり×友希那×燐子×ミッシェル",
+ "bpm": "152",
+ "version": "",
+ "date_added": "2026-10-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 505
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/823/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/823/hard.json",
+     "raw_sha256": "d90f1be2c0cbf7d5fede58f4acae52f9873a508c66881a9289f00cc7eab40b24"
+    },
+    "bestdori": {
+     "notes": 505
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 279,
+      "hold": 61,
+      "flick": 51,
+      "slide": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 721
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/823/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/823/expert.json",
+     "raw_sha256": "967e4b0fb6f8c2089a9314fdbf9e20dcb34c525e6a03468ba2db7bbee478d531"
+    },
+    "bestdori": {
+     "notes": 721
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 392,
+      "slide": 29,
+      "hold": 61,
+      "flick": 95
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 746
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/823/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/823/special.json",
+     "raw_sha256": "034e1c4735367ebebf6e4610550be082544b146da3dc74ebfead4c19aae13a7d"
+    },
+    "bestdori": {
+     "notes": 746
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 450,
+      "flick": 118,
+      "slide": 50,
+      "hold": 39
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 823,
+   "bandId": 109,
+   "jacketImage": "823_hellowink_p",
+   "bgmId": "bgm823"
+  },
+  "maa": {
+   "bestdori_song_id": 823,
+   "jacket": {
+    "path": "bestdori/823/jacket-jp-1.png",
+    "server": "jp",
+    "name": "823_hellowink_p"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/823/jacket-jp-1.png",
+   "sha256": "7fa940d068a6993417347ef652c4ab060b8bf634604e81da39e8ecac79273e65",
+   "width": 320,
+   "height": 320,
+   "bytes": 50618
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1790834400000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "hellowink"
+ }
+}

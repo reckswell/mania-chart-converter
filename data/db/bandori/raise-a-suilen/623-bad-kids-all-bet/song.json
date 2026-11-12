@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "623",
+ "title": "Bad Kids All Bet",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2024-08-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 127
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 127
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 32,
+      "tap": 63
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 220
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 220
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 51,
+      "tap": 118
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 484
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/623/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/623/hard.json",
+     "raw_sha256": "727c8173b186c8e9e73b39a139e770229631a047f7dc2c1c74668d6db09f578a"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 484
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 286,
+      "hold": 47,
+      "flick": 26,
+      "slide": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 627
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/623/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/623/expert.json",
+     "raw_sha256": "2ad0b54386b83dc3e4fe2b0c48f602d1ea30b4dd19546a9e8b18701bf963af74"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 627
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 401,
+      "hold": 30,
+      "slide": 28,
+      "flick": 86
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 623,
+   "bandId": 18,
+   "jacketImage": "623_bad_kid_all_bet",
+   "bgmId": "bgm623"
+  },
+  "maa": {
+   "bestdori_song_id": 623,
+   "jacket": {
+    "path": "bestdori/623/jacket-cn-1.png",
+    "server": "cn",
+    "name": "623_bad_kid_all_bet"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/623/jacket-cn-1.png",
+   "sha256": "f03e8bdf0e0f492cd10b0f2db277cff529621fd475da228e2d8524a7e940d8b8",
+   "width": 320,
+   "height": 320,
+   "bytes": 40960
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "菊田大介（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1725084000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "badkidsallbet",
+  "length_s": 103.128
+ }
+}

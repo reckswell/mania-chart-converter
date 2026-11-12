@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "280",
+ "title": "えがお、み～っけた！",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "143",
+ "version": "",
+ "date_added": "2020-07-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 138
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 138
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 90,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 235
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 235
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 44,
+      "tap": 147
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 343
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/280/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/280/hard.json",
+     "raw_sha256": "2e18f414509a2152c9b57db773622bed774b12b3150116e46a33dae73a86662c"
+    },
+    "bestdori": {
+     "level": 18,
+     "notes": 343
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 41,
+      "tap": 212,
+      "slide": 15,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 539
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/280/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/280/expert.json",
+     "raw_sha256": "1fae1dde9b8909d9d2f4fbbdcb0ca22a4073477bd12e0b87ca6aceca786a7756"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 539
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 272,
+      "slide": 39,
+      "hold": 60,
+      "flick": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 280,
+   "bandId": 3,
+   "jacketImage": "280_mikketa",
+   "bgmId": "bgm280"
+  },
+  "maa": {
+   "bestdori_song_id": 280,
+   "jacket": {
+    "path": "bestdori/280/jacket-cn-1.png",
+    "server": "cn",
+    "name": "280_mikketa"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/280/jacket-cn-1.png",
+   "sha256": "bd0ad0c66a3bad9940041866e3e61ea6f1a38d5c86d2d97c36f43db8b963fc43",
+   "width": 320,
+   "height": 320,
+   "bytes": 24069
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "都丸椋太（Elements Garden）",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1595311200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "えかおみーっけた",
+  "title_en": "I found a smile~!",
+  "length_s": 109.992
+ }
+}

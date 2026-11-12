@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "396",
+ "title": "Brand new Pastel Road！",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "171",
+ "version": "",
+ "date_added": "2022-03-18",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 104
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 104
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 82,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 228
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 228
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 182,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 442
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/396/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/396/hard.json",
+     "raw_sha256": "696a76e3b05414d5a4598085dc103ae216b32bff2ec978cc6012923061e5eb3e"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 442
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 300,
+      "hold": 52,
+      "slide": 13,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 644
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/396/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/396/expert.json",
+     "raw_sha256": "6516167dbe8abaa018eca14036a95824ffff66e28fffda5b53efb9739e176c81"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 644
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 19,
+      "tap": 475,
+      "hold": 49,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 396,
+   "bandId": 4,
+   "jacketImage": "396_b_n_pastel_road",
+   "bgmId": "bgm396"
+  },
+  "maa": {
+   "bestdori_song_id": 396,
+   "jacket": {
+    "path": "bestdori/396/jacket-cn-1.png",
+    "server": "cn",
+    "name": "396_b_n_pastel_road"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/396/jacket-cn-1.png",
+   "sha256": "0750137f9b859852277746a790bfb0c0295c75c6dacc2df7aa4e9dfc6c87f3d6",
+   "width": 320,
+   "height": 320,
+   "bytes": 45081
+  }
+ },
+ "extra": {
+  "lyricist": "ZAQ",
+  "composer": "ZAQ",
+  "arranger": "ZAQ",
+  "tag": "normal",
+  "published_at": 1647583200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "brandnewpastelroad",
+  "title_en": "Brand new Pastel Road!",
+  "length_s": 101.808
+ }
+}

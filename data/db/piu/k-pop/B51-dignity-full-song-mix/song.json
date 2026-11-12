@@ -1,0 +1,186 @@
+{
+ "game": "piu",
+ "song_id": "B51",
+ "title": "DIGNITY FULL SONG MIX",
+ "artist": "Crash",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "195",
+ "version": "Exceed 2",
+ "date_added": "",
+ "charts": {
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 964
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 492,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S15",
+     "meter": "15",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 964,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 812,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 1286
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 493,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S19",
+     "meter": "19",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1286,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 1107,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 890
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 494,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 890,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 779,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-23": {
+   "slot": "double-23",
+   "native": "D23",
+   "level": "23",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1313
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 495,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-double",
+     "description": "D22",
+     "meter": "22",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1313,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 1139,
+      "hold": 56
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 22 differs from the PHOENIX 2 level 23: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 75,
+   "game_id": "B51",
+   "card": "/img/card/B51-xx.png",
+   "first": "Exceed 2 default",
+   "title": "DIGNITY FULL SONG MIX"
+  },
+  "simfile": {
+   "path": "04 - EXCEED~ZERO/(2) B51 - [Full Song] Dignity/B51 - [Full Song] Dignity.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/04%20-%20EXCEED~ZERO/%282%29%20B51%20-%20%5BFull%20Song%5D%20Dignity/B51%20-%20%5BFull%20Song%5D%20Dignity.ssc",
+   "id": "B51",
+   "title": "DIGNITY - FULL SONG -",
+   "artist": "Crash"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Full Song",
+  "revived_in": "XX v1.04.0",
+  "simfile_notes": [
+   "D23: simfile chart 'D22' has meter 22 (re-rated)"
+  ]
+ }
+}

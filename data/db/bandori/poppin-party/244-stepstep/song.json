@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "244",
+ "title": "Step×Step！",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "148",
+ "version": "",
+ "date_added": "2020-02-07",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 143
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 143
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 41,
+      "tap": 61
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 312
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 312
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 140,
+      "hold": 86
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 427
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/244/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/244/hard.json",
+     "raw_sha256": "f01e010c9b59b01695dd1b29a4b9dab97a45f517c1511cce7dc030aebdb26b1e"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 427
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 277,
+      "hold": 61,
+      "slide": 10,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 613
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/244/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/244/expert.json",
+     "raw_sha256": "ef3f9d6c8a990e6431b0f8c099deb291b030abfb93836c1ba7aa11babd17eae2"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 613
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 471,
+      "hold": 56,
+      "slide": 11,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 244,
+   "bandId": 1,
+   "jacketImage": "244_stepstep",
+   "bgmId": "bgm244"
+  },
+  "maa": {
+   "bestdori_song_id": 244,
+   "jacket": {
+    "path": "bestdori/244/jacket-cn-1.png",
+    "server": "cn",
+    "name": "244_stepstep"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/244/jacket-cn-1.png",
+   "sha256": "15601c7caf94d1c59b5b39c91a63b7aac44b9d25775973584e45d87054c490cd",
+   "width": 320,
+   "height": 320,
+   "bytes": 26346
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "岩橋星実（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1581055200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "すてっぷばいすてっぷ",
+  "title_en": "Step×Step!",
+  "length_s": 111.96
+ }
+}

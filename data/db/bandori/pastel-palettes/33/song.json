@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "33",
+ "title": "パスパレボリューションず☆",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "174",
+ "version": "",
+ "date_added": "2016-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 109
+   },
+   "source": {
+    "notesQuantity": 116,
+    "bestdori": {
+     "level": 7,
+     "notes": 109
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 99,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 116 differs from combo 109 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 216
+   },
+   "source": {
+    "notesQuantity": 199,
+    "bestdori": {
+     "level": 12,
+     "notes": 216
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 202,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 199 differs from combo 216 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 338
+   },
+   "source": {
+    "notesQuantity": 356,
+    "maa": {
+     "path": "bestdori/33/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/33/hard.json",
+     "raw_sha256": "23d988163c046ee5ccc96a8c235a9840b9daf2f5ac4c776d4b3367c9c6de7b15"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 338
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 223,
+      "slide": 18,
+      "hold": 23,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 356 differs from combo 338 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 511
+   },
+   "source": {
+    "notesQuantity": 511,
+    "maa": {
+     "path": "bestdori/33/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/33/expert.json",
+     "raw_sha256": "ae81644e503e8ba966473d27de48e833b8bfc3704c846091983c8c5676be0ed1"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 511
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 324,
+      "hold": 46,
+      "slide": 26,
+      "flick": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 33,
+   "bandId": 4,
+   "jacketImage": "paspare",
+   "bgmId": "bgm033"
+  },
+  "maa": {
+   "bestdori_song_id": 33,
+   "jacket": {
+    "path": "bestdori/33/jacket-cn-1.png",
+    "server": "cn",
+    "name": "paspare"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/33/jacket-cn-1.png",
+   "sha256": "4ebc8e3cfe7a5148bfe559e607e6c77f1673507d14c42f9c340c88bf1ea7b97a",
+   "width": 320,
+   "height": 320,
+   "bytes": 22468
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "末益涼太（Elements Garden）",
+  "arranger": "末益涼太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1462071600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "ぱすぱれぼりゅーしょんず",
+  "title_en": "Pasupa Revolutions☆",
+  "length_s": 105.072
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "164",
+ "title": "Wake up!",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "176",
+ "version": "",
+ "date_added": "2018-12-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 137
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 137
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 95,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 255
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 255
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 31,
+      "tap": 193
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 478
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/164/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/164/hard.json",
+     "raw_sha256": "08220d21908cb818d1693acd2edbfc16237f005e6b40143db66aa3407b60cb80"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 478
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 375,
+      "hold": 41,
+      "flick": 14,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 722
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/164/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/164/expert.json",
+     "raw_sha256": "f9063602752e1e7bf621756f9ba171370039f9918fe5f2d34d7bbdcce0be4b21"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 722
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 566,
+      "slide": 25,
+      "flick": 34,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 164,
+   "bandId": 1,
+   "jacketImage": "164_wake_up",
+   "bgmId": "bgm164"
+  },
+  "maa": {
+   "bestdori_song_id": 164,
+   "jacket": {
+    "path": "bestdori/164/jacket-cn-1.png",
+    "server": "cn",
+    "name": "164_wake_up"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/164/jacket-cn-1.png",
+   "sha256": "ecab6d3ffe9a388748d82216489aa6b70d5f57aa7d3bbe29262595797e7cf194",
+   "width": 320,
+   "height": 320,
+   "bytes": 28759
+  }
+ },
+ "extra": {
+  "lyricist": "leonn",
+  "composer": "日比野裕史",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1546236000000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "wakeup",
+  "length_s": 105.744
+ }
+}

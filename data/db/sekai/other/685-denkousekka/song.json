@@ -1,0 +1,193 @@
+{
+ "game": "sekai",
+ "song_id": "685",
+ "title": "電光刹歌",
+ "artist": "かめりあ",
+ "title_romaji": "denkousekka",
+ "artist_romaji": "kameria",
+ "genre": "その他",
+ "bpm": "207",
+ "version": "",
+ "date_added": "2025-12-06",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 406
+   },
+   "source": {
+    "music_difficulty_id": 3421,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 64,
+      "hold": 15,
+      "slide": 8,
+      "ex_tap": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 427
+   },
+   "source": {
+    "music_difficulty_id": 3422,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 111,
+      "hold": 11,
+      "slide": 7,
+      "ex_tap": 17,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 769
+   },
+   "source": {
+    "music_difficulty_id": 3423,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 36,
+      "ex_tap": 68,
+      "tap": 290,
+      "flick": 42,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1086
+   },
+   "source": {
+    "music_difficulty_id": 3424,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 447,
+      "ex_tap": 239,
+      "slide": 53,
+      "flick": 59,
+      "hold": 17,
+      "other": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 4",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1472
+   },
+   "source": {
+    "music_difficulty_id": 3425,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 39,
+      "tap": 625,
+      "ex_tap": 388,
+      "flick": 88,
+      "slide": 55,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 685,
+   "assetbundle": "jacket_s_685",
+   "seq": 1158301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_685.png",
+   "sha256": "8a1d11b4b26dc77b6268b884723a5b906c786d1c74efa92eb4415024af7b1676",
+   "width": 320,
+   "height": 320,
+   "bytes": 53154
+  }
+ },
+ "extra": {
+  "pronunciation": "でんこうせっか",
+  "lyricist": "かめりあ",
+  "composer": "かめりあ",
+  "arranger": "かめりあ",
+  "published_at": 1765000800000,
+  "released_at": 1758466800000,
+  "tags": [
+   "other",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0685_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "collaboration_id": 11,
+  "bpm_main": 207.0
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "465",
+ "title": "群青",
+ "artist": "Morfonica×友希那",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica×友希那",
+ "bpm": "135",
+ "version": "",
+ "date_added": "2023-01-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 170
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 170
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 118,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 279
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 279
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 221,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 562
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/465/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/465/hard.json",
+     "raw_sha256": "833252a4a1cbc44ed3822ac2c4f0f09cf62bd19329d205d7000cce5a50633fd7"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 562
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 356,
+      "hold": 19,
+      "slide": 50,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 742
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/465/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/465/expert.json",
+     "raw_sha256": "567dda876c60532d0772f6eca1ca0720936d39dd8f0aab21a8eb913fc140ab36"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 742
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 537,
+      "hold": 17,
+      "slide": 50,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 465,
+   "bandId": 55,
+   "jacketImage": "465_gunjo",
+   "bgmId": "bgm465"
+  },
+  "maa": {
+   "bestdori_song_id": 465,
+   "jacket": {
+    "path": "bestdori/465/jacket-cn-1.png",
+    "server": "cn",
+    "name": "465_gunjo"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/465/jacket-cn-1.png",
+   "sha256": "9f40358ffff0a438be1940a51206c42595fe6bc6b06388795176ee4c5420b953",
+   "width": 320,
+   "height": 320,
+   "bytes": 27129
+  }
+ },
+ "extra": {
+  "lyricist": "Ayase",
+  "composer": "Ayase",
+  "arranger": "Seonoo Kim（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1672552800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ぐんじょう",
+  "title_en": "Blue",
+  "length_s": 135.168
+ }
+}

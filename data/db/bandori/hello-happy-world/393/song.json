@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "393",
+ "title": "現るっ！大怪盗ハロハッピー！",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "184",
+ "version": "",
+ "date_added": "2022-01-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 99
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 99
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 87,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 249
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 249
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 201,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 511
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/393/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/393/hard.json",
+     "raw_sha256": "4f9d69bf43033bc424b3a6095bdbb9cde3a2068ae170fe08a9e645d2be97eadc"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 511
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 371,
+      "hold": 38,
+      "flick": 11,
+      "slide": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 748
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/393/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/393/expert.json",
+     "raw_sha256": "15ef41947720d849d4962e3a21d1563005239ab9f040ba685e37cf972ac5af40"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 748
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 519,
+      "flick": 52,
+      "slide": 42,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 393,
+   "bandId": 3,
+   "jacketImage": "393_daikaitou",
+   "bgmId": "bgm393"
+  },
+  "maa": {
+   "bestdori_song_id": 393,
+   "jacket": {
+    "path": "bestdori/393/jacket-cn-1.png",
+    "server": "cn",
+    "name": "393_daikaitou"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/393/jacket-cn-1.png",
+   "sha256": "efc2aa075373d877ac0d96c44b4a3d125a9dc15059a84d13bfc9c70e7d1b3a5d",
+   "width": 320,
+   "height": 320,
+   "bytes": 33159
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "近藤世真（Elements Garden）",
+  "arranger": "近藤世真（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1642744800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "あらわるだいかいとうはろはっぴー",
+  "title_en": "The Great Hello Happy Phantom Thief Appears!",
+  "length_s": 105.072
+ }
+}

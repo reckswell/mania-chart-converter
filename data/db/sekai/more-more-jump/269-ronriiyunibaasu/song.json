@@ -1,0 +1,216 @@
+{
+ "game": "sekai",
+ "song_id": "269",
+ "title": "ロンリーユニバース",
+ "artist": "Aqu3ra",
+ "title_romaji": "ronriiyunibaasu",
+ "artist_romaji": "Aqu3ra",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "100",
+ "version": "",
+ "date_added": "2022-12-09",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 184
+   },
+   "source": {
+    "music_difficulty_id": 1341,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 13,
+      "tap": 57,
+      "ex_tap": 3,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 339
+   },
+   "source": {
+    "music_difficulty_id": 1342,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 25,
+      "tap": 105,
+      "ex_tap": 21,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 621
+   },
+   "source": {
+    "music_difficulty_id": 1343,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 50,
+      "tap": 203,
+      "ex_tap": 26,
+      "hold": 7,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 781
+   },
+   "source": {
+    "music_difficulty_id": 1344,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 64,
+      "tap": 378,
+      "ex_tap": 41,
+      "hold": 31,
+      "flick": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 999
+   },
+   "source": {
+    "music_difficulty_id": 1345,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 118,
+      "tap": 419,
+      "hold": 20,
+      "ex_tap": 59,
+      "flick": 65
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 269,
+   "assetbundle": "jacket_s_269",
+   "seq": 1322201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_269.png",
+   "sha256": "ab38137ef7ae8bfb0bf488398a56b4261275e986250c58c6a025b64fedfde4ea",
+   "width": 320,
+   "height": 320,
+   "bytes": 33466
+  }
+ },
+ "extra": {
+  "pronunciation": "ろんりーゆにばーす",
+  "lyricist": "Aqu3ra",
+  "composer": "Aqu3ra",
+  "arranger": "Aqu3ra",
+  "published_at": 1670565600000,
+  "released_at": 1554476400000,
+  "tags": [
+   "idol",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "flower"
+    ],
+    "asset": "vs_0269_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "花里みのり",
+     "桐谷遥"
+    ],
+    "asset": "se_0269_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "花里みのり"
+    ],
+    "asset": "an_0269_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "桐谷遥"
+    ],
+    "asset": "an_0269_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 100.0
+ }
+}

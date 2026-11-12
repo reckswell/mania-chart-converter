@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "394",
+ "title": "Listen!!",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "175",
+ "version": "",
+ "date_added": "2022-01-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 228
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 228
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 122,
+      "hold": 53
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 323
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 323
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 189,
+      "hold": 67
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 623
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/394/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/394/hard.json",
+     "raw_sha256": "3d4c2aaae547b2cf38ef9ca8ece5461708caf872f267416f6bb5b6dfe38817d8"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 623
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 330,
+      "hold": 51,
+      "slide": 51,
+      "flick": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 940
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/394/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/394/expert.json",
+     "raw_sha256": "ca3c210d802dff1f5ee6a5bff5832bc846c94216bf998209076793fe42128e39"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 940
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 602,
+      "hold": 63,
+      "slide": 55,
+      "flick": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 394,
+   "bandId": 2,
+   "jacketImage": "394_listen",
+   "bgmId": "bgm394"
+  },
+  "maa": {
+   "bestdori_song_id": 394,
+   "jacket": {
+    "path": "bestdori/394/jacket-cn-1.png",
+    "server": "cn",
+    "name": "394_listen"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/394/jacket-cn-1.png",
+   "sha256": "9f110640b57ecc0b0911676d633a89aeb7ad80d9e631b32e602a7d267c8ac2ee",
+   "width": 320,
+   "height": 320,
+   "bytes": 26808
+  }
+ },
+ "extra": {
+  "lyricist": "大森祥子",
+  "composer": "前澤寛之",
+  "arranger": "近藤世真（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1643608800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "listen",
+  "length_s": 125.544
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "62",
+ "title": "ひまわりの約束",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "79",
+ "version": "",
+ "date_added": "2017-08-12",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 125
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 125
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 79,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 244
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 244
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 158,
+      "hold": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 394
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/62/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/62/hard.json",
+     "raw_sha256": "6b72cbc211aec7a82d5c11110e9c1ad6e7fc279e84439a149002893022e62ee4"
+    },
+    "bestdori": {
+     "level": 18,
+     "notes": 394
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 197,
+      "hold": 90,
+      "flick": 8,
+      "slide": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 481
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/62/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/62/expert.json",
+     "raw_sha256": "47ea4423d0ad1091c04e40afd57f76c291fa6d78f60d5bbd92260957afca3b42"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 481
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 192,
+      "slide": 51,
+      "hold": 53,
+      "flick": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 62,
+   "bandId": 3,
+   "jacketImage": "062_himawari",
+   "bgmId": "bgm062"
+  },
+  "maa": {
+   "bestdori_song_id": 62,
+   "jacket": {
+    "path": "bestdori/62/jacket-cn-1.png",
+    "server": "cn",
+    "name": "062_himawari"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/62/jacket-cn-1.png",
+   "sha256": "78144bf498e734ff42414717554f2e1e9026327aaff25f67980e1bcd7daebe35",
+   "width": 320,
+   "height": 320,
+   "bytes": 20066
+  }
+ },
+ "extra": {
+  "lyricist": "秦基博",
+  "composer": "秦基博",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1502517600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "ひまわりのやくそく",
+  "title_en": "Himawari no Yakusoku",
+  "length_s": 130.704
+ }
+}

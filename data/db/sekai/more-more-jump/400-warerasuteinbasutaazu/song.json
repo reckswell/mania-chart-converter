@@ -1,0 +1,205 @@
+{
+ "game": "sekai",
+ "song_id": "400",
+ "title": "我らステインバスターズ！",
+ "artist": "真島ゆろ",
+ "title_romaji": "warerasuteinbasutaazu!",
+ "artist_romaji": "mashimayuro",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "125",
+ "version": "",
+ "date_added": "2023-08-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 139
+   },
+   "source": {
+    "music_difficulty_id": 1996,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 49,
+      "hold": 9,
+      "ex_tap": 4,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 252
+   },
+   "source": {
+    "music_difficulty_id": 1997,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 8,
+      "tap": 99,
+      "hold": 11,
+      "flick": 7,
+      "slide": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 504
+   },
+   "source": {
+    "music_difficulty_id": 1998,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 17,
+      "tap": 178,
+      "slide": 52,
+      "ex_tap": 32,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 797
+   },
+   "source": {
+    "music_difficulty_id": 1999,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 282,
+      "slide": 79,
+      "ex_tap": 57,
+      "flick": 34,
+      "hold": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 810
+   },
+   "source": {
+    "music_difficulty_id": 2000,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 352,
+      "slide": 60,
+      "ex_tap": 84,
+      "flick": 60,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 400,
+   "assetbundle": "jacket_s_400",
+   "seq": 2330801
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_400.png",
+   "sha256": "21e6845537f61827a81b5091235491d49464d9b9f9559b15cdfe68f6cb9dfb8b",
+   "width": 320,
+   "height": 320,
+   "bytes": 32004
+  }
+ },
+ "extra": {
+  "pronunciation": "われらすていんばすたーず！",
+  "lyricist": "真島ゆろ",
+  "composer": "真島ゆろ",
+  "arranger": "真島ゆろ",
+  "published_at": 1690869600000,
+  "released_at": 1688223600000,
+  "tags": [
+   "idol",
+   "other"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "鏡音リン"
+    ],
+    "asset": "vs_0400_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "鏡音リン",
+     "花里みのり",
+     "桐谷遥",
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "se_0400_01"
+   }
+  ],
+  "filler_sec": 9.005000114440918,
+  "collaboration_id": 5,
+  "bpm_main": 125.0
+ }
+}

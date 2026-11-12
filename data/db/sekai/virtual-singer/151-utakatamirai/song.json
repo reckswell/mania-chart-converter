@@ -1,0 +1,214 @@
+{
+ "game": "sekai",
+ "song_id": "151",
+ "title": "泡沫未来",
+ "artist": "加賀（ネギシャワーＰ）",
+ "title_romaji": "utakatamirai",
+ "artist_romaji": "kaga negishawaapii",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "179",
+ "version": "",
+ "date_added": "2021-06-14",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 232
+   },
+   "source": {
+    "music_difficulty_id": 751,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 47,
+      "hold": 17,
+      "ex_tap": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 354
+   },
+   "source": {
+    "music_difficulty_id": 752,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 100,
+      "flick": 1,
+      "ex_tap": 29,
+      "hold": 6,
+      "slide": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 559
+   },
+   "source": {
+    "music_difficulty_id": 753,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 142,
+      "ex_tap": 38,
+      "slide": 64,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 750
+   },
+   "source": {
+    "music_difficulty_id": 754,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 303,
+      "ex_tap": 62,
+      "slide": 64,
+      "flick": 41,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 3",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 903
+   },
+   "source": {
+    "music_difficulty_id": 755,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 325,
+      "ex_tap": 79,
+      "hold": 15,
+      "slide": 82,
+      "flick": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1070
+   },
+   "source": {
+    "music_difficulty_id": 4061,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 338,
+      "ex_tap": 80,
+      "flick": 40,
+      "slide": 121,
+      "hold": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 151,
+   "assetbundle": "jacket_s_151",
+   "seq": 1107401
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_151.png",
+   "sha256": "256c8f2aca011518e5f77df3fc359313e201e8ad3177f93e5e29dc0b7396f9ff",
+   "width": 320,
+   "height": 320,
+   "bytes": 24733
+  }
+ },
+ "extra": {
+  "pronunciation": "うたかたみらい",
+  "lyricist": "加賀（ネギシャワーＰ）",
+  "composer": "加賀（ネギシャワーＰ）",
+  "arranger": "加賀（ネギシャワーＰ）",
+  "published_at": 1623650400000,
+  "released_at": 1614265200000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0151_01"
+   }
+  ],
+  "filler_sec": 9.335000038146973,
+  "bpm_main": 179.0
+ }
+}

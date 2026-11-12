@@ -1,0 +1,219 @@
+{
+ "game": "sekai",
+ "song_id": "147",
+ "title": "からくりピエロ",
+ "artist": "40mP",
+ "title_romaji": "karakuripiero",
+ "artist_romaji": "40mP",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "102",
+ "version": "",
+ "date_added": "2021-11-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 163
+   },
+   "source": {
+    "music_difficulty_id": 731,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 49,
+      "hold": 10,
+      "ex_tap": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 306
+   },
+   "source": {
+    "music_difficulty_id": 732,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 11,
+      "ex_tap": 9,
+      "tap": 96,
+      "slide": 15,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 489
+   },
+   "source": {
+    "music_difficulty_id": 733,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 190,
+      "ex_tap": 15,
+      "slide": 44,
+      "hold": 9,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 714
+   },
+   "source": {
+    "music_difficulty_id": 734,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 303,
+      "hold": 28,
+      "slide": 61,
+      "ex_tap": 14,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1005
+   },
+   "source": {
+    "music_difficulty_id": 735,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 428,
+      "slide": 112,
+      "flick": 34,
+      "ex_tap": 15,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 147,
+   "assetbundle": "jacket_s_147",
+   "seq": 1311301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_147.png",
+   "sha256": "b6504531b084ef5580a9b3132cc65ebbc2f40c3810e9dbc555cfb06888d112f8",
+   "width": 320,
+   "height": 320,
+   "bytes": 31981
+  }
+ },
+ "extra": {
+  "pronunciation": "からくりぴえろ",
+  "lyricist": "40mP",
+  "composer": "40mP",
+  "arranger": "40mP",
+  "published_at": 1638165600000,
+  "released_at": 1310655600000,
+  "tags": [
+   "idol",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0147_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "花里みのり",
+     "桐谷遥",
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "se_0147_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "花里みのり",
+     "桐谷遥"
+    ],
+    "asset": "an_0147_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "an_0147_02"
+   }
+  ],
+  "filler_sec": 8.991700172424316,
+  "bpm_main": 102.0
+ }
+}

@@ -1,0 +1,221 @@
+{
+ "game": "sekai",
+ "song_id": "397",
+ "title": "フィラメントフィーバー",
+ "artist": "栗山夕璃",
+ "title_romaji": "firamentofiibaa",
+ "artist_romaji": "kuriyamayuuri",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "114-134 (134)",
+ "version": "",
+ "date_added": "2023-11-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 252
+   },
+   "source": {
+    "music_difficulty_id": 1981,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 2,
+      "tap": 39,
+      "hold": 10,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 345
+   },
+   "source": {
+    "music_difficulty_id": 1982,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 15,
+      "tap": 88,
+      "hold": 10,
+      "ex_tap": 8,
+      "flick": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 648
+   },
+   "source": {
+    "music_difficulty_id": 1983,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 30,
+      "tap": 154,
+      "other": 2,
+      "hold": 13,
+      "ex_tap": 68,
+      "flick": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 864
+   },
+   "source": {
+    "music_difficulty_id": 1984,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 69,
+      "tap": 231,
+      "hold": 37,
+      "ex_tap": 75,
+      "other": 3,
+      "flick": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 952
+   },
+   "source": {
+    "music_difficulty_id": 1985,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 100,
+      "tap": 286,
+      "ex_tap": 111,
+      "flick": 60,
+      "hold": 24,
+      "other": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 397,
+   "assetbundle": "jacket_s_397",
+   "seq": 2534601
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_397.png",
+   "sha256": "77f083524e04e817d04eab40021548ba1c9177f3bef43ee92347b320a81e4835",
+   "width": 320,
+   "height": 320,
+   "bytes": 37319
+  }
+ },
+ "extra": {
+  "pronunciation": "ふぃらめんとふぃーばー",
+  "lyricist": "栗山夕璃",
+  "composer": "栗山夕璃",
+  "arranger": "栗山夕璃",
+  "published_at": 1701176700000,
+  "released_at": 1701097200000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "MEIKO"
+    ],
+    "asset": "vs_0397_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "天馬司",
+     "MEIKO",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0397_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "天馬司"
+    ],
+    "asset": "an_0397_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "神代類"
+    ],
+    "asset": "an_0397_02"
+   }
+  ],
+  "filler_sec": 7.656700134277344,
+  "bpm_main": 134.0
+ }
+}

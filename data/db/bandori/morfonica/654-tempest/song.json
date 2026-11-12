@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "654",
+ "title": "Tempest",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "202",
+ "version": "",
+ "date_added": "2024-12-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 141
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 141
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 21,
+      "tap": 99
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 335
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 335
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 207,
+      "hold": 64
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 518
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/654/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/654/hard.json",
+     "raw_sha256": "cd2d7055c8f2ceb6bb45eb0943550fb0c35ae8fcc3cdb6c85e8c3ae73a9a35f6"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 518
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 41,
+      "slide": 56,
+      "tap": 266,
+      "flick": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 916
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/654/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/654/expert.json",
+     "raw_sha256": "edcadd370c414c4c873147cbe86273ddd7db1e04d8bacb014766bc7dbcbb48f4"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 916
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 112,
+      "tap": 483,
+      "hold": 44,
+      "flick": 64
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 654,
+   "bandId": 21,
+   "jacketImage": "654_tempest",
+   "bgmId": "bgm654"
+  },
+  "maa": {
+   "bestdori_song_id": 654,
+   "jacket": {
+    "path": "bestdori/654/jacket-cn-1.png",
+    "server": "cn",
+    "name": "654_tempest"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/654/jacket-cn-1.png",
+   "sha256": "06e659f32d1e6f8eaf958e2cb21aa9c153973af3f78a25191362fd15c6054cdb",
+   "width": 320,
+   "height": 320,
+   "bytes": 30719
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "堀川大翼（Elements Garden）",
+  "arranger": "堀川大翼（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1735538400000,
+  "closed_at": 4122759600000,
+  "music_data_type": "normal",
+  "ruby": "tempest",
+  "length_s": 112.344
+ }
+}

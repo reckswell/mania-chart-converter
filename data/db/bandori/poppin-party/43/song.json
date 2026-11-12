@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "43",
+ "title": "前へススメ！",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "181",
+ "version": "",
+ "date_added": "2017-04-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 105
+   },
+   "source": {
+    "notesQuantity": 64,
+    "bestdori": {
+     "level": 6,
+     "notes": 105
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 83,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 64 differs from combo 105 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 249
+   },
+   "source": {
+    "notesQuantity": 141,
+    "bestdori": {
+     "level": 13,
+     "notes": 249
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 173,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 141 differs from combo 249 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 471
+   },
+   "source": {
+    "notesQuantity": 261,
+    "maa": {
+     "path": "bestdori/43/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/43/hard.json",
+     "raw_sha256": "deb523f194264387007a3ee95264a2281c837d15841dfc07f4124e439e1de9cd"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 471
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 368,
+      "hold": 39,
+      "slide": 5,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 261 differs from combo 471 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 723
+   },
+   "source": {
+    "notesQuantity": 397,
+    "maa": {
+     "path": "bestdori/43/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/43/expert.json",
+     "raw_sha256": "d9d131bc50cd9b08b87bbd33c70f28b5bc966b410a9dc6fc0ea3967ee8837954"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 723
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 483,
+      "slide": 34,
+      "hold": 49,
+      "flick": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 397 differs from combo 723 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 43,
+   "bandId": 1,
+   "jacketImage": "maehesusume",
+   "bgmId": "bgm043"
+  },
+  "maa": {
+   "bestdori_song_id": 43,
+   "jacket": {
+    "path": "bestdori/43/jacket-cn-1.png",
+    "server": "cn",
+    "name": "maehesusume"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/43/jacket-cn-1.png",
+   "sha256": "65c50d936ab2ca2e687394cd49264cd03a975fd6d381abc0a64464bcdf1b78e5",
+   "width": 320,
+   "height": 320,
+   "bytes": 20750
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1491055200000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "まえへすすめ",
+  "title_en": "Keep On Moving!",
+  "length_s": 135.048
+ }
+}

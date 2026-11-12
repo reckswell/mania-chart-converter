@@ -1,0 +1,316 @@
+{
+ "game": "piu",
+ "song_id": "302",
+ "title": "Naissance",
+ "artist": "BanYa",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "136",
+ "version": "3rd O.B.G",
+ "date_added": "",
+ "charts": {
+  "single-5": {
+   "slot": "single-5",
+   "native": "S5",
+   "level": "5",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 200
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 62,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S5",
+     "meter": "5",
+     "active": true,
+     "credit": "HP",
+     "combo": 200,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 186,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-8": {
+   "slot": "single-8",
+   "native": "S8",
+   "level": "8",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 280
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 64,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-single",
+     "description": "S8",
+     "meter": "8",
+     "active": true,
+     "credit": "HP",
+     "combo": 280,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 278,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-12": {
+   "slot": "single-12",
+   "native": "S12",
+   "level": "12",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 307
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 65,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-single",
+     "description": "S12",
+     "meter": "12",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 307,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 356
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 384
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 66,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 10,
+     "steps_type": "pump-single",
+     "description": "S20",
+     "meter": "20",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 384,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 704,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 20 differs from the PHOENIX 2 level 21: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-12": {
+   "slot": "double-12",
+   "native": "D12",
+   "level": "12",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 234
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 67,
+     "mode": "D"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 13,
+     "steps_type": "pump-double",
+     "description": "D12",
+     "meter": "12",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 234,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 257
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-16": {
+   "slot": "double-16",
+   "native": "D16",
+   "level": "16",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 509
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 68,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 14,
+     "steps_type": "pump-double",
+     "description": "D16",
+     "meter": "16",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 509,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 454,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-10": {
+   "slot": "halfdouble-10",
+   "native": "HDB10",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9288,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "normal"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-15": {
+   "slot": "halfdouble-15",
+   "native": "HDB15",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9289,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 9,
+   "game_id": "302",
+   "card": "/img/card/11.png",
+   "first": "3rd O.B.G default",
+   "title": "Naissance"
+  },
+  "kalinathalie": {
+   "slug": "naissance"
+  },
+  "simfile": {
+   "path": "01 - 1ST~3RD/(1) 302 - Naissance/302 - Naissance.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/01%20-%201ST~3RD/%281%29%20302%20-%20Naissance/302%20-%20Naissance.ssc",
+   "id": "302",
+   "title": "Naissance",
+   "artist": "BanYa"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/naissance.jpg",
+   "sha256": "824e2b630ab1d5bea24a53e2c466649796fb96d8edc021fd39a8a621e02b028f",
+   "width": 256,
+   "height": 256,
+   "bytes": 17404
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "태동"
+  },
+  "revived_in": "The Prex 3 default",
+  "simfile_notes": [
+   "S21: simfile chart 'S20' has meter 20 (re-rated)"
+  ]
+ }
+}

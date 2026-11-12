@@ -1,0 +1,203 @@
+{
+ "game": "sekai",
+ "song_id": "660",
+ "title": "とびだせ！わんだぴょい",
+ "artist": "なみぐる",
+ "title_romaji": "tobidasewandapyoi",
+ "artist_romaji": "namiguru",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "140",
+ "version": "",
+ "date_added": "2026-02-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 234
+   },
+   "source": {
+    "music_difficulty_id": 3296,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 6,
+      "tap": 49,
+      "hold": 16,
+      "slide": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 380
+   },
+   "source": {
+    "music_difficulty_id": 3297,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 114,
+      "flick": 11,
+      "slide": 25,
+      "hold": 7,
+      "ex_tap": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 552
+   },
+   "source": {
+    "music_difficulty_id": 3298,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 26,
+      "tap": 161,
+      "hold": 8,
+      "slide": 53,
+      "ex_tap": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 788
+   },
+   "source": {
+    "music_difficulty_id": 3299,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 49,
+      "slide": 98,
+      "tap": 227,
+      "ex_tap": 34,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1064
+   },
+   "source": {
+    "music_difficulty_id": 3300,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 110,
+      "tap": 346,
+      "slide": 97,
+      "ex_tap": 94,
+      "hold": 9,
+      "other": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 660,
+   "assetbundle": "jacket_s_660",
+   "seq": 2561601
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_660.png",
+   "sha256": "e140033cdd193ef5be078a9f07aad7b3896750b7fe8ea00921da05aeca41c57d",
+   "width": 320,
+   "height": 320,
+   "bytes": 38110
+  }
+ },
+ "extra": {
+  "pronunciation": "とびだせわんだぴょい",
+  "lyricist": "なみぐる",
+  "composer": "なみぐる",
+  "arranger": "なみぐる",
+  "published_at": 1771480800000,
+  "released_at": 1771426800000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音リン",
+     "ずんだもん"
+    ],
+    "asset": "vs_0660_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鳳えむ",
+     "鏡音リン",
+     "天馬司",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0660_01"
+   }
+  ],
+  "filler_sec": 9.428600311279297,
+  "bpm_main": 140.0
+ }
+}

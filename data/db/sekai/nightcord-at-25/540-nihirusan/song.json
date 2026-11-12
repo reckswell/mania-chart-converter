@@ -1,0 +1,219 @@
+{
+ "game": "sekai",
+ "song_id": "540",
+ "title": "虚無さん",
+ "artist": "¿?shimon",
+ "title_romaji": "nihirusan",
+ "artist_romaji": "¿?shimon",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "115",
+ "version": "",
+ "date_added": "2025-05-06",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 128
+   },
+   "source": {
+    "music_difficulty_id": 2696,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 8,
+      "tap": 38,
+      "slide": 2,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 251
+   },
+   "source": {
+    "music_difficulty_id": 2697,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 22,
+      "tap": 96,
+      "hold": 5,
+      "ex_tap": 18,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 526
+   },
+   "source": {
+    "music_difficulty_id": 2698,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 39,
+      "tap": 136,
+      "flick": 23,
+      "ex_tap": 27,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 650
+   },
+   "source": {
+    "music_difficulty_id": 2699,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 59,
+      "tap": 209,
+      "hold": 13,
+      "ex_tap": 86,
+      "flick": 36,
+      "other": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 899
+   },
+   "source": {
+    "music_difficulty_id": 2700,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 267,
+      "hold": 37,
+      "slide": 82,
+      "ex_tap": 126,
+      "other": 3,
+      "flick": 110
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 540,
+   "assetbundle": "jacket_s_540",
+   "seq": 2651701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_540.png",
+   "sha256": "edbadf76d53e5ee0e6ba3b8d4e2151a2601d8a8eb6bc10998ece1083f037d69b",
+   "width": 320,
+   "height": 320,
+   "bytes": 38399
+  }
+ },
+ "extra": {
+  "pronunciation": "にひるさん",
+  "lyricist": "¿?shimon",
+  "composer": "¿?shimon",
+  "arranger": "¿?shimon",
+  "published_at": 1746536700000,
+  "released_at": 1746457200000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "flower"
+    ],
+    "asset": "vs_0540_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "朝比奈まふゆ",
+     "鏡音レン",
+     "宵崎奏",
+     "東雲絵名",
+     "暁山瑞希"
+    ],
+    "asset": "se_0540_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "朝比奈まふゆ"
+    ],
+    "asset": "an_0540_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鏡音レン"
+    ],
+    "asset": "an_0540_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 115.0
+ }
+}

@@ -1,0 +1,209 @@
+{
+ "game": "bandori",
+ "song_id": "187",
+ "title": "FIRE BIRD",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "42-150",
+ "version": "",
+ "date_added": "2019-04-22",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 166
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 166
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 104,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 310
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 310
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 204,
+      "hold": 53
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 474
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/187/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/187/hard.json",
+     "raw_sha256": "a34d11df3a61f953a151fce7a1553fc5a0ef64159624f94aeec8f5810be0a73a"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 474
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 256,
+      "hold": 36,
+      "flick": 28,
+      "slide": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 935
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/187/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/187/expert.json",
+     "raw_sha256": "15542f5820018ceec024065a67f2fbdb8fc9e08dfcb6f625a7dfa733b6c3fb45"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 935
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 562,
+      "hold": 82,
+      "flick": 64,
+      "slide": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1111
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1678892400000,
+    "maa": {
+     "path": "bestdori/187/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/187/special.json",
+     "raw_sha256": "b1b068a359d301cdbafe04b570aca17073b2a0df543316818bb262ffe03979ff"
+    },
+    "bestdori": {
+     "level": 29,
+     "notes": 1111
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 562,
+      "hold": 85,
+      "flick": 80,
+      "slide": 74
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 187,
+   "bandId": 5,
+   "jacketImage": "187_firebird_1",
+   "bgmId": "bgm187"
+  },
+  "maa": {
+   "bestdori_song_id": 187,
+   "jacket": {
+    "path": "bestdori/187/jacket-cn-2.png",
+    "server": "cn",
+    "name": "187_firebird_1"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/187/jacket-cn-2.png",
+   "sha256": "28e6d1e1c17a54608ff9886f1ebaa32584cf9898b6a9ee5d6254adaa9de0bb5e",
+   "width": 320,
+   "height": 320,
+   "bytes": 43867
+  }
+ },
+ "extra": {
+  "lyricist": "上松範康（Elements Garden）",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1555912800000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "firebird",
+  "length_s": 130.728
+ }
+}

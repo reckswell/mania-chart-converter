@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "608",
+ "title": "SOUVENIR",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "158",
+ "version": "",
+ "date_added": "2024-05-04",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 95
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 95
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 69,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 228
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 228
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 138,
+      "hold": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 464
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/608/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/608/hard.json",
+     "raw_sha256": "2dc9dd2d788c24b16e9cf3ba7691f65ef8ed04aadfb09daab3af0634f9b043bb"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 464
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 302,
+      "hold": 36,
+      "flick": 13,
+      "slide": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 642
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/608/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/608/expert.json",
+     "raw_sha256": "57061bc8153122fad2f199ff4934e4c105c67d77a3a381334c7a250a57c20a13"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 642
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 398,
+      "hold": 46,
+      "slide": 60,
+      "flick": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 608,
+   "bandId": 1,
+   "jacketImage": "608_souvenir",
+   "bgmId": "bgm608"
+  },
+  "maa": {
+   "bestdori_song_id": 608,
+   "jacket": {
+    "path": "bestdori/608/jacket-cn-1.png",
+    "server": "cn",
+    "name": "608_souvenir"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/608/jacket-cn-1.png",
+   "sha256": "d7bec45a32d3dd138a170a53aeeefceeed4ae9d000f5ff307c361ea12a39ba64",
+   "width": 320,
+   "height": 320,
+   "bytes": 23045
+  }
+ },
+ "extra": {
+  "lyricist": "藤原 基央",
+  "composer": "藤原 基央",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1714802400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "souvenir",
+  "length_s": 105.624
+ }
+}

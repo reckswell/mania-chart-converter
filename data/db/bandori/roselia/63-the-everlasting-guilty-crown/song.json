@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "63",
+ "title": "The Everlasting Guilty Crown",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "172",
+ "version": "",
+ "date_added": "2017-08-18",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 158
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 158
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 118,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 340
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 340
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 258,
+      "hold": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 571
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/63/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/63/hard.json",
+     "raw_sha256": "19b447eab7709b7f49495053b2dfc7dc369ae1784d2980bfc5bd6017c3bb776f"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 571
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 386,
+      "hold": 77,
+      "flick": 5,
+      "slide": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 852
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/63/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/63/expert.json",
+     "raw_sha256": "ea79170d76eb4fb46f5200870def03d0d8b07af711bcae6cd9aa6f60d24c3a8f"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 852
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 620,
+      "hold": 83,
+      "slide": 11,
+      "flick": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 63,
+   "bandId": 5,
+   "jacketImage": "063_guilty_crown",
+   "bgmId": "bgm063"
+  },
+  "maa": {
+   "bestdori_song_id": 63,
+   "jacket": {
+    "path": "bestdori/63/jacket-cn-1.png",
+    "server": "cn",
+    "name": "063_guilty_crown"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/63/jacket-cn-1.png",
+   "sha256": "9cb38c3770d8f017a817734b497ad2a56f66737f85786d66ec8ed2dc5949f1e8",
+   "width": 320,
+   "height": 320,
+   "bytes": 31457
+  }
+ },
+ "extra": {
+  "lyricist": "ryo(supercell)",
+  "composer": "ryo(supercell)",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1503036000000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "theeverlastingguiltycrown",
+  "length_s": 131.928
+ }
+}

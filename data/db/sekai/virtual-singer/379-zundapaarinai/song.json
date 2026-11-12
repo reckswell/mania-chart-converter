@@ -1,0 +1,189 @@
+{
+ "game": "sekai",
+ "song_id": "379",
+ "title": "ずんだパーリナイ",
+ "artist": "なみぐる",
+ "title_romaji": "zundapaarinai",
+ "artist_romaji": "namiguru",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "150-170 (150)",
+ "version": "",
+ "date_added": "2023-08-04",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 320
+   },
+   "source": {
+    "music_difficulty_id": 1891,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 13,
+      "ex_tap": 9,
+      "tap": 67,
+      "slide": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 588
+   },
+   "source": {
+    "music_difficulty_id": 1892,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 34,
+      "tap": 141,
+      "hold": 19,
+      "flick": 11,
+      "slide": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 947
+   },
+   "source": {
+    "music_difficulty_id": 1893,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 12,
+      "tap": 285,
+      "slide": 77,
+      "ex_tap": 55,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1407
+   },
+   "source": {
+    "music_difficulty_id": 1894,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 94,
+      "hold": 58,
+      "flick": 88,
+      "tap": 458,
+      "slide": 137
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1; stacked taps merged: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1522
+   },
+   "source": {
+    "music_difficulty_id": 1895,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 117,
+      "flick": 127,
+      "tap": 518,
+      "slide": 193,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 379,
+   "assetbundle": "jacket_s_379",
+   "seq": 1131001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_379.png",
+   "sha256": "c7f92ed09a553b591a4d8e469043c8172f396dc9ff76488e70d691669ee13a95",
+   "width": 320,
+   "height": 320,
+   "bytes": 28472
+  }
+ },
+ "extra": {
+  "pronunciation": "ずんだぱーりない",
+  "lyricist": "なみぐる",
+  "composer": "なみぐる",
+  "arranger": "なみぐる",
+  "published_at": 1691128800000,
+  "released_at": 1679065200000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "ずんだもん"
+    ],
+    "asset": "vs_0379_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 150.0
+ }
+}

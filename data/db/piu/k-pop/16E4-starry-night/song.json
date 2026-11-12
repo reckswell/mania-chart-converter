@@ -1,0 +1,147 @@
+{
+ "game": "piu",
+ "song_id": "16E4",
+ "title": "Starry Night",
+ "artist": "MAMAMOO",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "124",
+ "version": "XX",
+ "date_added": "",
+ "charts": {
+  "single-12": {
+   "slot": "single-12",
+   "native": "S12",
+   "level": "12",
+   "constant": null,
+   "designer": "SUNNY",
+   "note_counts": {
+    "combo": 691
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5836,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S12",
+     "meter": "12",
+     "active": false,
+     "credit": "SUNNY",
+     "combo": 691,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 403,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'S12')",
+   "assets": {}
+  },
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "SUNNY",
+   "note_counts": {
+    "combo": 1682
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5837,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": false,
+     "credit": "SUNNY",
+     "combo": 1682,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 163,
+      "tap": 639
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "50 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'S17')",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "SUNNY",
+   "note_counts": {
+    "combo": 1687
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5885,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": false,
+     "credit": "SUNNY",
+     "combo": 1687,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 171,
+      "tap": 658
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "50 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'D18')",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 794,
+   "game_id": "16E4",
+   "card": "/img/card/16E4.png",
+   "first": "XX v1.04.0",
+   "title": "Starry Night"
+  },
+  "simfile": {
+   "path": "14 - XX/16E4 - [Full Song] Starry Night/16E4 - [Full Song] Starry Night.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/14%20-%20XX/16E4%20-%20%5BFull%20Song%5D%20Starry%20Night/16E4%20-%20%5BFull%20Song%5D%20Starry%20Night.ssc",
+   "id": "16E4",
+   "title": "Starry Night - FULL SONG -",
+   "artist": "MAMAMOO"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Full Song",
+  "removed": true,
+  "removed_in": "Phoenix v1.00.1"
+ }
+}

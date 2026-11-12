@@ -1,0 +1,244 @@
+{
+ "game": "sekai",
+ "song_id": "196",
+ "title": "オーダーメイド",
+ "artist": "傘村トータ",
+ "title_romaji": "oodaameido",
+ "artist_romaji": "kasamuratoota",
+ "genre": "Leo/need",
+ "bpm": "75",
+ "version": "",
+ "date_added": "2022-04-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 139
+   },
+   "source": {
+    "music_difficulty_id": 976,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 66,
+      "hold": 13,
+      "ex_tap": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 210
+   },
+   "source": {
+    "music_difficulty_id": 977,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 108,
+      "slide": 13,
+      "ex_tap": 6,
+      "hold": 2,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 331
+   },
+   "source": {
+    "music_difficulty_id": 978,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 117,
+      "slide": 34,
+      "ex_tap": 30,
+      "hold": 6,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 480
+   },
+   "source": {
+    "music_difficulty_id": 979,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 18,
+      "slide": 61,
+      "tap": 122,
+      "ex_tap": 37,
+      "flick": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 601
+   },
+   "source": {
+    "music_difficulty_id": 980,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 220,
+      "slide": 75,
+      "ex_tap": 45,
+      "hold": 5,
+      "flick": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 1",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 634
+   },
+   "source": {
+    "music_difficulty_id": 4128,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 86,
+      "tap": 135,
+      "slide": 46,
+      "other": 3,
+      "ex_tap": 35,
+      "flick": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 196,
+   "assetbundle": "jacket_s_196",
+   "seq": 2215701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_196.png",
+   "sha256": "60e3f3e085068b6783fb52c52ff0a2af3eb72ee0ddc5124ec3ae51e55d8e87bf",
+   "width": 320,
+   "height": 320,
+   "bytes": 15236
+  }
+ },
+ "extra": {
+  "pronunciation": "おーだーめいど",
+  "lyricist": "傘村トータ（LIVE LAB.）",
+  "composer": "傘村トータ（LIVE LAB.）",
+  "arranger": "村田祐一（LIVE LAB.）",
+  "published_at": 1651151100000,
+  "released_at": 1651071600000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "巡音ルカ"
+    ],
+    "asset": "vs_0196_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "星乃一歌",
+     "巡音ルカ",
+     "天馬咲希",
+     "望月穂波",
+     "日野森志歩"
+    ],
+    "asset": "se_0196_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "星乃一歌"
+    ],
+    "asset": "an_0196_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "天馬咲希"
+    ],
+    "asset": "an_0196_02"
+   }
+  ],
+  "filler_sec": 7.0,
+  "bpm_main": 75.0
+ }
+}

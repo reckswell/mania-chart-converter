@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "515",
+ "title": "碧天伴走",
+ "artist": "MyGO!!!!!",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "MyGO!!!!!",
+ "bpm": "192",
+ "version": "",
+ "date_added": "2023-07-27",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 147
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 147
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 95,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 271
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 271
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 31,
+      "tap": 201,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 580
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/515/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/515/hard.json",
+     "raw_sha256": "6a4f4f724f2ae4444f3cb656447862c4d0b9051b7a818564c60c81456258f2bf"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 580
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 345,
+      "slide": 31,
+      "flick": 19,
+      "hold": 69
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 966
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/515/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/515/expert.json",
+     "raw_sha256": "e41d104b4b43bb8dadea1ed11cf1f85f1870176dc1b48482c46da747a418edd2"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 966
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 696,
+      "slide": 52,
+      "flick": 17,
+      "hold": 52
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 515,
+   "bandId": 45,
+   "jacketImage": "515_hekiten_bansou",
+   "bgmId": "bgm515"
+  },
+  "maa": {
+   "bestdori_song_id": 515,
+   "jacket": {
+    "path": "bestdori/515/jacket-cn-1.png",
+    "server": "cn",
+    "name": "515_hekiten_bansou"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/515/jacket-cn-1.png",
+   "sha256": "71e4c3caa3562cb44557c492734b8894c160fecf228a0113ce4772abb81458f2",
+   "width": 320,
+   "height": 320,
+   "bytes": 25803
+  }
+ },
+ "extra": {
+  "lyricist": "藤原優樹(SUPA LOVE)",
+  "composer": "木下龍平(SUPA LOVE)",
+  "arranger": "木下龍平(SUPA LOVE)",
+  "tag": "normal",
+  "published_at": 1690468200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "へきてんばんそう",
+  "title_en": "Hekitenbansou",
+  "length_s": 119.424
+ }
+}

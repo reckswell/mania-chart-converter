@@ -1,0 +1,205 @@
+{
+ "game": "sekai",
+ "song_id": "665",
+ "title": "ロケットサイダー",
+ "artist": "ナユタン星人",
+ "title_romaji": "rokettosaidaa",
+ "artist_romaji": "nayutanseijin",
+ "genre": "Leo/need",
+ "bpm": "198",
+ "version": "",
+ "date_added": "2025-11-07",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 258
+   },
+   "source": {
+    "music_difficulty_id": 3321,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 13,
+      "tap": 80,
+      "ex_tap": 11,
+      "slide": 2,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 499
+   },
+   "source": {
+    "music_difficulty_id": 3322,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 11,
+      "tap": 166,
+      "flick": 7,
+      "slide": 24,
+      "ex_tap": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 698
+   },
+   "source": {
+    "music_difficulty_id": 3323,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 6,
+      "tap": 262,
+      "ex_tap": 46,
+      "hold": 7,
+      "slide": 61,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1110
+   },
+   "source": {
+    "music_difficulty_id": 3324,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 402,
+      "ex_tap": 39,
+      "flick": 33,
+      "slide": 127,
+      "hold": 25,
+      "other": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1350
+   },
+   "source": {
+    "music_difficulty_id": 3325,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 12,
+      "tap": 624,
+      "ex_tap": 195,
+      "flick": 72,
+      "slide": 104,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 665,
+   "assetbundle": "jacket_s_665",
+   "seq": 1257401
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_665.png",
+   "sha256": "8c6a6cb0555ab4f74fe62a2a0489e7f6621ad4696d6ef83bda9d4bfdd46ed2f3",
+   "width": 320,
+   "height": 320,
+   "bytes": 14954
+  }
+ },
+ "extra": {
+  "pronunciation": "ろけっとさいだー",
+  "lyricist": "ナユタン星人",
+  "composer": "ナユタン星人",
+  "arranger": "ナユタン星人",
+  "published_at": 1762495200000,
+  "released_at": 1438614000000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0665_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "星乃一歌",
+     "天馬咲希",
+     "望月穂波",
+     "日野森志歩"
+    ],
+    "asset": "se_0665_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 198.0
+ }
+}

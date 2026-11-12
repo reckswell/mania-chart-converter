@@ -1,0 +1,144 @@
+{
+ "game": "bandori",
+ "song_id": "822",
+ "title": "炎と森のカーニバル",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "116",
+ "version": "",
+ "date_added": "2026-09-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 416
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/822/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/822/hard.json",
+     "raw_sha256": "e7c360539247f7719a852874d50909f3d262cd7057cd09e5732c09a8a4aacc57"
+    },
+    "bestdori": {
+     "notes": 416
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 35,
+      "tap": 187,
+      "slide": 56
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 598
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/822/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/822/expert.json",
+     "raw_sha256": "a17cb2adb0c2f3a3bd308ceff0d537efa2796e5afecb7f0c4262e2bab0bdfee8"
+    },
+    "bestdori": {
+     "notes": 598
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 338,
+      "hold": 72,
+      "slide": 45,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 822,
+   "bandId": 3,
+   "jacketImage": "822_honoo_to_mori",
+   "bgmId": "bgm822"
+  },
+  "maa": {
+   "bestdori_song_id": 822,
+   "jacket": {
+    "path": "bestdori/822/jacket-jp-1.png",
+    "server": "jp",
+    "name": "822_honoo_to_mori"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/822/jacket-jp-1.png",
+   "sha256": "857a71a55f387491a709ddfbea5cb9921a2dc7edd0c42149e1384ff0c548afb8",
+   "width": 320,
+   "height": 320,
+   "bytes": 37108
+  }
+ },
+ "extra": {
+  "lyricist": "Fukase",
+  "composer": "Fukase",
+  "arranger": "近藤世真（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1790661600000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "ほのおともりのかーにばる"
+ }
+}

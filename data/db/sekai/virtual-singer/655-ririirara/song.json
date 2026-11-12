@@ -1,0 +1,193 @@
+{
+ "game": "sekai",
+ "song_id": "655",
+ "title": "リリィララ",
+ "artist": "ざんぎ",
+ "title_romaji": "ririirara",
+ "artist_romaji": "zangi",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "130",
+ "version": "",
+ "date_added": "2025-08-18",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 272
+   },
+   "source": {
+    "music_difficulty_id": 3271,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 17,
+      "slide": 4,
+      "tap": 40,
+      "ex_tap": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 335
+   },
+   "source": {
+    "music_difficulty_id": 3272,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 16,
+      "slide": 15,
+      "tap": 72,
+      "ex_tap": 10,
+      "flick": 10,
+      "other": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 607
+   },
+   "source": {
+    "music_difficulty_id": 3273,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 160,
+      "slide": 44,
+      "flick": 17,
+      "hold": 16,
+      "ex_tap": 32,
+      "other": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 810
+   },
+   "source": {
+    "music_difficulty_id": 3274,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 10,
+      "tap": 286,
+      "flick": 51,
+      "hold": 28,
+      "slide": 68,
+      "ex_tap": 52
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 903
+   },
+   "source": {
+    "music_difficulty_id": 3275,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 26,
+      "tap": 452,
+      "slide": 67,
+      "ex_tap": 128,
+      "flick": 45,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "modifier without target 8: 1; stacked taps identical: 3",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 655,
+   "assetbundle": "jacket_s_655",
+   "seq": 1154501
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_655.png",
+   "sha256": "514e3e870554c2c47bb26bbd7b2e4f98dde9e6c1e53c1e34e4ba529ddfb43350",
+   "width": 320,
+   "height": 320,
+   "bytes": 22979
+  }
+ },
+ "extra": {
+  "pronunciation": "りりぃらら",
+  "lyricist": "ざんぎ",
+  "composer": "ざんぎ",
+  "arranger": "ざんぎ",
+  "published_at": 1755496800000,
+  "released_at": 1748530800000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0655_01"
+   }
+  ],
+  "filler_sec": 7.999899864196777,
+  "bpm_main": 130.0
+ }
+}

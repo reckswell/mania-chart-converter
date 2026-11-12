@@ -1,0 +1,217 @@
+{
+ "game": "sekai",
+ "song_id": "374",
+ "title": "チームメイト",
+ "artist": "HoneyWorks",
+ "title_romaji": "chiimumeito",
+ "artist_romaji": "HoneyWorks",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2023-06-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 255
+   },
+   "source": {
+    "music_difficulty_id": 1866,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 7,
+      "slide": 8,
+      "ex_tap": 5,
+      "tap": 55
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 380
+   },
+   "source": {
+    "music_difficulty_id": 1867,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 17,
+      "flick": 15,
+      "tap": 105,
+      "ex_tap": 20,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 612
+   },
+   "source": {
+    "music_difficulty_id": 1868,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 27,
+      "flick": 15,
+      "tap": 151,
+      "ex_tap": 62,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 803
+   },
+   "source": {
+    "music_difficulty_id": 1869,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 58,
+      "flick": 47,
+      "tap": 235,
+      "ex_tap": 66,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1090
+   },
+   "source": {
+    "music_difficulty_id": 1870,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 54,
+      "flick": 56,
+      "tap": 423,
+      "ex_tap": 86,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 374,
+   "assetbundle": "jacket_s_374",
+   "seq": 2329601
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_374.png",
+   "sha256": "5c3dcd3b4f3914206fd60e3e8dc51235d221e8ee91e88ed9d1aa9f73036d5799",
+   "width": 320,
+   "height": 320,
+   "bytes": 23749
+  }
+ },
+ "extra": {
+  "pronunciation": "ちーむめいと",
+  "lyricist": "HoneyWorks",
+  "composer": "HoneyWorks",
+  "arranger": "HoneyWorks",
+  "published_at": 1687240800000,
+  "released_at": 1687186800000,
+  "tags": [
+   "idol"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0374_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "花里みのり",
+     "鏡音レン",
+     "桐谷遥",
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "se_0374_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "花里みのり"
+    ],
+    "asset": "an_0374_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鏡音レン"
+    ],
+    "asset": "an_0374_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 180.0
+ }
+}

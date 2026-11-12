@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "166",
+ "title": "回レ！雪月花",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "160",
+ "version": "",
+ "date_added": "2019-01-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 188
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 188
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 33,
+      "tap": 122
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 303
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 303
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 46,
+      "tap": 211
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 563
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/166/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/166/hard.json",
+     "raw_sha256": "7051036bf43df79db6512b0e0d17512c3ecf4499dd34cdfa6062432c07a8ef81"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 563
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 73,
+      "tap": 296,
+      "slide": 26,
+      "flick": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 782
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/166/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/166/expert.json",
+     "raw_sha256": "a50caffb7f3ee00fb5b8370535d27297167653af57ddb4fae97017ba524bcfc5"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 782
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 48,
+      "flick": 77,
+      "tap": 439,
+      "slide": 61
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 699
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1615960800000,
+    "maa": {
+     "path": "bestdori/166/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/166/special.json",
+     "raw_sha256": "e569b3f156ca94fc61f87959e0f55cc108598041303c498adefd81af15b8a92c"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 699
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 111,
+      "flick": 61,
+      "tap": 237,
+      "hold": 22
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 166,
+   "bandId": 3,
+   "jacketImage": "166_maware_setsugekka",
+   "bgmId": "bgm166"
+  },
+  "maa": {
+   "bestdori_song_id": 166,
+   "jacket": {
+    "path": "bestdori/166/jacket-cn-1.png",
+    "server": "cn",
+    "name": "166_maware_setsugekka"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/166/jacket-cn-1.png",
+   "sha256": "b9d1dc54bcc3a2af0adad9e21ec960f3b29bdcbc50d532d4b707fc25d93286e4",
+   "width": 320,
+   "height": 320,
+   "bytes": 27100
+  }
+ },
+ "extra": {
+  "lyricist": "ヒゲドライバー",
+  "composer": "ヒゲドライバー",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1546408800000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "まわれせつげつか",
+  "title_en": "Maware! Setsugetsuka",
+  "length_s": 99.048
+ }
+}

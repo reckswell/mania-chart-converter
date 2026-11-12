@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "682",
+ "title": "八芒星ダンス",
+ "artist": "Ave Mujica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Ave Mujica",
+ "bpm": "113-162",
+ "version": "",
+ "date_added": "2025-03-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 95
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 95
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 67,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 237
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 237
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 153,
+      "hold": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 382
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/682/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/682/hard.json",
+     "raw_sha256": "3ae8d2671caeafc58c070b6ba82b5d2e8c9b264bb9e02769ee8361662ee8e8ec"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 382
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 238,
+      "hold": 62,
+      "flick": 12,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 761
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/682/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/682/expert.json",
+     "raw_sha256": "3046bb97e16a57441913616b0e550502f11a2cf73672bab17c876501b78e5c5c"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 761
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 33,
+      "tap": 439,
+      "hold": 106,
+      "flick": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 682,
+   "bandId": 46,
+   "jacketImage": "682_hachibousei",
+   "bgmId": "bgm682"
+  },
+  "maa": {
+   "bestdori_song_id": 682,
+   "jacket": {
+    "path": "bestdori/682/jacket-cn-1.png",
+    "server": "cn",
+    "name": "682_hachibousei"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/682/jacket-cn-1.png",
+   "sha256": "de69b209382a2cd9a3c55a97deb010d50813f6bd57abfae85f3c17f98d24b232",
+   "width": 320,
+   "height": 320,
+   "bytes": 24200
+  }
+ },
+ "extra": {
+  "lyricist": "Diggy-MO’",
+  "composer": "あらケン(SUPA LOVE)、Diggy-MO’",
+  "arranger": "あらケン(SUPA LOVE)",
+  "tag": "normal",
+  "published_at": 1743087600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "はちぼうせいだんす",
+  "title_en": "Octagram Dance",
+  "length_s": 104.904
+ }
+}

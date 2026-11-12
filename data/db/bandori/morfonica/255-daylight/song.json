@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "255",
+ "title": "Daylight -デイライト-",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "51-185",
+ "version": "",
+ "date_added": "2020-03-15",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 159
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 159
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 44,
+      "tap": 71
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 319
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 319
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 76,
+      "tap": 167
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 627
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/255/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/255/hard.json",
+     "raw_sha256": "0fb148f9465ff1b4d76d2087a128e3c3e91242722bc9bbc78a87079ec18b5ca8"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 627
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 309,
+      "slide": 23,
+      "hold": 96,
+      "flick": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 845
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/255/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/255/expert.json",
+     "raw_sha256": "95cc8fbb4e07e8829833895abe68262fb426ec01d538dc688eeec140883837c8"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 845
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 518,
+      "hold": 85,
+      "slide": 31,
+      "flick": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 939
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1616047200000,
+    "maa": {
+     "path": "bestdori/255/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/255/special.json",
+     "raw_sha256": "b87f87451e85dcae3294d094521fe6d6ae1ce860a1f2883132b6e92ad02ff6a9"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 939
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 59,
+      "flick": 70,
+      "tap": 514,
+      "hold": 59
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 255,
+   "bandId": 21,
+   "jacketImage": "255_daylight",
+   "bgmId": "bgm255"
+  },
+  "maa": {
+   "bestdori_song_id": 255,
+   "jacket": {
+    "path": "bestdori/255/jacket-cn-1.png",
+    "server": "cn",
+    "name": "255_daylight"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/255/jacket-cn-1.png",
+   "sha256": "0d0872838efed79ee5b84c2eea1d8ca30cf1e6c714cb52841c3521c7566e3901",
+   "width": 320,
+   "height": 320,
+   "bytes": 22455
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1584259200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "daylight",
+  "title_en": "Daylight",
+  "length_s": 122.52
+ }
+}

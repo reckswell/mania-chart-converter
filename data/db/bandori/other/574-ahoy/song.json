@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "574",
+ "title": "Ahoy!! 我ら宝鐘海賊団☆",
+ "artist": "Afterglow×宝鐘マリン",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow×宝鐘マリン",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2024-01-13",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 137
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 137
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 23,
+      "tap": 91
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 259
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 259
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 155,
+      "hold": 52
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 501
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/574/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/574/hard.json",
+     "raw_sha256": "785e8ef48acf15bb284826b80cf71273f80bdb39a375ec365c5385ab03ddbdb5"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 501
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 239,
+      "slide": 56,
+      "flick": 22,
+      "hold": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 702
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/574/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/574/expert.json",
+     "raw_sha256": "9cd572a63e0711f97ca82f5d310b38b72bd125dcac602206846421b2b3373828"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 702
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 418,
+      "flick": 28,
+      "slide": 57,
+      "hold": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 574,
+   "bandId": 72,
+   "jacketImage": "574_ahoy_kaizokudan",
+   "bgmId": "bgm574"
+  },
+  "maa": {
+   "bestdori_song_id": 574,
+   "jacket": {
+    "path": "bestdori/574/jacket-cn-1.png",
+    "server": "cn",
+    "name": "574_ahoy_kaizokudan"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/574/jacket-cn-1.png",
+   "sha256": "6c4539ecaaa38d69f6b31f4af47658f7609a33bb62fdc2fa51ce517523a90d73",
+   "width": 320,
+   "height": 320,
+   "bytes": 45539
+  }
+ },
+ "extra": {
+  "lyricist": "まろん",
+  "composer": "ARM",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "tie_up",
+  "published_at": 1705125600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ahoyわれらほうしょうかいぞくだん",
+  "title_en": "Ahoy!! Warera Houshou Kaizoku-dan☆",
+  "length_s": 108.768
+ }
+}

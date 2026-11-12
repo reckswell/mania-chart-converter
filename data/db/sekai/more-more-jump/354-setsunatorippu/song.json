@@ -1,0 +1,226 @@
+{
+ "game": "sekai",
+ "song_id": "354",
+ "title": "セツナトリップ",
+ "artist": "Last Note.",
+ "title_romaji": "setsunatorippu",
+ "artist_romaji": "Last Note.",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "145",
+ "version": "",
+ "date_added": "2023-05-15",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 418
+   },
+   "source": {
+    "music_difficulty_id": 1766,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 6,
+      "tap": 55,
+      "hold": 13,
+      "ex_tap": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 524
+   },
+   "source": {
+    "music_difficulty_id": 1767,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 26,
+      "tap": 129,
+      "hold": 20,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 938
+   },
+   "source": {
+    "music_difficulty_id": 1768,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 85,
+      "hold": 12,
+      "tap": 228,
+      "flick": 42,
+      "ex_tap": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1275
+   },
+   "source": {
+    "music_difficulty_id": 1769,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 91,
+      "tap": 591,
+      "flick": 77,
+      "ex_tap": 50,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "32",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1370
+   },
+   "source": {
+    "music_difficulty_id": 1770,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 50,
+      "tap": 793,
+      "hold": 10,
+      "flick": 133,
+      "ex_tap": 61
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 354,
+   "assetbundle": "jacket_s_354",
+   "seq": 1328601
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_354.png",
+   "sha256": "35a92e9a67677be4ac59f4bd685941a20bf9e2de9c732de4108838206102e7b8",
+   "width": 320,
+   "height": 320,
+   "bytes": 29799
+  }
+ },
+ "extra": {
+  "pronunciation": "せつなとりっぷ",
+  "lyricist": "Last Note.",
+  "composer": "Last Note.",
+  "arranger": "-",
+  "published_at": 1684130400000,
+  "released_at": 1335970800000,
+  "tags": [
+   "idol"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "GUMI"
+    ],
+    "asset": "vs_0354_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音リン",
+     "花里みのり",
+     "桃井愛莉"
+    ],
+    "asset": "se_0354_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "花里みのり"
+    ],
+    "asset": "an_0354_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "桃井愛莉"
+    ],
+    "asset": "an_0354_02"
+   },
+   {
+    "type": "april_fool_2022",
+    "caption": "エイプリルフールver.",
+    "singers": [
+     "鏡音レン",
+     "日野森志歩",
+     "桃井愛莉",
+     "草薙寧々",
+     "宵崎奏"
+    ],
+    "asset": "af_0354_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 145.0
+ }
+}

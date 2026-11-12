@@ -1,0 +1,208 @@
+{
+ "game": "bandori",
+ "song_id": "681",
+ "title": "えがおのオーケストラっ！(パラレルver.)",
+ "artist": "優雅なティータイムを♪",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "優雅なティータイムを♪",
+ "bpm": "138",
+ "version": "",
+ "date_added": "2025-03-24",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 101
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 101
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 99,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 206
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 206
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 182,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 313
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/681/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/681/hard.json",
+     "raw_sha256": "d01849fb728bf5930df8b91ae577e109b119f70a535a20c3308b3877ade8153a"
+    },
+    "bestdori": {
+     "level": 18,
+     "notes": 313
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 281,
+      "hold": 15,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 427
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/681/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/681/expert.json",
+     "raw_sha256": "4ff6ee4889b3690a586dc3cbbd4728fcbd75dd90322941727fef8cf4a6c0e4cb"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 427
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 317,
+      "hold": 32,
+      "flick": 6,
+      "slide": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 610
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/681/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/681/special.json",
+     "raw_sha256": "17b07bc8ab56bd57f1800c4eb43ad6ea2696dc076e783ab3021652374169ea7b"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 610
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 43,
+      "tap": 357,
+      "slide": 44,
+      "flick": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 681,
+   "bandId": 87,
+   "jacketImage": "681_egaoke_p",
+   "bgmId": "bgm681"
+  },
+  "maa": {
+   "bestdori_song_id": 681,
+   "jacket": {
+    "path": "bestdori/681/jacket-cn-1.png",
+    "server": "cn",
+    "name": "681_egaoke_p"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/681/jacket-cn-1.png",
+   "sha256": "f71f66fdda37bbbc7c523f0a0b49fa43f15f72b395b1682604b7a936241305f3",
+   "width": 320,
+   "height": 320,
+   "bytes": 38225
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤間仁（Elements Garden）",
+  "arranger": "藤間仁（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1742796000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "えがおのおーけすとらっ",
+  "title_en": "Egao no Orchestra! (Parallel ver.)",
+  "length_s": 100.92
+ }
+}

@@ -1,0 +1,173 @@
+{
+ "game": "bandori",
+ "song_id": "485",
+ "title": "Glee! Glee! Glee!",
+ "artist": "Glitter*Green",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Glitter*Green",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2023-03-15",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 124
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 124
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 60,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 223
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 223
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 47,
+      "tap": 129
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 442
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/485/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/485/hard.json",
+     "raw_sha256": "53d0d2a9477d0e8bc6d2da4b56f015986a93ea1ca1af2e4ead88c20b622a7777"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 442
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 31,
+      "tap": 248,
+      "hold": 53
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 671
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/485/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/485/expert.json",
+     "raw_sha256": "bbba7b7a189f9df96dea8c6fceba997b2f293edd6f081d647b3956e032364129"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 671
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 60,
+      "tap": 365,
+      "flick": 27,
+      "hold": 53
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 485,
+   "bandId": 6,
+   "jacketImage": "485_glee_ glee_ glee",
+   "bgmId": "bgm485"
+  },
+  "maa": {
+   "bestdori_song_id": 485,
+   "jacket": {
+    "path": "bestdori/485/jacket-cn-1.png",
+    "server": "cn",
+    "name": "485_glee_ glee_ glee"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/485/jacket-cn-1.png",
+   "sha256": "1788fbb44dc86777b8537cc602cb9363d679548d74e141e71df3d3e07b360ca5",
+   "width": 320,
+   "height": 320,
+   "bytes": 26568
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "岩橋星実（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1678867200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "gleegleeglee",
+  "length_s": 98.064
+ }
+}

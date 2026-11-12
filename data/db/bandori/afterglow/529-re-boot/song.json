@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "529",
+ "title": "チルドレンレコード(Re:boot)",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "206",
+ "version": "",
+ "date_added": "2023-08-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 155
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 155
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 121,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 351
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 351
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "slide": 3,
+      "tap": 266,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 639
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/529/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/529/hard.json",
+     "raw_sha256": "dba23d6bd1a47edb5055bf4289db7584bcbdde8dc33436c71c70dfbe85176bdf"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 639
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 39,
+      "tap": 419,
+      "hold": 31,
+      "flick": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 963
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/529/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/529/expert.json",
+     "raw_sha256": "ec9a6538ebddbcb7ad953ac183b83526d372aba844c63886bfa8c1386d327936"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 963
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 66,
+      "hold": 48,
+      "tap": 625,
+      "flick": 51
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 529,
+   "bandId": 2,
+   "jacketImage": "529_children_record_r",
+   "bgmId": "bgm529"
+  },
+  "maa": {
+   "bestdori_song_id": 529,
+   "jacket": {
+    "path": "bestdori/529/jacket-cn-1.png",
+    "server": "cn",
+    "name": "529_children_record_r"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/529/jacket-cn-1.png",
+   "sha256": "cd72ecfd0ad767105536e74117994456d487bcc63ebdd6b3d18811d1629ad309",
+   "width": 320,
+   "height": 320,
+   "bytes": 27011
+  }
+ },
+ "extra": {
+  "lyricist": "じん",
+  "composer": "じん",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1693461600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ちるどれんれこーどreboot",
+  "title_en": "Children Record (Re:boot)",
+  "length_s": 122.976
+ }
+}

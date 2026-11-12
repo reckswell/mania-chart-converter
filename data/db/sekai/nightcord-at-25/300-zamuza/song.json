@@ -1,0 +1,244 @@
+{
+ "game": "sekai",
+ "song_id": "300",
+ "title": "ザムザ",
+ "artist": "てにをは",
+ "title_romaji": "zamuza",
+ "artist_romaji": "tenioha",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "121",
+ "version": "",
+ "date_added": "2023-03-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 169
+   },
+   "source": {
+    "music_difficulty_id": 1496,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 38,
+      "hold": 8,
+      "slide": 3,
+      "ex_tap": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 251
+   },
+   "source": {
+    "music_difficulty_id": 1497,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 94,
+      "hold": 8,
+      "slide": 21,
+      "ex_tap": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 694
+   },
+   "source": {
+    "music_difficulty_id": 1498,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 63,
+      "tap": 206,
+      "ex_tap": 35,
+      "flick": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 779
+   },
+   "source": {
+    "music_difficulty_id": 1499,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 518,
+      "slide": 40,
+      "flick": 49,
+      "hold": 9,
+      "ex_tap": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 937
+   },
+   "source": {
+    "music_difficulty_id": 1500,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 552,
+      "slide": 51,
+      "flick": 84,
+      "hold": 18,
+      "ex_tap": 52
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1105
+   },
+   "source": {
+    "music_difficulty_id": 4133,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 57,
+      "tap": 465,
+      "slide": 43,
+      "other": 38,
+      "ex_tap": 218,
+      "flick": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 300,
+   "assetbundle": "jacket_s_300",
+   "seq": 2626301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_300.png",
+   "sha256": "1fe1c7d2abad835ab866e0b32c24b9b9fe56b93d81e3f7de722d7ecaf305279f",
+   "width": 320,
+   "height": 320,
+   "bytes": 16268
+  }
+ },
+ "extra": {
+  "pronunciation": "ざむざ",
+  "lyricist": "てにをは",
+  "composer": "てにをは",
+  "arranger": "てにをは",
+  "published_at": 1680008700000,
+  "released_at": 1679929200000,
+  "tags": [
+   "school_refusal",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0300_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "宵崎奏",
+     "KAITO",
+     "朝比奈まふゆ",
+     "東雲絵名",
+     "暁山瑞希"
+    ],
+    "asset": "se_0300_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "宵崎奏"
+    ],
+    "asset": "an_0300_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "KAITO"
+    ],
+    "asset": "an_0300_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 121.0
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "197",
+ "title": "にこ×にこ＝ハイパースマイルパワー！",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2019-05-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 189
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 189
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 113,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 260
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 260
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 156,
+      "hold": 52
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 426
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/197/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/197/hard.json",
+     "raw_sha256": "a79bd198e7e269d79dad2b41be531cb4451cdd4403d4425dab085355b4db785f"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 426
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 195,
+      "flick": 35,
+      "hold": 76,
+      "slide": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 731
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/197/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/197/expert.json",
+     "raw_sha256": "ef87e0b68ef19663103d3398aa31c1d8516e4929e0bd785f5acec362a5eea123"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 731
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 393,
+      "flick": 70,
+      "hold": 67,
+      "slide": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 197,
+   "bandId": 3,
+   "jacketImage": "197_niconicosmaile_1",
+   "bgmId": "bgm197"
+  },
+  "maa": {
+   "bestdori_song_id": 197,
+   "jacket": {
+    "path": "bestdori/197/jacket-cn-2.png",
+    "server": "cn",
+    "name": "197_niconicosmaile_1"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/197/jacket-cn-2.png",
+   "sha256": "13eb4cbd18a2ee3835faeb193edced92ecdb01daaa0918cf722b0e245abf1aac",
+   "width": 320,
+   "height": 320,
+   "bytes": 47810
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "都丸椋太（Elements Garden）",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1558418400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "にこにこはいぱーすまいるぱわー",
+  "title_en": "Smile x Smile = Hyper Smile Power!",
+  "length_s": 107.424
+ }
+}

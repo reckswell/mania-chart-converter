@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "342",
+ "title": "徒花ネクロマンシー",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "172",
+ "version": "",
+ "date_added": "2021-06-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 166
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 166
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 108,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 237
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 237
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 173,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 438
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/342/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/342/hard.json",
+     "raw_sha256": "9e3701e2e1276e5d48c8ccc437cc8d5fcd5a0c624f116c1b06b68853a3fad3c2"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 438
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 273,
+      "slide": 21,
+      "hold": 49,
+      "flick": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 719
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/342/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/342/expert.json",
+     "raw_sha256": "03b316870da7b7fbb77801bec300ad6d6234ceb17a615562e345fe7edf78460a"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 719
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 402,
+      "slide": 77,
+      "flick": 42,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 735
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1755151200000,
+    "maa": {
+     "path": "bestdori/342/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/342/special.json",
+     "raw_sha256": "88e0f4a2ec8fb28e873f755d324de85f8d475a7a6a03d221530dada0d7c30300"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 735
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 110,
+      "slide": 64,
+      "tap": 410,
+      "hold": 30
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 342,
+   "bandId": 4,
+   "jacketImage": "342_adabana",
+   "bgmId": "bgm342"
+  },
+  "maa": {
+   "bestdori_song_id": 342,
+   "jacket": {
+    "path": "bestdori/342/jacket-cn-1.png",
+    "server": "cn",
+    "name": "342_adabana"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/342/jacket-cn-1.png",
+   "sha256": "8b08464d8109ff04d666ffcdf24e18b1a9d1e52c3bb222f51b4ae3f084e82d85",
+   "width": 320,
+   "height": 320,
+   "bytes": 37530
+  }
+ },
+ "extra": {
+  "lyricist": "古屋真",
+  "composer": "加藤裕介",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1624168800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "あだばなねくろまんしー",
+  "title_en": "Adabana Necromancy",
+  "length_s": 98.424
+ }
+}

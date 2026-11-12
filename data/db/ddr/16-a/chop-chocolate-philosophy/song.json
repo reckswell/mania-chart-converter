@@ -1,0 +1,381 @@
+{
+ "game": "ddr",
+ "song_id": "chop",
+ "title": "CHOCOLATE PHILOSOPHY",
+ "artist": "常盤ゆう",
+ "title_romaji": "",
+ "artist_romaji": "YUU TOKIWA",
+ "genre": "DanceDanceRevolution A",
+ "bpm": "110",
+ "version": "DanceDanceRevolution A",
+ "date_added": "",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "BEGINNER",
+   "level": "2",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 81
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 243,
+     "sanbaiTier": 2.65
+    },
+    "tachi": {
+     "id": "C19d35e21589a6b454f7"
+    },
+    "simfile": {
+     "chart": "dance-single/Beginner",
+     "meter": "2",
+     "steps": 71,
+     "freezes": 10,
+     "shocks": 0,
+     "combo": 81
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 74,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "BASIC",
+   "level": "4",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 132
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 396,
+     "sanbaiTier": 4.7
+    },
+    "tachi": {
+     "id": "C19d35e215897364b472"
+    },
+    "simfile": {
+     "chart": "dance-single/Easy",
+     "meter": "4",
+     "steps": 114,
+     "freezes": 18,
+     "shocks": 0,
+     "combo": 132
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 108,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "DIFFICULT",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 209
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 627,
+     "sanbaiTier": 8.45
+    },
+    "tachi": {
+     "id": "C19d35e2158902828d37"
+    },
+    "simfile": {
+     "chart": "dance-single/Medium",
+     "meter": "8",
+     "steps": 184,
+     "freezes": 25,
+     "shocks": 0,
+     "combo": 209
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "hold": 25,
+      "tap": 196
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 300
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 900,
+     "sanbaiTier": 9.35
+    },
+    "tachi": {
+     "id": "C19d35e215898801ad4b"
+    },
+    "simfile": {
+     "chart": "dance-single/Hard",
+     "meter": "9",
+     "steps": 283,
+     "freezes": 17,
+     "shocks": 0,
+     "combo": 300
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 280,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "CHALLENGE",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 420
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1260,
+     "sanbaiTier": 12.45
+    },
+    "tachi": {
+     "id": "C19d35e2158911f728c7"
+    },
+    "simfile": {
+     "chart": "dance-single/Challenge",
+     "meter": "12",
+     "steps": 400,
+     "freezes": 20,
+     "shocks": 0,
+     "combo": 420
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 426,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-normal": {
+   "slot": "double-normal",
+   "native": "DOUBLE BASIC",
+   "level": "4",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 141
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 417,
+     "sanbaiTier": 4.85
+    },
+    "tachi": {
+     "id": "C19d35e21b7f74761da0"
+    },
+    "simfile": {
+     "chart": "dance-double/Easy",
+     "meter": "4",
+     "steps": 116,
+     "freezes": 25,
+     "shocks": 0,
+     "combo": 141
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 100,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "EX max 423 from the simfile (3 × combo), DDRCardDraw has 417",
+   "assets": {}
+  },
+  "double-hard": {
+   "slot": "double-hard",
+   "native": "DOUBLE DIFFICULT",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 209
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 627,
+     "sanbaiTier": 8.5
+    },
+    "tachi": {
+     "id": "C19d35e21b7fbb81732f"
+    },
+    "simfile": {
+     "chart": "dance-double/Medium",
+     "meter": "8",
+     "steps": 184,
+     "freezes": 25,
+     "shocks": 0,
+     "combo": 209
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "hold": 25,
+      "tap": 191
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-expert": {
+   "slot": "double-expert",
+   "native": "DOUBLE EXPERT",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 299
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 897,
+     "sanbaiTier": 10.35
+    },
+    "tachi": {
+     "id": "C19d35e21b7f1a97a9fa"
+    },
+    "simfile": {
+     "chart": "dance-double/Hard",
+     "meter": "10",
+     "steps": 283,
+     "freezes": 16,
+     "shocks": 0,
+     "combo": 299
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 268,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-master": {
+   "slot": "double-master",
+   "native": "DOUBLE CHALLENGE",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 409
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1227,
+     "sanbaiTier": 12.65
+    },
+    "tachi": {
+     "id": "C19d35e21b7f42daaf23"
+    },
+    "simfile": {
+     "chart": "dance-double/Challenge",
+     "meter": "12",
+     "steps": 401,
+     "freezes": 8,
+     "shocks": 0,
+     "combo": 409
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 417,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "ddrcarddraw": {
+   "id": "ioDOIO9iP8qqPiP9io9Ib1I91OoQ0q0O",
+   "jacket": "ddr_a/CHOCOLATE PHILOSOPHY.png"
+  },
+  "tachi": {
+   "id": "S19d35e1996787180ac0",
+   "basename": "chop",
+   "inGameID": 38183
+  },
+  "simfile": {
+   "path": "public/sm/A/CHOCOLATE PHILOSOPHY/CHOCOLATE PHILOSOPHY.sm",
+   "url": "https://raw.githubusercontent.com/blackalice/ddr-dan-tool/HEAD/public/sm/A/CHOCOLATE%20PHILOSOPHY/CHOCOLATE%20PHILOSOPHY.sm",
+   "song_id": "chop"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/blackalice/ddr-dan-tool/HEAD/public/sm/A/CHOCOLATE%20PHILOSOPHY/CHOCOLATE%20PHILOSOPHY-jacket.png",
+   "sha256": "f703d9f5beb914fa293c87a4ec86d1f6527f41b4bccf01f500d042e1cedf00de",
+   "width": 320,
+   "height": 320,
+   "bytes": 21818
+  }
+ },
+ "extra": {
+  "song_hash": "ioDOIO9iP8qqPiP9io9Ib1I91OoQ0q0O",
+  "ingame_genre": "SWING WALTZ",
+  "remywiki": "https://remywiki.com/CHOCOLATE_PHILOSOPHY",
+  "search_hint": "SWING WALTZ/スウィングワルツ",
+  "flare_category": "WHITE"
+ }
+}

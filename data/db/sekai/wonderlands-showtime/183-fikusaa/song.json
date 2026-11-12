@@ -1,0 +1,215 @@
+{
+ "game": "sekai",
+ "song_id": "183",
+ "title": "フィクサー",
+ "artist": "ぬゆり",
+ "title_romaji": "fikusaa",
+ "artist_romaji": "nuyuri",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "135",
+ "version": "",
+ "date_added": "2021-12-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 179
+   },
+   "source": {
+    "music_difficulty_id": 911,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 54,
+      "hold": 7,
+      "slide": 4,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 314
+   },
+   "source": {
+    "music_difficulty_id": 912,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 156,
+      "slide": 13,
+      "ex_tap": 7,
+      "hold": 7,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 621
+   },
+   "source": {
+    "music_difficulty_id": 913,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 246,
+      "ex_tap": 139,
+      "hold": 9,
+      "flick": 29,
+      "slide": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 948
+   },
+   "source": {
+    "music_difficulty_id": 914,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 35,
+      "ex_tap": 183,
+      "tap": 436,
+      "flick": 33,
+      "slide": 72
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "32",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1118
+   },
+   "source": {
+    "music_difficulty_id": 915,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 103,
+      "tap": 570,
+      "ex_tap": 149,
+      "hold": 8,
+      "flick": 96
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 183,
+   "assetbundle": "jacket_s_183",
+   "seq": 1511901
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_183.png",
+   "sha256": "64dba3455a9230b234677ae1a9e04b634b160c5e42765b79ad15994a9a8a42ca",
+   "width": 320,
+   "height": 320,
+   "bytes": 30362
+  }
+ },
+ "extra": {
+  "pronunciation": "ふぃくさー",
+  "lyricist": "ぬゆり",
+  "composer": "ぬゆり",
+  "arranger": "ぬゆり",
+  "published_at": 1640671200000,
+  "released_at": 1490108400000,
+  "tags": [
+   "theme_park",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "flower"
+    ],
+    "asset": "vs_0183_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "天馬司",
+     "神代類"
+    ],
+    "asset": "se_0183_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "天馬司"
+    ],
+    "asset": "an_0183_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "神代類"
+    ],
+    "asset": "an_0183_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 135.0
+ }
+}

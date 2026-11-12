@@ -1,0 +1,188 @@
+{
+ "game": "sekai",
+ "song_id": "221",
+ "title": "マトリョシカ",
+ "artist": "ハチ",
+ "title_romaji": "matoryoshika",
+ "artist_romaji": "hachi",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "205",
+ "version": "",
+ "date_added": "2022-03-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 182
+   },
+   "source": {
+    "music_difficulty_id": 1101,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 81,
+      "hold": 12,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 355
+   },
+   "source": {
+    "music_difficulty_id": 1102,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 183,
+      "ex_tap": 16,
+      "slide": 18,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 674
+   },
+   "source": {
+    "music_difficulty_id": 1103,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 249,
+      "ex_tap": 23,
+      "flick": 10,
+      "hold": 14,
+      "slide": 74
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 887
+   },
+   "source": {
+    "music_difficulty_id": 1104,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 388,
+      "slide": 103,
+      "hold": 26,
+      "flick": 23,
+      "ex_tap": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1104
+   },
+   "source": {
+    "music_difficulty_id": 1105,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 572,
+      "ex_tap": 41,
+      "slide": 120,
+      "flick": 67,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 221,
+   "assetbundle": "jacket_s_221",
+   "seq": 1114701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_221.png",
+   "sha256": "17681fe17412b2593dde19ae65ebfa1bd04de3b2f4f4152e6b9e55fee0b946a9",
+   "width": 320,
+   "height": 320,
+   "bytes": 32736
+  }
+ },
+ "extra": {
+  "pronunciation": "まとりょしか",
+  "lyricist": "ハチ",
+  "composer": "ハチ",
+  "arranger": "ハチ",
+  "published_at": 1648620000000,
+  "released_at": 1282143600000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "GUMI"
+    ],
+    "asset": "vs_0221_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 205.0
+ }
+}

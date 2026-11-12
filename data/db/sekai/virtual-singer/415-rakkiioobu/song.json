@@ -1,0 +1,189 @@
+{
+ "game": "sekai",
+ "song_id": "415",
+ "title": "ラッキー☆オーブ",
+ "artist": "emon(Tes.)",
+ "title_romaji": "rakkiioobu",
+ "artist_romaji": "emon(Tes.)",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "126",
+ "version": "",
+ "date_added": "2023-09-25",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 165
+   },
+   "source": {
+    "music_difficulty_id": 2071,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "hold": 9,
+      "tap": 47,
+      "slide": 2,
+      "ex_tap": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 220
+   },
+   "source": {
+    "music_difficulty_id": 2072,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "flick": 22,
+      "ex_tap": 19,
+      "tap": 100,
+      "hold": 7,
+      "slide": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 505
+   },
+   "source": {
+    "music_difficulty_id": 2073,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "flick": 44,
+      "tap": 147,
+      "slide": 40,
+      "ex_tap": 20,
+      "hold": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2; from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 802
+   },
+   "source": {
+    "music_difficulty_id": 2074,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "flick": 63,
+      "tap": 236,
+      "slide": 69,
+      "ex_tap": 60,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2; from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 919
+   },
+   "source": {
+    "music_difficulty_id": 2075,
+    "difficulty": "master",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "flick": 101,
+      "tap": 299,
+      "slide": 86,
+      "ex_tap": 62,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 415,
+   "assetbundle": "jacket_s_415",
+   "seq": 1132201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Untitled-World/sekai-jacket-db/HEAD/src/jacket/jacket_s_415.png",
+   "sha256": "e8eb870512e3e3206bb8b801237f2ecbda95cb8b9bc0f376dbe70fd4085d9052",
+   "width": 320,
+   "height": 320,
+   "bytes": 44213
+  }
+ },
+ "extra": {
+  "pronunciation": "らっきーおーぶ",
+  "lyricist": "emon(Tes.)",
+  "composer": "emon(Tes.)",
+  "arranger": "emon(Tes.)",
+  "published_at": 1695621600000,
+  "released_at": 1544713200000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0415_01"
+   }
+  ],
+  "filler_sec": 7.571400165557861,
+  "bpm_main": 126.0
+ }
+}

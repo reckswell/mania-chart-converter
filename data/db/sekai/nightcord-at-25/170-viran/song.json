@@ -1,0 +1,215 @@
+{
+ "game": "sekai",
+ "song_id": "170",
+ "title": "ヴィラン",
+ "artist": "てにをは",
+ "title_romaji": "viran",
+ "artist_romaji": "tenioha",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "102",
+ "version": "",
+ "date_added": "2021-12-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 162
+   },
+   "source": {
+    "music_difficulty_id": 846,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 51,
+      "hold": 9,
+      "ex_tap": 11,
+      "slide": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 341
+   },
+   "source": {
+    "music_difficulty_id": 847,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 114,
+      "hold": 20,
+      "flick": 14,
+      "slide": 20,
+      "ex_tap": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 679
+   },
+   "source": {
+    "music_difficulty_id": 848,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 296,
+      "slide": 60,
+      "flick": 17,
+      "ex_tap": 42,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 984
+   },
+   "source": {
+    "music_difficulty_id": 849,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 456,
+      "slide": 119,
+      "flick": 30,
+      "hold": 23,
+      "ex_tap": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1154
+   },
+   "source": {
+    "music_difficulty_id": 850,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 519,
+      "slide": 147,
+      "flick": 84,
+      "hold": 39,
+      "ex_tap": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 170,
+   "assetbundle": "jacket_s_170",
+   "seq": 1612201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_170.png",
+   "sha256": "c73447d65f1e98e3da60ffb75b41e3dd0fb3a6358f52ab75f70b4de636823edc",
+   "width": 320,
+   "height": 320,
+   "bytes": 32272
+  }
+ },
+ "extra": {
+  "pronunciation": "ヴぃらん",
+  "lyricist": "てにをは",
+  "composer": "てにをは",
+  "arranger": "てにをは",
+  "published_at": 1640930400000,
+  "released_at": 1581001200000,
+  "tags": [
+   "school_refusal",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "flower"
+    ],
+    "asset": "vs_0170_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "朝比奈まふゆ",
+     "暁山瑞希"
+    ],
+    "asset": "se_0170_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "朝比奈まふゆ"
+    ],
+    "asset": "an_0170_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "暁山瑞希"
+    ],
+    "asset": "an_0170_02"
+   }
+  ],
+  "filler_sec": 9.588199615478516,
+  "bpm_main": 102.0
+ }
+}

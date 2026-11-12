@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "530",
+ "title": "音がえしのセレナーデ",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "77-185",
+ "version": "",
+ "date_added": "2023-09-14",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 102
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 102
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 50,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 177
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 177
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 111,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 348
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/530/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/530/hard.json",
+     "raw_sha256": "1502683876e053fcaaa726d78ef7e5b2292828a75477d8baacd1c9eb3c24827d"
+    },
+    "bestdori": {
+     "level": 18,
+     "notes": 348
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 63,
+      "tap": 160,
+      "slide": 21,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 548
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/530/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/530/expert.json",
+     "raw_sha256": "66d71a84d227c252ea516d6f676309d57e457cb601b1ca3c16145ce2eb4329dd"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 548
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 84,
+      "tap": 299,
+      "slide": 24,
+      "flick": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 530,
+   "bandId": 21,
+   "jacketImage": "530_ongaeshi_serenade",
+   "bgmId": "bgm530"
+  },
+  "maa": {
+   "bestdori_song_id": 530,
+   "jacket": {
+    "path": "bestdori/530/jacket-cn-1.png",
+    "server": "cn",
+    "name": "530_ongaeshi_serenade"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/530/jacket-cn-1.png",
+   "sha256": "5addabc48761114e559ee473ec5664939c26721febcb4871e38058e65c00197c",
+   "width": 320,
+   "height": 320,
+   "bytes": 32344
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "竹田祐介（Elements Garden）",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1694692800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "おんがえしのせれなーで",
+  "title_en": "Serenade of gratitude sound",
+  "length_s": 120.336
+ }
+}

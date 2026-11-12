@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "308",
+ "title": "ドラマツルギー",
+ "artist": "Afterglow×香澄",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow×香澄",
+ "bpm": "149",
+ "version": "",
+ "date_added": "2021-01-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 170
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 170
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 122,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 291
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 291
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 219,
+      "hold": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 483
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/308/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/308/hard.json",
+     "raw_sha256": "0ccdd2d743f15aac37e4f70c04c0a0e042684ce6af55cc2fced5dc348261bd37"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 483
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 66,
+      "flick": 18,
+      "tap": 317,
+      "slide": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 844
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/308/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/308/expert.json",
+     "raw_sha256": "1e0adee1da540520baf2cfdeb4069ebb28d3aa18f1ab61b5e5d67cbb2df161f2"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 844
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 69,
+      "tap": 496,
+      "flick": 36,
+      "hold": 77
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 308,
+   "bandId": 7,
+   "jacketImage": "308_dramaturgy",
+   "bgmId": "bgm308"
+  },
+  "maa": {
+   "bestdori_song_id": 308,
+   "jacket": {
+    "path": "bestdori/308/jacket-cn-1.png",
+    "server": "cn",
+    "name": "308_dramaturgy"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/308/jacket-cn-1.png",
+   "sha256": "c2594ca8503c85c7cb93572a7ec2959729e22705ba94558a684176b1797df209",
+   "width": 320,
+   "height": 320,
+   "bytes": 32185
+  }
+ },
+ "extra": {
+  "lyricist": "Eve",
+  "composer": "Eve",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1609480800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "どらまつるぎー",
+  "title_en": "Dramaturgy",
+  "length_s": 124.08
+ }
+}

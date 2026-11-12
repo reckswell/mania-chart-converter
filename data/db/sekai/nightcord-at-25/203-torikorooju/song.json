@@ -1,0 +1,218 @@
+{
+ "game": "sekai",
+ "song_id": "203",
+ "title": "トリコロージュ",
+ "artist": "煮ル果実",
+ "title_romaji": "torikorooju",
+ "artist_romaji": "nirukajitsu",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "130",
+ "version": "",
+ "date_added": "2022-01-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 222
+   },
+   "source": {
+    "music_difficulty_id": 1011,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 47,
+      "hold": 18,
+      "slide": 2,
+      "ex_tap": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 411
+   },
+   "source": {
+    "music_difficulty_id": 1012,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 39,
+      "tap": 137,
+      "hold": 2,
+      "flick": 6,
+      "ex_tap": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 736
+   },
+   "source": {
+    "music_difficulty_id": 1013,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 209,
+      "slide": 65,
+      "ex_tap": 23,
+      "hold": 3,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 860
+   },
+   "source": {
+    "music_difficulty_id": 1014,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 474,
+      "flick": 27,
+      "slide": 64,
+      "ex_tap": 30,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 999
+   },
+   "source": {
+    "music_difficulty_id": 1015,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 642,
+      "flick": 40,
+      "slide": 74,
+      "hold": 9,
+      "ex_tap": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 203,
+   "assetbundle": "jacket_s_203",
+   "seq": 2613002
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_203.png",
+   "sha256": "7fbd9220d0576b3057d146a9649230fd7a51ab61660b229ed3696c0535229496",
+   "width": 320,
+   "height": 320,
+   "bytes": 32279
+  }
+ },
+ "extra": {
+  "pronunciation": "とりころーじゅ",
+  "lyricist": "煮ル果実",
+  "composer": "煮ル果実",
+  "arranger": "煮ル果実",
+  "published_at": 1642744800000,
+  "released_at": 1642690800000,
+  "tags": [
+   "school_refusal",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "flower"
+    ],
+    "asset": "vs_0203_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "宵崎奏",
+     "初音ミク",
+     "朝比奈まふゆ",
+     "東雲絵名",
+     "暁山瑞希"
+    ],
+    "asset": "se_0203_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "宵崎奏"
+    ],
+    "asset": "an_0203_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "an_0203_02"
+   }
+  ],
+  "filler_sec": 8.319999694824219,
+  "bpm_main": 130.0
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "628",
+ "title": "オトナブルー",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "128.97-132.06",
+ "version": "",
+ "date_added": "2024-09-12",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 144
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 144
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 104,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 263
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 263
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 177,
+      "hold": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 501
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/628/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/628/hard.json",
+     "raw_sha256": "0020807e904b0eca9504ef09b7ee260e19a99ad123c0a1c6a1f20f1a91de6791"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 501
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 307,
+      "slide": 26,
+      "flick": 38,
+      "hold": 51
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 684
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/628/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/628/expert.json",
+     "raw_sha256": "c3e2e372af87b355601239fdb2229491ddcebce1bed2eed051c9ad4d9266eec9"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 684
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 408,
+      "slide": 50,
+      "flick": 34,
+      "hold": 58
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 628,
+   "bandId": 4,
+   "jacketImage": "628_otona_blue",
+   "bgmId": "bgm628"
+  },
+  "maa": {
+   "bestdori_song_id": 628,
+   "jacket": {
+    "path": "bestdori/628/jacket-cn-1.png",
+    "server": "cn",
+    "name": "628_otona_blue"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/628/jacket-cn-1.png",
+   "sha256": "2b5ea6e349231136b739ad6555d02755e588e547b6ef4f9e1428d7510d4e5c76",
+   "width": 320,
+   "height": 320,
+   "bytes": 22138
+  }
+ },
+ "extra": {
+  "lyricist": "新しい学校のリーダー達",
+  "composer": "YONKEY",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1726120800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "おとなぶるー",
+  "title_en": "Otona Blue",
+  "length_s": 131.136
+ }
+}

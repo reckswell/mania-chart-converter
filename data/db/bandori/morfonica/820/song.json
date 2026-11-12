@@ -1,0 +1,145 @@
+{
+ "game": "bandori",
+ "song_id": "820",
+ "title": "オー！リバル",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "129",
+ "version": "",
+ "date_added": "2026-09-12",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 511
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/820/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/820/hard.json",
+     "raw_sha256": "6968ac8ebe065fd48e20745ac642903dc9b1f45f4d73a1b2e33b8a9c1f413fc7"
+    },
+    "bestdori": {
+     "notes": 511
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 45,
+      "tap": 230,
+      "hold": 74,
+      "flick": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 690
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/820/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/820/expert.json",
+     "raw_sha256": "99961396cd71f7a6c6d5c6e169117da3e51dbf70eef4285e13100613787a0326"
+    },
+    "bestdori": {
+     "notes": 690
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 64,
+      "tap": 428,
+      "hold": 41,
+      "flick": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 820,
+   "bandId": 21,
+   "jacketImage": "820_oh_rival",
+   "bgmId": "bgm820"
+  },
+  "maa": {
+   "bestdori_song_id": 820,
+   "jacket": {
+    "path": "bestdori/820/jacket-jp-1.png",
+    "server": "jp",
+    "name": "820_oh_rival"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/820/jacket-jp-1.png",
+   "sha256": "67d99e191ae3f99f87ffb4111190410c272c6fdd2e3efa16df3a46e202bfebac",
+   "width": 320,
+   "height": 320,
+   "bytes": 42684
+  }
+ },
+ "extra": {
+  "lyricist": "新藤晴一",
+  "composer": "岡野昭仁",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1789192800000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "おーりばる"
+ }
+}

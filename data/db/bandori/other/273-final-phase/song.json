@@ -1,0 +1,177 @@
+{
+ "game": "bandori",
+ "song_id": "273",
+ "title": "[原曲] final phase",
+ "artist": "コラボレーション",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "コラボレーション",
+ "bpm": "149",
+ "version": "",
+ "date_added": "2020-06-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 119
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 119
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 22,
+      "tap": 75
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 201
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 201
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 42,
+      "tap": 117
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 392
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/273/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/273/hard.json",
+     "raw_sha256": "6324b0dcd6ba9f546f993435692b18bf19fff37d5421f1339bcd5781012dc7e2"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 392
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 32,
+      "tap": 273,
+      "slide": 15,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 558
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/273/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/273/expert.json",
+     "raw_sha256": "761e67cfdca631b1d31e8f11227bcd0bde6272ea4c8f55d4b95e86b0d2102fef"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 558
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 405,
+      "hold": 31,
+      "slide": 22,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 273,
+   "bandId": 24,
+   "jacketImage": "273_final_phase_original",
+   "bgmId": "bgm273"
+  },
+  "maa": {
+   "bestdori_song_id": 273,
+   "jacket": {
+    "path": "bestdori/273/jacket-cn-1.png",
+    "server": "cn",
+    "name": "273_final_phase_original"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/273/jacket-cn-1.png",
+   "sha256": "85b9fcb682e9fd7288919819afbb7d8e16e071ae3975b7286b42bea19af0341e",
+   "width": 320,
+   "height": 320,
+   "bytes": 40197
+  }
+ },
+ "extra": {
+  "lyricist": "八木沼悟志",
+  "composer": "八木沼悟志",
+  "arranger": "八木沼悟志",
+  "tag": "normal",
+  "published_at": 1592546400000,
+  "closed_at": 1593496799000,
+  "music_data_type": "collabo_original",
+  "ruby": "finalphase",
+  "title_raw": "躄final phase",
+  "removed": true,
+  "closed_date": "2020-06-30",
+  "length_s": 94.296
+ }
+}

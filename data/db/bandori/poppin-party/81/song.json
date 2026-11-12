@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "81",
+ "title": "千本桜",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "154",
+ "version": "",
+ "date_added": "2017-11-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 136
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 136
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 66,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 256
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 256
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 156,
+      "hold": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 553
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/81/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/81/hard.json",
+     "raw_sha256": "2dcbb30a61e9fac4c74c3d46acf76d861a966b2c5e460328e30e9064408175e8"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 553
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 380,
+      "flick": 12,
+      "hold": 45,
+      "slide": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 730
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/81/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/81/expert.json",
+     "raw_sha256": "a307c7d69d9a8713493a1f0cbdd396085bf0d5fef8c9c1c314d2c3892e7bb56c"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 730
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 504,
+      "flick": 46,
+      "slide": 26,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 841
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1743228000000,
+    "maa": {
+     "path": "bestdori/81/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/81/special.json",
+     "raw_sha256": "a6924fec79bb2e9e27f471a7f83740cdb5e6488dfd747408081bec2000fb32b8"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 841
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 601,
+      "flick": 101,
+      "slide": 36,
+      "hold": 15
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 81,
+   "bandId": 1,
+   "jacketImage": "081_senbonzakura",
+   "bgmId": "bgm081"
+  },
+  "maa": {
+   "bestdori_song_id": 81,
+   "jacket": {
+    "path": "bestdori/81/jacket-cn-1.png",
+    "server": "cn",
+    "name": "081_senbonzakura"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/81/jacket-cn-1.png",
+   "sha256": "55748911c9d31097d3bed41111e6b38a010464c3f37da04962b580038acc1026",
+   "width": 320,
+   "height": 320,
+   "bytes": 36201
+  }
+ },
+ "extra": {
+  "lyricist": "黒うさ",
+  "composer": "黒うさ",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1511092800000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "せんぼんざくら",
+  "title_en": "Senbonzakura",
+  "length_s": 101.352
+ }
+}

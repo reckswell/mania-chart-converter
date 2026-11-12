@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "461",
+ "title": "スターナイトスノウ",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2022-12-24",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 103
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 103
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 91,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 184
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 184
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 134,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 417
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/461/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/461/hard.json",
+     "raw_sha256": "64d5ba18b7facca5d06b46aa1960be645c157e43a7a94589b5a83323d0f23594"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 417
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 228,
+      "hold": 57,
+      "slide": 30,
+      "flick": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 723
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/461/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/461/expert.json",
+     "raw_sha256": "5e956c9a808de9d168518ba03c942934f1501eb4665f7c5e00e4ecc0669e0293"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 723
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 505,
+      "hold": 62,
+      "slide": 29,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 461,
+   "bandId": 1,
+   "jacketImage": "461_star_night_snow",
+   "bgmId": "bgm461"
+  },
+  "maa": {
+   "bestdori_song_id": 461,
+   "jacket": {
+    "path": "bestdori/461/jacket-cn-1.png",
+    "server": "cn",
+    "name": "461_star_night_snow"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/461/jacket-cn-1.png",
+   "sha256": "fad7ba1d3fed60dbb8b3674c03410ca8cbc0bc89eda9345000e33c78eaec3148",
+   "width": 320,
+   "height": 320,
+   "bytes": 29251
+  }
+ },
+ "extra": {
+  "lyricist": "n-buna・Orangestar",
+  "composer": "Orangestar",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1671861600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "すたーないとすのう",
+  "title_en": "Star Night Snow",
+  "length_s": 132.72
+ }
+}

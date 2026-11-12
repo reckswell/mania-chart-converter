@@ -1,0 +1,110 @@
+{
+ "game": "piu",
+ "song_id": "1141",
+ "title": "No.3",
+ "artist": "Bae Chi Gi",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "128",
+ "version": "Fiesta EX",
+ "date_added": "",
+ "charts": {
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 1402
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1150,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": false,
+     "credit": "",
+     "combo": 1402,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 115,
+      "tap": 1196
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'S17')",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "Tiny",
+   "note_counts": {
+    "combo": 1400
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1149,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": false,
+     "credit": "",
+     "combo": 1400,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 54,
+      "tap": 1349
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'D18')",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 198,
+   "game_id": "1141",
+   "card": "/img/card/1141.png",
+   "first": "Fiesta EX v1.00",
+   "title": "No.3"
+  },
+  "simfile": {
+   "path": "09 - FIESTA EX/1141 - [Full Song] No.3/1141 - [Full Song] No.3.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/09%20-%20FIESTA%20EX/1141%20-%20%5BFull%20Song%5D%20No.3/1141%20-%20%5BFull%20Song%5D%20No.3.ssc",
+   "id": "1141",
+   "title": "No.3 - FULL SONG -",
+   "artist": "Bae Chi Gi"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Full Song",
+  "removed": true,
+  "removed_in": "Prime 2 v1.00.0"
+ }
+}

@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "321",
+ "title": "アゲハ蝶",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "116",
+ "version": "",
+ "date_added": "2021-03-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 133
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 133
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 87,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 234
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 234
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 34,
+      "tap": 166
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 459
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/321/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/321/hard.json",
+     "raw_sha256": "0ce99c2e1a852be1df06fad65b9c3090997ee6636ecfdebfc03ff5d79306af46"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 459
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 288,
+      "slide": 43,
+      "hold": 28,
+      "flick": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 749
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/321/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/321/expert.json",
+     "raw_sha256": "69a1f33965120b08ea70c3bfc2b7710fe94939b0a360ed60564b5b18140c48ee"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 749
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 471,
+      "flick": 21,
+      "slide": 60,
+      "hold": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 669
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1647756000000,
+    "maa": {
+     "path": "bestdori/321/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/321/special.json",
+     "raw_sha256": "8bbd8b7e8d211af1b6554285e4959af97e379fd744189e207b9d4d3e3201c5f2"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 669
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 128,
+      "tap": 157,
+      "hold": 31,
+      "flick": 38
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 321,
+   "bandId": 21,
+   "jacketImage": "321_ageha",
+   "bgmId": "bgm321"
+  },
+  "maa": {
+   "bestdori_song_id": 321,
+   "jacket": {
+    "path": "bestdori/321/jacket-cn-1.png",
+    "server": "cn",
+    "name": "321_ageha"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/321/jacket-cn-1.png",
+   "sha256": "5514706aebcdcc7817cf983f179055bdf063b929241e2aa91327a044a4ba111f",
+   "width": 320,
+   "height": 320,
+   "bytes": 21608
+  }
+ },
+ "extra": {
+  "lyricist": "ハルイチ",
+  "composer": "ak.homma",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1616133600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "あげはちょう",
+  "title_en": "Agehachou",
+  "length_s": 126.264
+ }
+}

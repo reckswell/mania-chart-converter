@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "190",
+ "title": "Daydream café",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "150",
+ "version": "",
+ "date_added": "2019-04-26",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 198
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 198
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 124,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 254
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 254
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 156,
+      "hold": 47,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 473
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/190/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/190/hard.json",
+     "raw_sha256": "e0180a064462569fb332eddfa6d67fe75ae469353abb64cb0eff0b8b7948aa97"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 473
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 225,
+      "hold": 25,
+      "slide": 46,
+      "flick": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 696
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/190/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/190/expert.json",
+     "raw_sha256": "8b3b8ad51cfe1a513182e6bb6f323070dc8ae971a9a251e8317f00f0a088e37f"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 696
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 427,
+      "slide": 57,
+      "hold": 19,
+      "flick": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 190,
+   "bandId": 1,
+   "jacketImage": "190_daydreamcafe",
+   "bgmId": "bgm190"
+  },
+  "maa": {
+   "bestdori_song_id": 190,
+   "jacket": {
+    "path": "bestdori/190/jacket-cn-1.png",
+    "server": "cn",
+    "name": "190_daydreamcafe"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/190/jacket-cn-1.png",
+   "sha256": "40ec42d2c8563d69f0f3764668649537c84d9531efe780a4a60e87cf46862fb5",
+   "width": 320,
+   "height": 320,
+   "bytes": 43359
+  }
+ },
+ "extra": {
+  "lyricist": "畑亜貴",
+  "composer": "大久保 薫",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1556258400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "daydreamcafe",
+  "length_s": 108.864
+ }
+}

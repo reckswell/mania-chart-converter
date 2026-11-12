@@ -1,0 +1,204 @@
+{
+ "game": "piu",
+ "song_id": "E01",
+ "title": "Solitary 1.5",
+ "artist": "Yahpp",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "136",
+ "version": "NX2 / Next Xenesis",
+ "date_added": "",
+ "charts": {
+  "single-7": {
+   "slot": "single-7",
+   "native": "S7",
+   "level": "7",
+   "constant": null,
+   "designer": "CH24",
+   "note_counts": {
+    "combo": 325
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 594,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S7",
+     "meter": "7",
+     "active": true,
+     "credit": "",
+     "combo": 325,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 289,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "EHNE",
+   "note_counts": {
+    "combo": 852
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 595,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "",
+     "combo": 852,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 55,
+      "tap": 557
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "10 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "EHNE",
+   "note_counts": {
+    "combo": 943
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 593,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 15,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": true,
+     "credit": "",
+     "combo": 943,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 68,
+      "tap": 606,
+      "other": 128
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "halfdouble-9": {
+   "slot": "halfdouble-9",
+   "native": "HDB9",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9152,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "normal"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-17": {
+   "slot": "halfdouble-17",
+   "native": "HDB17",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9153,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 92,
+   "game_id": "E01",
+   "card": "/img/card/325.png",
+   "first": "NX2 / Next Xenesis default",
+   "title": "Solitary 1.5"
+  },
+  "kalinathalie": {
+   "slug": "solitary_1_5"
+  },
+  "simfile": {
+   "path": "05 - NX~NX2/(1) E01 - Solitary 1.5/E01 - Solitary 1.5.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/05%20-%20NX~NX2/%281%29%20E01%20-%20Solitary%201.5/E01%20-%20Solitary%201.5.ssc",
+   "id": "E01",
+   "title": "Solitary 1.5",
+   "artist": "YAHPP"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/solitary_1_5.jpg",
+   "sha256": "896026ba491cd0bc2cf2e823bb5256d529a44f3e0bfd38927d4ee20bb196d78d",
+   "width": 256,
+   "height": 256,
+   "bytes": 21062
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "무혼 1.5"
+  }
+ }
+}

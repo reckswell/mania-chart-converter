@@ -1,0 +1,145 @@
+{
+ "game": "bandori",
+ "song_id": "764",
+ "title": "Shining Leaves",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "185",
+ "version": "",
+ "date_added": "2026-01-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 460
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/764/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/764/hard.json",
+     "raw_sha256": "ce8bda11d8c4b111fa3569e56ea89fc0d5ed8991137506f18ec9869d94d755ac"
+    },
+    "bestdori": {
+     "notes": 460
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 76,
+      "tap": 173,
+      "flick": 21,
+      "slide": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 578
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/764/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/764/expert.json",
+     "raw_sha256": "838f52d3840f1e5404cccbe799a66fc4c17d79f68dffc50082c67bcfa7d94f57"
+    },
+    "bestdori": {
+     "notes": 578
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 291,
+      "hold": 49,
+      "flick": 36,
+      "slide": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 764,
+   "bandId": 21,
+   "jacketImage": "764_shinig_leaves",
+   "bgmId": "bgm764"
+  },
+  "maa": {
+   "bestdori_song_id": 764,
+   "jacket": {
+    "path": "bestdori/764/jacket-cn-1.png",
+    "server": "cn",
+    "name": "764_shinig_leaves"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/764/jacket-cn-1.png",
+   "sha256": "7bb9fcb7da909efc45f1a30fea073fba47cb30c06666852e0a3d7ec5194c94f1",
+   "width": 320,
+   "height": 320,
+   "bytes": 27060
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "都丸椋太（Elements Garden）",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1768024800000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "shiningleaves"
+ }
+}

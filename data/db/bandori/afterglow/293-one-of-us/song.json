@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "293",
+ "title": "ONE OF US",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "135-210",
+ "version": "",
+ "date_added": "2020-10-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 191
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 191
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 30,
+      "tap": 131
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 295
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 295
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 37,
+      "tap": 221
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 502
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/293/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/293/hard.json",
+     "raw_sha256": "10c49ee98602c5f9a23c096cb882f2d4f6b075dd47f57833f424f5371d644074"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 502
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 21,
+      "tap": 366,
+      "flick": 6,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 831
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/293/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/293/expert.json",
+     "raw_sha256": "81591daba0df8069b070b4c614aac9ada35137743acbdf56afb9d066d1f3378b"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 831
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 78,
+      "tap": 460,
+      "hold": 51,
+      "flick": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 293,
+   "bandId": 2,
+   "jacketImage": "293_one_of_us_1",
+   "bgmId": "bgm293"
+  },
+  "maa": {
+   "bestdori_song_id": 293,
+   "jacket": {
+    "path": "bestdori/293/jacket-cn-2.png",
+    "server": "cn",
+    "name": "293_one_of_us_1"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/293/jacket-cn-2.png",
+   "sha256": "0296a664b83583fbc5eed416ec49f204432e9ae6226daaf15a32ee5cce9a29f3",
+   "width": 320,
+   "height": 320,
+   "bytes": 44779
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1602309600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "oneofus",
+  "length_s": 109.2
+ }
+}

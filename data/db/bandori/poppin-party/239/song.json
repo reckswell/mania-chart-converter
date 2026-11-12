@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "239",
+ "title": "夢を撃ち抜く瞬間に！",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "30-203",
+ "version": "",
+ "date_added": "2020-01-08",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 104
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 104
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 70,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 214
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 214
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 128,
+      "hold": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 368
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/239/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/239/hard.json",
+     "raw_sha256": "7599fa832ec853c4a0482871636093fc30200c6764a6901163b1092e06e2a078"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 368
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 39,
+      "tap": 267,
+      "flick": 9,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 559
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/239/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/239/expert.json",
+     "raw_sha256": "37274084fe728fdf36a17cbd642156c5e94bd7f007a8b4ca67f4ad521d4914c0"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 559
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 361,
+      "hold": 57,
+      "flick": 24,
+      "slide": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 239,
+   "bandId": 1,
+   "jacketImage": "239_yumeuchi",
+   "bgmId": "bgm239"
+  },
+  "maa": {
+   "bestdori_song_id": 239,
+   "jacket": {
+    "path": "bestdori/239/jacket-cn-1.png",
+    "server": "cn",
+    "name": "239_yumeuchi"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/239/jacket-cn-1.png",
+   "sha256": "2bc8edbd0587f98efd44b1129875945ef83714345ca3a0d67a2c98270163a43a",
+   "width": 320,
+   "height": 320,
+   "bytes": 41792
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1578463200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ゆめをうちぬくしゅんかんに",
+  "title_en": "Straight Through Our Dreams!",
+  "length_s": 92.136
+ }
+}

@@ -1,0 +1,212 @@
+{
+ "game": "sekai",
+ "song_id": "378",
+ "title": "スロウダウナー",
+ "artist": "ろくろ",
+ "title_romaji": "suroudaunaa",
+ "artist_romaji": "rokuro",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "194",
+ "version": "",
+ "date_added": "2023-12-25",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 313
+   },
+   "source": {
+    "music_difficulty_id": 1886,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 75,
+      "hold": 23,
+      "ex_tap": 4,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 461
+   },
+   "source": {
+    "music_difficulty_id": 1887,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 179,
+      "flick": 6,
+      "ex_tap": 7,
+      "slide": 15,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 702
+   },
+   "source": {
+    "music_difficulty_id": 1888,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 15,
+      "tap": 281,
+      "slide": 74,
+      "ex_tap": 8,
+      "other": 2,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1054
+   },
+   "source": {
+    "music_difficulty_id": 1889,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 14,
+      "flick": 39,
+      "tap": 444,
+      "slide": 120,
+      "ex_tap": 20,
+      "other": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1418
+   },
+   "source": {
+    "music_difficulty_id": 1890,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 71,
+      "tap": 566,
+      "ex_tap": 121,
+      "slide": 142,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 378,
+   "assetbundle": "jacket_s_378",
+   "seq": 1635201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_378.png",
+   "sha256": "0a22dd1cc783e0f288d3bc1f732d9c87aea38fe257d5196257e7cac58282f4b9",
+   "width": 320,
+   "height": 320,
+   "bytes": 24683
+  }
+ },
+ "extra": {
+  "pronunciation": "すろうだうなー",
+  "lyricist": "ろくろ",
+  "composer": "ろくろ",
+  "arranger": "ろくろ",
+  "published_at": 1703484000000,
+  "released_at": 1530370800000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "GUMI"
+    ],
+    "asset": "vs_0378_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "宵崎奏",
+     "朝比奈まふゆ",
+     "東雲絵名",
+     "暁山瑞希"
+    ],
+    "asset": "se_0378_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "暁山瑞希"
+    ],
+    "asset": "an_0378_01"
+   }
+  ],
+  "filler_sec": 8.381500244140625,
+  "bpm_main": 194.0
+ }
+}

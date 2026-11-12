@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "450",
+ "title": "スカイクラッドの観測者",
+ "artist": "Roselia×いとうかなこ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia×いとうかなこ",
+ "bpm": "167",
+ "version": "",
+ "date_added": "2022-09-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 142
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 142
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 31,
+      "tap": 80
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 272
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 272
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 174,
+      "hold": 36,
+      "slide": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 514
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/450/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/450/hard.json",
+     "raw_sha256": "bf46a802a78abab5d766198079f4ad019d02b17260f18cfdfc97d4ee14bdb3ca"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 514
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 251,
+      "slide": 45,
+      "flick": 21,
+      "hold": 55
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 801
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/450/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/450/expert.json",
+     "raw_sha256": "614eba899a2240d632a39f32affad981cf5d5c7e67810c4495e9f5825a9d9e96"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 801
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 462,
+      "slide": 89,
+      "flick": 32,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 450,
+   "bandId": 49,
+   "jacketImage": "450_sky_clad",
+   "bgmId": "bgm450"
+  },
+  "maa": {
+   "bestdori_song_id": 450,
+   "jacket": {
+    "path": "bestdori/450/jacket-cn-1.png",
+    "server": "cn",
+    "name": "450_sky_clad"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/450/jacket-cn-1.png",
+   "sha256": "fd6d0746c40e1f6327eaa65176bb00eb7f1678a2d996b47e6deb215455e90b1e",
+   "width": 320,
+   "height": 320,
+   "bytes": 37293
+  }
+ },
+ "extra": {
+  "lyricist": "志倉千代丸",
+  "composer": "志倉千代丸",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "tie_up",
+  "published_at": 1664431200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "すかいくらっどのかんそくしゃ",
+  "title_en": "Skyclad Observer",
+  "length_s": 125.088
+ }
+}

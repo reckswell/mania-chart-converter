@@ -1,0 +1,177 @@
+{
+ "game": "bandori",
+ "song_id": "576",
+ "title": "合縁事変",
+ "artist": "ラプラス・ダークネス",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ラプラス・ダークネス",
+ "bpm": "130",
+ "version": "",
+ "date_added": "2023-12-23",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 117
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 117
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 77,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 202
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 202
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 116,
+      "hold": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 364
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/576/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/576/hard.json",
+     "raw_sha256": "05e7647d0ff5c426a5578b2c3955087b42b20337f709f29e84beb482f306257b"
+    },
+    "bestdori": {
+     "level": 18,
+     "notes": 364
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 192,
+      "hold": 36,
+      "slide": 35,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 563
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/576/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/576/expert.json",
+     "raw_sha256": "cbc7017ca2c437a189cf6d6cdb206a19f577e3d248ee9c21dea5514d3e425c60"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 563
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 367,
+      "hold": 39,
+      "slide": 35,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 576,
+   "bandId": 76,
+   "jacketImage": "576_aien_jihen",
+   "bgmId": "bgm576"
+  },
+  "maa": {
+   "bestdori_song_id": 576,
+   "jacket": {
+    "path": "bestdori/576/jacket-cn-1.png",
+    "server": "cn",
+    "name": "576_aien_jihen"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/576/jacket-cn-1.png",
+   "sha256": "4b60aa9989fbdf032497f18a9688fe5cbecfbda93fa6463af7b0aa9e1a6941b5",
+   "width": 320,
+   "height": 320,
+   "bytes": 35486
+  }
+ },
+ "extra": {
+  "lyricist": "Osanzi",
+  "composer": "Osanzi",
+  "arranger": "Osanzi",
+  "tag": "normal",
+  "published_at": 1703311200000,
+  "closed_at": 1707717599000,
+  "music_data_type": "collabo_original",
+  "ruby": "あいえんじへん",
+  "removed": true,
+  "closed_date": "2024-02-12",
+  "title_en": "Aien Jihen",
+  "length_s": 115.44
+ }
+}

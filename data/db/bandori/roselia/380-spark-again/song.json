@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "380",
+ "title": "SPARK-AGAIN",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2021-12-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 110
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 110
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 72,
+      "hold": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 243
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 243
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 163,
+      "hold": 37,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 488
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/380/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/380/hard.json",
+     "raw_sha256": "07a6a25c361bba19f5ce928c942d54ecd9fe84c0f263c012678d54572fcc528e"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 488
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 308,
+      "hold": 55,
+      "slide": 29,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 708
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/380/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/380/expert.json",
+     "raw_sha256": "947f2622eb9dd89a85c13f646c5431c4431dc58ff8327a98265acdf99da820d5"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 708
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 491,
+      "hold": 46,
+      "slide": 41,
+      "flick": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 380,
+   "bandId": 5,
+   "jacketImage": "380_spark_again",
+   "bgmId": "bgm380"
+  },
+  "maa": {
+   "bestdori_song_id": 380,
+   "jacket": {
+    "path": "bestdori/380/jacket-cn-1.png",
+    "server": "cn",
+    "name": "380_spark_again"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/380/jacket-cn-1.png",
+   "sha256": "62335382ba7395eb2c0cc78223a40edc023406e9f6682bfc0781334ad982d7b6",
+   "width": 320,
+   "height": 320,
+   "bytes": 34211
+  }
+ },
+ "extra": {
+  "lyricist": "aimerrhythm",
+  "composer": "飛内将大",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1639915200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "sparkagain",
+  "length_s": 108.72
+ }
+}

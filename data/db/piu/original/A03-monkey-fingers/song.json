@@ -1,0 +1,280 @@
+{
+ "game": "piu",
+ "song_id": "A03",
+ "title": "Monkey Fingers",
+ "artist": "BanYa",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "186",
+ "version": "Exceed",
+ "date_added": "",
+ "charts": {
+  "single-4": {
+   "slot": "single-4",
+   "native": "S4",
+   "level": "4",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 211
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 432,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S4",
+     "meter": "4",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 211,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 12,
+      "tap": 153
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-6": {
+   "slot": "single-6",
+   "native": "S6",
+   "level": "6",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 260
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 433,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S6",
+     "meter": "6",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 260,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 244,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-12": {
+   "slot": "single-12",
+   "native": "S12",
+   "level": "12",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 468
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 434,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S10",
+     "meter": "10",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 468,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 468,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 10 differs from the PHOENIX 2 level 12: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 692
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 435,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-single",
+     "description": "S15",
+     "meter": "15",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 692,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 406,
+      "hold": 86
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-17": {
+   "slot": "double-17",
+   "native": "D17",
+   "level": "17",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 665
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 436,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 12,
+     "steps_type": "pump-double",
+     "description": "D17",
+     "meter": "17",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 665,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 419,
+      "hold": 76
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-14": {
+   "slot": "halfdouble-14",
+   "native": "HDB14",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9229,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-17": {
+   "slot": "halfdouble-17",
+   "native": "HDB17",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9230,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 65,
+   "game_id": "A03",
+   "card": "/img/card/237.png",
+   "first": "Exceed default",
+   "title": "Monkey Fingers"
+  },
+  "kalinathalie": {
+   "slug": "monkey_fingers"
+  },
+  "simfile": {
+   "path": "04 - EXCEED~ZERO/(3) A03 - Monkey Fingers/A03 - Monkey Fingers.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/04%20-%20EXCEED~ZERO/%283%29%20A03%20-%20Monkey%20Fingers/A03%20-%20Monkey%20Fingers.ssc",
+   "id": "A03",
+   "title": "Monkey Fingers",
+   "artist": "BanYa"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/monkey_fingers.jpg",
+   "sha256": "ba085051f894d477fb7b7f6c3bc25f6c8adee313fc89c9053550ce57fcd65d14",
+   "width": 256,
+   "height": 256,
+   "bytes": 18024
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "몽키 핑거즈"
+  },
+  "simfile_notes": [
+   "S12: simfile chart 'S10' has meter 10 (re-rated)"
+  ]
+ }
+}

@@ -1,0 +1,310 @@
+{
+ "game": "piu",
+ "song_id": "403",
+ "title": "Betrayer",
+ "artist": "BanYa",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "92",
+ "version": "The O.B.G / Season Evolution",
+ "date_added": "",
+ "charts": {
+  "single-1": {
+   "slot": "single-1",
+   "native": "S1",
+   "level": "1",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 59
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2535,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S1",
+     "meter": "1",
+     "active": true,
+     "credit": "",
+     "combo": 59,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 60
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-5": {
+   "slot": "single-5",
+   "native": "S5",
+   "level": "5",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 179
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2534,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S5",
+     "meter": "5",
+     "active": true,
+     "credit": "",
+     "combo": 179,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 199
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-9": {
+   "slot": "single-9",
+   "native": "S9",
+   "level": "9",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 259
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2536,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S9",
+     "meter": "9",
+     "active": true,
+     "credit": "",
+     "combo": 259,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 302
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-13": {
+   "slot": "single-13",
+   "native": "S13",
+   "level": "13",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 363
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2533,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S13",
+     "meter": "13",
+     "active": true,
+     "credit": "",
+     "combo": 363,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 393,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 745
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2735,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "",
+     "combo": 745,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 440,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-14": {
+   "slot": "double-14",
+   "native": "D14",
+   "level": "14",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 430
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2537,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 9,
+     "steps_type": "pump-double",
+     "description": "D13",
+     "meter": "13",
+     "active": true,
+     "credit": "",
+     "combo": 430,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 388,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 13 differs from the PHOENIX 2 level 14: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-17": {
+   "slot": "double-17",
+   "native": "D17",
+   "level": "17",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 784
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2736,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 10,
+     "steps_type": "pump-double",
+     "description": "D17",
+     "meter": "17",
+     "active": true,
+     "credit": "",
+     "combo": 784,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 427,
+      "hold": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 441,
+   "game_id": "403",
+   "card": "/img/card/472.png",
+   "first": "The O.B.G / Season Evolution default",
+   "title": "Betrayer"
+  },
+  "kalinathalie": {
+   "slug": "betrayer"
+  },
+  "simfile": {
+   "path": "02 - S.E.~EXTRA/(4) 403 - Betrayer/403 - Betrayer.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/02%20-%20S.E.~EXTRA/%284%29%20403%20-%20Betrayer/403%20-%20Betrayer.ssc",
+   "id": "403",
+   "title": "Betrayer",
+   "artist": "BanYa"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/betrayer.jpg",
+   "sha256": "e999db3024e9fd81e5a64c35d30854b663a191d8fb8dd53ef616a05f4548a3fc",
+   "width": 256,
+   "height": 256,
+   "bytes": 28688
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "사랑가"
+  },
+  "revived_in": "Prime v1.11.0",
+  "simfile_notes": [
+   "D14: simfile chart 'D13' has meter 13 (re-rated)"
+  ]
+ }
+}

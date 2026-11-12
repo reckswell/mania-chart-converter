@@ -1,0 +1,220 @@
+{
+ "game": "sekai",
+ "song_id": "551",
+ "title": "ロストアンブレラ",
+ "artist": "稲葉曇",
+ "title_romaji": "rosutoanburera",
+ "artist_romaji": "inabakumori",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "137",
+ "version": "",
+ "date_added": "2025-10-09",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 249
+   },
+   "source": {
+    "music_difficulty_id": 2751,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 10,
+      "tap": 42,
+      "slide": 7,
+      "ex_tap": 3,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 280
+   },
+   "source": {
+    "music_difficulty_id": 2752,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 98,
+      "hold": 11,
+      "slide": 5,
+      "ex_tap": 32,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 629
+   },
+   "source": {
+    "music_difficulty_id": 2753,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 76,
+      "tap": 132,
+      "slide": 37,
+      "flick": 17,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 804
+   },
+   "source": {
+    "music_difficulty_id": 2754,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 302,
+      "ex_tap": 156,
+      "slide": 41,
+      "hold": 5,
+      "flick": 89,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 926
+   },
+   "source": {
+    "music_difficulty_id": 2755,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 401,
+      "ex_tap": 229,
+      "hold": 52,
+      "slide": 16,
+      "flick": 116,
+      "other": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 551,
+   "assetbundle": "jacket_s_551",
+   "seq": 1656501
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_551.png",
+   "sha256": "72182414559dffcdc9a077110680a8de918710724c7ea8709d19ec151e4fb710",
+   "width": 320,
+   "height": 320,
+   "bytes": 17712
+  }
+ },
+ "extra": {
+  "pronunciation": "ろすとあんぶれら",
+  "lyricist": "稲葉曇",
+  "composer": "稲葉曇",
+  "arranger": "稲葉曇",
+  "published_at": 1759989600000,
+  "released_at": 1519657200000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "歌愛ユキ"
+    ],
+    "asset": "vs_0551_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音リン",
+     "宵崎奏",
+     "朝比奈まふゆ",
+     "東雲絵名",
+     "暁山瑞希"
+    ],
+    "asset": "se_0551_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "朝比奈まふゆ"
+    ],
+    "asset": "an_0551_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "東雲絵名"
+    ],
+    "asset": "an_0551_02"
+   }
+  ],
+  "filler_sec": 7.686100006103516,
+  "bpm_main": 137.0
+ }
+}

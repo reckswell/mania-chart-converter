@@ -1,0 +1,465 @@
+{
+ "game": "piu",
+ "song_id": "D01",
+ "title": "Witch Doctor #1",
+ "artist": "Yahpp",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "122",
+ "version": "NX / New Xenesis",
+ "date_added": "",
+ "charts": {
+  "single-2": {
+   "slot": "single-2",
+   "native": "S2",
+   "level": "2",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 70
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 647,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S2",
+     "meter": "2",
+     "active": true,
+     "credit": "HP",
+     "combo": 70,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 73
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-6": {
+   "slot": "single-6",
+   "native": "S6",
+   "level": "6",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 151
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 648,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S5",
+     "meter": "5",
+     "active": true,
+     "credit": "HP",
+     "combo": 151,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 160
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 5 differs from the PHOENIX 2 level 6: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "single-8": {
+   "slot": "single-8",
+   "native": "S8",
+   "level": "8",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 277
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 649,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S8",
+     "meter": "8",
+     "active": true,
+     "credit": "HP",
+     "combo": 277,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 251,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-9": {
+   "slot": "single-9",
+   "native": "S9",
+   "level": "9",
+   "constant": null,
+   "designer": "AHGOO, JKD",
+   "note_counts": {
+    "combo": 256
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 650,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-single",
+     "description": "S9",
+     "meter": "9",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 256,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 10,
+      "tap": 242
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "EHNE",
+   "note_counts": {
+    "combo": 723
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 651,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 723,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 459,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-18": {
+   "slot": "single-18",
+   "native": "S18",
+   "level": "18",
+   "constant": null,
+   "designer": "KANG2",
+   "note_counts": {
+    "combo": 780
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 652,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 8,
+     "steps_type": "pump-single",
+     "description": "S18",
+     "meter": "18",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 780,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 483,
+      "hold": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 718
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 653,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 11,
+     "steps_type": "pump-single",
+     "description": "S19",
+     "meter": "19",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 718,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 36,
+      "tap": 535
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-17": {
+   "slot": "double-17",
+   "native": "D17",
+   "level": "17",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 644,
+     "mode": "D"
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "double-20": {
+   "slot": "double-20",
+   "native": "D20",
+   "level": "20",
+   "constant": null,
+   "designer": "EHNE",
+   "note_counts": {
+    "combo": 1111
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 646,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 25,
+     "steps_type": "pump-double",
+     "description": "D20 INFOBAR TITLE",
+     "meter": "20",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1111,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 479,
+      "hold": 59
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-21": {
+   "slot": "double-21",
+   "native": "D21",
+   "level": "21",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 645,
+     "mode": "D"
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-17": {
+   "slot": "halfdouble-17",
+   "native": "HDB17",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 581
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 9176,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 23,
+     "steps_type": "pump-halfdouble",
+     "description": "D17 HALFDOUBLE",
+     "meter": "17",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 581,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 40,
+      "tap": 509
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-19": {
+   "slot": "halfdouble-19",
+   "native": "HDB19",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 978
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 9177,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 26,
+     "steps_type": "pump-halfdouble",
+     "description": "D21 INFOBAR TITLE",
+     "meter": "21",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 978,
+     "match": "near-level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 42,
+      "tap": 542
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 21 differs from the PHOENIX 2 level 19 and Pumpout never rated the chart 21: paired as the nearest left-over ACTIVE chart, which may be a different chart",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 100,
+   "game_id": "D01",
+   "card": "/img/card/265.png",
+   "first": "NX / New Xenesis 1.05",
+   "title": "Witch Doctor #1"
+  },
+  "kalinathalie": {
+   "slug": "witch_doctor_1"
+  },
+  "simfile": {
+   "path": "05 - NX~NX2/(2) D01 - Witch Doctor #1/D01 - Witch Doctor #1.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/05%20-%20NX~NX2/%282%29%20D01%20-%20Witch%20Doctor%20%231/D01%20-%20Witch%20Doctor%20%231.ssc",
+   "id": "D01",
+   "title": "Witch Doctor #1",
+   "artist": "YAHPP"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/witch_doctor_1.jpg",
+   "sha256": "befdf1b0305147b9126619dfef9ccbeed4bac6663b84b20cf76dc5f78234e3e2",
+   "width": 256,
+   "height": 256,
+   "bytes": 43306
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "위치 닥터 #1"
+  },
+  "revived_in": "Fiesta EX v1.00",
+  "simfile_notes": [
+   "S6: simfile chart 'S5' has meter 5 (re-rated)",
+   "HDB19: simfile chart 'D21 INFOBAR TITLE' has meter 21 (near-level)"
+  ]
+ }
+}

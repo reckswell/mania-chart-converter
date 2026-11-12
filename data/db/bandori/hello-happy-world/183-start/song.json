@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "183",
+ "title": "StaRt",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2019-03-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 152
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 152
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 124,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 291
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 291
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 234,
+      "hold": 28,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 528
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/183/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/183/hard.json",
+     "raw_sha256": "b84a42176c04bae274ad182aa4b0dba098228fd9744cab98ec1a968c9e057744"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 528
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 359,
+      "flick": 37,
+      "hold": 66
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 804
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/183/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/183/expert.json",
+     "raw_sha256": "822bc31b132346a56d01fbb41c8cfc6f6bb9cbe0ce668ef2bbf81d7518d984a5"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 804
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 69,
+      "flick": 54,
+      "tap": 528,
+      "slide": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 183,
+   "bandId": 3,
+   "jacketImage": "183_start",
+   "bgmId": "bgm183"
+  },
+  "maa": {
+   "bestdori_song_id": 183,
+   "jacket": {
+    "path": "bestdori/183/jacket-cn-1.png",
+    "server": "cn",
+    "name": "183_start"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/183/jacket-cn-1.png",
+   "sha256": "e2ee3ffd1986a0df65c62c2c149200f3483f348ba4116c0690c563b782824aa0",
+   "width": 320,
+   "height": 320,
+   "bytes": 19381
+  }
+ },
+ "extra": {
+  "lyricist": "大森元貴",
+  "composer": "大森元貴",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1554012000000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "start",
+  "length_s": 113.736
+ }
+}

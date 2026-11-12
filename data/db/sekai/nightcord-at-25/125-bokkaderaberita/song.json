@@ -1,0 +1,198 @@
+{
+ "game": "sekai",
+ "song_id": "125",
+ "title": "ボッカデラベリタ",
+ "artist": "柊キライ",
+ "title_romaji": "bokkaderaberita",
+ "artist_romaji": "hiiragikirai",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2021-03-06",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 196
+   },
+   "source": {
+    "music_difficulty_id": 621,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 75,
+      "hold": 18,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 416
+   },
+   "source": {
+    "music_difficulty_id": 622,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 205,
+      "hold": 19,
+      "ex_tap": 14,
+      "flick": 1,
+      "slide": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 615
+   },
+   "source": {
+    "music_difficulty_id": 623,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 298,
+      "hold": 19,
+      "flick": 25,
+      "slide": 34,
+      "ex_tap": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 884
+   },
+   "source": {
+    "music_difficulty_id": 624,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 507,
+      "hold": 47,
+      "flick": 47,
+      "slide": 53,
+      "ex_tap": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1119
+   },
+   "source": {
+    "music_difficulty_id": 625,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 628,
+      "slide": 81,
+      "flick": 59,
+      "hold": 55,
+      "ex_tap": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 125,
+   "assetbundle": "jacket_s_125",
+   "seq": 1605601
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_125.png",
+   "sha256": "ef1636a3a31fa76d379ce56b82c2d4d76d2bc6bf783c0fe71213eaeb55a4ebdc",
+   "width": 320,
+   "height": 320,
+   "bytes": 34658
+  }
+ },
+ "extra": {
+  "pronunciation": "ぼっかでらべりた",
+  "lyricist": "柊キライ",
+  "composer": "柊キライ",
+  "arranger": "柊キライ",
+  "published_at": 1615010400000,
+  "released_at": 1587826800000,
+  "tags": [
+   "school_refusal",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "flower"
+    ],
+    "asset": "vs_0125_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "朝比奈まふゆ",
+     "暁山瑞希"
+    ],
+    "asset": "se_0125_01"
+   }
+  ],
+  "filler_sec": 8.294099807739258,
+  "bpm_main": 170.0
+ }
+}

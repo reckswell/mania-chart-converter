@@ -1,0 +1,124 @@
+{
+ "game": "piu",
+ "song_id": "14E5",
+ "title": "Move That Body!",
+ "artist": "DM Ashura",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "145",
+ "version": "Prime",
+ "date_added": "",
+ "charts": {
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 437
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1977,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": true,
+     "credit": "EXC",
+     "combo": 437,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 300,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 466
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1978,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": true,
+     "credit": "EXC",
+     "combo": 466,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 332,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 341,
+   "game_id": "14E5",
+   "card": "/img/card/385.png",
+   "first": "Prime v1.06.0",
+   "title": "Move That Body!"
+  },
+  "kalinathalie": {
+   "slug": "move_that_body_short_cut"
+  },
+  "simfile": {
+   "path": "12 - PRIME/14E5 - [Short Cut] Move That Body!/14E5 - [Shortcut] Move That Body!.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/12%20-%20PRIME/14E5%20-%20%5BShort%20Cut%5D%20Move%20That%20Body%21/14E5%20-%20%5BShortcut%5D%20Move%20That%20Body%21.ssc",
+   "id": "14E5",
+   "title": "Move That Body! - SHORT CUT -",
+   "artist": "DM Ashura feat. Skizzo & Hanna"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/move_that_body_short_cut.jpg",
+   "sha256": "24e7bfe55ff682d988407e7be77c5a268e81e296a9ba302fa0ddd3a2a678b21d",
+   "width": 256,
+   "height": 256,
+   "bytes": 31089
+  }
+ },
+ "extra": {
+  "cut": "Short Cut",
+  "titles": {
+   "kr": "무브 댓 바디!"
+  }
+ }
+}

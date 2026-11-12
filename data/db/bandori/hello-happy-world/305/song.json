@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "305",
+ "title": "好き！雪！本気マジック",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "167",
+ "version": "",
+ "date_added": "2020-12-24",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 170
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 170
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 124,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 277
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 277
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 201,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 419
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/305/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/305/hard.json",
+     "raw_sha256": "9e619247d12457957d7d5cc252dfebac8726fc0e12ac53eed27172ead2692fb0"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 419
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 48,
+      "tap": 290,
+      "slide": 10,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 724
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/305/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/305/expert.json",
+     "raw_sha256": "9434403bbc199061c1f72d494b7c1420a9d28c9de29de76e9006e55a656a289c"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 724
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 48,
+      "tap": 468,
+      "hold": 46,
+      "flick": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 305,
+   "bandId": 3,
+   "jacketImage": "305_suki_yuki_magimagic",
+   "bgmId": "bgm305"
+  },
+  "maa": {
+   "bestdori_song_id": 305,
+   "jacket": {
+    "path": "bestdori/305/jacket-cn-1.png",
+    "server": "cn",
+    "name": "305_suki_yuki_magimagic"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/305/jacket-cn-1.png",
+   "sha256": "c49e4e1832dd17c49724457b8a8ce986864ac749284581da2f58153e12557243",
+   "width": 320,
+   "height": 320,
+   "bytes": 34548
+  }
+ },
+ "extra": {
+  "lyricist": "Mitchie M",
+  "composer": "Mitchie M",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1608789600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "すきゆきまじまじっく",
+  "title_en": "Love! Snow! Really Magic",
+  "length_s": 125.808
+ }
+}

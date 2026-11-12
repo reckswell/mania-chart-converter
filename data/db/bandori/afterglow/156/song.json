@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "156",
+ "title": "ランブリングメモリー",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "124-125",
+ "version": "",
+ "date_added": "2018-11-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 120
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 120
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 52,
+      "hold": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 202
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 202
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 118,
+      "hold": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 402
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/156/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/156/hard.json",
+     "raw_sha256": "9251db237011557fda69295e20f629634c49bc71276557312635663145e02279"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 402
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 217,
+      "hold": 38,
+      "slide": 35,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 526
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/156/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/156/expert.json",
+     "raw_sha256": "22410fdd6c78b5247845f1718b0343217b1178cc0b9001c277ea0b46287b281e"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 526
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 320,
+      "hold": 37,
+      "slide": 38,
+      "flick": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 156,
+   "bandId": 2,
+   "jacketImage": "156_rambling",
+   "bgmId": "bgm156"
+  },
+  "maa": {
+   "bestdori_song_id": 156,
+   "jacket": {
+    "path": "bestdori/156/jacket-cn-1.png",
+    "server": "cn",
+    "name": "156_rambling"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/156/jacket-cn-1.png",
+   "sha256": "6fb325668c866eb7156f4108c51266eb9b93d321a53631a5db70763f924bad55",
+   "width": 320,
+   "height": 320,
+   "bytes": 25872
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "岩橋星実（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1543557600000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "らんぶりんぐめもりー",
+  "title_en": "Rumbling Memory",
+  "length_s": 117.264
+ }
+}

@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "41",
+ "title": "Don’t be afraid!",
+ "artist": "Glitter*Green",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Glitter*Green",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2017-03-25",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 75
+   },
+   "source": {
+    "notesQuantity": 64,
+    "bestdori": {
+     "level": 6,
+     "notes": 75
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 69,
+      "hold": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 64 differs from combo 75 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 192
+   },
+   "source": {
+    "notesQuantity": 141,
+    "bestdori": {
+     "level": 12,
+     "notes": 192
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 182,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 141 differs from combo 192 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 469
+   },
+   "source": {
+    "notesQuantity": 261,
+    "maa": {
+     "path": "bestdori/41/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/41/hard.json",
+     "raw_sha256": "544ed44ebef70cbc98fb79da02344a9bd9bb89b151b7c6c2b163a31e553fd16a"
+    },
+    "bestdori": {
+     "level": 18,
+     "notes": 469
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 394,
+      "slide": 7,
+      "hold": 20,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 261 differs from combo 469 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 661
+   },
+   "source": {
+    "notesQuantity": 397,
+    "maa": {
+     "path": "bestdori/41/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/41/expert.json",
+     "raw_sha256": "79ba991418fb42c40e7f2066ceabf7923ee976c380cf2958c292d3a40884c048"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 661
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 530,
+      "slide": 17,
+      "hold": 27,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 397 differs from combo 661 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 891
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1635508800000,
+    "maa": {
+     "path": "bestdori/41/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/41/special.json",
+     "raw_sha256": "41fef8c7774aafa1be7ef1c942005805ca671d520b49eb526111b28b94be137b"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 891
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 87,
+      "tap": 597,
+      "hold": 10,
+      "flick": 52
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 41,
+   "bandId": 6,
+   "jacketImage": "dont_be_afraid",
+   "bgmId": "bgm041"
+  },
+  "maa": {
+   "bestdori_song_id": 41,
+   "jacket": {
+    "path": "bestdori/41/jacket-cn-1.png",
+    "server": "cn",
+    "name": "dont_be_afraid"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/41/jacket-cn-1.png",
+   "sha256": "10cfdfda690886562d76600871c2d9b8f654e689112ca22f6acfa322101f9929",
+   "width": 320,
+   "height": 320,
+   "bytes": 19615
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "岩橋星実（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1490450400000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "dontbeafraid",
+  "title_en": "Don't Be Afraid!",
+  "length_s": 120.384
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "194",
+ "title": "UNSTOPPABLE",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2019-05-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 154
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 154
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 88,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 260
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 260
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 158,
+      "hold": 51
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 495
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/194/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/194/hard.json",
+     "raw_sha256": "1bc08a667583524437e5395dc928e24b2905ac6f3519a253643e2050f90d7264"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 495
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 316,
+      "hold": 84,
+      "slide": 5,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 646
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/194/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/194/expert.json",
+     "raw_sha256": "6a05ba8bc2ed2bdf852870f76bd8dca8a30b185f47302f04534b49dae13e848c"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 646
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 441,
+      "hold": 81,
+      "slide": 15,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 194,
+   "bandId": 18,
+   "jacketImage": "194_unstoppable",
+   "bgmId": "bgm194"
+  },
+  "maa": {
+   "bestdori_song_id": 194,
+   "jacket": {
+    "path": "bestdori/194/jacket-cn-1.png",
+    "server": "cn",
+    "name": "194_unstoppable"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/194/jacket-cn-1.png",
+   "sha256": "977579436a7eb3e275f2f09f5b5cbc8afd4ef63da671f5fd8179cff1d6f8eaf6",
+   "width": 320,
+   "height": 320,
+   "bytes": 24889
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1556863200000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "unstoppable",
+  "length_s": 102.408
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "544",
+ "title": "聖少女領域",
+ "artist": "Roselia×ロボ子さん×常闇トワ×沙花叉クロヱ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia×ロボ子さん×常闇トワ×沙花叉クロヱ",
+ "bpm": "137",
+ "version": "",
+ "date_added": "2023-11-09",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 124
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 124
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 82,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 264
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 264
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 164,
+      "hold": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 512
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/544/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/544/hard.json",
+     "raw_sha256": "2538828fd195341df01de485e186f0e3225d3620024c8b75e0069dcd3a2f6b50"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 512
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 327,
+      "slide": 33,
+      "hold": 21,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 770
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/544/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/544/expert.json",
+     "raw_sha256": "f88c59eb05c555f2f772eaa436db7d1abb75eec5ec1a70e9c6314ca7f902fead"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 770
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 469,
+      "flick": 35,
+      "slide": 73,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 544,
+   "bandId": 69,
+   "jacketImage": "544_sei_syoujo_ryouiki",
+   "bgmId": "bgm544"
+  },
+  "maa": {
+   "bestdori_song_id": 544,
+   "jacket": {
+    "path": "bestdori/544/jacket-cn-1.png",
+    "server": "cn",
+    "name": "544_sei_syoujo_ryouiki"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/544/jacket-cn-1.png",
+   "sha256": "272ee0dcfb8e0fa79bb6db6b1db773e9d41512a608b0dabb13340f08b5d78ceb",
+   "width": 320,
+   "height": 320,
+   "bytes": 37762
+  }
+ },
+ "extra": {
+  "lyricist": "宝野 アリカ",
+  "composer": "片倉 三起也",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "tie_up",
+  "published_at": 1699540200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "せいしょうじょりょういき",
+  "title_en": "Seishoujo Ryouiki",
+  "length_s": 123.552
+ }
+}

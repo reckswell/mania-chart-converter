@@ -1,0 +1,221 @@
+{
+ "game": "sekai",
+ "song_id": "813",
+ "title": "at",
+ "artist": "黒魔",
+ "title_romaji": "at",
+ "artist_romaji": "kuroma",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "164",
+ "version": "",
+ "date_added": "2026-10-11",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 430
+   },
+   "source": {
+    "music_difficulty_id": 4241,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 15,
+      "ex_tap": 10,
+      "tap": 52,
+      "hold": 6,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 551
+   },
+   "source": {
+    "music_difficulty_id": 4242,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 29,
+      "other": 5,
+      "tap": 70,
+      "ex_tap": 39,
+      "flick": 14,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 742
+   },
+   "source": {
+    "music_difficulty_id": 4243,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 52,
+      "other": 11,
+      "tap": 194,
+      "ex_tap": 51,
+      "flick": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1256
+   },
+   "source": {
+    "music_difficulty_id": 4244,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 89,
+      "tap": 442,
+      "other": 51,
+      "flick": 61,
+      "ex_tap": 91,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "modifier without target 7: 1; stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "33",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1544
+   },
+   "source": {
+    "music_difficulty_id": 4245,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 376,
+      "other": 124,
+      "tap": 515,
+      "flick": 180,
+      "slide": 97,
+      "hold": 67
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "36",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 2095
+   },
+   "source": {
+    "music_difficulty_id": 4246,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 106,
+      "tap": 813,
+      "ex_tap": 407,
+      "hold": 31,
+      "other": 201,
+      "flick": 139
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 813,
+   "assetbundle": "jacket_s_813",
+   "seq": 2170301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_813.png",
+   "sha256": "0a1ca81b51d5ae27d6702e0cbce17150a7b82bd6e972e2cf81abe80e9a834f35",
+   "width": 320,
+   "height": 320,
+   "bytes": 34728
+  }
+ },
+ "extra": {
+  "pronunciation": "あっと",
+  "lyricist": "黒魔",
+  "composer": "黒魔",
+  "arranger": "黒魔",
+  "published_at": 1791698400000,
+  "released_at": 1791644400000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音リン"
+    ],
+    "asset": "vs_0813_01"
+   }
+  ],
+  "filler_sec": 7.902500152587891,
+  "bpm_main": 164.0
+ }
+}

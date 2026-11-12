@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "88",
+ "title": "Dragon Night",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "124",
+ "version": "",
+ "date_added": "2017-12-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 103
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 103
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 81,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 168
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 168
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 112,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 335
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/88/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/88/hard.json",
+     "raw_sha256": "66c3a070ff03b47d4d4409d3064703d094a2225eb203965bbe333490c3dae981"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 335
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 115,
+      "hold": 14,
+      "slide": 35,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 500
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/88/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/88/expert.json",
+     "raw_sha256": "523ad2f44b15f31eb6537fd6adbf8b793ec59b66f07865b42078a03c218b6c98"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 500
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 25,
+      "tap": 241,
+      "flick": 14,
+      "slide": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 88,
+   "bandId": 3,
+   "jacketImage": "088_dragon_night",
+   "bgmId": "bgm088"
+  },
+  "maa": {
+   "bestdori_song_id": 88,
+   "jacket": {
+    "path": "bestdori/88/jacket-cn-1.png",
+    "server": "cn",
+    "name": "088_dragon_night"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/88/jacket-cn-1.png",
+   "sha256": "1a8242c933f57417b57bcb822e22daacbdc237962352fbaf52a49aff085915c7",
+   "width": 320,
+   "height": 320,
+   "bytes": 24128
+  }
+ },
+ "extra": {
+  "lyricist": "Fukase",
+  "composer": "Fukase/Nick Rotteveel/Marcus Van Wattum",
+  "arranger": "母里治樹（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1514700000000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "dragonnight",
+  "length_s": 111.36
+ }
+}

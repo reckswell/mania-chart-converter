@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "453",
+ "title": "Dear Gleam",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "98-196",
+ "version": "",
+ "date_added": "2022-11-08",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 204
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 204
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 164,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 357
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 357
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 261,
+      "hold": 27,
+      "slide": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 639
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/453/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/453/hard.json",
+     "raw_sha256": "ef9df8ad88c978f9536c51293a29b01f7055506f7fd6063bcc068fcef522b20d"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 639
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 494,
+      "hold": 38,
+      "flick": 19,
+      "slide": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 870
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/453/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/453/expert.json",
+     "raw_sha256": "eaa2ffe29638f0e982d1450798d8c989ebb52e937e8e472592ce0b8594716cb6"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 870
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 598,
+      "slide": 47,
+      "flick": 47,
+      "hold": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 453,
+   "bandId": 5,
+   "jacketImage": "453_dear_gleam",
+   "bgmId": "bgm453"
+  },
+  "maa": {
+   "bestdori_song_id": 453,
+   "jacket": {
+    "path": "bestdori/453/jacket-cn-1.png",
+    "server": "cn",
+    "name": "453_dear_gleam"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/453/jacket-cn-1.png",
+   "sha256": "c6b59a4fc3d8f9bce5ce341742fe2f0ecc04df364f7f833054aefc2106bf66aa",
+   "width": 320,
+   "height": 320,
+   "bytes": 42856
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "岩橋星実（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1667887200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "deargleam",
+  "length_s": 120.072
+ }
+}

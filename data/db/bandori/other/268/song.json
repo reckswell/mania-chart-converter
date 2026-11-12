@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "268",
+ "title": "大盛り一丁！ガルパ☆ピコ",
+ "artist": "香澄×蘭×彩×友希那×こころ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "香澄×蘭×彩×友希那×こころ",
+ "bpm": "141-163",
+ "version": "",
+ "date_added": "2020-05-07",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 206
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 206
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 142,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 344
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 344
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 234,
+      "hold": 55
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 481
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/268/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/268/hard.json",
+     "raw_sha256": "7d7de4e6a24750401e2d5bd27820cdd349c253c4c0e9f6fe6d027bdefe79d6ac"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 481
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 67,
+      "flick": 46,
+      "tap": 260,
+      "slide": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 730
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/268/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/268/expert.json",
+     "raw_sha256": "1e228e37b1ac08ace84c44ba7fe351cec486fd250c4aff3efd781c0d6e1b715c"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 730
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 86,
+      "tap": 447,
+      "flick": 61,
+      "slide": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 268,
+   "bandId": 16,
+   "jacketImage": "268_omori_pico_1",
+   "bgmId": "bgm268"
+  },
+  "maa": {
+   "bestdori_song_id": 268,
+   "jacket": {
+    "path": "bestdori/268/jacket-cn-2.png",
+    "server": "cn",
+    "name": "268_omori_pico_1"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/268/jacket-cn-2.png",
+   "sha256": "c2a42fdd88e29a02ca4afc290ebe643aaa6fbc083adf744daca5c1231137133c",
+   "width": 320,
+   "height": 320,
+   "bytes": 52049
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1588820400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "おおもりいっちょうがるぱぴこ",
+  "title_en": "One Extra Large! Garupa☆Pico",
+  "length_s": 111.864
+ }
+}

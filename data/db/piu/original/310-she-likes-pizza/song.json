@@ -1,0 +1,335 @@
+{
+ "game": "piu",
+ "song_id": "310",
+ "title": "She Likes Pizza",
+ "artist": "BanYa",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "230",
+ "version": "3rd O.B.G",
+ "date_added": "",
+ "charts": {
+  "single-9": {
+   "slot": "single-9",
+   "native": "S9",
+   "level": "9",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 257
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2567,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S9",
+     "meter": "9",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 257,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 325
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-10": {
+   "slot": "single-10",
+   "native": "S10",
+   "level": "10",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 279
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2568,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S10",
+     "meter": "10",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 279,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 348
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 1149
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4474,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 8,
+     "steps_type": "pump-single",
+     "description": "S21",
+     "meter": "21",
+     "active": true,
+     "credit": "NIMGO",
+     "combo": 1149,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 93,
+      "tap": 541
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "3 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-11": {
+   "slot": "double-11",
+   "native": "D11",
+   "level": "11",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 244
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2569,
+     "mode": "D"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 12,
+     "steps_type": "pump-double",
+     "description": "D11",
+     "meter": "11",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 244,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 305
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 384
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2570,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 13,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 384,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 442
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-24": {
+   "slot": "double-24",
+   "native": "D24",
+   "level": "24",
+   "constant": null,
+   "designer": "OSING",
+   "note_counts": {
+    "combo": 903
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4475,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 16,
+     "steps_type": "pump-double",
+     "description": "D23",
+     "meter": "23",
+     "active": true,
+     "credit": "OSING",
+     "combo": 903,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 564,
+      "hold": 74
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "6 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 23 differs from the PHOENIX 2 level 24: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "halfdouble-9": {
+   "slot": "halfdouble-9",
+   "native": "HDB9",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9305,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "normal"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-17": {
+   "slot": "halfdouble-17",
+   "native": "HDB17",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9306,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-23": {
+   "slot": "halfdouble-23",
+   "native": "HDB23",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9307,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 448,
+   "game_id": "310",
+   "card": "/img/card/310.png",
+   "first": "3rd O.B.G default",
+   "title": "She Likes Pizza"
+  },
+  "kalinathalie": {
+   "slug": "she_likes_pizza"
+  },
+  "simfile": {
+   "path": "01 - 1ST~3RD/(1) 310 - She Likes Pizza/310 - She Likes Pizza.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/01%20-%201ST~3RD/%281%29%20310%20-%20She%20Likes%20Pizza/310%20-%20She%20Likes%20Pizza.ssc",
+   "id": "310",
+   "title": "She Likes Pizza",
+   "artist": "BanYa"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/she_likes_pizza.jpg",
+   "sha256": "9592629cf595e94acdea8c377e754c37805658cf5942a1ea7635e68f22d207c7",
+   "width": 256,
+   "height": 256,
+   "bytes": 17629
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "그녀는 피자를 좋아해"
+  },
+  "revived_in": "Prime 2 v1.00.0",
+  "simfile_notes": [
+   "D24: simfile chart 'D23' has meter 23 (re-rated)"
+  ]
+ }
+}

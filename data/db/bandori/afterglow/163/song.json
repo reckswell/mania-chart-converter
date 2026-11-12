@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "163",
+ "title": "瞬間センチメンタル",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "168",
+ "version": "",
+ "date_added": "2018-12-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 139
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 139
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 93,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 235
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 235
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 165,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 446
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/163/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/163/hard.json",
+     "raw_sha256": "ee607cca7cf97621cbb6535d9034890088c9f90daddb205c9614dfa4830d334e"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 446
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 304,
+      "slide": 18,
+      "hold": 32,
+      "flick": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 709
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/163/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/163/expert.json",
+     "raw_sha256": "936860c536b45c171ec23f914cb029120dd618cde4c687dfa32d80c56283231a"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 709
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 481,
+      "hold": 43,
+      "slide": 27,
+      "flick": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 649
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1629460800000,
+    "maa": {
+     "path": "bestdori/163/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/163/special.json",
+     "raw_sha256": "8a3d8dcddc889f69548c5acf43c79c599f6e5b1f882fce0c363e06b6b6c8c5f2"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 649
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 366,
+      "slide": 66,
+      "flick": 53,
+      "hold": 23
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 163,
+   "bandId": 2,
+   "jacketImage": "163_senti_mental",
+   "bgmId": "bgm163"
+  },
+  "maa": {
+   "bestdori_song_id": 163,
+   "jacket": {
+    "path": "bestdori/163/jacket-cn-1.png",
+    "server": "cn",
+    "name": "163_senti_mental"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/163/jacket-cn-1.png",
+   "sha256": "567ee13edbe6de4b75ddecc013369f9f1e2f24afab6472f305a449a4402a43c4",
+   "width": 320,
+   "height": 320,
+   "bytes": 26328
+  }
+ },
+ "extra": {
+  "lyricist": "SCANDAL 小林夏海",
+  "composer": "田鹿祐一",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1546149600000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "しゅんかんせんちめんたる",
+  "title_en": "Shunkan Sentimental",
+  "length_s": 97.2
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "50",
+ "title": "MOON PRIDE",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "173",
+ "version": "",
+ "date_added": "2017-05-23",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 181
+   },
+   "source": {
+    "notesQuantity": 64,
+    "bestdori": {
+     "level": 8,
+     "notes": 181
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 141,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 64 differs from combo 181 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 265
+   },
+   "source": {
+    "notesQuantity": 141,
+    "bestdori": {
+     "level": 14,
+     "notes": 265
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 211,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 141 differs from combo 265 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 450
+   },
+   "source": {
+    "notesQuantity": 261,
+    "maa": {
+     "path": "bestdori/50/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/50/hard.json",
+     "raw_sha256": "07609421523535b5a374f42d3fd14d2d4f30b898df2c25593820d756aac464eb"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 450
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 327,
+      "hold": 15,
+      "slide": 19,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 261 differs from combo 450 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 716
+   },
+   "source": {
+    "notesQuantity": 397,
+    "maa": {
+     "path": "bestdori/50/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/50/expert.json",
+     "raw_sha256": "0a9fab4de399569a23e8f00afb82d358b9fb77b24a1e27a56243a3d62b0a2791"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 716
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 276,
+      "hold": 59,
+      "slide": 77,
+      "flick": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 397 differs from combo 716 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 50,
+   "bandId": 4,
+   "jacketImage": "moon_pride",
+   "bgmId": "bgm050"
+  },
+  "maa": {
+   "bestdori_song_id": 50,
+   "jacket": {
+    "path": "bestdori/50/jacket-cn-1.png",
+    "server": "cn",
+    "name": "moon_pride"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/50/jacket-cn-1.png",
+   "sha256": "2436b0ac483d4bf2f3f6fac10468aeace64895524a2a42ca3c5c096d9a8de085",
+   "width": 320,
+   "height": 320,
+   "bytes": 18808
+  }
+ },
+ "extra": {
+  "lyricist": "Revo",
+  "composer": "Revo",
+  "arranger": "都丸椋太（Elements Garden）／宮崎京一",
+  "tag": "anime",
+  "published_at": 1495519200000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "moonpride",
+  "length_s": 112.44
+ }
+}

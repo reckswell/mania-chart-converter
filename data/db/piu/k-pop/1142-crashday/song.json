@@ -1,0 +1,113 @@
+{
+ "game": "piu",
+ "song_id": "1142",
+ "title": "Crashday",
+ "artist": "Crash",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "220",
+ "version": "Fiesta EX",
+ "date_added": "",
+ "charts": {
+  "single-22": {
+   "slot": "single-22",
+   "native": "S22",
+   "level": "22",
+   "constant": null,
+   "designer": "SANDSTORM",
+   "note_counts": {
+    "combo": 2596
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1151,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S22",
+     "meter": "22",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 2596,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 1833,
+      "hold": 235
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'S22')",
+   "assets": {}
+  },
+  "double-22": {
+   "slot": "double-22",
+   "native": "D22",
+   "level": "22",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 3069
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1152,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-double",
+     "description": "D22",
+     "meter": "22",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 3069,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 1916,
+      "hold": 248
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'D22')",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 199,
+   "game_id": "1142",
+   "card": "/img/card/112.png",
+   "first": "Fiesta EX v1.00",
+   "title": "Crashday"
+  },
+  "simfile": {
+   "path": "09 - FIESTA EX/1142 - [Full Song] Crash Day/1142 - [Full Song] Crash Day.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/09%20-%20FIESTA%20EX/1142%20-%20%5BFull%20Song%5D%20Crash%20Day/1142%20-%20%5BFull%20Song%5D%20Crash%20Day.ssc",
+   "id": "1142",
+   "title": "Crashday - FULL SONG -",
+   "artist": "Crash"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Full Song",
+  "titles": {
+   "kr": "크래쉬데이"
+  },
+  "removed": true,
+  "removed_in": "XX v1.00.1"
+ }
+}

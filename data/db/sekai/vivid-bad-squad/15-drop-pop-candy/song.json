@@ -1,0 +1,226 @@
+{
+ "game": "sekai",
+ "song_id": "15",
+ "title": "drop pop candy",
+ "artist": "GigaReol",
+ "title_romaji": "drop pop candy",
+ "artist_romaji": "GigaReol",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "130",
+ "version": "",
+ "date_added": "2021-02-15",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 156
+   },
+   "source": {
+    "music_difficulty_id": 71,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 53,
+      "hold": 13,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 322
+   },
+   "source": {
+    "music_difficulty_id": 72,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 123,
+      "ex_tap": 8,
+      "slide": 21,
+      "flick": 3,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 546
+   },
+   "source": {
+    "music_difficulty_id": 73,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 316,
+      "flick": 29,
+      "slide": 43,
+      "ex_tap": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 773
+   },
+   "source": {
+    "music_difficulty_id": 74,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 425,
+      "slide": 85,
+      "flick": 47,
+      "ex_tap": 20,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 902
+   },
+   "source": {
+    "music_difficulty_id": 75,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 467,
+      "slide": 83,
+      "flick": 81,
+      "ex_tap": 30,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 15,
+   "assetbundle": "jacket_s_015",
+   "seq": 1405101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_015.png",
+   "sha256": "608b70e0f5e1c11f584ab34c772e775df46e59137a05fd14adecf5b468ddda3a",
+   "width": 320,
+   "height": 320,
+   "bytes": 15799
+  }
+ },
+ "extra": {
+  "pronunciation": "どろっぷぽっぷきゃんでぃ",
+  "lyricist": "れをる",
+  "composer": "ギガ",
+  "arranger": "ギガ",
+  "published_at": 1613368800000,
+  "released_at": 1405609200000,
+  "tags": [
+   "street",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音リン",
+     "巡音ルカ"
+    ],
+    "asset": "0015_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音リン",
+     "巡音ルカ",
+     "小豆沢こはね",
+     "白石杏"
+    ],
+    "asset": "0015_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "小豆沢こはね"
+    ],
+    "asset": "an_0015_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "白石杏"
+    ],
+    "asset": "an_0015_02"
+   },
+   {
+    "type": "streaming_live",
+    "caption": "コネクトライブ(DAY1)ver.",
+    "singers": [
+     "鏡音リン",
+     "花里みのり",
+     "小豆沢こはね"
+    ],
+    "asset": "cl_0015_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 130.0
+ }
+}

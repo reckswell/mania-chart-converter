@@ -1,0 +1,209 @@
+{
+ "game": "sekai",
+ "song_id": "570",
+ "title": "スター",
+ "artist": "大漠波新",
+ "title_romaji": "sutaa",
+ "artist_romaji": "daibakuhashin",
+ "genre": "Leo/need",
+ "bpm": "143",
+ "version": "",
+ "date_added": "2025-10-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 148
+   },
+   "source": {
+    "music_difficulty_id": 2846,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 57,
+      "ex_tap": 8,
+      "hold": 4,
+      "slide": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 296
+   },
+   "source": {
+    "music_difficulty_id": 2847,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 19,
+      "tap": 83,
+      "flick": 8,
+      "ex_tap": 9,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 567
+   },
+   "source": {
+    "music_difficulty_id": 2848,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 42,
+      "tap": 130,
+      "flick": 22,
+      "other": 4,
+      "ex_tap": 59,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 799
+   },
+   "source": {
+    "music_difficulty_id": 2849,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 265,
+      "slide": 55,
+      "flick": 27,
+      "other": 24,
+      "ex_tap": 105,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 889
+   },
+   "source": {
+    "music_difficulty_id": 2850,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 21,
+      "slide": 61,
+      "tap": 430,
+      "flick": 88,
+      "ex_tap": 140,
+      "other": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 570,
+   "assetbundle": "jacket_s_570",
+   "seq": 2257001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_570.png",
+   "sha256": "dd01fbff6933aafb61bce91a1743cce3ddcf93bce95e4b8e047f6044cb5d688d",
+   "width": 320,
+   "height": 320,
+   "bytes": 23669
+  }
+ },
+ "extra": {
+  "pronunciation": "すたー",
+  "lyricist": "大漠波新",
+  "composer": "大漠波新",
+  "arranger": "大漠波新",
+  "published_at": 1760879100000,
+  "released_at": 1760799600000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "巡音ルカ",
+     "鏡音リン",
+     "鏡音レン",
+     "MEIKO",
+     "KAITO"
+    ],
+    "asset": "vs_0570_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "星乃一歌",
+     "MEIKO",
+     "天馬咲希",
+     "望月穂波",
+     "日野森志歩"
+    ],
+    "asset": "se_0570_01"
+   }
+  ],
+  "filler_sec": 9.419500350952148,
+  "bpm_main": 143.0
+ }
+}

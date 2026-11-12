@@ -1,0 +1,205 @@
+{
+ "game": "sekai",
+ "song_id": "761",
+ "title": "星を探して♭♭",
+ "artist": "原口沙輔",
+ "title_romaji": "hoshiosagashite",
+ "artist_romaji": "haraguchi sasuke",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "80",
+ "version": "",
+ "date_added": "2026-11-08",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 158
+   },
+   "source": {
+    "music_difficulty_id": 3801,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 7,
+      "tap": 38,
+      "slide": 6,
+      "ex_tap": 4,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 269
+   },
+   "source": {
+    "music_difficulty_id": 3802,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 7,
+      "tap": 80,
+      "slide": 26,
+      "flick": 2,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 441
+   },
+   "source": {
+    "music_difficulty_id": 3803,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 26,
+      "tap": 133,
+      "ex_tap": 17,
+      "hold": 4,
+      "other": 2,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 593
+   },
+   "source": {
+    "music_difficulty_id": 3804,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 9,
+      "tap": 312,
+      "hold": 10,
+      "ex_tap": 44,
+      "slide": 64,
+      "flick": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 748
+   },
+   "source": {
+    "music_difficulty_id": 3805,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 356,
+      "ex_tap": 126,
+      "other": 66,
+      "slide": 92,
+      "flick": 36,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 761,
+   "assetbundle": "jacket_s_761",
+   "seq": 2671101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_761.png",
+   "sha256": "54def0b1533463d576a560116e30887b8157a760cd390ed17273e11b73d28366",
+   "width": 320,
+   "height": 320,
+   "bytes": 32343
+  }
+ },
+ "extra": {
+  "pronunciation": "ほしをさがして",
+  "lyricist": "原口沙輔",
+  "composer": "原口沙輔",
+  "arranger": "原口沙輔",
+  "published_at": 1794143100000,
+  "released_at": 1794063600000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0761_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "宵崎奏",
+     "巡音ルカ",
+     "朝比奈まふゆ",
+     "東雲絵名",
+     "暁山瑞希"
+    ],
+    "asset": "se_0761_01"
+   }
+  ],
+  "filler_sec": 6.75,
+  "bpm_main": 80.0
+ }
+}

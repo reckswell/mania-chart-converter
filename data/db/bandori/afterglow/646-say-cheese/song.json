@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "646",
+ "title": "“Say cheese!!!!!”",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "120",
+ "version": "",
+ "date_added": "2024-12-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 107
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 107
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 55,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 247
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 247
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 56,
+      "tap": 135
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 461
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/646/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/646/hard.json",
+     "raw_sha256": "42b4fafe6e2e1a05d4f288ec9a36bb419c1ec33275e1007f4e78ba050c182e9f"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 461
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 271,
+      "hold": 56,
+      "flick": 15,
+      "slide": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 656
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/646/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/646/expert.json",
+     "raw_sha256": "202c61cf9243460f73c7585359a67ecffb7fb4aee4fbc7edf94f760dc41ea685"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 656
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 434,
+      "slide": 64,
+      "flick": 32,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 646,
+   "bandId": 2,
+   "jacketImage": "646_say_cheese",
+   "bgmId": "bgm646"
+  },
+  "maa": {
+   "bestdori_song_id": 646,
+   "jacket": {
+    "path": "bestdori/646/jacket-cn-1.png",
+    "server": "cn",
+    "name": "646_say_cheese"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/646/jacket-cn-1.png",
+   "sha256": "f42cb46f66f10839a3beee516e8fd852944524235ed4f63999dbb44a2685d1d7",
+   "width": 320,
+   "height": 320,
+   "bytes": 19975
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "日高勇輝（Elements Garden）",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1733810400000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "saycheese",
+  "length_s": 108.048
+ }
+}

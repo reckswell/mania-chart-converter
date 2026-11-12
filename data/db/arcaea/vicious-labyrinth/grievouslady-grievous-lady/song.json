@@ -1,0 +1,164 @@
+{
+ "game": "arcaea",
+ "song_id": "grievouslady",
+ "title": "Grievous Lady",
+ "artist": "Team Grimoire vs Laur",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Vicious Labyrinth",
+ "bpm": "210",
+ "version": "1.5",
+ "date_added": "2017-11-03",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "6",
+   "constant": 6.5,
+   "designer": "迷路第一層",
+   "note_counts": {
+    "combo": 956
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "シエラ"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/grievouslady/grievouslady_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 187,
+      "hold": 13,
+      "tap": 336
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "9",
+   "constant": 9.3,
+   "designer": "迷路第二層",
+   "note_counts": {
+    "combo": 1194
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "シエラ",
+     "plusFingers": true
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/grievouslady/grievouslady_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "tap": 505,
+      "air_hold": 174,
+      "other": 62,
+      "air": 69,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "10 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "11",
+   "constant": 11.1,
+   "designer": "迷路深層",
+   "note_counts": {
+    "combo": 1450
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "シエラ",
+     "legacy11": true,
+     "plusFingers": true
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/grievouslady/grievouslady_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "hold": 19,
+      "tap": 524,
+      "air_hold": 341,
+      "other": 537,
+      "air": 209
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "20 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 56,
+   "set": "yugamu"
+  },
+  "matty": {
+   "jacket": "0124",
+   "title": "Grievous Lady"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/0124.png",
+   "sha256": "e3bb9c1d0cbc2af87d9097607a34b29e79f74e0fdcd0a0d4cff0c84c70ada5b9",
+   "width": 320,
+   "height": 320,
+   "bytes": 33413
+  }
+ },
+ "extra": {
+  "pack": "yugamu",
+  "pack_name": "Vicious Labyrinth",
+  "songlist": {
+   "idx": 56,
+   "search_title": {
+    "ja": [
+     "ぐりーゔぁすでれぃー",
+     "ぐりーばすれでぃー"
+    ],
+    "ko": [
+     "그리버스 레이디"
+    ]
+   },
+   "search_artist": {
+    "ja": [
+     "ちーむぐりもわーる",
+     "ちーむぐりもあ",
+     "らうる"
+    ],
+    "ko": [
+     "팀 그리모어",
+     "라우르"
+    ]
+   },
+   "bpm_base": 210,
+   "purchase": "yugamu",
+   "audioPreview": 0,
+   "audioPreviewEnd": 18285,
+   "side": 1,
+   "bg": "grievouslady",
+   "remote_dl": true
+  },
+  "length_s": 141
+ }
+}

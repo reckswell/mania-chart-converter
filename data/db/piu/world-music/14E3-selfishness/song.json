@@ -1,0 +1,124 @@
+{
+ "game": "piu",
+ "song_id": "14E3",
+ "title": "Selfishness",
+ "artist": "SID-Sound",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "WORLD MUSIC",
+ "bpm": "160",
+ "version": "Prime",
+ "date_added": "",
+ "charts": {
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 748
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1919,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": true,
+     "credit": "EXC",
+     "combo": 748,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 315,
+      "hold": 63
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 806
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1920,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": true,
+     "credit": "EXC",
+     "combo": 806,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 302,
+      "hold": 74
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 326,
+   "game_id": "14E3",
+   "card": "/img/card/381.png",
+   "first": "Prime v1.03.0",
+   "title": "Selfishness"
+  },
+  "kalinathalie": {
+   "slug": "selfishness_short_cut"
+  },
+  "simfile": {
+   "path": "12 - PRIME/14E3 - [Short Cut] Selfishness/14E3 - [Short Cut] Selfishness.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/12%20-%20PRIME/14E3%20-%20%5BShort%20Cut%5D%20Selfishness/14E3%20-%20%5BShort%20Cut%5D%20Selfishness.ssc",
+   "id": "14E3",
+   "title": "Selfishness - SHORT CUT -",
+   "artist": "SID-SOUND"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/selfishness_short_cut.jpg",
+   "sha256": "257d55c25e25db5c8ca239e030d312eb6b3b7d039204bd4197f611256934cef5",
+   "width": 256,
+   "height": 256,
+   "bytes": 23720
+  }
+ },
+ "extra": {
+  "cut": "Short Cut",
+  "titles": {
+   "kr": "셀피쉬니스"
+  }
+ }
+}

@@ -1,0 +1,386 @@
+{
+ "game": "ddr",
+ "song_id": "toet",
+ "title": "Theory of Eternity",
+ "artist": "TAG",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "DanceDanceRevolution X2",
+ "bpm": "160",
+ "version": "DanceDanceRevolution X2",
+ "date_added": "",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "BEGINNER",
+   "level": "3",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 132
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 396,
+     "sanbaiTier": 3.2
+    },
+    "tachi": {
+     "id": "C19d35e213d6b2ac4426"
+    },
+    "simfile": {
+     "chart": "dance-single/Beginner",
+     "meter": "3",
+     "steps": 132,
+     "freezes": 0,
+     "shocks": 0,
+     "combo": 132
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 142
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "BASIC",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 240
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 720,
+     "sanbaiTier": 6.3
+    },
+    "tachi": {
+     "id": "C19d35e213d60ff067b6"
+    },
+    "simfile": {
+     "chart": "dance-single/Easy",
+     "meter": "6",
+     "steps": 228,
+     "freezes": 15,
+     "shocks": 0,
+     "combo": 240
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 234,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "DIFFICULT",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 326
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 978,
+     "sanbaiTier": 9.2
+    },
+    "tachi": {
+     "id": "C19d35e213d6fba137ea"
+    },
+    "simfile": {
+     "chart": "dance-single/Medium",
+     "meter": "9",
+     "steps": 317,
+     "freezes": 9,
+     "shocks": 0,
+     "combo": 326
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 330,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 425
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1275,
+     "sanbaiTier": 12.15
+    },
+    "tachi": {
+     "id": "C19d35e213d6f0eec6bf"
+    },
+    "simfile": {
+     "chart": "dance-single/Hard",
+     "meter": "12",
+     "steps": 419,
+     "freezes": 7,
+     "shocks": 0,
+     "combo": 425
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 435,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "CHALLENGE",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 333
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1137,
+     "sanbaiTier": 10.6,
+     "flags": [
+      "shock"
+     ]
+    },
+    "tachi": {
+     "id": "C19d35e213d67027b665"
+    },
+    "simfile": {
+     "chart": "dance-single/Challenge",
+     "meter": "10",
+     "steps": 275,
+     "freezes": 12,
+     "shocks": 46,
+     "combo": 333
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 272,
+      "hold": 12,
+      "mine": 184
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "EX max 999 from the simfile (3 × combo), DDRCardDraw has 1137",
+   "assets": {}
+  },
+  "double-normal": {
+   "slot": "double-normal",
+   "native": "DOUBLE BASIC",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 236
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 708,
+     "sanbaiTier": 6.35
+    },
+    "tachi": {
+     "id": "C19d35e219cc26dbffde"
+    },
+    "simfile": {
+     "chart": "dance-double/Easy",
+     "meter": "6",
+     "steps": 228,
+     "freezes": 11,
+     "shocks": 0,
+     "combo": 236
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 236,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-hard": {
+   "slot": "double-hard",
+   "native": "DOUBLE DIFFICULT",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 330
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 990,
+     "sanbaiTier": 9.25
+    },
+    "tachi": {
+     "id": "C19d35e219cc9cd67258"
+    },
+    "simfile": {
+     "chart": "dance-double/Medium",
+     "meter": "9",
+     "steps": 316,
+     "freezes": 14,
+     "shocks": 0,
+     "combo": 330
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 314,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-expert": {
+   "slot": "double-expert",
+   "native": "DOUBLE EXPERT",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 424
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1272,
+     "sanbaiTier": 12.25
+    },
+    "tachi": {
+     "id": "C19d35e219cc15594ed6"
+    },
+    "simfile": {
+     "chart": "dance-double/Hard",
+     "meter": "12",
+     "steps": 416,
+     "freezes": 9,
+     "shocks": 0,
+     "combo": 424
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 430,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-master": {
+   "slot": "double-master",
+   "native": "DOUBLE CHALLENGE",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 334
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1137,
+     "sanbaiTier": 11.55,
+     "flags": [
+      "shock"
+     ]
+    },
+    "tachi": {
+     "id": "C19d35e219cc26a003a1"
+    },
+    "simfile": {
+     "chart": "dance-double/Challenge",
+     "meter": "11",
+     "steps": 275,
+     "freezes": 14,
+     "shocks": 45,
+     "combo": 334
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 268,
+      "hold": 14,
+      "mine": 360
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "EX max 1002 from the simfile (3 × combo), DDRCardDraw has 1137",
+   "assets": {}
+  }
+ },
+ "source": {
+  "ddrcarddraw": {
+   "id": "Oq9QIlI8l11ddqbbDoQ1ql61OqlIi9lo",
+   "jacket": "ddr_x2/Theory of Eternity.png"
+  },
+  "tachi": {
+   "id": "S19d35e197b544da25b8",
+   "basename": "toet",
+   "inGameID": 37750
+  },
+  "simfile": {
+   "path": "public/sm/X2/Theory of Eternity/Theory of Eternity.sm",
+   "url": "https://raw.githubusercontent.com/blackalice/ddr-dan-tool/HEAD/public/sm/X2/Theory%20of%20Eternity/Theory%20of%20Eternity.sm",
+   "song_id": "toet"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/blackalice/ddr-dan-tool/HEAD/public/sm/X2/Theory%20of%20Eternity/Theory%20of%20Eternity-jacket.png",
+   "sha256": "b94873c73e91d3140835ed6b5c1badf3edd1066b9900441fd7930e61ecdac00b",
+   "width": 320,
+   "height": 320,
+   "bytes": 31724
+  }
+ },
+ "extra": {
+  "song_hash": "Oq9QIlI8l11ddqbbDoQ1ql61OqlIi9lo",
+  "remywiki": "https://remywiki.com/Theory_of_Eternity",
+  "flare_category": "CLASSIC"
+ }
+}

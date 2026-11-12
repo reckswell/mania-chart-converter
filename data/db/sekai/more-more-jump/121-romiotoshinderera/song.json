@@ -1,0 +1,224 @@
+{
+ "game": "sekai",
+ "song_id": "121",
+ "title": "ロミオとシンデレラ",
+ "artist": "doriko",
+ "title_romaji": "romiotoshinderera",
+ "artist_romaji": "doriko",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2021-06-07",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 188
+   },
+   "source": {
+    "music_difficulty_id": 601,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 15,
+      "tap": 63,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 342
+   },
+   "source": {
+    "music_difficulty_id": 602,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 8,
+      "slide": 22,
+      "tap": 166,
+      "ex_tap": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 571
+   },
+   "source": {
+    "music_difficulty_id": 603,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 334,
+      "slide": 32,
+      "hold": 10,
+      "ex_tap": 22,
+      "flick": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 856
+   },
+   "source": {
+    "music_difficulty_id": 604,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 344,
+      "slide": 93,
+      "flick": 37,
+      "hold": 32,
+      "ex_tap": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1035
+   },
+   "source": {
+    "music_difficulty_id": 605,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 450,
+      "slide": 141,
+      "flick": 43,
+      "ex_tap": 23,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 121,
+   "assetbundle": "jacket_s_121",
+   "seq": 1307301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_121.png",
+   "sha256": "5634ed553926f7f0c0f482cb0187ff4921e179a0125cc4909191d12dc7e734a2",
+   "width": 320,
+   "height": 320,
+   "bytes": 35532
+  }
+ },
+ "extra": {
+  "pronunciation": "ろみおとしんでれら",
+  "lyricist": "doriko",
+  "composer": "doriko",
+  "arranger": "doriko",
+  "published_at": 1623045600000,
+  "released_at": 1238943600000,
+  "tags": [
+   "idol",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0121_01"
+   },
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音リン",
+     "巡音ルカ",
+     "MEIKO"
+    ],
+    "asset": "vs_0121_02"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "se_0121_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "桃井愛莉"
+    ],
+    "asset": "an_0121_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "日野森雫"
+    ],
+    "asset": "an_0121_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 170.0
+ }
+}

@@ -1,0 +1,219 @@
+{
+ "game": "sekai",
+ "song_id": "580",
+ "title": "三日月ステップ",
+ "artist": "r-906",
+ "title_romaji": "mikazukisuteppu",
+ "artist_romaji": "r-906",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "167",
+ "version": "",
+ "date_added": "2025-03-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 186
+   },
+   "source": {
+    "music_difficulty_id": 2896,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 7,
+      "tap": 77,
+      "hold": 14,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 325
+   },
+   "source": {
+    "music_difficulty_id": 2897,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 17,
+      "tap": 140,
+      "hold": 6,
+      "slide": 19,
+      "flick": 4,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 547
+   },
+   "source": {
+    "music_difficulty_id": 2898,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 87,
+      "tap": 247,
+      "other": 16,
+      "flick": 30,
+      "slide": 23,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 891
+   },
+   "source": {
+    "music_difficulty_id": 2899,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 313,
+      "flick": 33,
+      "hold": 31,
+      "other": 50,
+      "slide": 69,
+      "ex_tap": 127
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 969
+   },
+   "source": {
+    "music_difficulty_id": 2900,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 441,
+      "flick": 82,
+      "ex_tap": 125,
+      "other": 70,
+      "slide": 83,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "duplicate slides: 1; stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 580,
+   "assetbundle": "jacket_s_580",
+   "seq": 1449501
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_580.png",
+   "sha256": "414077f089cd0698b8882d5e29bbdb12079d6bdbc069ecc742f058f614afbb0e",
+   "width": 320,
+   "height": 320,
+   "bytes": 22061
+  }
+ },
+ "extra": {
+  "pronunciation": "みかづきすてっぷ",
+  "lyricist": "r-906",
+  "composer": "r-906",
+  "arranger": "r-906",
+  "published_at": 1740981600000,
+  "released_at": 1683990000000,
+  "tags": [
+   "street"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0580_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "MEIKO",
+     "小豆沢こはね",
+     "白石杏"
+    ],
+    "asset": "se_0580_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "小豆沢こはね"
+    ],
+    "asset": "an_0580_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "白石杏"
+    ],
+    "asset": "an_0580_02"
+   }
+  ],
+  "filler_sec": 7.9222002029418945,
+  "bpm_main": 167.0
+ }
+}

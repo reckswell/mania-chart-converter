@@ -1,0 +1,209 @@
+{
+ "game": "bandori",
+ "song_id": "320",
+ "title": "SHINY DAYS",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "110",
+ "version": "",
+ "date_added": "2021-03-18",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 128
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 128
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 66,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 206
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 206
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 108,
+      "hold": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 386
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/320/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/320/hard.json",
+     "raw_sha256": "40883cf68acc528da8e7f2d8fa44c470202e479bd943d003741960dfc24071cf"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 386
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 14,
+      "tap": 241,
+      "hold": 36,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 559
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/320/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/320/expert.json",
+     "raw_sha256": "5d9d7f6f78be1187c575a1af1d01b4cd361b1ebec407499dbc2f2946d46c2565"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 559
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 17,
+      "tap": 379,
+      "hold": 53,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 753
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1774764000000,
+    "maa": {
+     "path": "bestdori/320/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/320/special.json",
+     "raw_sha256": "0f15b000d2de2a25cf393fe9bce955ab2188f0c82f33f6d5a273a5e88c2bb22a"
+    },
+    "bestdori": {
+     "notes": 753
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 46,
+      "tap": 447,
+      "flick": 81,
+      "hold": 17
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 320,
+   "bandId": 3,
+   "jacketImage": "320_shiny_days",
+   "bgmId": "bgm320"
+  },
+  "maa": {
+   "bestdori_song_id": 320,
+   "jacket": {
+    "path": "bestdori/320/jacket-cn-1.png",
+    "server": "cn",
+    "name": "320_shiny_days"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/320/jacket-cn-1.png",
+   "sha256": "9b98bb1ee0fcc3176b03205f582b061476a59eb29be9d8833a173b8646b65264",
+   "width": 320,
+   "height": 320,
+   "bytes": 33629
+  }
+ },
+ "extra": {
+  "lyricist": "永塚健登",
+  "composer": "新田目翔",
+  "arranger": "近藤世真（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1616047200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "shinydays",
+  "length_s": 115.704
+ }
+}

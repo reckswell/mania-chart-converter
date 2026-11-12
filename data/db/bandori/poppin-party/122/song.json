@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "122",
+ "title": "二重の虹(ダブル レインボウ)",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "188",
+ "version": "",
+ "date_added": "2018-04-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 141
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 141
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 101,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 276
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 276
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 228,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 477
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/122/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/122/hard.json",
+     "raw_sha256": "abfc78912d5613f08e5879dca1c27e8c253b7b0a70a4a7316f1cd7bdca1dfe50"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 477
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 360,
+      "hold": 24,
+      "flick": 8,
+      "slide": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 623
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/122/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/122/expert.json",
+     "raw_sha256": "06694a396c82686b025b9cee23ccface976f8f75e0f4b75ff074dbd45e40ccf4"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 623
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 510,
+      "hold": 35,
+      "flick": 16,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 122,
+   "bandId": 1,
+   "jacketImage": "122_niji",
+   "bgmId": "bgm122"
+  },
+  "maa": {
+   "bestdori_song_id": 122,
+   "jacket": {
+    "path": "bestdori/122/jacket-cn-1.png",
+    "server": "cn",
+    "name": "122_niji"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/122/jacket-cn-1.png",
+   "sha256": "99c8f2c2e58f024da0b7ddbaf80318bc50aa78f1b652443ec4108dff9542506c",
+   "width": 320,
+   "height": 320,
+   "bytes": 16998
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "菊田大介（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1525068000000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "だぶるれいんぼう",
+  "title_en": "Double Rainbow",
+  "length_s": 109.2
+ }
+}

@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "9",
+ "title": "ETERNAL BLAZE",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "106-155",
+ "version": "",
+ "date_added": "2017-04-17",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 135
+   },
+   "source": {
+    "notesQuantity": 79,
+    "bestdori": {
+     "level": 9,
+     "notes": 135
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 121,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 79 differs from combo 135 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 212
+   },
+   "source": {
+    "notesQuantity": 137,
+    "bestdori": {
+     "level": 13,
+     "notes": 212
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 182,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 137 differs from combo 212 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 428
+   },
+   "source": {
+    "notesQuantity": 294,
+    "maa": {
+     "path": "bestdori/9/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/9/hard.json",
+     "raw_sha256": "95df74affd527c93da62b655afd59ef261046a70b7e3c3dc3830286f8920bef3"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 428
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 364,
+      "hold": 20,
+      "slide": 4,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 294 differs from combo 428 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 609
+   },
+   "source": {
+    "notesQuantity": 370,
+    "maa": {
+     "path": "bestdori/9/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/9/expert.json",
+     "raw_sha256": "b55120cf007c6beae5ab875d25fd0964ce49ef1894ea219c112804aa1c0ff564"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 609
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 426,
+      "hold": 37,
+      "slide": 27,
+      "flick": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 370 differs from combo 609 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 690
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1647669600000,
+    "maa": {
+     "path": "bestdori/9/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/9/special.json",
+     "raw_sha256": "c62ad81baa5471165adb01a7f7fbc5b4ed40b6bcb7d4b34e6dc418d125599e61"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 690
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 82,
+      "tap": 406,
+      "hold": 27,
+      "flick": 28
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 9,
+   "bandId": 5,
+   "jacketImage": "eternalblaze",
+   "bgmId": "bgm009"
+  },
+  "maa": {
+   "bestdori_song_id": 9,
+   "jacket": {
+    "path": "bestdori/9/jacket-cn-1.png",
+    "server": "cn",
+    "name": "eternalblaze"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/9/jacket-cn-1.png",
+   "sha256": "4bf1736aa5ff26a9cabaeef515e156a9ef184021a349d657d9cbe0996fa612b6",
+   "width": 320,
+   "height": 320,
+   "bytes": 37853
+  }
+ },
+ "extra": {
+  "lyricist": "水樹奈々",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "都丸椋太（Elements Garden）／加納望",
+  "tag": "anime",
+  "published_at": 1492398000000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "eternalblaze",
+  "length_s": 113.928
+ }
+}

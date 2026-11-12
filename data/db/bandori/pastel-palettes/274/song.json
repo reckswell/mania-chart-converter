@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "274",
+ "title": "ノスタルジックレインフォール",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "165",
+ "version": "",
+ "date_added": "2020-06-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 120
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 120
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 76,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 197
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 197
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 139,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 381
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/274/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/274/hard.json",
+     "raw_sha256": "3b9c8469f553b5f472330a3143f462ae38bd47fec5d20b7b278cf1fc335373c2"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 381
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 232,
+      "hold": 49,
+      "slide": 15,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 547
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/274/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/274/expert.json",
+     "raw_sha256": "f2cb30dc1ad230998aa112007f7ac1f9c5134be267c853cb8ee986c58570fc2b"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 547
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 334,
+      "hold": 49,
+      "slide": 44,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 274,
+   "bandId": 4,
+   "jacketImage": "274_nostalgic",
+   "bgmId": "bgm274"
+  },
+  "maa": {
+   "bestdori_song_id": 274,
+   "jacket": {
+    "path": "bestdori/274/jacket-cn-1.png",
+    "server": "cn",
+    "name": "274_nostalgic"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/274/jacket-cn-1.png",
+   "sha256": "3b336d650a4c6b7530e08c8cc0574681dbad99266d3d25e852c7915ccc6a710a",
+   "width": 320,
+   "height": 320,
+   "bytes": 18834
+  }
+ },
+ "extra": {
+  "lyricist": "HoneyWorks",
+  "composer": "HoneyWorks",
+  "arranger": "都丸椋太（Elements Garden）/櫻澤ヒカル",
+  "tag": "anime",
+  "published_at": 1592632800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "のすたるじっくれいんふぉーる",
+  "title_en": "Nostalgic Rainfall",
+  "length_s": 104.784
+ }
+}

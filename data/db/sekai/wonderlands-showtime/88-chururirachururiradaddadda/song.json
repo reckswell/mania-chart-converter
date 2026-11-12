@@ -1,0 +1,199 @@
+{
+ "game": "sekai",
+ "song_id": "88",
+ "title": "チュルリラ・チュルリラ・ダッダッダ！",
+ "artist": "和田たけあき(くらげP)",
+ "title_romaji": "chururirachururiradaddadda",
+ "artist_romaji": "wadatakeaki kuragepii",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "220",
+ "version": "",
+ "date_added": "2021-01-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 297
+   },
+   "source": {
+    "music_difficulty_id": 436,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 82,
+      "hold": 21,
+      "ex_tap": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 516
+   },
+   "source": {
+    "music_difficulty_id": 437,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 26,
+      "tap": 165,
+      "hold": 8,
+      "ex_tap": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 882
+   },
+   "source": {
+    "music_difficulty_id": 438,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 55,
+      "tap": 322,
+      "hold": 48,
+      "slide": 43,
+      "flick": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "modifier without target 3: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1246
+   },
+   "source": {
+    "music_difficulty_id": 439,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 38,
+      "tap": 452,
+      "slide": 130,
+      "flick": 99,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 3",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1401
+   },
+   "source": {
+    "music_difficulty_id": 440,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 42,
+      "tap": 427,
+      "slide": 147,
+      "flick": 111,
+      "hold": 75
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 88,
+   "assetbundle": "jacket_s_088",
+   "seq": 1504101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_088.png",
+   "sha256": "ebc77b5e0efe70b4f9cd4f29d2f6f25a6fa958eba8e545ba6a4191081953f85f",
+   "width": 320,
+   "height": 320,
+   "bytes": 30073
+  }
+ },
+ "extra": {
+  "pronunciation": "ちゅるりらちゅるりらだっだっだ",
+  "lyricist": "和田たけあき(くらげP)",
+  "composer": "和田たけあき(くらげP)",
+  "arranger": "和田たけあき(くらげP)",
+  "published_at": 1609653600000,
+  "released_at": 1456066800000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "天馬司",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0088_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "天馬司",
+     "草薙寧々"
+    ],
+    "asset": "an_0088_01"
+   }
+  ],
+  "filler_sec": 9.064000129699707,
+  "bpm_main": 220.0
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "378",
+ "title": "COLORS",
+ "artist": "Afterglow×FLOW",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow×FLOW",
+ "bpm": "136",
+ "version": "",
+ "date_added": "2021-12-11",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 91
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 91
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 61,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 196
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 196
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 142,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 426
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/378/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/378/hard.json",
+     "raw_sha256": "f13c995c393038780c4e642b95684a9072be2904b8e50f16a4b914e2fdb5be1a"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 426
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 253,
+      "slide": 27,
+      "hold": 44,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 611
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/378/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/378/expert.json",
+     "raw_sha256": "9eb914b0ee95de43f6a2dc3374abede61e29d98bda59a0566d5c8e687e144a74"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 611
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 412,
+      "slide": 36,
+      "hold": 39,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 378,
+   "bandId": 37,
+   "jacketImage": "378_colors",
+   "bgmId": "bgm378"
+  },
+  "maa": {
+   "bestdori_song_id": 378,
+   "jacket": {
+    "path": "bestdori/378/jacket-cn-1.png",
+    "server": "cn",
+    "name": "378_colors"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/378/jacket-cn-1.png",
+   "sha256": "dc6a72ce50d58ee4d0ccded9c1661ac2aa207af32fc26b90c10cc548888b60c3",
+   "width": 320,
+   "height": 320,
+   "bytes": 17470
+  }
+ },
+ "extra": {
+  "lyricist": "KOHSHI ASAKAWA・KEIGO HAYASHI",
+  "composer": "TAKESHI ASAKAWA",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "tie_up",
+  "published_at": 1639202400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "colors",
+  "length_s": 112.128
+ }
+}

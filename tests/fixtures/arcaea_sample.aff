@@ -1,0 +1,31 @@
+AudioOffset:100
+-
+timing(0,120.00,4.00);
+(1000,1);
+(1000,4);
+hold(1500,2500,2);
+arc(3000,4000,0.00,1.00,s,1.00,1.00,0,none,false);
+arc(4000,5000,1.00,0.50,si,1.00,0.00,0,none,false);
+arc(5000,5000,0.50,0.00,s,0.00,0.00,0,none,false);
+arc(6000,7000,0.00,1.00,s,1.00,1.00,1,none,true)[arctap(6000),arctap(6500),arctap(7000)];
+timing(8000,240.00,4.00);
+timing(9000,-120.00,0.00);
+timing(9500,240.00,3.00);
+(10000,3);
+arc(10000,10500,0.25,0.75,b,0.50,0.50,2,glass_wav,false,2.00);
+scenecontrol(10000,trackhide);
+camera(10000,0.00,0.00,0.00,0.00,0.00,0.00,l,500);
+timinggroup(){
+  timing(0,60.00,4.00);
+  hold(11000,13000,3);
+};
+timinggroup(noinput_anglex900){
+  timing(0,120.00,4.00);
+  (12000,1);
+  arc(12000,13000,0.00,0.00,s,1.00,1.00,0,none,false);
+};
+arc(14000,15000,0.50,0.50,s,0.00,0.00,0,none,designant)[arctap(14500)];
+timinggroup(fadingholds){
+  timing(0,300.00,4.00);
+  hold(16000,17000,4);
+};

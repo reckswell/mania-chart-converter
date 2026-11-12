@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "80",
+ "title": "す、好きなんかじゃない！",
+ "artist": "市ヶ谷有咲",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "市ヶ谷有咲",
+ "bpm": "166",
+ "version": "",
+ "date_added": "2017-11-06",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 133
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 133
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 67,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 202
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 202
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 108,
+      "hold": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 397
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/80/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/80/hard.json",
+     "raw_sha256": "78ae1ddc251228911be0711b34d09d22802d6e36a4deada4eca51a3379ff7561"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 397
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 208,
+      "hold": 65,
+      "slide": 13,
+      "flick": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 606
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/80/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/80/expert.json",
+     "raw_sha256": "bc7d04305722b77ddea670777dea9d66e7c129b2177f25ecc0f4d24531a39d76"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 606
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 342,
+      "slide": 42,
+      "hold": 50,
+      "flick": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 80,
+   "bandId": 13,
+   "jacketImage": "080_chomama",
+   "bgmId": "bgm080"
+  },
+  "maa": {
+   "bestdori_song_id": 80,
+   "jacket": {
+    "path": "bestdori/80/jacket-cn-1.png",
+    "server": "cn",
+    "name": "080_chomama"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/80/jacket-cn-1.png",
+   "sha256": "c4a439f47e32384edbe49dba2b308a14948d48017339c24e4224fe781607239e",
+   "width": 320,
+   "height": 320,
+   "bytes": 33275
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "岩橋星実（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1509937200000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "すすきなんかじゃない",
+  "title_en": "I-I Never Said Love!",
+  "length_s": 97.656
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "419",
+ "title": "秘密の扉から会いにきて",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "184",
+ "version": "",
+ "date_added": "2022-04-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 213
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 213
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 141,
+      "hold": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 337
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 337
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 64,
+      "tap": 201,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 620
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/419/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/419/hard.json",
+     "raw_sha256": "ee22d4aa5c27a9c26f4662164a623e7b7eea8cf62cd5019fc2e1086200893fbb"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 620
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 291,
+      "hold": 53,
+      "flick": 45,
+      "slide": 64
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 884
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/419/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/419/expert.json",
+     "raw_sha256": "b665f355537d4309e14c97cfbe21a74b85b2dd22e53cc61c58e204a6a603dab4"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 884
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 543,
+      "flick": 43,
+      "hold": 47,
+      "slide": 72
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 419,
+   "bandId": 4,
+   "jacketImage": "419_himitsu_door",
+   "bgmId": "bgm419"
+  },
+  "maa": {
+   "bestdori_song_id": 419,
+   "jacket": {
+    "path": "bestdori/419/jacket-cn-1.png",
+    "server": "cn",
+    "name": "419_himitsu_door"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/419/jacket-cn-1.png",
+   "sha256": "423ca88f684bb7aa336ef93f4690a3cf660d5cfe8161c1bab83d003a9571839a",
+   "width": 320,
+   "height": 320,
+   "bytes": 32758
+  }
+ },
+ "extra": {
+  "lyricist": "畑亜貴",
+  "composer": "太田雅友",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1651298400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ひみつのどあからあいにきて",
+  "title_en": "Himitsuno Tobirakara Aini Kite",
+  "length_s": 125.928
+ }
+}

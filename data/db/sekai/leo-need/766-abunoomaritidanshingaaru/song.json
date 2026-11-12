@@ -1,0 +1,202 @@
+{
+ "game": "sekai",
+ "song_id": "766",
+ "title": "アブノーマリティ･ダンシンガール",
+ "artist": "ぐちり",
+ "title_romaji": "abunoomaritidanshingaaru",
+ "artist_romaji": "guchiri",
+ "genre": "Leo/need",
+ "bpm": "220",
+ "version": "",
+ "date_added": "2026-10-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 372
+   },
+   "source": {
+    "music_difficulty_id": 3826,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 26,
+      "ex_tap": 21,
+      "tap": 70,
+      "slide": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 410
+   },
+   "source": {
+    "music_difficulty_id": 3827,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 146,
+      "slide": 23,
+      "ex_tap": 43,
+      "flick": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 825
+   },
+   "source": {
+    "music_difficulty_id": 3828,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 7,
+      "tap": 267,
+      "slide": 74,
+      "ex_tap": 67,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1179
+   },
+   "source": {
+    "music_difficulty_id": 3829,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 406,
+      "slide": 116,
+      "ex_tap": 132,
+      "flick": 103,
+      "hold": 18,
+      "other": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "32",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1431
+   },
+   "source": {
+    "music_difficulty_id": 3830,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 31,
+      "other": 20,
+      "tap": 468,
+      "slide": 138,
+      "ex_tap": 222,
+      "flick": 286
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "modifier without target 8: 2; stacked taps merged: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 766,
+   "assetbundle": "jacket_s_766",
+   "seq": 1269401
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_766.png",
+   "sha256": "b47f97b9953ac2738c3da9756e5560c8cd552b7d222bdbb9c161e812420a9348",
+   "width": 320,
+   "height": 320,
+   "bytes": 37654
+  }
+ },
+ "extra": {
+  "pronunciation": "あぶのーまりてぃだんしんがーる",
+  "lyricist": "ぐちり",
+  "composer": "ぐちり",
+  "arranger": "ぐちり",
+  "published_at": 1790920800000,
+  "released_at": 1614351600000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "flower"
+    ],
+    "asset": "vs_0766_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音リン",
+     "星乃一歌",
+     "天馬咲希",
+     "望月穂波",
+     "日野森志歩"
+    ],
+    "asset": "se_0766_01"
+   }
+  ],
+  "filler_sec": 8.18179988861084,
+  "bpm_main": 220.0
+ }
+}

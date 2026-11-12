@@ -1,0 +1,207 @@
+{
+ "game": "piu",
+ "song_id": "E04",
+ "title": "Money",
+ "artist": "BanYa Production",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "130",
+ "version": "NX2 / Next Xenesis",
+ "date_added": "",
+ "charts": {
+  "single-9": {
+   "slot": "single-9",
+   "native": "S9",
+   "level": "9",
+   "constant": null,
+   "designer": "MSGOON",
+   "note_counts": {
+    "combo": 359
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2393,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S9",
+     "meter": "9",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 359,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 297,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "MSGOON",
+   "note_counts": {
+    "combo": 451
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2392,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-single",
+     "description": "S14",
+     "meter": "14",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 451,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 459,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 14 differs from the PHOENIX 2 level 15: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-17": {
+   "slot": "double-17",
+   "native": "D17",
+   "level": "17",
+   "constant": null,
+   "designer": "MSGOON",
+   "note_counts": {
+    "combo": 558
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2394,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 16,
+     "steps_type": "pump-double",
+     "description": "D17",
+     "meter": "17",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 558,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 534,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-9": {
+   "slot": "halfdouble-9",
+   "native": "HDB9",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9159,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "normal"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-16": {
+   "slot": "halfdouble-16",
+   "native": "HDB16",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9160,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 411,
+   "game_id": "E04",
+   "card": "/img/card/E04.png",
+   "first": "NX2 / Next Xenesis default",
+   "title": "Money"
+  },
+  "kalinathalie": {
+   "slug": "money"
+  },
+  "simfile": {
+   "path": "05 - NX~NX2/(1) E04 - Money/E04 - Money.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/05%20-%20NX~NX2/%281%29%20E04%20-%20Money/E04%20-%20Money.ssc",
+   "id": "E04",
+   "title": "Money",
+   "artist": "Banya Production"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/money.jpg",
+   "sha256": "3b6a5201bc747387b6c4c7204488a8eba08b132259ab6f5cadb8d19d6c728ac9",
+   "width": 256,
+   "height": 256,
+   "bytes": 19034
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "머니"
+  },
+  "revived_in": "Prime 2 v1.00.0",
+  "simfile_notes": [
+   "S15: simfile chart 'S14' has meter 14 (re-rated)"
+  ]
+ }
+}

@@ -1,0 +1,150 @@
+{
+ "game": "piu",
+ "song_id": "15D2",
+ "title": "Shub Sothoth",
+ "artist": "Nato & EXC",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "220",
+ "version": "Prime 2",
+ "date_added": "",
+ "charts": {
+  "single-25": {
+   "slot": "single-25",
+   "native": "S25",
+   "level": "25",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 2328
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4944,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S25 INFOBAR TITLE",
+     "meter": "25",
+     "active": true,
+     "credit": "EXC",
+     "combo": 2328,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 183,
+      "tap": 1330,
+      "other": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "13 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-27": {
+   "slot": "double-27",
+   "native": "D27",
+   "level": "27",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 2641
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4945,
+     "mode": "D",
+     "labels": [
+      "UPDATED"
+     ]
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-double",
+     "description": "D27 INFOBAR TITLE",
+     "meter": "27",
+     "active": true,
+     "credit": "NIMGO",
+     "combo": 2641,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 1174,
+      "hold": 164
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "11 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "halfdouble-26": {
+   "slot": "halfdouble-26",
+   "native": "HDB26",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8881,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 690,
+   "game_id": "15D2",
+   "card": "/img/card/15D2.png",
+   "first": "Prime 2 v2.05.0",
+   "title": "Shub Sothoth"
+  },
+  "kalinathalie": {
+   "slug": "shub_sothoth"
+  },
+  "simfile": {
+   "path": "13 - PRIME 2/15D2 - [Remix] Shub Sothoth/15D2 - [Remix] Shub Sothoth.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/13%20-%20PRIME%202/15D2%20-%20%5BRemix%5D%20Shub%20Sothoth/15D2%20-%20%5BRemix%5D%20Shub%20Sothoth.ssc",
+   "id": "15D2",
+   "title": "Shub Sothoth",
+   "artist": "Nato & EXC"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/shub_sothoth.jpg",
+   "sha256": "a744e4cf3363af8a0d8d2ef92595e8a175c2a76d35e59940e92a72258598a76b",
+   "width": 256,
+   "height": 256,
+   "bytes": 36762
+  }
+ },
+ "extra": {
+  "cut": "Remix",
+  "artists": [
+   "Nato",
+   "EXC"
+  ]
+ }
+}

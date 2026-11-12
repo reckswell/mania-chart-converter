@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "586",
+ "title": "誓いのWingbeat",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "40-205",
+ "version": "",
+ "date_added": "2024-03-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 226
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 226
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 176,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 436
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 16,
+     "notes": 436
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 336,
+      "hold": 26,
+      "slide": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 705
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/586/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/586/hard.json",
+     "raw_sha256": "ca861b3a1df607dc0e57df1fc19ca9b3bffb74bf41ad0078d94732d8c1c063d9"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 705
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 44,
+      "tap": 490,
+      "slide": 36,
+      "flick": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1030
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/586/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/586/expert.json",
+     "raw_sha256": "2ee8ff80f5a86ba73e1cac391ab13e8d5612434ec845e332b3ea32d42529e3ad"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 1030
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 61,
+      "tap": 674,
+      "slide": 54,
+      "flick": 85
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1161
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/586/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/586/special.json",
+     "raw_sha256": "291af5a9a8eafb24467783bff9d31746585ac769add79118f6dc5665e81438e7"
+    },
+    "bestdori": {
+     "level": 30,
+     "notes": 1161
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 71,
+      "tap": 705,
+      "hold": 49,
+      "flick": 150
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 586,
+   "bandId": 21,
+   "jacketImage": "586_wing_beat",
+   "bgmId": "bgm586"
+  },
+  "maa": {
+   "bestdori_song_id": 586,
+   "jacket": {
+    "path": "bestdori/586/jacket-cn-1.png",
+    "server": "cn",
+    "name": "586_wing_beat"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/586/jacket-cn-1.png",
+   "sha256": "267bd876ef1e7f062f90e0983b86ea9c580e62dc2d65ede43d65df3ae50f0133",
+   "width": 320,
+   "height": 320,
+   "bytes": 28189
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1710063720000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ちかいのwingbeat",
+  "title_en": "Wingbeat of Promise",
+  "length_s": 126.216
+ }
+}

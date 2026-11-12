@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "649",
+ "title": "迷星叫(パラレルver.)",
+ "artist": "あこがれの共演",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "あこがれの共演",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2024-12-25",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 73
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 73
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 55,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 173
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 173
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 25,
+      "tap": 113,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 311
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/649/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/649/hard.json",
+     "raw_sha256": "c3cde214acae3f505df77fd35afd0c3c65ac3c0b89187772aa23b38d8d0ecbb5"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 311
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 17,
+      "tap": 218,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 641
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/649/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/649/expert.json",
+     "raw_sha256": "d5a7f5a9163d839499b60c92e39ee9f546dabf15ce55d93706243341dc659386"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 641
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 49,
+      "tap": 432,
+      "hold": 23,
+      "flick": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 651
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/649/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/649/special.json",
+     "raw_sha256": "31e3b326fd619192782e8f4a2b1f3d13257232a77f46a22427e1e3431beebb5b"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 651
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 365,
+      "hold": 14,
+      "flick": 97,
+      "slide": 67
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 649,
+   "bandId": 79,
+   "jacketImage": "649_mayoiuta_p",
+   "bgmId": "bgm649"
+  },
+  "maa": {
+   "bestdori_song_id": 649,
+   "jacket": {
+    "path": "bestdori/649/jacket-cn-1.png",
+    "server": "cn",
+    "name": "649_mayoiuta_p"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/649/jacket-cn-1.png",
+   "sha256": "6ff37af6102d4412cd545c7fd2fe9d5016999e6157a4dd11f092c4957b7157d6",
+   "width": 320,
+   "height": 320,
+   "bytes": 33802
+  }
+ },
+ "extra": {
+  "lyricist": "藤原優樹(SUPA LOVE)",
+  "composer": "長谷川大介(SUPA LOVE)",
+  "arranger": "長谷川大介(SUPA LOVE)",
+  "tag": "normal",
+  "published_at": 1735106400000,
+  "closed_at": 4122327600000,
+  "music_data_type": "normal",
+  "ruby": "まよいうた",
+  "title_en": "Mayoiuta (Parallel Ver.)",
+  "length_s": 97.944
+ }
+}

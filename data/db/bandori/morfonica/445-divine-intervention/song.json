@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "445",
+ "title": "divine intervention",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "176",
+ "version": "",
+ "date_added": "2022-09-23",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 137
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 137
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 91,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 261
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 261
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 191,
+      "hold": 30,
+      "slide": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 496
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/445/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/445/hard.json",
+     "raw_sha256": "7a5d13ae714b55897db7bda030cc35988651942d23c89877d25ce3f13af8edc6"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 496
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 292,
+      "hold": 47,
+      "flick": 10,
+      "slide": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 781
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/445/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/445/expert.json",
+     "raw_sha256": "1534ed4419696caa00fd59382f3d8e2170e41d570b208476dffbe39c40a61bf5"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 781
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 495,
+      "hold": 30,
+      "slide": 72,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 445,
+   "bandId": 21,
+   "jacketImage": "445_divine_intervention",
+   "bgmId": "bgm445"
+  },
+  "maa": {
+   "bestdori_song_id": 445,
+   "jacket": {
+    "path": "bestdori/445/jacket-cn-1.png",
+    "server": "cn",
+    "name": "445_divine_intervention"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/445/jacket-cn-1.png",
+   "sha256": "2213f7bb39e023df58cc8aae250e6ff80009812ac093a5f8170b6418d47e5bc2",
+   "width": 320,
+   "height": 320,
+   "bytes": 47002
+  }
+ },
+ "extra": {
+  "lyricist": "林英樹",
+  "composer": "佐藤純一",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1663938000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "divineintervention",
+  "length_s": 111.192
+ }
+}

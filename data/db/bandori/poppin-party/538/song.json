@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "538",
+ "title": "トウキョウ・シャンディ・ランデヴ",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "137",
+ "version": "",
+ "date_added": "2023-09-14",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 132
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 132
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 42,
+      "hold": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 224
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 224
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 74,
+      "hold": 75
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 526
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/538/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/538/hard.json",
+     "raw_sha256": "5d586d628fed4248fec211e9fbc4df9d9616942279a31cef2e4a860b2e712c37"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 526
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 24,
+      "tap": 193,
+      "slide": 51,
+      "hold": 83
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 799
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/538/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/538/expert.json",
+     "raw_sha256": "0e1ed8a2dc0ae54a1f54fe15dad76078c09d0b27d92a24cee00c7d2e6819ff23"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 799
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 38,
+      "tap": 407,
+      "slide": 37,
+      "hold": 128
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 538,
+   "bandId": 1,
+   "jacketImage": "538_tokyo_shandy_rendez_vous",
+   "bgmId": "bgm538"
+  },
+  "maa": {
+   "bestdori_song_id": 538,
+   "jacket": {
+    "path": "bestdori/538/jacket-cn-1.png",
+    "server": "cn",
+    "name": "538_tokyo_shandy_rendez_vous"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/538/jacket-cn-1.png",
+   "sha256": "ff88ea51fdce79f23027b9f83ec2c28fcb6c85fc7af718f2f791c68bd71f0304",
+   "width": 320,
+   "height": 320,
+   "bytes": 35887
+  }
+ },
+ "extra": {
+  "lyricist": "ツミキ",
+  "composer": "ツミキ",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1694671200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "とうきょうしゃんでぃらんでゔ",
+  "title_en": "Tokyo Shandy Rendez-vous",
+  "length_s": 112.176
+ }
+}

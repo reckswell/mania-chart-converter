@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "345",
+ "title": "ヒューマノイド",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "159",
+ "version": "",
+ "date_added": "2021-06-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 125
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 125
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 97,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 278
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 278
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 220,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 507
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/345/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/345/hard.json",
+     "raw_sha256": "45616c5ab137ce2d600821d7a5f20b483caf4b563d8e5711c09758fce85741da"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 507
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 52,
+      "tap": 343,
+      "slide": 18,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 906
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/345/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/345/expert.json",
+     "raw_sha256": "4e27db4c3031cacbb8a67e7e8ae0db464a2f2f7592a544b897b09dfccc289559"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 906
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 74,
+      "tap": 541,
+      "slide": 52,
+      "flick": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 345,
+   "bandId": 2,
+   "jacketImage": "345_humanoid",
+   "bgmId": "bgm345"
+  },
+  "maa": {
+   "bestdori_song_id": 345,
+   "jacket": {
+    "path": "bestdori/345/jacket-cn-1.png",
+    "server": "cn",
+    "name": "345_humanoid"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/345/jacket-cn-1.png",
+   "sha256": "908493112f9b2132a803a46d7730cf2341c151c544f7e766a9ae5d7daa43f9e0",
+   "width": 320,
+   "height": 320,
+   "bytes": 20478
+  }
+ },
+ "extra": {
+  "lyricist": "ACAね",
+  "composer": "ACAね",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1625032800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ひゅーまのいど",
+  "title_en": "Humanoid",
+  "length_s": 117.048
+ }
+}

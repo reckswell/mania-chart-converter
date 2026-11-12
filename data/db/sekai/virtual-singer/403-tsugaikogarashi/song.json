@@ -1,0 +1,192 @@
+{
+ "game": "sekai",
+ "song_id": "403",
+ "title": "番凩",
+ "artist": "hinayukki@仕事してP",
+ "title_romaji": "tsugaikogarashi",
+ "artist_romaji": "hinayukiattoshigotoshitepii",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "90-128 (102)",
+ "version": "",
+ "date_added": "2023-10-09",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 133
+   },
+   "source": {
+    "music_difficulty_id": 2011,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 10,
+      "tap": 50,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 336
+   },
+   "source": {
+    "music_difficulty_id": 2012,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 14,
+      "ex_tap": 21,
+      "tap": 105,
+      "slide": 19,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 512
+   },
+   "source": {
+    "music_difficulty_id": 2013,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 219,
+      "ex_tap": 36,
+      "slide": 35,
+      "hold": 5,
+      "flick": 8,
+      "other": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 716
+   },
+   "source": {
+    "music_difficulty_id": 2014,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 312,
+      "ex_tap": 56,
+      "slide": 55,
+      "hold": 16,
+      "flick": 14,
+      "other": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 892
+   },
+   "source": {
+    "music_difficulty_id": 2015,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 388,
+      "ex_tap": 61,
+      "other": 7,
+      "hold": 16,
+      "slide": 98,
+      "flick": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 403,
+   "assetbundle": "jacket_s_403",
+   "seq": 1133201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_403.png",
+   "sha256": "9c1f038bd53f039b5a37ad7f17e751ec321e5f5968f5738a468dfd675b9e802e",
+   "width": 320,
+   "height": 320,
+   "bytes": 41831
+  }
+ },
+ "extra": {
+  "pronunciation": "つがいこがらし",
+  "lyricist": "hinayukki@仕事してP",
+  "composer": "hinayukki@仕事してP",
+  "arranger": "hinayukki@仕事してP",
+  "published_at": 1696831200000,
+  "released_at": 1222786800000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "MEIKO",
+     "KAITO"
+    ],
+    "asset": "vs_0403_01"
+   }
+  ],
+  "filler_sec": 7.244999885559082,
+  "bpm_main": 102.0
+ }
+}

@@ -1,0 +1,213 @@
+{
+ "game": "sekai",
+ "song_id": "451",
+ "title": "熱異常",
+ "artist": "いよわ",
+ "title_romaji": "netsuijou",
+ "artist_romaji": "iyowa",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "183",
+ "version": "",
+ "date_added": "2024-05-17",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 194
+   },
+   "source": {
+    "music_difficulty_id": 2251,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 87,
+      "hold": 17,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 428
+   },
+   "source": {
+    "music_difficulty_id": 2252,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 122,
+      "slide": 16,
+      "ex_tap": 1,
+      "flick": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 696
+   },
+   "source": {
+    "music_difficulty_id": 2253,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 435,
+      "slide": 33,
+      "other": 30,
+      "ex_tap": 58,
+      "flick": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 978
+   },
+   "source": {
+    "music_difficulty_id": 2254,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 588,
+      "flick": 66,
+      "slide": 46,
+      "other": 14,
+      "ex_tap": 101,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "32",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1197
+   },
+   "source": {
+    "music_difficulty_id": 2255,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 34,
+      "tap": 759,
+      "flick": 172,
+      "other": 17,
+      "hold": 9,
+      "ex_tap": 142
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 451,
+   "assetbundle": "jacket_s_451",
+   "seq": 1640901
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_451.png",
+   "sha256": "67316cd3b82562d055f8b3534620e8138822390d4d252b2321e247f5ac13d2ac",
+   "width": 320,
+   "height": 320,
+   "bytes": 23906
+  }
+ },
+ "extra": {
+  "pronunciation": "ねついじょう",
+  "lyricist": "いよわ",
+  "composer": "いよわ",
+  "arranger": "いよわ",
+  "published_at": 1715925600000,
+  "released_at": 1665500400000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "足立レイ"
+    ],
+    "asset": "vs_0451_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "KAITO",
+     "宵崎奏",
+     "朝比奈まふゆ",
+     "東雲絵名",
+     "暁山瑞希"
+    ],
+    "asset": "se_0451_01"
+   },
+   {
+    "type": "april_fool_2022",
+    "caption": "エイプリルフールver.",
+    "singers": [
+     "鏡音リン",
+     "天馬司",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "af_0451_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 183.0
+ }
+}

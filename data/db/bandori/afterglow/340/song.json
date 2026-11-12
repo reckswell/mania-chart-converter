@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "340",
+ "title": "カナユメ",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "125",
+ "version": "",
+ "date_added": "2021-05-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 108
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 108
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 70,
+      "hold": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 207
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 207
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 151,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 396
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/340/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/340/hard.json",
+     "raw_sha256": "39550747f4bc84bc7a0515c3feb7a68aaffdd79e528adc6cebaf1e45cf932854"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 396
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 257,
+      "hold": 37,
+      "slide": 25,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 564
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/340/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/340/expert.json",
+     "raw_sha256": "6647054da8ba2caae2e51f4e3d789074747b5483a0926d12662d5653879a80fd"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 564
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 36,
+      "tap": 380,
+      "hold": 34,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 340,
+   "bandId": 2,
+   "jacketImage": "340_kanayume",
+   "bgmId": "bgm340"
+  },
+  "maa": {
+   "bestdori_song_id": 340,
+   "jacket": {
+    "path": "bestdori/340/jacket-cn-1.png",
+    "server": "cn",
+    "name": "340_kanayume"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/340/jacket-cn-1.png",
+   "sha256": "af66343f3fd6162954bc48140baf7ab9f3a84a1b2aec9e9775b56794f762320e",
+   "width": 320,
+   "height": 320,
+   "bytes": 30696
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1622440800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "かなゆめ",
+  "title_en": "Kanayume",
+  "length_s": 110.448
+ }
+}

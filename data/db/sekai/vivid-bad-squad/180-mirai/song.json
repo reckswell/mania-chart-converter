@@ -1,0 +1,225 @@
+{
+ "game": "sekai",
+ "song_id": "180",
+ "title": "ミライ",
+ "artist": "有機酸",
+ "title_romaji": "mirai",
+ "artist_romaji": "yuukisan",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "138",
+ "version": "",
+ "date_added": "2021-12-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 184
+   },
+   "source": {
+    "music_difficulty_id": 896,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 10,
+      "tap": 84,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 419
+   },
+   "source": {
+    "music_difficulty_id": 897,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 10,
+      "tap": 170,
+      "hold": 32,
+      "ex_tap": 14,
+      "slide": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 662
+   },
+   "source": {
+    "music_difficulty_id": 898,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 15,
+      "tap": 222,
+      "slide": 72,
+      "ex_tap": 38,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1017
+   },
+   "source": {
+    "music_difficulty_id": 899,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 26,
+      "tap": 421,
+      "slide": 86,
+      "ex_tap": 54,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1281
+   },
+   "source": {
+    "music_difficulty_id": 900,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 42,
+      "tap": 569,
+      "slide": 127,
+      "hold": 68,
+      "ex_tap": 65
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 6",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 180,
+   "assetbundle": "jacket_s_180",
+   "seq": 2412001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_180.png",
+   "sha256": "2e3264a3ea305c3d4006a61dc32c6583a6521cb43e03355b883c98620e61585f",
+   "width": 320,
+   "height": 320,
+   "bytes": 31336
+  }
+ },
+ "extra": {
+  "pronunciation": "みらい",
+  "lyricist": "有機酸",
+  "composer": "有機酸",
+  "arranger": "有機酸",
+  "published_at": 1640783100000,
+  "released_at": 1640703600000,
+  "tags": [
+   "street",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0180_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "青柳冬弥",
+     "巡音ルカ",
+     "小豆沢こはね",
+     "白石杏",
+     "東雲彰人"
+    ],
+    "asset": "se_0180_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "東雲彰人"
+    ],
+    "asset": "an_0180_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "青柳冬弥"
+    ],
+    "asset": "an_0180_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "巡音ルカ"
+    ],
+    "asset": "an_0180_03"
+   }
+  ],
+  "filler_sec": 8.548500061035156,
+  "bpm_main": 138.0
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "482",
+ "title": "ダーリンダンス",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "153",
+ "version": "",
+ "date_added": "2023-03-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 170
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 170
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 122,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 341
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 341
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 283,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 655
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/482/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/482/hard.json",
+     "raw_sha256": "d7a68e7f76518ba9eb40fac42c6eaa6e00cc2ea059e2c9048905180687f13f99"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 655
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 353,
+      "slide": 38,
+      "flick": 22,
+      "hold": 55
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1101
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/482/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/482/expert.json",
+     "raw_sha256": "dc1a0a401c71cd0628cf6dfb95936955023fec67c65fabeef8f793586688d8c3"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 1101
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 60,
+      "tap": 575,
+      "slide": 106,
+      "hold": 53
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 482,
+   "bandId": 3,
+   "jacketImage": "482_darling_dance",
+   "bgmId": "bgm482"
+  },
+  "maa": {
+   "bestdori_song_id": 482,
+   "jacket": {
+    "path": "bestdori/482/jacket-cn-1.png",
+    "server": "cn",
+    "name": "482_darling_dance"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/482/jacket-cn-1.png",
+   "sha256": "feb318622d6d5a33807e397062e5fdaa84b7cd6c0d421be6e39f50f8ce90c1db",
+   "width": 320,
+   "height": 320,
+   "bytes": 33509
+  }
+ },
+ "extra": {
+  "lyricist": "かいりきベア",
+  "composer": "かいりきベア",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1679205600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "だーりんだんす",
+  "title_en": "Darling Dance",
+  "length_s": 124.776
+ }
+}

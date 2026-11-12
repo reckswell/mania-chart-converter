@@ -1,0 +1,227 @@
+{
+ "game": "sekai",
+ "song_id": "143",
+ "title": "トラフィック・ジャム",
+ "artist": "煮ル果実",
+ "title_romaji": "torafikkujamu",
+ "artist_romaji": "nirukajitsu",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "130",
+ "version": "",
+ "date_added": "2021-06-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 177
+   },
+   "source": {
+    "music_difficulty_id": 711,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 3,
+      "tap": 63,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 371
+   },
+   "source": {
+    "music_difficulty_id": 712,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 19,
+      "ex_tap": 15,
+      "tap": 121,
+      "hold": 13,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 638
+   },
+   "source": {
+    "music_difficulty_id": 713,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 36,
+      "ex_tap": 11,
+      "tap": 288,
+      "hold": 17,
+      "flick": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 896
+   },
+   "source": {
+    "music_difficulty_id": 714,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 56,
+      "ex_tap": 22,
+      "tap": 459,
+      "flick": 30,
+      "hold": 54
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1089
+   },
+   "source": {
+    "music_difficulty_id": 715,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 109,
+      "tap": 534,
+      "ex_tap": 17,
+      "flick": 61,
+      "hold": 51
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 143,
+   "assetbundle": "jacket_s_143",
+   "seq": 1407701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_143.png",
+   "sha256": "06a2f593367a10e55ff806eea83dc8a9b561a6e4ef6fc0d473bad972d852990d",
+   "width": 320,
+   "height": 320,
+   "bytes": 32753
+  }
+ },
+ "extra": {
+  "pronunciation": "とらふぃっくじゃむ",
+  "lyricist": "煮ル果実",
+  "composer": "煮ル果実",
+  "arranger": "煮ル果実",
+  "published_at": 1625032800000,
+  "released_at": 1566658800000,
+  "tags": [
+   "street",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "flower"
+    ],
+    "asset": "vs_0143_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音リン",
+     "小豆沢こはね",
+     "白石杏",
+     "東雲彰人",
+     "青柳冬弥"
+    ],
+    "asset": "se_0143_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "小豆沢こはね",
+     "青柳冬弥"
+    ],
+    "asset": "an_0143_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "白石杏",
+     "東雲彰人"
+    ],
+    "asset": "an_0143_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鏡音リン"
+    ],
+    "asset": "an_0143_03"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 130.0
+ }
+}

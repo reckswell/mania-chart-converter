@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "687",
+ "title": "デイオフ・ラフ・ラブ・サンクス",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "140",
+ "version": "",
+ "date_added": "2025-03-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 94
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 94
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 17,
+      "tap": 60
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 210
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 210
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 28,
+      "tap": 148,
+      "slide": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 371
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/687/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/687/hard.json",
+     "raw_sha256": "7b392780468f01d47e10f4664b4f5b561dfb75b24e6dcb8bd73e9cd37105d4fc"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 371
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 20,
+      "tap": 235,
+      "slide": 28,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 731
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/687/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/687/expert.json",
+     "raw_sha256": "715f98fceee77c77ae030bd42b85c689d7623df689c19b90b37ee10e8e00f87a"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 731
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 38,
+      "tap": 483,
+      "hold": 35,
+      "slide": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 687,
+   "bandId": 4,
+   "jacketImage": "687_dayoff_thanks",
+   "bgmId": "bgm687"
+  },
+  "maa": {
+   "bestdori_song_id": 687,
+   "jacket": {
+    "path": "bestdori/687/jacket-cn-1.png",
+    "server": "cn",
+    "name": "687_dayoff_thanks"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/687/jacket-cn-1.png",
+   "sha256": "36a190772859104b94732a433cac5dde0249562356d11cd1f5b0c9622609b901",
+   "width": 320,
+   "height": 320,
+   "bytes": 30203
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "都丸椋太（Elements Garden）/日高勇輝（Elements Garden）",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1743400800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "でいおふらふらぶさんくす",
+  "title_en": "Day off ~Laugh Love Thanks~",
+  "length_s": 116.64
+ }
+}

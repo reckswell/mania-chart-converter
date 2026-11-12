@@ -1,0 +1,213 @@
+{
+ "game": "sekai",
+ "song_id": "111",
+ "title": "カトラリー",
+ "artist": "有機酸",
+ "title_romaji": "katorarii",
+ "artist_romaji": "yuukisan",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "108",
+ "version": "",
+ "date_added": "2021-09-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 125
+   },
+   "source": {
+    "music_difficulty_id": 551,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 10,
+      "tap": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 244
+   },
+   "source": {
+    "music_difficulty_id": 552,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 88,
+      "hold": 13,
+      "slide": 15,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 459
+   },
+   "source": {
+    "music_difficulty_id": 553,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 14,
+      "tap": 269,
+      "slide": 24,
+      "ex_tap": 10,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 686
+   },
+   "source": {
+    "music_difficulty_id": 554,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 413,
+      "hold": 35,
+      "ex_tap": 12,
+      "slide": 33,
+      "flick": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 806
+   },
+   "source": {
+    "music_difficulty_id": 555,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 424,
+      "slide": 99,
+      "ex_tap": 10,
+      "flick": 61,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 111,
+   "assetbundle": "jacket_s_111",
+   "seq": 1609001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_111.png",
+   "sha256": "49bd37ec08e394d3a9a0bcf49c4071a29e51ece716964a33f6c9920bfe0d1d03",
+   "width": 320,
+   "height": 320,
+   "bytes": 10844
+  }
+ },
+ "extra": {
+  "pronunciation": "かとらりー",
+  "lyricist": "有機酸",
+  "composer": "有機酸",
+  "arranger": "有機酸",
+  "published_at": 1632204000000,
+  "released_at": 1514127600000,
+  "tags": [
+   "school_refusal",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0111_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "宵崎奏",
+     "朝比奈まふゆ"
+    ],
+    "asset": "se_0111_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "宵崎奏"
+    ],
+    "asset": "an_0111_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "朝比奈まふゆ"
+    ],
+    "asset": "an_0111_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 108.0
+ }
+}

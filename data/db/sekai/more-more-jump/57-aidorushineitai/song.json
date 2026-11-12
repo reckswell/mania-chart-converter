@@ -1,0 +1,203 @@
+{
+ "game": "sekai",
+ "song_id": "57",
+ "title": "アイドル新鋭隊",
+ "artist": "Mitchie M",
+ "title_romaji": "aidorushineitai",
+ "artist_romaji": "Mitchie M",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "176",
+ "version": "",
+ "date_added": "2019-06-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 153
+   },
+   "source": {
+    "music_difficulty_id": 281,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 56,
+      "ex_tap": 7,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 343
+   },
+   "source": {
+    "music_difficulty_id": 282,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 170,
+      "slide": 12,
+      "flick": 25,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 497
+   },
+   "source": {
+    "music_difficulty_id": 283,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 237,
+      "flick": 41,
+      "slide": 41,
+      "hold": 14,
+      "ex_tap": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 754
+   },
+   "source": {
+    "music_difficulty_id": 284,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 69,
+      "flick": 46,
+      "hold": 13,
+      "tap": 327,
+      "ex_tap": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 940
+   },
+   "source": {
+    "music_difficulty_id": 285,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 112,
+      "flick": 62,
+      "hold": 29,
+      "tap": 359,
+      "ex_tap": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 57,
+   "assetbundle": "jacket_s_057",
+   "seq": 2300101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_057.png",
+   "sha256": "f00e9821f4c7f2e7238f4b5f066004100daddaaa10601c29773e4bab4bc09f6b",
+   "width": 320,
+   "height": 320,
+   "bytes": 39760
+  }
+ },
+ "extra": {
+  "pronunciation": "あいどるしんえいたい",
+  "lyricist": "Mitchie M",
+  "composer": "Mitchie M",
+  "arranger": "Mitchie M",
+  "published_at": 1560148031000,
+  "released_at": 1601391600000,
+  "tags": [
+   "idol",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "鏡音リン",
+     "巡音ルカ",
+     "MEIKO"
+    ],
+    "asset": "vs_0057_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "花里みのり",
+     "桐谷遥",
+     "桃井愛莉",
+     "日野森雫",
+     "初音ミク"
+    ],
+    "asset": "0057_01"
+   }
+  ],
+  "filler_sec": 9.033300399780273,
+  "bpm_main": 176.0
+ }
+}

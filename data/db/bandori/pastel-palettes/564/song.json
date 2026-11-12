@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "564",
+ "title": "魔法少女とチョコレゐト",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "150",
+ "version": "",
+ "date_added": "2024-01-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 140
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 140
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 10,
+      "tap": 120
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 264
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 264
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 236,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 470
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/564/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/564/hard.json",
+     "raw_sha256": "03c456e06a59387824401874492bee2622af3ac871a7617a648c3e4f4551626b"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 470
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 389,
+      "hold": 27,
+      "slide": 3,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 849
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/564/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/564/expert.json",
+     "raw_sha256": "b3af56dc24a53c93585769f022b8dfc4b8b1cac71eb2397a486b530616a596b6"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 849
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 607,
+      "slide": 46,
+      "hold": 45,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 564,
+   "bandId": 4,
+   "jacketImage": "564_mahoshojo_choco",
+   "bgmId": "bgm564"
+  },
+  "maa": {
+   "bestdori_song_id": 564,
+   "jacket": {
+    "path": "bestdori/564/jacket-cn-1.png",
+    "server": "cn",
+    "name": "564_mahoshojo_choco"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/564/jacket-cn-1.png",
+   "sha256": "acb2ba2012ef2d97a1a4f1f323a92f499b4f4b326831e9474980931d5af30c16",
+   "width": 320,
+   "height": 320,
+   "bytes": 27741
+  }
+ },
+ "extra": {
+  "lyricist": "ピノキオピー",
+  "composer": "ピノキオピー",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1704175200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "まほうしょうじょとちょこれいと",
+  "title_en": "Magical Girl and Chocolate",
+  "length_s": 121.656
+ }
+}

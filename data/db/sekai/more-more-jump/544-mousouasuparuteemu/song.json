@@ -1,0 +1,211 @@
+{
+ "game": "sekai",
+ "song_id": "544",
+ "title": "妄想アスパルテーム",
+ "artist": "picco",
+ "title_romaji": "mousouasuparuteemu",
+ "artist_romaji": "picco",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2024-11-05",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 312
+   },
+   "source": {
+    "music_difficulty_id": 2716,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 14,
+      "hold": 14,
+      "tap": 41,
+      "slide": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 410
+   },
+   "source": {
+    "music_difficulty_id": 2717,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 15,
+      "slide": 26,
+      "flick": 18,
+      "tap": 94
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 577
+   },
+   "source": {
+    "music_difficulty_id": 2718,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 49,
+      "slide": 29,
+      "ex_tap": 76,
+      "tap": 244,
+      "hold": 4,
+      "other": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 828
+   },
+   "source": {
+    "music_difficulty_id": 2719,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 65,
+      "flick": 108,
+      "tap": 324,
+      "ex_tap": 110,
+      "other": 11,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1134
+   },
+   "source": {
+    "music_difficulty_id": 2720,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 130,
+      "slide": 77,
+      "tap": 456,
+      "ex_tap": 189,
+      "other": 20,
+      "hold": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 544,
+   "assetbundle": "jacket_s_544",
+   "seq": 1345701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_544.png",
+   "sha256": "8c7b50d557fb7f5394e06a6c24f82df9fe85ff0f7cb85d1794dbd94f0a0120d7",
+   "width": 320,
+   "height": 320,
+   "bytes": 39810
+  }
+ },
+ "extra": {
+  "pronunciation": "もうそうあすぱるてーむ",
+  "lyricist": "picco",
+  "composer": "picco",
+  "arranger": "picco",
+  "published_at": 1730786400000,
+  "released_at": 1675177200000,
+  "tags": [
+   "idol"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0544_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "MEIKO",
+     "花里みのり",
+     "桐谷遥",
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "se_0544_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "桃井愛莉"
+    ],
+    "asset": "an_0544_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 170.0
+ }
+}

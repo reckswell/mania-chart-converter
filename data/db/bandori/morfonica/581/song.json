@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "581",
+ "title": "蒼穹へのトレイル",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "192",
+ "version": "",
+ "date_added": "2024-02-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 154
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 154
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 106,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 259
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 259
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 176,
+      "hold": 37,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 424
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/581/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/581/hard.json",
+     "raw_sha256": "88416c85741125bd2d857f9ceb26d330ffc3afb849857072b401d76c0db46c6e"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 424
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 31,
+      "tap": 258,
+      "slide": 33,
+      "flick": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 785
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/581/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/581/expert.json",
+     "raw_sha256": "b4d6c33ec3960dd847580f03cfb8d8e0974c6dbbeaef7155e13823e7e957a0cc"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 785
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 32,
+      "slide": 61,
+      "tap": 519,
+      "flick": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 581,
+   "bandId": 21,
+   "jacketImage": "581_sokyu_trail",
+   "bgmId": "bgm581"
+  },
+  "maa": {
+   "bestdori_song_id": 581,
+   "jacket": {
+    "path": "bestdori/581/jacket-cn-1.png",
+    "server": "cn",
+    "name": "581_sokyu_trail"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/581/jacket-cn-1.png",
+   "sha256": "9b32e5faae67ad656aa615f20efe53a5e75f94aaf080fbd92c7756e65326d13a",
+   "width": 320,
+   "height": 320,
+   "bytes": 25139
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "近藤世真（Elements Garden）",
+  "arranger": "近藤世真（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1709186400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "そうきゅうへのとれいる",
+  "title_en": "Trail to the Blue Sky",
+  "length_s": 111.936
+ }
+}

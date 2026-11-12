@@ -1,0 +1,207 @@
+{
+ "game": "sekai",
+ "song_id": "281",
+ "title": "気まぐれメルシィ",
+ "artist": "八王子P",
+ "title_romaji": "kimaguremerushi",
+ "artist_romaji": "hachioujipii",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "160",
+ "version": "",
+ "date_added": "2023-01-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 299
+   },
+   "source": {
+    "music_difficulty_id": 1401,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 60,
+      "hold": 29,
+      "ex_tap": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 563
+   },
+   "source": {
+    "music_difficulty_id": 1402,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 139,
+      "ex_tap": 26,
+      "slide": 45,
+      "flick": 12,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 788
+   },
+   "source": {
+    "music_difficulty_id": 1403,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 257,
+      "ex_tap": 92,
+      "flick": 36,
+      "slide": 87
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1247
+   },
+   "source": {
+    "music_difficulty_id": 1404,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 477,
+      "ex_tap": 125,
+      "flick": 87,
+      "slide": 108,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1465
+   },
+   "source": {
+    "music_difficulty_id": 1405,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 643,
+      "ex_tap": 104,
+      "flick": 223,
+      "slide": 100,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 281,
+   "assetbundle": "jacket_s_281",
+   "seq": 1323101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_281.png",
+   "sha256": "a4a223830a8c21865ea9b54c0df15e83c2f242d928ffab00e41c758a8980d867",
+   "width": 320,
+   "height": 320,
+   "bytes": 19205
+  }
+ },
+ "extra": {
+  "pronunciation": "きまぐれめるしぃ",
+  "lyricist": "八王子P/q*Left",
+  "composer": "八王子P",
+  "arranger": "八王子P",
+  "published_at": 1672639200000,
+  "released_at": 1464879600000,
+  "tags": [
+   "idol"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0281_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "花里みのり",
+     "桐谷遥",
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "se_0281_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "桃井愛莉"
+    ],
+    "asset": "an_0281_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 160.0
+ }
+}

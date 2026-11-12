@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "488",
+ "title": "Made My Day",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "182-190",
+ "version": "",
+ "date_added": "2023-03-25",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 201
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 201
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 109,
+      "hold": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 304
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 304
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 192,
+      "hold": 56
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 555
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/488/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/488/hard.json",
+     "raw_sha256": "d6448e2c57ad0677108d3c20601158dfd885595d5551019570e5488873ec3484"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 555
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 326,
+      "flick": 13,
+      "slide": 41,
+      "hold": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 950
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/488/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/488/expert.json",
+     "raw_sha256": "67d167e5580b8db0aa3e99a40a039985b8f7fe17a8f070a710d1a9dd8f8b5e83"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 950
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 698,
+      "flick": 28,
+      "slide": 41,
+      "hold": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 488,
+   "bandId": 2,
+   "jacketImage": "488_made_my_day",
+   "bgmId": "bgm488"
+  },
+  "maa": {
+   "bestdori_song_id": 488,
+   "jacket": {
+    "path": "bestdori/488/jacket-cn-1.png",
+    "server": "cn",
+    "name": "488_made_my_day"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/488/jacket-cn-1.png",
+   "sha256": "b7650963768c4abf3e48db1cd132949e96b12922b0367f6f7e7e7322196d3793",
+   "width": 320,
+   "height": 320,
+   "bytes": 21326
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "堀川大翼（Elements Garden）",
+  "arranger": "堀川大翼（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1679724000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "mademyday",
+  "length_s": 120.384
+ }
+}

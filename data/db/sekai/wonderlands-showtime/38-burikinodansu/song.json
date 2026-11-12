@@ -1,0 +1,214 @@
+{
+ "game": "sekai",
+ "song_id": "38",
+ "title": "ブリキノダンス",
+ "artist": "日向電工",
+ "title_romaji": "burikinodansu",
+ "artist_romaji": "hinatadenkou",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "172",
+ "version": "",
+ "date_added": "2019-06-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 113
+   },
+   "source": {
+    "music_difficulty_id": 186,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 67,
+      "hold": 4,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 347
+   },
+   "source": {
+    "music_difficulty_id": 187,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 249,
+      "slide": 22,
+      "flick": 10,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 618
+   },
+   "source": {
+    "music_difficulty_id": 188,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 11,
+      "tap": 264,
+      "hold": 6,
+      "flick": 42,
+      "slide": 66
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 852
+   },
+   "source": {
+    "music_difficulty_id": 189,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 25,
+      "tap": 415,
+      "hold": 32,
+      "flick": 45,
+      "slide": 75
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 967
+   },
+   "source": {
+    "music_difficulty_id": 190,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 28,
+      "tap": 517,
+      "slide": 71,
+      "flick": 56,
+      "hold": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 38,
+   "assetbundle": "jacket_s_038",
+   "seq": 1500101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_038.png",
+   "sha256": "cb5510c54b2500b0c134933f05998871b000be0a928aeacf40a070d6c350b1cb",
+   "width": 320,
+   "height": 320,
+   "bytes": 28141
+  }
+ },
+ "extra": {
+  "pronunciation": "ぶりきのだんす",
+  "lyricist": "日向電工",
+  "composer": "日向電工",
+  "arranger": "日向電工",
+  "published_at": 1560148031000,
+  "released_at": 1362841200000,
+  "tags": [
+   "theme_park",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "0038_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音レン",
+     "天馬司",
+     "神代類"
+    ],
+    "asset": "0038_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "天馬司"
+    ],
+    "asset": "an_0038_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "神代類"
+    ],
+    "asset": "an_0038_02"
+   }
+  ],
+  "filler_sec": 8.973999977111816,
+  "bpm_main": 172.0
+ }
+}

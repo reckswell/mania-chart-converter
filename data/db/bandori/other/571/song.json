@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "571",
+ "title": "グッド・バイ",
+ "artist": "john feat. 夢ノ結唱 ROSE",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "john feat. 夢ノ結唱 ROSE",
+ "bpm": "138",
+ "version": "",
+ "date_added": "2024-01-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 151
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 151
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 119,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 293
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 293
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 241,
+      "hold": 24,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 565
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/571/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/571/hard.json",
+     "raw_sha256": "8358ccfc8c53c1535277136639496450e2327bd2a4d311a41addc437b0fbc3b8"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 565
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 338,
+      "hold": 61,
+      "slide": 23,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1018
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/571/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/571/expert.json",
+     "raw_sha256": "0a2e6d57df50a213611f58a620c22d184d342f34447b93b6ab9aae98c73dec52"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 1018
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 69,
+      "tap": 615,
+      "slide": 78,
+      "flick": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 571,
+   "bandId": 75,
+   "jacketImage": "571_good_bye",
+   "bgmId": "bgm571"
+  },
+  "maa": {
+   "bestdori_song_id": 571,
+   "jacket": {
+    "path": "bestdori/571/jacket-cn-1.png",
+    "server": "cn",
+    "name": "571_good_bye"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/571/jacket-cn-1.png",
+   "sha256": "64b35c685ed49c996f14641c97d6d92777dc30567a50ab8064cd5a92a82b29ce",
+   "width": 320,
+   "height": 320,
+   "bytes": 25820
+  }
+ },
+ "extra": {
+  "lyricist": "john",
+  "composer": "john",
+  "arranger": "john",
+  "tag": "normal",
+  "published_at": 1704261600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ぐっどばい",
+  "title_en": "good bye",
+  "length_s": 131.376
+ }
+}

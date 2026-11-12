@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "496",
+ "title": "少女レイ",
+ "artist": "Poppin'Party×ましろ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party×ましろ",
+ "bpm": "150",
+ "version": "",
+ "date_added": "2023-04-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 128
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 128
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 82,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 260
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 260
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 145,
+      "hold": 52,
+      "slide": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 472
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/496/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/496/hard.json",
+     "raw_sha256": "d3b62d94837c93ed6dc14d676bc43fad729d873d1f4bdd9c0edd05dc7efd7de1"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 472
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 288,
+      "slide": 53,
+      "hold": 28,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 806
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/496/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/496/expert.json",
+     "raw_sha256": "eeb99fbc0d3645ea8d519c3ce568afe301ea860ce0ef20bb815fa43420e2c2eb"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 806
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 498,
+      "slide": 101,
+      "hold": 23,
+      "flick": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 496,
+   "bandId": 63,
+   "jacketImage": "496_syojo_rei",
+   "bgmId": "bgm496"
+  },
+  "maa": {
+   "bestdori_song_id": 496,
+   "jacket": {
+    "path": "bestdori/496/jacket-cn-1.png",
+    "server": "cn",
+    "name": "496_syojo_rei"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/496/jacket-cn-1.png",
+   "sha256": "f37037981ceb58c9592851db3d401a2e07d6e22f713b18b16fcbc2a6db584f76",
+   "width": 320,
+   "height": 320,
+   "bytes": 33204
+  }
+ },
+ "extra": {
+  "lyricist": "みきとP",
+  "composer": "みきとP",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1682834400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "しょうじょれい",
+  "title_en": "Shoujo Rei",
+  "length_s": 128.856
+ }
+}

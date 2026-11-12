@@ -1,0 +1,218 @@
+{
+ "game": "sekai",
+ "song_id": "630",
+ "title": "幸福刑",
+ "artist": "LonePi",
+ "title_romaji": "koufukukei",
+ "artist_romaji": "LonePi",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "140",
+ "version": "",
+ "date_added": "2026-01-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 202
+   },
+   "source": {
+    "music_difficulty_id": 3146,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 59,
+      "slide": 4,
+      "hold": 10,
+      "ex_tap": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 327
+   },
+   "source": {
+    "music_difficulty_id": 3147,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 117,
+      "hold": 7,
+      "slide": 17,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 533
+   },
+   "source": {
+    "music_difficulty_id": 3148,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 38,
+      "tap": 215,
+      "ex_tap": 25,
+      "flick": 25,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 773
+   },
+   "source": {
+    "music_difficulty_id": 3149,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 41,
+      "tap": 399,
+      "slide": 63,
+      "ex_tap": 53,
+      "flick": 20,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 907
+   },
+   "source": {
+    "music_difficulty_id": 3150,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 469,
+      "flick": 25,
+      "slide": 85,
+      "ex_tap": 99,
+      "other": 25,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 630,
+   "assetbundle": "jacket_s_630",
+   "seq": 2660001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_630.png",
+   "sha256": "94a508972621ccbfa2d8e28a4efbbf432506d48203697e7d876540f15e313667",
+   "width": 320,
+   "height": 320,
+   "bytes": 17084
+  }
+ },
+ "extra": {
+  "pronunciation": "こうふくけい",
+  "lyricist": "LonePi",
+  "composer": "LonePi",
+  "arranger": "LonePi",
+  "published_at": 1768827900000,
+  "released_at": 1768748400000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0630_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "宵崎奏",
+     "MEIKO",
+     "朝比奈まふゆ",
+     "東雲絵名",
+     "暁山瑞希"
+    ],
+    "asset": "se_0630_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "宵崎奏"
+    ],
+    "asset": "an_0630_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "MEIKO"
+    ],
+    "asset": "an_0630_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 140.0
+ }
+}

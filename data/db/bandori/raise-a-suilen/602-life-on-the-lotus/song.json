@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "602",
+ "title": "Life on the Lotus",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "160-203",
+ "version": "",
+ "date_added": "2024-04-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 102
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 102
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 13,
+      "tap": 76
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 203
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 203
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 37,
+      "tap": 129
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 409
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/602/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/602/hard.json",
+     "raw_sha256": "9b97236f768110c5dacf27f801ec1dede1a59302f0c814f71bece7d05527789c"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 409
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 50,
+      "tap": 226,
+      "hold": 26,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 685
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/602/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/602/expert.json",
+     "raw_sha256": "c613a02ff2a917cde99b5b54f4dbe493f8db065e3108c96d059bd871b7393246"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 685
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 81,
+      "tap": 389,
+      "flick": 36,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 602,
+   "bandId": 18,
+   "jacketImage": "602_life_on_the_lotus",
+   "bgmId": "bgm602"
+  },
+  "maa": {
+   "bestdori_song_id": 602,
+   "jacket": {
+    "path": "bestdori/602/jacket-cn-1.png",
+    "server": "cn",
+    "name": "602_life_on_the_lotus"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/602/jacket-cn-1.png",
+   "sha256": "5a4fcbf3f349236e649fbd376a9488232f55f2f742122b3a9f11aafad06118e4",
+   "width": 320,
+   "height": 320,
+   "bytes": 18670
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "竹田祐介（Elements Garden）",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1713592800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "lifeonthelotus",
+  "length_s": 114.072
+ }
+}

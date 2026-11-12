@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "677",
+ "title": "Reweave",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "183",
+ "version": "",
+ "date_added": "2025-03-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 101
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 101
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 71,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 301
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 301
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 249,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 566
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/677/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/677/hard.json",
+     "raw_sha256": "8648c0a08e14e4b2b9944ee7ee122c5e03510b96c18ff54fbf37a6d7422ba616"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 566
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 391,
+      "slide": 25,
+      "hold": 38,
+      "flick": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 882
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/677/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/677/expert.json",
+     "raw_sha256": "bd8d21234e55c2c8476b49a1f46ee1049f888b9da91da7784e628638a2820bcd"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 882
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 583,
+      "slide": 41,
+      "hold": 63,
+      "flick": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 677,
+   "bandId": 5,
+   "jacketImage": "677_reweave",
+   "bgmId": "bgm677"
+  },
+  "maa": {
+   "bestdori_song_id": 677,
+   "jacket": {
+    "path": "bestdori/677/jacket-cn-1.png",
+    "server": "cn",
+    "name": "677_reweave"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/677/jacket-cn-1.png",
+   "sha256": "501d6555c4a274a093f53696578b082f433cbef000a3d5bb22eaed1b35605992",
+   "width": 320,
+   "height": 320,
+   "bytes": 37354
+  }
+ },
+ "extra": {
+  "lyricist": "烏屋 茶房",
+  "composer": "Tom-H@ck",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1742450400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "reweave",
+  "length_s": 111.528
+ }
+}

@@ -1,0 +1,172 @@
+{
+ "game": "bandori",
+ "song_id": "110",
+ "title": "GLAMOROUS SKY",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "103-152",
+ "version": "",
+ "date_added": "2018-03-18",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 194
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 194
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 144,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 399
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 399
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 53,
+      "tap": 293
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 541
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/110/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/110/hard.json",
+     "raw_sha256": "8202f5e73ae8f0ce5e23b0e5ee823e9dfa5dca1eda4da0b0ab2fabff36932807"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 541
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 69,
+      "tap": 392,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 780
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/110/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/110/expert.json",
+     "raw_sha256": "4b1045713e66621b5450513661e09a74f07dc2b43a81fd3ba00f6eb947b9b41e"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 780
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 621,
+      "hold": 66,
+      "flick": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 110,
+   "bandId": 1,
+   "jacketImage": "110_glamorous_sky",
+   "bgmId": "bgm110"
+  },
+  "maa": {
+   "bestdori_song_id": 110,
+   "jacket": {
+    "path": "bestdori/110/jacket-cn-1.png",
+    "server": "cn",
+    "name": "110_glamorous_sky"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/110/jacket-cn-1.png",
+   "sha256": "3170fc72082dfb0c1df308e741d0976525d9cb6b64f4a7f76103f101f6d7aae0",
+   "width": 320,
+   "height": 320,
+   "bytes": 32316
+  }
+ },
+ "extra": {
+  "lyricist": "AI YAZAWA",
+  "composer": "HYDE",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1521352800000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "glamoroussky",
+  "length_s": 144.72
+ }
+}

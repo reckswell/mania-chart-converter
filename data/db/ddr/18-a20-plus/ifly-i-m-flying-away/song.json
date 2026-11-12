@@ -1,0 +1,305 @@
+{
+ "game": "ddr",
+ "song_id": "ifly",
+ "title": "I'm Flying Away",
+ "artist": "Stepper",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "DanceDanceRevolution A20 PLUS",
+ "bpm": "180",
+ "version": "DanceDanceRevolution A20 PLUS",
+ "date_added": "",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "BEGINNER",
+   "level": "2",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 71
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 213,
+     "sanbaiTier": 2.25
+    },
+    "tachi": {
+     "id": "C19d35e211cd3f44cdc5"
+    },
+    "simfile": {
+     "chart": "dance-single/Beginner",
+     "meter": "2",
+     "steps": 69,
+     "freezes": 2,
+     "shocks": 0,
+     "combo": 71
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 71,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "BASIC",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 159
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 471,
+     "sanbaiTier": 5.1
+    },
+    "tachi": {
+     "id": "C19d35e211cd997b1220"
+    },
+    "simfile": {
+     "chart": "dance-single/Easy",
+     "meter": "5",
+     "steps": 145,
+     "freezes": 16,
+     "shocks": 0,
+     "combo": 157
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 144,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "combo 157 in the simfile (steps + freeze rows + shock rows), Tachi's stepCount is 159",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "DIFFICULT",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 271
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 813,
+     "sanbaiTier": 8.25
+    },
+    "tachi": {
+     "id": "C19d35e211cd2c0c1e3b"
+    },
+    "simfile": {
+     "chart": "dance-single/Medium",
+     "meter": "8",
+     "steps": 264,
+     "freezes": 8,
+     "shocks": 0,
+     "combo": 271
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 269,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 401
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1203,
+     "sanbaiTier": 12.05
+    },
+    "tachi": {
+     "id": "C19d35e211cd7f89f413"
+    },
+    "simfile": {
+     "chart": "dance-single/Hard",
+     "meter": "12",
+     "steps": 361,
+     "freezes": 40,
+     "shocks": 0,
+     "combo": 401
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 362,
+      "hold": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-normal": {
+   "slot": "double-normal",
+   "native": "DOUBLE BASIC",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 152
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 456,
+     "sanbaiTier": 5.05
+    },
+    "tachi": {
+     "id": "C19d35e217c4bcc4ac3a"
+    },
+    "simfile": {
+     "chart": "dance-double/Easy",
+     "meter": "5",
+     "steps": 140,
+     "freezes": 15,
+     "shocks": 0,
+     "combo": 152
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 138,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-hard": {
+   "slot": "double-hard",
+   "native": "DOUBLE DIFFICULT",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 271
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 813,
+     "sanbaiTier": 8.2
+    },
+    "tachi": {
+     "id": "C19d35e217c4c22365bd"
+    },
+    "simfile": {
+     "chart": "dance-double/Medium",
+     "meter": "8",
+     "steps": 264,
+     "freezes": 8,
+     "shocks": 0,
+     "combo": 271
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 268,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-expert": {
+   "slot": "double-expert",
+   "native": "DOUBLE EXPERT",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 402
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1206,
+     "sanbaiTier": 12
+    },
+    "tachi": {
+     "id": "C19d35e217c444a9c786"
+    },
+    "simfile": {
+     "chart": "dance-double/Hard",
+     "meter": "12",
+     "steps": 362,
+     "freezes": 40,
+     "shocks": 0,
+     "combo": 402
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 358,
+      "hold": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "ddrcarddraw": {
+   "id": "OiDP81OQD0I810I89qdqIiDDP6i9qO0q",
+   "jacket": "ddr_a20plus/I'm Flying Away.jpg"
+  },
+  "tachi": {
+   "id": "S19d35e195ade4254aba",
+   "basename": "ifly",
+   "inGameID": 37231
+  },
+  "simfile": {
+   "path": "public/sm/A20 Plus/I'm Flying Away/I'm Flying Away.sm",
+   "url": "https://raw.githubusercontent.com/blackalice/ddr-dan-tool/HEAD/public/sm/A20%20Plus/I%27m%20Flying%20Away/I%27m%20Flying%20Away.sm",
+   "song_id": "ifly"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/blackalice/ddr-dan-tool/HEAD/public/sm/A20%20Plus/I%27m%20Flying%20Away/I%27m%20Flying%20Away-jacket.png",
+   "sha256": "14c61e253728613f027903bad59df3d4dd9f7648e70f719eae4ffa176ccfb722",
+   "width": 320,
+   "height": 320,
+   "bytes": 17945
+  }
+ },
+ "extra": {
+  "song_hash": "OiDP81OQD0I810I89qdqIiDDP6i9qO0q",
+  "remywiki": "https://remywiki.com/I%27m_Flying_Away",
+  "flare_category": "GOLD"
+ }
+}

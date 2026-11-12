@@ -1,0 +1,221 @@
+{
+ "game": "sekai",
+ "song_id": "646",
+ "title": "透明なパレット",
+ "artist": "Aqu3ra",
+ "title_romaji": "toumeinaparetto",
+ "artist_romaji": "Aqu3ra",
+ "genre": "Leo/need",
+ "bpm": "210",
+ "version": "",
+ "date_added": "2025-07-15",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 280
+   },
+   "source": {
+    "music_difficulty_id": 3226,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 16,
+      "tap": 67,
+      "slide": 6,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 467
+   },
+   "source": {
+    "music_difficulty_id": 3227,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 6,
+      "slide": 19,
+      "flick": 9,
+      "tap": 118,
+      "other": 4,
+      "ex_tap": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 703
+   },
+   "source": {
+    "music_difficulty_id": 3228,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 166,
+      "slide": 55,
+      "ex_tap": 40,
+      "other": 9,
+      "flick": 17,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 852
+   },
+   "source": {
+    "music_difficulty_id": 3229,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 207,
+      "slide": 67,
+      "ex_tap": 73,
+      "flick": 58,
+      "hold": 16,
+      "other": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1027
+   },
+   "source": {
+    "music_difficulty_id": 3230,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 403,
+      "other": 62,
+      "ex_tap": 110,
+      "flick": 60,
+      "hold": 15,
+      "slide": 71
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 646,
+   "assetbundle": "jacket_s_646",
+   "seq": 2253601
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_646.png",
+   "sha256": "3aeaa4f861f9a728c9a1038eee145ec4c11cc79b8b210de8ec07272061705900",
+   "width": 320,
+   "height": 320,
+   "bytes": 25364
+  }
+ },
+ "extra": {
+  "pronunciation": "とうめいなぱれっと",
+  "lyricist": "Aqu3ra",
+  "composer": "Aqu3ra",
+  "arranger": "Aqu3ra",
+  "published_at": 1752559200000,
+  "released_at": 1752505200000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0646_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "望月穂波",
+     "鏡音リン",
+     "星乃一歌",
+     "天馬咲希",
+     "日野森志歩"
+    ],
+    "asset": "se_0646_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "望月穂波"
+    ],
+    "asset": "an_0646_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鏡音リン"
+    ],
+    "asset": "an_0646_02"
+   }
+  ],
+  "filler_sec": 8.428600311279297,
+  "bpm_main": 210.0
+ }
+}

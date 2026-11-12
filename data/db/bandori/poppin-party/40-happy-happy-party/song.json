@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "40",
+ "title": "Happy Happy Party！",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "140",
+ "version": "",
+ "date_added": "2016-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 73
+   },
+   "source": {
+    "notesQuantity": 88,
+    "bestdori": {
+     "level": 6,
+     "notes": 73
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 59,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 88 differs from combo 73 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 255
+   },
+   "source": {
+    "notesQuantity": 215,
+    "bestdori": {
+     "level": 12,
+     "notes": 255
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 225,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 215 differs from combo 255 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 425
+   },
+   "source": {
+    "notesQuantity": 432,
+    "maa": {
+     "path": "bestdori/40/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/40/hard.json",
+     "raw_sha256": "a9545c81b4eeb687e76820607f6c70c16a9a041c448d2bf77188aea083fcc420"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 425
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 293,
+      "flick": 28,
+      "hold": 48,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 432 differs from combo 425 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 549
+   },
+   "source": {
+    "notesQuantity": 551,
+    "maa": {
+     "path": "bestdori/40/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/40/expert.json",
+     "raw_sha256": "29dde793351a87d5f2f8d60030102ae3390de3ebd28669d4cc4f83f7db2c44b7"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 549
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 355,
+      "flick": 30,
+      "hold": 59,
+      "slide": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 551 differs from combo 549 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 40,
+   "bandId": 1,
+   "jacketImage": "kirayume",
+   "bgmId": "bgm040"
+  },
+  "maa": {
+   "bestdori_song_id": 40,
+   "jacket": {
+    "path": "bestdori/40/jacket-cn-1.png",
+    "server": "cn",
+    "name": "kirayume"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/40/jacket-cn-1.png",
+   "sha256": "4faace7630ab15cf1604e9b36be3cb709b316841427ef4388d7d3dec92933c9a",
+   "width": 320,
+   "height": 320,
+   "bytes": 39396
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1462071600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "happyhappyparty",
+  "title_en": "Happy Happy Party!",
+  "length_s": 124.056
+ }
+}

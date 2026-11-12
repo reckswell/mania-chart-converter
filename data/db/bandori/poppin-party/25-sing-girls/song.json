@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "25",
+ "title": "キラキラだとか夢だとか ～Sing Girls～",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2016-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 152
+   },
+   "source": {
+    "notesQuantity": 116,
+    "bestdori": {
+     "level": 8,
+     "notes": 152
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 142,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 116 differs from combo 152 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 296
+   },
+   "source": {
+    "notesQuantity": 280,
+    "bestdori": {
+     "level": 14,
+     "notes": 296
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 258,
+      "hold": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 280 differs from combo 296 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 363
+   },
+   "source": {
+    "notesQuantity": 359,
+    "maa": {
+     "path": "bestdori/25/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/25/hard.json",
+     "raw_sha256": "7d96107396b8a6f9030dac813e0da1d287cfd01bec80f2527fd59b4617146b23"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 363
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 293,
+      "hold": 22,
+      "slide": 4,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 359 differs from combo 363 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 613
+   },
+   "source": {
+    "notesQuantity": 613,
+    "maa": {
+     "path": "bestdori/25/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/25/expert.json",
+     "raw_sha256": "60b6fde77bda9b45b1af301bc9ffb52f0f6fdd8f19433501d59fff2f4c4f95e2"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 613
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 288,
+      "hold": 75,
+      "slide": 38,
+      "flick": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 839
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1577620800000,
+    "maa": {
+     "path": "bestdori/25/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/25/special.json",
+     "raw_sha256": "1041f598482e3496052021435f256121c7d8aff4811dfc5cc7bc3f0953a6fbfe"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 839
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 585,
+      "flick": 42,
+      "slide": 42,
+      "hold": 52
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 25,
+   "bandId": 1,
+   "jacketImage": "kirayume",
+   "bgmId": "bgm025"
+  },
+  "maa": {
+   "bestdori_song_id": 25,
+   "jacket": {
+    "path": "bestdori/25/jacket-cn-1.png",
+    "server": "cn",
+    "name": "kirayume"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/25/jacket-cn-1.png",
+   "sha256": "4faace7630ab15cf1604e9b36be3cb709b316841427ef4388d7d3dec92933c9a",
+   "width": 320,
+   "height": 320,
+   "bytes": 39396
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1462071600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "きらきらだとかゆめだとかsinggirls",
+  "title_en": "Sparkling Dreaming ~ Sing Girls ~",
+  "length_s": 112.584
+ }
+}

@@ -1,0 +1,212 @@
+{
+ "game": "bandori",
+ "song_id": "160",
+ "title": "R·I·O·T",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "140",
+ "version": "",
+ "date_added": "2018-12-12",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 130
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 130
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 80,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 221
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 221
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 128,
+      "hold": 46,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 534
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/160/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/160/hard.json",
+     "raw_sha256": "032a3c1507bb0835f276ccce96191bcacf29b34a751121081c3c19d970588189"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 534
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 327,
+      "hold": 60,
+      "flick": 17,
+      "slide": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 743
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/160/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/160/expert.json",
+     "raw_sha256": "4238f889dee578977ad1ab1723c526732738692a1c0f3b72a45b856c8a5e0dcd"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 743
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 484,
+      "hold": 67,
+      "flick": 29,
+      "slide": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 875
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1632290400000,
+    "maa": {
+     "path": "bestdori/160/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/160/special.json",
+     "raw_sha256": "8c01071c50f6a88c23e85ebe63051fc488b2ff1eac9295009720b5be4896a249"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 875
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 86,
+      "tap": 506,
+      "flick": 80,
+      "hold": 23
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 160,
+   "bandId": 18,
+   "jacketImage": "160_riot_raise",
+   "bgmId": "bgm160"
+  },
+  "maa": {
+   "bestdori_song_id": 160,
+   "jacket": {
+    "path": "bestdori/160/jacket-cn-1.png",
+    "server": "cn",
+    "name": "160_riot_raise"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/160/jacket-cn-1.png",
+   "sha256": "1f14f9768553e35412285219b79e93b377055b1ad7568f273eedf6ec3e606412",
+   "width": 320,
+   "height": 320,
+   "bytes": 21116
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1544594400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "riot",
+  "title_en": "R・I・O・T",
+  "length_s": 120.912
+ }
+}

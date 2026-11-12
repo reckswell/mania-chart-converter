@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "566",
+ "title": "私は最強",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "192",
+ "version": "",
+ "date_added": "2024-01-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 131
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 131
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 29,
+      "tap": 73
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 219
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 219
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 43,
+      "tap": 133
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 474
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/566/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/566/hard.json",
+     "raw_sha256": "e009ad59d9e2e83b02dbd80e40b31175dd8f5db9deb9b2b050844a492a7d2b97"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 474
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 83,
+      "tap": 276,
+      "slide": 10,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 651
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/566/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/566/expert.json",
+     "raw_sha256": "4e08df9bf14bd3569ad196fff0de8f217763c0d68ef8f8125db9d3cbe6ca992a"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 651
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 68,
+      "tap": 396,
+      "slide": 30,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 566,
+   "bandId": 1,
+   "jacketImage": "566_watashi_ha_saikyo",
+   "bgmId": "bgm566"
+  },
+  "maa": {
+   "bestdori_song_id": 566,
+   "jacket": {
+    "path": "bestdori/566/jacket-cn-1.png",
+    "server": "cn",
+    "name": "566_watashi_ha_saikyo"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/566/jacket-cn-1.png",
+   "sha256": "c1370d5b305be8a71bc10b197e2e7260c6d9b8375aa1accd5281fc0c76c7b67a",
+   "width": 320,
+   "height": 320,
+   "bytes": 28924
+  }
+ },
+ "extra": {
+  "lyricist": "大森　元貴",
+  "composer": "大森　元貴",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1704088800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "わたしはさいきょう",
+  "title_en": "I'm invincible",
+  "length_s": 114.432
+ }
+}

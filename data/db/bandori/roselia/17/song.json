@@ -1,0 +1,209 @@
+{
+ "game": "bandori",
+ "song_id": "17",
+ "title": "魂のルフラン",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "130",
+ "version": "",
+ "date_added": "2016-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 88
+   },
+   "source": {
+    "notesQuantity": 82,
+    "bestdori": {
+     "level": 6,
+     "notes": 88
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 76,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 82 differs from combo 88 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 228
+   },
+   "source": {
+    "notesQuantity": 206,
+    "bestdori": {
+     "level": 12,
+     "notes": 228
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 202,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 206 differs from combo 228 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 386
+   },
+   "source": {
+    "notesQuantity": 351,
+    "maa": {
+     "path": "bestdori/17/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/17/hard.json",
+     "raw_sha256": "8a697c2f126ff9f3f20942244a8ab64d871e8d4d97076d53b88ec9993d55775d"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 386
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 332,
+      "hold": 25,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 351 differs from combo 386 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 698
+   },
+   "source": {
+    "notesQuantity": 698,
+    "maa": {
+     "path": "bestdori/17/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/17/expert.json",
+     "raw_sha256": "cfca24f79dbcee57f09b9114c268ed90ea912d3611dce073bfc813b5b4e666a9"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 698
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 456,
+      "hold": 80,
+      "flick": 9,
+      "slide": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 951
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1540814400000,
+    "maa": {
+     "path": "bestdori/17/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/17/special.json",
+     "raw_sha256": "6a7625b742ebdb03653bfe88f15a8b49b3f13c0f64dd5b171365f8d28d72e950"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 951
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 463,
+      "hold": 116,
+      "slide": 72,
+      "flick": 52
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 17,
+   "bandId": 5,
+   "jacketImage": "refrain",
+   "bgmId": "bgm017"
+  },
+  "maa": {
+   "bestdori_song_id": 17,
+   "jacket": {
+    "path": "bestdori/17/jacket-cn-1.png",
+    "server": "cn",
+    "name": "refrain"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/17/jacket-cn-1.png",
+   "sha256": "8341e06a2114cfd8785590d768528c35597d230d74432a32dd7eba14bfc4bacd",
+   "width": 320,
+   "height": 320,
+   "bytes": 27262
+  }
+ },
+ "extra": {
+  "lyricist": "及川眠子",
+  "composer": "大森俊之",
+  "arranger": "都丸椋太（Elements Garden）／加納望",
+  "tag": "anime",
+  "published_at": 1462071600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "たましいのるふらん",
+  "title_en": "Soul's Refrain",
+  "length_s": 152.784
+ }
+}

@@ -1,0 +1,259 @@
+{
+ "game": "sekai",
+ "song_id": "138",
+ "title": "KING",
+ "artist": "Kanaria",
+ "title_romaji": "KING",
+ "artist_romaji": "Kanaria",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "166",
+ "version": "",
+ "date_added": "2021-05-17",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 222
+   },
+   "source": {
+    "music_difficulty_id": 686,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 63,
+      "hold": 14,
+      "ex_tap": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 466
+   },
+   "source": {
+    "music_difficulty_id": 687,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 188,
+      "flick": 5,
+      "ex_tap": 39,
+      "slide": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 694
+   },
+   "source": {
+    "music_difficulty_id": 688,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 441,
+      "hold": 14,
+      "ex_tap": 36,
+      "slide": 40,
+      "flick": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "duplicate slides: 4; stacked taps identical: 110",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1002
+   },
+   "source": {
+    "music_difficulty_id": 689,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 472,
+      "slide": 79,
+      "ex_tap": 138,
+      "flick": 75,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1251
+   },
+   "source": {
+    "music_difficulty_id": 690,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 530,
+      "hold": 65,
+      "slide": 120,
+      "ex_tap": 63,
+      "flick": 129
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1388
+   },
+   "source": {
+    "music_difficulty_id": 4050,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 366,
+      "other": 2,
+      "ex_tap": 194,
+      "flick": 63,
+      "slide": 97,
+      "hold": 101
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "not represented: side-lane hold #mmm2xy×10",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 138,
+   "assetbundle": "jacket_s_138",
+   "seq": 1507001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_138.png",
+   "sha256": "6fdf6065a8c744d3d99e32de73aa7e6389304e0a8519a04bee04595dae76348e",
+   "width": 320,
+   "height": 320,
+   "bytes": 36171
+  }
+ },
+ "extra": {
+  "pronunciation": "きんぐ",
+  "lyricist": "Kanaria",
+  "composer": "Kanaria",
+  "arranger": "-",
+  "published_at": 1621231200000,
+  "released_at": 1596294000000,
+  "tags": [
+   "theme_park",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "GUMI"
+    ],
+    "asset": "vs_0138_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "天馬司",
+     "神代類"
+    ],
+    "asset": "se_0138_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "天馬司"
+    ],
+    "asset": "an_0138_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "神代類"
+    ],
+    "asset": "an_0138_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "KAITO"
+    ],
+    "asset": "an_0138_03"
+   },
+   {
+    "type": "sekai",
+    "caption": "あんさんぶるスターズ！！コラボver.",
+    "singers": [
+     "天馬司",
+     "神代類",
+     "Crazy:B"
+    ],
+    "asset": "collabo_es_138_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 166.0
+ }
+}

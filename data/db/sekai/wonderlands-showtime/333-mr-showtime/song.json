@@ -1,0 +1,215 @@
+{
+ "game": "sekai",
+ "song_id": "333",
+ "title": "Mr. Showtime",
+ "artist": "ひとしずく×やま△",
+ "title_romaji": "Mr. Showtime",
+ "artist_romaji": "hitoshizuku yamasankakkei",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "218",
+ "version": "",
+ "date_added": "2023-03-11",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 449
+   },
+   "source": {
+    "music_difficulty_id": 1661,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 23,
+      "tap": 75,
+      "slide": 4,
+      "ex_tap": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 762
+   },
+   "source": {
+    "music_difficulty_id": 1662,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 16,
+      "slide": 56,
+      "tap": 63,
+      "hold": 2,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1067
+   },
+   "source": {
+    "music_difficulty_id": 1663,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 16,
+      "tap": 157,
+      "slide": 104,
+      "ex_tap": 40,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1341
+   },
+   "source": {
+    "music_difficulty_id": 1664,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 77,
+      "tap": 335,
+      "hold": 7,
+      "ex_tap": 80,
+      "slide": 150
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1497
+   },
+   "source": {
+    "music_difficulty_id": 1665,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 110,
+      "tap": 412,
+      "hold": 18,
+      "ex_tap": 78,
+      "slide": 169
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 333,
+   "assetbundle": "jacket_s_333",
+   "seq": 2525801
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_333.png",
+   "sha256": "ba9fccdda7ed16cf24f7925f485581cba73b9df2475c145705d51b7b905ae163",
+   "width": 320,
+   "height": 320,
+   "bytes": 43259
+  }
+ },
+ "extra": {
+  "pronunciation": "みすたーしょうたいむ",
+  "lyricist": "ひとしずく×やま△",
+  "composer": "ひとしずく×やま△",
+  "arranger": "ひとしずく×やま△",
+  "published_at": 1678514400000,
+  "released_at": 1678460400000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "鏡音リン",
+     "鏡音レン",
+     "巡音ルカ",
+     "KAITO",
+     "MEIKO"
+    ],
+    "asset": "vs_0333_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "天馬司",
+     "巡音ルカ",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0333_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "天馬司",
+     "鳳えむ"
+    ],
+    "asset": "an_0333_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 218.0
+ }
+}

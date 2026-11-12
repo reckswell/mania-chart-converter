@@ -1,0 +1,145 @@
+{
+ "game": "bandori",
+ "song_id": "751",
+ "title": "ミラクルペイント",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "215",
+ "version": "",
+ "date_added": "2025-12-25",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 678
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/751/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/751/hard.json",
+     "raw_sha256": "1f4236016c8d32ee492d6cc9ec8d3239bf1e06795395b6582a979bec51ced1d3"
+    },
+    "bestdori": {
+     "notes": 678
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 51,
+      "tap": 365,
+      "slide": 91,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 898
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/751/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/751/expert.json",
+     "raw_sha256": "cf71d2e1856d2d91a9fe8e1a4fedd126e2f35fa6da5ab55d4562e614585702b9"
+    },
+    "bestdori": {
+     "notes": 898
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 415,
+      "slide": 134,
+      "hold": 53,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 751,
+   "bandId": 3,
+   "jacketImage": "751_miracle_paint",
+   "bgmId": "bgm751"
+  },
+  "maa": {
+   "bestdori_song_id": 751,
+   "jacket": {
+    "path": "bestdori/751/jacket-cn-1.png",
+    "server": "cn",
+    "name": "751_miracle_paint"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/751/jacket-cn-1.png",
+   "sha256": "45ae01c41c68a17a56c7c46187e5fcc4eb5c6b1e7246e49146bf0580f16e98d9",
+   "width": 320,
+   "height": 320,
+   "bytes": 31765
+  }
+ },
+ "extra": {
+  "lyricist": "OSTER project",
+  "composer": "OSTER project",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1766642400000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "みらくるぺいんと"
+ }
+}

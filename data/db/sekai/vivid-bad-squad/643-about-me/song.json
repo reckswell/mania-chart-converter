@@ -1,0 +1,203 @@
+{
+ "game": "sekai",
+ "song_id": "643",
+ "title": "About me",
+ "artist": "蝶々P",
+ "title_romaji": "About me",
+ "artist_romaji": "chouchoupii",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "134",
+ "version": "",
+ "date_added": "2026-03-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 155
+   },
+   "source": {
+    "music_difficulty_id": 3211,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 65,
+      "ex_tap": 9,
+      "hold": 9,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 311
+   },
+   "source": {
+    "music_difficulty_id": 3212,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 14,
+      "ex_tap": 13,
+      "tap": 115,
+      "slide": 13,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 629
+   },
+   "source": {
+    "music_difficulty_id": 3213,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 49,
+      "tap": 295,
+      "ex_tap": 14,
+      "flick": 13,
+      "other": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 863
+   },
+   "source": {
+    "music_difficulty_id": 3214,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 471,
+      "slide": 69,
+      "flick": 40,
+      "other": 21,
+      "ex_tap": 47,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1011
+   },
+   "source": {
+    "music_difficulty_id": 3215,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 578,
+      "slide": 64,
+      "ex_tap": 104,
+      "flick": 72,
+      "hold": 16,
+      "other": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 643,
+   "assetbundle": "jacket_s_643",
+   "seq": 1462101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_643.png",
+   "sha256": "1f1f1b06a0ae5e6479aaa1e720c31bc846bc50019605829cbce5e653552486a7",
+   "width": 320,
+   "height": 320,
+   "bytes": 34897
+  }
+ },
+ "extra": {
+  "pronunciation": "あばうとみー",
+  "lyricist": "蝶々P",
+  "composer": "蝶々P",
+  "arranger": "蝶々P",
+  "published_at": 1772344800000,
+  "released_at": 1391526000000,
+  "tags": [
+   "street"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "GUMI"
+    ],
+    "asset": "vs_0643_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "小豆沢こはね",
+     "白石杏",
+     "東雲彰人",
+     "青柳冬弥"
+    ],
+    "asset": "se_0643_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 134.0
+ }
+}

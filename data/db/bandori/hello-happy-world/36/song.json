@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "36",
+ "title": "ハピネスっ！ハピィーマジカルっ♪",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "184",
+ "version": "",
+ "date_added": "2016-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 82
+   },
+   "source": {
+    "notesQuantity": 82,
+    "bestdori": {
+     "level": 7,
+     "notes": 82
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 80,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 206
+   },
+   "source": {
+    "notesQuantity": 184,
+    "bestdori": {
+     "level": 12,
+     "notes": 206
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 194,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 184 differs from combo 206 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 384
+   },
+   "source": {
+    "notesQuantity": 402,
+    "maa": {
+     "path": "bestdori/36/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/36/hard.json",
+     "raw_sha256": "3f36ba4e567d6d62870de25482a0c9df6773b88330ff7403b91216b9afb35db7"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 384
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 296,
+      "hold": 34,
+      "slide": 4,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 402 differs from combo 384 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 569
+   },
+   "source": {
+    "notesQuantity": 569,
+    "maa": {
+     "path": "bestdori/36/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/36/expert.json",
+     "raw_sha256": "0764e66c50d96a4434f543e52d75237a3a1ea6e3c127cbca6b08ff062a1ee613"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 569
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 446,
+      "hold": 32,
+      "slide": 13,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 690
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1571486400000,
+    "maa": {
+     "path": "bestdori/36/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/36/special.json",
+     "raw_sha256": "4d36a784504f5b65bfe4505fe2e473d7014b3a46084db171a9efc50e9b97d75a"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 690
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 363,
+      "hold": 41,
+      "slide": 66,
+      "flick": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 36,
+   "bandId": 3,
+   "jacketImage": "happiness",
+   "bgmId": "bgm036"
+  },
+  "maa": {
+   "bestdori_song_id": 36,
+   "jacket": {
+    "path": "bestdori/36/jacket-cn-1.png",
+    "server": "cn",
+    "name": "happiness"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/36/jacket-cn-1.png",
+   "sha256": "dc365594bb79693d4f5d51cca62406effeaa43f9814b4b1f0aef5773ebdf1f87",
+   "width": 320,
+   "height": 320,
+   "bytes": 32734
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤間仁（Elements Garden）",
+  "arranger": "藤間仁（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1462071600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "はぴねすっはぴぃーまじかるっ",
+  "title_en": "Happiness! Happy Magical♪",
+  "length_s": 101.064
+ }
+}

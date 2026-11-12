@@ -1,0 +1,354 @@
+{
+ "game": "piu",
+ "song_id": "po909",
+ "title": "Versailles",
+ "artist": "HyuN & MIIM",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "160-175",
+ "version": "Phoenix",
+ "date_added": "",
+ "charts": {
+  "single-7": {
+   "slot": "single-7",
+   "native": "S7",
+   "level": "7",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 375
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6992,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-single",
+     "description": "S7",
+     "meter": "7",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 375,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 309,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-10": {
+   "slot": "single-10",
+   "native": "S10",
+   "level": "10",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 450
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6993,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-single",
+     "description": "S10",
+     "meter": "10",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 450,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 318,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 864
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6994,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 864,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 98,
+      "tap": 519
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 1045
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6995,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 8,
+     "steps_type": "pump-single",
+     "description": "S19",
+     "meter": "19",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 1045,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 44,
+      "tap": 649
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 1320
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6996,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 9,
+     "steps_type": "pump-single",
+     "description": "S20",
+     "meter": "20",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 1320,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 717,
+      "hold": 85
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "6 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 20 differs from the PHOENIX 2 level 21: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-13": {
+   "slot": "double-13",
+   "native": "D13",
+   "level": "13",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 475
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6997,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 12,
+     "steps_type": "pump-double",
+     "description": "D12",
+     "meter": "12",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 475,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 310,
+      "hold": 55
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 12 differs from the PHOENIX 2 level 13: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-20": {
+   "slot": "double-20",
+   "native": "D20",
+   "level": "20",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 1141
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6998,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 13,
+     "steps_type": "pump-double",
+     "description": "D20",
+     "meter": "20",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 1141,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 96,
+      "tap": 584
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-23": {
+   "slot": "double-23",
+   "native": "D23",
+   "level": "23",
+   "constant": null,
+   "designer": "CONRAD",
+   "note_counts": {
+    "combo": 1367
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6999,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 14,
+     "steps_type": "pump-double",
+     "description": "D23",
+     "meter": "23",
+     "active": true,
+     "credit": "CONRAD",
+     "combo": 1367,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 720,
+      "hold": 85
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "6 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 909,
+   "game_id": "17XX_0008",
+   "card": "/img/card/Phoenix_Versailles.png",
+   "first": "Phoenix v1.00.1",
+   "title": "Versailles"
+  },
+  "kalinathalie": {
+   "slug": "versailles"
+  },
+  "simfile": {
+   "path": "16 - PHOENIX/18005 - Versailles/Versailles.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/16%20-%20PHOENIX/18005%20-%20Versailles/Versailles.ssc",
+   "id": "18005",
+   "title": "Versailles",
+   "artist": "HyuN & MIIM"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/versailles.jpg",
+   "sha256": "ad57aaa0d03c05d309d8db02ab6d4314d133f8a5c9250c6f1a57e9e58a59c6fa",
+   "width": 256,
+   "height": 256,
+   "bytes": 23823
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "베르사이유"
+  },
+  "artists": [
+   "HyuN",
+   "MIIM"
+  ],
+  "simfile_notes": [
+   "S21: simfile chart 'S20' has meter 20 (re-rated)",
+   "D13: simfile chart 'D12' has meter 12 (re-rated)"
+  ]
+ }
+}

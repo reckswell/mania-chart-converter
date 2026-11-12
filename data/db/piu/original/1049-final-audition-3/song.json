@@ -1,0 +1,124 @@
+{
+ "game": "piu",
+ "song_id": "1049",
+ "title": "Final Audition 3",
+ "artist": "BanYa",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "130.5",
+ "version": "Fiesta",
+ "date_added": "",
+ "charts": {
+  "single-18": {
+   "slot": "single-18",
+   "native": "S18",
+   "level": "18",
+   "constant": null,
+   "designer": "ESC",
+   "note_counts": {
+    "combo": 471
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 910,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S18",
+     "meter": "18",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 471,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 372,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "SANDSTORM",
+   "note_counts": {
+    "combo": 469
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 911,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 469,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 375,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 148,
+   "game_id": "1049",
+   "card": "/img/card/67.png",
+   "first": "Fiesta v1.01",
+   "title": "Final Audition 3"
+  },
+  "kalinathalie": {
+   "slug": "final_audition_3_short_cut"
+  },
+  "simfile": {
+   "path": "08 - FIESTA/1049 - [Short Cut] Final Audition 3/1049 - [Short Cut] Final Audition 3.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/08%20-%20FIESTA/1049%20-%20%5BShort%20Cut%5D%20Final%20Audition%203/1049%20-%20%5BShort%20Cut%5D%20Final%20Audition%203.ssc",
+   "id": "1049",
+   "title": "Final Audition 3 - SHORT CUT -",
+   "artist": "Banya"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/final_audition_3_short_cut.jpg",
+   "sha256": "91fa5619cbffb24614df623a21927d18fea0c0bebaed121a9b5eb30af7d93482",
+   "width": 256,
+   "height": 256,
+   "bytes": 9828
+  }
+ },
+ "extra": {
+  "cut": "Short Cut",
+  "titles": {
+   "kr": "파이널 오디션 3"
+  }
+ }
+}

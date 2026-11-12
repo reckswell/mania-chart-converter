@@ -1,0 +1,205 @@
+{
+ "game": "sekai",
+ "song_id": "645",
+ "title": "深海シティアンダーグラウンド",
+ "artist": "田中B",
+ "title_romaji": "shinkaishitiandaaguraundo",
+ "artist_romaji": "tanakabii",
+ "genre": "Leo/need",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2025-09-16",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 312
+   },
+   "source": {
+    "music_difficulty_id": 3221,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 6,
+      "ex_tap": 8,
+      "tap": 54,
+      "slide": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 365
+   },
+   "source": {
+    "music_difficulty_id": 3222,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 12,
+      "tap": 137,
+      "flick": 8,
+      "slide": 8,
+      "ex_tap": 15,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 556
+   },
+   "source": {
+    "music_difficulty_id": 3223,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 10,
+      "tap": 140,
+      "ex_tap": 56,
+      "slide": 40,
+      "flick": 48,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 872
+   },
+   "source": {
+    "music_difficulty_id": 3224,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 9,
+      "tap": 284,
+      "ex_tap": 61,
+      "slide": 57,
+      "flick": 67,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1162
+   },
+   "source": {
+    "music_difficulty_id": 3225,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 72,
+      "tap": 419,
+      "hold": 27,
+      "ex_tap": 79,
+      "slide": 116,
+      "flick": 70
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps merged: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 645,
+   "assetbundle": "jacket_s_645",
+   "seq": 1255201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_645.png",
+   "sha256": "86b163e193c3c92436e28a03bd0e5b5394b9fed59fc70294b6378b4166e8dbf0",
+   "width": 320,
+   "height": 320,
+   "bytes": 36684
+  }
+ },
+ "extra": {
+  "pronunciation": "しんかいしてぃあんだーぐらうんど",
+  "lyricist": "田中B",
+  "composer": "田中B",
+  "arranger": "田中B",
+  "published_at": 1758002400000,
+  "released_at": 1321887600000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音リン"
+    ],
+    "asset": "vs_0645_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音リン",
+     "星乃一歌",
+     "天馬咲希",
+     "望月穂波",
+     "日野森志歩"
+    ],
+    "asset": "se_0645_01"
+   }
+  ],
+  "filler_sec": 7.941199779510498,
+  "bpm_main": 170.0
+ }
+}

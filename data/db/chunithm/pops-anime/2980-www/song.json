@@ -22,9 +22,22 @@
     "slide": 60,
     "air": 41
    },
-   "source": {},
-   "status": "listed",
-   "notes": ""
+   "source": {
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "tap": 83,
+      "hold": 17,
+      "air": 13,
+      "ex_tap": 10,
+      "slide": 13,
+      "air_hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
   },
   "hard": {
    "slot": "hard",
@@ -38,9 +51,22 @@
     "slide": 82,
     "air": 50
    },
-   "source": {},
-   "status": "listed",
-   "notes": ""
+   "source": {
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "ex_tap": 35,
+      "tap": 117,
+      "slide": 33,
+      "air": 16,
+      "hold": 20,
+      "air_hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "combo 481 in the .c2s differs from the published note count 778 (chart revised since this file?)",
+   "assets": {}
   },
   "expert": {
    "slot": "expert",
@@ -55,10 +81,23 @@
     "air": 121
    },
    "source": {
-    "sdvxin_legacy": "10/10266exp"
+    "sdvxin_legacy": "10/10266exp",
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "ex_tap": 112,
+      "tap": 229,
+      "slide": 36,
+      "hold": 17,
+      "air_hold": 26,
+      "air": 33,
+      "other": 6
+     }
+    }
    },
-   "status": "listed",
-   "notes": ""
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
   },
   "master": {
    "slot": "master",
@@ -74,10 +113,25 @@
     "flick": 48
    },
    "source": {
-    "sdvxin_legacy": "10/10266mst"
+    "sdvxin_legacy": "10/10266mst",
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/10266mst.png",
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "hold": 35,
+      "ex_tap": 81,
+      "slide": 59,
+      "tap": 366,
+      "air": 104,
+      "flick": 48,
+      "air_hold": 31,
+      "other": 9
+     }
+    }
    },
-   "status": "listed",
-   "notes": ""
+   "status": "extracted",
+   "notes": "16 exact duplicate lines ignored",
+   "assets": {}
   },
   "extra": {
    "slot": "extra",
@@ -93,10 +147,25 @@
     "flick": 78
    },
    "source": {
-    "sdvxin_legacy": "ult/10266ult"
+    "sdvxin_legacy": "ult/10266ult",
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/10266ult.png",
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "air_hold": 85,
+      "ex_tap": 121,
+      "slide": 107,
+      "hold": 68,
+      "tap": 422,
+      "air": 137,
+      "flick": 78,
+      "other": 26
+     }
+    }
    },
-   "status": "listed",
-   "notes": ""
+   "status": "extracted",
+   "notes": "14 exact duplicate lines ignored",
+   "assets": {}
   }
  },
  "source": {
@@ -104,5 +173,17 @@
    "id": "2980",
    "image": "5cb62363cba66f4b.jpg"
   }
- }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/zvuc/otoge-db/master/chunithm/jacket/5cb62363cba66f4b.jpg",
+   "sha256": "cb3eeb28884b4dce43948a6dd98b764f12189fafca7f63b8d92d2f0daee5fd3b",
+   "width": 190,
+   "height": 190,
+   "bytes": 28290
+  }
+ },
+ "extra": {}
 }

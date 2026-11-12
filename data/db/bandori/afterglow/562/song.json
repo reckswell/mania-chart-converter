@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "562",
+ "title": "粉雪",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "82",
+ "version": "",
+ "date_added": "2023-12-24",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 100
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 100
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 46,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 170
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 170
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 88,
+      "hold": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 272
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/562/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/562/hard.json",
+     "raw_sha256": "596dd7af50a0f2c7c672b14a0465debb6f1dacc1a54a81475a36739b02f86e3d"
+    },
+    "bestdori": {
+     "level": 18,
+     "notes": 272
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 158,
+      "hold": 49,
+      "flick": 4,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 382
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/562/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/562/expert.json",
+     "raw_sha256": "546974a43cb39847a36a83a0da793fe489c4f0b2d5b705a677896c251ccd3ea0"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 382
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 261,
+      "hold": 46,
+      "flick": 4,
+      "slide": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 562,
+   "bandId": 2,
+   "jacketImage": "562_konayuki",
+   "bgmId": "bgm562"
+  },
+  "maa": {
+   "bestdori_song_id": 562,
+   "jacket": {
+    "path": "bestdori/562/jacket-cn-1.png",
+    "server": "cn",
+    "name": "562_konayuki"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/562/jacket-cn-1.png",
+   "sha256": "39a29d843d76e7ee6d835ec5994250f88c0c5aec9a3b178a3ab28da0664677eb",
+   "width": 320,
+   "height": 320,
+   "bytes": 14734
+  }
+ },
+ "extra": {
+  "lyricist": "藤巻 亮太",
+  "composer": "藤巻 亮太",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1703397600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "こなゆき",
+  "title_en": "Konayuki",
+  "length_s": 103.968
+ }
+}

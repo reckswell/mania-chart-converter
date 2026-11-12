@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "232",
+ "title": "イニシャル",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "193",
+ "version": "",
+ "date_added": "2019-12-12",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 172
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 172
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 134,
+      "hold": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 228
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 228
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 194,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 436
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/232/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/232/hard.json",
+     "raw_sha256": "0186dfb9bd746d45b03b71bbee608038be878f51860682699808f9f09fdd7b9f"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 436
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 294,
+      "slide": 3,
+      "flick": 35,
+      "hold": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 682
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/232/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/232/expert.json",
+     "raw_sha256": "74fac6129fa11c0c087c20a84f15ce6b03d269d5d9cb48e91d42ee85699c1850"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 682
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 416,
+      "slide": 14,
+      "flick": 46,
+      "hold": 86
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 802
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1730354400000,
+    "maa": {
+     "path": "bestdori/232/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/232/special.json",
+     "raw_sha256": "1c4a40baed0389ccc6da329108c1b7241242e0308adca548eaf5970833aa19b1"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 802
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 101,
+      "tap": 505,
+      "hold": 43,
+      "slide": 38
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 232,
+   "bandId": 1,
+   "jacketImage": "232_initial",
+   "bgmId": "bgm232"
+  },
+  "maa": {
+   "bestdori_song_id": 232,
+   "jacket": {
+    "path": "bestdori/232/jacket-cn-1.png",
+    "server": "cn",
+    "name": "232_initial"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/232/jacket-cn-1.png",
+   "sha256": "e73a0b7c64e309833f314182a066e5d6b58a5cf77c21c5776538efe3a9acd93d",
+   "width": 320,
+   "height": 320,
+   "bytes": 40749
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1576152000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "いにしゃる",
+  "title_en": "Initial",
+  "length_s": 92.712
+ }
+}

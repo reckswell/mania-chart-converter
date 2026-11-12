@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "332",
+ "title": "鳥の詩",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "122",
+ "version": "",
+ "date_added": "2021-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 171
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 171
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 91,
+      "hold": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 386
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 386
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 216,
+      "hold": 85
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 616
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/332/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/332/hard.json",
+     "raw_sha256": "7c26dbf6890603b0bdeb0c6af02f2429e25bdd899c695885dcf7f6323cca5869"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 616
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 370,
+      "hold": 83,
+      "slide": 20,
+      "flick": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 917
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/332/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/332/expert.json",
+     "raw_sha256": "00a35cf069259160325bc29de5d039425c5c822933281723467c79fe80be0298"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 917
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 619,
+      "hold": 103,
+      "slide": 23,
+      "flick": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 332,
+   "bandId": 5,
+   "jacketImage": "332_tori_no_uta",
+   "bgmId": "bgm332"
+  },
+  "maa": {
+   "bestdori_song_id": 332,
+   "jacket": {
+    "path": "bestdori/332/jacket-cn-1.png",
+    "server": "cn",
+    "name": "332_tori_no_uta"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/332/jacket-cn-1.png",
+   "sha256": "600e8b2da3b7b1750f535e5980f79aca7341bab4e04be5f0c582c7acdab0bd04",
+   "width": 320,
+   "height": 320,
+   "bytes": 22175
+  }
+ },
+ "extra": {
+  "lyricist": "麻枝 准",
+  "composer": "折戸伸治",
+  "arranger": "Elements Garden",
+  "tag": "anime",
+  "published_at": 1619848800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "とりのうた",
+  "title_en": "Tori No Uta",
+  "length_s": 159.408
+ }
+}

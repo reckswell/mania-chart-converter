@@ -1,0 +1,224 @@
+{
+ "game": "sekai",
+ "song_id": "493",
+ "title": "きょうもハレバレ",
+ "artist": "ふわりP",
+ "title_romaji": "kyoumoharebare",
+ "artist_romaji": "fuwaripii",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "134",
+ "version": "",
+ "date_added": "2024-06-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 221
+   },
+   "source": {
+    "music_difficulty_id": 2461,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 7,
+      "tap": 46,
+      "slide": 9,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 290
+   },
+   "source": {
+    "music_difficulty_id": 2462,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 18,
+      "slide": 14,
+      "tap": 100,
+      "flick": 11,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 623
+   },
+   "source": {
+    "music_difficulty_id": 2463,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 49,
+      "slide": 45,
+      "tap": 227,
+      "other": 18,
+      "flick": 21,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 793
+   },
+   "source": {
+    "music_difficulty_id": 2464,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 77,
+      "slide": 89,
+      "hold": 15,
+      "tap": 283,
+      "other": 8,
+      "flick": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "duplicate slides: 1; stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1033
+   },
+   "source": {
+    "music_difficulty_id": 2465,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 113,
+      "ex_tap": 127,
+      "flick": 60,
+      "tap": 277,
+      "hold": 18,
+      "other": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 493,
+   "assetbundle": "jacket_s_493",
+   "seq": 1541401
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_493.png",
+   "sha256": "16fff6a4c7f7fcb4aaa5022953085b7af71e03701075f2b551e255726942470b",
+   "width": 320,
+   "height": 320,
+   "bytes": 32221
+  }
+ },
+ "extra": {
+  "pronunciation": "きょうもはればれ",
+  "lyricist": "ふわりP",
+  "composer": "ふわりP",
+  "arranger": "-",
+  "published_at": 1717999200000,
+  "released_at": 1373554800000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "GUMI"
+    ],
+    "asset": "vs_0493_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音リン",
+     "天馬司",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0493_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鳳えむ"
+    ],
+    "asset": "an_0493_01"
+   },
+   {
+    "type": "streaming_live",
+    "caption": "コネクトライブ(DAY2)ver.",
+    "singers": [
+     "鏡音リン",
+     "天馬咲希",
+     "天馬司",
+     "鳳えむ",
+     "暁山瑞希"
+    ],
+    "asset": "cl_0493_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 134.0
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "361",
+ "title": "KING",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "166",
+ "version": "",
+ "date_added": "2021-09-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 191
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 191
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 149,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 296
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 296
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 214,
+      "hold": 38,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 672
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/361/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/361/hard.json",
+     "raw_sha256": "1b567555c79b0abe9971757702d98ffa43d2805c49348bd5920a06a22882aef8"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 672
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 49,
+      "tap": 433,
+      "slide": 39,
+      "flick": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1000
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/361/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/361/expert.json",
+     "raw_sha256": "0e06f5956e842d8614d0e8224140386d00e56cf6e845a616bbc315c7ef9b24d4"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 1000
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 83,
+      "tap": 517,
+      "flick": 53,
+      "slide": 105
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 361,
+   "bandId": 5,
+   "jacketImage": "361_king",
+   "bgmId": "bgm361"
+  },
+  "maa": {
+   "bestdori_song_id": 361,
+   "jacket": {
+    "path": "bestdori/361/jacket-cn-1.png",
+    "server": "cn",
+    "name": "361_king"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/361/jacket-cn-1.png",
+   "sha256": "2feca232bb482a12cdfd5be4ed5ffee9a6fc90258ba6d7599fb3a5dc2e64ff2f",
+   "width": 320,
+   "height": 320,
+   "bytes": 26140
+  }
+ },
+ "extra": {
+  "lyricist": "Kanaria",
+  "composer": "Kanaria",
+  "arranger": "Elements Garden",
+  "tag": "anime",
+  "published_at": 1632117600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "king",
+  "length_s": 122.232
+ }
+}

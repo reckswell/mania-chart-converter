@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "365",
+ "title": "fly with the night",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2021-10-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 118
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 118
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 26,
+      "tap": 66
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 215
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 215
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 133,
+      "hold": 39,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 419
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/365/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/365/hard.json",
+     "raw_sha256": "09e78d59efb5ef0e418e288f1f3af6a6310dd4908af0f44f9e9026332c69bd3d"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 419
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 10,
+      "slide": 47,
+      "tap": 172,
+      "hold": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 636
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/365/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/365/expert.json",
+     "raw_sha256": "817c95db6ac0d98db1e1879dedce58cba87bea0b84d5caee20e2f98d6715826c"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 636
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 337,
+      "flick": 22,
+      "slide": 61,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 365,
+   "bandId": 21,
+   "jacketImage": "365_fly_with_the_night_1",
+   "bgmId": "bgm365"
+  },
+  "maa": {
+   "bestdori_song_id": 365,
+   "jacket": {
+    "path": "bestdori/365/jacket-cn-2.png",
+    "server": "cn",
+    "name": "365_fly_with_the_night_1"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/365/jacket-cn-2.png",
+   "sha256": "ee6772007fe1c7ce4589454534fc68a38a1f0cef59884f412b31249e93528ce7",
+   "width": 320,
+   "height": 320,
+   "bytes": 39513
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "岩橋星実（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1633845600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "flywiththenight",
+  "length_s": 106.656
+ }
+}

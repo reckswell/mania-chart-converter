@@ -1,0 +1,125 @@
+{
+ "game": "piu",
+ "song_id": "224",
+ "title": "Repeatorment Remix",
+ "artist": "BanYa",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "150",
+ "version": "2nd Ultimate Remix",
+ "date_added": "",
+ "charts": {
+  "single-18": {
+   "slot": "single-18",
+   "native": "S18",
+   "level": "18",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 1530
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 99,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S18",
+     "meter": "18",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1530,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 52,
+      "tap": 1021
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-22": {
+   "slot": "double-22",
+   "native": "D22",
+   "level": "22",
+   "constant": null,
+   "designer": "SUNNY",
+   "note_counts": {
+    "combo": 1660
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6762,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-double",
+     "description": "D22",
+     "meter": "22",
+     "active": true,
+     "credit": "SUNNY",
+     "combo": 1660,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 72,
+      "tap": 993
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "12 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 14,
+   "game_id": "224",
+   "card": "/img/card/9.png",
+   "first": "2nd Ultimate Remix default",
+   "title": "Repeatorment Remix"
+  },
+  "kalinathalie": {
+   "slug": "repeatorment_remix"
+  },
+  "simfile": {
+   "path": "01 - 1ST~3RD/(2) 224 - [Remix] Repeatorment Remix/224 - [Remix] Repeatorment Remix.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/01%20-%201ST~3RD/%282%29%20224%20-%20%5BRemix%5D%20Repeatorment%20Remix/224%20-%20%5BRemix%5D%20Repeatorment%20Remix.ssc",
+   "id": "224",
+   "title": "Repeatorment Remix",
+   "artist": "BanYa"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/repeatorment_remix.jpg",
+   "sha256": "c0eeeebfface674f2d3f94e711e16d2fc61a5aeed358c1e2ecaabf63a18fc0a8",
+   "width": 256,
+   "height": 256,
+   "bytes": 13791
+  }
+ },
+ "extra": {
+  "cut": "Remix",
+  "titles": {
+   "kr": "리피토먼트 리믹스"
+  },
+  "revived_in": "Fiesta EX v1.00"
+ }
+}

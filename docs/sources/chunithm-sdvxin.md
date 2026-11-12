@@ -19,11 +19,20 @@ the cloud build machine.
 
 ## sdvx.in (charts as pictures)
 
-sdvx.in (CHUNITHM譜面保管所) has every chart as a hand-drawn picture, not as note data. **The cloud build machine and
-the PC's sandbox VM both get HTTP 403 from the egress proxy for sdvx.in**, so nothing below has been fetched live. The
-URL scheme comes from two working open-source consumers (beer-psi/chuni-penguin `dbutils/sdvxin.py` and
-`chart_view.py`; Trilleo/web `packages/chunithm/src/sources/sdvx.ts`). One song list was read through a web reader to
-confirm its JSON shape (`tests/fixtures/sdvxin_songs01_sample.json`).
+sdvx.in (CHUNITHM譜面保管所) has every chart as a hand-drawn picture, not as note data. The URL scheme first came
+from two open-source consumers (beer-psi/chuni-penguin `dbutils/sdvxin.py` and `chart_view.py`; Trilleo/web
+`packages/chunithm/src/sources/sdvx.ts`). **Checked live on 2026-11-12** from the cloud machine (sdvx.in is now under
+the environment's Allowed domains), against the site's own viewer (`/chunithm/_/viewer.js`):
+
+- the viewer is `https://sdvx.in/chunithm/_/viewer.php?id=<id>&diff=<key>` (`diff=we` for WORLD'S END);
+- the layer folder is always `id[:2]` (or `end`). otoge-db's old chart links put ULTIMA pages in an `ult` folder and
+  some songs in another numbered folder; those folders no longer serve layers;
+- since October 2026 every layer is **lossy WebP** (VP8 with an alpha plane); the `.png` URLs redirect to the top page;
+- 16 lists, 2,327 rows; drawn: 1,905 EXPERT, 2,010 MASTER, 115 ULTIMA, 306 WORLD'S END, 37 ADVANCED, no BASIC. A
+  MASTER notes layer is about 4 MB (30 sampled: 2.9–6.5 MB).
+
+`vsrgconv pictures chunithm --from sdvxin` downloads the layers of every drawn chart of the database
+(docs/sources/pictures.md).
 
 ### Song lists
 
@@ -81,12 +90,13 @@ BPM changes are drawn as text and are **not read**. Songs with variable BPM get 
 
 ### Getting the pictures in
 
-Any of these fills `data/cache/sdvx.in/...` (it mirrors URL paths), after which every command works with `--offline`:
+The cloud machine reaches sdvx.in directly (since 2026-11-12). Files saved any other way (a browser, the PC) can still
+be dropped into `data/cache/sdvx.in/...` (it mirrors URL paths), after which every command works with `--offline`.
 
-1. **Run on the PC** (recommended). A Remote Control session runs `python -m vsrgconv catalog chunithm` and
-   `extract` there with the PC's own network, then commits the extracted `*.chart.json` files (not the pictures).
-2. Save the files from a browser into the matching cache paths.
-3. Give the cloud environment network access to `sdvx.in` (environment network settings).
+`vsrgconv pictures chunithm --from sdvxin` downloaded all 3,853 published charts on 2026-11-12 (docs/sources/pictures.md).
+The reader above was written before any real picture was seen and is still uncalibrated. The A/B check stacks the
+three layers and reads them with `imaging/merged_chart.py` instead, after snapping the lossy colours to a palette:
+median chart 81% of stored notes read back (docs/sources/pictures.md).
 
 Be polite: the fetcher waits 1 s between requests by default. sdvx.in has been known to put a human check in front of
 heavy traffic.

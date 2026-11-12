@@ -1,0 +1,179 @@
+{
+ "game": "bandori",
+ "song_id": "762",
+ "title": "Determination Symphony(パラレルver.)",
+ "artist": "SISTER'S QUARTET",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "SISTER'S QUARTET",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2026-01-04",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 630
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/762/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/762/hard.json",
+     "raw_sha256": "8eec34723f9bd97f8bfe8c63f2f99dab6842b4f37f89198cfd500af885364299"
+    },
+    "bestdori": {
+     "notes": 630
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 457,
+      "flick": 21,
+      "slide": 17,
+      "hold": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1054
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/762/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/762/expert.json",
+     "raw_sha256": "ede8e2e248624a6965b87ee07e7b915a6414a1e213eeb15a0e8cd8da48cbf366"
+    },
+    "bestdori": {
+     "notes": 1054
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 690,
+      "flick": 65,
+      "slide": 54,
+      "hold": 51
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 943
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/762/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/762/special.json",
+     "raw_sha256": "d4834e021de52f80f50f0e9275f8c97e54faf4a47ce29f51aecb0765e6dec222"
+    },
+    "bestdori": {
+     "notes": 943
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 557,
+      "hold": 34,
+      "slide": 74,
+      "flick": 95
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 762,
+   "bandId": 101,
+   "jacketImage": "762_symphony_p",
+   "bgmId": "bgm762"
+  },
+  "maa": {
+   "bestdori_song_id": 762,
+   "jacket": {
+    "path": "bestdori/762/jacket-cn-1.png",
+    "server": "cn",
+    "name": "762_symphony_p"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/762/jacket-cn-1.png",
+   "sha256": "e0f62c21634a625095c58b738849e6b395de58e6304e6e7373ca03de2322592f",
+   "width": 320,
+   "height": 320,
+   "bytes": 45378
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1767506400000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "determinationsymphony"
+ }
+}

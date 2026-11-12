@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "269",
+ "title": "秒針を噛む",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "130",
+ "version": "",
+ "date_added": "2020-05-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 152
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 152
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 130,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 260
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 260
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 232,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 454
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/269/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/269/hard.json",
+     "raw_sha256": "2e7170789f3e6ab628d853aea8b23910dd5b1785e90b0b651aa68e9bfbfcf99d"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 454
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 324,
+      "hold": 28,
+      "slide": 32,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 738
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/269/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/269/expert.json",
+     "raw_sha256": "76ffb92667779e9c9d111e95760797d999a897ed9425dfe42510a94090f9cefe"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 738
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 75,
+      "tap": 482,
+      "slide": 37,
+      "flick": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 562
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1651557600000,
+    "maa": {
+     "path": "bestdori/269/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/269/special.json",
+     "raw_sha256": "3e91400ba305dc177c887c5b286a2d6c14e59258443dc77fd44207f763c60a89"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 562
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 86,
+      "tap": 309,
+      "flick": 30,
+      "hold": 11
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 269,
+   "bandId": 21,
+   "jacketImage": "269_byoshin",
+   "bgmId": "bgm269"
+  },
+  "maa": {
+   "bestdori_song_id": 269,
+   "jacket": {
+    "path": "bestdori/269/jacket-cn-1.png",
+    "server": "cn",
+    "name": "269_byoshin"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/269/jacket-cn-1.png",
+   "sha256": "d974011f6a2717e887eb7efa306655db9ecde69c401e1642b430e5dd80272138",
+   "width": 320,
+   "height": 320,
+   "bytes": 31026
+  }
+ },
+ "extra": {
+  "lyricist": "ACAね",
+  "composer": "ACAね×ぬゆり",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1589090400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "びょうしんをかむ",
+  "title_en": "Byoshin o Kamu",
+  "length_s": 110.832
+ }
+}

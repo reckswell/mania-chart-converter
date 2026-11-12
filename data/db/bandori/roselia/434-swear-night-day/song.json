@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "434",
+ "title": "Swear 〜Night & Day〜",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "113",
+ "version": "",
+ "date_added": "2022-07-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 100
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 100
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 64,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 176
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 176
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 16,
+      "tap": 144
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 353
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/434/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/434/hard.json",
+     "raw_sha256": "0baa3ea05e54cc7161449b897c7d04a540ca35577a512769a8bc26c0d930eeaf"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 353
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 10,
+      "tap": 246,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 506
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/434/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/434/expert.json",
+     "raw_sha256": "fb4de71e279ca966b14cab96085517ec60ac5b7a0157f4c470945a02d1cf931c"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 506
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 24,
+      "tap": 378,
+      "hold": 28,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 434,
+   "bandId": 5,
+   "jacketImage": "434_swear_night_day_1",
+   "bgmId": "bgm434"
+  },
+  "maa": {
+   "bestdori_song_id": 434,
+   "jacket": {
+    "path": "bestdori/434/jacket-cn-2.png",
+    "server": "cn",
+    "name": "434_swear_night_day_1"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/434/jacket-cn-2.png",
+   "sha256": "b4f88f4ec11d0734f183e7f871934c2c203d000846153437e5f82ee25a147aad",
+   "width": 320,
+   "height": 320,
+   "bytes": 28512
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "竹田祐介（Elements Garden）",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1658383200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "swearnightandday",
+  "title_en": "Swear ~Night & Day~",
+  "length_s": 117.936
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "198",
+ "title": "春擬き",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "174",
+ "version": "",
+ "date_added": "2019-05-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 111
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 111
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 79,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 221
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 221
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 24,
+      "tap": 173
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 408
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/198/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/198/hard.json",
+     "raw_sha256": "5e9ae52576b753cb738e32e3af3507ae2bac9113ec8f77351515ca3b26e92a31"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 408
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 246,
+      "hold": 78,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 610
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/198/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/198/expert.json",
+     "raw_sha256": "325d57aa60b67fb2a39ea9021e4a87510161e3c50dbccd483c056db237c3dfbd"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 610
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 399,
+      "hold": 67,
+      "flick": 27,
+      "slide": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 198,
+   "bandId": 4,
+   "jacketImage": "198_harumodoki",
+   "bgmId": "bgm198"
+  },
+  "maa": {
+   "bestdori_song_id": 198,
+   "jacket": {
+    "path": "bestdori/198/jacket-cn-1.png",
+    "server": "cn",
+    "name": "198_harumodoki"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/198/jacket-cn-1.png",
+   "sha256": "92cdf8cf04cb2801a8813e81377323ae332503d4b45993eb2783f0c50ac336f3",
+   "width": 320,
+   "height": 320,
+   "bytes": 15993
+  }
+ },
+ "extra": {
+  "lyricist": "やなぎなぎ",
+  "composer": "北川勝利",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1559282400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "はるもどき",
+  "title_en": "Imitation Spring",
+  "length_s": 102.12
+ }
+}

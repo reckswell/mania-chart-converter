@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "48",
+ "title": "正解はひとつ!じゃない!!",
+ "artist": "Poppin'Party×グリグリ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party×グリグリ",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2017-04-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 86
+   },
+   "source": {
+    "notesQuantity": 64,
+    "bestdori": {
+     "level": 7,
+     "notes": 86
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 82,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 64 differs from combo 86 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 222
+   },
+   "source": {
+    "notesQuantity": 141,
+    "bestdori": {
+     "level": 13,
+     "notes": 222
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 210,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 141 differs from combo 222 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 438
+   },
+   "source": {
+    "notesQuantity": 261,
+    "maa": {
+     "path": "bestdori/48/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/48/hard.json",
+     "raw_sha256": "f9a9ad63ff03c8d34781beb8a75efa3b27cb23ecc25c772911bb05e8da79c7d0"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 438
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 299,
+      "hold": 30,
+      "flick": 28,
+      "slide": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 261 differs from combo 438 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 637
+   },
+   "source": {
+    "notesQuantity": 397,
+    "maa": {
+     "path": "bestdori/48/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/48/expert.json",
+     "raw_sha256": "040815c87c1c403bf9c56f92db9c4069871273e27c20e03f5099d92ed4dc88f6"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 637
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 341,
+      "hold": 42,
+      "slide": 45,
+      "flick": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 397 differs from combo 637 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 48,
+   "bandId": 8,
+   "jacketImage": "seikai",
+   "bgmId": "bgm048"
+  },
+  "maa": {
+   "bestdori_song_id": 48,
+   "jacket": {
+    "path": "bestdori/48/jacket-cn-1.png",
+    "server": "cn",
+    "name": "seikai"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/48/jacket-cn-1.png",
+   "sha256": "a0f02c34d6c8b3e700526080e4c0c339d4e1d139a6c3b182e236417c3870099e",
+   "width": 320,
+   "height": 320,
+   "bytes": 35638
+  }
+ },
+ "extra": {
+  "lyricist": "畑亜貴",
+  "composer": "山口朗彦",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1493557200000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "せいかいはひとつじゃない",
+  "title_en": "Seikai wa Hitotsu! Ja Nai!!",
+  "length_s": 107.064
+ }
+}

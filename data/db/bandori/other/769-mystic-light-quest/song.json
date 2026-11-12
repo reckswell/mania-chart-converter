@@ -1,0 +1,147 @@
+{
+ "game": "bandori",
+ "song_id": "769",
+ "title": "Mystic Light Quest",
+ "artist": "ぺぺ（CV: Machico）",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ぺぺ（CV: Machico）",
+ "bpm": "160",
+ "version": "",
+ "date_added": "2026-02-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 868
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/769/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/769/hard.json",
+     "raw_sha256": "9f79df33fa7594d4d073dae8e68841f71043a352eab353ef07eb67139dd33468"
+    },
+    "bestdori": {
+     "notes": 868
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 481,
+      "slide": 66,
+      "hold": 67,
+      "flick": 54
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1139
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/769/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/769/expert.json",
+     "raw_sha256": "ce49a25d3c6943e2a96c45e633f644f48435d9b93e82193d7bd3a904074b5fd2"
+    },
+    "bestdori": {
+     "notes": 1139
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 710,
+      "slide": 69,
+      "hold": 105,
+      "flick": 67
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 769,
+   "bandId": 103,
+   "jacketImage": "769_mystic_light_quest",
+   "bgmId": "bgm769"
+  },
+  "maa": {
+   "bestdori_song_id": 769,
+   "jacket": {
+    "path": "bestdori/769/jacket-cn-1.png",
+    "server": "cn",
+    "name": "769_mystic_light_quest"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/769/jacket-cn-1.png",
+   "sha256": "5bfc3a893d3182a469e2ac462658fa1b01de1cc2c674dcb08a26acee2ea89398",
+   "width": 320,
+   "height": 320,
+   "bytes": 36285
+  }
+ },
+ "extra": {
+  "lyricist": "RANASOL",
+  "composer": "KOTONOHOUSE",
+  "arranger": "KOTONOHOUSE",
+  "tag": "normal",
+  "published_at": 1770703200000,
+  "closed_at": 1772517599000,
+  "music_data_type": "collabo_original",
+  "ruby": "mysticlightquest",
+  "removed": true,
+  "closed_date": "2026-03-03"
+ }
+}

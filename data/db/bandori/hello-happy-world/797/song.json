@@ -1,0 +1,145 @@
+{
+ "game": "bandori",
+ "song_id": "797",
+ "title": "ココロのちず",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "132",
+ "version": "",
+ "date_added": "2026-05-05",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 457
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/797/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/797/hard.json",
+     "raw_sha256": "9fe31862a8fe482accfabe9e350eb9ed66c1a3f3af9737f32e62b435c6dc116b"
+    },
+    "bestdori": {
+     "notes": 457
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 29,
+      "tap": 316,
+      "slide": 26,
+      "flick": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 630
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/797/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/797/expert.json",
+     "raw_sha256": "cfa53a7580c410b5d1406f98c779667cd4d17d5c588e06945b4d27a665e1adb6"
+    },
+    "bestdori": {
+     "notes": 630
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 400,
+      "hold": 22,
+      "slide": 57,
+      "flick": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 797,
+   "bandId": 3,
+   "jacketImage": "797_kokoro_no_tizu",
+   "bgmId": "bgm797"
+  },
+  "maa": {
+   "bestdori_song_id": 797,
+   "jacket": {
+    "path": "bestdori/797/jacket-jp-1.png",
+    "server": "jp",
+    "name": "797_kokoro_no_tizu"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/797/jacket-jp-1.png",
+   "sha256": "d854957315ea25aea6cf6fd8064e3d912e2e457e3054737deaef43a6e312c840",
+   "width": 320,
+   "height": 320,
+   "bytes": 36159
+  }
+ },
+ "extra": {
+  "lyricist": "MIZUE",
+  "composer": "渡辺和紀",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1777960800000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "こころのちず"
+ }
+}

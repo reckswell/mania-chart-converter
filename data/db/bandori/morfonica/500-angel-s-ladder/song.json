@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "500",
+ "title": "Angel's Ladder",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "198",
+ "version": "",
+ "date_added": "2023-05-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 152
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 152
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 104,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 290
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 290
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 212,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 580
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/500/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/500/hard.json",
+     "raw_sha256": "2f8454fdd381432c0c3ce6cdd722c9de2a2c531dc5ab7510183c198567a2b088"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 580
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 229,
+      "slide": 74,
+      "flick": 17,
+      "hold": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 869
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/500/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/500/expert.json",
+     "raw_sha256": "ec11008f29c41e4fbd4ca93ee6315f2b654bd71353de5f9d33077743c0e80d65"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 869
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 503,
+      "slide": 76,
+      "flick": 31,
+      "hold": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 500,
+   "bandId": 21,
+   "jacketImage": "500_angels_ladder",
+   "bgmId": "bgm500"
+  },
+  "maa": {
+   "bestdori_song_id": 500,
+   "jacket": {
+    "path": "bestdori/500/jacket-cn-1.png",
+    "server": "cn",
+    "name": "500_angels_ladder"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/500/jacket-cn-1.png",
+   "sha256": "806c8b89fb9b4c09fa7160ce1390b2bd60d243b3773251f57bb1488643055ac1",
+   "width": 320,
+   "height": 320,
+   "bytes": 21146
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1684648800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "angelsladder",
+  "length_s": 106.128
+ }
+}

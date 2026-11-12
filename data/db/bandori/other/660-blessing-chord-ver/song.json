@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "660",
+ "title": "Blessing Chord(パラレルver.)",
+ "artist": "I♡インドア",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "I♡インドア",
+ "bpm": "153",
+ "version": "",
+ "date_added": "2025-01-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 153
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 153
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 33,
+      "tap": 87
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 272
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 272
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 46,
+      "tap": 180
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 502
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/660/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/660/hard.json",
+     "raw_sha256": "f556eccbba14bb8d397912515b9dec5e0fda7a73f777fa094329b645e4990bb4"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 502
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 98,
+      "tap": 280,
+      "slide": 4,
+      "flick": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 800
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/660/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/660/expert.json",
+     "raw_sha256": "f1cd8ed9fa65833cf929fba1de914a484f91a5a22dc6206a581c12826089e558"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 800
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 487,
+      "hold": 108,
+      "slide": 19,
+      "flick": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 852
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/660/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/660/special.json",
+     "raw_sha256": "e276b5e50de11ec36eb93e1535db38fb413dbd0e1779920695627868a68d340a"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 852
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 455,
+      "slide": 111,
+      "flick": 103,
+      "hold": 15
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 660,
+   "bandId": 83,
+   "jacketImage": "660_blessing_p",
+   "bgmId": "bgm660"
+  },
+  "maa": {
+   "bestdori_song_id": 660,
+   "jacket": {
+    "path": "bestdori/660/jacket-cn-1.png",
+    "server": "cn",
+    "name": "660_blessing_p"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/660/jacket-cn-1.png",
+   "sha256": "0a9c351ccd30a1d7305f04c0553b9bd79eef4d6be7a92f2c2fb6e340f7e5a78e",
+   "width": 320,
+   "height": 320,
+   "bytes": 35344
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "竹田祐介（Elements Garden）",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1735884000000,
+  "closed_at": 4123278000000,
+  "music_data_type": "normal",
+  "ruby": "blessingchord",
+  "title_en": "Blessing Chord (Parallel ver.)",
+  "length_s": 121.632
+ }
+}

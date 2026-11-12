@@ -1,0 +1,201 @@
+{
+ "game": "piu",
+ "song_id": "1062",
+ "title": "Bemera",
+ "artist": "Yahpp",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "210",
+ "version": "Fiesta",
+ "date_added": "",
+ "charts": {
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 472
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 946,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S15",
+     "meter": "15",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 472,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 19,
+      "tap": 290
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "SANDSTORM",
+   "note_counts": {
+    "combo": 892
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 947,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S21",
+     "meter": "21",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 892,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 42,
+      "tap": 457
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-23": {
+   "slot": "single-23",
+   "native": "S23",
+   "level": "23",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1057
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 948,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S22",
+     "meter": "22",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1057,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 146,
+      "tap": 302
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 22 differs from the PHOENIX 2 level 23: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-19": {
+   "slot": "double-19",
+   "native": "D19",
+   "level": "19",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 984
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 949,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-double",
+     "description": "D19",
+     "meter": "19",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 984,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 124,
+      "tap": 233
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 161,
+   "game_id": "1062",
+   "card": "/img/card/80.png",
+   "first": "Fiesta v1.01",
+   "title": "Bemera"
+  },
+  "kalinathalie": {
+   "slug": "bemera_short_cut"
+  },
+  "simfile": {
+   "path": "08 - FIESTA/1062 - [Short Cut] Beemera/1062 - [Short Cut] Beemera.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/08%20-%20FIESTA/1062%20-%20%5BShort%20Cut%5D%20Beemera/1062%20-%20%5BShort%20Cut%5D%20Beemera.ssc",
+   "id": "1062",
+   "title": "Bemera - SHORT CUT -",
+   "artist": "YAHPP"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/bemera_short_cut.jpg",
+   "sha256": "8c68cb7084af08caecbc731770f8a149ac0f97ae96dec06afbe4fe4d75970a58",
+   "width": 256,
+   "height": 256,
+   "bytes": 12443
+  }
+ },
+ "extra": {
+  "cut": "Short Cut",
+  "titles": {
+   "kr": "비메라"
+  },
+  "simfile_notes": [
+   "S23: simfile chart 'S22' has meter 22 (re-rated)"
+  ]
+ }
+}

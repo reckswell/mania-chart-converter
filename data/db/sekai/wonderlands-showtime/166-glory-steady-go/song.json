@@ -1,0 +1,200 @@
+{
+ "game": "sekai",
+ "song_id": "166",
+ "title": "Glory Steady Go!",
+ "artist": "キノシタ",
+ "title_romaji": "Glory Steady Go!",
+ "artist_romaji": "kinoshita",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "131",
+ "version": "",
+ "date_added": "2021-08-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 120
+   },
+   "source": {
+    "music_difficulty_id": 826,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 35,
+      "ex_tap": 6,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 247
+   },
+   "source": {
+    "music_difficulty_id": 827,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 114,
+      "ex_tap": 8,
+      "flick": 12,
+      "slide": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 484
+   },
+   "source": {
+    "music_difficulty_id": 828,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 47,
+      "tap": 180,
+      "ex_tap": 42,
+      "flick": 15,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 738
+   },
+   "source": {
+    "music_difficulty_id": 829,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 62,
+      "ex_tap": 52,
+      "tap": 353,
+      "flick": 48,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 875
+   },
+   "source": {
+    "music_difficulty_id": 830,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 451,
+      "ex_tap": 54,
+      "slide": 79,
+      "flick": 69,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 166,
+   "assetbundle": "jacket_s_166",
+   "seq": 2508601
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_166.png",
+   "sha256": "fb7626e770e48c86ef57a624b19930d667237ac232a0ec4f068b93b9df8a9aea",
+   "width": 320,
+   "height": 320,
+   "bytes": 23635
+  }
+ },
+ "extra": {
+  "pronunciation": "ぐろーりーすてでぃごー",
+  "lyricist": "キノシタ",
+  "composer": "キノシタ",
+  "arranger": "キノシタ",
+  "published_at": 1629439200000,
+  "released_at": 1629385200000,
+  "tags": [
+   "theme_park",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0166_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "草薙寧々",
+     "巡音ルカ",
+     "天馬司",
+     "鳳えむ",
+     "神代類"
+    ],
+    "asset": "se_0166_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 131.0
+ }
+}

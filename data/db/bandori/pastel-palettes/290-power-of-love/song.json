@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "290",
+ "title": "Power of LOVE!!!",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "175",
+ "version": "",
+ "date_added": "2020-09-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 155
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 155
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 79,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 278
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 278
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 154,
+      "hold": 62
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 462
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/290/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/290/hard.json",
+     "raw_sha256": "b1bf28714e7f0c6d687bcd141e929e5fe68dc089c61154a4aebb2bf821949de3"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 462
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 259,
+      "flick": 20,
+      "hold": 76,
+      "slide": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 759
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/290/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/290/expert.json",
+     "raw_sha256": "146711ef6d7babe5b92a2c3b468e52daca6528cd902ad359e474a89df8f5a1c6"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 759
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 455,
+      "flick": 29,
+      "slide": 66,
+      "hold": 68
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 290,
+   "bandId": 4,
+   "jacketImage": "290_power_of_love",
+   "bgmId": "bgm290"
+  },
+  "maa": {
+   "bestdori_song_id": 290,
+   "jacket": {
+    "path": "bestdori/290/jacket-cn-1.png",
+    "server": "cn",
+    "name": "290_power_of_love"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/290/jacket-cn-1.png",
+   "sha256": "5ee530a0525b6c9a24beeb342951f23e2ca065c82f088eb6db069d1fb3be23a1",
+   "width": 320,
+   "height": 320,
+   "bytes": 30269
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "岩橋星実（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1599717600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "poweroflove",
+  "length_s": 110.472
+ }
+}

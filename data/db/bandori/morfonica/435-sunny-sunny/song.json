@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "435",
+ "title": "寄る辺のSunny, Sunny",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "184",
+ "version": "",
+ "date_added": "2022-07-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 132
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 132
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 86,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 232
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 232
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 35,
+      "tap": 162
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 532
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/435/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/435/hard.json",
+     "raw_sha256": "b1af89199c7740aff509c2d29e5461184a935474148b9d47f8799fa8220cd2a4"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 532
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 305,
+      "flick": 12,
+      "slide": 29,
+      "hold": 70
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 732
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/435/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/435/expert.json",
+     "raw_sha256": "c35eb80b2217bab8d640a5c122da8dff65bf466a0c40da89211c707a6a2b1cd0"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 732
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 457,
+      "hold": 68,
+      "flick": 23,
+      "slide": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 435,
+   "bandId": 21,
+   "jacketImage": "435_sunny_sunny",
+   "bgmId": "bgm435"
+  },
+  "maa": {
+   "bestdori_song_id": 435,
+   "jacket": {
+    "path": "bestdori/435/jacket-cn-1.png",
+    "server": "cn",
+    "name": "435_sunny_sunny"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/435/jacket-cn-1.png",
+   "sha256": "4fcb1331af3922ebfc19f66896ef3119468218d13dcdd3865d647a565b2add13",
+   "width": 320,
+   "height": 320,
+   "bytes": 37128
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "菊田大介（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1659106800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "よるべのsunnysunny",
+  "title_en": "Yorube no Sunny, Sunny",
+  "length_s": 111.576
+ }
+}

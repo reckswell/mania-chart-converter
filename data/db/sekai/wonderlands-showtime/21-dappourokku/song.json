@@ -1,0 +1,207 @@
+{
+ "game": "sekai",
+ "song_id": "21",
+ "title": "脱法ロック",
+ "artist": "Neru",
+ "title_romaji": "dappourokku",
+ "artist_romaji": "Neru",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "155",
+ "version": "",
+ "date_added": "2020-10-04",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 195
+   },
+   "source": {
+    "music_difficulty_id": 101,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 108,
+      "hold": 8,
+      "ex_tap": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 405
+   },
+   "source": {
+    "music_difficulty_id": 102,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 202,
+      "hold": 5,
+      "slide": 41,
+      "flick": 1,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 751
+   },
+   "source": {
+    "music_difficulty_id": 103,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 25,
+      "tap": 244,
+      "slide": 85,
+      "ex_tap": 21,
+      "flick": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 972
+   },
+   "source": {
+    "music_difficulty_id": 104,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 14,
+      "slide": 131,
+      "tap": 317,
+      "flick": 61,
+      "ex_tap": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1145
+   },
+   "source": {
+    "music_difficulty_id": 105,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 141,
+      "tap": 436,
+      "hold": 11,
+      "flick": 120,
+      "ex_tap": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "duplicate slides: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 21,
+   "assetbundle": "jacket_s_021",
+   "seq": 1500501
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_021.png",
+   "sha256": "2067c9b31db2c0bace6400b2ca086609b1aeccf79f744e5e8ed0d62938071ff1",
+   "width": 320,
+   "height": 320,
+   "bytes": 40464
+  }
+ },
+ "extra": {
+  "pronunciation": "だっぽうろっく",
+  "lyricist": "Neru",
+  "composer": "Neru",
+  "arranger": "-",
+  "published_at": 1601791200000,
+  "released_at": 1466262000000,
+  "tags": [
+   "theme_park",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音レン"
+    ],
+    "asset": "0021_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音レン",
+     "天馬司",
+     "神代類"
+    ],
+    "asset": "0021_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "KAITO"
+    ],
+    "asset": "an_0021_01"
+   }
+  ],
+  "filler_sec": 9.005000114440918,
+  "bpm_main": 155.0
+ }
+}

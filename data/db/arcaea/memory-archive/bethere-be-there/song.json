@@ -1,0 +1,195 @@
+{
+ "game": "arcaea",
+ "song_id": "bethere",
+ "title": "Be There",
+ "artist": "PSYQUI",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Memory Archive",
+ "bpm": "164",
+ "version": "1.6",
+ "date_added": "2018-06-01",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "4",
+   "constant": 4.0,
+   "designer": "Nitro",
+   "note_counts": {
+    "combo": 592
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "hie"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/bethere/bethere_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "hold": 32,
+      "tap": 106,
+      "air_hold": 155
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "7",
+   "constant": 7.5,
+   "designer": "Nitro",
+   "note_counts": {
+    "combo": 792
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "hie"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/bethere/bethere_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "tap": 192,
+      "hold": 25,
+      "air_hold": 198,
+      "other": 96,
+      "air": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "9",
+   "constant": 9.4,
+   "designer": "Be Nitro",
+   "note_counts": {
+    "combo": 982
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "hie"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/bethere/bethere_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 319,
+      "tap": 270,
+      "other": 313,
+      "hold": 44,
+      "air": 169
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "combo 978 computed from the .aff differs from the published note count 982",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "BEYOND",
+   "level": "10",
+   "constant": 10.5,
+   "designer": "BE KARAT",
+   "note_counts": {
+    "combo": 1127
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "のう + Khronetic",
+     "jacketOverride": true,
+     "bg": "single2_light",
+     "bg_inverse": "single2_conflict",
+     "date": 1773014404,
+     "version": "6.13"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/bethere/bethere_3.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 419,
+      "tap": 336,
+      "other": 406,
+      "air": 209,
+      "hold": 62
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 78,
+   "set": "single"
+  },
+  "matty": {
+   "jacket": "0049",
+   "title": "Be There"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/0049.png",
+   "sha256": "767b509d5dcaef1cbaa6e9cfa84eb3f9b06d26ea87b5bea10a73c18f65b9b067",
+   "width": 320,
+   "height": 320,
+   "bytes": 31395
+  }
+ },
+ "extra": {
+  "pack": "single",
+  "pack_name": "Memory Archive",
+  "songlist": {
+   "idx": 78,
+   "search_title": {
+    "ja": [
+     "びーぜあ"
+    ],
+    "ko": [
+     "비 데어"
+    ]
+   },
+   "search_artist": {
+    "ja": [
+     "さいき"
+    ],
+    "ko": [
+     "사이키"
+    ]
+   },
+   "bpm_base": 164,
+   "category": "original",
+   "purchase": "bethere",
+   "audioPreview": 0,
+   "audioPreviewEnd": 0,
+   "side": 0,
+   "bg": "base_light",
+   "bg_inverse": "base_conflict",
+   "remote_dl": true
+  },
+  "length_s": 133
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "617",
+ "title": "ココ☆ナツ",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "175",
+ "version": "",
+ "date_added": "2024-06-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 142
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 142
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 90,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 294
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 294
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 206,
+      "hold": 35,
+      "slide": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 495
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/617/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/617/hard.json",
+     "raw_sha256": "1c518075035a5c164b9dfb162a2ad7c220e5c9cbb4a0f2ea81aeced49d1ed3c5"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 495
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 337,
+      "flick": 16,
+      "hold": 24,
+      "slide": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 772
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/617/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/617/expert.json",
+     "raw_sha256": "403fd6fd4c2a58b2c8d4fc291ed841f4bc283f15e97de08786df354ce29e728c"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 772
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 41,
+      "tap": 485,
+      "slide": 62,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 617,
+   "bandId": 4,
+   "jacketImage": "617_koko_natsu",
+   "bgmId": "bgm617"
+  },
+  "maa": {
+   "bestdori_song_id": 617,
+   "jacket": {
+    "path": "bestdori/617/jacket-cn-1.png",
+    "server": "cn",
+    "name": "617_koko_natsu"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/617/jacket-cn-1.png",
+   "sha256": "c1c8eeb209df3437adce7cee9184cebe4858dcbe3800b8b9e1441b4aa7f2405c",
+   "width": 320,
+   "height": 320,
+   "bytes": 26224
+  }
+ },
+ "extra": {
+  "lyricist": "前山田 健一",
+  "composer": "前山田 健一",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1719727200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ここなつ",
+  "title_en": "Coco☆Nut",
+  "length_s": 107.712
+ }
+}

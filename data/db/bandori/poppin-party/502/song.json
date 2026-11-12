@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "502",
+ "title": "心絵",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2023-06-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 108
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 108
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 62,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 219
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 219
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 141,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 387
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/502/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/502/hard.json",
+     "raw_sha256": "07d9cd9efd2f5602907b165af6969dae7ec1889db7b5a90c6be8eb3f5e1bfa92"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 387
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 223,
+      "hold": 55,
+      "flick": 10,
+      "slide": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 602
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/502/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/502/expert.json",
+     "raw_sha256": "783ea6c60d32dcca0074762a944d5ed659068943c6e592923164d5beb9330535"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 602
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 357,
+      "hold": 64,
+      "flick": 14,
+      "slide": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 502,
+   "bandId": 1,
+   "jacketImage": "502_kokoroe",
+   "bgmId": "bgm502"
+  },
+  "maa": {
+   "bestdori_song_id": 502,
+   "jacket": {
+    "path": "bestdori/502/jacket-cn-1.png",
+    "server": "cn",
+    "name": "502_kokoroe"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/502/jacket-cn-1.png",
+   "sha256": "11d80642cf77aeff11ad81d8eb5867710617f287011cfba25cfbfce013b46ba8",
+   "width": 320,
+   "height": 320,
+   "bytes": 23551
+  }
+ },
+ "extra": {
+  "lyricist": "北川　賢一",
+  "composer": "北川　賢一",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1687327200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "こころえ",
+  "title_en": "To the Heart",
+  "length_s": 109.944
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "242",
+ "title": "Wonderful Sweet!",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "167",
+ "version": "",
+ "date_added": "2020-01-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 198
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 198
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 104,
+      "hold": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 286
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 286
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 180,
+      "hold": 53
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 492
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/242/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/242/hard.json",
+     "raw_sha256": "aca2b75eea621b0379e452d3f1aad3efabd3517f797987bf4558a0b40e910d0c"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 492
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 242,
+      "hold": 59,
+      "flick": 32,
+      "slide": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 792
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/242/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/242/expert.json",
+     "raw_sha256": "f3708c9e3a9b5f0e7db5857646fe7e3cb6234e1d395437634e91f982a2970e2b"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 792
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 443,
+      "hold": 60,
+      "flick": 57,
+      "slide": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 242,
+   "bandId": 4,
+   "jacketImage": "242_wonderfulsweet",
+   "bgmId": "bgm242"
+  },
+  "maa": {
+   "bestdori_song_id": 242,
+   "jacket": {
+    "path": "bestdori/242/jacket-cn-1.png",
+    "server": "cn",
+    "name": "242_wonderfulsweet"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/242/jacket-cn-1.png",
+   "sha256": "d84901afb7ee6a1d855d13673f7599db3acca3b56d40440bf2a5921081a161eb",
+   "width": 320,
+   "height": 320,
+   "bytes": 34024
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "岩橋星実（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1580450400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "wonderfulsweet",
+  "length_s": 104.976
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "game": "sekai",
+ "song_id": "715",
+ "title": "魔法少女幸福論",
+ "artist": "トーマ",
+ "title_romaji": "mahoushoujokoufukuron",
+ "artist_romaji": "tooma",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "142-180 (180)",
+ "version": "",
+ "date_added": "2026-05-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 218
+   },
+   "source": {
+    "music_difficulty_id": 3571,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 11,
+      "ex_tap": 20,
+      "tap": 58,
+      "slide": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 406
+   },
+   "source": {
+    "music_difficulty_id": 3572,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 19,
+      "tap": 112,
+      "ex_tap": 40,
+      "flick": 7,
+      "hold": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 712
+   },
+   "source": {
+    "music_difficulty_id": 3573,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 178,
+      "slide": 53,
+      "other": 5,
+      "flick": 57,
+      "ex_tap": 84,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 982
+   },
+   "source": {
+    "music_difficulty_id": 3574,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 335,
+      "other": 19,
+      "hold": 33,
+      "flick": 114,
+      "ex_tap": 116,
+      "slide": 72
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1115
+   },
+   "source": {
+    "music_difficulty_id": 3575,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 463,
+      "ex_tap": 147,
+      "hold": 28,
+      "flick": 155,
+      "slide": 78,
+      "other": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 715,
+   "assetbundle": "jacket_s_715",
+   "seq": 1564201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_715.png",
+   "sha256": "1a523e3f5cea243f947e70a0de25c072004d3efd578baddadac02a704cfa4093",
+   "width": 320,
+   "height": 320,
+   "bytes": 27541
+  }
+ },
+ "extra": {
+  "pronunciation": "まほうしょうじょこうふくろん",
+  "lyricist": "トーマ",
+  "composer": "トーマ",
+  "arranger": "トーマ",
+  "published_at": 1777701600000,
+  "released_at": 1364828400000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0715_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "MEIKO",
+     "鳳えむ",
+     "草薙寧々"
+    ],
+    "asset": "se_0715_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 180.0
+ }
+}

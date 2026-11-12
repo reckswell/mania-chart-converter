@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "499",
+ "title": "アイウエ",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "167",
+ "version": "",
+ "date_added": "2023-05-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 105
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 105
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 79,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 213
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 213
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 167,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 436
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/499/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/499/hard.json",
+     "raw_sha256": "672acae6bf956b174b60b92c8ba30f0d48bd3847108858d7db2385e8e3d5e6fd"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 436
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 280,
+      "slide": 36,
+      "hold": 26,
+      "flick": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 669
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/499/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/499/expert.json",
+     "raw_sha256": "89ffa8b5d67b88b5cae56cb034cd11079749ca9afd6f7c8f8ad9b44d7abc2e6c"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 669
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 438,
+      "slide": 40,
+      "hold": 34,
+      "flick": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 499,
+   "bandId": 3,
+   "jacketImage": "499_aiue",
+   "bgmId": "bgm499"
+  },
+  "maa": {
+   "bestdori_song_id": 499,
+   "jacket": {
+    "path": "bestdori/499/jacket-cn-1.png",
+    "server": "cn",
+    "name": "499_aiue"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/499/jacket-cn-1.png",
+   "sha256": "5bd8d3924b9bb7fb7ad4b2ee4645eaf675de9ad8ab498b30a1be54de0f6a6c84",
+   "width": 320,
+   "height": 320,
+   "bytes": 29752
+  }
+ },
+ "extra": {
+  "lyricist": "SAKURAmoti / 美波",
+  "composer": "SAKURAmoti / 美波",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1683093600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "あいうえ",
+  "title_en": "AIUE",
+  "length_s": 89.16
+ }
+}

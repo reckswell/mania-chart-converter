@@ -1,0 +1,253 @@
+{
+ "game": "sekai",
+ "song_id": "132",
+ "title": "「１」",
+ "artist": "164",
+ "title_romaji": "ichi",
+ "artist_romaji": "164",
+ "genre": "Leo/need",
+ "bpm": "145-150 (150)",
+ "version": "",
+ "date_added": "2021-04-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 190
+   },
+   "source": {
+    "music_difficulty_id": 656,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 38,
+      "hold": 16,
+      "ex_tap": 2,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 368
+   },
+   "source": {
+    "music_difficulty_id": 657,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 13,
+      "tap": 98,
+      "slide": 31,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 444
+   },
+   "source": {
+    "music_difficulty_id": 658,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 16,
+      "tap": 132,
+      "hold": 7,
+      "flick": 18,
+      "slide": 59
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 619
+   },
+   "source": {
+    "music_difficulty_id": 659,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 17,
+      "tap": 238,
+      "hold": 11,
+      "slide": 78,
+      "flick": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 814
+   },
+   "source": {
+    "music_difficulty_id": 660,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 23,
+      "tap": 338,
+      "slide": 85,
+      "flick": 56,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 5",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1001
+   },
+   "source": {
+    "music_difficulty_id": 4093,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 98,
+      "tap": 310,
+      "ex_tap": 127,
+      "slide": 36,
+      "hold": 45,
+      "other": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 132,
+   "assetbundle": "jacket_s_132",
+   "seq": 2206501
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_132.png",
+   "sha256": "10b522dfa420535a93061d13226bab07d0feee09e9ae9a4ab4d11a893431c26d",
+   "width": 320,
+   "height": 320,
+   "bytes": 20978
+  }
+ },
+ "extra": {
+  "pronunciation": "いち",
+  "lyricist": "164",
+  "composer": "164",
+  "arranger": "164",
+  "published_at": 1618984800000,
+  "released_at": 1618930800000,
+  "tags": [
+   "light_music_club",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "巡音ルカ"
+    ],
+    "asset": "vs_0132_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "日野森志歩",
+     "巡音ルカ",
+     "星乃一歌",
+     "天馬咲希",
+     "望月穂波"
+    ],
+    "asset": "se_0132_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "星乃一歌"
+    ],
+    "asset": "an_0132_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "望月穂波"
+    ],
+    "asset": "an_0132_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "日野森志歩"
+    ],
+    "asset": "an_0132_03"
+   }
+  ],
+  "filler_sec": 9.413700103759766,
+  "bpm_main": 150.0
+ }
+}

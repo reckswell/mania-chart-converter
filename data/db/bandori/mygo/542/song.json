@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "542",
+ "title": "歌いましょう鳴らしましょう",
+ "artist": "MyGO!!!!!",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "MyGO!!!!!",
+ "bpm": "222",
+ "version": "",
+ "date_added": "2023-09-16",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 109
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 109
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 27,
+      "tap": 55
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 217
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 217
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 74,
+      "tap": 69
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 484
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/542/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/542/hard.json",
+     "raw_sha256": "77f635e5792d444536c6374224bac81d350ae1a3eced368872c1747d726c5680"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 484
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 199,
+      "hold": 125,
+      "flick": 11,
+      "slide": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 706
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/542/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/542/expert.json",
+     "raw_sha256": "ca31ac90d61309a9b7e5d7236245ce7d6d968361401a68594535388e0060105a"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 706
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 101,
+      "tap": 340,
+      "slide": 54,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 542,
+   "bandId": 45,
+   "jacketImage": "542_utai_narashi",
+   "bgmId": "bgm542"
+  },
+  "maa": {
+   "bestdori_song_id": 542,
+   "jacket": {
+    "path": "bestdori/542/jacket-cn-1.png",
+    "server": "cn",
+    "name": "542_utai_narashi"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/542/jacket-cn-1.png",
+   "sha256": "43cde442230e294a358221e94ebbadc5c0925b96d20dddc002d9f83160c4f89b",
+   "width": 320,
+   "height": 320,
+   "bytes": 20650
+  }
+ },
+ "extra": {
+  "lyricist": "メガテラ・ゼロ",
+  "composer": "メガテラ・ゼロ",
+  "arranger": "Mr.FanTastiC",
+  "tag": "normal",
+  "published_at": 1694790000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "うたいましょうならしましょう",
+  "title_en": "Let's Sing, Let it Ring",
+  "length_s": 101.688
+ }
+}

@@ -1,0 +1,152 @@
+{
+ "game": "piu",
+ "song_id": "15E2",
+ "title": "BOOMBAYAH",
+ "artist": "BLACKPINK",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "125",
+ "version": "Prime 2",
+ "date_added": "",
+ "charts": {
+  "single-10": {
+   "slot": "single-10",
+   "native": "S10",
+   "level": "10",
+   "constant": null,
+   "designer": "BME",
+   "note_counts": {
+    "combo": 989
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4379,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S10",
+     "meter": "10",
+     "active": false,
+     "credit": "BME",
+     "combo": 989,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 703,
+      "hold": 87
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'S10')",
+   "assets": {}
+  },
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "BME",
+   "note_counts": {
+    "combo": 2017
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4380,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": false,
+     "credit": "BME",
+     "combo": 2017,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 1024,
+      "hold": 215,
+      "other": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "10 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'S17')",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "BME",
+   "note_counts": {
+    "combo": 1995
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 4381,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": false,
+     "credit": "BME",
+     "combo": 1995,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 998,
+      "hold": 225,
+      "other": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "14 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'D18')",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 626,
+   "game_id": "15E2",
+   "card": "/img/card/15E2.png",
+   "first": "Prime 2 v1.02.0",
+   "title": "BOOMBAYAH"
+  },
+  "simfile": {
+   "path": "13 - PRIME 2/15E2 - [Full Song] BOOMBAYAH/15E2 - [Full Song] BOOMBAYAH.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/13%20-%20PRIME%202/15E2%20-%20%5BFull%20Song%5D%20BOOMBAYAH/15E2%20-%20%5BFull%20Song%5D%20BOOMBAYAH.ssc",
+   "id": "15E2",
+   "title": "BOOMBAYAH - FULL SONG -",
+   "artist": "BLACKPINK"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Full Song",
+  "titles": {
+   "kr": "붐바야"
+  },
+  "removed": true,
+  "removed_in": "XX v1.00.1"
+ }
+}

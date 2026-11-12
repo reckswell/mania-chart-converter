@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "476",
+ "title": "RiNG A BELL",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "182",
+ "version": "",
+ "date_added": "2023-03-15",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 112
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 112
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 66,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 245
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 245
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 39,
+      "tap": 167
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 459
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/476/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/476/hard.json",
+     "raw_sha256": "f6701bad088c6598eb33b1c09d624a099bce3d71cf03b9d4e3b27970c64282af"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 459
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 332,
+      "hold": 40,
+      "flick": 15,
+      "slide": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 632
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/476/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/476/expert.json",
+     "raw_sha256": "e12d74a1c067ecdae0061b90585eb305792b9c8a521da5852395bfdae3484ce7"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 632
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 455,
+      "hold": 41,
+      "flick": 35,
+      "slide": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 476,
+   "bandId": 1,
+   "jacketImage": "476_ring_a_bell",
+   "bgmId": "bgm476"
+  },
+  "maa": {
+   "bestdori_song_id": 476,
+   "jacket": {
+    "path": "bestdori/476/jacket-cn-1.png",
+    "server": "cn",
+    "name": "476_ring_a_bell"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/476/jacket-cn-1.png",
+   "sha256": "8b29710c677172361594b86051073c0ba04fbe0c95db7b69ad15d780ab61b9d2",
+   "width": 320,
+   "height": 320,
+   "bytes": 24442
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "近藤世真（Elements Garden）",
+  "arranger": "近藤世真（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1678867200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ringabell",
+  "length_s": 110.832
+ }
+}

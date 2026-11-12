@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "442",
+ "title": "独創収差",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "126",
+ "version": "",
+ "date_added": "2022-09-12",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 143
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 143
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 125,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 280
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 280
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 221,
+      "slide": 4,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 579
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/442/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/442/hard.json",
+     "raw_sha256": "f3c2af27f69a1397f3d35f2ebe94ed699488ee8c3113221e9067f5648872bb79"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 579
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 453,
+      "slide": 24,
+      "hold": 24,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 905
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/442/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/442/expert.json",
+     "raw_sha256": "1dc53d005a90b0cc7f043dbbffcfa131a030c4bd2331099fc9a1476843b67a1c"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 905
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 607,
+      "slide": 79,
+      "hold": 26,
+      "flick": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 442,
+   "bandId": 2,
+   "jacketImage": "442_dokusousyusa",
+   "bgmId": "bgm442"
+  },
+  "maa": {
+   "bestdori_song_id": 442,
+   "jacket": {
+    "path": "bestdori/442/jacket-cn-1.png",
+    "server": "cn",
+    "name": "442_dokusousyusa"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/442/jacket-cn-1.png",
+   "sha256": "925fb40405b7015bbd12c4ca4b8bdd83e50240ead72419e80a7d5e2a6ae4aae8",
+   "width": 320,
+   "height": 320,
+   "bytes": 32007
+  }
+ },
+ "extra": {
+  "lyricist": "TK",
+  "composer": "TK",
+  "arranger": "TK",
+  "tag": "normal",
+  "published_at": 1662962400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "どくそうしゅうさ",
+  "title_en": "Dokusô-Shûsa",
+  "length_s": 125.784
+ }
+}

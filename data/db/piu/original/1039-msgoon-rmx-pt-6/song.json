@@ -1,0 +1,125 @@
+{
+ "game": "piu",
+ "song_id": "1039",
+ "title": "msgoon RMX pt.6",
+ "artist": "msgoon",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "150",
+ "version": "Fiesta",
+ "date_added": "",
+ "charts": {
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1822
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 906,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S21",
+     "meter": "21",
+     "active": true,
+     "credit": "BPM",
+     "combo": 1822,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 186,
+      "tap": 944,
+      "other": 90
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "6 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-21": {
+   "slot": "double-21",
+   "native": "D21",
+   "level": "21",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 1804
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 907,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-double",
+     "description": "D21",
+     "meter": "21",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1804,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 189,
+      "tap": 888
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 146,
+   "game_id": "1039",
+   "card": "/img/card/62.png",
+   "first": "Fiesta v1.10",
+   "title": "msgoon RMX pt.6"
+  },
+  "kalinathalie": {
+   "slug": "msgoon_rmx_pt_6"
+  },
+  "simfile": {
+   "path": "08 - FIESTA/1039 - [Remix] msgoon RMX pt.6/1039 - [Remix] msgoon RMX pt.6.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/08%20-%20FIESTA/1039%20-%20%5BRemix%5D%20msgoon%20RMX%20pt.6/1039%20-%20%5BRemix%5D%20msgoon%20RMX%20pt.6.ssc",
+   "id": "1039",
+   "title": "msgoon RMX pt.6",
+   "artist": "msgoon"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/msgoon_rmx_pt_6.jpg",
+   "sha256": "36e8f0acc81005b21a33ed07294916602f4448c67a29c46cc4f04f86b3fbdd52",
+   "width": 256,
+   "height": 256,
+   "bytes": 14548
+  }
+ },
+ "extra": {
+  "cut": "Remix",
+  "titles": {
+   "kr": "엠.에스.군 리믹스 파트.6"
+  }
+ }
+}

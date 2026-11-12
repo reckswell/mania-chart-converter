@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "673",
+ "title": "はいよろこんで",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "147",
+ "version": "",
+ "date_added": "2025-03-15",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 114
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 114
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 60,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 183
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 183
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 135,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 479
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/673/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/673/hard.json",
+     "raw_sha256": "ecd95acc32cdebb9f8057b49b2d3cef0b8adacc26b7cf7383515bfba31055f84"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 479
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 29,
+      "tap": 279,
+      "hold": 45,
+      "flick": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 717
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/673/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/673/expert.json",
+     "raw_sha256": "254f90a2db1d32126b775a987728d37c088b875553bdfbb6e84a45d489102ae8"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 717
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 53,
+      "tap": 398,
+      "slide": 64,
+      "flick": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 673,
+   "bandId": 3,
+   "jacketImage": "673_hai_yorokonde",
+   "bgmId": "bgm673"
+  },
+  "maa": {
+   "bestdori_song_id": 673,
+   "jacket": {
+    "path": "bestdori/673/jacket-cn-1.png",
+    "server": "cn",
+    "name": "673_hai_yorokonde"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/673/jacket-cn-1.png",
+   "sha256": "c2f469fcec08471e3f99e91a3efd3c32eea856fcde46fc9668c7993c6b35d4b2",
+   "width": 320,
+   "height": 320,
+   "bytes": 31242
+  }
+ },
+ "extra": {
+  "lyricist": "こっちのけんと",
+  "composer": "こっちのけんと / GRP",
+  "arranger": "近藤世真（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1742029200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "はいよろこんで",
+  "title_en": "Hai Yorokonde",
+  "length_s": 103.728
+ }
+}

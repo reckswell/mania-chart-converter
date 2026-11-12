@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "525",
+ "title": "迷路日々",
+ "artist": "MyGO!!!!!",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "MyGO!!!!!",
+ "bpm": "260",
+ "version": "",
+ "date_added": "2023-08-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 145
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 145
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 81,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 325
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 325
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 205,
+      "hold": 43,
+      "slide": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 663
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/525/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/525/hard.json",
+     "raw_sha256": "24d9bf219cd9eeda9bbee29af1732303dc91fb7452f169980e0c806f93cf0539"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 663
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 479,
+      "hold": 41,
+      "slide": 32,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 966
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/525/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/525/expert.json",
+     "raw_sha256": "3ea94300d45e3e9981187e19fcaf0d0685023ce3b4430eaadcce4fe87af4d825"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 966
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 715,
+      "hold": 57,
+      "slide": 25,
+      "flick": 52
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 525,
+   "bandId": 45,
+   "jacketImage": "525_melody",
+   "bgmId": "bgm525"
+  },
+  "maa": {
+   "bestdori_song_id": 525,
+   "jacket": {
+    "path": "bestdori/525/jacket-cn-1.png",
+    "server": "cn",
+    "name": "525_melody"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/525/jacket-cn-1.png",
+   "sha256": "4008ff414e2348c10f3a77b9cb5d92ba684de8f4845bcc0b07b321cd3e00ec71",
+   "width": 320,
+   "height": 320,
+   "bytes": 34362
+  }
+ },
+ "extra": {
+  "lyricist": "藤原優樹(SUPA LOVE)",
+  "composer": "松坂康司(SUPA LOVE)",
+  "arranger": "松坂康司(SUPA LOVE)",
+  "tag": "normal",
+  "published_at": 1693492200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "めろでぃ",
+  "title_en": "Melody",
+  "length_s": 141.288
+ }
+}

@@ -17,9 +17,25 @@
    "constant": null,
    "designer": "",
    "note_counts": {},
-   "source": {},
-   "status": "listed",
-   "notes": ""
+   "source": {
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "air_hold": 121,
+      "air": 294,
+      "ex_tap": 16,
+      "tap": 692,
+      "mine": 2068,
+      "hold": 155,
+      "slide": 30,
+      "flick": 12,
+      "other": 64
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "7 exact duplicate lines ignored; not represented: CLK×2, SLA×174, SLP×12",
+   "assets": {}
   }
  },
  "source": {
@@ -27,5 +43,17 @@
    "id": "8310",
    "image": "20d9a4aad8375bce.jpg"
   }
- }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/zvuc/otoge-db/master/chunithm/jacket/20d9a4aad8375bce.jpg",
+   "sha256": "23cdc51f0b0795f61a7764587cefb4bcfad9b0c1f0048ff6743e0865d1e8acc3",
+   "width": 190,
+   "height": 190,
+   "bytes": 5525
+  }
+ },
+ "extra": {}
 }

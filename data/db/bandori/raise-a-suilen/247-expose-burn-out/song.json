@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "247",
+ "title": "EXPOSE ‘Burn out!!!’",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2020-06-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 150
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 150
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 104,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 303
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 303
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 56,
+      "tap": 191
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 527
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/247/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/247/hard.json",
+     "raw_sha256": "d4cddb18851076eaaf241c0d4e77767f3f1adaa6f7256822965d78bfcf7fddff"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 527
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 85,
+      "tap": 318,
+      "slide": 9,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 789
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/247/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/247/expert.json",
+     "raw_sha256": "08e36c653b19512e227a3cde6418c17d1161e099f50748bfbc160db86e12cdb0"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 789
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 488,
+      "slide": 64,
+      "flick": 57,
+      "hold": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 853
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1616133600000,
+    "maa": {
+     "path": "bestdori/247/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/247/special.json",
+     "raw_sha256": "b84942ccf1fabb998f4272fcc69110c78537b0edc3ba5b4103f54fe336e1a661"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 853
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 57,
+      "tap": 499,
+      "hold": 37,
+      "flick": 75
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 247,
+   "bandId": 18,
+   "jacketImage": "247_expose",
+   "bgmId": "bgm247"
+  },
+  "maa": {
+   "bestdori_song_id": 247,
+   "jacket": {
+    "path": "bestdori/247/jacket-cn-1.png",
+    "server": "cn",
+    "name": "247_expose"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/247/jacket-cn-1.png",
+   "sha256": "2fd8a4d1394335444db063d6789e192c4a411cfa3771acf644ce34bb17fd221b",
+   "width": 320,
+   "height": 320,
+   "bytes": 33759
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "菊田大介（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1591768800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "exposeburnout",
+  "title_en": "EXPOSE 'Burn out!!!'",
+  "length_s": 103.008
+ }
+}

@@ -1,0 +1,241 @@
+{
+ "game": "sekai",
+ "song_id": "159",
+ "title": "STAGE OF SEKAI",
+ "artist": "針原翼（はりーP）",
+ "title_romaji": "STAGE OF SEKAI",
+ "artist_romaji": "hariharatsubasa hariipii",
+ "genre": "Leo/need",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2021-11-18",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 278
+   },
+   "source": {
+    "music_difficulty_id": 791,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 23,
+      "slide": 1,
+      "tap": 68,
+      "ex_tap": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 454
+   },
+   "source": {
+    "music_difficulty_id": 792,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 8,
+      "tap": 155,
+      "slide": 21,
+      "ex_tap": 17,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 621
+   },
+   "source": {
+    "music_difficulty_id": 793,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 49,
+      "tap": 190,
+      "ex_tap": 42,
+      "flick": 32,
+      "hold": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1005
+   },
+   "source": {
+    "music_difficulty_id": 794,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 397,
+      "slide": 79,
+      "flick": 53,
+      "ex_tap": 73,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1156
+   },
+   "source": {
+    "music_difficulty_id": 795,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 540,
+      "slide": 92,
+      "hold": 18,
+      "ex_tap": 63,
+      "flick": 98
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 159,
+   "assetbundle": "jacket_s_159",
+   "seq": 2211201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_159.png",
+   "sha256": "25d665bf76154c3b3a0a90c5068bd67b96a8fc66939a01f3e4c9a54dde0acaf6",
+   "width": 320,
+   "height": 320,
+   "bytes": 30250
+  }
+ },
+ "extra": {
+  "pronunciation": "すてーじおぶせかい",
+  "lyricist": "針原翼（はりーP）",
+  "composer": "針原翼（はりーP）",
+  "arranger": "棚橋 EDDY テルアキ",
+  "published_at": 1637240700000,
+  "released_at": 1637161200000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0159_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "望月穂波",
+     "鏡音レン",
+     "星乃一歌",
+     "天馬咲希",
+     "日野森志歩"
+    ],
+    "asset": "se_0159_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "星乃一歌"
+    ],
+    "asset": "an_0159_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "天馬咲希"
+    ],
+    "asset": "an_0159_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "望月穂波"
+    ],
+    "asset": "an_0159_03"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "日野森志歩"
+    ],
+    "asset": "an_0159_04"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鏡音レン"
+    ],
+    "asset": "an_0159_05"
+   }
+  ],
+  "filler_sec": 8.368499755859375,
+  "bpm_main": 190.0
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "game": "bandori",
+ "song_id": "810",
+ "title": "好き・スキ・だいすき〜ズっ！",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "148",
+ "version": "",
+ "date_added": "2026-08-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 475
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/810/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/810/hard.json",
+     "raw_sha256": "550b491d5fe8cb4e7940507b6df3f36c74db34daa6cfc8880a479bd0e6bed736"
+    },
+    "bestdori": {
+     "notes": 475
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 32,
+      "tap": 192,
+      "slide": 60,
+      "flick": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 590
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/810/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/810/expert.json",
+     "raw_sha256": "34965c1cfad877eeeb0c821c2f91a3a8f7423ddeb474ed026a7083c203ffa0ad"
+    },
+    "bestdori": {
+     "notes": 590
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 71,
+      "tap": 288,
+      "flick": 33,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 810,
+   "bandId": 3,
+   "jacketImage": "810_suki_suki",
+   "bgmId": "bgm810"
+  },
+  "maa": {
+   "bestdori_song_id": 810,
+   "jacket": {
+    "path": "bestdori/810/jacket-jp-1.png",
+    "server": "jp",
+    "name": "810_suki_suki"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/810/jacket-jp-1.png",
+   "sha256": "1546d982987132065d727fe560f5f6ee380a6ce7f5c196d1fce6657128467bfd",
+   "width": 320,
+   "height": 320,
+   "bytes": 35532
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤間仁（Elements Garden）",
+  "arranger": "藤間仁（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1788069600000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "すきすきだいすきーずっ"
+ }
+}

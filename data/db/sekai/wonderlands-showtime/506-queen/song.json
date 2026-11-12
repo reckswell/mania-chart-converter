@@ -1,0 +1,231 @@
+{
+ "game": "sekai",
+ "song_id": "506",
+ "title": "QUEEN",
+ "artist": "Kanaria",
+ "title_romaji": "QUEEN",
+ "artist_romaji": "Kanaria",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2024-08-26",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 239
+   },
+   "source": {
+    "music_difficulty_id": 2526,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 4,
+      "tap": 77,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 521
+   },
+   "source": {
+    "music_difficulty_id": 2527,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 30,
+      "tap": 155,
+      "ex_tap": 14,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 776
+   },
+   "source": {
+    "music_difficulty_id": 2528,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 61,
+      "tap": 240,
+      "ex_tap": 60,
+      "flick": 46,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1164
+   },
+   "source": {
+    "music_difficulty_id": 2529,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 135,
+      "tap": 418,
+      "hold": 13,
+      "ex_tap": 52,
+      "other": 6,
+      "flick": 108
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1385
+   },
+   "source": {
+    "music_difficulty_id": 2530,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 151,
+      "tap": 577,
+      "hold": 14,
+      "ex_tap": 46,
+      "other": 6,
+      "flick": 131
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 506,
+   "assetbundle": "jacket_s_506",
+   "seq": 1543201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_506.png",
+   "sha256": "4ae8ba9c93aec5c3a27c06980c1c71789dd84b90b8d3533eb4c51b31b91288d8",
+   "width": 320,
+   "height": 320,
+   "bytes": 30690
+  }
+ },
+ "extra": {
+  "pronunciation": "くいーん",
+  "lyricist": "Kanaria",
+  "composer": "Kanaria",
+  "arranger": "Kanaria",
+  "published_at": 1724652000000,
+  "released_at": 1659711600000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "GUMI"
+    ],
+    "asset": "vs_0506_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "MEIKO",
+     "鳳えむ",
+     "草薙寧々"
+    ],
+    "asset": "se_0506_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鳳えむ"
+    ],
+    "asset": "an_0506_03"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "草薙寧々"
+    ],
+    "asset": "an_0506_04"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "an_0506_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "MEIKO"
+    ],
+    "asset": "an_0506_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 170.0
+ }
+}

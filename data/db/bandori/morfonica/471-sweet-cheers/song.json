@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "471",
+ "title": "Sweet Cheers!",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "110",
+ "version": "",
+ "date_added": "2023-01-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 113
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 113
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 83,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 227
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 227
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 119,
+      "hold": 54
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 457
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/471/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/471/hard.json",
+     "raw_sha256": "269f7f6eaf6169bf32e295f431b2b45b2343e29be12b2b35cd169a693a0af2bf"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 457
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 63,
+      "tap": 174,
+      "hold": 40,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 600
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/471/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/471/expert.json",
+     "raw_sha256": "be7d5f855e237b6d4563baa566974d1052ab347739ef1729bb21c07cd98497ab"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 600
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 64,
+      "tap": 289,
+      "hold": 42,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 471,
+   "bandId": 21,
+   "jacketImage": "471_sweet_cheers",
+   "bgmId": "bgm471"
+  },
+  "maa": {
+   "bestdori_song_id": 471,
+   "jacket": {
+    "path": "bestdori/471/jacket-cn-1.png",
+    "server": "cn",
+    "name": "471_sweet_cheers"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/471/jacket-cn-1.png",
+   "sha256": "f75c5fcbc65f45db1b4b275db257f44439cf6aedc146acfcf2bb7a2802cc026d",
+   "width": 320,
+   "height": 320,
+   "bytes": 29666
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "岩橋星実（Elements Garden）",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1675144800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "sweetcheers",
+  "length_s": 112.416
+ }
+}

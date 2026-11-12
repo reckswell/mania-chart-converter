@@ -1,0 +1,182 @@
+{
+ "game": "piu",
+ "song_id": "15D0",
+ "title": "Vulcan",
+ "artist": "Memme",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "175",
+ "version": "Prime 2",
+ "date_added": "",
+ "charts": {
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "BME",
+   "note_counts": {
+    "combo": 1240
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6832,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S19",
+     "meter": "19",
+     "active": true,
+     "credit": "BME",
+     "combo": 1240,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 872,
+      "hold": 113
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-22": {
+   "slot": "single-22",
+   "native": "S22",
+   "level": "22",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 1800
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3502,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S22",
+     "meter": "22",
+     "active": true,
+     "credit": "NIMGO",
+     "combo": 1800,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 1216,
+      "hold": 85
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "230 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-24": {
+   "slot": "double-24",
+   "native": "D24",
+   "level": "24",
+   "constant": null,
+   "designer": "NIMGO",
+   "note_counts": {
+    "combo": 1825
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3503,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-double",
+     "description": "D24",
+     "meter": "24",
+     "active": true,
+     "credit": "NIMGO",
+     "combo": 1825,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 1253,
+      "hold": 78
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "240 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "halfdouble-24": {
+   "slot": "halfdouble-24",
+   "native": "HDB24",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8880,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 535,
+   "game_id": "15D0",
+   "card": "/img/card/15D0.png",
+   "first": "Prime 2 v1.00.0",
+   "title": "Vulcan"
+  },
+  "kalinathalie": {
+   "slug": "vulcan"
+  },
+  "simfile": {
+   "path": "13 - PRIME 2/15D0 - [Remix] Vulcan/15D0 - [Remix] Vulcan.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/13%20-%20PRIME%202/15D0%20-%20%5BRemix%5D%20Vulcan/15D0%20-%20%5BRemix%5D%20Vulcan.ssc",
+   "id": "15D0",
+   "title": "Vulcan",
+   "artist": "Memme"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/vulcan.jpg",
+   "sha256": "fb0998ac995981e19951ab523983878797872eb776c18ea9f36f4219c7254acc",
+   "width": 256,
+   "height": 256,
+   "bytes": 20449
+  }
+ },
+ "extra": {
+  "cut": "Remix",
+  "titles": {
+   "kr": "불카누스"
+  }
+ }
+}

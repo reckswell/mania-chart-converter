@@ -1,0 +1,220 @@
+{
+ "game": "sekai",
+ "song_id": "510",
+ "title": "失敗作少女",
+ "artist": "かいりきベア",
+ "title_romaji": "shippaisakushoujo",
+ "artist_romaji": "kairikibea",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "120",
+ "version": "",
+ "date_added": "2025-05-12",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 176
+   },
+   "source": {
+    "music_difficulty_id": 2546,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 41,
+      "ex_tap": 5,
+      "hold": 7,
+      "slide": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 222
+   },
+   "source": {
+    "music_difficulty_id": 2547,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 27,
+      "tap": 94,
+      "flick": 21,
+      "hold": 1,
+      "slide": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 596
+   },
+   "source": {
+    "music_difficulty_id": 2548,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 17,
+      "slide": 57,
+      "tap": 190,
+      "hold": 8,
+      "ex_tap": 50,
+      "other": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 805
+   },
+   "source": {
+    "music_difficulty_id": 2549,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 47,
+      "tap": 321,
+      "slide": 78,
+      "other": 13,
+      "hold": 21,
+      "ex_tap": 88
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 986
+   },
+   "source": {
+    "music_difficulty_id": 2550,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 132,
+      "flick": 91,
+      "tap": 406,
+      "other": 10,
+      "ex_tap": 146,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 510,
+   "assetbundle": "jacket_s_510",
+   "seq": 1651901
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_510.png",
+   "sha256": "0e2dd744a4091216bd1e229e819cfc4b0c3e90e038396a30863c587c272c68ae",
+   "width": 320,
+   "height": 320,
+   "bytes": 30758
+  }
+ },
+ "extra": {
+  "pronunciation": "しっぱいさくしょうじょ",
+  "lyricist": "かいりきベア",
+  "composer": "かいりきベア",
+  "arranger": "かいりきベア",
+  "published_at": 1747029600000,
+  "released_at": 1438959600000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0510_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "MEIKO",
+     "宵崎奏",
+     "朝比奈まふゆ",
+     "東雲絵名",
+     "暁山瑞希"
+    ],
+    "asset": "se_0510_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "朝比奈まふゆ"
+    ],
+    "asset": "an_0510_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "東雲絵名"
+    ],
+    "asset": "an_0510_01"
+   }
+  ],
+  "filler_sec": 7.5,
+  "bpm_main": 120.0
+ }
+}

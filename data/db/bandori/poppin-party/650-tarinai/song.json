@@ -1,0 +1,191 @@
+{
+ "game": "bandori",
+ "song_id": "650",
+ "title": "TARINAI",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "190",
+ "version": "",
+ "date_added": "2024-12-26",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 109
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 109
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 83,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 292
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 292
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 248,
+      "hold": 18,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 454
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/650/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/650/hard.json",
+     "raw_sha256": "3b83f94a966b4581de5fd73bec0449315408e372583d3a22c7c8d53f6982dcdd"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 454
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 310,
+      "flick": 16,
+      "hold": 12,
+      "slide": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 843
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/650/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/650/expert.json",
+     "raw_sha256": "569be424554e9d77010f95350526e0004627656830d08c4d28a5485155537a3f"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 843
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 551,
+      "flick": 69,
+      "hold": 17,
+      "slide": 51
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1793426400000,
+    "special_notes": true
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 650,
+   "bandId": 1,
+   "jacketImage": "650_tarinai",
+   "bgmId": "bgm650"
+  },
+  "maa": {
+   "bestdori_song_id": 650,
+   "jacket": {
+    "path": "bestdori/650/jacket-cn-1.png",
+    "server": "cn",
+    "name": "650_tarinai"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/650/jacket-cn-1.png",
+   "sha256": "c6298b70f8b8ec43f7479cd867d969df50b31bb5d2bd65cebecbe980ed430481",
+   "width": 320,
+   "height": 320,
+   "bytes": 33394
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1735192800000,
+  "closed_at": 4122414000000,
+  "music_data_type": "normal",
+  "ruby": "tarinai",
+  "length_s": 99.84
+ }
+}

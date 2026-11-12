@@ -1,0 +1,127 @@
+{
+ "game": "piu",
+ "song_id": "D42",
+ "title": "Beat of the War 2",
+ "artist": "Yahpp",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "120-190",
+ "version": "NX / New Xenesis",
+ "date_added": "",
+ "charts": {
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 2589
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 724,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S21",
+     "meter": "21",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 2589,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 94,
+      "tap": 1686
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-22": {
+   "slot": "double-22",
+   "native": "D22",
+   "level": "22",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 2634
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 725,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-double",
+     "description": "D21",
+     "meter": "21",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 2634,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 144,
+      "tap": 1624
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 21 differs from the PHOENIX 2 level 22: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 112,
+   "game_id": "D42",
+   "card": "/img/card/278.png",
+   "first": "NX / New Xenesis 1.05",
+   "title": "Beat of the War 2"
+  },
+  "kalinathalie": {
+   "slug": "beat_of_the_war_2_full_song"
+  },
+  "simfile": {
+   "path": "05 - NX~NX2/(2) D42 - [Full Song] Beat of the War 2/D42 - [Full Song] Beat of the War 2.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/05%20-%20NX~NX2/%282%29%20D42%20-%20%5BFull%20Song%5D%20Beat%20of%20the%20War%202/D42%20-%20%5BFull%20Song%5D%20Beat%20of%20the%20War%202.ssc",
+   "id": "D42",
+   "title": "Beat of The War 2 - FULL SONG -",
+   "artist": "YAHPP"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/beat_of_the_war_2_full_song.jpg",
+   "sha256": "4febea99b482421db5945cc9074ada284cf5f969824530004142276b59ec3e91",
+   "width": 256,
+   "height": 256,
+   "bytes": 24181
+  }
+ },
+ "extra": {
+  "cut": "Full Song",
+  "titles": {
+   "kr": "비트 오브 더 워 2 풀 송"
+  },
+  "simfile_notes": [
+   "D22: simfile chart 'D21' has meter 21 (re-rated)"
+  ]
+ }
+}

@@ -1,0 +1,215 @@
+{
+ "game": "sekai",
+ "song_id": "294",
+ "title": "それがあなたの幸せとしても",
+ "artist": "Heavenz",
+ "title_romaji": "soregaanatanoshiawasetoshitemo",
+ "artist_romaji": "Heavenz",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "71-77 (77)",
+ "version": "",
+ "date_added": "2023-01-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 141
+   },
+   "source": {
+    "music_difficulty_id": 1466,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 44,
+      "hold": 8,
+      "ex_tap": 4,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 263
+   },
+   "source": {
+    "music_difficulty_id": 1467,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 93,
+      "hold": 4,
+      "slide": 16,
+      "ex_tap": 9,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 460
+   },
+   "source": {
+    "music_difficulty_id": 1468,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 172,
+      "slide": 48,
+      "flick": 8,
+      "ex_tap": 30,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 615
+   },
+   "source": {
+    "music_difficulty_id": 1469,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 17,
+      "tap": 213,
+      "hold": 5,
+      "slide": 79,
+      "ex_tap": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 814
+   },
+   "source": {
+    "music_difficulty_id": 1470,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 27,
+      "hold": 13,
+      "tap": 397,
+      "slide": 98,
+      "ex_tap": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 294,
+   "assetbundle": "jacket_s_294",
+   "seq": 1623201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_294.png",
+   "sha256": "2122e0991f417de1acbbd29fb5eab49f68d62677095006987d60b547411cc84c",
+   "width": 320,
+   "height": 320,
+   "bytes": 18233
+  }
+ },
+ "extra": {
+  "pronunciation": "それがあなたのしあわせとしても",
+  "lyricist": "Heavenz",
+  "composer": "Heavenz",
+  "arranger": "Heavenz",
+  "published_at": 1672725600000,
+  "released_at": 1364828400000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "巡音ルカ"
+    ],
+    "asset": "vs_0294_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "巡音ルカ",
+     "宵崎奏",
+     "東雲絵名"
+    ],
+    "asset": "se_0294_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "宵崎奏"
+    ],
+    "asset": "an_0294_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "東雲絵名"
+    ],
+    "asset": "an_0294_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 77.0
+ }
+}

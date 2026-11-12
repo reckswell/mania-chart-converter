@@ -1,0 +1,201 @@
+{
+ "game": "sekai",
+ "song_id": "667",
+ "title": "㋰責任集合体",
+ "artist": "マサラダ",
+ "title_romaji": "musekininshuugoutai",
+ "artist_romaji": "masarada",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "135",
+ "version": "",
+ "date_added": "2025-10-08",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 145
+   },
+   "source": {
+    "music_difficulty_id": 3331,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 58,
+      "slide": 3,
+      "ex_tap": 16,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 313
+   },
+   "source": {
+    "music_difficulty_id": 3332,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 10,
+      "tap": 121,
+      "flick": 11,
+      "ex_tap": 16,
+      "slide": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 552
+   },
+   "source": {
+    "music_difficulty_id": 3333,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 209,
+      "hold": 16,
+      "slide": 18,
+      "ex_tap": 32,
+      "flick": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 762
+   },
+   "source": {
+    "music_difficulty_id": 3334,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 384,
+      "hold": 29,
+      "other": 3,
+      "slide": 49,
+      "flick": 27,
+      "ex_tap": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 937
+   },
+   "source": {
+    "music_difficulty_id": 3335,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 99,
+      "slide": 134,
+      "tap": 437,
+      "flick": 60,
+      "ex_tap": 89,
+      "other": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 667,
+   "assetbundle": "jacket_s_667",
+   "seq": 1156401
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_667.png",
+   "sha256": "908582ae3359a08bc0df3a867fcbe025528aa37e119afa125f18ac5b81ba7e37",
+   "width": 320,
+   "height": 320,
+   "bytes": 8067
+  }
+ },
+ "extra": {
+  "pronunciation": "むせきにんしゅうごうたい",
+  "lyricist": "マサラダ",
+  "composer": "マサラダ",
+  "arranger": "マサラダ",
+  "published_at": 1759903200000,
+  "released_at": 1715353200000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "重音テト"
+    ],
+    "asset": "vs_0667_01"
+   },
+   {
+    "type": "streaming_live",
+    "caption": "コネクトライブver.",
+    "singers": [
+     "初音ミク",
+     "鏡音レン",
+     "KAITO"
+    ],
+    "asset": "cl_0667_01"
+   }
+  ],
+  "filler_sec": 9.4443998336792,
+  "bpm_main": 135.0
+ }
+}

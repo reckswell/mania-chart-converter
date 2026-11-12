@@ -1,0 +1,207 @@
+{
+ "game": "sekai",
+ "song_id": "286",
+ "title": "Hello, Worker",
+ "artist": "KEI",
+ "title_romaji": "Hello, Worker",
+ "artist_romaji": "KEI",
+ "genre": "Leo/need",
+ "bpm": "168",
+ "version": "",
+ "date_added": "2023-02-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 245
+   },
+   "source": {
+    "music_difficulty_id": 1426,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 21,
+      "tap": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 419
+   },
+   "source": {
+    "music_difficulty_id": 1427,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 31,
+      "tap": 94,
+      "slide": 10,
+      "flick": 4,
+      "ex_tap": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 523
+   },
+   "source": {
+    "music_difficulty_id": 1428,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 22,
+      "tap": 165,
+      "ex_tap": 24,
+      "slide": 40,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 773
+   },
+   "source": {
+    "music_difficulty_id": 1429,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 85,
+      "ex_tap": 47,
+      "tap": 270,
+      "flick": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 918
+   },
+   "source": {
+    "music_difficulty_id": 1430,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 95,
+      "ex_tap": 37,
+      "tap": 413,
+      "flick": 71,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 286,
+   "assetbundle": "jacket_s_286",
+   "seq": 1224901
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_286.png",
+   "sha256": "cdb334c7a819b1941a675ff26f9b90ee791bebd8ca7abb201d68e1d584616deb",
+   "width": 320,
+   "height": 320,
+   "bytes": 22843
+  }
+ },
+ "extra": {
+  "pronunciation": "はろーわーかー",
+  "lyricist": "ハヤシケイ",
+  "composer": "ハヤシケイ",
+  "arranger": "ハヤシケイ",
+  "published_at": 1676872800000,
+  "released_at": 1314889200000,
+  "tags": [
+   "light_music_club",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "巡音ルカ"
+    ],
+    "asset": "vs_0286_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "巡音ルカ",
+     "星乃一歌",
+     "天馬咲希",
+     "望月穂波",
+     "日野森志歩"
+    ],
+    "asset": "se_0286_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "日野森志歩"
+    ],
+    "asset": "an_0286_01"
+   }
+  ],
+  "filler_sec": 7.921899795532227,
+  "bpm_main": 168.0
+ }
+}

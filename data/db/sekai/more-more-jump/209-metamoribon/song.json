@@ -1,0 +1,209 @@
+{
+ "game": "sekai",
+ "song_id": "209",
+ "title": "メタモリボン",
+ "artist": "emon(Tes.)",
+ "title_romaji": "metamoribon",
+ "artist_romaji": "emon(Tes.)",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "123",
+ "version": "",
+ "date_added": "2022-03-11",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 149
+   },
+   "source": {
+    "music_difficulty_id": 1041,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 12,
+      "tap": 43,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 254
+   },
+   "source": {
+    "music_difficulty_id": 1042,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 21,
+      "ex_tap": 16,
+      "tap": 85,
+      "slide": 10,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 409
+   },
+   "source": {
+    "music_difficulty_id": 1043,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 39,
+      "ex_tap": 29,
+      "tap": 97,
+      "hold": 16,
+      "flick": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 580
+   },
+   "source": {
+    "music_difficulty_id": 1044,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 169,
+      "hold": 14,
+      "ex_tap": 25,
+      "slide": 75,
+      "flick": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 685
+   },
+   "source": {
+    "music_difficulty_id": 1045,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 243,
+      "flick": 56,
+      "hold": 10,
+      "ex_tap": 25,
+      "slide": 100
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 209,
+   "assetbundle": "jacket_s_209",
+   "seq": 2314301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_209.png",
+   "sha256": "de1f64e80814f21cba94712170a18de06a29168e70df8bc679e9a7d4fa07c74b",
+   "width": 320,
+   "height": 320,
+   "bytes": 33607
+  }
+ },
+ "extra": {
+  "pronunciation": "めたもりぼん",
+  "lyricist": "emon(Tes.)・Tudiken",
+  "composer": "emon(Tes.)",
+  "arranger": "emon(Tes.)",
+  "published_at": 1646978400000,
+  "released_at": 1646924400000,
+  "tags": [
+   "idol",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音リン"
+    ],
+    "asset": "vs_0209_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "日野森雫",
+     "鏡音リン",
+     "花里みのり",
+     "桐谷遥",
+     "桃井愛莉"
+    ],
+    "asset": "se_0209_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "日野森雫"
+    ],
+    "asset": "an_0209_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 123.0
+ }
+}

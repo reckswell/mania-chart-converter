@@ -1,0 +1,215 @@
+{
+ "game": "sekai",
+ "song_id": "358",
+ "title": "心做し",
+ "artist": "蝶々P",
+ "title_romaji": "kokoronashi",
+ "artist_romaji": "chouchoupii",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "84",
+ "version": "",
+ "date_added": "2023-08-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 136
+   },
+   "source": {
+    "music_difficulty_id": 1786,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 32,
+      "hold": 8,
+      "ex_tap": 4,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 234
+   },
+   "source": {
+    "music_difficulty_id": 1787,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 105,
+      "slide": 13,
+      "hold": 5,
+      "flick": 4,
+      "ex_tap": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 456
+   },
+   "source": {
+    "music_difficulty_id": 1788,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 181,
+      "slide": 43,
+      "ex_tap": 41,
+      "flick": 7,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 676
+   },
+   "source": {
+    "music_difficulty_id": 1789,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 278,
+      "slide": 76,
+      "hold": 47,
+      "ex_tap": 42,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 832
+   },
+   "source": {
+    "music_difficulty_id": 1790,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 305,
+      "hold": 21,
+      "slide": 115,
+      "ex_tap": 56,
+      "flick": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 358,
+   "assetbundle": "jacket_s_358",
+   "seq": 1631601
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_358.png",
+   "sha256": "c78da177ba0a885a066559bb4eaa8fe6161bf03108f2c5e2c1f119ddc36b5260",
+   "width": 320,
+   "height": 320,
+   "bytes": 34561
+  }
+ },
+ "extra": {
+  "pronunciation": "こころなし",
+  "lyricist": "蝶々P",
+  "composer": "蝶々P",
+  "arranger": "蝶々P",
+  "published_at": 1693202400000,
+  "released_at": 1388847600000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "GUMI"
+    ],
+    "asset": "vs_0358_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音レン",
+     "宵崎奏",
+     "朝比奈まふゆ"
+    ],
+    "asset": "se_0358_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "宵崎奏"
+    ],
+    "asset": "an_0358_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "朝比奈まふゆ"
+    ],
+    "asset": "an_0358_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 84.0
+ }
+}

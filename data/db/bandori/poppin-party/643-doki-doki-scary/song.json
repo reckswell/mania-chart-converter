@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "643",
+ "title": "DOKI DOKI SCARY",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "142",
+ "version": "",
+ "date_added": "2024-11-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 116
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 116
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 72,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 209
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 209
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 133,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 441
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/643/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/643/hard.json",
+     "raw_sha256": "3318ab0e5cd865ab999b8a892b38373b9a462ed0542b823d4fe3777700c5afc8"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 441
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 41,
+      "tap": 249,
+      "flick": 24,
+      "slide": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 681
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/643/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/643/expert.json",
+     "raw_sha256": "877b0b5a78437868424e6e63cd21c83951fbbdd04649d70e3e94d54e5b59668e"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 681
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 34,
+      "tap": 372,
+      "flick": 55,
+      "slide": 68
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 643,
+   "bandId": 1,
+   "jacketImage": "643_dokidoki_scary",
+   "bgmId": "bgm643"
+  },
+  "maa": {
+   "bestdori_song_id": 643,
+   "jacket": {
+    "path": "bestdori/643/jacket-cn-1.png",
+    "server": "cn",
+    "name": "643_dokidoki_scary"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/643/jacket-cn-1.png",
+   "sha256": "fbba2951d0a957b782f7a5539ca620882d68b0e94c77fa7e97560d326113e7f2",
+   "width": 320,
+   "height": 320,
+   "bytes": 33416
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "都丸椋太(Elements Garden)",
+  "arranger": "都丸椋太(Elements Garden)",
+  "tag": "normal",
+  "published_at": 1731218400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "dokidokiscary",
+  "length_s": 103.992
+ }
+}

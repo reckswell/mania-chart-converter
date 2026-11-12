@@ -1,0 +1,145 @@
+{
+ "game": "bandori",
+ "song_id": "800",
+ "title": "ほれぼれっ☆すまいるゴール！",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "165",
+ "version": "",
+ "date_added": "2026-05-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 470
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/800/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/800/hard.json",
+     "raw_sha256": "8891f50dfc0a022248ec33a39bf95e88ab60bca1d69654e4eb03998b9c54360b"
+    },
+    "bestdori": {
+     "notes": 470
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 242,
+      "hold": 63,
+      "slide": 31,
+      "flick": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 643
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/800/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/800/expert.json",
+     "raw_sha256": "2b0e1679e19458619eb504a76db864661a7a2fcdb5861424790c1eefd138b37d"
+    },
+    "bestdori": {
+     "notes": 643
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 419,
+      "hold": 66,
+      "flick": 50,
+      "slide": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 800,
+   "bandId": 3,
+   "jacketImage": "800_horebore_smile",
+   "bgmId": "bgm800"
+  },
+  "maa": {
+   "bestdori_song_id": 800,
+   "jacket": {
+    "path": "bestdori/800/jacket-jp-1.png",
+    "server": "jp",
+    "name": "800_horebore_smile"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/800/jacket-jp-1.png",
+   "sha256": "9574bfe4232ac75ca87da0e6497b80bc60dc0febc1fc36c72a57f1b7a6f0475d",
+   "width": 320,
+   "height": 320,
+   "bytes": 39757
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "都丸椋太（Elements Garden）",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1779343200000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "ほれぼれっすまいるごーる"
+ }
+}

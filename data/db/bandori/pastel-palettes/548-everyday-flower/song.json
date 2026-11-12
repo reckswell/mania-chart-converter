@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "548",
+ "title": "everyday flower",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "126-136",
+ "version": "",
+ "date_added": "2023-09-23",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 123
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 123
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 31,
+      "tap": 61
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 220
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 220
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 120,
+      "hold": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 437
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/548/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/548/hard.json",
+     "raw_sha256": "a5168aba7896e89d11e1a4e4137fe77fc67eb1c30ffc053c04ee59ab01b8fd5d"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 437
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 185,
+      "slide": 79,
+      "hold": 23,
+      "flick": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 629
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/548/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/548/expert.json",
+     "raw_sha256": "05d7a2c28aa12bab1ba523b60c01f131c8c186fa5005039e69680e843db9f25e"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 629
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 310,
+      "slide": 102,
+      "flick": 13,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 548,
+   "bandId": 4,
+   "jacketImage": "548_everyday_flower",
+   "bgmId": "bgm548"
+  },
+  "maa": {
+   "bestdori_song_id": 548,
+   "jacket": {
+    "path": "bestdori/548/jacket-cn-1.png",
+    "server": "cn",
+    "name": "548_everyday_flower"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/548/jacket-cn-1.png",
+   "sha256": "03500ef385cab6d1c83ba5649082cc0a5cbc5d9fc5211492db41dc62b36865e9",
+   "width": 320,
+   "height": 320,
+   "bytes": 18865
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "近藤世真（Elements Garden）",
+  "arranger": "近藤世真（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1695448800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "everydayflower",
+  "length_s": 118.392
+ }
+}

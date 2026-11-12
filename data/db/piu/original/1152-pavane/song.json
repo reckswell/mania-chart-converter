@@ -1,0 +1,321 @@
+{
+ "game": "piu",
+ "song_id": "1152",
+ "title": "Pavane",
+ "artist": "Doin, V.A.",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "160",
+ "version": "Fiesta EX",
+ "date_added": "",
+ "charts": {
+  "single-3": {
+   "slot": "single-3",
+   "native": "S3",
+   "level": "3",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 174
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1098,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S3",
+     "meter": "3",
+     "active": true,
+     "credit": "HP",
+     "combo": 174,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 74,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-6": {
+   "slot": "single-6",
+   "native": "S6",
+   "level": "6",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 455
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1099,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S6",
+     "meter": "6",
+     "active": true,
+     "credit": "HP",
+     "combo": 455,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 138,
+      "hold": 66
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-10": {
+   "slot": "single-10",
+   "native": "S10",
+   "level": "10",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 548
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1100,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S10",
+     "meter": "10",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 548,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 271,
+      "hold": 52
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 1092
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1101,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S17 INFOBAR TITLE",
+     "meter": "17",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1092,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 464,
+      "hold": 106
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-17": {
+   "slot": "double-17",
+   "native": "D17",
+   "level": "17",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 1333
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1096,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 8,
+     "steps_type": "pump-double",
+     "description": "D17",
+     "meter": "17",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1333,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 134,
+      "tap": 411
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-23": {
+   "slot": "double-23",
+   "native": "D23",
+   "level": "23",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 952
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1097,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 10,
+     "steps_type": "pump-double",
+     "description": "D22",
+     "meter": "22",
+     "active": true,
+     "credit": "HP",
+     "combo": 952,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 611,
+      "hold": 98
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 22 differs from the PHOENIX 2 level 23: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "halfdouble-17": {
+   "slot": "halfdouble-17",
+   "native": "HDB17",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9086,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-21": {
+   "slot": "halfdouble-21",
+   "native": "HDB21",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9087,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 189,
+   "game_id": "1152",
+   "card": "/img/card/118.png",
+   "first": "Fiesta EX v1.30",
+   "title": "Pavane"
+  },
+  "kalinathalie": {
+   "slug": "pavane"
+  },
+  "simfile": {
+   "path": "09 - FIESTA EX/1152 - Pavane/1152 - Pavane.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/09%20-%20FIESTA%20EX/1152%20-%20Pavane/1152%20-%20Pavane.ssc",
+   "id": "1152",
+   "title": "Pavane",
+   "artist": "V.A."
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/pavane.jpg",
+   "sha256": "b160c551a081fe5376676b2ab819a6f74fcde823ef1f8f1a6081408d37850f61",
+   "width": 256,
+   "height": 256,
+   "bytes": 9428
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "파반느"
+  },
+  "artists": [
+   "Doin",
+   "V.A."
+  ],
+  "simfile_notes": [
+   "D23: simfile chart 'D22' has meter 22 (re-rated)"
+  ]
+ }
+}

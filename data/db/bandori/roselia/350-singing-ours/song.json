@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "350",
+ "title": "Singing “OURS”",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "69-125",
+ "version": "",
+ "date_added": "2021-07-04",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 135
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 135
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 29,
+      "tap": 77
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 216
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 216
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 138,
+      "hold": 39
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 412
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/350/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/350/hard.json",
+     "raw_sha256": "bd0673c550aa1a0908c2e73c53ec3c2467c91528d2dab989abd6ae666b8922c7"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 412
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 237,
+      "hold": 78,
+      "flick": 5,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 581
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/350/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/350/expert.json",
+     "raw_sha256": "ac6ad9e39a541521905ebed5568403f8de4c09bf80c37229a987bf0ed586758b"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 581
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 355,
+      "hold": 45,
+      "slide": 53,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 350,
+   "bandId": 5,
+   "jacketImage": "350_singing_ours",
+   "bgmId": "bgm350"
+  },
+  "maa": {
+   "bestdori_song_id": 350,
+   "jacket": {
+    "path": "bestdori/350/jacket-cn-1.png",
+    "server": "cn",
+    "name": "350_singing_ours"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/350/jacket-cn-1.png",
+   "sha256": "b84a85cf0b720bd1cfcd03d717c1c69b7648b604b75bb3cf428ef50a15deb07b",
+   "width": 320,
+   "height": 320,
+   "bytes": 14519
+  }
+ },
+ "extra": {
+  "lyricist": "Spirit Garden",
+  "composer": "竹田祐介（Elements Garden）",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1625378400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "singingours",
+  "length_s": 132.432
+ }
+}

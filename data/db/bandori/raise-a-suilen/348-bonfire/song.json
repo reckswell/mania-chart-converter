@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "348",
+ "title": "灼熱 Bonfire!",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "155",
+ "version": "",
+ "date_added": "2021-07-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 143
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 143
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 113,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 251
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 251
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 183,
+      "hold": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 508
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/348/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/348/hard.json",
+     "raw_sha256": "e0f6fb81aae1b456bb18a1b110e2d2a30cb6b5ce28b785d5ce6c51f43b21c35a"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 508
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 299,
+      "slide": 30,
+      "hold": 52,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 695
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/348/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/348/expert.json",
+     "raw_sha256": "306c920ae20a4e02c7ca93c78f2f24626d4baae2ce8ea9a93c4f96a60d1c3c81"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 695
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 475,
+      "slide": 59,
+      "hold": 37,
+      "flick": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 738
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1693461600000,
+    "maa": {
+     "path": "bestdori/348/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/348/special.json",
+     "raw_sha256": "b413081868f440fc706713bbb76384b0d8a19ee591462232ddd44325355ff295"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 738
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 422,
+      "slide": 76,
+      "flick": 40,
+      "hold": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 348,
+   "bandId": 18,
+   "jacketImage": "348_bon_fire",
+   "bgmId": "bgm348"
+  },
+  "maa": {
+   "bestdori_song_id": 348,
+   "jacket": {
+    "path": "bestdori/348/jacket-cn-1.png",
+    "server": "cn",
+    "name": "348_bon_fire"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/348/jacket-cn-1.png",
+   "sha256": "c3a20854d608b99411da411d75b9586235f6e01dc8e1aac0afb2e09f92d2d1f7",
+   "width": 320,
+   "height": 320,
+   "bytes": 38084
+  }
+ },
+ "extra": {
+  "lyricist": "Spirit Garden",
+  "composer": "日高勇輝（Elements Garden）",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1627711200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "しゃくねつbonfire",
+  "title_en": "Blazing Bonfire!",
+  "length_s": 105.36
+ }
+}

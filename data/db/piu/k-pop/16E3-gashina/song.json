@@ -1,0 +1,149 @@
+{
+ "game": "piu",
+ "song_id": "16E3",
+ "title": "Gashina",
+ "artist": "SUNMI",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "94",
+ "version": "XX",
+ "date_added": "",
+ "charts": {
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "SUNNY",
+   "note_counts": {
+    "combo": 1075
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5803,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S15",
+     "meter": "15",
+     "active": false,
+     "credit": "SUNNY",
+     "combo": 1075,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 570,
+      "hold": 78
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'S15')",
+   "assets": {}
+  },
+  "single-20": {
+   "slot": "single-20",
+   "native": "S20",
+   "level": "20",
+   "constant": null,
+   "designer": "SUNNY",
+   "note_counts": {
+    "combo": 1460
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5804,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S20",
+     "meter": "20",
+     "active": false,
+     "credit": "SUNNY",
+     "combo": 1460,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 845,
+      "hold": 80,
+      "other": 1280
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "21 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'S20')",
+   "assets": {}
+  },
+  "double-21": {
+   "slot": "double-21",
+   "native": "D21",
+   "level": "21",
+   "constant": null,
+   "designer": "SUNNY",
+   "note_counts": {
+    "combo": 1491
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5805,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-double",
+     "description": "D21",
+     "meter": "21",
+     "active": false,
+     "credit": "SUNNY",
+     "combo": 1491,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 853,
+      "hold": 82,
+      "other": 2560
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "21 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'D21')",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 790,
+   "game_id": "16E3",
+   "card": "/img/card/16E3.png",
+   "first": "XX v1.03.0",
+   "title": "Gashina"
+  },
+  "simfile": {
+   "path": "14 - XX/16E3 - [Full Song] Gashina/16E3 - [Full Song] Gashina.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/14%20-%20XX/16E3%20-%20%5BFull%20Song%5D%20Gashina/16E3%20-%20%5BFull%20Song%5D%20Gashina.ssc",
+   "id": "16E3",
+   "title": "Gashina - FULL SONG -",
+   "artist": "SUNMI"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Full Song",
+  "removed": true,
+  "removed_in": "Phoenix v1.00.1"
+ }
+}

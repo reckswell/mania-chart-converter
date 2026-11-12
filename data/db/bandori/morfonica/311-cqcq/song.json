@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "311",
+ "title": "CQCQ",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "144",
+ "version": "",
+ "date_added": "2021-01-04",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 135
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 135
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 22,
+      "tap": 91
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 258
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 258
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 31,
+      "tap": 196
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 499
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/311/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/311/hard.json",
+     "raw_sha256": "c6ae0c6f1f9c74877238cc33f417417d05b25ea5e7e98cd37df024a9bfbbfab9"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 499
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 279,
+      "hold": 26,
+      "slide": 38,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 694
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/311/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/311/expert.json",
+     "raw_sha256": "35ee97fa72895bf676551892ace8f3b6362e30ac999cd42f991d6c2ba1688dc0"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 694
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 481,
+      "hold": 27,
+      "flick": 31,
+      "slide": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 311,
+   "bandId": 21,
+   "jacketImage": "311_cqcq",
+   "bgmId": "bgm311"
+  },
+  "maa": {
+   "bestdori_song_id": 311,
+   "jacket": {
+    "path": "bestdori/311/jacket-cn-1.png",
+    "server": "cn",
+    "name": "311_cqcq"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/311/jacket-cn-1.png",
+   "sha256": "019c41f3e62cd76a0bf2791cb3e7834e80f4c343506f123fd20504bf8498a4c1",
+   "width": 320,
+   "height": 320,
+   "bytes": 26426
+  }
+ },
+ "extra": {
+  "lyricist": "東野へいと",
+  "composer": "東野へいと",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1609740000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "cqcq",
+  "length_s": 115.056
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "game": "piu",
+ "song_id": "F32",
+ "title": "Ugly duck Toccata",
+ "artist": "BanYa Production",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "104",
+ "version": "NX Absolute",
+ "date_added": "",
+ "charts": {
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 891
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5595,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 891,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 604,
+      "hold": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 810
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5596,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 810,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 707,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 766,
+   "game_id": "F32",
+   "card": "/img/card/F32-revive.png",
+   "first": "NX Absolute default",
+   "title": "Ugly duck Toccata"
+  },
+  "kalinathalie": {
+   "slug": "ugly_duck_toccata"
+  },
+  "simfile": {
+   "path": "06 - NX ABSOLUTE/F32 - [Remix] Ugly Duck Toccata/F32 - [Remix] Ugly Duck Toccata.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/06%20-%20NX%20ABSOLUTE/F32%20-%20%5BRemix%5D%20Ugly%20Duck%20Toccata/F32%20-%20%5BRemix%5D%20Ugly%20Duck%20Toccata.ssc",
+   "id": "F32",
+   "title": "Ugly Duck Toccata",
+   "artist": "Banya Production"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/ugly_duck_toccata.jpg",
+   "sha256": "259c132ccb62b00c2833dadadd597e0c73e4e8c1d97946a04ab217bb6f893b9e",
+   "width": 256,
+   "height": 256,
+   "bytes": 27619
+  }
+ },
+ "extra": {
+  "cut": "Remix",
+  "revived_in": "XX v1.00.1"
+ }
+}

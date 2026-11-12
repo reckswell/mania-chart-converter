@@ -1,0 +1,228 @@
+{
+ "game": "sekai",
+ "song_id": "99",
+ "title": "モア！ジャンプ！モア！",
+ "artist": "ナユタン星人",
+ "title_romaji": "moajanpumoa",
+ "artist_romaji": "nayutanseijin",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "202",
+ "version": "",
+ "date_added": "2020-11-19",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 243
+   },
+   "source": {
+    "music_difficulty_id": 491,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 82,
+      "hold": 18,
+      "ex_tap": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 417
+   },
+   "source": {
+    "music_difficulty_id": 492,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 50,
+      "tap": 138,
+      "hold": 12,
+      "slide": 12,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 735
+   },
+   "source": {
+    "music_difficulty_id": 493,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 301,
+      "ex_tap": 64,
+      "hold": 6,
+      "flick": 66,
+      "slide": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1011
+   },
+   "source": {
+    "music_difficulty_id": 494,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 432,
+      "ex_tap": 73,
+      "hold": 25,
+      "flick": 94,
+      "slide": 53
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1257
+   },
+   "source": {
+    "music_difficulty_id": 495,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 640,
+      "ex_tap": 57,
+      "flick": 119,
+      "slide": 58,
+      "hold": 70
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1518
+   },
+   "source": {
+    "music_difficulty_id": 4004,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 130,
+      "flick": 133,
+      "tap": 732,
+      "hold": 77,
+      "slide": 44,
+      "other": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 99,
+   "assetbundle": "jacket_s_099",
+   "seq": 2302601
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_099.png",
+   "sha256": "1660cae7750b9dd661c6b71d14e9c7f362fae623d789a139b1bfb1d220da9a23",
+   "width": 320,
+   "height": 320,
+   "bytes": 26434
+  }
+ },
+ "extra": {
+  "pronunciation": "もあじゃんぷもあ",
+  "lyricist": "ナユタン星人",
+  "composer": "ナユタン星人",
+  "arranger": "ナユタン星人",
+  "published_at": 1605765600000,
+  "released_at": 1605711600000,
+  "tags": [
+   "idol"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0099_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "桃井愛莉",
+     "初音ミク",
+     "花里みのり",
+     "桐谷遥",
+     "日野森雫"
+    ],
+    "asset": "se_0099_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 202.0
+ }
+}

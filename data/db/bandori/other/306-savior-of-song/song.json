@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "306",
+ "title": "SAVIOR OF SONG",
+ "artist": "RAISE A SUILEN×友希那",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN×友希那",
+ "bpm": "192",
+ "version": "",
+ "date_added": "2020-12-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 133
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 133
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 105,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 246
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 246
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 198,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 401
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/306/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/306/hard.json",
+     "raw_sha256": "dae89fde59c35e80b2380922528c2b1b0c29f7420d38301f007008bf6de28c5b"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 401
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 299,
+      "slide": 17,
+      "flick": 15,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 772
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/306/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/306/expert.json",
+     "raw_sha256": "6f319531915bc2722426ac23c92f58f62a1b56d6cf1c43277ca99b244126dbbd"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 772
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 466,
+      "hold": 50,
+      "slide": 62,
+      "flick": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 727
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1663221600000,
+    "maa": {
+     "path": "bestdori/306/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/306/special.json",
+     "raw_sha256": "f65e25400e59e5e1c7cbfcb42d42a6124b22dd5804f6585a9943b0675cb454bc"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 727
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 115,
+      "hold": 25,
+      "tap": 271,
+      "flick": 72
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 306,
+   "bandId": 25,
+   "jacketImage": "306_savior_of_song",
+   "bgmId": "bgm306"
+  },
+  "maa": {
+   "bestdori_song_id": 306,
+   "jacket": {
+    "path": "bestdori/306/jacket-cn-1.png",
+    "server": "cn",
+    "name": "306_savior_of_song"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/306/jacket-cn-1.png",
+   "sha256": "049793e5e4de1bcf8bd44d594ab3794c469890fe209c6074f9a9b28de4437251",
+   "width": 320,
+   "height": 320,
+   "bytes": 35405
+  }
+ },
+ "extra": {
+  "lyricist": "ナノ",
+  "composer": "MY FIRST STORY",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1609308000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "saviorofsong",
+  "length_s": 90.048
+ }
+}

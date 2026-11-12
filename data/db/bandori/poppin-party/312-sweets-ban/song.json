@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "312",
+ "title": "Sweets BAN!",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "156",
+ "version": "",
+ "date_added": "2021-01-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 177
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 177
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 121,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 293
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 293
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 213,
+      "hold": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 481
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/312/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/312/hard.json",
+     "raw_sha256": "fd31ac8526f6349944085bea221075be7bafbc2c56fc22769e58578038905ee0"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 481
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 350,
+      "flick": 21,
+      "hold": 43,
+      "slide": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 723
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/312/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/312/expert.json",
+     "raw_sha256": "3a55c5de58f050b9bbdaa878d18ce423d126202143351952c8a0356fde2b3acd"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 723
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 483,
+      "flick": 41,
+      "slide": 53,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 312,
+   "bandId": 1,
+   "jacketImage": "312_sweets_ban",
+   "bgmId": "bgm312"
+  },
+  "maa": {
+   "bestdori_song_id": 312,
+   "jacket": {
+    "path": "bestdori/312/jacket-cn-1.png",
+    "server": "cn",
+    "name": "312_sweets_ban"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/312/jacket-cn-1.png",
+   "sha256": "3bb3c91d272352f0609726af78617acd2c2e68fde5705029a8f88340cf168850",
+   "width": 320,
+   "height": 320,
+   "bytes": 16997
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "下田晃太郎（Elements Garden）",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1612072800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "sweetsban",
+  "length_s": 109.296
+ }
+}

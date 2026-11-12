@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "692",
+ "title": "Portray Empathy",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "172",
+ "version": "",
+ "date_added": "2025-05-08",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 100
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 100
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 66,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 242
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 242
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 41,
+      "tap": 156,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 449
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/692/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/692/hard.json",
+     "raw_sha256": "6ad35a7b626310bd1d6dd756e9c84de8fb8df84dbc90ebd36cf012c93dc75cc2"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 449
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 26,
+      "tap": 285,
+      "slide": 38,
+      "flick": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 739
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/692/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/692/expert.json",
+     "raw_sha256": "de250c53f3a4a6c061b22721f2d7958f70d1eed721dbb8623981721503d7db26"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 739
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 52,
+      "tap": 468,
+      "flick": 29,
+      "hold": 51
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 692,
+   "bandId": 21,
+   "jacketImage": "692_portray_empathy",
+   "bgmId": "bgm692"
+  },
+  "maa": {
+   "bestdori_song_id": 692,
+   "jacket": {
+    "path": "bestdori/692/jacket-cn-1.png",
+    "server": "cn",
+    "name": "692_portray_empathy"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/692/jacket-cn-1.png",
+   "sha256": "95059a79c31f3e1c1dfa239beaa96c571fe5d73d9e8bfc0e790705a593ac7ec5",
+   "width": 320,
+   "height": 320,
+   "bytes": 25446
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "菊田大介（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1746705600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "portrayempathy",
+  "length_s": 106.104
+ }
+}

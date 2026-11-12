@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "437",
+ "title": "ハナヒバナ",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "95",
+ "version": "",
+ "date_added": "2022-08-11",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 87
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 87
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 75,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 187
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 187
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 141,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 387
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/437/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/437/hard.json",
+     "raw_sha256": "d67f6a7fcd19073acfeece5f256e03b6b32503c09f6ea628115f05485588283c"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 387
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 267,
+      "hold": 26,
+      "slide": 14,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 487
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/437/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/437/expert.json",
+     "raw_sha256": "2bbc218e2b5ff66b3aedd0e26cc5b95b09b845dde4cdffcad29317c0fc77951f"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 487
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 344,
+      "flick": 12,
+      "hold": 26,
+      "slide": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 437,
+   "bandId": 4,
+   "jacketImage": "437_hanahibana",
+   "bgmId": "bgm437"
+  },
+  "maa": {
+   "bestdori_song_id": 437,
+   "jacket": {
+    "path": "bestdori/437/jacket-cn-1.png",
+    "server": "cn",
+    "name": "437_hanahibana"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/437/jacket-cn-1.png",
+   "sha256": "3c5d09ca35dec6b17024707e9409a790a76a39b1da3d53da5d337fa574c0a9b6",
+   "width": 320,
+   "height": 320,
+   "bytes": 34836
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "日高勇輝（Elements Garden）",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1660197600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "はなひばな",
+  "title_en": "Hana Hibana",
+  "length_s": 109.944
+ }
+}

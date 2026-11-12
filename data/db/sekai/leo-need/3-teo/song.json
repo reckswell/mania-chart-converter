@@ -1,0 +1,223 @@
+{
+ "game": "sekai",
+ "song_id": "3",
+ "title": "テオ",
+ "artist": "Omoi",
+ "title_romaji": "teo",
+ "artist_romaji": "Omoi",
+ "genre": "Leo/need",
+ "bpm": "185",
+ "version": "",
+ "date_added": "2019-06-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 135
+   },
+   "source": {
+    "music_difficulty_id": 11,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 74,
+      "hold": 6,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 477
+   },
+   "source": {
+    "music_difficulty_id": 12,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 291,
+      "hold": 5,
+      "slide": 26,
+      "flick": 5,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 681
+   },
+   "source": {
+    "music_difficulty_id": 13,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 430,
+      "ex_tap": 15,
+      "slide": 43,
+      "flick": 25,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 997
+   },
+   "source": {
+    "music_difficulty_id": 14,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 542,
+      "flick": 61,
+      "ex_tap": 14,
+      "slide": 93,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 9",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "32",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1221
+   },
+   "source": {
+    "music_difficulty_id": 15,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 692,
+      "flick": 90,
+      "hold": 79,
+      "slide": 69,
+      "ex_tap": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 3,
+   "assetbundle": "jacket_s_003",
+   "seq": 1200102
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_003.png",
+   "sha256": "1088242e1d660ff0074625d860d1bcbb9665c5fd00d452ce9ae0721a69d12fff",
+   "width": 320,
+   "height": 320,
+   "bytes": 31969
+  }
+ },
+ "extra": {
+  "pronunciation": "てお",
+  "lyricist": "Sakurai",
+  "composer": "Omoi",
+  "arranger": "Omoi",
+  "published_at": 1560148031000,
+  "released_at": 1499439600000,
+  "tags": [
+   "light_music_club",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "0003_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "星乃一歌"
+    ],
+    "asset": "0003_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "星乃一歌"
+    ],
+    "asset": "an_0003_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "天馬咲希"
+    ],
+    "asset": "an_0003_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "初音ミク",
+     "巡音ルカ"
+    ],
+    "asset": "an_0003_03"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 185.0
+ }
+}

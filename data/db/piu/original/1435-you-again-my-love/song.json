@@ -1,0 +1,361 @@
+{
+ "game": "piu",
+ "song_id": "1435",
+ "title": "You again my love",
+ "artist": "CYO Style, Henohenomoheji",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "137",
+ "version": "Prime",
+ "date_added": "",
+ "charts": {
+  "single-1": {
+   "slot": "single-1",
+   "native": "S1",
+   "level": "1",
+   "constant": null,
+   "designer": "AYAPPING",
+   "note_counts": {
+    "combo": 53
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3311,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S1",
+     "meter": "1",
+     "active": true,
+     "credit": "Ayapping",
+     "combo": 53,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 53
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-3": {
+   "slot": "single-3",
+   "native": "S3",
+   "level": "3",
+   "constant": null,
+   "designer": "AYAPPING",
+   "note_counts": {
+    "combo": 175
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3312,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S3",
+     "meter": "3",
+     "active": true,
+     "credit": "Ayapping",
+     "combo": 175,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 114,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-6": {
+   "slot": "single-6",
+   "native": "S6",
+   "level": "6",
+   "constant": null,
+   "designer": "AYAPPING",
+   "note_counts": {
+    "combo": 413
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3313,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S6",
+     "meter": "6",
+     "active": true,
+     "credit": "Ayapping",
+     "combo": 413,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 310,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "AYAPPING",
+   "note_counts": {
+    "combo": 640
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3314,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S14",
+     "meter": "14",
+     "active": true,
+     "credit": "Ayapping",
+     "combo": 640,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 333,
+      "hold": 110
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 14 differs from the PHOENIX 2 level 15: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-6": {
+   "slot": "double-6",
+   "native": "D6",
+   "level": "6",
+   "constant": null,
+   "designer": "AYAPPING",
+   "note_counts": {
+    "combo": 261
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3315,
+     "mode": "D"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-double",
+     "description": "D6",
+     "meter": "6",
+     "active": true,
+     "credit": "Ayapping",
+     "combo": 261,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 230,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-16": {
+   "slot": "double-16",
+   "native": "D16",
+   "level": "16",
+   "constant": null,
+   "designer": "AYAPPING",
+   "note_counts": {
+    "combo": 653
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3316,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-double",
+     "description": "D15",
+     "meter": "15",
+     "active": true,
+     "credit": "Ayapping",
+     "combo": 653,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 343,
+      "hold": 110
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 15 differs from the PHOENIX 2 level 16: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "halfdouble-5": {
+   "slot": "halfdouble-5",
+   "native": "HDB5",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8968,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "easy"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-14": {
+   "slot": "halfdouble-14",
+   "native": "HDB14",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8969,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "coop-2": {
+   "slot": "coop-2",
+   "native": "CO-OP x2",
+   "level": "2",
+   "constant": null,
+   "designer": "AEVILUX",
+   "note_counts": {
+    "combo": 383
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6009,
+     "mode": "C",
+     "labels": [
+      "UPDATED"
+     ]
+    },
+    "simfile": {
+     "chart": 9,
+     "steps_type": "pump-double",
+     "description": "DP COOP 2P",
+     "meter": "99",
+     "active": true,
+     "credit": "AEVILUX",
+     "combo": 383,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 544,
+      "hold": 48,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 512,
+   "game_id": "1435",
+   "card": "/img/card/417.png",
+   "first": "Prime v1.21.0",
+   "title": "You again my love"
+  },
+  "kalinathalie": {
+   "slug": "you_again_my_love"
+  },
+  "simfile": {
+   "path": "12 - PRIME/1435 - You Again My Love/1435 - You Again My Love.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/12%20-%20PRIME/1435%20-%20You%20Again%20My%20Love/1435%20-%20You%20Again%20My%20Love.ssc",
+   "id": "1435",
+   "title": "You again my love",
+   "artist": "CYO Style & Henohenomoheji"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/you_again_my_love.jpg",
+   "sha256": "15a223adeaf795c415e9bf1ba3b7fc5e4dd2ae9671b3903c95f2d2d4fe324e48",
+   "width": 256,
+   "height": 256,
+   "bytes": 32363
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "유 어게인 마이 러브"
+  },
+  "artists": [
+   "CYO Style",
+   "Henohenomoheji"
+  ],
+  "simfile_notes": [
+   "S15: simfile chart 'S14' has meter 14 (re-rated)",
+   "D16: simfile chart 'D15' has meter 15 (re-rated)"
+  ]
+ }
+}

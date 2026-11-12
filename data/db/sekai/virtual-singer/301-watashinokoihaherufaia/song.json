@@ -1,0 +1,189 @@
+{
+ "game": "sekai",
+ "song_id": "301",
+ "title": "私の恋はヘルファイア",
+ "artist": "SLAVE.V-V-R",
+ "title_romaji": "watashinokoihaherufaia",
+ "artist_romaji": "SLAVE.V-V-R",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "200",
+ "version": "",
+ "date_added": "2023-04-03",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 520
+   },
+   "source": {
+    "music_difficulty_id": 1501,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 29,
+      "tap": 70,
+      "ex_tap": 3,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 566
+   },
+   "source": {
+    "music_difficulty_id": 1502,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 138,
+      "slide": 24,
+      "flick": 11,
+      "hold": 5,
+      "ex_tap": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1184
+   },
+   "source": {
+    "music_difficulty_id": 1503,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 105,
+      "flick": 76,
+      "tap": 173,
+      "ex_tap": 52,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1491
+   },
+   "source": {
+    "music_difficulty_id": 1504,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 301,
+      "hold": 21,
+      "flick": 173,
+      "slide": 140,
+      "ex_tap": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1638
+   },
+   "source": {
+    "music_difficulty_id": 1505,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 313,
+      "hold": 8,
+      "flick": 250,
+      "slide": 164,
+      "ex_tap": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 3",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 301,
+   "assetbundle": "jacket_s_301",
+   "seq": 1126901
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_301.png",
+   "sha256": "f3ad65542e37a5205b0d7a6b4478f44403e7240f0364f14189b95e4f6890f205",
+   "width": 320,
+   "height": 320,
+   "bytes": 34801
+  }
+ },
+ "extra": {
+  "pronunciation": "わたしのこいはへるふぁいあ",
+  "lyricist": "SLAVE.V-V-R",
+  "composer": "SLAVE.V-V-R",
+  "arranger": "SLAVE.V-V-R",
+  "published_at": 1680501600000,
+  "released_at": 1635778800000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "MEIKO"
+    ],
+    "asset": "vs_0301_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 200.0
+ }
+}

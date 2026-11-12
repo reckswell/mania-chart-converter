@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "436",
+ "title": "カラフルリバティー",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "185",
+ "version": "",
+ "date_added": "2022-07-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 226
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 226
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 152,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 334
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 334
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 224,
+      "hold": 55
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 543
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/436/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/436/hard.json",
+     "raw_sha256": "50dfa7d4a243daa77735909591e5557f8d2d62d4bc5c7837e84d8f7340cb3953"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 543
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 294,
+      "slide": 44,
+      "hold": 36,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 800
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/436/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/436/expert.json",
+     "raw_sha256": "0bf52d4610d00d285690e0325935f1e7efdb14ba961194d57d9d66074a56ca95"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 800
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 534,
+      "slide": 44,
+      "hold": 36,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 436,
+   "bandId": 21,
+   "jacketImage": "436_colorful_liberty",
+   "bgmId": "bgm436"
+  },
+  "maa": {
+   "bestdori_song_id": 436,
+   "jacket": {
+    "path": "bestdori/436/jacket-cn-1.png",
+    "server": "cn",
+    "name": "436_colorful_liberty"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/436/jacket-cn-1.png",
+   "sha256": "07da6f14d04ee795a03e9e93c8e1db5e8e4ff0a82a4ae4c27c186fea6f077d71",
+   "width": 320,
+   "height": 320,
+   "bytes": 35514
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "菊田大介（Elements Garden）",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1659247200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "からふるりばてぃー",
+  "title_en": "Colorful Liberty",
+  "length_s": 105.144
+ }
+}

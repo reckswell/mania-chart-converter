@@ -1,0 +1,124 @@
+{
+ "game": "piu",
+ "song_id": "1059",
+ "title": "Exceed2 Opening",
+ "artist": "BanYa",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "178",
+ "version": "Exceed 2",
+ "date_added": "",
+ "charts": {
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "SANDSTORM",
+   "note_counts": {
+    "combo": 269
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 940,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 269,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 155,
+      "hold": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 330
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 939,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 330,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 149,
+      "hold": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 158,
+   "game_id": "1059",
+   "card": "/img/card/77.png",
+   "first": "Exceed 2 default",
+   "title": "Exceed2 Opening"
+  },
+  "kalinathalie": {
+   "slug": "exceed2_opening_short_cut"
+  },
+  "simfile": {
+   "path": "08 - FIESTA/1059 - [Short Cut] Exceed 2 Opening/1059 - [Short Cut] Exceed 2 Opening.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/08%20-%20FIESTA/1059%20-%20%5BShort%20Cut%5D%20Exceed%202%20Opening/1059%20-%20%5BShort%20Cut%5D%20Exceed%202%20Opening.ssc",
+   "id": "1059",
+   "title": "Exceed2 Opening - SHORT CUT -",
+   "artist": "Banya"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/exceed2_opening_short_cut.jpg",
+   "sha256": "0b7bea5380553e32d462db07ca4dda504d52c35d75104309318703743e51b18f",
+   "width": 256,
+   "height": 256,
+   "bytes": 13539
+  }
+ },
+ "extra": {
+  "cut": "Short Cut",
+  "titles": {
+   "kr": "익시드2 오프닝"
+  }
+ }
+}

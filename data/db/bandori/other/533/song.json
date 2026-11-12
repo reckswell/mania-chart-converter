@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "533",
+ "title": "可愛くてごめん",
+ "artist": "Pastel＊Palettes 日菜×千聖×麻弥×イヴ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes 日菜×千聖×麻弥×イヴ",
+ "bpm": "160",
+ "version": "",
+ "date_added": "2023-09-09",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 165
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 165
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 149,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 258
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 258
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 238,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 474
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/533/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/533/hard.json",
+     "raw_sha256": "afd8604c53a3551305b593152b7db9e8c2e792bc97f77d190fd071d5ca95a978"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 474
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 398,
+      "slide": 6,
+      "hold": 15,
+      "flick": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 658
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/533/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/533/expert.json",
+     "raw_sha256": "788ea1ec0d8b67d4e5258577b7552efa3648e06b1a7a3dbbeed6855085f554e5"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 658
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 567,
+      "flick": 25,
+      "slide": 8,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 533,
+   "bandId": 67,
+   "jacketImage": "533_kawaikute_gomen",
+   "bgmId": "bgm533"
+  },
+  "maa": {
+   "bestdori_song_id": 533,
+   "jacket": {
+    "path": "bestdori/533/jacket-cn-1.png",
+    "server": "cn",
+    "name": "533_kawaikute_gomen"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/533/jacket-cn-1.png",
+   "sha256": "8d17f1fa353b639c9311d7fec2bda29f700c3892aa7bb1218791a8d5e8e93cd1",
+   "width": 320,
+   "height": 320,
+   "bytes": 32499
+  }
+ },
+ "extra": {
+  "lyricist": "shito",
+  "composer": "shito",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1694239200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "かわいくてごめん",
+  "title_en": "Kawaikute Gomen",
+  "length_s": 122.304
+ }
+}

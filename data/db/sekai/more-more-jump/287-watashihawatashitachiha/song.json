@@ -1,0 +1,217 @@
+{
+ "game": "sekai",
+ "song_id": "287",
+ "title": "私は、私達は",
+ "artist": "Guiano",
+ "title_romaji": "watashihawatashitachiha",
+ "artist_romaji": "Guiano",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2023-02-17",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 233
+   },
+   "source": {
+    "music_difficulty_id": 1431,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 66,
+      "hold": 16,
+      "ex_tap": 10,
+      "slide": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 347
+   },
+   "source": {
+    "music_difficulty_id": 1432,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 139,
+      "slide": 16,
+      "flick": 4,
+      "hold": 9,
+      "ex_tap": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 485
+   },
+   "source": {
+    "music_difficulty_id": 1433,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 18,
+      "tap": 229,
+      "hold": 21,
+      "slide": 19,
+      "ex_tap": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 712
+   },
+   "source": {
+    "music_difficulty_id": 1434,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 13,
+      "tap": 330,
+      "slide": 65,
+      "ex_tap": 44,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 918
+   },
+   "source": {
+    "music_difficulty_id": 1435,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 27,
+      "tap": 417,
+      "slide": 81,
+      "hold": 8,
+      "ex_tap": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 287,
+   "assetbundle": "jacket_s_287",
+   "seq": 2324701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_287.png",
+   "sha256": "9e9721efcb229b7cc83b4773bcfafaa82c147e62988ce038ee4d71f7e987e7f3",
+   "width": 320,
+   "height": 320,
+   "bytes": 16500
+  }
+ },
+ "extra": {
+  "pronunciation": "わたしはわたしたちは",
+  "lyricist": "Guiano",
+  "composer": "Guiano",
+  "arranger": "Guiano",
+  "published_at": 1676639100000,
+  "released_at": 1676559600000,
+  "tags": [
+   "idol"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "可不"
+    ],
+    "asset": "vs_0287_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "日野森雫",
+     "鏡音レン",
+     "花里みのり",
+     "桐谷遥",
+     "桃井愛莉"
+    ],
+    "asset": "se_0287_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "日野森雫"
+    ],
+    "asset": "an_0287_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "an_0287_02"
+   }
+  ],
+  "filler_sec": 7.936200141906738,
+  "bpm_main": 170.0
+ }
+}

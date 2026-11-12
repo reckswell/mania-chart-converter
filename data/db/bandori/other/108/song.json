@@ -1,0 +1,212 @@
+{
+ "game": "bandori",
+ "song_id": "108",
+ "title": "ハレ晴レユカイ",
+ "artist": "ハロー、ハッピーワールド！×蘭×彩",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！×蘭×彩",
+ "bpm": "172",
+ "version": "",
+ "date_added": "2018-03-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 235
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 235
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 167,
+      "hold": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 397
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 397
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 275,
+      "slide": 1,
+      "hold": 60
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 664
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/108/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/108/hard.json",
+     "raw_sha256": "8e26e5d8ebeee524ceb685d3b09fdaab954450e1e0229fdee2101070b82d3327"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 664
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 391,
+      "slide": 29,
+      "hold": 68,
+      "flick": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 972
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/108/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/108/expert.json",
+     "raw_sha256": "a149215e162f8ce019ee885d0b4046d71c9a657a728f80913c46a69fa4c0fae7"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 972
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 613,
+      "slide": 49,
+      "hold": 64,
+      "flick": 63
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 960
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1672725600000,
+    "maa": {
+     "path": "bestdori/108/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/108/special.json",
+     "raw_sha256": "ea4201eda42bf6282c72e912aa5bae5e84289f13d8f5e0ad267c576c8b72d890"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 960
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 414,
+      "slide": 165,
+      "hold": 34,
+      "flick": 46
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 108,
+   "bandId": 15,
+   "jacketImage": "108_harehare",
+   "bgmId": "bgm108"
+  },
+  "maa": {
+   "bestdori_song_id": 108,
+   "jacket": {
+    "path": "bestdori/108/jacket-cn-1.png",
+    "server": "cn",
+    "name": "108_harehare"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/108/jacket-cn-1.png",
+   "sha256": "a1ac0151fbce574ab7383f22bbfc067a1803076e5f146aef8a0e12624a6d2b93",
+   "width": 320,
+   "height": 320,
+   "bytes": 21445
+  }
+ },
+ "extra": {
+  "lyricist": "畑亜貴",
+  "composer": "田代智一",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1520661600000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "はれはれゆかい",
+  "title_en": "Hare Hare Yukai",
+  "length_s": 139.584
+ }
+}

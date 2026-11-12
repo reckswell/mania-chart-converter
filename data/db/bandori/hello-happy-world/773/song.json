@@ -1,0 +1,145 @@
+{
+ "game": "bandori",
+ "song_id": "773",
+ "title": "かぽーんっと極楽☆ 湯〜とぴあ！",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "173",
+ "version": "",
+ "date_added": "2026-03-07",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 532
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/773/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/773/hard.json",
+     "raw_sha256": "274bb99a6c44248e4d0417c35afb57948fb9365697c8ca4016809edfa212e92a"
+    },
+    "bestdori": {
+     "notes": 532
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 27,
+      "flick": 21,
+      "tap": 319,
+      "hold": 59
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 812
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/773/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/773/expert.json",
+     "raw_sha256": "4a9080f60b4b53073077577f38cf68b762b77d022840b111adcefffdc01fa251"
+    },
+    "bestdori": {
+     "notes": 812
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 80,
+      "flick": 42,
+      "tap": 471,
+      "hold": 54
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 773,
+   "bandId": 3,
+   "jacketImage": "773_kaponto_gokuraku",
+   "bgmId": "bgm773"
+  },
+  "maa": {
+   "bestdori_song_id": 773,
+   "jacket": {
+    "path": "bestdori/773/jacket-jp-1.png",
+    "server": "jp",
+    "name": "773_kaponto_gokuraku"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/773/jacket-jp-1.png",
+   "sha256": "2ffaf88aa47b20e5c033ba2e9f1d3e051741b9cc4b828fc26b859940884df166",
+   "width": 320,
+   "height": 320,
+   "bytes": 32450
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "笠井雄太（Elements Garden）",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1772863200000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "かぽーんっとごくらくゆーとぴあ"
+ }
+}

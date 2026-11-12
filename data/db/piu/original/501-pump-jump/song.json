@@ -1,0 +1,161 @@
+{
+ "game": "piu",
+ "song_id": "501",
+ "title": "Pump Jump",
+ "artist": "BanYa",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "106",
+ "version": "The Perfect Collection",
+ "date_added": "",
+ "charts": {
+  "single-5": {
+   "slot": "single-5",
+   "native": "S5",
+   "level": "5",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 160
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3136,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S5",
+     "meter": "5",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 160,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 182
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 475
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3137,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S15",
+     "meter": "15",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 475,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 11,
+      "tap": 471
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "AHGOO",
+   "note_counts": {
+    "combo": 532
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 3138,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 11,
+     "steps_type": "pump-double",
+     "description": "D18",
+     "meter": "18",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 532,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 31,
+      "tap": 433
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 499,
+   "game_id": "501",
+   "card": "/img/card/501.png",
+   "first": "The Perfect Collection default",
+   "title": "Pump Jump"
+  },
+  "kalinathalie": {
+   "slug": "pump_jump"
+  },
+  "simfile": {
+   "path": "02 - S.E.~EXTRA/(3) 501 - Pump Jump/501 - Pump Jump.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/02%20-%20S.E.~EXTRA/%283%29%20501%20-%20Pump%20Jump/501%20-%20Pump%20Jump.ssc",
+   "id": "501",
+   "title": "Pump Jump",
+   "artist": "BanYa"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/pump_jump.jpg",
+   "sha256": "0cfd2362620159ef9a39538483eb6812961b5495d5f80a279cea35d5154dcd8e",
+   "width": 256,
+   "height": 256,
+   "bytes": 33134
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "펌프 점프"
+  },
+  "revived_in": "Prime 2 v1.00.0"
+ }
+}

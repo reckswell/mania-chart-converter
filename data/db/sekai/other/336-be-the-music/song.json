@@ -1,0 +1,218 @@
+{
+ "game": "sekai",
+ "song_id": "336",
+ "title": "Be The MUSIC!",
+ "artist": "キノシタ",
+ "title_romaji": "Be The MUSIC!",
+ "artist_romaji": "kinoshita",
+ "genre": "その他",
+ "bpm": "128",
+ "version": "",
+ "date_added": "2023-04-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 225
+   },
+   "source": {
+    "music_difficulty_id": 1676,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 18,
+      "ex_tap": 12,
+      "tap": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 446
+   },
+   "source": {
+    "music_difficulty_id": 1677,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 13,
+      "tap": 171,
+      "hold": 17,
+      "ex_tap": 22,
+      "flick": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 870
+   },
+   "source": {
+    "music_difficulty_id": 1678,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 77,
+      "hold": 12,
+      "tap": 274,
+      "ex_tap": 41,
+      "flick": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1121
+   },
+   "source": {
+    "music_difficulty_id": 1679,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 102,
+      "tap": 449,
+      "hold": 28,
+      "flick": 75,
+      "ex_tap": 91
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1247
+   },
+   "source": {
+    "music_difficulty_id": 1680,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 95,
+      "tap": 551,
+      "flick": 126,
+      "ex_tap": 77,
+      "hold": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 336,
+   "assetbundle": "jacket_s_336",
+   "seq": 2726601
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_336.png",
+   "sha256": "864dff4aca64e0810dd49e7c3bd0cd44b9a28f7d354e5aa2096a02bcf655bd53",
+   "width": 320,
+   "height": 320,
+   "bytes": 51260
+  }
+ },
+ "extra": {
+  "pronunciation": "びーざみゅーじっく",
+  "lyricist": "キノシタ",
+  "composer": "キノシタ",
+  "arranger": "キノシタ",
+  "published_at": 1680274800000,
+  "released_at": 1680274800000,
+  "tags": [
+   "other"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "鏡音リン",
+     "鏡音レン",
+     "巡音ルカ",
+     "MEIKO",
+     "KAITO"
+    ],
+    "asset": "vs_0336_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "「All Music MIKUdemy」一同"
+    ],
+    "asset": "se_0336_01"
+   },
+   {
+    "type": "streaming_live",
+    "caption": "コネクトライブ(DAY1/DAY2)ver.",
+    "singers": [
+     "初音ミク",
+     "鏡音リン",
+     "天馬咲希",
+     "花里みのり",
+     "桃井愛莉",
+     "小豆沢こはね",
+     "天馬司",
+     "鳳えむ",
+     "暁山瑞希"
+    ],
+    "asset": "cl_0336_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "collaboration_id": 4,
+  "bpm_main": 128.0
+ }
+}

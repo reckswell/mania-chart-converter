@@ -1,0 +1,132 @@
+{
+ "game": "piu",
+ "song_id": "1042",
+ "title": "Deja Vu",
+ "artist": "SOM2",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "115",
+ "version": "NX2 / Next Xenesis",
+ "date_added": "",
+ "charts": {
+  "single-7": {
+   "slot": "single-7",
+   "native": "S7",
+   "level": "7",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 656
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 969,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S7",
+     "meter": "7",
+     "active": false,
+     "credit": "BPM",
+     "combo": 656,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 518,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "10 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'S7')",
+   "assets": {}
+  },
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 2000
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 970,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": false,
+     "credit": "BPM",
+     "combo": 2000,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 706,
+      "hold": 21,
+      "other": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "38 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'S16')",
+   "assets": {}
+  },
+  "double-16": {
+   "slot": "double-16",
+   "native": "D16",
+   "level": "16",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 971,
+     "mode": "D"
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 166,
+   "game_id": "1042",
+   "card": "/img/card/63.png",
+   "first": "NX2 / Next Xenesis default",
+   "title": "Deja Vu"
+  },
+  "simfile": {
+   "path": "08 - FIESTA/1042 - [Full Song] Deja Vu/1042 - [Full Song] Deja Vu.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/08%20-%20FIESTA/1042%20-%20%5BFull%20Song%5D%20Deja%20Vu/1042%20-%20%5BFull%20Song%5D%20Deja%20Vu.ssc",
+   "id": "1042",
+   "title": "Deja Vu - FULL SONG -",
+   "artist": "SOM2"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Full Song",
+  "titles": {
+   "kr": "예지몽"
+  },
+  "removed": true,
+  "removed_in": "XX v1.00.1"
+ }
+}

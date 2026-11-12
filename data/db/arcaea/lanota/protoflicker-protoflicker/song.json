@@ -1,0 +1,166 @@
+{
+ "game": "arcaea",
+ "song_id": "protoflicker",
+ "title": "Protoflicker",
+ "artist": "Silentroom",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Lanota",
+ "bpm": "140",
+ "version": "3.12",
+ "date_added": "2022-04-28",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "3",
+   "constant": 3.0,
+   "designer": "antymis <prototype>",
+   "note_counts": {
+    "combo": 510
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "",
+     "jacketOverride": true
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/protoflicker/protoflicker_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 66,
+      "tap": 195,
+      "hold": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "7",
+   "constant": 7.0,
+   "designer": "antymis <prototype>",
+   "note_counts": {
+    "combo": 633
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "",
+     "jacketOverride": true
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/protoflicker/protoflicker_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "tap": 256,
+      "air_hold": 131,
+      "other": 95,
+      "air": 71,
+      "hold": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "9+",
+   "constant": 9.8,
+   "designer": "antymis <prototype>",
+   "note_counts": {
+    "combo": 1042
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": ""
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/protoflicker/protoflicker_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "tap": 543,
+      "air_hold": 207,
+      "other": 287,
+      "air": 212,
+      "hold": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 265,
+   "set": "lanota_append_1"
+  },
+  "matty": {
+   "jacket": "01cf",
+   "title": "Protoflicker"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/01cf.png",
+   "sha256": "0eb5c671d4f30b29aae5a2ce347f68e2ca6f66e3d102bc3d7592e8702ece17f8",
+   "width": 320,
+   "height": 320,
+   "bytes": 33086
+  }
+ },
+ "extra": {
+  "pack": "lanota_append_1",
+  "pack_name": "Lanota",
+  "songlist": {
+   "idx": 265,
+   "search_title": {
+    "ja": [
+     "ぷろとふりっかー"
+    ],
+    "ko": [
+     "프로토플리커"
+    ]
+   },
+   "search_artist": {
+    "ja": [
+     "さいれんとるーむ"
+    ],
+    "ko": [
+     "사일런트 룸"
+    ]
+   },
+   "bpm_base": 140,
+   "purchase": "lanota_append_1",
+   "audioPreview": 0,
+   "audioPreviewEnd": 0,
+   "side": 1,
+   "bg": "lanota-conflict",
+   "bg_inverse": "lanota-light",
+   "remote_dl": true,
+   "world_unlock": false,
+   "source_localized": {
+    "en": "Lanota"
+   },
+   "source_copyright": "",
+   "no_stream": true
+  },
+  "length_s": 168
+ }
+}

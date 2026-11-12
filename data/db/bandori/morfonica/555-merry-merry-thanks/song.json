@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "555",
+ "title": "Merry Merry Thanks!!",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "109-145",
+ "version": "",
+ "date_added": "2023-12-08",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 119
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 119
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 77,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 222
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 222
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 56,
+      "tap": 110
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 394
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/555/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/555/hard.json",
+     "raw_sha256": "bdceb55eee449bb65c7913b4b64031a0c124c54e9bd2c8b929efff9148703840"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 394
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 64,
+      "tap": 192,
+      "flick": 20,
+      "slide": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 613
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/555/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/555/expert.json",
+     "raw_sha256": "3a4294d900cd3b7acba1ca997f292b2fd05aba9b853e0d4499a171229fcc7a47"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 613
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 66,
+      "tap": 401,
+      "slide": 28,
+      "flick": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 555,
+   "bandId": 21,
+   "jacketImage": "555_merry_merry_thanks",
+   "bgmId": "bgm555"
+  },
+  "maa": {
+   "bestdori_song_id": 555,
+   "jacket": {
+    "path": "bestdori/555/jacket-cn-1.png",
+    "server": "cn",
+    "name": "555_merry_merry_thanks"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/555/jacket-cn-1.png",
+   "sha256": "a53bf080669cc6e2c1bfb72ab2b6247c30f663adcd2f74d51063e9e78923c273",
+   "width": 320,
+   "height": 320,
+   "bytes": 36153
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤永龍太郎（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1702036800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "merrymerrythanks",
+  "length_s": 106.248
+ }
+}

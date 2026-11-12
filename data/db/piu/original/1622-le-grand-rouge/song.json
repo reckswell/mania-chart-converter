@@ -1,0 +1,317 @@
+{
+ "game": "piu",
+ "song_id": "1622",
+ "title": "Le Grand Rouge",
+ "artist": "KIEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "166",
+ "version": "XX",
+ "date_added": "",
+ "charts": {
+  "single-8": {
+   "slot": "single-8",
+   "native": "S8",
+   "level": "8",
+   "constant": null,
+   "designer": "SPHAM",
+   "note_counts": {
+    "combo": 493
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5438,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S8",
+     "meter": "8",
+     "active": true,
+     "credit": "SPHAM",
+     "combo": 493,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 281,
+      "hold": 78
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-13": {
+   "slot": "single-13",
+   "native": "S13",
+   "level": "13",
+   "constant": null,
+   "designer": "SPHAM",
+   "note_counts": {
+    "combo": 603
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5439,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S13",
+     "meter": "13",
+     "active": true,
+     "credit": "SPHAM",
+     "combo": 603,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 424,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-18": {
+   "slot": "single-18",
+   "native": "S18",
+   "level": "18",
+   "constant": null,
+   "designer": "SPHAM",
+   "note_counts": {
+    "combo": 917
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5440,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S18",
+     "meter": "18",
+     "active": true,
+     "credit": "SPHAM",
+     "combo": 917,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 562,
+      "hold": 89
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "SPHAM",
+   "note_counts": {
+    "combo": 1382
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5441,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S20",
+     "meter": "20",
+     "active": true,
+     "credit": "SPHAM",
+     "combo": 1382,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 132,
+      "tap": 675,
+      "other": 148
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 20 differs from the PHOENIX 2 level 21: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-19": {
+   "slot": "double-19",
+   "native": "D19",
+   "level": "19",
+   "constant": null,
+   "designer": "SPHAM",
+   "note_counts": {
+    "combo": 917
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5442,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-double",
+     "description": "D19",
+     "meter": "19",
+     "active": true,
+     "credit": "SPHAM",
+     "combo": 917,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 562,
+      "hold": 89
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-23": {
+   "slot": "double-23",
+   "native": "D23",
+   "level": "23",
+   "constant": null,
+   "designer": "SPHAM",
+   "note_counts": {
+    "combo": 1372
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5443,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-double",
+     "description": "D22",
+     "meter": "22",
+     "active": true,
+     "credit": "SPHAM",
+     "combo": 1372,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 129,
+      "tap": 678,
+      "other": 148
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 22 differs from the PHOENIX 2 level 23: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "halfdouble-19": {
+   "slot": "halfdouble-19",
+   "native": "HDB19",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8706,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-22": {
+   "slot": "halfdouble-22",
+   "native": "HDB22",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8707,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 739,
+   "game_id": "1622",
+   "card": "/img/card/xx-le-grand-rouge.png",
+   "first": "XX v1.00.1",
+   "title": "Le Grand Rouge"
+  },
+  "kalinathalie": {
+   "slug": "le_grand_rouge"
+  },
+  "simfile": {
+   "path": "14 - XX/1622 - Le Grand Rouge/1622 - Le Grand Rouge.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/14%20-%20XX/1622%20-%20Le%20Grand%20Rouge/1622%20-%20Le%20Grand%20Rouge.ssc",
+   "id": "1622",
+   "title": "Le Grand Rouge",
+   "artist": "KIEN"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/le_grand_rouge.jpg",
+   "sha256": "f6c17cec6676ce8ecd9eafb6684ddb7cecb74ca9380dd219da484cdcdcfd2e4f",
+   "width": 256,
+   "height": 256,
+   "bytes": 22307
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "simfile_notes": [
+   "S21: simfile chart 'S20' has meter 20 (re-rated)",
+   "D23: simfile chart 'D22' has meter 22 (re-rated)"
+  ]
+ }
+}

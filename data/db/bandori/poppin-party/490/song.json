@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "490",
+ "title": "新しい季節に",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "125",
+ "version": "",
+ "date_added": "2023-04-18",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 135
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 135
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 73,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 242
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 242
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 186,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 391
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/490/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/490/hard.json",
+     "raw_sha256": "caa192addb026408d73f4f7b972b1fc0d46e0b2f538913d4cd64c0ab6a6b62f6"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 391
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 267,
+      "hold": 28,
+      "slide": 15,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 557
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/490/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/490/expert.json",
+     "raw_sha256": "fec81d637304397c9b10a57c90341bb8c5e6985c068c4f8eda6513d78d34b876"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 557
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 399,
+      "hold": 28,
+      "flick": 31,
+      "slide": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 490,
+   "bandId": 1,
+   "jacketImage": "490_atarashii_kisetuni_1",
+   "bgmId": "bgm490"
+  },
+  "maa": {
+   "bestdori_song_id": 490,
+   "jacket": {
+    "path": "bestdori/490/jacket-cn-2.png",
+    "server": "cn",
+    "name": "490_atarashii_kisetuni_1"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/490/jacket-cn-2.png",
+   "sha256": "fa103631a3cfb3fe1e984535c21d1f66d4329f824e653c864eb231593a301b02",
+   "width": 320,
+   "height": 320,
+   "bytes": 47144
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "菊田大介（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1681797600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "あたらしいきせつに",
+  "title_en": "In a New Season",
+  "length_s": 102.768
+ }
+}

@@ -1,0 +1,192 @@
+{
+ "game": "sekai",
+ "song_id": "412",
+ "title": "デビルじゃないもん",
+ "artist": "DECO*27 x ピノキオピー",
+ "title_romaji": "debirujanaimon",
+ "artist_romaji": "dekoniina pinokiopii",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "154",
+ "version": "",
+ "date_added": "2023-10-07",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 297
+   },
+   "source": {
+    "music_difficulty_id": 2056,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 22,
+      "tap": 44,
+      "ex_tap": 8,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 562
+   },
+   "source": {
+    "music_difficulty_id": 2057,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 29,
+      "tap": 140,
+      "hold": 14,
+      "ex_tap": 8,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 6",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 631
+   },
+   "source": {
+    "music_difficulty_id": 2058,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 187,
+      "ex_tap": 22,
+      "flick": 39,
+      "hold": 4,
+      "slide": 52,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 6",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 854
+   },
+   "source": {
+    "music_difficulty_id": 2059,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 68,
+      "tap": 348,
+      "ex_tap": 26,
+      "slide": 80,
+      "flick": 63,
+      "other": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 7",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 879
+   },
+   "source": {
+    "music_difficulty_id": 2060,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 153,
+      "hold": 54,
+      "tap": 417,
+      "other": 5,
+      "flick": 78,
+      "ex_tap": 71
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 412,
+   "assetbundle": "jacket_s_412",
+   "seq": 1133001
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_412.png",
+   "sha256": "5462b1ec9b06aca93587ca75cb2aa9b6d51a34ca0232037fd35370968c45888a",
+   "width": 320,
+   "height": 320,
+   "bytes": 41535
+  }
+ },
+ "extra": {
+  "pronunciation": "でびるじゃないもん",
+  "lyricist": "DECO*27 x ピノキオピー",
+  "composer": "DECO*27 x ピノキオピー",
+  "arranger": "ピノキオピー x Rockwell",
+  "published_at": 1696658400000,
+  "released_at": 1673535600000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0412_01"
+   }
+  ],
+  "filler_sec": 8.220800399780273,
+  "bpm_main": 154.0
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "game": "bandori",
+ "song_id": "708",
+ "title": "Feathered Dreams",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "175",
+ "version": "",
+ "date_added": "2025-07-05",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 176
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 176
+    }
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 276
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 276
+    }
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 691
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/708/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/708/hard.json",
+     "raw_sha256": "e181b39f3f15f515b4879f3e97bdfc8b0be8281315d79c126654d4c941a3f491"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 691
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 384,
+      "slide": 94,
+      "hold": 30,
+      "flick": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 953
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/708/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/708/expert.json",
+     "raw_sha256": "85652828e2a1e6e0263086bdf3de4c0b73cc6644de1e5205d8356a859c906a7d"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 953
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 476,
+      "slide": 144,
+      "flick": 30,
+      "hold": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 708,
+   "bandId": 21,
+   "jacketImage": "708_feathered_dreams",
+   "bgmId": "bgm708"
+  },
+  "maa": {
+   "bestdori_song_id": 708,
+   "jacket": {
+    "path": "bestdori/708/jacket-cn-1.png",
+    "server": "cn",
+    "name": "708_feathered_dreams"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/708/jacket-cn-1.png",
+   "sha256": "96a1e03d0ed6d8d78676569479f0df35a7c759cd823a2aaffb2c30c1250af28f",
+   "width": 320,
+   "height": 320,
+   "bytes": 40551
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1751695200000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "feathereddreams",
+  "length_s": 131.712
+ }
+}

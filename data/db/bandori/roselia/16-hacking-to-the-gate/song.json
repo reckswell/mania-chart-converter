@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "16",
+ "title": "Hacking to the Gate",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "161",
+ "version": "",
+ "date_added": "2016-05-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 118
+   },
+   "source": {
+    "notesQuantity": 90,
+    "bestdori": {
+     "level": 7,
+     "notes": 118
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 116,
+      "hold": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 90 differs from combo 118 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 175
+   },
+   "source": {
+    "notesQuantity": 159,
+    "bestdori": {
+     "level": 12,
+     "notes": 175
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 153,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 159 differs from combo 175 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 339
+   },
+   "source": {
+    "notesQuantity": 317,
+    "maa": {
+     "path": "bestdori/16/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/16/hard.json",
+     "raw_sha256": "0625d6717463c6b675a5cf39b6e2ba2ca8b6c8319ee454fa410b222751af7835"
+    },
+    "bestdori": {
+     "level": 18,
+     "notes": 339
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 286,
+      "slide": 7,
+      "hold": 10,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 317 differs from combo 339 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 487
+   },
+   "source": {
+    "notesQuantity": 494,
+    "maa": {
+     "path": "bestdori/16/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/16/expert.json",
+     "raw_sha256": "f292ef6a473144a0efc2ca20ecde51a260b977eb89de592a85f5297447927b21"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 487
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 63,
+      "tap": 302,
+      "flick": 10,
+      "slide": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 494 differs from combo 487 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 16,
+   "bandId": 5,
+   "jacketImage": "hacking",
+   "bgmId": "bgm016"
+  },
+  "maa": {
+   "bestdori_song_id": 16,
+   "jacket": {
+    "path": "bestdori/16/jacket-cn-1.png",
+    "server": "cn",
+    "name": "hacking"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/16/jacket-cn-1.png",
+   "sha256": "655f607fbc3ad48301e6ce722995a857f3331f76d6e054cded5ad3676ecd2bc2",
+   "width": 320,
+   "height": 320,
+   "bytes": 33627
+  }
+ },
+ "extra": {
+  "lyricist": "志倉千代丸",
+  "composer": "志倉千代丸",
+  "arranger": "都丸椋太（Elements Garden）／加納望",
+  "tag": "anime",
+  "published_at": 1462071600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "hackingtothegate",
+  "length_s": 126.6
+ }
+}

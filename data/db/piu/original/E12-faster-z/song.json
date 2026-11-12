@@ -1,0 +1,486 @@
+{
+ "game": "piu",
+ "song_id": "E12",
+ "title": "Faster Z",
+ "artist": "Yahpp",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "162",
+ "version": "NX2 / Next Xenesis",
+ "date_added": "",
+ "charts": {
+  "single-4": {
+   "slot": "single-4",
+   "native": "S4",
+   "level": "4",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 216
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 617,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S4",
+     "meter": "4",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 216,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 219,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-7": {
+   "slot": "single-7",
+   "native": "S7",
+   "level": "7",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 523
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 618,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-single",
+     "description": "S7",
+     "meter": "7",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 523,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 30,
+      "tap": 324
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-12": {
+   "slot": "single-12",
+   "native": "S12",
+   "level": "12",
+   "constant": null,
+   "designer": "EHNE",
+   "note_counts": {
+    "combo": 755
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 620,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-single",
+     "description": "S12",
+     "meter": "12",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 755,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 101,
+      "tap": 307
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-13": {
+   "slot": "single-13",
+   "native": "S13",
+   "level": "13",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 528
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 619,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 9,
+     "steps_type": "pump-single",
+     "description": "S13",
+     "meter": "13",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 528,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 380,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "5 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "HIDDEN PARTS",
+   "note_counts": {
+    "combo": 676
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 621,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 10,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 676,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 644,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 16 differs from the PHOENIX 2 level 17: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "EHNE",
+   "note_counts": {
+    "combo": 1248
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 622,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 12,
+     "steps_type": "pump-single",
+     "description": "S19",
+     "meter": "19",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1248,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 131,
+      "tap": 423
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "32 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "HIDDEN PARTS",
+   "note_counts": {
+    "combo": 945
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 623,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 13,
+     "steps_type": "pump-single",
+     "description": "S21",
+     "meter": "21",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 945,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 53,
+      "tap": 675
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "10 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-15": {
+   "slot": "double-15",
+   "native": "D15",
+   "level": "15",
+   "constant": null,
+   "designer": "EHNE",
+   "note_counts": {
+    "combo": 575
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 614,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 19,
+     "steps_type": "pump-double",
+     "description": "D15",
+     "meter": "15",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 575,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 396,
+      "hold": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "5 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-21": {
+   "slot": "double-21",
+   "native": "D21",
+   "level": "21",
+   "constant": null,
+   "designer": "EHNE",
+   "note_counts": {
+    "combo": 1300
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 615,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 23,
+     "steps_type": "pump-double",
+     "description": "D21",
+     "meter": "21",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1300,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 133,
+      "tap": 446
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "32 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-23": {
+   "slot": "double-23",
+   "native": "D23",
+   "level": "23",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 1235
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 616,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 27,
+     "steps_type": "pump-double",
+     "description": "D23",
+     "meter": "23",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1235,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 630,
+      "hold": 144
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "9 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "halfdouble-15": {
+   "slot": "halfdouble-15",
+   "native": "HDB15",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9163,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-21": {
+   "slot": "halfdouble-21",
+   "native": "HDB21",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9164,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-23": {
+   "slot": "halfdouble-23",
+   "native": "HDB23",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9165,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 96,
+   "game_id": "E12",
+   "card": "/img/card/329.png",
+   "first": "NX2 / Next Xenesis default",
+   "title": "Faster Z"
+  },
+  "kalinathalie": {
+   "slug": "faster_z"
+  },
+  "simfile": {
+   "path": "05 - NX~NX2/(1) E12 - Faster Z/E12 - Faster Z.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/05%20-%20NX~NX2/%281%29%20E12%20-%20Faster%20Z/E12%20-%20Faster%20Z.ssc",
+   "id": "E12",
+   "title": "Faster Z",
+   "artist": "YAHPP"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/faster_z.jpg",
+   "sha256": "103c8ceafc0b6a6f0b3fce6e7b3cac7a578735cc8213455dad9d53b51f7b8ef5",
+   "width": 256,
+   "height": 256,
+   "bytes": 19147
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "패스터 Z"
+  },
+  "simfile_notes": [
+   "S17: simfile chart 'S16' has meter 16 (re-rated)"
+  ]
+ }
+}

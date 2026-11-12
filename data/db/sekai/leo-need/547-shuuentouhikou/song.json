@@ -1,0 +1,214 @@
+{
+ "game": "sekai",
+ "song_id": "547",
+ "title": "終焉逃避行",
+ "artist": "柊マグネタイト",
+ "title_romaji": "shuuentouhikou",
+ "artist_romaji": "hiiragimagunetaito",
+ "genre": "Leo/need",
+ "bpm": "147",
+ "version": "",
+ "date_added": "2025-02-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 147
+   },
+   "source": {
+    "music_difficulty_id": 2731,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 6,
+      "tap": 47,
+      "hold": 10,
+      "slide": 4,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 278
+   },
+   "source": {
+    "music_difficulty_id": 2732,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 25,
+      "other": 5,
+      "tap": 91,
+      "hold": 3,
+      "slide": 20,
+      "flick": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 522
+   },
+   "source": {
+    "music_difficulty_id": 2733,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 41,
+      "other": 13,
+      "tap": 195,
+      "hold": 3,
+      "slide": 45,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 721
+   },
+   "source": {
+    "music_difficulty_id": 2734,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 69,
+      "tap": 238,
+      "other": 12,
+      "slide": 77,
+      "flick": 37,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 816
+   },
+   "source": {
+    "music_difficulty_id": 2735,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 104,
+      "tap": 358,
+      "flick": 90,
+      "other": 8,
+      "slide": 70,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 547,
+   "assetbundle": "jacket_s_547",
+   "seq": 1248501
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_547.png",
+   "sha256": "c9cc0847f696961ad93fe7297ab764f75ccb48a2ddfdf7ceeffff78f44253c15",
+   "width": 320,
+   "height": 320,
+   "bytes": 17364
+  }
+ },
+ "extra": {
+  "pronunciation": "しゅうえんとうひこう",
+  "lyricist": "柊マグネタイト",
+  "composer": "柊マグネタイト",
+  "arranger": "柊マグネタイト",
+  "published_at": 1738389600000,
+  "released_at": 1607612400000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0547_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "巡音ルカ",
+     "星乃一歌",
+     "天馬咲希",
+     "望月穂波",
+     "日野森志歩"
+    ],
+    "asset": "se_0547_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "望月穂波"
+    ],
+    "asset": "an_0547_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 147.0
+ }
+}

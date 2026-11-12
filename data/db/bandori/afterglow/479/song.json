@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "479",
+ "title": "命に嫌われている。",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "200",
+ "version": "",
+ "date_added": "2023-03-16",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 104
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 104
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 94,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 235
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 235
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 213,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 457
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/479/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/479/hard.json",
+     "raw_sha256": "43a7c09de4d3eb06cb548e6e15b38d35c9aa3d1af353426a61b3c08485d68f44"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 457
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 362,
+      "hold": 21,
+      "slide": 16,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 782
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/479/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/479/expert.json",
+     "raw_sha256": "d6f5a8be6eb22ca1e75e4431f927164b1f0abff3949fcf1e55a086c43c04b3fd"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 782
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 576,
+      "slide": 57,
+      "hold": 12,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 479,
+   "bandId": 2,
+   "jacketImage": "479_inochi_ni_kiraware",
+   "bgmId": "bgm479"
+  },
+  "maa": {
+   "bestdori_song_id": 479,
+   "jacket": {
+    "path": "bestdori/479/jacket-cn-1.png",
+    "server": "cn",
+    "name": "479_inochi_ni_kiraware"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/479/jacket-cn-1.png",
+   "sha256": "73dd46508713e8964bdfa96f4f93999d8f2be423f712dcedb3d1014a21fc0c76",
+   "width": 320,
+   "height": 320,
+   "bytes": 18020
+  }
+ },
+ "extra": {
+  "lyricist": "カンザキイオリ",
+  "composer": "カンザキイオリ",
+  "arranger": "Elements Garden",
+  "tag": "anime",
+  "published_at": 1678946400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "いのちにきらわれている",
+  "title_en": "Hated by Life.",
+  "length_s": 109.872
+ }
+}

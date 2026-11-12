@@ -22,9 +22,22 @@
     "slide": 80,
     "air": 114
    },
-   "source": {},
-   "status": "listed",
-   "notes": ""
+   "source": {
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "tap": 164,
+      "ex_tap": 50,
+      "hold": 28,
+      "air": 18,
+      "slide": 19,
+      "air_hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
   },
   "hard": {
    "slot": "hard",
@@ -38,9 +51,22 @@
     "slide": 431,
     "air": 45
    },
-   "source": {},
-   "status": "listed",
-   "notes": ""
+   "source": {
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "slide": 79,
+      "ex_tap": 66,
+      "hold": 27,
+      "tap": 230,
+      "air": 5,
+      "air_hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
   },
   "expert": {
    "slot": "expert",
@@ -55,10 +81,22 @@
     "air": 207
    },
    "source": {
-    "sdvxin_legacy": "10/10016exp"
+    "sdvxin_legacy": "10/10016exp",
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "ex_tap": 179,
+      "tap": 438,
+      "slide": 104,
+      "air_hold": 25,
+      "hold": 62,
+      "air": 45
+     }
+    }
    },
-   "status": "listed",
-   "notes": ""
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
   },
   "master": {
    "slot": "master",
@@ -74,10 +112,24 @@
     "flick": 160
    },
    "source": {
-    "sdvxin_legacy": "10/10016mst"
+    "sdvxin_legacy": "10/10016mst",
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/10016mst.png",
+    "extracted": {
+     "from": "marisabot-c2s",
+     "counts": {
+      "slide": 69,
+      "air_hold": 46,
+      "tap": 925,
+      "air": 139,
+      "ex_tap": 271,
+      "hold": 59,
+      "flick": 160
+     }
+    }
    },
-   "status": "listed",
-   "notes": ""
+   "status": "extracted",
+   "notes": "4 exact duplicate lines ignored; combo 2555 in the .c2s differs from the published note count 2495 (chart revised since this file?)",
+   "assets": {}
   }
  },
  "source": {
@@ -85,5 +137,17 @@
    "id": "2698",
    "image": "da4e8c46a81f0717.jpg"
   }
- }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/zvuc/otoge-db/master/chunithm/jacket/da4e8c46a81f0717.jpg",
+   "sha256": "55202eac3eb1017172fe32282705166a62dc8ea55d3ab1fcf31371f8625847cc",
+   "width": 190,
+   "height": 190,
+   "bytes": 31892
+  }
+ },
+ "extra": {}
 }

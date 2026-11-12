@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "82",
+ "title": "恋は渾沌の隷也",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "158",
+ "version": "",
+ "date_added": "2017-11-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 134
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 134
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 88,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 262
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 262
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 164,
+      "hold": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 641
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/82/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/82/hard.json",
+     "raw_sha256": "9c9fb04b4cdc74066fa11f313d721950a89b8de1a7360eaa0d55457d70b95013"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 641
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 33,
+      "tap": 246,
+      "slide": 18,
+      "hold": 141
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 815
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/82/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/82/expert.json",
+     "raw_sha256": "c21d188b6d12ef3aeb8895e7cc2d667068159452a73b638376ee992355a5ee20"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 815
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 49,
+      "tap": 348,
+      "slide": 148,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 825
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1743314400000,
+    "maa": {
+     "path": "bestdori/82/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/82/special.json",
+     "raw_sha256": "78fa1018a2848dfc9322891900a68e574874aed46a5c3d25bd5d418004e2312e"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 825
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 143,
+      "tap": 536,
+      "slide": 53,
+      "hold": 14
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 82,
+   "bandId": 3,
+   "jacketImage": "082_chaos",
+   "bgmId": "bgm082"
+  },
+  "maa": {
+   "bestdori_song_id": 82,
+   "jacket": {
+    "path": "bestdori/82/jacket-cn-1.png",
+    "server": "cn",
+    "name": "082_chaos"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/82/jacket-cn-1.png",
+   "sha256": "01770c92d57e49e4050716ddc1369ac1ccca4fe6d6c22578c9c9963168bef243",
+   "width": 320,
+   "height": 320,
+   "bytes": 43074
+  }
+ },
+ "extra": {
+  "lyricist": "畑亜貴",
+  "composer": "田中秀和(MONACA)",
+  "arranger": "母里治樹（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1511244000000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "こいはかおすのしもべなり",
+  "title_en": "Koi wa Chaos no Shimobenari",
+  "length_s": 107.16
+ }
+}

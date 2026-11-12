@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "424",
+ "title": "ハレハレ☆フォーチュン",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "115-146",
+ "version": "",
+ "date_added": "2022-05-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 158
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 158
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 31,
+      "tap": 96
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 292
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 292
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 174,
+      "hold": 56,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 519
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/424/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/424/hard.json",
+     "raw_sha256": "04a53ccacd596022aeb38633d003c92800c8d10af7fa6d5412ca4afc47d5c07c"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 519
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 78,
+      "slide": 44,
+      "tap": 227,
+      "flick": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 681
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/424/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/424/expert.json",
+     "raw_sha256": "14b162033f48966bc6784de4e3e1ff3116a23a255962b4d9c788cf24305347b7"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 681
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 57,
+      "slide": 87,
+      "tap": 255,
+      "flick": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 424,
+   "bandId": 4,
+   "jacketImage": "424_harehare_fortune",
+   "bgmId": "bgm424"
+  },
+  "maa": {
+   "bestdori_song_id": 424,
+   "jacket": {
+    "path": "bestdori/424/jacket-cn-1.png",
+    "server": "cn",
+    "name": "424_harehare_fortune"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/424/jacket-cn-1.png",
+   "sha256": "879676a23795091b23a01d71c5a1b748bebc41a2ada0cbd7f9fe57d8091f3e93",
+   "width": 320,
+   "height": 320,
+   "bytes": 19829
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "近藤世真（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1653976800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "はれはれふぉーちゅん",
+  "title_en": "Sunny☆Fortune",
+  "length_s": 123.48
+ }
+}

@@ -1,0 +1,486 @@
+{
+ "game": "piu",
+ "song_id": "1305",
+ "title": "Elise",
+ "artist": "DM Ashura",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "162",
+ "version": "Fiesta 2",
+ "date_added": "",
+ "charts": {
+  "single-4": {
+   "slot": "single-4",
+   "native": "S4",
+   "level": "4",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 333
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1256,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S4",
+     "meter": "4",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 333,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 161,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-7": {
+   "slot": "single-7",
+   "native": "S7",
+   "level": "7",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 494
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1257,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S7",
+     "meter": "7",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 494,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 344,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-12": {
+   "slot": "single-12",
+   "native": "S12",
+   "level": "12",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 569
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1258,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S11",
+     "meter": "11",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 569,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 377,
+      "other": 452,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 11 differs from the PHOENIX 2 level 12: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 892
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1259,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 892,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 192,
+      "tap": 285
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-18": {
+   "slot": "single-18",
+   "native": "S18",
+   "level": "18",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 1291
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1260,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-single",
+     "description": "S18",
+     "meter": "18",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1291,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 163,
+      "tap": 490
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "ENVYtic",
+   "note_counts": {
+    "combo": 1449
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1261,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-single",
+     "description": "S21",
+     "meter": "21",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1449,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 674,
+      "hold": 139
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "66 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-12": {
+   "slot": "double-12",
+   "native": "D12",
+   "level": "12",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 777
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1253,
+     "mode": "D"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 8,
+     "steps_type": "pump-double",
+     "description": "D12",
+     "meter": "12",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 777,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 194,
+      "hold": 175
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-17": {
+   "slot": "double-17",
+   "native": "D17",
+   "level": "17",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1417
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1254,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 10,
+     "steps_type": "pump-double",
+     "description": "D17",
+     "meter": "17",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1417,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 196,
+      "tap": 335
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-23": {
+   "slot": "double-23",
+   "native": "D23",
+   "level": "23",
+   "constant": null,
+   "designer": "ENVYtic",
+   "note_counts": {
+    "combo": 1370
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1255,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 12,
+     "steps_type": "pump-double",
+     "description": "D23",
+     "meter": "23",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1370,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 659,
+      "hold": 143
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "30 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "halfdouble-12": {
+   "slot": "halfdouble-12",
+   "native": "HDB12",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9007,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "normal"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-17": {
+   "slot": "halfdouble-17",
+   "native": "HDB17",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9008,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-21": {
+   "slot": "halfdouble-21",
+   "native": "HDB21",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9009,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "coop-2": {
+   "slot": "coop-2",
+   "native": "CO-OP x2",
+   "level": "2",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 816
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1262,
+     "mode": "C"
+    },
+    "simfile": {
+     "chart": 15,
+     "steps_type": "pump-routine",
+     "description": "DP COOP 2P",
+     "meter": "99",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 816,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 364,
+      "hold": 148
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 214,
+   "game_id": "1305",
+   "card": "/img/card/146.png",
+   "first": "Fiesta 2 v1.00",
+   "title": "Elise"
+  },
+  "kalinathalie": {
+   "slug": "elise"
+  },
+  "simfile": {
+   "path": "10 - FIESTA 2/(1) 1305 - Elise/1305 - Elise.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/10%20-%20FIESTA%202/%281%29%201305%20-%20Elise/1305%20-%20Elise.ssc",
+   "id": "1305",
+   "title": "Elise",
+   "artist": "DM Ashura"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/elise.jpg",
+   "sha256": "315f0751ec647a188fb8c79f98d5c5e4456875d51f990ecb493f7654f88f58a6",
+   "width": 256,
+   "height": 256,
+   "bytes": 17747
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "엘리제"
+  },
+  "simfile_notes": [
+   "S12: simfile chart 'S11' has meter 11 (re-rated)"
+  ]
+ }
+}

@@ -1,0 +1,210 @@
+{
+ "game": "sekai",
+ "song_id": "765",
+ "title": "レム",
+ "artist": "バルーン",
+ "title_romaji": "remu",
+ "artist_romaji": "baruun",
+ "genre": "その他",
+ "bpm": "85",
+ "version": "",
+ "date_added": "2026-07-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 147
+   },
+   "source": {
+    "music_difficulty_id": 3821,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 2,
+      "hold": 7,
+      "ex_tap": 6,
+      "tap": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 167
+   },
+   "source": {
+    "music_difficulty_id": 3822,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 12,
+      "ex_tap": 13,
+      "tap": 40,
+      "hold": 5,
+      "flick": 2,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 348
+   },
+   "source": {
+    "music_difficulty_id": 3823,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 34,
+      "tap": 72,
+      "other": 12,
+      "ex_tap": 24,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 460
+   },
+   "source": {
+    "music_difficulty_id": 3824,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 37,
+      "tap": 101,
+      "hold": 9,
+      "other": 12,
+      "ex_tap": 22,
+      "flick": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 537
+   },
+   "source": {
+    "music_difficulty_id": 3825,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 57,
+      "other": 33,
+      "tap": 80,
+      "hold": 24,
+      "flick": 19,
+      "ex_tap": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 765,
+   "assetbundle": "jacket_s_765",
+   "seq": 2767301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_765.png",
+   "sha256": "7b535cb784e78f9dad497dc291bffdd97a7dd013714091a2f77cdd9a12d91b8c",
+   "width": 320,
+   "height": 320,
+   "bytes": 13573
+  }
+ },
+ "extra": {
+  "pronunciation": "れむ",
+  "lyricist": "バルーン",
+  "composer": "バルーン",
+  "arranger": "バルーン",
+  "published_at": 1785323700000,
+  "released_at": 1785250800000,
+  "tags": [
+   "light_music_club",
+   "other",
+   "school_refusal",
+   "street",
+   "theme_park",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "重音テト",
+     "flower"
+    ],
+    "asset": "vs_0765_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "天馬咲希",
+     "青柳冬弥",
+     "神代類",
+     "暁山瑞希",
+     "KAITO"
+    ],
+    "asset": "se_0765_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 85.0
+ }
+}

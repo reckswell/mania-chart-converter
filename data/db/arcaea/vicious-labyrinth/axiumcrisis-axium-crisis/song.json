@@ -1,0 +1,204 @@
+{
+ "game": "arcaea",
+ "song_id": "axiumcrisis",
+ "title": "Axium Crisis",
+ "artist": "ak+q",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Vicious Labyrinth",
+ "bpm": "170",
+ "version": "1.5",
+ "date_added": "2017-11-03",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "5",
+   "constant": 5.5,
+   "designer": "The Monolith",
+   "note_counts": {
+    "combo": 685
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "シエラ"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/axiumcrisis/axiumcrisis_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 145,
+      "tap": 161,
+      "hold": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "8",
+   "constant": 8.5,
+   "designer": "The Monolith",
+   "note_counts": {
+    "combo": 1065
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "シエラ"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/axiumcrisis/axiumcrisis_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "tap": 360,
+      "hold": 30,
+      "air_hold": 192,
+      "other": 85,
+      "air": 51
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "10",
+   "constant": 10.6,
+   "designer": "The Monolith",
+   "note_counts": {
+    "combo": 1094
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "シエラ"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/axiumcrisis/axiumcrisis_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "other": 467,
+      "tap": 474,
+      "air_hold": 182,
+      "hold": 27,
+      "air": 207
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "BEYOND",
+   "level": "11",
+   "constant": 11.3,
+   "designer": "Monolith - Diverged",
+   "note_counts": {
+    "combo": 1682
+   },
+   "source": {
+    "songlist": {
+     "title_localized": {
+      "en": "Axium Divergence"
+     },
+     "artist": "ak+q (lowiro)",
+     "bpm": "170?",
+     "bpm_base": 180,
+     "audioOverride": true,
+     "jacketDesigner": "すずなし",
+     "jacketOverride": true,
+     "bg": "axiumcrisis3",
+     "legacy11": true,
+     "date": 1773014406,
+     "version": "6.13",
+     "hidden_until": "difficulty"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/axiumcrisis/axiumcrisis_3.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "other": 853,
+      "tap": 314,
+      "air": 425,
+      "air_hold": 289,
+      "hold": 64
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "combo 1683 computed from the .aff differs from the published note count 1682",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 55,
+   "set": "yugamu"
+  },
+  "matty": {
+   "jacket": "0123",
+   "title": "Axium Crisis"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/0123.png",
+   "sha256": "6019647cd3e6eba4b4cb30f04deb96e4983cd1da4a4b87888a7c6611c4fe0726",
+   "width": 320,
+   "height": 320,
+   "bytes": 36987
+  }
+ },
+ "extra": {
+  "pack": "yugamu",
+  "pack_name": "Vicious Labyrinth",
+  "songlist": {
+   "idx": 55,
+   "search_title": {
+    "ja": [
+     "あくしうむくらいしす"
+    ],
+    "ko": [
+     "억시움 크라이시스",
+     "악시움 크라이시스",
+     "액시움 크라이시스"
+    ]
+   },
+   "search_artist": {
+    "ja": [
+     "えーけーぷらすきゅー"
+    ],
+    "ko": [
+     "에이케이 플러스 큐"
+    ]
+   },
+   "bpm_base": 170,
+   "purchase": "yugamu",
+   "audioPreview": 51291,
+   "audioPreviewEnd": 78820,
+   "side": 1,
+   "world_unlock": false,
+   "bg": "axiumcrisis",
+   "remote_dl": true
+  },
+  "length_s": 151
+ }
+}

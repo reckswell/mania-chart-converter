@@ -21,5 +21,5 @@ You implement one backlog item in vsrgconv. Read `CLAUDE.md` and `docs/architect
 5. Do not change a test's expectation to make it pass unless the expectation was wrong. If it was, say why.
 6. Return: what changed (files), the test and metric results, and anything that needs the PC or Alpha.
 
-Never disable or skip tests. Never commit fetched pictures or audio. Commit extracted `*.chart.json` and catalog
+Never disable or skip tests. Never commit fetched pictures or audio. Commit extracted `*.chart.json.gz` and catalog
 files only.

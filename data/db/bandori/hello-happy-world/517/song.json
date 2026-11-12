@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "517",
+ "title": "愛のしるし",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "130",
+ "version": "",
+ "date_added": "2023-07-30",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 92
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 92
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 62,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 138
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 138
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 90,
+      "hold": 20,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 280
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/517/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/517/hard.json",
+     "raw_sha256": "32af31c81989704151c5534ade52b5ed0d220b4570851b6567f96e714f67ae39"
+    },
+    "bestdori": {
+     "level": 18,
+     "notes": 280
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 199,
+      "hold": 23,
+      "slide": 13,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 400
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/517/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/517/expert.json",
+     "raw_sha256": "179b28741b0105aa0fbcea1c077bed43d887e2d84251ab1c3bd92e317ede2b05"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 400
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 304,
+      "hold": 23,
+      "slide": 16,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 517,
+   "bandId": 3,
+   "jacketImage": "517_ai_no_shirushi",
+   "bgmId": "bgm517"
+  },
+  "maa": {
+   "bestdori_song_id": 517,
+   "jacket": {
+    "path": "bestdori/517/jacket-cn-1.png",
+    "server": "cn",
+    "name": "517_ai_no_shirushi"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/517/jacket-cn-1.png",
+   "sha256": "00783319785409f2f133e10bcca8c342dca4e32fcf01e6ed5c46c07b7731e81a",
+   "width": 320,
+   "height": 320,
+   "bytes": 30647
+  }
+ },
+ "extra": {
+  "lyricist": "草野 正宗",
+  "composer": "草野 正宗",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1690696800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "あいのしるし",
+  "title_en": "Ai no Shirushi",
+  "length_s": 99.744
+ }
+}

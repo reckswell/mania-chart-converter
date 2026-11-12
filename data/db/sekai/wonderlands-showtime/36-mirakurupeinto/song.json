@@ -1,0 +1,201 @@
+{
+ "game": "sekai",
+ "song_id": "36",
+ "title": "ミラクルペイント",
+ "artist": "OSTER project feat. 初音ミク",
+ "title_romaji": "mirakurupeinto",
+ "artist_romaji": "osutaapurojekuto fiicharingu hatsunemiku",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "215",
+ "version": "",
+ "date_added": "2020-10-13",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 266
+   },
+   "source": {
+    "music_difficulty_id": 176,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 105,
+      "hold": 15,
+      "ex_tap": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 618
+   },
+   "source": {
+    "music_difficulty_id": 177,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 245,
+      "hold": 21,
+      "ex_tap": 9,
+      "slide": 27,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 812
+   },
+   "source": {
+    "music_difficulty_id": 178,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 364,
+      "flick": 9,
+      "slide": 65,
+      "hold": 1,
+      "ex_tap": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1300
+   },
+   "source": {
+    "music_difficulty_id": 179,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 20,
+      "tap": 452,
+      "flick": 33,
+      "slide": 134,
+      "ex_tap": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1437
+   },
+   "source": {
+    "music_difficulty_id": 180,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 164,
+      "tap": 470,
+      "flick": 63,
+      "hold": 37,
+      "ex_tap": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 36,
+   "assetbundle": "jacket_s_036",
+   "seq": 1501401
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_036.png",
+   "sha256": "c9e61718da50f6bcbc8386e27dcb23bc702d51c06d35b6be64d367a3e17b305f",
+   "width": 320,
+   "height": 320,
+   "bytes": 30864
+  }
+ },
+ "extra": {
+  "pronunciation": "みらくるぺいんと",
+  "lyricist": "OSTER project",
+  "composer": "OSTER project",
+  "arranger": "OSTER project",
+  "published_at": 1602568800000,
+  "released_at": 1195657200000,
+  "tags": [
+   "theme_park",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "0036_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "天馬司",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "0036_02"
+   }
+  ],
+  "filler_sec": 9.562999725341797,
+  "bpm_main": 215.0
+ }
+}

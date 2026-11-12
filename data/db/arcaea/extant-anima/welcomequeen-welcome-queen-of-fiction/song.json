@@ -1,0 +1,195 @@
+{
+ "game": "arcaea",
+ "song_id": "welcomequeen",
+ "title": "Welcome, Queen of Fiction.",
+ "artist": "打打だいず",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Extant Anima",
+ "bpm": "110-305",
+ "version": "6.8",
+ "date_added": "2025-08-21",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "5",
+   "constant": 5.0,
+   "designer": "ようこそ、瑞獣。",
+   "note_counts": {
+    "combo": 610
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "あらへなす"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/welcomequeen/welcomequeen_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 136,
+      "tap": 190,
+      "hold": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "8",
+   "constant": 8.5,
+   "designer": "ようこそ、瑞獣。",
+   "note_counts": {
+    "combo": 832
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "あらへなす"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/welcomequeen/welcomequeen_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 134,
+      "other": 48,
+      "air": 99,
+      "tap": 423,
+      "hold": 82
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "10",
+   "constant": 10.1,
+   "designer": "ようこそ、瑞獣。",
+   "note_counts": {
+    "combo": 1172
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "あらへなす"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/welcomequeen/welcomequeen_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "other": 375,
+      "air_hold": 351,
+      "tap": 433,
+      "air": 279,
+      "hold": 62
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "ETERNAL",
+   "level": "10+",
+   "constant": 10.9,
+   "designer": "虚偽の玉座【夜浪】",
+   "note_counts": {
+    "combo": 1442
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "あらへなす",
+     "hidden_until": "unlockconditions"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/welcomequeen/welcomequeen_4.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 310,
+      "other": 566,
+      "tap": 502,
+      "air": 360,
+      "hold": 113
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 482,
+   "set": "anima_append_1"
+  },
+  "matty": {
+   "jacket": "01e0",
+   "title": "Welcome, Queen of Fiction."
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/01e0.png",
+   "sha256": "de86212b4734a5dba6fabc747e93337ed983849d32b7ebc2841525593b9d0eb5",
+   "width": 320,
+   "height": 320,
+   "bytes": 40307
+  }
+ },
+ "extra": {
+  "pack": "anima_append_1",
+  "pack_name": "Extant Anima",
+  "songlist": {
+   "idx": 482,
+   "search_title": {
+    "ja": [
+     "うぇるかむくいーんおぶふぃくしょん"
+    ],
+    "ko": [
+     "웰컴 퀸 오브 픽션"
+    ]
+   },
+   "search_artist": {
+    "en": [
+     "dadadaizu",
+     "dddice"
+    ],
+    "ja": [
+     "だだだいず"
+    ],
+    "ko": [
+     "다다다이즈"
+    ]
+   },
+   "bpm_base": 300,
+   "purchase": "anima_append_1",
+   "audioPreview": 0,
+   "audioPreviewEnd": 0,
+   "side": 1,
+   "bg": "anima_conflict",
+   "bg_inverse": "anima_light",
+   "remote_dl": true,
+   "world_unlock": false
+  },
+  "length_s": 156
+ }
+}

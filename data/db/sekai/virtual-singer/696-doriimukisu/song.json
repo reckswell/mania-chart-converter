@@ -1,0 +1,187 @@
+{
+ "game": "sekai",
+ "song_id": "696",
+ "title": "ドリーム・キス",
+ "artist": "吐息.",
+ "title_romaji": "doriimu・kisu",
+ "artist_romaji": "toiki",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "117",
+ "version": "",
+ "date_added": "2025-12-22",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 132
+   },
+   "source": {
+    "music_difficulty_id": 3476,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 6,
+      "tap": 60,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 380
+   },
+   "source": {
+    "music_difficulty_id": 3477,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 1,
+      "tap": 78,
+      "slide": 23,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 511
+   },
+   "source": {
+    "music_difficulty_id": 3478,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 10,
+      "ex_tap": 161,
+      "tap": 152,
+      "hold": 10,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 515
+   },
+   "source": {
+    "music_difficulty_id": 3479,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 50,
+      "ex_tap": 152,
+      "tap": 313,
+      "other": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 6",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 795
+   },
+   "source": {
+    "music_difficulty_id": 3480,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 26,
+      "slide": 2,
+      "flick": 62,
+      "tap": 487,
+      "ex_tap": 220,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 17",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 696,
+   "assetbundle": "jacket_s_696",
+   "seq": 1158901
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_696.png",
+   "sha256": "9eec0dddec2b2cd0d59773e34083b3ebc1dcc1c77193611108e9b1395431a7f9",
+   "width": 320,
+   "height": 320,
+   "bytes": 9679
+  }
+ },
+ "extra": {
+  "pronunciation": "どりーむ・きす",
+  "lyricist": "吐息.",
+  "composer": "吐息.",
+  "arranger": "吐息.",
+  "published_at": 1766383200000,
+  "released_at": 1758812400000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0696_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 117.0
+ }
+}

@@ -1,0 +1,216 @@
+{
+ "game": "sekai",
+ "song_id": "455",
+ "title": "ド屑",
+ "artist": "なきそ",
+ "title_romaji": "dokuzu",
+ "artist_romaji": "nakiso",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "115",
+ "version": "",
+ "date_added": "2024-03-04",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 141
+   },
+   "source": {
+    "music_difficulty_id": 2271,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 55,
+      "hold": 10,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 229
+   },
+   "source": {
+    "music_difficulty_id": 2272,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 8,
+      "tap": 79,
+      "hold": 2,
+      "slide": 17,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 597
+   },
+   "source": {
+    "music_difficulty_id": 2273,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 120,
+      "ex_tap": 19,
+      "slide": 66,
+      "flick": 27,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 844
+   },
+   "source": {
+    "music_difficulty_id": 2274,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 324,
+      "ex_tap": 20,
+      "slide": 112,
+      "flick": 97,
+      "hold": 23,
+      "other": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 817
+   },
+   "source": {
+    "music_difficulty_id": 2275,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 356,
+      "flick": 120,
+      "slide": 125,
+      "hold": 4,
+      "ex_tap": 6,
+      "other": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 455,
+   "assetbundle": "jacket_s_455",
+   "seq": 1638201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_455.png",
+   "sha256": "793a12da5818558e44289de35931920002bde283a00df08454da64eab651b126",
+   "width": 320,
+   "height": 320,
+   "bytes": 27039
+  }
+ },
+ "extra": {
+  "pronunciation": "どくず",
+  "lyricist": "なきそ",
+  "composer": "なきそ",
+  "arranger": "なきそ",
+  "published_at": 1709532000000,
+  "released_at": 1646406000000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "歌愛ユキ"
+    ],
+    "asset": "vs_0455_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "朝比奈まふゆ",
+     "東雲絵名"
+    ],
+    "asset": "se_0455_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "朝比奈まふゆ"
+    ],
+    "asset": "an_0455_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "東雲絵名"
+    ],
+    "asset": "an_0455_02"
+   }
+  ],
+  "filler_sec": 7.428100109100342,
+  "bpm_main": 115.0
+ }
+}

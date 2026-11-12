@@ -1,0 +1,208 @@
+{
+ "game": "sekai",
+ "song_id": "392",
+ "title": "春嵐",
+ "artist": "john",
+ "title_romaji": "shunran",
+ "artist_romaji": "john",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "140",
+ "version": "",
+ "date_added": "2023-11-06",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 228
+   },
+   "source": {
+    "music_difficulty_id": 1956,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 13,
+      "tap": 61,
+      "slide": 6,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 450
+   },
+   "source": {
+    "music_difficulty_id": 1957,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 6,
+      "tap": 165,
+      "slide": 30,
+      "flick": 11,
+      "hold": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 798
+   },
+   "source": {
+    "music_difficulty_id": 1958,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 351,
+      "ex_tap": 41,
+      "slide": 56,
+      "hold": 15,
+      "flick": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1095
+   },
+   "source": {
+    "music_difficulty_id": 1959,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 598,
+      "flick": 91,
+      "slide": 106,
+      "ex_tap": 58,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 4",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1184
+   },
+   "source": {
+    "music_difficulty_id": 1960,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 712,
+      "ex_tap": 76,
+      "flick": 116,
+      "slide": 84
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 392,
+   "assetbundle": "jacket_s_392",
+   "seq": 1434201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_392.png",
+   "sha256": "bb212837f16334512c8a0feb4cbe6af3fc20f7efb4d6bec4195927616be669b2",
+   "width": 320,
+   "height": 320,
+   "bytes": 31650
+  }
+ },
+ "extra": {
+  "pronunciation": "しゅんらん",
+  "lyricist": "john",
+  "composer": "john",
+  "arranger": "john",
+  "published_at": 1699250400000,
+  "released_at": 1575644400000,
+  "tags": [
+   "street"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0392_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "MEIKO",
+     "小豆沢こはね",
+     "白石杏",
+     "東雲彰人",
+     "青柳冬弥"
+    ],
+    "asset": "se_0392_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "東雲彰人"
+    ],
+    "asset": "an_0392_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 140.0
+ }
+}

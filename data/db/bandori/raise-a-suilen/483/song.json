@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "483",
+ "title": "神っぽいな",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "142",
+ "version": "",
+ "date_added": "2023-03-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 115
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 115
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 95,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 261
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 261
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 203,
+      "hold": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 514
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/483/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/483/hard.json",
+     "raw_sha256": "0d89651ecbcd8f24529cf128b91c1a77cf4f6a122a0c3ef69db56d02590d7640"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 514
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 27,
+      "tap": 373,
+      "hold": 28,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 846
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/483/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/483/expert.json",
+     "raw_sha256": "c6189588a38a864288dbf067e119bf91c51093c7e56c1b4f35e13385f311d26b"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 846
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 27,
+      "tap": 593,
+      "hold": 43,
+      "flick": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 483,
+   "bandId": 18,
+   "jacketImage": "483_kami_poina",
+   "bgmId": "bgm483"
+  },
+  "maa": {
+   "bestdori_song_id": 483,
+   "jacket": {
+    "path": "bestdori/483/jacket-cn-1.png",
+    "server": "cn",
+    "name": "483_kami_poina"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/483/jacket-cn-1.png",
+   "sha256": "7b1468c292906970ece8a3e76b0968f2277cd8791f5a06dc26601c3167a21671",
+   "width": 320,
+   "height": 320,
+   "bytes": 28144
+  }
+ },
+ "extra": {
+  "lyricist": "ピノキオピー",
+  "composer": "ピノキオピー",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1679292000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "かみっぽいな",
+  "title_en": "God-ish",
+  "length_s": 109.92
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "74",
+ "title": "遠い音楽～ハートビート～",
+ "artist": "山吹沙綾",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "山吹沙綾",
+ "bpm": "168",
+ "version": "",
+ "date_added": "2017-10-04",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 116
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 116
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 102,
+      "hold": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 272
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 272
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 179,
+      "hold": 45,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 507
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/74/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/74/hard.json",
+     "raw_sha256": "c811916f09d6c85ad3160b067a9db198f4f436cc5f162c6921488bd0e49397b2"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 507
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 21,
+      "tap": 333,
+      "hold": 75,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 687
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/74/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/74/expert.json",
+     "raw_sha256": "4c6263e04b2de1fef2d6566dde1c7eab54dd8bc7330f368a894dc5e49af978c8"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 687
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 30,
+      "tap": 498,
+      "hold": 75,
+      "slide": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 74,
+   "bandId": 12,
+   "jacketImage": "074_heart_beat",
+   "bgmId": "bgm074"
+  },
+  "maa": {
+   "bestdori_song_id": 74,
+   "jacket": {
+    "path": "bestdori/74/jacket-cn-1.png",
+    "server": "cn",
+    "name": "074_heart_beat"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/74/jacket-cn-1.png",
+   "sha256": "f3c140ba88fbab31049339bc83960d330b5ba494177a2e4d622484eea7894b74",
+   "width": 320,
+   "height": 320,
+   "bytes": 31645
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "菊田大介（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1507086000000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "とおいおんがくはーとびーと",
+  "title_en": "A Distant Heartbeat",
+  "length_s": 112.2
+ }
+}

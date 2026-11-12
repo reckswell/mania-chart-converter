@@ -1,0 +1,159 @@
+{
+ "game": "piu",
+ "song_id": "16F7",
+ "title": "86",
+ "artist": "Dasu",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "WORLD MUSIC",
+ "bpm": "167",
+ "version": "XX",
+ "date_added": "",
+ "charts": {
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "SUNNY",
+   "note_counts": {
+    "combo": 1543
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5652,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S15",
+     "meter": "15",
+     "active": true,
+     "credit": "SUNNY",
+     "combo": 1543,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 200,
+      "tap": 824
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "SUNNY",
+   "note_counts": {
+    "combo": 4331
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5653,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S21",
+     "meter": "21",
+     "active": true,
+     "credit": "SUNNY",
+     "combo": 4331,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 503,
+      "tap": 744
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "65 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-23": {
+   "slot": "double-23",
+   "native": "D23",
+   "level": "23",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 4000
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 5654,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-double",
+     "description": "D23",
+     "meter": "23",
+     "active": true,
+     "credit": "EXC",
+     "combo": 4000,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "other": 133,
+      "hold": 404,
+      "tap": 821
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "50 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 774,
+   "game_id": "16F7",
+   "card": "/img/card/xx-86-full-song.png",
+   "first": "XX v1.01.0",
+   "title": "86"
+  },
+  "kalinathalie": {
+   "slug": "8_6_full_song"
+  },
+  "simfile": {
+   "path": "14 - XX/16F7 - [Full Song] 8 6/16F7 - [Full Song] 8 6.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/14%20-%20XX/16F7%20-%20%5BFull%20Song%5D%208%206/16F7%20-%20%5BFull%20Song%5D%208%206.ssc",
+   "id": "16F7",
+   "title": "8 6 - FULL SONG -",
+   "artist": "DASU"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/8_6_full_song.jpg",
+   "sha256": "26f90ba67ba51d2cf33f43cd1be0b99946cbb0327689818d9e6ad69fd4828196",
+   "width": 256,
+   "height": 256,
+   "bytes": 13655
+  }
+ },
+ "extra": {
+  "cut": "Full Song"
+ }
+}

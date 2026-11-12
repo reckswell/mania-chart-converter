@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "652",
+ "title": "WELCOME TO PANDEMONIUM",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "204",
+ "version": "",
+ "date_added": "2024-12-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 125
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 125
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 83,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 210
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 210
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 142,
+      "hold": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 514
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/652/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/652/hard.json",
+     "raw_sha256": "4d92ca3dd41f05b34a63f4fd8f54af317ada2307228c596fcc9ee879e5d7ba83"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 514
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 65,
+      "tap": 290,
+      "slide": 36,
+      "flick": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 756
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/652/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/652/expert.json",
+     "raw_sha256": "334c0c48935bce063d76f09835c6c766bb02f6e860f42944bd780224f8aa5a80"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 756
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 52,
+      "tap": 484,
+      "hold": 66,
+      "slide": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 652,
+   "bandId": 18,
+   "jacketImage": "652_welcome_to_pandemonium",
+   "bgmId": "bgm652"
+  },
+  "maa": {
+   "bestdori_song_id": 652,
+   "jacket": {
+    "path": "bestdori/652/jacket-cn-1.png",
+    "server": "cn",
+    "name": "652_welcome_to_pandemonium"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/652/jacket-cn-1.png",
+   "sha256": "d88827fb18fe89c31d38b854523b2a41904573745df7a3bc38723a68f880e82b",
+   "width": 320,
+   "height": 320,
+   "bytes": 51171
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1735365600000,
+  "closed_at": 4122586800000,
+  "music_data_type": "normal",
+  "ruby": "うぇるかむとぅぱんでもにうむ",
+  "length_s": 106.536
+ }
+}

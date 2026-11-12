@@ -1,0 +1,375 @@
+{
+ "game": "ddr",
+ "song_id": "tiho",
+ "title": "地方創生☆チクワクティクス",
+ "artist": "日向美ビタースイーツ♪",
+ "title_romaji": "Chihou sousei chikuwactics",
+ "artist_romaji": "Hinatabi Bitter Sweets",
+ "genre": "DanceDanceRevolution (2014)",
+ "bpm": "170",
+ "version": "DanceDanceRevolution (2014)",
+ "date_added": "",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "BEGINNER",
+   "level": "2",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 72
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 216,
+     "sanbaiTier": 2.6
+    },
+    "tachi": {
+     "id": "C19d35e21512c2a5cd4c"
+    },
+    "simfile": {
+     "chart": "dance-single/Beginner",
+     "meter": "2",
+     "steps": 72,
+     "freezes": 0,
+     "shocks": 0,
+     "combo": 72
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 80
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "BASIC",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 188
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 564,
+     "sanbaiTier": 6.45
+    },
+    "tachi": {
+     "id": "C19d35e21512a823830b"
+    },
+    "simfile": {
+     "chart": "dance-single/Easy",
+     "meter": "6",
+     "steps": 184,
+     "freezes": 4,
+     "shocks": 0,
+     "combo": 188
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 201,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "DIFFICULT",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 280
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 840,
+     "sanbaiTier": 10.4
+    },
+    "tachi": {
+     "id": "C19d35e21512dd333205"
+    },
+    "simfile": {
+     "chart": "dance-single/Medium",
+     "meter": "10",
+     "steps": 276,
+     "freezes": 4,
+     "shocks": 0,
+     "combo": 280
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 315,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 408
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1224,
+     "sanbaiTier": 13.25
+    },
+    "tachi": {
+     "id": "C19d35e21512beb77a05"
+    },
+    "simfile": {
+     "chart": "dance-single/Hard",
+     "meter": "13",
+     "steps": 404,
+     "freezes": 4,
+     "shocks": 0,
+     "combo": 408
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 442,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "CHALLENGE",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1815,
+     "sanbaiTier": 16.55,
+     "flags": [
+      "unlock"
+     ]
+    },
+    "simfile": {
+     "chart": "dance-single/Challenge",
+     "meter": "16",
+     "steps": 583,
+     "freezes": 25,
+     "shocks": 0,
+     "combo": 605
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 592,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-normal": {
+   "slot": "double-normal",
+   "native": "DOUBLE BASIC",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 188
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 567,
+     "sanbaiTier": 7.45
+    },
+    "tachi": {
+     "id": "C19d35e21b082fbc6e83"
+    },
+    "simfile": {
+     "chart": "dance-double/Easy",
+     "meter": "7",
+     "steps": 186,
+     "freezes": 2,
+     "shocks": 0,
+     "combo": 188
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 196,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "EX max 564 from the simfile (3 × combo), DDRCardDraw has 567",
+   "assets": {}
+  },
+  "double-hard": {
+   "slot": "double-hard",
+   "native": "DOUBLE DIFFICULT",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 262
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 786,
+     "sanbaiTier": 10.45
+    },
+    "tachi": {
+     "id": "C19d35e21b0864cf2ae5"
+    },
+    "simfile": {
+     "chart": "dance-double/Medium",
+     "meter": "10",
+     "steps": 258,
+     "freezes": 4,
+     "shocks": 0,
+     "combo": 262
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 278,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-expert": {
+   "slot": "double-expert",
+   "native": "DOUBLE EXPERT",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 376
+   },
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1128,
+     "sanbaiTier": 13.35
+    },
+    "tachi": {
+     "id": "C19d35e21b081658ddf2"
+    },
+    "simfile": {
+     "chart": "dance-double/Hard",
+     "meter": "13",
+     "steps": 372,
+     "freezes": 4,
+     "shocks": 0,
+     "combo": 376
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 400,
+      "hold": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-master": {
+   "slot": "double-master",
+   "native": "DOUBLE CHALLENGE",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "ddrcarddraw": {
+     "maxScore": 1785,
+     "sanbaiTier": 17.3,
+     "flags": [
+      "unlock"
+     ]
+    },
+    "simfile": {
+     "chart": "dance-double/Challenge",
+     "meter": "17",
+     "steps": 573,
+     "freezes": 26,
+     "shocks": 0,
+     "combo": 595
+    },
+    "extracted": {
+     "from": "ddr-dan-tool-simfile",
+     "counts": {
+      "tap": 578,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "ddrcarddraw": {
+   "id": "91dD6iqPO066do99169POPbQPbo9o6oq",
+   "jacket": "ddr_2014/Chihou sousei chikuwa kutikusu.png"
+  },
+  "tachi": {
+   "id": "S19d35e198f0c66301b1",
+   "basename": "tiho",
+   "inGameID": 38065
+  },
+  "simfile": {
+   "path": "public/sm/2014/Chihou sousei chikuwactics/Chihou sousei chikuwactics.sm",
+   "url": "https://raw.githubusercontent.com/blackalice/ddr-dan-tool/HEAD/public/sm/2014/Chihou%20sousei%20chikuwactics/Chihou%20sousei%20chikuwactics.sm",
+   "song_id": ""
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/blackalice/ddr-dan-tool/HEAD/public/sm/2014/Chihou%20sousei%20chikuwactics/Chihou%20sousei%20chikuwactics-jacket.png",
+   "sha256": "aa23580c2c765f3379a8fa7f04aeefeb25e2ff4dbd755926eea693df0d42b296",
+   "width": 320,
+   "height": 320,
+   "bytes": 26872
+  }
+ },
+ "extra": {
+  "song_hash": "91dD6iqPO066do99169POPbQPbo9o6oq",
+  "ingame_genre": "萌えおこしストラテジー",
+  "remywiki": "https://remywiki.com/Chihou_sousei_chikuwactics",
+  "flare_category": "WHITE"
+ }
+}

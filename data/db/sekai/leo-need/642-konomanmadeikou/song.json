@@ -1,0 +1,213 @@
+{
+ "game": "sekai",
+ "song_id": "642",
+ "title": "このまんまでいこう",
+ "artist": "KEI",
+ "title_romaji": "konomanmadeikou",
+ "artist_romaji": "KEI",
+ "genre": "Leo/need",
+ "bpm": "177",
+ "version": "",
+ "date_added": "2026-02-17",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 209
+   },
+   "source": {
+    "music_difficulty_id": 3206,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 59,
+      "ex_tap": 5,
+      "hold": 12,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 338
+   },
+   "source": {
+    "music_difficulty_id": 3207,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 74,
+      "hold": 5,
+      "ex_tap": 10,
+      "slide": 17,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 527
+   },
+   "source": {
+    "music_difficulty_id": 3208,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 163,
+      "ex_tap": 34,
+      "slide": 44,
+      "flick": 24,
+      "other": 2,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 738
+   },
+   "source": {
+    "music_difficulty_id": 3209,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 80,
+      "tap": 267,
+      "flick": 48,
+      "ex_tap": 54,
+      "hold": 2,
+      "other": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 941
+   },
+   "source": {
+    "music_difficulty_id": 3210,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 413,
+      "slide": 75,
+      "flick": 77,
+      "other": 33,
+      "ex_tap": 137,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 642,
+   "assetbundle": "jacket_s_642",
+   "seq": 2261501
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_642.png",
+   "sha256": "c9bde5dedca450f226410fb2b08edb77e2ce9e2303d8b09e5419b79bbf4fe792",
+   "width": 320,
+   "height": 320,
+   "bytes": 16605
+  }
+ },
+ "extra": {
+  "pronunciation": "このまんまでいこう",
+  "lyricist": "ハヤシケイ",
+  "composer": "ハヤシケイ",
+  "arranger": "ハヤシケイ",
+  "published_at": 1771333500000,
+  "released_at": 1771254000000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "巡音ルカ"
+    ],
+    "asset": "vs_0642_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "日野森志歩",
+     "巡音ルカ",
+     "星乃一歌",
+     "天馬咲希",
+     "望月穂波"
+    ],
+    "asset": "se_0642_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "日野森志歩"
+    ],
+    "asset": "an_0642_01"
+   }
+  ],
+  "filler_sec": 7.983099937438965,
+  "bpm_main": 177.0
+ }
+}

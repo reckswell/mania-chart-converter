@@ -1,0 +1,173 @@
+{
+ "game": "bandori",
+ "song_id": "46",
+ "title": "Little Busters!",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "151",
+ "version": "",
+ "date_added": "2017-04-24",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 71
+   },
+   "source": {
+    "notesQuantity": 64,
+    "bestdori": {
+     "level": 7,
+     "notes": 71
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 61,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 64 differs from combo 71 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 152
+   },
+   "source": {
+    "notesQuantity": 141,
+    "bestdori": {
+     "level": 13,
+     "notes": 152
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 140,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped; master notesQuantity 141 differs from combo 152 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 370
+   },
+   "source": {
+    "notesQuantity": 261,
+    "maa": {
+     "path": "bestdori/46/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/46/hard.json",
+     "raw_sha256": "5f98b0e188c654093a737c4a265c6b237ae9835d4322eeacdf2eff34b3c73861"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 370
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 330,
+      "hold": 17,
+      "flick": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 261 differs from combo 370 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 575
+   },
+   "source": {
+    "notesQuantity": 397,
+    "maa": {
+     "path": "bestdori/46/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/46/expert.json",
+     "raw_sha256": "27318e0814d4064709060c70efd724be0b8c2d5d7089ae2faf4e0adff7747ced"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 575
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 27,
+      "tap": 381,
+      "hold": 39,
+      "flick": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "master notesQuantity 397 differs from combo 575 (a launch-era value; the game counts the chart)",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 46,
+   "bandId": 1,
+   "jacketImage": "littlebusters",
+   "bgmId": "bgm046"
+  },
+  "maa": {
+   "bestdori_song_id": 46,
+   "jacket": {
+    "path": "bestdori/46/jacket-cn-1.png",
+    "server": "cn",
+    "name": "littlebusters"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/46/jacket-cn-1.png",
+   "sha256": "d27bdd8f06ec5dbb428dd26cb3b8ca0ef9521158d9d5aebc76ecbd04f7149a18",
+   "width": 320,
+   "height": 320,
+   "bytes": 23802
+  }
+ },
+ "extra": {
+  "lyricist": "麻枝准",
+  "composer": "麻枝准",
+  "arranger": "母里治樹（Elements Garden）/加納望",
+  "tag": "anime",
+  "published_at": 1493013600000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "littlebusters",
+  "length_s": 110.55
+ }
+}

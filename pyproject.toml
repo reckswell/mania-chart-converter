@@ -12,12 +12,18 @@ dependencies = []
 [project.optional-dependencies]
 images = ["numpy>=1.26", "Pillow>=10"]
 dev = ["pytest>=8", "numpy>=1.26", "Pillow>=10"]
+hosting = ["huggingface_hub>=0.30"]
 
 [project.scripts]
 vsrgconv = "vsrgconv.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.setuptools.package-data]
+"vsrgconv.sources" = ["data/*.json"]
+"vsrgconv.games" = ["candidates.json"]
+"vsrgconv.imaging" = ["sdvxin_palette.json"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

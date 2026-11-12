@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "685",
+ "title": "顔",
+ "artist": "Ave Mujica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Ave Mujica",
+ "bpm": "140",
+ "version": "",
+ "date_added": "2025-03-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 111
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 111
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 61,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 192
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 192
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 138,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 518
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/685/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/685/hard.json",
+     "raw_sha256": "68695763f948bf4bcb596ffea55a5c1820950932b3e4ee991b153556bbdb1f56"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 518
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 23,
+      "tap": 322,
+      "hold": 60,
+      "flick": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 786
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/685/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/685/expert.json",
+     "raw_sha256": "f75201b8c0dc561e56c53eafbab098c7ba77e4c8afa6a15f6b9db482b62232df"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 786
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 59,
+      "tap": 560,
+      "flick": 23,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 685,
+   "bandId": 46,
+   "jacketImage": "685_kao",
+   "bgmId": "bgm685"
+  },
+  "maa": {
+   "bestdori_song_id": 685,
+   "jacket": {
+    "path": "bestdori/685/jacket-cn-1.png",
+    "server": "cn",
+    "name": "685_kao"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/685/jacket-cn-1.png",
+   "sha256": "8a71fc1ee67b795bba2fb1730abfb550d7d3e6ec09945f5be5ecc02f83440b84",
+   "width": 320,
+   "height": 320,
+   "bytes": 40582
+  }
+ },
+ "extra": {
+  "lyricist": "Diggy-MO’",
+  "composer": "木下龍平(SUPA LOVE)、Diggy-MO’",
+  "arranger": "木下龍平(SUPA LOVE)",
+  "tag": "normal",
+  "published_at": 1743400800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "かお",
+  "title_en": "Alter Ego",
+  "length_s": 117.48
+ }
+}

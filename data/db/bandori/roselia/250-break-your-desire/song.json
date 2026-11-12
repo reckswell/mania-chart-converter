@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "250",
+ "title": "Break your desire",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "205",
+ "version": "",
+ "date_added": "2020-02-25",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 143
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 143
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 93,
+      "hold": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 312
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 312
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 49,
+      "tap": 214
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 480
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/250/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/250/hard.json",
+     "raw_sha256": "d769be67312ffe812cf50d1c5769f0fb554dec5c7609654d33ef3d2db5f1e2b1"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 480
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 65,
+      "tap": 320,
+      "flick": 22,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 823
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/250/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/250/expert.json",
+     "raw_sha256": "31940656eaa7498a8955dfd4aaaa67d902ad78cfffc1c4aefe3a930f55c4b041"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 823
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 556,
+      "slide": 46,
+      "hold": 31,
+      "flick": 60
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 250,
+   "bandId": 5,
+   "jacketImage": "250_break_your_desire",
+   "bgmId": "bgm250"
+  },
+  "maa": {
+   "bestdori_song_id": 250,
+   "jacket": {
+    "path": "bestdori/250/jacket-cn-1.png",
+    "server": "cn",
+    "name": "250_break_your_desire"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/250/jacket-cn-1.png",
+   "sha256": "4ca881a51487c8506c4fca1418f480aab36006e3670f987188bde8268a4136c2",
+   "width": 320,
+   "height": 320,
+   "bytes": 41342
+  }
+ },
+ "extra": {
+  "lyricist": "Spirit Garden",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1582610400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "breakyourdesire",
+  "length_s": 108.36
+ }
+}

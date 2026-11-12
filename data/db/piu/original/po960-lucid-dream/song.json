@@ -1,0 +1,293 @@
+{
+ "game": "piu",
+ "song_id": "po960",
+ "title": "Lucid Dream",
+ "artist": "Cosmograph",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "173",
+ "version": "Phoenix",
+ "date_added": "",
+ "charts": {
+  "single-8": {
+   "slot": "single-8",
+   "native": "S8",
+   "level": "8",
+   "constant": null,
+   "designer": "SPHAM",
+   "note_counts": {
+    "combo": 333
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 7434,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S8",
+     "meter": "8",
+     "active": true,
+     "credit": "SPHAM",
+     "combo": 333,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 209,
+      "hold": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-13": {
+   "slot": "single-13",
+   "native": "S13",
+   "level": "13",
+   "constant": null,
+   "designer": "SPHAM",
+   "note_counts": {
+    "combo": 503
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 7435,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-single",
+     "description": "S13",
+     "meter": "13",
+     "active": true,
+     "credit": "SPHAM",
+     "combo": 503,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 396,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "SPHAM",
+   "note_counts": {
+    "combo": 999
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 7436,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-single",
+     "description": "S19",
+     "meter": "19",
+     "active": true,
+     "credit": "SPHAM",
+     "combo": 999,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 666,
+      "hold": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-20": {
+   "slot": "single-20",
+   "native": "S20",
+   "level": "20",
+   "constant": null,
+   "designer": "SPHAM",
+   "note_counts": {
+    "combo": 1202
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 7437,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-single",
+     "description": "S21",
+     "meter": "21",
+     "active": true,
+     "credit": "SPHAM",
+     "combo": 1202,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 115,
+      "tap": 689
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 21 differs from the PHOENIX 2 level 20: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-14": {
+   "slot": "double-14",
+   "native": "D14",
+   "level": "14",
+   "constant": null,
+   "designer": "SPHAM",
+   "note_counts": {
+    "combo": 503
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 7438,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 8,
+     "steps_type": "pump-double",
+     "description": "D14",
+     "meter": "14",
+     "active": true,
+     "credit": "SPHAM",
+     "combo": 503,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 396,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-20": {
+   "slot": "double-20",
+   "native": "D20",
+   "level": "20",
+   "constant": null,
+   "designer": "SPHAM",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 7439,
+     "mode": "D"
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "double-22": {
+   "slot": "double-22",
+   "native": "D22",
+   "level": "22",
+   "constant": null,
+   "designer": "SPHAM",
+   "note_counts": {
+    "combo": 1202
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 7440,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 10,
+     "steps_type": "pump-double",
+     "description": "D22",
+     "meter": "22",
+     "active": true,
+     "credit": "SPHAM",
+     "combo": 1202,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 115,
+      "tap": 690
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 960,
+   "game_id": "17XX_0801",
+   "card": "/img/card/Phoenix_Lucid_Dream.png",
+   "first": "Phoenix v1.08.0",
+   "title": "Lucid Dream"
+  },
+  "kalinathalie": {
+   "slug": "lucid_dream"
+  },
+  "simfile": {
+   "path": "16 - PHOENIX/18033.5 - Lucid Dream/Lucid Dream.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/16%20-%20PHOENIX/18033.5%20-%20Lucid%20Dream/Lucid%20Dream.ssc",
+   "id": "",
+   "title": "Lucid Dream",
+   "artist": "Cosmograph"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/lucid_dream.jpg",
+   "sha256": "65c7e039ffaac76e6b0420e8061090d24c9dcab0e44e7e77426b8c79635c5ec6",
+   "width": 256,
+   "height": 256,
+   "bytes": 21570
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "루시드 드림"
+  },
+  "simfile_notes": [
+   "S20: simfile chart 'S21' has meter 21 (re-rated)"
+  ]
+ }
+}

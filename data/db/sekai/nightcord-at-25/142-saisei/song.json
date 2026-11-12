@@ -1,0 +1,223 @@
+{
+ "game": "sekai",
+ "song_id": "142",
+ "title": "再生",
+ "artist": "ピコン",
+ "title_romaji": "saisei",
+ "artist_romaji": "pikon",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "76",
+ "version": "",
+ "date_added": "2021-09-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 124
+   },
+   "source": {
+    "music_difficulty_id": 706,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 8,
+      "tap": 24,
+      "ex_tap": 2,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 221
+   },
+   "source": {
+    "music_difficulty_id": 707,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 8,
+      "tap": 103,
+      "slide": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 308
+   },
+   "source": {
+    "music_difficulty_id": 708,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 6,
+      "tap": 152,
+      "ex_tap": 6,
+      "slide": 29,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 458
+   },
+   "source": {
+    "music_difficulty_id": 709,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 62,
+      "tap": 194,
+      "hold": 3,
+      "ex_tap": 10,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 547
+   },
+   "source": {
+    "music_difficulty_id": 710,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 268,
+      "slide": 75,
+      "ex_tap": 9,
+      "flick": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 142,
+   "assetbundle": "jacket_s_142",
+   "seq": 2609101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_142.png",
+   "sha256": "c7f2bf18c7307d23e494ce03741ad98a972a3b9956c9b8d9b15d8d245ac4700d",
+   "width": 320,
+   "height": 320,
+   "bytes": 18218
+  }
+ },
+ "extra": {
+  "pronunciation": "さいせい",
+  "lyricist": "ピコン",
+  "composer": "ピコン",
+  "arranger": "ピコン",
+  "published_at": 1632920700000,
+  "released_at": 1632841200000,
+  "tags": [
+   "school_refusal",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0142_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "朝比奈まふゆ",
+     "鏡音リン",
+     "宵崎奏",
+     "東雲絵名",
+     "暁山瑞希"
+    ],
+    "asset": "se_0142_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "宵崎奏"
+    ],
+    "asset": "an_0142_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "朝比奈まふゆ"
+    ],
+    "asset": "an_0142_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鏡音リン"
+    ],
+    "asset": "an_0142_03"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 76.0
+ }
+}

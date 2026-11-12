@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "629",
+ "title": "人マニア",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "147-153",
+ "version": "",
+ "date_added": "2024-09-13",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 142
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 142
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 90,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 223
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 223
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 123,
+      "hold": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 520
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/629/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/629/hard.json",
+     "raw_sha256": "504ab8c37ea765bea671e8cf37e31d012a27a14abd0890fac4328284f9db822c"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 520
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 45,
+      "tap": 265,
+      "flick": 21,
+      "hold": 57
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 881
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/629/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/629/expert.json",
+     "raw_sha256": "892fabd96c0377e7506b6d0e00ab3ae6562b4581048b4112c50761fc5eeb832c"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 881
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 98,
+      "tap": 368,
+      "flick": 38,
+      "hold": 79
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 629,
+   "bandId": 5,
+   "jacketImage": "629_hito_mania",
+   "bgmId": "bgm629"
+  },
+  "maa": {
+   "bestdori_song_id": 629,
+   "jacket": {
+    "path": "bestdori/629/jacket-cn-1.png",
+    "server": "cn",
+    "name": "629_hito_mania"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/629/jacket-cn-1.png",
+   "sha256": "e1e6c90c0ce4abfc72ad7533e4441242233150949bd7a144254b0b5e696c460f",
+   "width": 320,
+   "height": 320,
+   "bytes": 40493
+  }
+ },
+ "extra": {
+  "lyricist": "原口 沙輔",
+  "composer": "原口 沙輔",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1726207200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ひとまにあ",
+  "title_en": "Hito Mania",
+  "length_s": 130.464
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "467",
+ "title": "閃光",
+ "artist": "Afterglow×レイヤ",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow×レイヤ",
+ "bpm": "208",
+ "version": "",
+ "date_added": "2023-01-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 123
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 123
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 87,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 256
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 256
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 168,
+      "slide": 3,
+      "hold": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 570
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/467/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/467/hard.json",
+     "raw_sha256": "29291a8195588a47cd0ae2f520ec14ff2d156b984824a57f67aba391899e09b4"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 570
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 43,
+      "hold": 68,
+      "tap": 326,
+      "flick": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 898
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/467/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/467/expert.json",
+     "raw_sha256": "a6855d97ace9213c4d94ba94658efd218a0f1199eef8289dfaf47dbe7393a6b8"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 898
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 63,
+      "tap": 603,
+      "hold": 53,
+      "flick": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 467,
+   "bandId": 57,
+   "jacketImage": "467_senkou_alexandros",
+   "bgmId": "bgm467"
+  },
+  "maa": {
+   "bestdori_song_id": 467,
+   "jacket": {
+    "path": "bestdori/467/jacket-cn-1.png",
+    "server": "cn",
+    "name": "467_senkou_alexandros"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/467/jacket-cn-1.png",
+   "sha256": "3c7b2a6d785bc8b132c93809dd1a3cae315e952676a91c4340a94fffd08ca842",
+   "width": 320,
+   "height": 320,
+   "bytes": 23584
+  }
+ },
+ "extra": {
+  "lyricist": "川上洋平",
+  "composer": "川上洋平",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1672639200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "せんこう",
+  "title_en": "Senkou",
+  "length_s": 115.44
+ }
+}

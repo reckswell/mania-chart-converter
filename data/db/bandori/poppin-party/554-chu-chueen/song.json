@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "554",
+ "title": "Chu Chueen!",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "210",
+ "version": "",
+ "date_added": "2023-11-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 188
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 188
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 132,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 337
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 337
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 75,
+      "tap": 187
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 622
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/554/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/554/hard.json",
+     "raw_sha256": "d7c3ec6ba65257c07c33746c9c0a01806bfeb5a6682941a1a3974792b53a0764"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 622
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 354,
+      "hold": 26,
+      "flick": 12,
+      "slide": 80
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 947
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/554/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/554/expert.json",
+     "raw_sha256": "dec155a5e8b567e03f35941ac894c3d8ab34e34397f8c90cf3b2dd95278985ec"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 947
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 636,
+      "hold": 34,
+      "flick": 32,
+      "slide": 81
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 554,
+   "bandId": 1,
+   "jacketImage": "554_chu_chueen",
+   "bgmId": "bgm554"
+  },
+  "maa": {
+   "bestdori_song_id": 554,
+   "jacket": {
+    "path": "bestdori/554/jacket-cn-1.png",
+    "server": "cn",
+    "name": "554_chu_chueen"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/554/jacket-cn-1.png",
+   "sha256": "f19fd3526832d48328aa079856084f4977a10e7988b702942d129519c1e0c393",
+   "width": 320,
+   "height": 320,
+   "bytes": 40581
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "日高勇輝（Elements Garden）",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1700460000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "chucheen",
+  "length_s": 103.488
+ }
+}

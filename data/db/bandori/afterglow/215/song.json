@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "215",
+ "title": "アイのシナリオ",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2019-09-18",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 144
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 144
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 27,
+      "tap": 90
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 278
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 278
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 33,
+      "tap": 212
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 495
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/215/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/215/hard.json",
+     "raw_sha256": "1712aad7feae66adc486cfe85c0e83fd83fb6dd4390913e0d37fbe38e5be0e36"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 495
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 58,
+      "tap": 347,
+      "slide": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 781
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/215/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/215/expert.json",
+     "raw_sha256": "73abc5cf941847a320564c0be991f1eb4fd8cd10f8dbf7954c2b19b3683508ea"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 781
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 75,
+      "tap": 605,
+      "slide": 7,
+      "flick": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 215,
+   "bandId": 2,
+   "jacketImage": "215_ainoscinario",
+   "bgmId": "bgm215"
+  },
+  "maa": {
+   "bestdori_song_id": 215,
+   "jacket": {
+    "path": "bestdori/215/jacket-cn-1.png",
+    "server": "cn",
+    "name": "215_ainoscinario"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/215/jacket-cn-1.png",
+   "sha256": "25481f17e5d391223e4db6978f260a6e25470cc8d69c779ee4872df3a40f54ec",
+   "width": 320,
+   "height": 320,
+   "bytes": 22358
+  }
+ },
+ "extra": {
+  "lyricist": "HoneyWorks",
+  "composer": "HoneyWorks",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1568808000000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "あいのしなりお",
+  "title_en": "Scenario of Love",
+  "length_s": 106.056
+ }
+}

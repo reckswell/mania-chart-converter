@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "115",
+ "title": "私の心はチョココロネ",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "134",
+ "version": "",
+ "date_added": "2018-04-23",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 139
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 139
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 105,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 232
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 232
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 158,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 381
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/115/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/115/hard.json",
+     "raw_sha256": "8ffd7e91ad58d45ba4587b2fa14cd78e820c515b15ab05611b3abe9b99b874df"
+    },
+    "bestdori": {
+     "level": 18,
+     "notes": 381
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 247,
+      "hold": 49,
+      "flick": 21,
+      "slide": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 482
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/115/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/115/expert.json",
+     "raw_sha256": "2c9ba188d425503d7c24c1162358a1b9eb18d933938114631757320a9a45ae43"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 482
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 353,
+      "slide": 9,
+      "hold": 38,
+      "flick": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 625
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1788242400000,
+    "maa": {
+     "path": "bestdori/115/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/115/special.json",
+     "raw_sha256": "4487b4665559ecc313349a639880cbe40e5e1382e63d0243ed723089c200d6c1"
+    },
+    "bestdori": {
+     "notes": 625
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 448,
+      "hold": 35,
+      "flick": 34,
+      "slide": 35
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 115,
+   "bandId": 1,
+   "jacketImage": "115_wata_choco",
+   "bgmId": "bgm115"
+  },
+  "maa": {
+   "bestdori_song_id": 115,
+   "jacket": {
+    "path": "bestdori/115/jacket-cn-1.png",
+    "server": "cn",
+    "name": "115_wata_choco"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/115/jacket-cn-1.png",
+   "sha256": "62dfa5011ee4a4a6c2fd63786eb71dc1de94439ad36495f9538ca9dad87712d1",
+   "width": 320,
+   "height": 320,
+   "bytes": 18294
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1524452400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "わたしのこころはちょこころね",
+  "title_en": "Choco Cornet Love",
+  "length_s": 114.696
+ }
+}

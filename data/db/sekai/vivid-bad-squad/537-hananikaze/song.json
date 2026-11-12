@@ -1,0 +1,205 @@
+{
+ "game": "sekai",
+ "song_id": "537",
+ "title": "花に風",
+ "artist": "バルーン",
+ "title_romaji": "hananikaze",
+ "artist_romaji": "baruun",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "148",
+ "version": "",
+ "date_added": "2025-04-08",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 194
+   },
+   "source": {
+    "music_difficulty_id": 2681,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 62,
+      "slide": 4,
+      "ex_tap": 8,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 289
+   },
+   "source": {
+    "music_difficulty_id": 2682,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 106,
+      "ex_tap": 32,
+      "slide": 9,
+      "flick": 7,
+      "hold": 9,
+      "other": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 625
+   },
+   "source": {
+    "music_difficulty_id": 2683,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 22,
+      "tap": 212,
+      "ex_tap": 61,
+      "slide": 54,
+      "flick": 11,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 755
+   },
+   "source": {
+    "music_difficulty_id": 2684,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 23,
+      "tap": 281,
+      "ex_tap": 73,
+      "slide": 83,
+      "flick": 33,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 960
+   },
+   "source": {
+    "music_difficulty_id": 2685,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 28,
+      "tap": 353,
+      "flick": 61,
+      "ex_tap": 145,
+      "slide": 97,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 537,
+   "assetbundle": "jacket_s_537",
+   "seq": 1450901
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_537.png",
+   "sha256": "349b6aef9f9b74681c78ccf2848fba3557031a4c61aeaf907c42691b1ed89de1",
+   "width": 320,
+   "height": 320,
+   "bytes": 25752
+  }
+ },
+ "extra": {
+  "pronunciation": "はなにかぜ",
+  "lyricist": "バルーン",
+  "composer": "バルーン",
+  "arranger": "バルーン",
+  "published_at": 1744092000000,
+  "released_at": 1675954800000,
+  "tags": [
+   "street"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0537_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "小豆沢こはね",
+     "白石杏",
+     "東雲彰人",
+     "青柳冬弥"
+    ],
+    "asset": "se_0537_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 148.0
+ }
+}

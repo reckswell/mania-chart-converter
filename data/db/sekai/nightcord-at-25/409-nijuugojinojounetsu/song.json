@@ -1,0 +1,214 @@
+{
+ "game": "sekai",
+ "song_id": "409",
+ "title": "25時の情熱",
+ "artist": "カンザキイオリ",
+ "title_romaji": "nijuugojinojounetsu",
+ "artist_romaji": "kanzakiiori",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "86",
+ "version": "",
+ "date_added": "2023-12-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 125
+   },
+   "source": {
+    "music_difficulty_id": 2041,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 5,
+      "tap": 25,
+      "hold": 5,
+      "slide": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 225
+   },
+   "source": {
+    "music_difficulty_id": 2042,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 6,
+      "tap": 73,
+      "hold": 2,
+      "slide": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 525
+   },
+   "source": {
+    "music_difficulty_id": 2043,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 148,
+      "ex_tap": 30,
+      "slide": 60,
+      "hold": 1,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 625
+   },
+   "source": {
+    "music_difficulty_id": 2044,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 102,
+      "slide": 84,
+      "tap": 161,
+      "hold": 3,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 725
+   },
+   "source": {
+    "music_difficulty_id": 2045,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 22,
+      "ex_tap": 104,
+      "tap": 263,
+      "slide": 70,
+      "flick": 15,
+      "other": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 409,
+   "assetbundle": "jacket_s_409",
+   "seq": 2635401
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_409.png",
+   "sha256": "9bdb45350b20cb3ad3dbd6c47a2e00e1e7438f24ad4c50902bf682f4af79d7f7",
+   "width": 320,
+   "height": 320,
+   "bytes": 19971
+  }
+ },
+ "extra": {
+  "pronunciation": "にじゅうごじのじょうねつ",
+  "lyricist": "カンザキイオリ",
+  "composer": "カンザキイオリ",
+  "arranger": "カンザキイオリ",
+  "published_at": 1703855100000,
+  "released_at": 1703775600000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "鏡音リン",
+     "鏡音レン",
+     "巡音ルカ",
+     "MEIKO",
+     "KAITO"
+    ],
+    "asset": "vs_0409_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "宵崎奏",
+     "KAITO",
+     "朝比奈まふゆ",
+     "東雲絵名",
+     "暁山瑞希"
+    ],
+    "asset": "se_0409_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "宵崎奏"
+    ],
+    "asset": "an_0409_01"
+   }
+  ],
+  "filler_sec": 8.302300453186035,
+  "bpm_main": 86.0
+ }
+}

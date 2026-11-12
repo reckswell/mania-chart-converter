@@ -1,0 +1,379 @@
+{
+ "game": "piu",
+ "song_id": "1017",
+ "title": "Vacuum",
+ "artist": "Doin",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "200",
+ "version": "Fiesta",
+ "date_added": "",
+ "charts": {
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "DulKi",
+   "note_counts": {
+    "combo": 622
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 7575,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 12,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "DulKi",
+     "combo": 622,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 480,
+      "hold": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 1190
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 837,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S19 INFOBAR TITLE",
+     "meter": "19",
+     "active": true,
+     "credit": "HP",
+     "combo": 1190,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 595,
+      "hold": 104,
+      "other": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "32 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1300
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 838,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S21",
+     "meter": "21",
+     "active": true,
+     "credit": "BPM",
+     "combo": 1300,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 767,
+      "hold": 62,
+      "other": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "32 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-23": {
+   "slot": "single-23",
+   "native": "S23",
+   "level": "23",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 1229
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 839,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-single",
+     "description": "S23 INFOBAR TITLE",
+     "meter": "23",
+     "active": true,
+     "credit": "Windforce",
+     "combo": 1229,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 860,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-17": {
+   "slot": "double-17",
+   "native": "D17",
+   "level": "17",
+   "constant": null,
+   "designer": "DulKi",
+   "note_counts": {
+    "combo": 627
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 7576,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 13,
+     "steps_type": "pump-double",
+     "description": "D16",
+     "meter": "16",
+     "active": true,
+     "credit": "DulKi",
+     "combo": 627,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 485,
+      "hold": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 16 differs from the PHOENIX 2 level 17: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-22": {
+   "slot": "double-22",
+   "native": "D22",
+   "level": "22",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1221
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 840,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 10,
+     "steps_type": "pump-double",
+     "description": "D21",
+     "meter": "21",
+     "active": true,
+     "credit": "BPM",
+     "combo": 1221,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 739,
+      "hold": 52,
+      "other": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "34 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 21 differs from the PHOENIX 2 level 22: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-25": {
+   "slot": "double-25",
+   "native": "D25",
+   "level": "25",
+   "constant": null,
+   "designer": "SANDSTORM, WINDFORCE",
+   "note_counts": {
+    "combo": 1500
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 841,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 11,
+     "steps_type": "pump-double",
+     "description": "D25 INFOBAR TITLE",
+     "meter": "25",
+     "active": true,
+     "credit": "Sandstorm & Windforce",
+     "combo": 1500,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 937,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "59 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "halfdouble-16": {
+   "slot": "halfdouble-16",
+   "native": "HDB16",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9103,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-22": {
+   "slot": "halfdouble-22",
+   "native": "HDB22",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9104,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-25": {
+   "slot": "halfdouble-25",
+   "native": "HDB25",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9105,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 133,
+   "game_id": "1017",
+   "card": "/img/card/48.png",
+   "first": "Fiesta v1.01",
+   "title": "Vacuum"
+  },
+  "kalinathalie": {
+   "slug": "vacuum"
+  },
+  "simfile": {
+   "path": "08 - FIESTA/1017 - Vacuum/1017 - Vacuum.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/08%20-%20FIESTA/1017%20-%20Vacuum/1017%20-%20Vacuum.ssc",
+   "id": "1017",
+   "title": "Vacuum",
+   "artist": "Doin"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/vacuum.jpg",
+   "sha256": "2436518a6708fcde14e5232af038e81d21c94bb65460259a84257c5c761b84ff",
+   "width": 256,
+   "height": 256,
+   "bytes": 19334
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "진공"
+  },
+  "simfile_notes": [
+   "D17: simfile chart 'D16' has meter 16 (re-rated)",
+   "D22: simfile chart 'D21' has meter 21 (re-rated)"
+  ]
+ }
+}

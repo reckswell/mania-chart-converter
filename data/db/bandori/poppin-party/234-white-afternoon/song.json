@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "234",
+ "title": "White Afternoon",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "145",
+ "version": "",
+ "date_added": "2019-12-24",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 131
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 131
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 37,
+      "tap": 57
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 195
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 195
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 57,
+      "tap": 81
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 370
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/234/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/234/hard.json",
+     "raw_sha256": "c92b1c853a7bb853218f071d8733b3ddf8cd96e74eb89352d8a7426f60d3fecb"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 370
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 159,
+      "hold": 77,
+      "slide": 17,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 555
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/234/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/234/expert.json",
+     "raw_sha256": "b372310e5f22b35bae6f38d4ca2cfee4cb63cde40db4884ecc4711cc570e8df6"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 555
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 340,
+      "hold": 70,
+      "slide": 23,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 234,
+   "bandId": 1,
+   "jacketImage": "234_white",
+   "bgmId": "bgm234"
+  },
+  "maa": {
+   "bestdori_song_id": 234,
+   "jacket": {
+    "path": "bestdori/234/jacket-cn-1.png",
+    "server": "cn",
+    "name": "234_white"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/234/jacket-cn-1.png",
+   "sha256": "ca73cc8c96c2eb8c9e318d859734277a976f02f2a95a4bccaaa42e0af5fa4116",
+   "width": 320,
+   "height": 320,
+   "bytes": 32170
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "藤永龍太郎（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1577167200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "whiteafternoon",
+  "length_s": 116.76
+ }
+}

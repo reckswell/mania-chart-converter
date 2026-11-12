@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "124",
+ "title": "みくみくにしてあげる♪【してやんよ】",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "160",
+ "version": "",
+ "date_added": "2018-04-25",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 139
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 139
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 101,
+      "hold": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 239
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 239
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 165,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 439
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/124/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/124/hard.json",
+     "raw_sha256": "c9eae3eac4da3e3b13ef1c61e6ffd0f89eae99345ede1d81379c76baf27cd214"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 439
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 317,
+      "slide": 20,
+      "hold": 28
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 639
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/124/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/124/expert.json",
+     "raw_sha256": "fb3c8886bef0aa4dfcb38e2cc8f1feee53ebbc4f670b279ea877512263faa49a"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 639
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 402,
+      "slide": 61,
+      "hold": 38,
+      "flick": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 124,
+   "bandId": 4,
+   "jacketImage": "124_mikumiku",
+   "bgmId": "bgm124"
+  },
+  "maa": {
+   "bestdori_song_id": 124,
+   "jacket": {
+    "path": "bestdori/124/jacket-cn-1.png",
+    "server": "cn",
+    "name": "124_mikumiku"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/124/jacket-cn-1.png",
+   "sha256": "53a10f43c08cd80fb19fc787e0417ea4af3bd9a7491d320b9e8b4698116a0fa6",
+   "width": 320,
+   "height": 320,
+   "bytes": 29082
+  }
+ },
+ "extra": {
+  "lyricist": "ika_mo",
+  "composer": "ika_mo",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1524636000000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "みくみくにしてあげるしてやんよ",
+  "title_en": "Mikumiku Ni Shiteageru♪[Shiteyanyo]",
+  "length_s": 102.816
+ }
+}

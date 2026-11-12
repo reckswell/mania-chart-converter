@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "421",
+ "title": "おもいやりハーモニー",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "65-135",
+ "version": "",
+ "date_added": "2022-05-11",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 129
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 129
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 95,
+      "hold": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 179
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 179
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 109,
+      "hold": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 311
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/421/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/421/hard.json",
+     "raw_sha256": "bb5c4c52b9c75281e26cbe4ad6f245071caa7fd4a8f6acfe9c0e0b238425398c"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 311
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 135,
+      "hold": 55,
+      "slide": 29,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 479
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/421/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/421/expert.json",
+     "raw_sha256": "35100c75b5621d106834d190d5b2e945ef002abad9f69007f70ef66d0c096f5b"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 479
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 256,
+      "hold": 55,
+      "slide": 31,
+      "flick": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 421,
+   "bandId": 3,
+   "jacketImage": "421_omoiyari_harmony",
+   "bgmId": "bgm421"
+  },
+  "maa": {
+   "bestdori_song_id": 421,
+   "jacket": {
+    "path": "bestdori/421/jacket-cn-1.png",
+    "server": "cn",
+    "name": "421_omoiyari_harmony"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/421/jacket-cn-1.png",
+   "sha256": "88d07a052e3e783f0c128867f44e7b1ab0f63f451e1d8da05039a1604575fb7b",
+   "width": 320,
+   "height": 320,
+   "bytes": 30153
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "近藤世真（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1652248800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "おもいやりはーもにー",
+  "title_en": "Thoughtful Harmony",
+  "length_s": 111.216
+ }
+}

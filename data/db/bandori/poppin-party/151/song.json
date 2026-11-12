@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "151",
+ "title": "君に届け",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "144",
+ "version": "",
+ "date_added": "2018-10-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 128
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 128
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 90,
+      "hold": 19
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 258
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 258
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 194,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 499
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/151/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/151/hard.json",
+     "raw_sha256": "8771f96a9d2f96b4b7e5f6e95d744140938bdd61e3c97fce5c8ad63f167e8f64"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 499
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 325,
+      "flick": 14,
+      "hold": 71,
+      "slide": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 732
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/151/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/151/expert.json",
+     "raw_sha256": "951eb3354a73e25f4311c192da034df21353205fe4935d31bd44d465704c328d"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 732
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 530,
+      "flick": 30,
+      "slide": 34,
+      "hold": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 151,
+   "bandId": 1,
+   "jacketImage": "151_kiminitodoke",
+   "bgmId": "bgm151"
+  },
+  "maa": {
+   "bestdori_song_id": 151,
+   "jacket": {
+    "path": "bestdori/151/jacket-cn-1.png",
+    "server": "cn",
+    "name": "151_kiminitodoke"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/151/jacket-cn-1.png",
+   "sha256": "ee4c0f32f15957cdb900a9af74e73451569ae15af8dd5c950574c93e781a0611",
+   "width": 320,
+   "height": 320,
+   "bytes": 18879
+  }
+ },
+ "extra": {
+  "lyricist": "山村　隆太",
+  "composer": "阪井　一生",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1540814400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "きみにとどけ",
+  "title_en": "To You",
+  "length_s": 119.232
+ }
+}

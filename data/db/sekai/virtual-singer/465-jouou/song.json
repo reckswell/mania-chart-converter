@@ -1,0 +1,221 @@
+{
+ "game": "sekai",
+ "song_id": "465",
+ "title": "嬢王",
+ "artist": "八王子P",
+ "title_romaji": "jouou",
+ "artist_romaji": "hachioujipii",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "150-200 (200)",
+ "version": "",
+ "date_added": "2024-03-22",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 441
+   },
+   "source": {
+    "music_difficulty_id": 2321,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 74,
+      "hold": 18,
+      "slide": 9,
+      "ex_tap": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 555
+   },
+   "source": {
+    "music_difficulty_id": 2322,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 298,
+      "flick": 3,
+      "ex_tap": 8,
+      "hold": 23,
+      "slide": 5,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 994
+   },
+   "source": {
+    "music_difficulty_id": 2323,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 600,
+      "flick": 56,
+      "other": 62,
+      "ex_tap": 78,
+      "slide": 41,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1266
+   },
+   "source": {
+    "music_difficulty_id": 2324,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 720,
+      "flick": 98,
+      "other": 14,
+      "ex_tap": 121,
+      "hold": 16,
+      "slide": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "33",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1456
+   },
+   "source": {
+    "music_difficulty_id": 2325,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 856,
+      "flick": 113,
+      "other": 13,
+      "hold": 19,
+      "ex_tap": 203,
+      "slide": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "36",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1972
+   },
+   "source": {
+    "music_difficulty_id": 4040,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 1213,
+      "slide": 24,
+      "flick": 184,
+      "other": 35,
+      "hold": 117,
+      "ex_tap": 181
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 465,
+   "assetbundle": "jacket_s_465",
+   "seq": 2138801
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_465.png",
+   "sha256": "afe34288349491eb40d5aeb3e9adb73904dae9dd9f9943f49e08c25747c785cc",
+   "width": 320,
+   "height": 320,
+   "bytes": 27278
+  }
+ },
+ "extra": {
+  "pronunciation": "じょうおう",
+  "lyricist": "q*Left",
+  "composer": "八王子P",
+  "arranger": "八王子P",
+  "published_at": 1711087200000,
+  "released_at": 1711033200000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0465_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 200.0
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "537",
+ "title": "ヒバナ-Reloaded-",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "200",
+ "version": "",
+ "date_added": "2023-09-13",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 187
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 187
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 141,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 355
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 355
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 37,
+      "tap": 281
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 701
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/537/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/537/hard.json",
+     "raw_sha256": "b1b46cab1f8d2a6856d3c297d62c7567fee8b870dfdec60bc1915fde1676b37c"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 701
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 497,
+      "hold": 40,
+      "flick": 30,
+      "slide": 35
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1187
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/537/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/537/expert.json",
+     "raw_sha256": "a7c18c9e2a66e437a45cb01ac594676ec41718e236dd301cbb81b374b3f5a554"
+    },
+    "bestdori": {
+     "level": 29,
+     "notes": 1187
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 101,
+      "hold": 64,
+      "tap": 760,
+      "slide": 64
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 537,
+   "bandId": 5,
+   "jacketImage": "537_hibana_reloaded",
+   "bgmId": "bgm537"
+  },
+  "maa": {
+   "bestdori_song_id": 537,
+   "jacket": {
+    "path": "bestdori/537/jacket-cn-1.png",
+    "server": "cn",
+    "name": "537_hibana_reloaded"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/537/jacket-cn-1.png",
+   "sha256": "287040ccf23c8ac83e5debf3eadb75db1d75f09a74a7bba06866b358bae13a85",
+   "width": 320,
+   "height": 320,
+   "bytes": 21615
+  }
+ },
+ "extra": {
+  "lyricist": "DECO*27",
+  "composer": "DECO*27",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1694584800000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ひばなreloaded",
+  "title_en": "HIBANA -Reloaded-",
+  "length_s": 124.872
+ }
+}

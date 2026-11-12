@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "431",
+ "title": "ROZEN HORIZON",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "44-160",
+ "version": "",
+ "date_added": "2022-05-22",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 215
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 11,
+     "notes": 215
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 129,
+      "hold": 43
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 353
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 353
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 219,
+      "hold": 67
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 646
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/431/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/431/hard.json",
+     "raw_sha256": "64d795cc5b8dd18c61fc4505b581dc53fc978cc46bbef6ee3db5f379da732964"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 646
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 27,
+      "tap": 355,
+      "hold": 70,
+      "slide": 54
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1074
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/431/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/431/expert.json",
+     "raw_sha256": "167e5fe1efbcc6e106276b819dfa417ab7290a8ce0af772bd117432a1060f9b9"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 1074
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "flick": 45,
+      "tap": 687,
+      "hold": 107,
+      "slide": 54
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 431,
+   "bandId": 5,
+   "jacketImage": "431_rozen_horizon",
+   "bgmId": "bgm431"
+  },
+  "maa": {
+   "bestdori_song_id": 431,
+   "jacket": {
+    "path": "bestdori/431/jacket-cn-1.png",
+    "server": "cn",
+    "name": "431_rozen_horizon"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/431/jacket-cn-1.png",
+   "sha256": "8e9610e9a71d76e14bdce59f9e6d33634681f14b1832900bce6e16cfd8e12140",
+   "width": 320,
+   "height": 320,
+   "bytes": 31506
+  }
+ },
+ "extra": {
+  "lyricist": "上松範康（Elements Garden）",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1653224400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "rozenhorizon",
+  "length_s": 137.664
+ }
+}

@@ -1,0 +1,173 @@
+{
+ "game": "bandori",
+ "song_id": "176",
+ "title": "Baby Sweet Berry Love",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "170",
+ "version": "",
+ "date_added": "2019-02-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 136
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 136
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 116,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 252
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 252
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 198,
+      "hold": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 464
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/176/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/176/hard.json",
+     "raw_sha256": "a0b2aced5408435c58d543b1ac01d4a8f1cad89041c96ddb8f2d1f88be0c5dd7"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 464
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 335,
+      "hold": 53,
+      "flick": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 729
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/176/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/176/expert.json",
+     "raw_sha256": "10e295d9a1e7d1773b12c99b1a48a95596616c4def823ad52bbc3c45c3453163"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 729
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 476,
+      "hold": 58,
+      "flick": 33,
+      "slide": 42
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 176,
+   "bandId": 4,
+   "jacketImage": "176_babylove",
+   "bgmId": "bgm176"
+  },
+  "maa": {
+   "bestdori_song_id": 176,
+   "jacket": {
+    "path": "bestdori/176/jacket-cn-1.png",
+    "server": "cn",
+    "name": "176_babylove"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/176/jacket-cn-1.png",
+   "sha256": "5cb10f2d2fb9b3b7d167265d296f463c19ca057d3f2fd2ba6b426e6cfa738ca8",
+   "width": 320,
+   "height": 320,
+   "bytes": 30528
+  }
+ },
+ "extra": {
+  "lyricist": "山崎寛子",
+  "composer": "俊龍",
+  "arranger": "末益涼太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1551333600000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "babysweetberrylove",
+  "length_s": 104.52
+ }
+}

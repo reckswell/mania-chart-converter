@@ -1,0 +1,219 @@
+{
+ "game": "sekai",
+ "song_id": "524",
+ "title": "それでも僕らは歌うことをやめない",
+ "artist": "葵木ゴウ",
+ "title_romaji": "soredemobokurahautaukotooyamenai",
+ "artist_romaji": "aokigou",
+ "genre": "Leo/need",
+ "bpm": "182",
+ "version": "",
+ "date_added": "2024-09-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 171
+   },
+   "source": {
+    "music_difficulty_id": 2616,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 12,
+      "tap": 58,
+      "ex_tap": 4,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 300
+   },
+   "source": {
+    "music_difficulty_id": 2617,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 4,
+      "tap": 123,
+      "flick": 5,
+      "ex_tap": 8,
+      "slide": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "modifier without target 3: 1",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 609
+   },
+   "source": {
+    "music_difficulty_id": 2618,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 12,
+      "tap": 212,
+      "ex_tap": 12,
+      "slide": 50,
+      "flick": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 705
+   },
+   "source": {
+    "music_difficulty_id": 2619,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 9,
+      "tap": 274,
+      "flick": 34,
+      "slide": 55,
+      "hold": 9,
+      "ex_tap": 52
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 814
+   },
+   "source": {
+    "music_difficulty_id": 2620,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 17,
+      "tap": 394,
+      "flick": 78,
+      "slide": 47,
+      "ex_tap": 100,
+      "hold": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 524,
+   "assetbundle": "jacket_s_524",
+   "seq": 2243801
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_524.png",
+   "sha256": "f15c8c0d71f4e353a389612069f4c2d65eb577d2df1ad605d2c45f160b60ec98",
+   "width": 320,
+   "height": 320,
+   "bytes": 16062
+  }
+ },
+ "extra": {
+  "pronunciation": "それでもぼくらはうたうことをやめない",
+  "lyricist": "葵木ゴウ",
+  "composer": "葵木ゴウ",
+  "arranger": "葵木ゴウ",
+  "published_at": 1726812000000,
+  "released_at": 1726758000000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0524_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "星乃一歌",
+     "鏡音レン",
+     "天馬咲希",
+     "望月穂波",
+     "日野森志歩"
+    ],
+    "asset": "se_0524_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "星乃一歌"
+    ],
+    "asset": "an_0524_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鏡音レン"
+    ],
+    "asset": "an_0524_03"
+   }
+  ],
+  "filler_sec": 8.01099967956543,
+  "bpm_main": 182.0
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "52",
+ "title": "ハッピーサマーウェディング",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "128",
+ "version": "",
+ "date_added": "2017-06-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 179
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 179
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 117,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 241
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 241
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 161,
+      "hold": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 456
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/52/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/52/hard.json",
+     "raw_sha256": "fa65562b7dc097c610647b00c12edd3c206a2095ec07f0c068cd17065826da73"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 456
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 22,
+      "tap": 231,
+      "hold": 59,
+      "flick": 55
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 768
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/52/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/52/expert.json",
+     "raw_sha256": "fb957c8c07cd0c954d5463471ad0963ec0c39d9fae60dabc52f4919dffeaeffa"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 768
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 89,
+      "tap": 331,
+      "hold": 65,
+      "flick": 56
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 52,
+   "bandId": 3,
+   "jacketImage": "052_hapisama",
+   "bgmId": "bgm052"
+  },
+  "maa": {
+   "bestdori_song_id": 52,
+   "jacket": {
+    "path": "bestdori/52/jacket-cn-1.png",
+    "server": "cn",
+    "name": "052_hapisama"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/52/jacket-cn-1.png",
+   "sha256": "8cbb44bede23fee61ee123ec858a72f513b0b703a067e97f6646e1216610263f",
+   "width": 320,
+   "height": 320,
+   "bytes": 28173
+  }
+ },
+ "extra": {
+  "lyricist": "つんく",
+  "composer": "つんく",
+  "arranger": "都丸椋太（Elements Garden）／宮崎京一",
+  "tag": "anime",
+  "published_at": 1497074400000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "はっぴーさまーうぇでぃんぐ",
+  "title_en": "Happy Summer Wedding",
+  "length_s": 110.688
+ }
+}

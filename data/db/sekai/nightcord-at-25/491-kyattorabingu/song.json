@@ -1,0 +1,212 @@
+{
+ "game": "sekai",
+ "song_id": "491",
+ "title": "キャットラビング",
+ "artist": "香椎モイミ",
+ "title_romaji": "kyattorabingu",
+ "artist_romaji": "kashii moimi",
+ "genre": "25時、ナイトコードで。",
+ "bpm": "163",
+ "version": "",
+ "date_added": "2024-11-13",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 204
+   },
+   "source": {
+    "music_difficulty_id": 2451,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 62,
+      "ex_tap": 7,
+      "hold": 9,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 323
+   },
+   "source": {
+    "music_difficulty_id": 2452,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 114,
+      "hold": 6,
+      "slide": 22,
+      "ex_tap": 17,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 624
+   },
+   "source": {
+    "music_difficulty_id": 2453,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 307,
+      "slide": 39,
+      "hold": 6,
+      "ex_tap": 29,
+      "flick": 28,
+      "other": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 934
+   },
+   "source": {
+    "music_difficulty_id": 2454,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 304,
+      "slide": 92,
+      "ex_tap": 90,
+      "flick": 66,
+      "hold": 29,
+      "other": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1053
+   },
+   "source": {
+    "music_difficulty_id": 2455,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 20,
+      "tap": 504,
+      "ex_tap": 85,
+      "slide": 92,
+      "flick": 96,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 491,
+   "assetbundle": "jacket_s_491",
+   "seq": 1645801
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_491.png",
+   "sha256": "bf6d82981b241571154909f17b94b060093be9d688e968c90cb57236458b330f",
+   "width": 320,
+   "height": 320,
+   "bytes": 33550
+  }
+ },
+ "extra": {
+  "pronunciation": "きゃっとらびんぐ",
+  "lyricist": "香椎モイミ",
+  "composer": "香椎モイミ",
+  "arranger": "香椎モイミ",
+  "published_at": 1731477600000,
+  "released_at": 1626447600000,
+  "tags": [
+   "school_refusal"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "可不"
+    ],
+    "asset": "vs_0491_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "巡音ルカ",
+     "宵崎奏",
+     "東雲絵名"
+    ],
+    "asset": "se_0491_01"
+   },
+   {
+    "type": "streaming_live",
+    "caption": "コネクトライブver.",
+    "singers": [
+     "天馬咲希",
+     "桃井愛莉",
+     "鳳えむ"
+    ],
+    "asset": "cl_0491_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 163.0
+ }
+}

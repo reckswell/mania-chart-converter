@@ -1,0 +1,129 @@
+{
+ "game": "piu",
+ "song_id": "14E0",
+ "title": "Super Fantasy",
+ "artist": "SHK",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "145",
+ "version": "Prime",
+ "date_added": "",
+ "charts": {
+  "single-20": {
+   "slot": "single-20",
+   "native": "S20",
+   "level": "20",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 379
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2708,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S19",
+     "meter": "19",
+     "active": true,
+     "credit": "EXC",
+     "combo": 379,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 254,
+      "hold": 10,
+      "other": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 19 differs from the PHOENIX 2 level 20: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 381
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2709,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-double",
+     "description": "D17",
+     "meter": "17",
+     "active": true,
+     "credit": "EXC",
+     "combo": 381,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 253,
+      "hold": 10,
+      "other": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 17 differs from the PHOENIX 2 level 18: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 464,
+   "card": "/img/card/397.png",
+   "first": "Prime v1.10.0",
+   "title": "Super Fantasy"
+  },
+  "kalinathalie": {
+   "slug": "super_fantasy_short_cut"
+  },
+  "simfile": {
+   "path": "12 - PRIME/14E0 - [Short Cut] Super Fantasy/14E0 - [Short Cut] Super Fantasy.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/12%20-%20PRIME/14E0%20-%20%5BShort%20Cut%5D%20Super%20Fantasy/14E0%20-%20%5BShort%20Cut%5D%20Super%20Fantasy.ssc",
+   "id": "14E0",
+   "title": "Super Fantasy - SHORT CUT -",
+   "artist": "SHK"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/super_fantasy_short_cut.jpg",
+   "sha256": "39076fad722a86770fb223d0f6394edbd2403aa5249df220c7519e6d1e30e0c6",
+   "width": 256,
+   "height": 256,
+   "bytes": 20956
+  }
+ },
+ "extra": {
+  "cut": "Short Cut",
+  "titles": {
+   "kr": "슈퍼 판타지"
+  },
+  "simfile_notes": [
+   "S20: simfile chart 'S19' has meter 19 (re-rated)",
+   "D18: simfile chart 'D17' has meter 17 (re-rated)"
+  ]
+ }
+}

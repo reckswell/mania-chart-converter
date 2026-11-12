@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "591",
+ "title": "きゅうくらりん",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "220",
+ "version": "",
+ "date_added": "2024-03-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 160
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 160
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 92,
+      "hold": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 272
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 272
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 180,
+      "hold": 44,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 579
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/591/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/591/hard.json",
+     "raw_sha256": "a4c632626053b893a48d2efa4ea42461571aad9debb0c5d503293108147c03fa"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 579
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 39,
+      "tap": 364,
+      "flick": 17,
+      "slide": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 969
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/591/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/591/expert.json",
+     "raw_sha256": "f5b6808d1c0252487d42311a2b709eb2dc79348b447923540975a74d38ebd02e"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 969
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 611,
+      "flick": 45,
+      "slide": 88,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 591,
+   "bandId": 3,
+   "jacketImage": "591_kyukurarin",
+   "bgmId": "bgm591"
+  },
+  "maa": {
+   "bestdori_song_id": 591,
+   "jacket": {
+    "path": "bestdori/591/jacket-cn-1.png",
+    "server": "cn",
+    "name": "591_kyukurarin"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/591/jacket-cn-1.png",
+   "sha256": "281cba99d7aac37bf23cc1e7b516f38653e9b4eb676b9aba70eac960e3f16366",
+   "width": 320,
+   "height": 320,
+   "bytes": 18956
+  }
+ },
+ "extra": {
+  "lyricist": "いよわ",
+  "composer": "いよわ",
+  "arranger": "Seonoo Kim（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1710914400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "きゅうくらりん",
+  "title_en": "Kyu-Kurarin",
+  "length_s": 126.6
+ }
+}

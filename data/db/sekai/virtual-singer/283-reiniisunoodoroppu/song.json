@@ -1,0 +1,189 @@
+{
+ "game": "sekai",
+ "song_id": "283",
+ "title": "レイニースノードロップ",
+ "artist": "Re:nG",
+ "title_romaji": "reiniisunoodoroppu",
+ "artist_romaji": "Re:nG",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "192",
+ "version": "",
+ "date_added": "2023-02-11",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 422
+   },
+   "source": {
+    "music_difficulty_id": 1411,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "hold": 19,
+      "tap": 78,
+      "slide": 5,
+      "ex_tap": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 552
+   },
+   "source": {
+    "music_difficulty_id": 1412,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "slide": 24,
+      "tap": 256,
+      "hold": 3,
+      "ex_tap": 4,
+      "flick": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 997
+   },
+   "source": {
+    "music_difficulty_id": 1413,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "tap": 259,
+      "hold": 16,
+      "slide": 85,
+      "ex_tap": 38,
+      "flick": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1; from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1234
+   },
+   "source": {
+    "music_difficulty_id": 1414,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "tap": 462,
+      "slide": 131,
+      "hold": 12,
+      "ex_tap": 47,
+      "flick": 53
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1495
+   },
+   "source": {
+    "music_difficulty_id": 1415,
+    "difficulty": "master",
+    "extracted": {
+     "from": "sekai-chart-json",
+     "counts": {
+      "tap": 703,
+      "slide": 132,
+      "flick": 96,
+      "ex_tap": 41,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "from the fallback source sekai-chart-json (may be an older chart revision)",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 283,
+   "assetbundle": "jacket_s_283",
+   "seq": 1124401
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Untitled-World/sekai-jacket-db/HEAD/src/jacket/jacket_s_283.png",
+   "sha256": "deee09d020bcec0ed44c87855905c2791eb7d3922de00c2e9d07023301b5dec0",
+   "width": 320,
+   "height": 320,
+   "bytes": 26271
+  }
+ },
+ "extra": {
+  "pronunciation": "れいにーすのーどろっぷ",
+  "lyricist": "帷子ゆき",
+  "composer": "Re:nG",
+  "arranger": "Re:nG",
+  "published_at": 1676095200000,
+  "released_at": 1629990000000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "KAITO"
+    ],
+    "asset": "vs_0283_01"
+   }
+  ],
+  "filler_sec": 8.055800437927246,
+  "bpm_main": 192.0
+ }
+}

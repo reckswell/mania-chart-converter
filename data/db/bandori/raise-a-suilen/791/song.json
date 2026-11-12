@@ -1,0 +1,145 @@
+{
+ "game": "bandori",
+ "song_id": "791",
+ "title": "絶対零度",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "221",
+ "version": "",
+ "date_added": "2026-04-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 685
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/791/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/791/hard.json",
+     "raw_sha256": "fe4f69d1514410c5ff1ad2cc0456f001d50893b6f5b83c8c6db6e1aec9919ec0"
+    },
+    "bestdori": {
+     "notes": 685
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 369,
+      "flick": 37,
+      "slide": 52,
+      "hold": 67
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 953
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/791/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/791/expert.json",
+     "raw_sha256": "a48fdaba9c816577693401c1b77d81459de257a857edc1663e8e2c147dafd77a"
+    },
+    "bestdori": {
+     "notes": 953
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 90,
+      "tap": 547,
+      "slide": 70,
+      "flick": 49
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 791,
+   "bandId": 18,
+   "jacketImage": "791_zettai_reido",
+   "bgmId": "bgm791"
+  },
+  "maa": {
+   "bestdori_song_id": 791,
+   "jacket": {
+    "path": "bestdori/791/jacket-jp-1.png",
+    "server": "jp",
+    "name": "791_zettai_reido"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/791/jacket-jp-1.png",
+   "sha256": "aa9246205340c6d1605ff33aeb596dd6ea081e8e2451eb98408223eec343dadb",
+   "width": 320,
+   "height": 320,
+   "bytes": 24513
+  }
+ },
+ "extra": {
+  "lyricist": "なとり",
+  "composer": "なとり",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1777442400000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "ぜったいれいど"
+ }
+}

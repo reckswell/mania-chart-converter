@@ -1,0 +1,211 @@
+{
+ "game": "sekai",
+ "song_id": "404",
+ "title": "blender",
+ "artist": "こめだわら×R Sound Design",
+ "title_romaji": "blender",
+ "artist_romaji": "komedawara aarusaundodezain",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "103",
+ "version": "",
+ "date_added": "2024-03-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "5",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 149
+   },
+   "source": {
+    "music_difficulty_id": 2016,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 50,
+      "hold": 6,
+      "ex_tap": 2,
+      "slide": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 331
+   },
+   "source": {
+    "music_difficulty_id": 2017,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 168,
+      "hold": 2,
+      "slide": 25,
+      "ex_tap": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "16",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 524
+   },
+   "source": {
+    "music_difficulty_id": 2018,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 170,
+      "ex_tap": 59,
+      "slide": 40,
+      "hold": 6,
+      "other": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 812
+   },
+   "source": {
+    "music_difficulty_id": 2019,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 95,
+      "ex_tap": 66,
+      "tap": 270,
+      "other": 9,
+      "hold": 35,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 781
+   },
+   "source": {
+    "music_difficulty_id": 2020,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 22,
+      "tap": 340,
+      "ex_tap": 80,
+      "slide": 104,
+      "hold": 17,
+      "flick": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 404,
+   "assetbundle": "jacket_s_404",
+   "seq": 2439101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_404.png",
+   "sha256": "93bb82e5e0fb4313aa4abb336ada813cd08aa8015105e01e2261226e7d9285d1",
+   "width": 320,
+   "height": 320,
+   "bytes": 18592
+  }
+ },
+ "extra": {
+  "pronunciation": "ぶれんだー",
+  "lyricist": "こめだわら×R Sound Design",
+  "composer": "こめだわら×R Sound Design",
+  "arranger": "こめだわら×R Sound Design",
+  "published_at": 1711631100000,
+  "released_at": 1711551600000,
+  "tags": [
+   "street"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク",
+     "MEIKO"
+    ],
+    "asset": "vs_0404_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "青柳冬弥",
+     "MEIKO",
+     "小豆沢こはね",
+     "白石杏",
+     "東雲彰人"
+    ],
+    "asset": "se_0404_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "青柳冬弥"
+    ],
+    "asset": "an_0404_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 103.0
+ }
+}

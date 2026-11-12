@@ -1,0 +1,217 @@
+{
+ "game": "sekai",
+ "song_id": "208",
+ "title": "僕らまだアンダーグラウンド",
+ "artist": "Eve",
+ "title_romaji": "bokuramadaandaaguraundo",
+ "artist_romaji": "Eve",
+ "genre": "Leo/need",
+ "bpm": "148",
+ "version": "",
+ "date_added": "2022-03-04",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 281
+   },
+   "source": {
+    "music_difficulty_id": 1036,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 48,
+      "hold": 16,
+      "ex_tap": 4,
+      "slide": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 406
+   },
+   "source": {
+    "music_difficulty_id": 1037,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 121,
+      "slide": 23,
+      "hold": 16,
+      "ex_tap": 8,
+      "flick": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 635
+   },
+   "source": {
+    "music_difficulty_id": 1038,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 255,
+      "slide": 51,
+      "ex_tap": 23,
+      "flick": 14,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 920
+   },
+   "source": {
+    "music_difficulty_id": 1039,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 397,
+      "slide": 82,
+      "flick": 19,
+      "ex_tap": 23,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1035
+   },
+   "source": {
+    "music_difficulty_id": 1040,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 525,
+      "hold": 16,
+      "slide": 85,
+      "flick": 28,
+      "ex_tap": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 208,
+   "assetbundle": "jacket_s_208",
+   "seq": 1214101
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_208.png",
+   "sha256": "66a79c444a0471eb29636b66d0e06c5f1b1c7a464ed2fbe9079e300298047582",
+   "width": 320,
+   "height": 320,
+   "bytes": 25446
+  }
+ },
+ "extra": {
+  "pronunciation": "ぼくらまだあんだーぐらうんど",
+  "lyricist": "Eve",
+  "composer": "Eve",
+  "arranger": "Numa",
+  "published_at": 1646373600000,
+  "released_at": 1548255600000,
+  "tags": [
+   "light_music_club",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0208_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "星乃一歌",
+     "日野森志歩"
+    ],
+    "asset": "se_0208_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "日野森志歩"
+    ],
+    "asset": "an_0208_02"
+   },
+   {
+    "type": "streaming_live",
+    "caption": "コネクトライブver.",
+    "singers": [
+     "青柳冬弥",
+     "天馬司"
+    ],
+    "asset": "cl_0208_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 148.0
+ }
+}

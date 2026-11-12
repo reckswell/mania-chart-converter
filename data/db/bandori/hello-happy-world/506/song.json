@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "506",
+ "title": "ダンスホール",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "110",
+ "version": "",
+ "date_added": "2023-08-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 114
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 114
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 72,
+      "hold": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 264
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 264
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 134,
+      "hold": 65
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 480
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/506/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/506/hard.json",
+     "raw_sha256": "12b5ceb9d84f79d9a093187370fe47ef4fae39f2eee26a8fdd21b6fffc4391fa"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 480
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 264,
+      "slide": 53,
+      "hold": 41,
+      "flick": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 726
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/506/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/506/expert.json",
+     "raw_sha256": "d8969cebff1da176bf721d94c4b5324ab39b5efe657c9b7c912dca55dbb671a1"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 726
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 412,
+      "hold": 92,
+      "flick": 29,
+      "slide": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 506,
+   "bandId": 3,
+   "jacketImage": "506_dance_hall",
+   "bgmId": "bgm506"
+  },
+  "maa": {
+   "bestdori_song_id": 506,
+   "jacket": {
+    "path": "bestdori/506/jacket-cn-1.png",
+    "server": "cn",
+    "name": "506_dance_hall"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/506/jacket-cn-1.png",
+   "sha256": "560f4bb29a50094087e16d5c2aa5568545610b8b9d2a0512bf4e278dbf288872",
+   "width": 320,
+   "height": 320,
+   "bytes": 28355
+  }
+ },
+ "extra": {
+  "lyricist": "大森　元貴",
+  "composer": "大森　元貴",
+  "arranger": "岩橋星実（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1693310400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "だんすほーる",
+  "title_en": "Dance Hall",
+  "length_s": 133.152
+ }
+}

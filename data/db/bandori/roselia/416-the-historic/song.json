@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "416",
+ "title": "THE HISTORIC...",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "175",
+ "version": "",
+ "date_added": "2022-04-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 171
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 171
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 109,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 307
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 307
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 201,
+      "hold": 51,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 581
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/416/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/416/hard.json",
+     "raw_sha256": "ec268b76c82678ba7b590eb13091b81f9f2092f8f8accbd60dd75b9809713215"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 581
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 344,
+      "hold": 63,
+      "flick": 16,
+      "slide": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 816
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/416/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/416/expert.json",
+     "raw_sha256": "27224ff8d371e8573136fa48440bccfdc31931a57626ab07f94b3bab96769975"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 816
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 392,
+      "slide": 115,
+      "hold": 53,
+      "flick": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 416,
+   "bandId": 5,
+   "jacketImage": "416_historic",
+   "bgmId": "bgm416"
+  },
+  "maa": {
+   "bestdori_song_id": 416,
+   "jacket": {
+    "path": "bestdori/416/jacket-cn-1.png",
+    "server": "cn",
+    "name": "416_historic"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/416/jacket-cn-1.png",
+   "sha256": "ebf81969e6efe64da692483d737191bf1a073a7b901e4663f804bd9c2f44a064",
+   "width": 320,
+   "height": 320,
+   "bytes": 28008
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "日高勇輝（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1650434400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "thehistoric",
+  "length_s": 127.608
+ }
+}

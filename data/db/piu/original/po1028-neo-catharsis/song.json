@@ -1,0 +1,238 @@
+{
+ "game": "piu",
+ "song_id": "po1028",
+ "title": "Neo Catharsis",
+ "artist": "TAG underground overlay",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "120-300",
+ "version": "Phoenix",
+ "date_added": "",
+ "charts": {
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "DIESEL",
+   "note_counts": {
+    "combo": 800
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 8043,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S19",
+     "meter": "19",
+     "active": true,
+     "credit": "DIESEL",
+     "combo": 800,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 453,
+      "hold": 63
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "22 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "DIESEL",
+   "note_counts": {
+    "combo": 1000
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 8044,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-single",
+     "description": "S21",
+     "meter": "21",
+     "active": true,
+     "credit": "DIESEL",
+     "combo": 1000,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 98,
+      "tap": 517
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "24 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-23": {
+   "slot": "single-23",
+   "native": "S23",
+   "level": "23",
+   "constant": null,
+   "designer": "DIESEL",
+   "note_counts": {
+    "combo": 1200
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 8045,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 6,
+     "steps_type": "pump-single",
+     "description": "S23",
+     "meter": "23",
+     "active": true,
+     "credit": "DIESEL",
+     "combo": 1200,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 45,
+      "tap": 628
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "26 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-24": {
+   "slot": "double-24",
+   "native": "D24",
+   "level": "24",
+   "constant": null,
+   "designer": "DIESEL",
+   "note_counts": {
+    "combo": 1100
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 8046,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-double",
+     "description": "D23",
+     "meter": "23",
+     "active": true,
+     "credit": "DIESEL",
+     "combo": 1100,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 106,
+      "tap": 535
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "26 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 23 differs from the PHOENIX 2 level 24: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-25": {
+   "slot": "double-25",
+   "native": "D25",
+   "level": "25",
+   "constant": null,
+   "designer": "DIESEL",
+   "note_counts": {
+    "combo": 1400
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 8047,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 8,
+     "steps_type": "pump-double",
+     "description": "D25",
+     "meter": "25",
+     "active": true,
+     "credit": "DIESEL",
+     "combo": 1400,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 48,
+      "tap": 655
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "28 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 1028,
+   "game_id": "17XX_1708",
+   "card": "/img/card/Phoenix_Neo_Catharsis_Short.png",
+   "first": "Phoenix v2.08.0",
+   "title": "Neo Catharsis"
+  },
+  "kalinathalie": {
+   "slug": "neo_catharsis_short_cut"
+  },
+  "simfile": {
+   "path": "16 - PHOENIX/18F76 - [Short Cut] Neo Catharsis/[Short Cut] Neo Catharsis.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/16%20-%20PHOENIX/18F76%20-%20%5BShort%20Cut%5D%20Neo%20Catharsis/%5BShort%20Cut%5D%20Neo%20Catharsis.ssc",
+   "id": "18F76",
+   "title": "Neo Catharsis - SHORT CUT -",
+   "artist": "TAG underground overlay"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/neo_catharsis_short_cut.jpg",
+   "sha256": "42f58e7d664264ce1414f4a68ec3af43b639a5a4bcba3a7beb507bfe90645158",
+   "width": 256,
+   "height": 256,
+   "bytes": 23042
+  }
+ },
+ "extra": {
+  "cut": "Short Cut",
+  "titles": {
+   "kr": "네오 카타르시스"
+  },
+  "simfile_notes": [
+   "D24: simfile chart 'D23' has meter 23 (re-rated)"
+  ]
+ }
+}

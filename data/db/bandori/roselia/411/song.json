@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "411",
+ "title": "廻廻奇譚",
+ "artist": "Roselia",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Roselia",
+ "bpm": "185",
+ "version": "",
+ "date_added": "2022-03-11",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 143
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 143
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 69,
+      "hold": 37
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 238
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 238
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 156,
+      "hold": 39,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 485
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/411/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/411/hard.json",
+     "raw_sha256": "222333ef68fee23860b8b8335915444671c0056ac2746fdb819710a26842a93f"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 485
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 26,
+      "flick": 15,
+      "tap": 290,
+      "hold": 55
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 749
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/411/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/411/expert.json",
+     "raw_sha256": "43c77c3a126175c6633d1db73f2d5f09a690dab17eb91f383f3f5bb8bfa9932b"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 749
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 79,
+      "tap": 415,
+      "flick": 35,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 411,
+   "bandId": 5,
+   "jacketImage": "411_kaikaikitan",
+   "bgmId": "bgm411"
+  },
+  "maa": {
+   "bestdori_song_id": 411,
+   "jacket": {
+    "path": "bestdori/411/jacket-cn-1.png",
+    "server": "cn",
+    "name": "411_kaikaikitan"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/411/jacket-cn-1.png",
+   "sha256": "9d64b1219c6fa1e3541804c443b4628c2b4430261161eff96bd0f25d033073d9",
+   "width": 320,
+   "height": 320,
+   "bytes": 35867
+  }
+ },
+ "extra": {
+  "lyricist": "Eve",
+  "composer": "Eve",
+  "arranger": "Elements Garden",
+  "tag": "anime",
+  "published_at": 1646985600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "かいかいきたん",
+  "title_en": "Kaikai Kitan",
+  "length_s": 98.664
+ }
+}

@@ -1,0 +1,208 @@
+{
+ "game": "sekai",
+ "song_id": "788",
+ "title": "アンチサイノウ",
+ "artist": "syudou",
+ "title_romaji": "anchisainou",
+ "artist_romaji": "syudou",
+ "genre": "その他",
+ "bpm": "209",
+ "version": "",
+ "date_added": "2026-08-27",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 175
+   },
+   "source": {
+    "music_difficulty_id": 3936,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 59,
+      "ex_tap": 10,
+      "hold": 10,
+      "slide": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 295
+   },
+   "source": {
+    "music_difficulty_id": 3937,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 99,
+      "hold": 7,
+      "slide": 12,
+      "flick": 5,
+      "ex_tap": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 521
+   },
+   "source": {
+    "music_difficulty_id": 3938,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 201,
+      "slide": 38,
+      "ex_tap": 31,
+      "flick": 30,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 790
+   },
+   "source": {
+    "music_difficulty_id": 3939,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 338,
+      "slide": 86,
+      "ex_tap": 19,
+      "flick": 62,
+      "other": 10,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 854
+   },
+   "source": {
+    "music_difficulty_id": 3940,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 483,
+      "ex_tap": 71,
+      "hold": 5,
+      "other": 8,
+      "flick": 53,
+      "slide": 64
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 788,
+   "assetbundle": "jacket_s_788",
+   "seq": 2768401
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_788.png",
+   "sha256": "647844272209dec57f70753c95c2eb9ae52473410b48c04d224969b473fcfdbf",
+   "width": 320,
+   "height": 320,
+   "bytes": 42101
+  }
+ },
+ "extra": {
+  "pronunciation": "あんちさいのう",
+  "lyricist": "syudou",
+  "composer": "syudou",
+  "arranger": "syudou",
+  "published_at": 1787829300000,
+  "released_at": 1787756400000,
+  "tags": [
+   "idol",
+   "other",
+   "school_refusal",
+   "street",
+   "theme_park",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0788_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "桃井愛莉",
+     "東雲彰人",
+     "草薙寧々",
+     "東雲絵名",
+     "MEIKO"
+    ],
+    "asset": "se_0788_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 209.0
+ }
+}

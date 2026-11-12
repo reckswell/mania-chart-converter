@@ -1,0 +1,215 @@
+{
+ "game": "sekai",
+ "song_id": "13",
+ "title": "Nostalogic",
+ "artist": "yuukiss",
+ "title_romaji": "Nostalogic",
+ "artist_romaji": "yuukiss",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "140",
+ "version": "",
+ "date_added": "2019-06-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 134
+   },
+   "source": {
+    "music_difficulty_id": 61,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 3,
+      "tap": 58,
+      "hold": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 381
+   },
+   "source": {
+    "music_difficulty_id": 62,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 6,
+      "tap": 212,
+      "flick": 6,
+      "slide": 16,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 462
+   },
+   "source": {
+    "music_difficulty_id": 63,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 14,
+      "tap": 241,
+      "flick": 13,
+      "slide": 32,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 719
+   },
+   "source": {
+    "music_difficulty_id": 64,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 19,
+      "tap": 450,
+      "flick": 17,
+      "hold": 16,
+      "slide": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 985
+   },
+   "source": {
+    "music_difficulty_id": 65,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 28,
+      "tap": 514,
+      "hold": 18,
+      "flick": 49,
+      "slide": 67
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 13,
+   "assetbundle": "jacket_s_013",
+   "seq": 1300102
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_013.png",
+   "sha256": "5959cbe61eb773a0ef72dd7c41f2a42b6e7f93410c88d634fc33b0fe00b570f2",
+   "width": 320,
+   "height": 320,
+   "bytes": 30132
+  }
+ },
+ "extra": {
+  "pronunciation": "のすたろじっく",
+  "lyricist": "yuukiss",
+  "composer": "yuukiss",
+  "arranger": "-",
+  "published_at": 1560148031000,
+  "released_at": 1267369200000,
+  "tags": [
+   "idol",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "MEIKO"
+    ],
+    "asset": "0013_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "MEIKO",
+     "桐谷遥",
+     "日野森雫"
+    ],
+    "asset": "0013_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "桐谷遥"
+    ],
+    "asset": "an_0013_02"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "日野森雫"
+    ],
+    "asset": "an_0013_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 140.0
+ }
+}

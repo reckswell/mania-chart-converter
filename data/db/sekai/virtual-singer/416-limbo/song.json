@@ -1,0 +1,193 @@
+{
+ "game": "sekai",
+ "song_id": "416",
+ "title": "limbo",
+ "artist": "椎乃味醂",
+ "title_romaji": "limbo",
+ "artist_romaji": "shiinomirin",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "199",
+ "version": "",
+ "date_added": "2024-02-16",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 295
+   },
+   "source": {
+    "music_difficulty_id": 2076,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 15,
+      "ex_tap": 6,
+      "tap": 65,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 384
+   },
+   "source": {
+    "music_difficulty_id": 2077,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 4,
+      "other": 5,
+      "tap": 138,
+      "ex_tap": 14,
+      "slide": 11,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 608
+   },
+   "source": {
+    "music_difficulty_id": 2078,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 18,
+      "other": 9,
+      "tap": 268,
+      "flick": 17,
+      "hold": 4,
+      "ex_tap": 58
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 900
+   },
+   "source": {
+    "music_difficulty_id": 2079,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 29,
+      "tap": 391,
+      "ex_tap": 80,
+      "flick": 21,
+      "hold": 19,
+      "other": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 958
+   },
+   "source": {
+    "music_difficulty_id": 2080,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 27,
+      "tap": 735,
+      "slide": 5,
+      "ex_tap": 80,
+      "flick": 39,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 416,
+   "assetbundle": "jacket_s_416",
+   "seq": 2137601
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_416.png",
+   "sha256": "b3d49d2671c827144bc71b58760dae8fe1f784f66a114d34efe337a672e9940a",
+   "width": 320,
+   "height": 320,
+   "bytes": 25628
+  }
+ },
+ "extra": {
+  "pronunciation": "りんぼ",
+  "lyricist": "椎乃味醂",
+  "composer": "椎乃味醂",
+  "arranger": "椎乃味醂",
+  "published_at": 1708063200000,
+  "released_at": 1685718000000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0416_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 199.0
+ }
+}

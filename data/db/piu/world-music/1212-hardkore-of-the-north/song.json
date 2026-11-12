@@ -1,0 +1,316 @@
+{
+ "game": "piu",
+ "song_id": "1212",
+ "title": "Hardkore of the North",
+ "artist": "Diclonius Kid",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "WORLD MUSIC",
+ "bpm": "190",
+ "version": "Fiesta EX",
+ "date_added": "",
+ "charts": {
+  "single-4": {
+   "slot": "single-4",
+   "native": "S4",
+   "level": "4",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 182
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1575,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S4",
+     "meter": "4",
+     "active": true,
+     "credit": "HP",
+     "combo": 182,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 183,
+      "hold": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-7": {
+   "slot": "single-7",
+   "native": "S7",
+   "level": "7",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 547
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1576,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S7",
+     "meter": "7",
+     "active": true,
+     "credit": "HP",
+     "combo": 547,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 82,
+      "tap": 309
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-12": {
+   "slot": "single-12",
+   "native": "S12",
+   "level": "12",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 757
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1577,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S12",
+     "meter": "12",
+     "active": true,
+     "credit": "HP",
+     "combo": 757,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 66,
+      "tap": 474
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-18": {
+   "slot": "single-18",
+   "native": "S18",
+   "level": "18",
+   "constant": null,
+   "designer": "SUNNY",
+   "note_counts": {
+    "combo": 926
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6754,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 8,
+     "steps_type": "pump-single",
+     "description": "S18",
+     "meter": "18",
+     "active": true,
+     "credit": "SUNNY",
+     "combo": 926,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 90,
+      "tap": 540
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "36 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-22": {
+   "slot": "single-22",
+   "native": "S22",
+   "level": "22",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1257
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1578,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 9,
+     "steps_type": "pump-single",
+     "description": "S22",
+     "meter": "22",
+     "active": true,
+     "credit": "EXC",
+     "combo": 1257,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 650,
+      "hold": 142
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "double-16": {
+   "slot": "double-16",
+   "native": "D16",
+   "level": "16",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 764
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1573,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 14,
+     "steps_type": "pump-double",
+     "description": "D15",
+     "meter": "15",
+     "active": false,
+     "credit": "HP",
+     "combo": 764,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 70,
+      "tap": 458
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "simfile meter 15 differs from the PHOENIX 2 level 16: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version; the simfile does not mark this chart ACTIVE (description 'D15')",
+   "assets": {}
+  },
+  "double-22": {
+   "slot": "double-22",
+   "native": "D22",
+   "level": "22",
+   "constant": null,
+   "designer": "EXC",
+   "note_counts": {
+    "combo": 1240
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1574,
+     "mode": "D",
+     "labels": [
+      "UPDATED"
+     ]
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 15,
+     "steps_type": "pump-double",
+     "description": "D22",
+     "meter": "22",
+     "active": true,
+     "credit": "EXC",
+     "combo": 1240,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 666,
+      "hold": 140,
+      "other": 102
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 269,
+   "game_id": "1212",
+   "card": "/img/card/128.png",
+   "first": "Fiesta EX v1.50",
+   "title": "Hardkore of the North"
+  },
+  "kalinathalie": {
+   "slug": "hardkore_of_the_north"
+  },
+  "simfile": {
+   "path": "10 - FIESTA 2/(2) 1212 - HardKore of The North/1212 - Hardkore of the North.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/10%20-%20FIESTA%202/%282%29%201212%20-%20HardKore%20of%20The%20North/1212%20-%20Hardkore%20of%20the%20North.ssc",
+   "id": "1212",
+   "title": "Hardkore of the North",
+   "artist": "Diclonius Kid"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/hardkore_of_the_north.jpg",
+   "sha256": "229f4a2d479711e16a10591eb84bc5253734dcb148891b2615f49d61f582e521",
+   "width": 256,
+   "height": 256,
+   "bytes": 27957
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "하드코어 오브 더 노스"
+  },
+  "simfile_notes": [
+   "D16: simfile chart 'D15' has meter 15 (re-rated)"
+  ]
+ }
+}

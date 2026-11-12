@@ -1,0 +1,208 @@
+{
+ "game": "arcaea",
+ "song_id": "infinitestrife",
+ "title": "Infinite Strife,",
+ "artist": "BlackYooh vs. siromaru",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Final Verdict",
+ "bpm": "198",
+ "version": "4.0",
+ "date_added": "2022-07-07",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "4",
+   "constant": 4.0,
+   "designer": "Inner Labyrinth",
+   "note_counts": {
+    "combo": 888
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "Enji"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/infinitestrife/infinitestrife_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 185,
+      "hold": 46,
+      "tap": 160,
+      "other": 2,
+      "air": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "7",
+   "constant": 7.5,
+   "designer": "Inner Labyrinth",
+   "note_counts": {
+    "combo": 1081
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "Enji"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/infinitestrife/infinitestrife_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 174,
+      "tap": 326,
+      "other": 223,
+      "air": 134,
+      "hold": 40
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "9+",
+   "constant": 9.9,
+   "designer": "Inner Labyrinth",
+   "note_counts": {
+    "combo": 1511
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "Enji"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/infinitestrife/infinitestrife_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "other": 753,
+      "air_hold": 274,
+      "tap": 538,
+      "air": 380,
+      "hold": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "BEYOND",
+   "level": "10+",
+   "constant": 10.9,
+   "designer": "Inner Labyrinth",
+   "note_counts": {
+    "combo": 1633
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "Enji",
+     "world_unlock": false,
+     "hidden_until": "none"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/infinitestrife/infinitestrife_3.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "other": 810,
+      "air_hold": 345,
+      "tap": 566,
+      "air": 498,
+      "hold": 45
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 276,
+   "set": "finale"
+  },
+  "matty": {
+   "jacket": "0105",
+   "title": "Infinite Strife,"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/0105.png",
+   "sha256": "9d1fb1cf5368752f1d067d96c309f1b0530610b6ef603c3797857c4e216975f1",
+   "width": 320,
+   "height": 320,
+   "bytes": 39199
+  }
+ },
+ "extra": {
+  "pack": "finale",
+  "pack_name": "Final Verdict",
+  "songlist": {
+   "idx": 276,
+   "search_title": {
+    "ja": [
+     "いんふぃにっとすとらいふ"
+    ],
+    "ko": [
+     "인피니트 스트라이프"
+    ]
+   },
+   "search_artist": {
+    "ja": [
+     "ぶらっきー",
+     "ゆー",
+     "しろまる"
+    ],
+    "ko": [
+     "블랙유",
+     "시로마루"
+    ]
+   },
+   "bpm_base": 198,
+   "purchase": "finale",
+   "audioPreview": 0,
+   "audioPreviewEnd": 0,
+   "side": 1,
+   "bg": "finale_conflict",
+   "bg_inverse": "finale_light",
+   "remote_dl": true,
+   "world_unlock": false,
+   "byd_local_unlock": true,
+   "additional_files": [
+    {
+     "file_name": "video.mp4",
+     "requirement": "required"
+    },
+    {
+     "file_name": "video_audio.ogg",
+     "requirement": "required"
+    }
+   ]
+  },
+  "length_s": 169
+ }
+}

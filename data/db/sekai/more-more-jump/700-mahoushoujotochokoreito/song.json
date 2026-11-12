@@ -1,0 +1,213 @@
+{
+ "game": "sekai",
+ "song_id": "700",
+ "title": "魔法少女とチョコレゐト",
+ "artist": "ピノキオピー",
+ "title_romaji": "mahoushoujotochokoreito",
+ "artist_romaji": "pinokiopii",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "150",
+ "version": "",
+ "date_added": "2026-01-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 277
+   },
+   "source": {
+    "music_difficulty_id": 3496,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 7,
+      "hold": 14,
+      "tap": 36,
+      "slide": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 349
+   },
+   "source": {
+    "music_difficulty_id": 3497,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 16,
+      "tap": 114,
+      "ex_tap": 31,
+      "hold": 10,
+      "flick": 14,
+      "other": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 608
+   },
+   "source": {
+    "music_difficulty_id": 3498,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 168,
+      "slide": 45,
+      "ex_tap": 68,
+      "flick": 44,
+      "hold": 15,
+      "other": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 797
+   },
+   "source": {
+    "music_difficulty_id": 3499,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 260,
+      "other": 7,
+      "slide": 48,
+      "hold": 28,
+      "flick": 88,
+      "ex_tap": 147
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "30",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 930
+   },
+   "source": {
+    "music_difficulty_id": 3500,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 245,
+      "hold": 50,
+      "slide": 117,
+      "ex_tap": 159,
+      "flick": 129,
+      "other": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 700,
+   "assetbundle": "jacket_s_700",
+   "seq": 1359301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_700.png",
+   "sha256": "7d8420ced86804a6beade4e1f7169dc1b437185a47ab60d58dd5deb1de252f24",
+   "width": 320,
+   "height": 320,
+   "bytes": 35053
+  }
+ },
+ "extra": {
+  "pronunciation": "まほうしょうじょとちょこれいと",
+  "lyricist": "ピノキオピー",
+  "composer": "ピノキオピー",
+  "arranger": "ピノキオピー",
+  "published_at": 1767247200000,
+  "released_at": 1645714800000,
+  "tags": [
+   "idol"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0700_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "花里みのり",
+     "桐谷遥",
+     "桃井愛莉",
+     "日野森雫"
+    ],
+    "asset": "se_0700_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "桐谷遥"
+    ],
+    "asset": "an_0700_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 150.0
+ }
+}

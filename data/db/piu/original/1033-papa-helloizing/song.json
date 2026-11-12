@@ -1,0 +1,124 @@
+{
+ "game": "piu",
+ "song_id": "1033",
+ "title": "PaPa helloizing",
+ "artist": "BanYa Production",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "145-158",
+ "version": "Fiesta",
+ "date_added": "",
+ "charts": {
+  "single-10": {
+   "slot": "single-10",
+   "native": "S10",
+   "level": "10",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 549
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 899,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S10",
+     "meter": "10",
+     "active": true,
+     "credit": "BPM",
+     "combo": 549,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 478,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-19": {
+   "slot": "single-19",
+   "native": "S19",
+   "level": "19",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 1163
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 900,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S19",
+     "meter": "19",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1163,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 961,
+      "hold": 44
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 142,
+   "game_id": "1033",
+   "card": "/img/card/58.png",
+   "first": "Fiesta v1.01",
+   "title": "PaPa helloizing"
+  },
+  "kalinathalie": {
+   "slug": "papa_helloizing"
+  },
+  "simfile": {
+   "path": "08 - FIESTA/1033 - [Remix] Papa Helloizing/1033 - [Remix] Papa Helloizing.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/08%20-%20FIESTA/1033%20-%20%5BRemix%5D%20Papa%20Helloizing/1033%20-%20%5BRemix%5D%20Papa%20Helloizing.ssc",
+   "id": "1033",
+   "title": "PaPa helloizing",
+   "artist": "Banya Production"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/papa_helloizing.jpg",
+   "sha256": "058306deb349eb7c79dc6834631b104935b59922b3dabc55e33107b0f87295ea",
+   "width": 256,
+   "height": 256,
+   "bytes": 17328
+  }
+ },
+ "extra": {
+  "cut": "Remix",
+  "titles": {
+   "kr": "파파 헬로이징"
+  }
+ }
+}

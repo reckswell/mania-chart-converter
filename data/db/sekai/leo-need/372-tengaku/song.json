@@ -1,0 +1,209 @@
+{
+ "game": "sekai",
+ "song_id": "372",
+ "title": "天樂",
+ "artist": "ゆうゆ",
+ "title_romaji": "tengaku",
+ "artist_romaji": "yuuyu",
+ "genre": "Leo/need",
+ "bpm": "232",
+ "version": "",
+ "date_added": "2023-10-02",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 532
+   },
+   "source": {
+    "music_difficulty_id": 1856,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 7,
+      "tap": 79,
+      "hold": 15,
+      "ex_tap": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 642
+   },
+   "source": {
+    "music_difficulty_id": 1857,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 12,
+      "tap": 119,
+      "slide": 30,
+      "flick": 5,
+      "ex_tap": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1126
+   },
+   "source": {
+    "music_difficulty_id": 1858,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 213,
+      "flick": 15,
+      "ex_tap": 13,
+      "slide": 80,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1396
+   },
+   "source": {
+    "music_difficulty_id": 1859,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 435,
+      "flick": 70,
+      "slide": 111,
+      "hold": 32,
+      "ex_tap": 36,
+      "other": 4
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1554
+   },
+   "source": {
+    "music_difficulty_id": 1860,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 54,
+      "tap": 370,
+      "flick": 143,
+      "slide": 168,
+      "ex_tap": 57,
+      "other": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 372,
+   "assetbundle": "jacket_s_372",
+   "seq": 1232501
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_372.png",
+   "sha256": "53eccf886b8077b205fa692b7b842d8ee2211f6c56625bbe507c982703e89f55",
+   "width": 320,
+   "height": 320,
+   "bytes": 23814
+  }
+ },
+ "extra": {
+  "pronunciation": "てんがく",
+  "lyricist": "ゆうゆ",
+  "composer": "ゆうゆ",
+  "arranger": "ゆうゆ",
+  "published_at": 1696226400000,
+  "released_at": 1250002800000,
+  "tags": [
+   "light_music_club"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音リン"
+    ],
+    "asset": "vs_0372_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音リン",
+     "星乃一歌",
+     "日野森志歩"
+    ],
+    "asset": "se_0372_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "日野森志歩"
+    ],
+    "asset": "an_0372_01"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 232.0
+ }
+}

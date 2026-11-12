@@ -1,0 +1,509 @@
+{
+ "game": "piu",
+ "song_id": "1619",
+ "title": "Iolite Sky",
+ "artist": "Doin",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "90",
+ "version": "XX",
+ "date_added": "",
+ "charts": {
+  "single-7": {
+   "slot": "single-7",
+   "native": "S7",
+   "level": "7",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 422
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6298,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S7",
+     "meter": "7",
+     "active": true,
+     "credit": "WINDFORCE",
+     "combo": 422,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 230,
+      "hold": 60
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-10": {
+   "slot": "single-10",
+   "native": "S10",
+   "level": "10",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 510
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6299,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S10",
+     "meter": "10",
+     "active": true,
+     "credit": "WINDFORCE",
+     "combo": 510,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 300,
+      "hold": 82
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 856
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6300,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": true,
+     "credit": "WINDFORCE",
+     "combo": 856,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 88,
+      "tap": 517
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "50 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-20": {
+   "slot": "single-20",
+   "native": "S20",
+   "level": "20",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 1091
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6301,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S20",
+     "meter": "20",
+     "active": true,
+     "credit": "WINDFORCE",
+     "combo": 1091,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 56,
+      "tap": 688
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "50 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-23": {
+   "slot": "single-23",
+   "native": "S23",
+   "level": "23",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 1247
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6302,
+     "mode": "S"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-single",
+     "description": "S22",
+     "meter": "22",
+     "active": true,
+     "credit": "WINDFORCE",
+     "combo": 1247,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 96,
+      "tap": 835
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "70 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 22 differs from the PHOENIX 2 level 23: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-11": {
+   "slot": "double-11",
+   "native": "D11",
+   "level": "11",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 6303,
+     "mode": "D"
+    },
+    "ladder": "normal"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "double-18": {
+   "slot": "double-18",
+   "native": "D18",
+   "level": "18",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 1000
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6304,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 13,
+     "steps_type": "pump-double",
+     "description": "D20",
+     "meter": "20",
+     "active": true,
+     "credit": "DulKi",
+     "combo": 1000,
+     "match": "near-level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 727,
+      "tap": 334
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "51 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 20 differs from the PHOENIX 2 level 18 and Pumpout never rated the chart 20: paired as the nearest left-over ACTIVE chart, which may be a different chart",
+   "assets": {}
+  },
+  "double-21": {
+   "slot": "double-21",
+   "native": "D21",
+   "level": "21",
+   "constant": null,
+   "designer": "DulKi",
+   "note_counts": {
+    "combo": 1012
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 7665,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 9,
+     "steps_type": "pump-double",
+     "description": "D21",
+     "meter": "21",
+     "active": true,
+     "credit": "WINDFORCE",
+     "combo": 1012,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 67,
+      "tap": 688
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "50 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-22": {
+   "slot": "double-22",
+   "native": "D22",
+   "level": "22",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 6608,
+     "mode": "D"
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "double-24": {
+   "slot": "double-24",
+   "native": "D24",
+   "level": "24",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 1287
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 6305,
+     "mode": "D",
+     "labels": [
+      "UPDATED"
+     ]
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 11,
+     "steps_type": "pump-double",
+     "description": "D24",
+     "meter": "24",
+     "active": true,
+     "credit": "WINDFORCE",
+     "combo": 1287,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 77,
+      "tap": 883
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "70 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "halfdouble-11": {
+   "slot": "halfdouble-11",
+   "native": "HDB11",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 518
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 8696,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 7,
+     "steps_type": "pump-halfdouble",
+     "description": "D11",
+     "meter": "11",
+     "active": true,
+     "credit": "WINDFORCE",
+     "combo": 518,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 305,
+      "hold": 81
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-17": {
+   "slot": "halfdouble-17",
+   "native": "HDB17",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1000
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 8697,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 8,
+     "steps_type": "pump-halfdouble",
+     "description": "D18",
+     "meter": "18",
+     "active": true,
+     "credit": "WINDFORCE",
+     "combo": 1000,
+     "match": "near-level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 87,
+      "tap": 542
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "50 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 18 differs from the PHOENIX 2 level 17 and Pumpout never rated the chart 18: paired as the nearest left-over ACTIVE chart, which may be a different chart",
+   "assets": {}
+  },
+  "halfdouble-21": {
+   "slot": "halfdouble-21",
+   "native": "HDB21",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8698,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-23": {
+   "slot": "halfdouble-23",
+   "native": "HDB23",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 8699,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 837,
+   "game_id": "1619",
+   "card": "/img/card/1619.png",
+   "first": "XX v2.03.0",
+   "title": "Iolite Sky"
+  },
+  "kalinathalie": {
+   "slug": "iolite_sky"
+  },
+  "simfile": {
+   "path": "14 - XX/1619 - Iolite Sky/1619 - Iolite Sky.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/14%20-%20XX/1619%20-%20Iolite%20Sky/1619%20-%20Iolite%20Sky.ssc",
+   "id": "1619",
+   "title": "Iolite Sky",
+   "artist": "Doin"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/iolite_sky.jpg",
+   "sha256": "33179be66672610f01a0d03d9564814bfd1548a29db3dc3eddd9036134a2d38d",
+   "width": 256,
+   "height": 256,
+   "bytes": 20963
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "simfile_notes": [
+   "S23: simfile chart 'S22' has meter 22 (re-rated)",
+   "D18: simfile chart 'D20' has meter 20 (near-level)",
+   "HDB17: simfile chart 'D18' has meter 18 (near-level)"
+  ]
+ }
+}

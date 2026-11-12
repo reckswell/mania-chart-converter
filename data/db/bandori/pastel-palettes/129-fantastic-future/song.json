@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "129",
+ "title": "Fantastic future",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "172",
+ "version": "",
+ "date_added": "2018-06-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 182
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 182
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 116,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 259
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 259
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 159,
+      "hold": 50
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 454
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/129/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/129/hard.json",
+     "raw_sha256": "1a8c50a58e10be0e96e6e23e2497ed64212221fbc0923df5b42331cf32253c05"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 454
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 70,
+      "tap": 266,
+      "flick": 24,
+      "slide": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 710
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/129/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/129/expert.json",
+     "raw_sha256": "c6ee3bc05f3e53a92086eba13f8867c63b3f59d5a8a15e942d54c021cbd088f2"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 710
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 45,
+      "tap": 455,
+      "flick": 42,
+      "slide": 38
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 129,
+   "bandId": 4,
+   "jacketImage": "129_fantastic_future",
+   "bgmId": "bgm129"
+  },
+  "maa": {
+   "bestdori_song_id": 129,
+   "jacket": {
+    "path": "bestdori/129/jacket-cn-1.png",
+    "server": "cn",
+    "name": "129_fantastic_future"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/129/jacket-cn-1.png",
+   "sha256": "973da0e087e67ab6c52594718446dd43fc96e07d149e3a083cd6a92d5be3a875",
+   "width": 320,
+   "height": 320,
+   "bytes": 30673
+  }
+ },
+ "extra": {
+  "lyricist": "畑亜貴",
+  "composer": "太田雅友",
+  "arranger": "竹田祐介（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1528610400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "fantasticfuture",
+  "length_s": 112.392
+ }
+}

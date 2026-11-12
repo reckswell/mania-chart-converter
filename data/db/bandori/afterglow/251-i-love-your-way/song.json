@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "251",
+ "title": "I love your way！",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "128-130",
+ "version": "",
+ "date_added": "2020-02-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 164
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 164
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 45,
+      "tap": 74
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 263
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 263
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 69,
+      "tap": 125
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 564
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/251/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/251/hard.json",
+     "raw_sha256": "18a827c0135118fcb2b242652b8248852fb98a69c91bad974cb421d2ffa42e5a"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 564
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 191,
+      "hold": 112,
+      "slide": 53,
+      "flick": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 806
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/251/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/251/expert.json",
+     "raw_sha256": "ef3907cd1ac1caf44b0164415c4aa319154e39bd246f0d7c10e7bf0d85716bc2"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 806
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 405,
+      "hold": 106,
+      "slide": 62,
+      "flick": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 251,
+   "bandId": 2,
+   "jacketImage": "251_i_love_your_way",
+   "bgmId": "bgm251"
+  },
+  "maa": {
+   "bestdori_song_id": 251,
+   "jacket": {
+    "path": "bestdori/251/jacket-cn-1.png",
+    "server": "cn",
+    "name": "251_i_love_your_way"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/251/jacket-cn-1.png",
+   "sha256": "beac168c531e51e36e18a0452eddaef7a0a1a507314cc86fb9394556e96705bd",
+   "width": 320,
+   "height": 320,
+   "bytes": 28544
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "菊田大介（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1582956000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "iloveyourway",
+  "title_en": "I love your way!",
+  "length_s": 99.744
+ }
+}

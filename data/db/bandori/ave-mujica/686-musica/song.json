@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "686",
+ "title": "天球(そら)のMúsica",
+ "artist": "Ave Mujica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Ave Mujica",
+ "bpm": "184-196",
+ "version": "",
+ "date_added": "2025-04-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 110
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 110
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 48,
+      "hold": 31
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 243
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 243
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 125,
+      "hold": 57,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 432
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/686/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/686/hard.json",
+     "raw_sha256": "a984584669a6e3dadd2c2832d26158513b2120c7f469dfe4ae59e263d7e939ed"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 432
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 244,
+      "hold": 41,
+      "slide": 30,
+      "flick": 21
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 804
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/686/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/686/expert.json",
+     "raw_sha256": "a6d4c81cad9eb3ab11cee7abec0486b9ccc59ae25897f1b887482da2532efce0"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 804
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 71,
+      "tap": 515,
+      "slide": 40,
+      "flick": 29
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 686,
+   "bandId": 46,
+   "jacketImage": "686_sora_no_mujica",
+   "bgmId": "bgm686"
+  },
+  "maa": {
+   "bestdori_song_id": 686,
+   "jacket": {
+    "path": "bestdori/686/jacket-cn-1.png",
+    "server": "cn",
+    "name": "686_sora_no_mujica"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/686/jacket-cn-1.png",
+   "sha256": "7292b29f655e5c259d49219d92ab81e5672db16cf83507349d6cfa39e90b1a38",
+   "width": 320,
+   "height": 320,
+   "bytes": 36889
+  }
+ },
+ "extra": {
+  "lyricist": "Diggy-MO’",
+  "composer": "高橋涼(SUPA LOVE)、Diggy-MO’",
+  "arranger": "高橋涼(SUPA LOVE)",
+  "tag": "normal",
+  "published_at": 1743487200000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "そらのmusica",
+  "title_en": "Musica Caelestis",
+  "length_s": 134.808
+ }
+}

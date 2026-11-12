@@ -1,0 +1,164 @@
+{
+ "game": "arcaea",
+ "song_id": "journey",
+ "title": "Journey",
+ "artist": "ARForest",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Lanota",
+ "bpm": "200",
+ "version": "1.5",
+ "date_added": "2018-02-01",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "3",
+   "constant": 3.0,
+   "designer": "Kurorak",
+   "note_counts": {
+    "combo": 551
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": ""
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/journey/journey_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "tap": 146,
+      "hold": 22,
+      "air_hold": 81
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "6",
+   "constant": 6.0,
+   "designer": "Kurorak",
+   "note_counts": {
+    "combo": 778
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": ""
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/journey/journey_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "tap": 212,
+      "air_hold": 169,
+      "other": 17,
+      "air": 23,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "9",
+   "constant": 9.1,
+   "designer": "Kurorak",
+   "note_counts": {
+    "combo": 997
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": ""
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/journey/journey_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "hold": 24,
+      "tap": 325,
+      "air_hold": 184,
+      "other": 349,
+      "air": 151
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "4 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 64,
+   "set": "lanota"
+  },
+  "matty": {
+   "jacket": "01ca",
+   "title": "Journey"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/01ca.png",
+   "sha256": "c31f2a57182f40430adaf9f2b362338ca0af75bc950a27271b2ae6cb6f84dd41",
+   "width": 320,
+   "height": 320,
+   "bytes": 26015
+  }
+ },
+ "extra": {
+  "pack": "lanota",
+  "pack_name": "Lanota",
+  "songlist": {
+   "idx": 64,
+   "search_title": {
+    "ja": [
+     "じゃーにー"
+    ],
+    "ko": [
+     "저니",
+     "져니"
+    ]
+   },
+   "search_artist": {
+    "ja": [
+     "えーあーるふぉれすと"
+    ],
+    "ko": [
+     "에이알 포레스트"
+    ]
+   },
+   "bpm_base": 200,
+   "purchase": "lanota",
+   "audioPreview": 76800,
+   "audioPreviewEnd": 96000,
+   "side": 0,
+   "bg": "lanota-light",
+   "bg_inverse": "lanota-conflict",
+   "remote_dl": true,
+   "source_localized": {
+    "en": "Lanota"
+   },
+   "source_copyright": "",
+   "no_stream": true
+  },
+  "length_s": 134
+ }
+}

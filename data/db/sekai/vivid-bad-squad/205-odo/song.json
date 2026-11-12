@@ -1,0 +1,216 @@
+{
+ "game": "sekai",
+ "song_id": "205",
+ "title": "踊",
+ "artist": "Ado×Giga、TeddyLoid & DECO*27",
+ "title_romaji": "odo",
+ "artist_romaji": "ado giga tediroido dekoniina",
+ "genre": "Vivid BAD SQUAD",
+ "bpm": "128",
+ "version": "",
+ "date_added": "2022-02-04",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 242
+   },
+   "source": {
+    "music_difficulty_id": 1021,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 61,
+      "hold": 15,
+      "slide": 2,
+      "ex_tap": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 409
+   },
+   "source": {
+    "music_difficulty_id": 1022,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 167,
+      "slide": 28,
+      "flick": 10,
+      "hold": 10,
+      "ex_tap": 8
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 640
+   },
+   "source": {
+    "music_difficulty_id": 1023,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 45,
+      "tap": 289,
+      "flick": 19,
+      "ex_tap": 53,
+      "hold": 5
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 882
+   },
+   "source": {
+    "music_difficulty_id": 1024,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 63,
+      "slide": 67,
+      "tap": 397,
+      "hold": 24,
+      "flick": 59
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1083
+   },
+   "source": {
+    "music_difficulty_id": 1025,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 84,
+      "tap": 618,
+      "flick": 78,
+      "slide": 75,
+      "hold": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 205,
+   "assetbundle": "jacket_s_205",
+   "seq": 1413301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_205.png",
+   "sha256": "4d96b42bc251f565594b0bf236c901f4d36a35937a90ba173e7222944cf50006",
+   "width": 320,
+   "height": 320,
+   "bytes": 39138
+  }
+ },
+ "extra": {
+  "pronunciation": "おど",
+  "lyricist": "DECO*27",
+  "composer": "Giga、TeddyLoid",
+  "arranger": "Giga、TeddyLoid",
+  "published_at": 1643954400000,
+  "released_at": 1619449200000,
+  "tags": [
+   "street",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "鏡音リン",
+     "鏡音レン"
+    ],
+    "asset": "vs_0205_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "小豆沢こはね",
+     "白石杏"
+    ],
+    "asset": "se_0205_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "小豆沢こはね"
+    ],
+    "asset": "an_0205_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "白石杏"
+    ],
+    "asset": "an_0205_02"
+   }
+  ],
+  "filler_sec": 8.52400016784668,
+  "bpm_main": 128.0
+ }
+}

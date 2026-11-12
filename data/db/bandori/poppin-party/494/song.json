@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "494",
+ "title": "ヒロイン育成計画",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "180",
+ "version": "",
+ "date_added": "2023-04-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 113
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 113
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 83,
+      "hold": 15
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 224
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 224
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 192,
+      "hold": 16
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 409
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/494/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/494/hard.json",
+     "raw_sha256": "bb605e10df25ccdb9cbfc722c98993184801ad6f6667c5e0135b6134b5f3be63"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 409
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 294,
+      "hold": 22,
+      "flick": 9,
+      "slide": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 646
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/494/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/494/expert.json",
+     "raw_sha256": "f5e75583ade15f1e179d826dd47082a01c06065e04ac476c99f7667853c1ce6c"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 646
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 480,
+      "slide": 27,
+      "flick": 10,
+      "hold": 32
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 494,
+   "bandId": 1,
+   "jacketImage": "494_heroine_keikaku",
+   "bgmId": "bgm494"
+  },
+  "maa": {
+   "bestdori_song_id": 494,
+   "jacket": {
+    "path": "bestdori/494/jacket-cn-1.png",
+    "server": "cn",
+    "name": "494_heroine_keikaku"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/494/jacket-cn-1.png",
+   "sha256": "7f6c510e90e18fdce7e9d4ea1975b9c49ecb9f4a671f79deec1ab233db628391",
+   "width": 320,
+   "height": 320,
+   "bytes": 27944
+  }
+ },
+ "extra": {
+  "lyricist": "shito、Gom",
+  "composer": "shito",
+  "arranger": "Seonoo Kim（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1682748000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ひろいんいくせいけいかく",
+  "title_en": "Heroine Ikusei Keikaku",
+  "length_s": 95.4
+ }
+}

@@ -1,0 +1,166 @@
+{
+ "game": "piu",
+ "song_id": "E76",
+ "title": "FLY",
+ "artist": "Epik High",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "128",
+ "version": "NX2 / Next Xenesis",
+ "date_added": "",
+ "charts": {
+  "single-10": {
+   "slot": "single-10",
+   "native": "S10",
+   "level": "10",
+   "constant": null,
+   "designer": "AHGOO",
+   "note_counts": {
+    "combo": 812
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2342,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S10",
+     "meter": "10",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 812,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 660,
+      "hold": 51
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'S10')",
+   "assets": {}
+  },
+  "single-15": {
+   "slot": "single-15",
+   "native": "S15",
+   "level": "15",
+   "constant": null,
+   "designer": "AHGOO",
+   "note_counts": {
+    "combo": 1106
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2343,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S15",
+     "meter": "15",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 1106,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 980,
+      "hold": 41
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'S15')",
+   "assets": {}
+  },
+  "double-16": {
+   "slot": "double-16",
+   "native": "D16",
+   "level": "16",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 1063
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2345,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-double",
+     "description": "D16",
+     "meter": "16",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 1063,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 970,
+      "hold": 34
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "the simfile does not mark this chart ACTIVE (description 'D16')",
+   "assets": {}
+  },
+  "double-17": {
+   "slot": "double-17",
+   "native": "D17",
+   "level": "17",
+   "constant": null,
+   "designer": "EHNE",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 2344,
+     "mode": "D"
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 401,
+   "game_id": "E76",
+   "card": "/img/card/E76.png",
+   "first": "NX2 / Next Xenesis default",
+   "title": "FLY"
+  },
+  "simfile": {
+   "path": "05 - NX~NX2/(1) E76 - [Full Song] Fly/E76 - [Full Song] Fly.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/05%20-%20NX~NX2/%281%29%20E76%20-%20%5BFull%20Song%5D%20Fly/E76%20-%20%5BFull%20Song%5D%20Fly.ssc",
+   "id": "E76",
+   "title": "Fly - FULL SONG -",
+   "artist": "Epik High"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Full Song",
+  "removed": true,
+  "removed_in": "Prime v1.00.0",
+  "revived_in": "Fiesta v1.01"
+ }
+}

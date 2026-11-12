@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "383",
+ "title": "CORUSCATE -DNA-",
+ "artist": "RAISE A SUILEN",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "RAISE A SUILEN",
+ "bpm": "148",
+ "version": "",
+ "date_added": "2021-12-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "7",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 138
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 7,
+     "notes": 138
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 114,
+      "hold": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 252
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 252
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 186,
+      "hold": 31,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 498
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/383/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/383/hard.json",
+     "raw_sha256": "937fc57ec1a5516280890a1f09bbc0a8bc5a88f0b1d909d6e528310684cdf650"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 498
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 337,
+      "hold": 35,
+      "slide": 25,
+      "flick": 18
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 888
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/383/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/383/expert.json",
+     "raw_sha256": "e7f323ea8c2fcc33bb0ccda183f645ca5477fa05174f5e60847164f0907542e1"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 888
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 593,
+      "slide": 58,
+      "hold": 49,
+      "flick": 27
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 383,
+   "bandId": 18,
+   "jacketImage": "383_coruscate_dna_1",
+   "bgmId": "bgm383"
+  },
+  "maa": {
+   "bestdori_song_id": 383,
+   "jacket": {
+    "path": "bestdori/383/jacket-cn-2.png",
+    "server": "cn",
+    "name": "383_coruscate_dna_1"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/383/jacket-cn-2.png",
+   "sha256": "314e6ae641053ffb65fc19c0438341aaf5c8947084b5f32eac93d8578effe5da",
+   "width": 320,
+   "height": 320,
+   "bytes": 33920
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "上松範康（Elements Garden）",
+  "arranger": "菊田大介（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1640066400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "coruscatedna",
+  "length_s": 118.44
+ }
+}

@@ -1,0 +1,211 @@
+{
+ "game": "bandori",
+ "song_id": "401",
+ "title": "月光花",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "102",
+ "version": "",
+ "date_added": "2022-02-28",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 162
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 162
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 48,
+      "tap": 66
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 275
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 275
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 81,
+      "tap": 113
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 382
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/401/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/401/hard.json",
+     "raw_sha256": "02359daadabf34143d6ece205d0ce95197602e678569f56a891a59d27c10e58e"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 382
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 82,
+      "tap": 204,
+      "flick": 6,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 524
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/401/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/401/expert.json",
+     "raw_sha256": "7890836b9a70bfa17764e6554192c6c20ab415f45becde23e4bd2edc8564e8cb"
+    },
+    "bestdori": {
+     "level": 24,
+     "notes": 524
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 82,
+      "tap": 344,
+      "flick": 8,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 474
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1672898400000,
+    "maa": {
+     "path": "bestdori/401/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/401/special.json",
+     "raw_sha256": "77926975b9dc18c3d33de46276731785e15abb7b3e407676671ef8ecedbfb3b4"
+    },
+    "bestdori": {
+     "level": 23,
+     "notes": 474
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 252,
+      "hold": 8,
+      "slide": 62,
+      "flick": 38
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 401,
+   "bandId": 21,
+   "jacketImage": "401_gekkouka",
+   "bgmId": "bgm401"
+  },
+  "maa": {
+   "bestdori_song_id": 401,
+   "jacket": {
+    "path": "bestdori/401/jacket-cn-1.png",
+    "server": "cn",
+    "name": "401_gekkouka"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/401/jacket-cn-1.png",
+   "sha256": "3182c768534142430a95f2eeb128b1d930259072e3a56cec5cf77daebe6bcbf6",
+   "width": 320,
+   "height": 320,
+   "bytes": 17678
+  }
+ },
+ "extra": {
+  "lyricist": "yasu",
+  "composer": "yasu",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1646028000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "げっこうか",
+  "title_en": "Gekkouka",
+  "length_s": 103.584
+ }
+}

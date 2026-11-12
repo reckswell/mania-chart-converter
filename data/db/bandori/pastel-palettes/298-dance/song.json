@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "298",
+ "title": "DANCE! おジャ魔女",
+ "artist": "Pastel＊Palettes",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Pastel＊Palettes",
+ "bpm": "152",
+ "version": "",
+ "date_added": "2020-10-31",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 138
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 138
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 90,
+      "hold": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 225
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 225
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 165,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 336
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/298/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/298/hard.json",
+     "raw_sha256": "707905c0454f39b65bfb55cc1f538da49211143d57dcf8cd2ef852ea534a6627"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 336
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 250,
+      "hold": 24,
+      "flick": 16,
+      "slide": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 546
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/298/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/298/expert.json",
+     "raw_sha256": "841f27cb59031cfe2df1134f77f93a053929ed54ab9d8578ea4fea55ff31844a"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 546
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 325,
+      "flick": 31,
+      "hold": 40,
+      "slide": 47
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 298,
+   "bandId": 4,
+   "jacketImage": "298_dance_ojamajo",
+   "bgmId": "bgm298"
+  },
+  "maa": {
+   "bestdori_song_id": 298,
+   "jacket": {
+    "path": "bestdori/298/jacket-cn-1.png",
+    "server": "cn",
+    "name": "298_dance_ojamajo"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/298/jacket-cn-1.png",
+   "sha256": "b20fc90936f42efba2220e8488a2d424a8d5aa664a6ba504364dd86bb0aabc59",
+   "width": 320,
+   "height": 320,
+   "bytes": 28418
+  }
+ },
+ "extra": {
+  "lyricist": "もりちよこ",
+  "composer": "小杉保夫",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1604124000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "danceおじゃまじょ",
+  "title_en": "DANCE! Ojamajo",
+  "length_s": 95.592
+ }
+}

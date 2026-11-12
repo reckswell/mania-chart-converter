@@ -1,0 +1,239 @@
+{
+ "game": "sekai",
+ "song_id": "432",
+ "title": "強風オールバック",
+ "artist": "ゆこぴ",
+ "title_romaji": "kyoufuuoorubakku",
+ "artist_romaji": "yukopi",
+ "genre": "ワンダーランズ×ショウタイム",
+ "bpm": "135",
+ "version": "",
+ "date_added": "2024-01-01",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 155
+   },
+   "source": {
+    "music_difficulty_id": 2156,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 9,
+      "tap": 80,
+      "hold": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 361
+   },
+   "source": {
+    "music_difficulty_id": 2157,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 2,
+      "tap": 202,
+      "hold": 4,
+      "slide": 15,
+      "ex_tap": 22
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 15",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "17",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 478
+   },
+   "source": {
+    "music_difficulty_id": 2158,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 26,
+      "tap": 304,
+      "ex_tap": 68,
+      "slide": 12,
+      "hold": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "24",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 714
+   },
+   "source": {
+    "music_difficulty_id": 2159,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 28,
+      "flick": 57,
+      "tap": 314,
+      "slide": 49,
+      "ex_tap": 81,
+      "other": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 955
+   },
+   "source": {
+    "music_difficulty_id": 2160,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 155,
+      "flick": 111,
+      "tap": 422,
+      "hold": 25,
+      "ex_tap": 43,
+      "other": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 432,
+   "assetbundle": "jacket_s_432",
+   "seq": 1535701
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_432.png",
+   "sha256": "456112794e3fd08b0b5ac88371793503b76468b8d10abf25519ea2d168cf3cab",
+   "width": 320,
+   "height": 320,
+   "bytes": 23442
+  }
+ },
+ "extra": {
+  "pronunciation": "きょうふうおーるばっく",
+  "lyricist": "ゆこぴ",
+  "composer": "ゆこぴ",
+  "arranger": "ゆこぴ",
+  "published_at": 1704088800000,
+  "released_at": 1678806000000,
+  "tags": [
+   "theme_park"
+  ],
+  "vocals": [
+   {
+    "type": "virtual_singer",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "歌愛ユキ"
+    ],
+    "asset": "vs_0432_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "鏡音リン",
+     "天馬司",
+     "鳳えむ",
+     "草薙寧々",
+     "神代類"
+    ],
+    "asset": "se_0432_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鳳えむ"
+    ],
+    "asset": "an_0432_03"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鏡音リン"
+    ],
+    "asset": "an_0432_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "鏡音レン"
+    ],
+    "asset": "an_0432_02"
+   },
+   {
+    "type": "april_fool_2022",
+    "caption": "エイプリルフールver.",
+    "singers": [
+     "初音ミク",
+     "巡音ルカ",
+     "星乃一歌",
+     "天馬咲希",
+     "望月穂波",
+     "日野森志歩"
+    ],
+    "asset": "af_0432_01"
+   }
+  ],
+  "filler_sec": 7.6666998863220215,
+  "bpm_main": 135.0
+ }
+}

@@ -1,0 +1,149 @@
+{
+ "game": "piu",
+ "song_id": "13A3",
+ "title": "What Are You Doin?",
+ "artist": "Doin, MAX",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "200",
+ "version": "Fiesta 2",
+ "date_added": "",
+ "charts": {
+  "single-18": {
+   "slot": "single-18",
+   "native": "S18",
+   "level": "18",
+   "constant": null,
+   "designer": "SANDSTORM",
+   "note_counts": {
+    "combo": 1455
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1515,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S18",
+     "meter": "18",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1455,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 148,
+      "tap": 769
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "17 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-23": {
+   "slot": "double-23",
+   "native": "D23",
+   "level": "23",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 1700
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1516,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-double",
+     "description": "D23",
+     "meter": "23",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1700,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "tap": 1042,
+      "hold": 71
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-22": {
+   "slot": "halfdouble-22",
+   "native": "HDB22",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9051,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "master"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 251,
+   "game_id": "13A3",
+   "card": "/img/card/217.png",
+   "first": "Fiesta 2 v1.00",
+   "title": "What Are You Doin?"
+  },
+  "kalinathalie": {
+   "slug": "what_are_you_doin"
+  },
+  "simfile": {
+   "path": "10 - FIESTA 2/(1) 13A3 - [Remix] What Are You Doin/13A3 - [Remix] What Are You Doin.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/10%20-%20FIESTA%202/%281%29%2013A3%20-%20%5BRemix%5D%20What%20Are%20You%20Doin/13A3%20-%20%5BRemix%5D%20What%20Are%20You%20Doin.ssc",
+   "id": "13A3",
+   "title": "What Are You Doin'?",
+   "artist": "Doin & MAX"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/what_are_you_doin.jpg",
+   "sha256": "33836c173218a3b1e3ecc6c11628fb9b31bafaa2c3f79ac2b23be281fec88e52",
+   "width": 256,
+   "height": 256,
+   "bytes": 15914
+  }
+ },
+ "extra": {
+  "cut": "Remix",
+  "titles": {
+   "kr": "와라유도인?"
+  },
+  "artists": [
+   "Doin",
+   "MAX"
+  ]
+ }
+}

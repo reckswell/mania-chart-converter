@@ -1,0 +1,207 @@
+{
+ "game": "sekai",
+ "song_id": "157",
+ "title": "マシュマリー",
+ "artist": "MIMI",
+ "title_romaji": "mashumarii",
+ "artist_romaji": "MIMI",
+ "genre": "MORE MORE JUMP!",
+ "bpm": "182",
+ "version": "",
+ "date_added": "2021-10-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 328
+   },
+   "source": {
+    "music_difficulty_id": 781,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 54,
+      "hold": 24,
+      "ex_tap": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 469
+   },
+   "source": {
+    "music_difficulty_id": 782,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 13,
+      "tap": 126,
+      "ex_tap": 12,
+      "slide": 20,
+      "flick": 3
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "18",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 848
+   },
+   "source": {
+    "music_difficulty_id": 783,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 376,
+      "slide": 49,
+      "ex_tap": 22,
+      "flick": 15,
+      "hold": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1123
+   },
+   "source": {
+    "music_difficulty_id": 784,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 38,
+      "tap": 570,
+      "flick": 31,
+      "slide": 80,
+      "ex_tap": 36
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "29",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1303
+   },
+   "source": {
+    "music_difficulty_id": 785,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 90,
+      "tap": 715,
+      "flick": 83,
+      "ex_tap": 30,
+      "hold": 30
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 157,
+   "assetbundle": "jacket_s_157",
+   "seq": 1310201
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_157.png",
+   "sha256": "ba9c3b306440ce8cfb17f7d436a2786cf13d2f5c7c131e16bc31b3d118da56df",
+   "width": 320,
+   "height": 320,
+   "bytes": 27883
+  }
+ },
+ "extra": {
+  "pronunciation": "ましゅまりー",
+  "lyricist": "MIMI",
+  "composer": "MIMI",
+  "arranger": "MIMI",
+  "published_at": 1633845600000,
+  "released_at": 1514991600000,
+  "tags": [
+   "idol",
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0157_01"
+   },
+   {
+    "type": "sekai",
+    "caption": "セカイver.",
+    "singers": [
+     "初音ミク",
+     "花里みのり",
+     "桃井愛莉"
+    ],
+    "asset": "se_0157_01"
+   },
+   {
+    "type": "another_vocal",
+    "caption": "アナザーボーカルver.",
+    "singers": [
+     "桃井愛莉"
+    ],
+    "asset": "an_0157_02"
+   }
+  ],
+  "filler_sec": 9.0,
+  "bpm_main": 182.0
+ }
+}

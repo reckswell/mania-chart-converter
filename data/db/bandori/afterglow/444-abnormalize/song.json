@@ -1,0 +1,174 @@
+{
+ "game": "bandori",
+ "song_id": "444",
+ "title": "abnormalize",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "175",
+ "version": "",
+ "date_added": "2022-09-12",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 129
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 129
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 22,
+      "tap": 85
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 212
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 212
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 146,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 531
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/444/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/444/hard.json",
+     "raw_sha256": "648e3c100284e2d6471c09c256ee458c859fb0d720852fdba8db9e05c6988833"
+    },
+    "bestdori": {
+     "level": 21,
+     "notes": 531
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 330,
+      "hold": 37,
+      "slide": 34,
+      "flick": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 864
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/444/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/444/expert.json",
+     "raw_sha256": "10dd1a60bb1df9feb5b1afdfbd1b0e3947c0876889a79b671a9a99427aa8e1de"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 864
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 62,
+      "tap": 531,
+      "hold": 53,
+      "flick": 25
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 444,
+   "bandId": 2,
+   "jacketImage": "444_abnormalize",
+   "bgmId": "bgm444"
+  },
+  "maa": {
+   "bestdori_song_id": 444,
+   "jacket": {
+    "path": "bestdori/444/jacket-cn-1.png",
+    "server": "cn",
+    "name": "444_abnormalize"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/444/jacket-cn-1.png",
+   "sha256": "de29ce46cbba21ad6e0b20d8415c4b51be67d53fb6878d2491e6c1d0c8e3e1e3",
+   "width": 320,
+   "height": 320,
+   "bytes": 26647
+  }
+ },
+ "extra": {
+  "lyricist": "TK",
+  "composer": "TK",
+  "arranger": "下田晃太郎（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1662962400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "abnormalize",
+  "length_s": 117.312
+ }
+}

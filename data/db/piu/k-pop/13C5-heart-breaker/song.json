@@ -1,0 +1,110 @@
+{
+ "game": "piu",
+ "song_id": "13C5",
+ "title": "Heart Breaker",
+ "artist": "G-Dragon",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "135",
+ "version": "Fiesta 2",
+ "date_added": "",
+ "charts": {
+  "single-16": {
+   "slot": "single-16",
+   "native": "S16",
+   "level": "16",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 1525
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1527,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S16",
+     "meter": "16",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 1525,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 179,
+      "tap": 611
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'S16')",
+   "assets": {}
+  },
+  "double-16": {
+   "slot": "double-16",
+   "native": "D16",
+   "level": "16",
+   "constant": null,
+   "designer": "HP",
+   "note_counts": {
+    "combo": 1503
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1528,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-double",
+     "description": "D16",
+     "meter": "16",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 1503,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 174,
+      "tap": 611
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'D16')",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 257,
+   "game_id": "13C5",
+   "card": "/img/card/223.png",
+   "first": "Fiesta 2 v1.60",
+   "title": "Heart Breaker"
+  },
+  "simfile": {
+   "path": "10 - FIESTA 2/(1) 13C5 - [Full Song] Heart Breaker/13C5 - [Full Song] Heart Breaker.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/10%20-%20FIESTA%202/%281%29%2013C5%20-%20%5BFull%20Song%5D%20Heart%20Breaker/13C5%20-%20%5BFull%20Song%5D%20Heart%20Breaker.ssc",
+   "id": "13C5",
+   "title": "Heart Breaker - FULL SONG -",
+   "artist": "G Dragon"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Full Song",
+  "removed": true,
+  "removed_in": "Prime 2 v1.00.0"
+ }
+}

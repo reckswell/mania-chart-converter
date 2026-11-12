@@ -1,0 +1,110 @@
+{
+ "game": "piu",
+ "song_id": "1138",
+ "title": "Shock",
+ "artist": "BEAST",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "K-POP",
+ "bpm": "135",
+ "version": "Fiesta EX",
+ "date_added": "",
+ "charts": {
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "SANDSTORM",
+   "note_counts": {
+    "combo": 1828
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2156,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 0,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 1828,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 148,
+      "tap": 971
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "30 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'S17')",
+   "assets": {}
+  },
+  "double-15": {
+   "slot": "double-15",
+   "native": "D15",
+   "level": "15",
+   "constant": null,
+   "designer": "ANDAMIRO",
+   "note_counts": {
+    "combo": 1297
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 2157,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-double",
+     "description": "D15",
+     "meter": "15",
+     "active": false,
+     "credit": "Andamiro",
+     "combo": 1297,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 93,
+      "tap": 915
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "14 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; the simfile does not mark this chart ACTIVE (description 'D15')",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 367,
+   "game_id": "1138",
+   "card": "/img/card/1138.png",
+   "first": "Fiesta EX v1.00",
+   "title": "Shock"
+  },
+  "simfile": {
+   "path": "09 - FIESTA EX/1138 - [Full Song] Shock/1138 - [Full Song] Shock.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/09%20-%20FIESTA%20EX/1138%20-%20%5BFull%20Song%5D%20Shock/1138%20-%20%5BFull%20Song%5D%20Shock.ssc",
+   "id": "1138",
+   "title": "Shock - FULL SONG -",
+   "artist": "Beast"
+  }
+ },
+ "assets": {},
+ "extra": {
+  "cut": "Full Song",
+  "removed": true,
+  "removed_in": "Prime v1.00.0"
+ }
+}

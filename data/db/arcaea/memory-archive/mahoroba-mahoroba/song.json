@@ -1,0 +1,160 @@
+{
+ "game": "arcaea",
+ "song_id": "mahoroba",
+ "title": "MAHOROBA",
+ "artist": "Zekk",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Memory Archive",
+ "bpm": "195",
+ "version": "3.0",
+ "date_added": "2020-08-07",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "3",
+   "constant": 3.0,
+   "designer": "Nitro",
+   "note_counts": {
+    "combo": 422
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "そゐち"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/mahoroba/mahoroba_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "tap": 122,
+      "hold": 18,
+      "air_hold": 105
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "6",
+   "constant": 6.5,
+   "designer": "Nitro",
+   "note_counts": {
+    "combo": 632
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "そゐち"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/mahoroba/mahoroba_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 145,
+      "tap": 199,
+      "hold": 28,
+      "other": 17,
+      "air": 12
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "9",
+   "constant": 9.5,
+   "designer": "TaroNuke + Nitro",
+   "note_counts": {
+    "combo": 828
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": "そゐち"
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/mahoroba/mahoroba_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "tap": 253,
+      "air_hold": 283,
+      "other": 171,
+      "air": 95,
+      "hold": 76
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "combo 829 computed from the .aff differs from the published note count 828",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 172,
+   "set": "single"
+  },
+  "matty": {
+   "jacket": "0062",
+   "title": "MAHOROBA"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/0062.png",
+   "sha256": "50d15393d91caa8b53701425f835ef70d9e01d461ad76d2c511444a0d7fef6e2",
+   "width": 320,
+   "height": 320,
+   "bytes": 33904
+  }
+ },
+ "extra": {
+  "pack": "single",
+  "pack_name": "Memory Archive",
+  "songlist": {
+   "idx": 172,
+   "search_title": {
+    "ja": [
+     "まほろば"
+    ],
+    "ko": [
+     "마호로바"
+    ]
+   },
+   "search_artist": {
+    "ja": [
+     "ぜっく"
+    ],
+    "ko": [
+     "젝"
+    ]
+   },
+   "bpm_base": 195,
+   "category": "partner",
+   "purchase": "mahoroba",
+   "audioPreview": 0,
+   "audioPreviewEnd": 0,
+   "side": 0,
+   "bg": "rei",
+   "bg_inverse": "yugamu",
+   "remote_dl": true,
+   "world_unlock": false
+  },
+  "length_s": 125
+ }
+}

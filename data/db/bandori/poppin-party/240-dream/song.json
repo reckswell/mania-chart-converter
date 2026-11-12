@@ -1,0 +1,175 @@
+{
+ "game": "bandori",
+ "song_id": "240",
+ "title": "開けたらDream!",
+ "artist": "Poppin'Party",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Poppin'Party",
+ "bpm": "140",
+ "version": "",
+ "date_added": "2020-01-10",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 204
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 204
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 152,
+      "hold": 26
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 334
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 334
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 208,
+      "hold": 63
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 593
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/240/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/240/hard.json",
+     "raw_sha256": "41f35960b26e629ebb81a043ed2400786ac29c5a11fbd17c85ce44e3f342579e"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 593
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 420,
+      "flick": 41,
+      "hold": 52,
+      "slide": 7
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 743
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/240/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/240/expert.json",
+     "raw_sha256": "8174aca78ead780f032b997b1332fbac54344b4fb3b82bc179eb7b31ba71e8d5"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 743
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 517,
+      "flick": 42,
+      "hold": 69,
+      "slide": 13
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 240,
+   "bandId": 1,
+   "jacketImage": "240_aketaradream",
+   "bgmId": "bgm240"
+  },
+  "maa": {
+   "bestdori_song_id": 240,
+   "jacket": {
+    "path": "bestdori/240/jacket-cn-1.png",
+    "server": "cn",
+    "name": "240_aketaradream"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/240/jacket-cn-1.png",
+   "sha256": "ca6be7c05119027e0312d89f7ce3112143cc83a5c12163ac0fe8d03eb0e727e4",
+   "width": 320,
+   "height": 320,
+   "bytes": 31911
+  }
+ },
+ "extra": {
+  "lyricist": "中村航",
+  "composer": "笠井雄太（Elements Garden）",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1578636000000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "あけたらdream",
+  "title_en": "Aketara Dream!",
+  "length_s": 120.072
+ }
+}

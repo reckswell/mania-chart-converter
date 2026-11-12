@@ -1,0 +1,210 @@
+{
+ "game": "bandori",
+ "song_id": "65",
+ "title": "Hey-day狂騒曲（カプリチオ）",
+ "artist": "Afterglow",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Afterglow",
+ "bpm": "158",
+ "version": "",
+ "date_added": "2017-08-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "10",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 184
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 10,
+     "notes": 184
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 144,
+      "hold": 20
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 314
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 15,
+     "notes": 314
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "hold": 43,
+      "tap": 228
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "22",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 542
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/65/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/65/hard.json",
+     "raw_sha256": "847bd9f158cff0fab84ab0c259968045be7b346c6f08c66a859e1084b0be349c"
+    },
+    "bestdori": {
+     "level": 22,
+     "notes": 542
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 336,
+      "hold": 57,
+      "flick": 47,
+      "slide": 14
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 878
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/65/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/65/expert.json",
+     "raw_sha256": "41bd4997718c3a917c386b6ef6d403fbf8c5b9d3e0dc32f1e0db7511fc672aa2"
+    },
+    "bestdori": {
+     "level": 28,
+     "notes": 878
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 532,
+      "slide": 43,
+      "hold": 55,
+      "flick": 72
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 762
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "published_at": 1590753600000,
+    "maa": {
+     "path": "bestdori/65/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/65/special.json",
+     "raw_sha256": "c98e75ecd6c06b1ac8f63dfebe938a39ea0efb07df01fe5d09d4a61286ede4d8"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 762
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 449,
+      "hold": 57,
+      "slide": 46,
+      "flick": 69
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 65,
+   "bandId": 2,
+   "jacketImage": "065_hey_day",
+   "bgmId": "bgm065"
+  },
+  "maa": {
+   "bestdori_song_id": 65,
+   "jacket": {
+    "path": "bestdori/65/jacket-cn-1.png",
+    "server": "cn",
+    "name": "065_hey_day"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/65/jacket-cn-1.png",
+   "sha256": "992e18f040fb91d226dc2fdab6c83139026a08cdf4932efa937b48c9608e7e8f",
+   "width": 320,
+   "height": 320,
+   "bytes": 35293
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤田淳平（Elements Garden）",
+  "arranger": "藤田淳平（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1504008000000,
+  "closed_at": 4102369200000,
+  "music_data_type": "normal",
+  "ruby": "heydayかぷりちお",
+  "title_en": "Hey-day Capriccio",
+  "length_s": 110.952
+ }
+}

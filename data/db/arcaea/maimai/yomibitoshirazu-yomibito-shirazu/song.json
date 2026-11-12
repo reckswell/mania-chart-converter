@@ -1,0 +1,179 @@
+{
+ "game": "arcaea",
+ "song_id": "yomibitoshirazu",
+ "title": "yomibito_shirazu",
+ "artist": "Limonène (サノカモメ+月島春果)",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "maimai",
+ "bpm": "188",
+ "version": "6.2",
+ "date_added": "2025-01-21",
+ "charts": {
+  "normal": {
+   "slot": "normal",
+   "native": "PAST",
+   "level": "4",
+   "constant": 4.5,
+   "designer": "<!-- raycast -->",
+   "note_counts": {
+    "combo": 641
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": ""
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/yomibitoshirazu/yomibitoshirazu_0.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "hold": 53,
+      "air_hold": 291,
+      "tap": 89
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "PRESENT",
+   "level": "8",
+   "constant": 8.0,
+   "designer": "<!-- raycast -->",
+   "note_counts": {
+    "combo": 764
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": ""
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/yomibitoshirazu/yomibitoshirazu_1.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "hold": 88,
+      "tap": 144,
+      "air_hold": 244,
+      "other": 81,
+      "air": 95
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "FUTURE",
+   "level": "9+",
+   "constant": 9.8,
+   "designer": "<!-- raycast -->",
+   "note_counts": {
+    "combo": 1075
+   },
+   "source": {
+    "songlist": {
+     "jacketDesigner": ""
+    },
+    "aff": "https://raw.githubusercontent.com/HarumiEna/Arcaea-AFF/HEAD/songs/yomibitoshirazu/yomibitoshirazu_2.aff",
+    "counts_from": "diptaken",
+    "constant_from": "arconline",
+    "extracted": {
+     "from": "harumiena-aff",
+     "counts": {
+      "air_hold": 293,
+      "tap": 434,
+      "hold": 6,
+      "other": 533,
+      "air": 276
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "1 main timing lines with BPM <= 0 (visual effects) kept as scroll changes; the beat axis keeps the previous tempo there",
+   "assets": {}
+  }
+ },
+ "source": {
+  "songlist": {
+   "idx": 442,
+   "set": "maimai_append_2"
+  },
+  "matty": {
+   "jacket": "019d",
+   "title": "ヨミビトシラズ"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/Mattyakyou/ArcaeaData/HEAD/jacket/019d.png",
+   "sha256": "c83f38202c0ac42c0882aabb5cc03d5a8f5ff3b186560f870f506440b48294c6",
+   "width": 320,
+   "height": 320,
+   "bytes": 39358
+  }
+ },
+ "extra": {
+  "pack": "maimai_append_2",
+  "pack_name": "maimai",
+  "songlist": {
+   "idx": 442,
+   "search_title": {
+    "en": [
+     "yomibito shirazu"
+    ],
+    "ko": [
+     "어나니머스",
+     "요미비토시라즈",
+     "익명"
+    ]
+   },
+   "search_artist": {
+    "en": [
+     "limonene",
+     "sano kamome",
+     "kamome sano",
+     "tsukishima haruka"
+    ],
+    "ja": [
+     "りもねん",
+     "つきしまはるか"
+    ],
+    "ko": [
+     "리모네네",
+     "카모메 사노",
+     "사노 카모메",
+     "츠키시마 하루카"
+    ]
+   },
+   "bpm_base": 188,
+   "purchase": "maimai_append_2",
+   "audioPreview": 0,
+   "audioPreviewEnd": 0,
+   "side": 0,
+   "bg": "maimai_light",
+   "bg_inverse": "maimai_conflict",
+   "source_localized": {
+    "en": "maimai"
+   },
+   "source_copyright": "©SEGA",
+   "remote_dl": true,
+   "world_unlock": false
+  },
+  "title_localized": {
+   "en": "yomibito_shirazu",
+   "ja": "ヨミビトシラズ"
+  },
+  "length_s": 146
+ }
+}

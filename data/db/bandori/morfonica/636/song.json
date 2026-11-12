@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "636",
+ "title": "ティリカモニカリラ",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "23-140",
+ "version": "",
+ "date_added": "2024-09-29",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "8",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 140
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 8,
+     "notes": 140
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 74,
+      "hold": 33
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "14",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 255
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 14,
+     "notes": 255
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 137,
+      "hold": 50,
+      "slide": 6
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 411
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/636/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/636/hard.json",
+     "raw_sha256": "cb10e9476266a06394bb2480cfccfd91fea8f17ec6e8b2a41593f0e65d70926c"
+    },
+    "bestdori": {
+     "level": 19,
+     "notes": 411
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 220,
+      "hold": 45,
+      "slide": 42,
+      "flick": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "27",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 679
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/636/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/636/expert.json",
+     "raw_sha256": "d38127fa8fbcff5c03438f16e717a90ef71536a33a99a13134c695c148fa77f6"
+    },
+    "bestdori": {
+     "level": 27,
+     "notes": 679
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 467,
+      "hold": 31,
+      "slide": 46,
+      "flick": 24
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 636,
+   "bandId": 21,
+   "jacketImage": "636_tirica_monicalira",
+   "bgmId": "bgm636"
+  },
+  "maa": {
+   "bestdori_song_id": 636,
+   "jacket": {
+    "path": "bestdori/636/jacket-cn-1.png",
+    "server": "cn",
+    "name": "636_tirica_monicalira"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/636/jacket-cn-1.png",
+   "sha256": "aa37026f53188bed190832c1e96cd0b724d1727694671b71bf27ec1cf97c54aa",
+   "width": 320,
+   "height": 320,
+   "bytes": 22227
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "藤間仁（Elements Garden）",
+  "arranger": "藤間仁（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1727589600000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "てぃりかもにかりら",
+  "title_en": "Tilica Monicalila",
+  "length_s": 104.376
+ }
+}

@@ -1,0 +1,222 @@
+{
+ "game": "sekai",
+ "song_id": "488",
+ "title": "メモリア",
+ "artist": "Aira",
+ "title_romaji": "memoria",
+ "artist_romaji": "Aira",
+ "genre": "VIRTUAL SINGER",
+ "bpm": "205",
+ "version": "",
+ "date_added": "2024-10-21",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 579
+   },
+   "source": {
+    "music_difficulty_id": 2436,
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 97,
+      "slide": 15,
+      "ex_tap": 20,
+      "hold": 16,
+      "other": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 778
+   },
+   "source": {
+    "music_difficulty_id": 2437,
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "other": 8,
+      "tap": 196,
+      "flick": 21,
+      "ex_tap": 53,
+      "slide": 29,
+      "hold": 10
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "23",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1324
+   },
+   "source": {
+    "music_difficulty_id": 2438,
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 87,
+      "ex_tap": 79,
+      "tap": 286,
+      "flick": 61,
+      "hold": 22,
+      "other": 9
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "31",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1637
+   },
+   "source": {
+    "music_difficulty_id": 2439,
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "ex_tap": 158,
+      "tap": 797,
+      "slide": 63,
+      "flick": 154,
+      "hold": 18,
+      "other": 66
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "MASTER",
+   "level": "34",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 1771
+   },
+   "source": {
+    "music_difficulty_id": 2440,
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 196,
+      "ex_tap": 185,
+      "tap": 944,
+      "hold": 28,
+      "other": 71,
+      "slide": 63
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "extra": {
+   "slot": "extra",
+   "native": "APPEND",
+   "level": "37",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 2117
+   },
+   "source": {
+    "music_difficulty_id": 4075,
+    "difficulty": "append",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 878,
+      "flick": 232,
+      "ex_tap": 334,
+      "other": 115,
+      "hold": 109,
+      "slide": 62
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "modifier without target 7: 1; stacked taps identical: 1",
+   "assets": {}
+  }
+ },
+ "source": {
+  "sekai_master": {
+   "music_id": 488,
+   "assetbundle": "jacket_s_488",
+   "seq": 1145301
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_488.png",
+   "sha256": "a49dd50a7be546d7abb7aeb7064fc68c054c32607ebaf74d7b5880ff9e93cb10",
+   "width": 320,
+   "height": 320,
+   "bytes": 25936
+  }
+ },
+ "extra": {
+  "pronunciation": "めもりあ",
+  "lyricist": "Aira",
+  "composer": "Aira",
+  "arranger": "Aira",
+  "published_at": 1729490400000,
+  "released_at": 1698591600000,
+  "tags": [
+   "vocaloid"
+  ],
+  "vocals": [
+   {
+    "type": "original_song",
+    "caption": "バーチャル・シンガーver.",
+    "singers": [
+     "初音ミク"
+    ],
+    "asset": "vs_0488_01"
+   }
+  ],
+  "filler_sec": 9.170999526977539,
+  "bpm_main": 205.0
+ }
+}

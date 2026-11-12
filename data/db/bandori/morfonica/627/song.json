@@ -1,0 +1,176 @@
+{
+ "game": "bandori",
+ "song_id": "627",
+ "title": "勇者",
+ "artist": "Morfonica",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "Morfonica",
+ "bpm": "208",
+ "version": "",
+ "date_added": "2024-09-11",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "6",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 111
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 6,
+     "notes": 111
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 65,
+      "hold": 23
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "12",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 188
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 12,
+     "notes": 188
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 118,
+      "hold": 33,
+      "slide": 2
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 450
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/627/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/627/hard.json",
+     "raw_sha256": "4bf1f1aeb737fafc3ca344eee17cd5a5165f676dce86ff2ab2332806354811f6"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 450
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 34,
+      "tap": 232,
+      "flick": 11,
+      "slide": 46
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "25",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 597
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/627/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/627/expert.json",
+     "raw_sha256": "9ecbdd50d4abdb8bf7ac2dacfdf9ea9a12db72833860d7ccdd3965df2a911585"
+    },
+    "bestdori": {
+     "level": 25,
+     "notes": 597
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 337,
+      "hold": 39,
+      "slide": 58,
+      "flick": 11
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 627,
+   "bandId": 21,
+   "jacketImage": "627_yusha",
+   "bgmId": "bgm627"
+  },
+  "maa": {
+   "bestdori_song_id": 627,
+   "jacket": {
+    "path": "bestdori/627/jacket-cn-1.png",
+    "server": "cn",
+    "name": "627_yusha"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/627/jacket-cn-1.png",
+   "sha256": "c70809953c7788c9b93b65801cc01b1ef3cbd55944dfcf0b656bc02d55d2819c",
+   "width": 320,
+   "height": 320,
+   "bytes": 28417
+  }
+ },
+ "extra": {
+  "lyricist": "Ayase",
+  "composer": "Ayase",
+  "arranger": "近藤世真（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1726034400000,
+  "closed_at": 4121982000000,
+  "music_data_type": "normal",
+  "ruby": "ゆうしゃ",
+  "title_en": "The Brave",
+  "length_s": 110.832
+ }
+}

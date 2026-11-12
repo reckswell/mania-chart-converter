@@ -1,0 +1,488 @@
+{
+ "game": "piu",
+ "song_id": "1104",
+ "title": "Take Out",
+ "artist": "SHK",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ORIGINAL",
+ "bpm": "170",
+ "version": "Fiesta EX",
+ "date_added": "",
+ "charts": {
+  "single-4": {
+   "slot": "single-4",
+   "native": "S4",
+   "level": "4",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 318
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1019,
+     "mode": "S"
+    },
+    "ladder": "easy",
+    "simfile": {
+     "chart": 1,
+     "steps_type": "pump-single",
+     "description": "S4",
+     "meter": "4",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 318,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 16,
+      "tap": 252
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-7": {
+   "slot": "single-7",
+   "native": "S7",
+   "level": "7",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 517
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1020,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 2,
+     "steps_type": "pump-single",
+     "description": "S7",
+     "meter": "7",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 517,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 64,
+      "tap": 326
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "single-12": {
+   "slot": "single-12",
+   "native": "S12",
+   "level": "12",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 619
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1021,
+     "mode": "S"
+    },
+    "ladder": "normal",
+    "simfile": {
+     "chart": 3,
+     "steps_type": "pump-single",
+     "description": "S11",
+     "meter": "11",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 619,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 61,
+      "tap": 426
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 11 differs from the PHOENIX 2 level 12: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "single-17": {
+   "slot": "single-17",
+   "native": "S17",
+   "level": "17",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1074
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1022,
+     "mode": "S"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 4,
+     "steps_type": "pump-single",
+     "description": "S17",
+     "meter": "17",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1074,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 104,
+      "tap": 599
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "single-21": {
+   "slot": "single-21",
+   "native": "S21",
+   "level": "21",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1236
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1023,
+     "mode": "S"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 5,
+     "steps_type": "pump-single",
+     "description": "S20",
+     "meter": "20",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1236,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 96,
+      "tap": 819
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 20 differs from the PHOENIX 2 level 21: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-13": {
+   "slot": "double-13",
+   "native": "D13",
+   "level": "13",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 637
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1015,
+     "mode": "D"
+    },
+    "ladder": "hard",
+    "simfile": {
+     "chart": 8,
+     "steps_type": "pump-double",
+     "description": "D13",
+     "meter": "13",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 637,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 57,
+      "tap": 436
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-20": {
+   "slot": "double-20",
+   "native": "D20",
+   "level": "20",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1066
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1016,
+     "mode": "D"
+    },
+    "ladder": "expert",
+    "simfile": {
+     "chart": 10,
+     "steps_type": "pump-double",
+     "description": "D19",
+     "meter": "19",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1066,
+     "match": "re-rated"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 92,
+      "tap": 663
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 19 differs from the PHOENIX 2 level 20: the chart was re-rated (Pumpout lists the old level), and the notes may be an older version",
+   "assets": {}
+  },
+  "double-23": {
+   "slot": "double-23",
+   "native": "D23",
+   "level": "23",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1290
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1017,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 12,
+     "steps_type": "pump-double",
+     "description": "D23",
+     "meter": "23",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1290,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 42,
+      "tap": 818
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "10 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  },
+  "double-24": {
+   "slot": "double-24",
+   "native": "D24",
+   "level": "24",
+   "constant": null,
+   "designer": "WINDFORCE",
+   "note_counts": {
+    "combo": 1267
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1018,
+     "mode": "D"
+    },
+    "ladder": "master",
+    "simfile": {
+     "chart": 11,
+     "steps_type": "pump-double",
+     "description": "D22",
+     "meter": "22",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1267,
+     "match": "near-level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 84,
+      "tap": 851
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat; simfile meter 22 differs from the PHOENIX 2 level 24 and Pumpout never rated the chart 22: paired as the nearest left-over ACTIVE chart, which may be a different chart",
+   "assets": {}
+  },
+  "halfdouble-13": {
+   "slot": "halfdouble-13",
+   "native": "HDB13",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9060,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "hard"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-19": {
+   "slot": "halfdouble-19",
+   "native": "HDB19",
+   "level": "19",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9061,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "halfdouble-21": {
+   "slot": "halfdouble-21",
+   "native": "HDB21",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "pumpout": {
+     "chart_id": 9062,
+     "mode": "HDB",
+     "labels": [
+      "STEAM LINK EXCLUSIVE"
+     ]
+    },
+    "ladder": "expert"
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "coop-3": {
+   "slot": "coop-3",
+   "native": "CO-OP x3",
+   "level": "3",
+   "constant": null,
+   "designer": "BPM",
+   "note_counts": {
+    "combo": 1170
+   },
+   "source": {
+    "pumpout": {
+     "chart_id": 1014,
+     "mode": "C"
+    },
+    "simfile": {
+     "chart": 13,
+     "steps_type": "pump-double",
+     "description": "DP COOP 3P",
+     "meter": "99",
+     "active": true,
+     "credit": "Andamiro",
+     "combo": 1170,
+     "match": "level"
+    },
+    "extracted": {
+     "from": "piu-simfiles-rayden",
+     "counts": {
+      "hold": 109,
+      "tap": 605
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "2 tweened speed changes (#SPEEDS) approximated by scroll steps every 1/4 beat",
+   "assets": {}
+  }
+ },
+ "source": {
+  "pumpout": {
+   "song_id": 175,
+   "game_id": "1104",
+   "card": "/img/card/90.png",
+   "first": "Fiesta EX v1.00",
+   "title": "Take Out"
+  },
+  "kalinathalie": {
+   "slug": "take_out"
+  },
+  "simfile": {
+   "path": "09 - FIESTA EX/1104 - Take Out/1104 - Take Out.ssc",
+   "url": "https://raw.githubusercontent.com/rayden-61/PIU-Simfiles/HEAD/09%20-%20FIESTA%20EX/1104%20-%20Take%20Out/1104%20-%20Take%20Out.ssc",
+   "id": "1104",
+   "title": "Take Out",
+   "artist": "SHK"
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/kalinathalie/piu-charts/HEAD/app/assets/thumbs/take_out.jpg",
+   "sha256": "b0230926be1bcf56e84fc03ce24aa0809988b68707ed90d94442ff6a055a7bbe",
+   "width": 256,
+   "height": 256,
+   "bytes": 19905
+  }
+ },
+ "extra": {
+  "cut": "Arcade",
+  "titles": {
+   "kr": "테이크 아웃"
+  },
+  "simfile_notes": [
+   "S12: simfile chart 'S11' has meter 11 (re-rated)",
+   "S21: simfile chart 'S20' has meter 20 (re-rated)",
+   "D20: simfile chart 'D19' has meter 19 (re-rated)",
+   "D24: simfile chart 'D22' has meter 22 (near-level)"
+  ]
+ }
+}

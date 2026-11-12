@@ -1,0 +1,179 @@
+{
+ "game": "bandori",
+ "song_id": "783",
+ "title": "COMIC PANIC!!!(パラレルver.)",
+ "artist": "PINKISH!!!!",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "PINKISH!!!!",
+ "bpm": "210",
+ "version": "",
+ "date_added": "2026-03-23",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "11",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "15",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "notesQuantity": 1000
+   },
+   "status": "listed",
+   "notes": "",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "21",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 523
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/783/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/783/hard.json",
+     "raw_sha256": "aa40d70cf3a1dff21801cfad4bd736336c4b26e1d9a5d24a944331410cd1ead6"
+    },
+    "bestdori": {
+     "notes": 523
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 408,
+      "hold": 41,
+      "slide": 6,
+      "flick": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 729
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/783/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/783/expert.json",
+     "raw_sha256": "01334110e4130d50f8c7a3037923153da39cf13381b604d7d3f30c7d95717082"
+    },
+    "bestdori": {
+     "notes": 729
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 484,
+      "hold": 35,
+      "slide": 37,
+      "flick": 48
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "master": {
+   "slot": "master",
+   "native": "SPECIAL",
+   "level": "28",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 819
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/783/special.json",
+     "bestdori_url": "https://bestdori.com/api/charts/783/special.json",
+     "raw_sha256": "013a712ca06d5eddcd217974ad62f2ecf5ba775e7671078a70c7aaba00c7371e"
+    },
+    "bestdori": {
+     "notes": 819
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "tap": 438,
+      "flick": 166,
+      "hold": 34,
+      "slide": 65
+     }
+    },
+    "special_notes": true
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 783,
+   "bandId": 105,
+   "jacketImage": "783_comic_p",
+   "bgmId": "bgm783"
+  },
+  "maa": {
+   "bestdori_song_id": 783,
+   "jacket": {
+    "path": "bestdori/783/jacket-jp-1.png",
+    "server": "jp",
+    "name": "783_comic_p"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/783/jacket-jp-1.png",
+   "sha256": "fb3d793c18471685f009532427e8164fbed2b0be3fc73a85e0e575e24dc10cf0",
+   "width": 320,
+   "height": 320,
+   "bytes": 47182
+  }
+ },
+ "extra": {
+  "lyricist": "織田あすか（Elements Garden）",
+  "composer": "都丸椋太（Elements Garden）",
+  "arranger": "都丸椋太（Elements Garden）",
+  "tag": "normal",
+  "published_at": 1774245600000,
+  "closed_at": 4122068400000,
+  "music_data_type": "normal",
+  "ruby": "comicpanic"
+ }
+}

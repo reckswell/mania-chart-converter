@@ -1,0 +1,177 @@
+{
+ "game": "bandori",
+ "song_id": "208",
+ "title": "上海ハニー",
+ "artist": "ハロー、ハッピーワールド！",
+ "title_romaji": "",
+ "artist_romaji": "",
+ "genre": "ハロー、ハッピーワールド！",
+ "bpm": "65-130",
+ "version": "",
+ "date_added": "2019-07-20",
+ "charts": {
+  "easy": {
+   "slot": "easy",
+   "native": "EASY",
+   "level": "9",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 183
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 9,
+     "notes": 183
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 120,
+      "hold": 31,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "normal": {
+   "slot": "normal",
+   "native": "NORMAL",
+   "level": "13",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 254
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "bestdori": {
+     "level": 13,
+     "notes": 254
+    },
+    "extracted": {
+     "from": "kanon511-bestdori-api",
+     "counts": {
+      "tap": 197,
+      "hold": 28,
+      "flick": 1
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "lossy copy (kanon511, bestdori-api re-serialised): Long and Slide are both written as Slide, System events and charge flags are dropped",
+   "assets": {}
+  },
+  "hard": {
+   "slot": "hard",
+   "native": "HARD",
+   "level": "20",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 442
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/208/hard.json",
+     "bestdori_url": "https://bestdori.com/api/charts/208/hard.json",
+     "raw_sha256": "47a39edea520b5ccae8a839f02cca10b6534b5e2078739e84a2cdcc82e3763ba"
+    },
+    "bestdori": {
+     "level": 20,
+     "notes": 442
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "hold": 33,
+      "tap": 274,
+      "flick": 50,
+      "slide": 17
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "expert": {
+   "slot": "expert",
+   "native": "EXPERT",
+   "level": "26",
+   "constant": null,
+   "designer": "",
+   "note_counts": {
+    "combo": 737
+   },
+   "source": {
+    "notesQuantity": 1000,
+    "maa": {
+     "path": "bestdori/208/expert.json",
+     "bestdori_url": "https://bestdori.com/api/charts/208/expert.json",
+     "raw_sha256": "765640aa921f5275bdd7bf552edcdaa30ff7ca45b72699b511290531f01b32cd"
+    },
+    "bestdori": {
+     "level": 26,
+     "notes": 737
+    },
+    "extracted": {
+     "from": "maabangdream-bestdori",
+     "counts": {
+      "slide": 66,
+      "tap": 440,
+      "hold": 20,
+      "flick": 57
+     }
+    }
+   },
+   "status": "extracted",
+   "notes": "",
+   "assets": {}
+  }
+ },
+ "source": {
+  "master": {
+   "musicId": 208,
+   "bandId": 3,
+   "jacketImage": "208_shanhi",
+   "bgmId": "bgm208"
+  },
+  "maa": {
+   "bestdori_song_id": 208,
+   "jacket": {
+    "path": "bestdori/208/jacket-cn-1.png",
+    "server": "cn",
+    "name": "208_shanhi"
+   }
+  }
+ },
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/coatcn1/MaaBanGDream/HEAD/resource/charts/bestdori/208/jacket-cn-1.png",
+   "sha256": "e90217658e66e19e4229af971d96a777bc17302f5efe14d83a874e78ad97eefc",
+   "width": 320,
+   "height": 320,
+   "bytes": 29896
+  }
+ },
+ "extra": {
+  "lyricist": "ORANGE RANGE",
+  "composer": "ORANGE RANGE",
+  "arranger": "笠井雄太（Elements Garden）",
+  "tag": "anime",
+  "published_at": 1563602400000,
+  "closed_at": 4102714800000,
+  "music_data_type": "normal",
+  "ruby": "しゃんはいはにー",
+  "title_en": "Shanghai Honey",
+  "length_s": 104.376
+ }
+}
