@@ -32,6 +32,7 @@
   spaced as at osu! approach rate 9 (0.8 px per ms) instead of 24 px per beat; 2.0 GiB, every picture checked to
   open. Stops and delays over 2 s are drawn 2 s long (Pump It Up's 999-second end stops made hundreds of empty
   columns). `render --approach-rate N` / `--compact` for other spacing.
-- Hugging Face dataset `Reckswell/vsrgs` (private) is linked: the token works, commits land. Upload waits for Alpha to
-  limit the environment's network secret to `huggingface.co` (it also covers `*.hf.co`, so Xet uploads get 401).
-  `publish` now resumes after the proxy's 30-second 502s.
+- Hugging Face dataset `Reckswell/vsrgs` (private) holds the whole database and every picture: 101,408 files
+  (db 64,569, renders 36,839), checked file by file (sizes; hashes on a 3,000-file sample). Network: one secret on
+  `huggingface.co`, `*.hf.co` allowed with no secret. `publish` makes its own 1,000-file commits (upload_folder
+  re-sent commits whose answer the proxy dropped), about 1,500 files a minute; `--no-xet` is the slow LFS fallback.
