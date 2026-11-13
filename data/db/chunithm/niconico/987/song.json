@@ -3,8 +3,8 @@
  "song_id": "987",
  "title": "フィクサー",
  "artist": "ぬゆり",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "fixer",
+ "artist_romaji": "nuyuri",
  "genre": "niconico",
  "bpm": "135",
  "version": "CRYSTAL+",
@@ -33,7 +33,12 @@
       "slide": 13,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05176",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 40,
       "air": 14
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05176",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "slide": 85,
       "air_hold": 35
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05176",
+     "key": "exp"
+    },
+    "youtube": [
+     "VQ5fPf3Cwzo"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "air": 128,
       "air_hold": 33
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05176",
+     "key": "mst"
+    },
+    "youtube": [
+     "IUqmuprMhZw",
+     "VZ3t2o2iC1A"
+    ]
    },
    "status": "extracted",
    "notes": "113 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "987",
    "image": "74d6ec0a35aa06c8.jpg"
+  },
+  "sdvxin": {
+   "id": "05176",
+   "list": "songs05.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 19753
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "987"
+ }
 }

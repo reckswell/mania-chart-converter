@@ -3,8 +3,8 @@
  "song_id": "637",
  "title": "きゅうりバーにダイブ",
  "artist": "ゆずひこ feat.めらみぽっぷ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "kyuuribarnidive",
+ "artist_romaji": "yuzuhikomeramipoppu",
  "genre": "東方Project",
  "bpm": "176",
  "version": "STAR+",
@@ -33,7 +33,12 @@
       "slide": 26,
       "air_hold": 7
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03128",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 63,
       "air_hold": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03128",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air": 80,
       "hold": 14
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03128",
+     "key": "exp"
+    },
+    "youtube": [
+     "Gp0c6z-y4BM"
+    ]
    },
    "status": "extracted",
    "notes": "19 exact duplicate lines ignored",
@@ -125,9 +142,34 @@
       "air_hold": 16,
       "flick": 30
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03128",
+     "key": "mst"
+    },
+    "youtube": [
+     "V82jtPno5vs",
+     "kCJ2pOVPLFQ"
+    ]
    },
    "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "光☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "128",
+     "key": "end"
+    }
+   },
+   "status": "listed",
    "notes": "",
    "assets": {}
   }
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "637",
    "image": "ba8c56cb9054ebfd.jpg"
+  },
+  "sdvxin": {
+   "id": "03128",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 35003
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "637"
+ }
 }

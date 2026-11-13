@@ -3,8 +3,8 @@
  "song_id": "914",
  "title": "Secret Sleuth",
  "artist": "島爺×蜂屋ななし",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "secretsleuth",
+ "artist_romaji": "shimajiihachiyananashi",
  "genre": "ゲキマイ",
  "bpm": "288",
  "version": "CRYSTAL+",
@@ -33,7 +33,12 @@
       "ex_tap": 16,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05110",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 10,
       "air": 24
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05110",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air_hold": 33,
       "hold": 68
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05110",
+     "key": "exp"
+    },
+    "youtube": [
+     "_Wciw2h1UaU"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "hold": 53,
       "air_hold": 41
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05110",
+     "key": "mst"
+    },
+    "youtube": [
+     "atNpyH1TIt4",
+     "IN6KVzcCj6g"
+    ]
    },
    "status": "extracted",
    "notes": "134 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "914",
    "image": "a3a526d2a35855df.jpg"
+  },
+  "sdvxin": {
+   "id": "05110",
+   "list": "songs05.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 20439
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "914-secret-sleuth"
+ }
 }

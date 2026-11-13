@@ -3,8 +3,8 @@
  "song_id": "2643",
  "title": "ヒトリシズカ(Arranged: Iceon)",
  "artist": "幽閉サテライト(direction:嵯峨飛鳥)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "hitorishizuka",
+ "artist_romaji": "yuuhei satellite sagaasuka",
  "genre": "東方Project",
  "bpm": "126",
  "version": "LUMINOUS+",
@@ -33,7 +33,12 @@
       "slide": 8,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09135",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 12,
       "air_hold": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09135",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -93,7 +103,14 @@
       "ex_tap": 64,
       "air": 24
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09135",
+     "key": "exp"
+    },
+    "youtube": [
+     "6ktMFrlq8Ks"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -127,7 +144,15 @@
       "air": 86,
       "hold": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09135",
+     "key": "mst"
+    },
+    "youtube": [
+     "p2BD4S4wAUk",
+     "lvulP7CaE3w"
+    ]
    },
    "status": "extracted",
    "notes": "13 exact duplicate lines ignored",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2643",
    "image": "b0a0335625f6390c.jpg"
+  },
+  "sdvxin": {
+   "id": "09135",
+   "list": "songs09.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 29061
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2643-arranged-iceon"
+ }
 }

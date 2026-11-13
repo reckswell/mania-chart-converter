@@ -3,7 +3,7 @@
  "song_id": "290",
  "title": "檄!帝国華撃団",
  "artist": "真宮寺さくら（横山智佐）＆帝国歌劇団「サクラ大戦」",
- "title_romaji": "",
+ "title_romaji": "gekiteikokukagekidan",
  "artist_romaji": "",
  "genre": "VARIETY",
  "bpm": "143",
@@ -33,7 +33,12 @@
       "slide": 7,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02068",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 37,
       "air": 26
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02068",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "tap": 276,
       "air": 75
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02068",
+     "key": "exp"
+    },
+    "youtube": [
+     "z3ivKC4T-4Y"
+    ]
    },
    "status": "extracted",
    "notes": "8 exact duplicate lines ignored",
@@ -125,10 +142,35 @@
       "hold": 36,
       "flick": 34
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02068",
+     "key": "mst"
+    },
+    "youtube": [
+     "MAMUjhbgr38",
+     "tLMxubD-bfc"
+    ]
    },
    "status": "extracted",
    "notes": "51 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "歌☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "079",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "290",
    "image": "b1d08379f05c706e.jpg"
+  },
+  "sdvxin": {
+   "id": "02068",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 25081
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "290"
+ }
 }

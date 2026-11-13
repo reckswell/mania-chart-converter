@@ -3,8 +3,8 @@
  "song_id": "2373",
  "title": "Burn My Soul",
  "artist": "She is Legend「ヘブンバーンズレッド」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "burnmysoul",
+ "artist_romaji": "sheislegend heavenburnsred",
  "genre": "POPS & ANIME",
  "bpm": "180",
  "version": "SUN",
@@ -33,7 +33,12 @@
       "slide": 12,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08003",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 13,
       "tap": 184
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08003",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air_hold": 63,
       "hold": 33
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08003",
+     "key": "exp"
+    },
+    "youtube": [
+     "LRaL88oAwzo"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -126,7 +143,15 @@
       "other": 151,
       "flick": 50
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08003",
+     "key": "mst"
+    },
+    "youtube": [
+     "KdR1sI7J1Io",
+     "BzB4YRMh0RQ"
+    ]
    },
    "status": "extracted",
    "notes": "289 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2373",
    "image": "1b5a1acc95a85993.jpg"
+  },
+  "sdvxin": {
+   "id": "08003",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -151,6 +180,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2373-burn-my-soul"
  }
 }

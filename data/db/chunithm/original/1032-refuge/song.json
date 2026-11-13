@@ -3,8 +3,8 @@
  "song_id": "1032",
  "title": "《選別》 ～ Refuge",
  "artist": "Iris",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "senbetsu refuge",
+ "artist_romaji": "iris",
  "genre": "ORIGINAL",
  "bpm": "160",
  "version": "PARADISE",
@@ -33,7 +33,12 @@
       "ex_tap": 18,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06058",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 43,
       "ex_tap": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06058",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air_hold": 35,
       "air": 75
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06058",
+     "key": "exp"
+    },
+    "youtube": [
+     "bXfWmQ_ZpEA"
+    ]
    },
    "status": "extracted",
    "notes": "9 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air_hold": 29,
       "hold": 132
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06058",
+     "key": "mst"
+    },
+    "youtube": [
+     "BMWyom41BGc",
+     "CkGEBfJxyS8"
+    ]
    },
    "status": "extracted",
    "notes": "132 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "1032",
    "image": "e3da3468a513b929.jpg"
+  },
+  "sdvxin": {
+   "id": "06058",
+   "list": "songs06.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 27320
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "1032-refuge"
+ }
 }

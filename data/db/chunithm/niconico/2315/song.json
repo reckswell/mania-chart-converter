@@ -3,8 +3,8 @@
  "song_id": "2315",
  "title": "アニマル",
  "artist": "DECO*27",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "animaru",
+ "artist_romaji": "deco27",
  "genre": "niconico",
  "bpm": "188",
  "version": "SUN",
@@ -33,7 +33,12 @@
       "slide": 30,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08064",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 11,
       "air_hold": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08064",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 48,
       "air": 59
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08064",
+     "key": "exp"
+    },
+    "youtube": [
+     "PNC1Sa0a35c"
+    ]
    },
    "status": "extracted",
    "notes": "17 exact duplicate lines ignored",
@@ -126,7 +143,15 @@
       "slide": 131,
       "other": 698
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08064",
+     "key": "mst"
+    },
+    "youtube": [
+     "-k64xFpIqjg",
+     "e3bhTjJwHBs"
+    ]
    },
    "status": "extracted",
    "notes": "274 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2315",
    "image": "fcb14b44ed821cba.jpg"
+  },
+  "sdvxin": {
+   "id": "08064",
+   "list": "songs08.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 24534
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2315"
+ }
 }

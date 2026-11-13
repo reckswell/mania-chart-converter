@@ -3,8 +3,8 @@
  "song_id": "830",
  "title": "Surrogate Life",
  "artist": "石渡太輔／アークシステムワークス",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "surrogatelife",
+ "artist_romaji": "ishiwataridaisuke arcsystemworks",
  "genre": "ORIGINAL",
  "bpm": "180",
  "version": "CRYSTAL",
@@ -33,7 +33,12 @@
       "slide": 29,
       "air_hold": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05023",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 42,
       "air_hold": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05023",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "5 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "hold": 42,
       "air": 142
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05023",
+     "key": "exp"
+    },
+    "youtube": [
+     "g14VKPp-l1w"
+    ]
    },
    "status": "extracted",
    "notes": "40 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "tap": 805,
       "flick": 222
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05023",
+     "key": "mst"
+    },
+    "youtube": [
+     "KGhcuP3dG4s",
+     "8favLizXEeE"
+    ]
    },
    "status": "extracted",
    "notes": "50 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "830",
    "image": "1ac44cfdda8ad1f0.jpg"
+  },
+  "sdvxin": {
+   "id": "05023",
+   "list": "songs05.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 35688
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "830-surrogate-life"
+ }
 }

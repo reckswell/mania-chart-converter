@@ -3,8 +3,8 @@
  "song_id": "212",
  "title": "いろは唄",
  "artist": "銀サク",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "irohauta",
+ "artist_romaji": "ginsaku",
  "genre": "niconico",
  "bpm": "172",
  "version": "PLUS",
@@ -33,7 +33,12 @@
       "slide": 18,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01159",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 16,
       "air_hold": 11
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01159",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 29,
       "air_hold": 47
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01159",
+     "key": "exp"
+    },
+    "youtube": [
+     "RZOZQvJ4PCs"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -125,10 +142,35 @@
       "ex_tap": 52,
       "flick": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01159",
+     "key": "mst"
+    },
+    "youtube": [
+     "bEiZmJVJnPE",
+     "CLE_8YlbBn8"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "歌☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "043",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "212",
    "image": "1ee29f73ee8f53d0.jpg"
+  },
+  "sdvxin": {
+   "id": "01159",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 24971
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "212"
+ }
 }

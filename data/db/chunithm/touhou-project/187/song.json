@@ -3,8 +3,8 @@
  "song_id": "187",
  "title": "患部で止まってすぐ溶ける～狂気の優曇華院",
  "artist": "ARM＋夕野ヨシミ (IOSYS) feat.miko",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "kanbudetomatte sugutokeru kyoukinoudongein",
+ "artist_romaji": "arm yuunoyoshimi iosys miko",
  "genre": "東方Project",
  "bpm": "200",
  "version": "AIR",
@@ -33,7 +33,12 @@
       "slide": 10,
       "air_hold": 3
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02040",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 18,
       "ex_tap": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02040",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "ex_tap": 115,
       "air_hold": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02040",
+     "key": "exp"
+    },
+    "youtube": [
+     "wXYF0tcom8s"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "ex_tap": 169,
       "flick": 51
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02040",
+     "key": "mst"
+    },
+    "youtube": [
+     "zcsnk0b8UvE",
+     "S89sNnvuJw4"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -159,7 +184,15 @@
       "air_hold": 41,
       "other": 240
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02040",
+     "key": "ult"
+    },
+    "youtube": [
+     "5GI0LkyZp00",
+     "IltjX9t1cLo"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -170,6 +203,10 @@
   "otogedb": {
    "id": "187",
    "image": "e6642a96885723c1.jpg"
+  },
+  "sdvxin": {
+   "id": "02040",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -183,5 +220,7 @@
    "bytes": 22633
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "187"
+ }
 }

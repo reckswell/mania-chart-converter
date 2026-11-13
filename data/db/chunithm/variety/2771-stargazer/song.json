@@ -3,8 +3,8 @@
  "song_id": "2771",
  "title": "宵の平安京 Stargazer",
  "artist": "永田泰之",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "yoinoheiankyou stargazer",
+ "artist_romaji": "nagatayasuyuki",
  "genre": "VARIETY",
  "bpm": "268",
  "version": "VERSE",
@@ -33,7 +33,12 @@
       "slide": 21,
       "air_hold": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10085",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 10,
       "air_hold": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10085",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "combo 979 in the .c2s differs from the published note count 980 (chart revised since this file?)",
@@ -92,7 +102,14 @@
       "hold": 63,
       "air_hold": 36
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10085",
+     "key": "exp"
+    },
+    "youtube": [
+     "TJRdsj8lkNY"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -126,7 +143,15 @@
       "other": 289,
       "air_hold": 49
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10085",
+     "key": "mst"
+    },
+    "youtube": [
+     "uiy34tVWXzQ",
+     "kPXT5GGgApw"
+    ]
    },
    "status": "extracted",
    "notes": "245 exact duplicate lines ignored; not represented: SLA×1, SLP×9",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2771",
    "image": "be08c42de84d4873.jpg"
+  },
+  "sdvxin": {
+   "id": "10085",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 23969
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2771-stargazer"
+ }
 }

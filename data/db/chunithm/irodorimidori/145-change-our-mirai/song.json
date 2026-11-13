@@ -3,8 +3,8 @@
  "song_id": "145",
  "title": "Change Our MIRAI！",
  "artist": "イロドリミドリ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "changeourmirai",
+ "artist_romaji": "irodorimidori",
  "genre": "イロドリミドリ",
  "bpm": "256",
  "version": "無印",
@@ -33,7 +33,12 @@
       "ex_tap": 10,
       "air_hold": 3
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01050",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 15,
       "slide": 20
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01050",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air": 41,
       "air_hold": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01050",
+     "key": "exp"
+    },
+    "youtube": [
+     "JWD7tNhmTyQ"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "ex_tap": 53,
       "air_hold": 38
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01050",
+     "key": "mst"
+    },
+    "youtube": [
+     "Ep3-Iw3lGdA",
+     "vX8tGjJVOnI"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -159,10 +184,35 @@
       "air_hold": 203,
       "hold": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01050",
+     "key": "ult"
+    },
+    "youtube": [
+     "yvZtT3_2uLE",
+     "G642AM-pYXo"
+    ]
    },
    "status": "extracted",
    "notes": "96 exact duplicate lines ignored; not represented: SLA×6, SLP×2",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "両☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "065",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -170,6 +220,10 @@
   "otogedb": {
    "id": "145",
    "image": "0bb58f15b16703ab.jpg"
+  },
+  "sdvxin": {
+   "id": "01050",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -183,5 +237,7 @@
    "bytes": 31837
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "145-change-our-mirai"
+ }
 }

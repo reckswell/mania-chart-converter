@@ -3,8 +3,8 @@
  "song_id": "3029",
  "title": "ちゅ、お注射。",
  "artist": "なみぐる feat.をとは somunia",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "chuochuusha",
+ "artist_romaji": "namiguru wotoha somunia",
  "genre": "ORIGINAL",
  "bpm": "160",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 96,
     "air": 49
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11027",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 188,
     "air": 58
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11027",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,12 @@
     "air": 169
    },
    "source": {
-    "sdvxin_legacy": "11/11027exp"
+    "sdvxin_legacy": "11/11027exp",
+    "sdvxin": {
+     "id": "11027",
+     "key": "exp"
+    },
+    "youtube": []
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +95,12 @@
    },
    "source": {
     "sdvxin_legacy": "11/11027mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11027mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11027mst.png",
+    "sdvxin": {
+     "id": "11027",
+     "key": "mst"
+    },
+    "youtube": []
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +111,10 @@
   "otogedb": {
    "id": "3029",
    "image": "b870539a2022d542.jpg"
+  },
+  "sdvxin": {
+   "id": "11027",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +128,7 @@
    "bytes": 30156
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3029"
+ }
 }

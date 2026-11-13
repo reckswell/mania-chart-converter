@@ -3,8 +3,8 @@
  "song_id": "264",
  "title": "My Dearest Song",
  "artist": "月鈴 白奈(CV:高野 麻里佳)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "mydearestsong",
+ "artist_romaji": "tsukisuzushirona takanomarika",
  "genre": "イロドリミドリ",
  "bpm": "145",
  "version": "AIR",
@@ -33,7 +33,12 @@
       "slide": 8,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02067",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 11,
       "hold": 24
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02067",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "hold": 8,
       "air_hold": 42
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02067",
+     "key": "exp"
+    },
+    "youtube": [
+     "kJOYpLreRwQ"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air": 225,
       "flick": 76
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02067",
+     "key": "mst"
+    },
+    "youtube": [
+     "VACeDW2fcoI",
+     "RMSziQm6BGU"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "264",
    "image": "f44c6b628889f8ec.jpg"
+  },
+  "sdvxin": {
+   "id": "02067",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 26631
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "264-my-dearest-song"
+ }
 }

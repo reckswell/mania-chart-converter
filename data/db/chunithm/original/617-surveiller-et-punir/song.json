@@ -3,8 +3,8 @@
  "song_id": "617",
  "title": "Surveiller et punir",
  "artist": "cybermiso",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "surveilleretpunir",
+ "artist_romaji": "cybermiso",
  "genre": "ORIGINAL",
  "bpm": "145",
  "version": "STAR+",
@@ -33,7 +33,12 @@
       "slide": 24,
       "air_hold": 3
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03175",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 23,
       "air": 17
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03175",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air": 85,
       "air_hold": 35
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03175",
+     "key": "exp"
+    },
+    "youtube": [
+     "3fb7Wo9ccqw"
+    ]
    },
    "status": "extracted",
    "notes": "7 exact duplicate lines ignored",
@@ -125,10 +142,35 @@
       "air_hold": 71,
       "hold": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03175",
+     "key": "mst"
+    },
+    "youtube": [
+     "eNe51WuAQdY",
+     "QDQIgu7qX00"
+    ]
    },
    "status": "extracted",
    "notes": "18 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "狂☆☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "161",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "617",
    "image": "cd7d33bfc8003aa8.jpg"
+  },
+  "sdvxin": {
+   "id": "03175",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 28553
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "617-surveiller-et-punir"
+ }
 }

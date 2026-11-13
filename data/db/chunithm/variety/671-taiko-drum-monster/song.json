@@ -3,8 +3,8 @@
  "song_id": "671",
  "title": "Taiko Drum Monster",
  "artist": "steμ feat.siroa「太鼓の達人」より",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "taikodrummonster",
+ "artist_romaji": "stemu siroa taikonotatsujin yori",
  "genre": "VARIETY",
  "bpm": "266",
  "version": "AMAZON",
@@ -33,7 +33,12 @@
       "slide": 18,
       "air_hold": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04010",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 10,
       "air_hold": 34
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04010",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 50,
       "hold": 21
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04010",
+     "key": "exp"
+    },
+    "youtube": [
+     "D35hL-IY1aA"
+    ]
    },
    "status": "extracted",
    "notes": "7 exact duplicate lines ignored",
@@ -125,10 +142,35 @@
       "air_hold": 110,
       "slide": 120
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04010",
+     "key": "mst"
+    },
+    "youtube": [
+     "WwZQ12RuWv8",
+     "NtbLyHNjqJA"
+    ]
    },
    "status": "extracted",
    "notes": "243 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "招☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "193",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "671",
    "image": "1933a5a57986e097.jpg"
+  },
+  "sdvxin": {
+   "id": "04010",
+   "list": "songs04.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 24167
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "671-taiko-drum-monster"
+ }
 }

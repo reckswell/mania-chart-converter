@@ -3,8 +3,8 @@
  "song_id": "2687",
  "title": "愛包ダンスホール",
  "artist": "HIMEHINA",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "aipaidancehall",
+ "artist_romaji": "himehina",
  "genre": "POPS & ANIME",
  "bpm": "141",
  "version": "VERSE",
@@ -33,7 +33,12 @@
       "slide": 18,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10009",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 27,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10009",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -93,7 +103,14 @@
       "hold": 33,
       "other": 50
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10009",
+     "key": "exp"
+    },
+    "youtube": [
+     "cd38y0ZY7Mk"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored; combo 1081 in the .c2s differs from the published note count 1061 (chart revised since this file?)",
@@ -127,7 +144,15 @@
       "flick": 51,
       "other": 177
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10009",
+     "key": "mst"
+    },
+    "youtube": [
+     "lGncCjmDM4k",
+     "mV_dt1jZuOw"
+    ]
    },
    "status": "extracted",
    "notes": "37 exact duplicate lines ignored",
@@ -161,7 +186,15 @@
       "slide": 106,
       "air_hold": 55
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10009",
+     "key": "ult"
+    },
+    "youtube": [
+     "V5ngNFd2aeo",
+     "eVhDpWhxubA"
+    ]
    },
    "status": "extracted",
    "notes": "58 exact duplicate lines ignored",
@@ -172,6 +205,10 @@
   "otogedb": {
    "id": "2687",
    "image": "28e9ecbeccb5e1d6.jpg"
+  },
+  "sdvxin": {
+   "id": "10009",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -185,5 +222,7 @@
    "bytes": 30720
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2687"
+ }
 }

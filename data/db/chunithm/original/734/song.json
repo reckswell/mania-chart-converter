@@ -3,8 +3,8 @@
  "song_id": "734",
  "title": "電光石火",
  "artist": "HiTECH NINJA",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "denkousekka",
+ "artist_romaji": "hitechninja",
  "genre": "ORIGINAL",
  "bpm": "165",
  "version": "AMAZON+",
@@ -33,7 +33,12 @@
       "slide": 11,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04096",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 39,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04096",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "slide": 46,
       "hold": 94
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04096",
+     "key": "exp"
+    },
+    "youtube": [
+     "aEpkvWTYAa8"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,10 +142,35 @@
       "flick": 213,
       "hold": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04096",
+     "key": "mst"
+    },
+    "youtube": [
+     "Ikvil4_bW3g",
+     "fayV1rub79A"
+    ]
    },
    "status": "extracted",
    "notes": "11 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "！☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "168",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "734",
    "image": "f64a5f38644ff23b.jpg"
+  },
+  "sdvxin": {
+   "id": "04096",
+   "list": "songs04.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 30443
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "734"
+ }
 }

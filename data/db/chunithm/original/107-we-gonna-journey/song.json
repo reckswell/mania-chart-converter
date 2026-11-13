@@ -3,8 +3,8 @@
  "song_id": "107",
  "title": "We Gonna Journey",
  "artist": "Queen P.A.L.",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "wegonnajourney",
+ "artist_romaji": "queenp.a.l.",
  "genre": "ORIGINAL",
  "bpm": "160",
  "version": "無印",
@@ -33,7 +33,12 @@
       "air_hold": 8,
       "slide": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01069",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -61,7 +66,12 @@
       "slide": 17,
       "air_hold": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01069",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -91,7 +101,14 @@
       "ex_tap": 119,
       "air": 36
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01069",
+     "key": "exp"
+    },
+    "youtube": [
+     "rveoF1Nl9P4"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -124,7 +141,15 @@
       "ex_tap": 211,
       "flick": 21
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01069",
+     "key": "mst"
+    },
+    "youtube": [
+     "PItBnyfGwb4",
+     "WmgJljDFNUU"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -157,10 +182,35 @@
       "flick": 48,
       "air": 134
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01069",
+     "key": "ult"
+    },
+    "youtube": [
+     "QZJkLSPVDDs",
+     "_yTf3wl9r5U"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "覚☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "064",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -168,6 +218,10 @@
   "otogedb": {
    "id": "107",
    "image": "b43fef626f5b88cd.jpg"
+  },
+  "sdvxin": {
+   "id": "01069",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -181,5 +235,7 @@
    "bytes": 30221
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "107-we-gonna-journey"
+ }
 }

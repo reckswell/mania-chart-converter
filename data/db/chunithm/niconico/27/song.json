@@ -3,8 +3,8 @@
  "song_id": "27",
  "title": "タイガーランペイジ",
  "artist": "sasakure.UK",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "tigerhampage",
+ "artist_romaji": "sasakureuk",
  "genre": "niconico",
  "bpm": "150",
  "version": "無印",
@@ -33,7 +33,12 @@
       "slide": 18,
       "air_hold": 3
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01029",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 2,
       "ex_tap": 42
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01029",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 55,
       "ex_tap": 23
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01029",
+     "key": "exp"
+    },
+    "youtube": [
+     "4vUskmnDp3U"
+    ]
    },
    "status": "extracted",
    "notes": "17 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "slide": 60,
       "air_hold": 27
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01029",
+     "key": "mst"
+    },
+    "youtube": [
+     "NCIJVy5x41Q",
+     "AjoeMisSEAs"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -159,7 +184,15 @@
       "air_hold": 124,
       "other": 62
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01029",
+     "key": "ult"
+    },
+    "youtube": [
+     "JcFnJvGMn4g",
+     "14AX2DphOqE"
+    ]
    },
    "status": "extracted",
    "notes": "13 exact duplicate lines ignored; MET 0/0 at tick 34944 ignored",
@@ -170,6 +203,10 @@
   "otogedb": {
    "id": "27",
    "image": "fdc3bb451f6403d2.jpg"
+  },
+  "sdvxin": {
+   "id": "01029",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -183,5 +220,7 @@
    "bytes": 24011
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "27"
+ }
 }

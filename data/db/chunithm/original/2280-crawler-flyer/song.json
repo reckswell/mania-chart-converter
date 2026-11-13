@@ -3,8 +3,8 @@
  "song_id": "2280",
  "title": "Crawler / Flyer",
  "artist": "MaiR",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "crawlerflyer",
+ "artist_romaji": "mair",
  "genre": "ORIGINAL",
  "bpm": "184",
  "version": "SUN",
@@ -33,7 +33,12 @@
       "slide": 29,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08028",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 16,
       "ex_tap": 39
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08028",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -93,7 +103,14 @@
       "air": 59,
       "other": 15
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08028",
+     "key": "exp"
+    },
+    "youtube": [
+     "Xh6jEIBXEFQ"
+    ]
    },
    "status": "extracted",
    "notes": "79 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "slide": 90,
       "other": 208
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08028",
+     "key": "mst"
+    },
+    "youtube": [
+     "yC9rsAKJUmg",
+     "ibMUF-g2G0A"
+    ]
    },
    "status": "extracted",
    "notes": "23 exact duplicate lines ignored",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2280",
    "image": "bb91353b8579deb0.jpg"
+  },
+  "sdvxin": {
+   "id": "08028",
+   "list": "songs08.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 28237
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2280-crawler-flyer"
+ }
 }

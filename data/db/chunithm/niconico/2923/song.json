@@ -3,8 +3,8 @@
  "song_id": "2923",
  "title": "バカ通信",
  "artist": "isonosuke",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "bakatsuushin",
+ "artist_romaji": "isonosuke",
  "genre": "niconico",
  "bpm": "240",
  "version": "X-VERSE-X",
@@ -33,7 +33,12 @@
       "slide": 34,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10207",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "tap": 198,
       "air_hold": 11
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10207",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -93,7 +103,14 @@
       "air": 73,
       "other": 84
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10207",
+     "key": "exp"
+    },
+    "youtube": [
+     "JIfS1g7s7sE"
+    ]
    },
    "status": "extracted",
    "notes": "64 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "air_hold": 63,
       "other": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10207",
+     "key": "mst"
+    },
+    "youtube": [
+     "w1kywE1iRIE",
+     "lBj3LKF0vZ4"
+    ]
    },
    "status": "extracted",
    "notes": "23 exact duplicate lines ignored; not represented: SLP×8",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2923",
    "image": "1c0cd842e31d1ff2.jpg"
+  },
+  "sdvxin": {
+   "id": "10207",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 8829
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2923"
+ }
 }

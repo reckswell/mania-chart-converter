@@ -3,8 +3,8 @@
  "song_id": "3065",
  "title": "P-KATSU",
  "artist": "P丸様。",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "pkatu",
+ "artist_romaji": "pmarusama",
  "genre": "POPS & ANIME",
  "bpm": "140",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 88,
     "air": 48
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11063",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 201,
     "air": 67
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11063",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 259
    },
    "source": {
-    "sdvxin_legacy": "10/11063exp"
+    "sdvxin_legacy": "10/11063exp",
+    "sdvxin": {
+     "id": "11063",
+     "key": "exp"
+    },
+    "youtube": [
+     "A918WXUuNz0"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "10/11063mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11063mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11063mst.png",
+    "sdvxin": {
+     "id": "11063",
+     "key": "mst"
+    },
+    "youtube": [
+     "86R3NiY1DSo",
+     "TIda2XPX1rw"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3065",
    "image": "3ffbcba18598abf6.jpg"
+  },
+  "sdvxin": {
+   "id": "11063",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 32310
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3065-p-katsu"
+ }
 }

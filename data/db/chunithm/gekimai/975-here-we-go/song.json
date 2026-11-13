@@ -3,8 +3,8 @@
  "song_id": "975",
  "title": "Here We Go",
  "artist": "曲：TeddyLoid／歌：高瀬 梨緒(CV：久保 ユリカ)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "herewego",
+ "artist_romaji": "teddyloid takaserio kuboyurika",
  "genre": "ゲキマイ",
  "bpm": "150",
  "version": "CRYSTAL+",
@@ -33,7 +33,12 @@
       "ex_tap": 28,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05163",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 30,
       "slide": 58
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05163",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "ex_tap": 114,
       "air_hold": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05163",
+     "key": "exp"
+    },
+    "youtube": [
+     "gz3u_vFXx9Q"
+    ]
    },
    "status": "extracted",
    "notes": "18 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "ex_tap": 125,
       "hold": 34
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05163",
+     "key": "mst"
+    },
+    "youtube": [
+     "h7hi5RDG8HM",
+     "KOizPLBJ4AQ"
+    ]
    },
    "status": "extracted",
    "notes": "12 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "975",
    "image": "e821176bd8f793e3.jpg"
+  },
+  "sdvxin": {
+   "id": "05163",
+   "list": "songs05.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 24171
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "975-here-we-go"
+ }
 }

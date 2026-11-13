@@ -3,8 +3,8 @@
  "song_id": "326",
  "title": "Sakura Fubuki",
  "artist": "Street",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "sakurafubuki",
+ "artist_romaji": "street",
  "genre": "VARIETY",
  "bpm": "175",
  "version": "AIR",
@@ -33,7 +33,12 @@
       "slide": 17,
       "air_hold": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02064",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 25,
       "ex_tap": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02064",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 46,
       "hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02064",
+     "key": "exp"
+    },
+    "youtube": [
+     "rpv4R1o6KEE"
+    ]
    },
    "status": "extracted",
    "notes": "10 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 98,
       "hold": 30
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02064",
+     "key": "mst"
+    },
+    "youtube": [
+     "uZSXnYHJ18A",
+     "_Vh0cIRu034"
+    ]
    },
    "status": "extracted",
    "notes": "24 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "326",
    "image": "fd01fc38e38042e3.jpg"
+  },
+  "sdvxin": {
+   "id": "02064",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 19883
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "326-sakura-fubuki"
+ }
 }

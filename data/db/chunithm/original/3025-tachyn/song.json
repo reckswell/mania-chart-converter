@@ -3,8 +3,8 @@
  "song_id": "3025",
  "title": "Tachy∅n",
  "artist": "CHUBAY",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "tachyon",
+ "artist_romaji": "chubay",
  "genre": "ORIGINAL",
  "bpm": "206",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 159,
     "air": 106
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11026",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 338,
     "air": 78
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11026",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 310
    },
    "source": {
-    "sdvxin_legacy": "10/11026exp"
+    "sdvxin_legacy": "10/11026exp",
+    "sdvxin": {
+     "id": "11026",
+     "key": "exp"
+    },
+    "youtube": [
+     "-JOtbHQBvmI"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "10/11026mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11026mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11026mst.png",
+    "sdvxin": {
+     "id": "11026",
+     "key": "mst"
+    },
+    "youtube": [
+     "2OKCKyn1EHE",
+     "H-8FZybJH40"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3025",
    "image": "21c088191cda00ec.jpg"
+  },
+  "sdvxin": {
+   "id": "11026",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 29210
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3025-tachyn"
+ }
 }

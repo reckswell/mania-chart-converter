@@ -3,8 +3,8 @@
  "song_id": "426",
  "title": "華鳥風月",
  "artist": "幽閉サテライト",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "kachoufuugetsu",
+ "artist_romaji": "yuuhei satellite",
  "genre": "東方Project",
  "bpm": "123",
  "version": "STAR",
@@ -33,7 +33,12 @@
       "ex_tap": 4,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03008",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "tap": 159,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03008",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air": 121,
       "ex_tap": 102
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03008",
+     "key": "exp"
+    },
+    "youtube": [
+     "79Q6TM62jQk"
+    ]
    },
    "status": "extracted",
    "notes": "61 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 55,
       "slide": 69
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03008",
+     "key": "mst"
+    },
+    "youtube": [
+     "SMiGqcB8PMs",
+     "q3fmYaYMVB4"
+    ]
    },
    "status": "extracted",
    "notes": "19 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "426",
    "image": "6c2e56be54f35d83.jpg"
+  },
+  "sdvxin": {
+   "id": "03008",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 32452
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "426"
+ }
 }

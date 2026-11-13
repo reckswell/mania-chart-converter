@@ -3,8 +3,8 @@
  "song_id": "1012",
  "title": "Jack the GAME",
  "artist": "藤堂 陽南袴(CV:八島 さらら)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "jackthegame",
+ "artist_romaji": "toudouhinako yashimasarara",
  "genre": "イロドリミドリ",
  "bpm": "145",
  "version": "PARADISE",
@@ -33,7 +33,12 @@
       "slide": 26,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06027",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 58,
       "air": 29
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06027",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air_hold": 42,
       "ex_tap": 122
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06027",
+     "key": "exp"
+    },
+    "youtube": [
+     "lQiFO-Gt8xg"
+    ]
    },
    "status": "extracted",
    "notes": "10 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air_hold": 74,
       "ex_tap": 152
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06027",
+     "key": "mst"
+    },
+    "youtube": [
+     "a-JZvgqaUEs",
+     "I-VVZV0kjwU"
+    ]
    },
    "status": "extracted",
    "notes": "35 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "1012",
    "image": "ac6f8efe0f217427.jpg"
+  },
+  "sdvxin": {
+   "id": "06027",
+   "list": "songs06.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 25021
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "1012-jack-the-game"
+ }
 }

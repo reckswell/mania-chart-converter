@@ -3,8 +3,8 @@
  "song_id": "896",
  "title": "タテマエと本心の大乱闘",
  "artist": "曲：鯨井国家／歌：藍原 椿(CV：橋本 ちなみ)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "tatemaetohonshinnotairantou",
+ "artist_romaji": "kujiraikokka aiharatsubaki hashimotochinami",
  "genre": "ゲキマイ",
  "bpm": "180",
  "version": "CRYSTAL",
@@ -33,7 +33,12 @@
       "ex_tap": 58,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05092",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 12,
       "air": 42
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05092",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 53,
       "air": 34
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05092",
+     "key": "exp"
+    },
+    "youtube": [
+     "3XQN4DdibL8"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,10 +142,35 @@
       "hold": 16,
       "air_hold": 59
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05092",
+     "key": "mst"
+    },
+    "youtube": [
+     "ju0OfoBrshU",
+     "6B4LUWSPaIo"
+    ]
    },
    "status": "extracted",
    "notes": "28 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "撃☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "211",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "896",
    "image": "7c7739f7aed0afc2.jpg"
+  },
+  "sdvxin": {
+   "id": "05092",
+   "list": "songs05.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 24963
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "896"
+ }
 }

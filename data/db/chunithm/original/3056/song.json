@@ -3,8 +3,8 @@
  "song_id": "3056",
  "title": "コトバノ廃都",
  "artist": "ぽりふぉ(PolyphonicBranch) feat. 松下",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "kotobanohaito",
+ "artist_romaji": "polypho polyphonicbranch matsushita",
  "genre": "ORIGINAL",
  "bpm": "200",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 136,
     "air": 115
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11044",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 344,
     "air": 207
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11044",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 250
    },
    "source": {
-    "sdvxin_legacy": "11/11044exp"
+    "sdvxin_legacy": "11/11044exp",
+    "sdvxin": {
+     "id": "11044",
+     "key": "exp"
+    },
+    "youtube": [
+     "I9ZIZlEc0SY"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11044mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11044mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11044mst.png",
+    "sdvxin": {
+     "id": "11044",
+     "key": "mst"
+    },
+    "youtube": [
+     "DEOl-6nmtsc",
+     "EfHn6v051Rw"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3056",
    "image": "9aca645476a7827a.jpg"
+  },
+  "sdvxin": {
+   "id": "11044",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 29184
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3056"
+ }
 }

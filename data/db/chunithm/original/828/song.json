@@ -3,8 +3,8 @@
  "song_id": "828",
  "title": "ハジマリノピアノ",
  "artist": "ゆゆうた",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "hajimarinopiano",
+ "artist_romaji": "yuyuuta",
  "genre": "ORIGINAL",
  "bpm": "190",
  "version": "CRYSTAL",
@@ -33,7 +33,12 @@
       "slide": 24,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05020",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 37,
       "air": 26
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05020",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air": 160,
       "air_hold": 27
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05020",
+     "key": "exp"
+    },
+    "youtube": [
+     "c_4VTzAKhlI"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "slide": 70,
       "flick": 82
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05020",
+     "key": "mst"
+    },
+    "youtube": [
+     "j2EafxMtHow",
+     "x3kKSuQ3LcM"
+    ]
    },
    "status": "extracted",
    "notes": "MET 0/0 at tick 45312 ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "828",
    "image": "7fe9ba07047f6d62.jpg"
+  },
+  "sdvxin": {
+   "id": "05020",
+   "list": "songs05.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 29876
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "828"
+ }
 }

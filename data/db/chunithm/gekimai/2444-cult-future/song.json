@@ -3,8 +3,8 @@
  "song_id": "2444",
  "title": "Cult future",
  "artist": "LV.4",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "cultfuture",
+ "artist_romaji": "lv4",
  "genre": "ゲキマイ",
  "bpm": "175",
  "version": "SUN+",
@@ -33,7 +33,12 @@
       "slide": 16,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08169",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 4,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08169",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -93,7 +103,14 @@
       "hold": 16,
       "other": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08169",
+     "key": "exp"
+    },
+    "youtube": [
+     "j5_saX1IF2E"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -126,7 +143,15 @@
       "hold": 46,
       "flick": 90
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08169",
+     "key": "mst"
+    },
+    "youtube": [
+     "kMLmdNPIxZw",
+     "ZoxiI1mZ-98"
+    ]
    },
    "status": "extracted",
    "notes": "83 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2444",
    "image": "2c24dda7a27f93fe.jpg"
+  },
+  "sdvxin": {
+   "id": "08169",
+   "list": "songs08.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 25995
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2444-cult-future"
+ }
 }

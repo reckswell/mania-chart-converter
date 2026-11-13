@@ -3,8 +3,8 @@
  "song_id": "77",
  "title": "ケモノガル",
  "artist": "ゼッケン屋",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "kemonogaru",
+ "artist_romaji": "zekkenya",
  "genre": "ORIGINAL",
  "bpm": "205",
  "version": "AIR",
@@ -33,7 +33,12 @@
       "slide": 20,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02017",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 38,
       "air": 35
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02017",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "slide": 78,
       "hold": 39
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02017",
+     "key": "exp"
+    },
+    "youtube": [
+     "JI-a7AgkNz8"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "hold": 4,
       "flick": 22
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02017",
+     "key": "mst"
+    },
+    "youtube": [
+     "IQzWc6Y44Yg",
+     "Nxo-cASPb5U"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "77",
    "image": "01fc7f761272bfb4.jpg"
+  },
+  "sdvxin": {
+   "id": "02017",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 33362
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "77"
+ }
 }

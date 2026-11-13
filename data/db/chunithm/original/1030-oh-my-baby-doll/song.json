@@ -3,8 +3,8 @@
  "song_id": "1030",
  "title": "《投影》 ～ Oh My Baby Doll",
  "artist": "Ring feat.SLSMusic",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "touei ohmybabydoll",
+ "artist_romaji": "ring slsmusic",
  "genre": "ORIGINAL",
  "bpm": "120",
  "version": "PARADISE",
@@ -33,7 +33,12 @@
       "air_hold": 4,
       "ex_tap": 20
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06056",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 23,
       "ex_tap": 44
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06056",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored; combo 700 in the .c2s differs from the published note count 356 (chart revised since this file?)",
@@ -92,7 +102,14 @@
       "air_hold": 32,
       "ex_tap": 109
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06056",
+     "key": "exp"
+    },
+    "youtube": [
+     "NkGp3gPR0uA"
+    ]
    },
    "status": "extracted",
    "notes": "7 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 101,
       "air_hold": 19
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06056",
+     "key": "mst"
+    },
+    "youtube": [
+     "LKG3H54UfcE",
+     "ChFiA8kPAto"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "1030",
    "image": "ee13f7246697819c.jpg"
+  },
+  "sdvxin": {
+   "id": "06056",
+   "list": "songs06.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 26819
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "1030-oh-my-baby-doll"
+ }
 }

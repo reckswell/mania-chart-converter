@@ -3,8 +3,8 @@
  "song_id": "3038",
  "title": "On And On!!",
  "artist": "ETIA. feat. Jenga",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "onandon",
+ "artist_romaji": "etia jenga",
  "genre": "VARIETY",
  "bpm": "170",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 118,
     "air": 43
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11039",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 223,
     "air": 47
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11039",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 136
    },
    "source": {
-    "sdvxin_legacy": "11/11039exp"
+    "sdvxin_legacy": "11/11039exp",
+    "sdvxin": {
+     "id": "11039",
+     "key": "exp"
+    },
+    "youtube": [
+     "3y7Tp807ASQ"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11039mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11039mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11039mst.png",
+    "sdvxin": {
+     "id": "11039",
+     "key": "mst"
+    },
+    "youtube": [
+     "mGqTuz4rXqA",
+     "IDXP9ZCRhig"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3038",
    "image": "6d836ce785ed4dbd.jpg"
+  },
+  "sdvxin": {
+   "id": "11039",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 18865
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3038-on-and-on"
+ }
 }

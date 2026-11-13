@@ -3,8 +3,8 @@
  "song_id": "777",
  "title": "Killing Rhythm",
  "artist": "DJ Myosuke",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "killingrhythm",
+ "artist_romaji": "djmyosuke",
  "genre": "ORIGINAL",
  "bpm": "200",
  "version": "AMAZON+",
@@ -33,7 +33,12 @@
       "slide": 16,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04141",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 12,
       "air": 11
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04141",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "32 exact duplicate lines ignored",
@@ -92,7 +102,15 @@
       "air": 82,
       "hold": 72
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04141",
+     "key": "exp"
+    },
+    "youtube": [
+     "DYJxIoSpB8E",
+     "L-DrbA-DfrE"
+    ]
    },
    "status": "extracted",
    "notes": "47 exact duplicate lines ignored",
@@ -125,7 +143,15 @@
       "slide": 44,
       "hold": 25
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04141",
+     "key": "mst"
+    },
+    "youtube": [
+     "aY1UV6tkks4",
+     "FDWrmEGOmiY"
+    ]
    },
    "status": "extracted",
    "notes": "270 exact duplicate lines ignored",
@@ -136,6 +162,10 @@
   "otogedb": {
    "id": "777",
    "image": "07c9d14609172cb8.jpg"
+  },
+  "sdvxin": {
+   "id": "04141",
+   "list": "songs04.json"
   }
  },
  "assets": {
@@ -149,5 +179,7 @@
    "bytes": 30993
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "777-killing-rhythm"
+ }
 }

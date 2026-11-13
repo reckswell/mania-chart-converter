@@ -21,10 +21,19 @@
    },
    "source": {
     "music_difficulty_id": 4319,
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "hold": 8,
+      "ex_tap": 5,
+      "tap": 31,
+      "slide": 15
+     }
+    }
    },
-   "status": "listed",
-   "notes": "",
+   "status": "extracted",
+   "notes": "stacked taps identical: 1",
    "assets": {}
   },
   "normal": {
@@ -38,10 +47,20 @@
    },
    "source": {
     "music_difficulty_id": 4320,
-    "difficulty": "normal"
+    "difficulty": "normal",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 23,
+      "tap": 81,
+      "flick": 4,
+      "ex_tap": 14,
+      "hold": 5
+     }
+    }
    },
-   "status": "listed",
-   "notes": "",
+   "status": "extracted",
+   "notes": "stacked taps identical: 3",
    "assets": {}
   },
   "hard": {
@@ -55,9 +74,19 @@
    },
    "source": {
     "music_difficulty_id": 4321,
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "slide": 51,
+      "tap": 141,
+      "flick": 16,
+      "ex_tap": 26,
+      "hold": 5
+     }
+    }
    },
-   "status": "listed",
+   "status": "extracted",
    "notes": "",
    "assets": {}
   },
@@ -72,10 +101,21 @@
    },
    "source": {
     "music_difficulty_id": 4322,
-    "difficulty": "expert"
+    "difficulty": "expert",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "tap": 264,
+      "flick": 43,
+      "slide": 75,
+      "hold": 35,
+      "ex_tap": 81,
+      "other": 11
+     }
+    }
    },
-   "status": "listed",
-   "notes": "",
+   "status": "extracted",
+   "notes": "stacked taps identical: 2",
    "assets": {}
   },
   "master": {
@@ -89,9 +129,20 @@
    },
    "source": {
     "music_difficulty_id": 4323,
-    "difficulty": "master"
+    "difficulty": "master",
+    "extracted": {
+     "from": "pjsekai-decrypted-data",
+     "counts": {
+      "flick": 94,
+      "hold": 65,
+      "tap": 434,
+      "slide": 63,
+      "ex_tap": 140,
+      "other": 27
+     }
+    }
    },
-   "status": "listed",
+   "status": "extracted",
    "notes": "",
    "assets": {}
   }
@@ -103,7 +154,17 @@
    "seq": 1171301
   }
  },
- "assets": {},
+ "assets": {
+  "jacket": {
+   "file": "assets/jacket.jpg",
+   "kind": "jacket",
+   "url": "https://raw.githubusercontent.com/patrickv0220/pjsekai-decrypted-data/HEAD/pjsekai-decrypted-data-omg/JP/jacket/jacket_s_826.png",
+   "sha256": "22f68f6f228c4408bd52e4540b41726956ab1ee1d8319ee6e071ae5d2a682738",
+   "width": 320,
+   "height": 320,
+   "bytes": 28162
+  }
+ },
  "extra": {
   "pronunciation": "すろうらいと",
   "lyricist": "パンタレイ",

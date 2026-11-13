@@ -3,8 +3,8 @@
  "song_id": "2193",
  "title": "モ°ルモ°ル",
  "artist": "sasakure. UK",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "morumoru",
+ "artist_romaji": "sasakureuk",
  "genre": "ゲキマイ",
  "bpm": "256",
  "version": "NEW+",
@@ -33,7 +33,12 @@
       "slide": 27,
       "air_hold": 3
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07161",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 9,
       "ex_tap": 14
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07161",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -93,7 +103,14 @@
       "air_hold": 23,
       "other": 33
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07161",
+     "key": "exp"
+    },
+    "youtube": [
+     "OL9D1sJviYo"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "air": 190,
       "other": 76
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07161",
+     "key": "mst"
+    },
+    "youtube": [
+     "Z0198Th3c14",
+     "-HuLFulkaqA"
+    ]
    },
    "status": "extracted",
    "notes": "32 exact duplicate lines ignored",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2193",
    "image": "c71082aba52b4888.jpg"
+  },
+  "sdvxin": {
+   "id": "07161",
+   "list": "songs07.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 22290
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2193"
+ }
 }

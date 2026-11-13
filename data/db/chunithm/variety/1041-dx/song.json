@@ -3,8 +3,8 @@
  "song_id": "1041",
  "title": "DX超性能フルメタル少女",
  "artist": "IOSYS TRAX (uno with.ちよこ)「グルーヴコースター」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "dxchouseinou fullmetal shoujo",
+ "artist_romaji": "iosystraxuno chiyoko groovecoaster",
  "genre": "VARIETY",
  "bpm": "160",
  "version": "PARADISE",
@@ -33,7 +33,12 @@
       "slide": 12,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06044",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 10,
       "hold": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06044",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "tap": 374,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06044",
+     "key": "exp"
+    },
+    "youtube": [
+     "5ZTZjYAso4k"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "hold": 63,
       "air_hold": 23
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06044",
+     "key": "mst"
+    },
+    "youtube": [
+     "2tMu6JgstFY",
+     "Ru6tWqz2mzY"
+    ]
    },
    "status": "extracted",
    "notes": "111 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "1041",
    "image": "3213c49e01b4e2cf.jpg"
+  },
+  "sdvxin": {
+   "id": "06044",
+   "list": "songs06.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 35755
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "1041-dx"
+ }
 }

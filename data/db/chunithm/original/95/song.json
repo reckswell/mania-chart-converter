@@ -3,8 +3,8 @@
  "song_id": "95",
  "title": "砂漠のハンティングガール♡",
  "artist": "海田 明里",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "sabakuno hunting girl",
+ "artist_romaji": "kaidaakari",
  "genre": "ORIGINAL",
  "bpm": "139",
  "version": "無印",
@@ -33,7 +33,12 @@
       "slide": 8,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01064",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 28,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01064",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 56,
       "slide": 29
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01064",
+     "key": "exp"
+    },
+    "youtube": [
+     "rp8FIKF_WRg"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "air": 75,
       "hold": 61
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01064",
+     "key": "mst"
+    },
+    "youtube": [
+     "A-09CfNeGf0",
+     "9Ks5NkO9fiM"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -158,10 +183,35 @@
       "flick": 96,
       "slide": 96
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01064",
+     "key": "ult"
+    },
+    "youtube": [
+     "_k1RlGHK1qM",
+     "9cXMJKjs0Jk"
+    ]
    },
    "status": "extracted",
    "notes": "73 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "弾☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "054",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -169,6 +219,10 @@
   "otogedb": {
    "id": "95",
    "image": "db38c119e4d8933e.jpg"
+  },
+  "sdvxin": {
+   "id": "01064",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -182,5 +236,7 @@
    "bytes": 28233
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "95"
+ }
 }

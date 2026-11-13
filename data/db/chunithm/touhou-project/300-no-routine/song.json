@@ -3,8 +3,8 @@
  "song_id": "300",
  "title": "No Routine",
  "artist": "A-One",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "noroutine",
+ "artist_romaji": "aone",
  "genre": "東方Project",
  "bpm": "163",
  "version": "AIR",
@@ -33,7 +33,12 @@
       "slide": 7,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02041",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 14,
       "air": 39
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02041",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air_hold": 46,
       "air": 45
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02041",
+     "key": "exp"
+    },
+    "youtube": [
+     "xZhZgLsz1Qg"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "tap": 720,
       "hold": 32
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02041",
+     "key": "mst"
+    },
+    "youtube": [
+     "g5oW0k21INU",
+     "jqMjAk0c_K8"
+    ]
    },
    "status": "extracted",
    "notes": "43 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "300",
    "image": "012eb1ed09577836.jpg"
+  },
+  "sdvxin": {
+   "id": "02041",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 18618
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "300-no-routine"
+ }
 }

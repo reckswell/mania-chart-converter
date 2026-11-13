@@ -3,8 +3,8 @@
  "song_id": "2177",
  "title": "ギラギラ",
  "artist": "Ado",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "giragira",
+ "artist_romaji": "ado",
  "genre": "POPS & ANIME",
  "bpm": "96",
  "version": "NEW+",
@@ -33,7 +33,12 @@
       "slide": 12,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07140",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 8,
       "ex_tap": 34
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07140",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -93,7 +103,14 @@
       "air_hold": 39,
       "other": 66
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07140",
+     "key": "exp"
+    },
+    "youtube": [
+     "uNXtRhkfmgY"
+    ]
    },
    "status": "extracted",
    "notes": "19 exact duplicate lines ignored",
@@ -126,7 +143,15 @@
       "air_hold": 54,
       "air": 36
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07140",
+     "key": "mst"
+    },
+    "youtube": [
+     "3DJ7p2SRTxs",
+     "h6woZFLRDMA"
+    ]
    },
    "status": "extracted",
    "notes": "17 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2177",
    "image": "911cd81a2c4a2d48.jpg"
+  },
+  "sdvxin": {
+   "id": "07140",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -151,6 +180,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2177"
  }
 }

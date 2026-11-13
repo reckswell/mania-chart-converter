@@ -3,8 +3,8 @@
  "song_id": "3000",
  "title": "Linked Tune",
  "artist": "水野健治",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "linkedtune",
+ "artist_romaji": "mizunokenji",
  "genre": "ORIGINAL",
  "bpm": "136",
  "version": "X-VERSE-X",
@@ -33,7 +33,12 @@
       "ex_tap": 14,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10264",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 26,
       "ex_tap": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10264",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "tap": 322,
       "ex_tap": 68
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10264",
+     "key": "exp"
+    },
+    "youtube": [
+     "ct56jla2ywc"
+    ]
    },
    "status": "extracted",
    "notes": "15 exact duplicate lines ignored",
@@ -126,7 +143,15 @@
       "slide": 80,
       "other": 1151
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10264",
+     "key": "mst"
+    },
+    "youtube": [
+     "qLvyPCI4Iao",
+     "aqnAn2qqPO4"
+    ]
    },
    "status": "extracted",
    "notes": "52 exact duplicate lines ignored; not represented: SLA×13, SLP×26",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "3000",
    "image": "5052ee354585736d.jpg"
+  },
+  "sdvxin": {
+   "id": "10264",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 24861
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3000-linked-tune"
+ }
 }

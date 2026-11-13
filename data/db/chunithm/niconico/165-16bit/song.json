@@ -3,8 +3,8 @@
  "song_id": "165",
  "title": "ぼくらの16bit戦争",
  "artist": "sasakure.UK",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "bokurano16bitwars",
+ "artist_romaji": "sasakureuk",
  "genre": "niconico",
  "bpm": "122",
  "version": "無印",
@@ -33,7 +33,12 @@
       "slide": 12,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01120",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 36,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01120",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 29,
       "ex_tap": 84
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01120",
+     "key": "exp"
+    },
+    "youtube": [
+     "9j03-IQQNAo"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored; combo 939 in the .c2s differs from the published note count 940 (chart revised since this file?)",
@@ -125,9 +142,34 @@
       "flick": 50,
       "air_hold": 43
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01120",
+     "key": "mst"
+    },
+    "youtube": [
+     "WczWqVujKKA",
+     "wRoZE3F-rtE"
+    ]
    },
    "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "狂☆☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "038",
+     "key": "end"
+    }
+   },
+   "status": "listed",
    "notes": "",
    "assets": {}
   }
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "165",
    "image": "1e85c4b6775c84b0.jpg"
+  },
+  "sdvxin": {
+   "id": "01120",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 24600
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "165-16bit"
+ }
 }

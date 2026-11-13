@@ -3,8 +3,8 @@
  "song_id": "2239",
  "title": "ホーリーサンバランド",
  "artist": "SAMBA MASTER 佐藤",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "holysambaland",
+ "artist_romaji": "sambamastersatou",
  "genre": "VARIETY",
  "bpm": "150",
  "version": "NEW+",
@@ -33,7 +33,12 @@
       "slide": 24,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07213",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 15,
       "air_hold": 11
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07213",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -93,7 +103,14 @@
       "air": 21,
       "other": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07213",
+     "key": "exp"
+    },
+    "youtube": [
+     "jh3huXjOqng"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -126,7 +143,15 @@
       "air": 178,
       "flick": 81
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07213",
+     "key": "mst"
+    },
+    "youtube": [
+     "m54MCxsLoY8",
+     "Uo44cePVL0Y"
+    ]
    },
    "status": "extracted",
    "notes": "13 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2239",
    "image": "b6d417cdd3464bbe.jpg"
+  },
+  "sdvxin": {
+   "id": "07213",
+   "list": "songs07.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 20625
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2239"
+ }
 }

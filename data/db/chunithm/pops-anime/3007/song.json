@@ -3,8 +3,8 @@
  "song_id": "3007",
  "title": "明日の私に幸あれ",
  "artist": "ナナヲアカリ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "ashitanowatashinisachiare",
+ "artist_romaji": "nanawoakari",
  "genre": "POPS & ANIME",
  "bpm": "132",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 44,
     "air": 25
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11003",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 95,
     "air": 36
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11003",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 94
    },
    "source": {
-    "sdvxin_legacy": "11/11003exp"
+    "sdvxin_legacy": "11/11003exp",
+    "sdvxin": {
+     "id": "11003",
+     "key": "exp"
+    },
+    "youtube": [
+     "TCblnjM5f6M"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11003mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11003mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11003mst.png",
+    "sdvxin": {
+     "id": "11003",
+     "key": "mst"
+    },
+    "youtube": [
+     "nSx1Z0IIl5o",
+     "GB2KcI9Q9a8"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3007",
    "image": "0293502f7cf9af2d.jpg"
+  },
+  "sdvxin": {
+   "id": "11003",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 16856
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3007"
+ }
 }

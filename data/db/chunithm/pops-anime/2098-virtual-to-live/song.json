@@ -3,8 +3,8 @@
  "song_id": "2098",
  "title": "Virtual to LIVE",
  "artist": "にじさんじ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "virtualtolive",
+ "artist_romaji": "nijisanji",
  "genre": "POPS & ANIME",
  "bpm": "156",
  "version": "NEW",
@@ -33,7 +33,12 @@
       "slide": 16,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07101",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 14,
       "air": 22
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07101",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 65,
       "tap": 203
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07101",
+     "key": "exp"
+    },
+    "youtube": [
+     "f-2lH5yHkhA"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air": 62,
       "slide": 78
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07101",
+     "key": "mst"
+    },
+    "youtube": [
+     "UJhHv__XABg",
+     "ZACfBTjf7OQ"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2098",
    "image": "cb46c561d70c3b65.jpg"
+  },
+  "sdvxin": {
+   "id": "07101",
+   "list": "songs07.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 18052
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2098-virtual-to-live"
+ }
 }

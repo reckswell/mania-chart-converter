@@ -3,8 +3,8 @@
  "song_id": "3010",
  "title": "お返事まだカナ？おじさん構文！",
  "artist": "吉本おじさん",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "ohenjimadakanaojisankoubun",
+ "artist_romaji": "yoshimotoojisan",
  "genre": "niconico",
  "bpm": "225",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 140,
     "air": 48
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11006",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 121,
     "air": 58
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11006",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 200
    },
    "source": {
-    "sdvxin_legacy": "11/11006exp"
+    "sdvxin_legacy": "11/11006exp",
+    "sdvxin": {
+     "id": "11006",
+     "key": "exp"
+    },
+    "youtube": [
+     "aGRA3yeL1oM"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11006mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11006mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11006mst.png",
+    "sdvxin": {
+     "id": "11006",
+     "key": "mst"
+    },
+    "youtube": [
+     "kqQv8ELalC0",
+     "vWHMu0QJFfU"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -99,7 +126,15 @@
    },
    "source": {
     "sdvxin_legacy": "ult/11006ult",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11006ult.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11006ult.png",
+    "sdvxin": {
+     "id": "11006",
+     "key": "ult"
+    },
+    "youtube": [
+     "m56Ru-ukcE8",
+     "ZmVHr1aZ2uY"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -110,6 +145,10 @@
   "otogedb": {
    "id": "3010",
    "image": "52356c183d89c680.jpg"
+  },
+  "sdvxin": {
+   "id": "11006",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -123,5 +162,7 @@
    "bytes": 17724
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3010"
+ }
 }

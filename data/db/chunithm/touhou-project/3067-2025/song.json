@@ -3,8 +3,8 @@
  "song_id": "3067",
  "title": "さっきゅんライト（2025）",
  "artist": "石鹸屋",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "sakyunlight2025",
+ "artist_romaji": "sekkenya",
  "genre": "東方Project",
  "bpm": "246",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 64,
     "air": 32
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11065",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 121,
     "air": 21
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11065",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 160
    },
    "source": {
-    "sdvxin_legacy": "10/11065exp"
+    "sdvxin_legacy": "10/11065exp",
+    "sdvxin": {
+     "id": "11065",
+     "key": "exp"
+    },
+    "youtube": [
+     "0HYq8VwkITY"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "10/11065mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11065mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11065mst.png",
+    "sdvxin": {
+     "id": "11065",
+     "key": "mst"
+    },
+    "youtube": [
+     "0ol_kIohFAE",
+     "2QEQD9Cm_Mc"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3067",
    "image": "555cd99cbf7241a9.jpg"
+  },
+  "sdvxin": {
+   "id": "11065",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 33982
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3067-2025"
+ }
 }

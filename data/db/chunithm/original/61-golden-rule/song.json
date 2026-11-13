@@ -3,8 +3,8 @@
  "song_id": "61",
  "title": "GOLDEN RULE",
  "artist": "Morrigan",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "goldenrule",
+ "artist_romaji": "morrigan",
  "genre": "ORIGINAL",
  "bpm": "165",
  "version": "PLUS",
@@ -33,7 +33,12 @@
       "slide": 13,
       "air_hold": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01166",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 16,
       "ex_tap": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01166",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 19,
       "hold": 38
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01166",
+     "key": "exp"
+    },
+    "youtube": [
+     "S1U_V3_0Qds"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,10 +142,35 @@
       "air": 73,
       "ex_tap": 148
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01166",
+     "key": "mst"
+    },
+    "youtube": [
+     "tmY5E6bYxYw",
+     "FE6Rq5prYZA"
+    ]
    },
    "status": "extracted",
    "notes": "8 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "光☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "033",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "61",
    "image": "2ccf97477eaf45ad.jpg"
+  },
+  "sdvxin": {
+   "id": "01166",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 30331
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "61-golden-rule"
+ }
 }

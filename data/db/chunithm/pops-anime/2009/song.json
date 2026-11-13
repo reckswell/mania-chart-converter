@@ -3,8 +3,8 @@
  "song_id": "2009",
  "title": "残酷な天使のテーゼ",
  "artist": "高橋洋子「新世紀エヴァンゲリオン」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "zankokuna tenshinothese",
+ "artist_romaji": "takahashiyouko shinseikievangelion",
  "genre": "POPS & ANIME",
  "bpm": "128",
  "version": "NEW",
@@ -33,7 +33,12 @@
       "slide": 23,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07008",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 10,
       "ex_tap": 27
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07008",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "ex_tap": 114,
       "tap": 195
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07008",
+     "key": "exp"
+    },
+    "youtube": [
+     "Ip1GQZmzKpU"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "ex_tap": 80,
       "flick": 41
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07008",
+     "key": "mst"
+    },
+    "youtube": [
+     "l4BAWVAwVm4",
+     "YrDtX32c3mY"
+    ]
    },
    "status": "extracted",
    "notes": "102 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2009",
    "image": "e3a6d720dd84af58.jpg"
+  },
+  "sdvxin": {
+   "id": "07008",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -150,6 +179,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2009"
  }
 }

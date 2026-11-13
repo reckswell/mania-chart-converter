@@ -3,8 +3,8 @@
  "song_id": "379",
  "title": "愛き夜道 feat. ランコ、雨天決行",
  "artist": "魂音泉",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "ukiyomichi ranko utenkekkou",
+ "artist_romaji": "tamaonsen",
  "genre": "東方Project",
  "bpm": "136",
  "version": "AIR+",
@@ -33,7 +33,12 @@
       "slide": 9,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02106",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 11,
       "ex_tap": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02106",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 10,
       "ex_tap": 46
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02106",
+     "key": "exp"
+    },
+    "youtube": [
+     "tGO-S1-Diag"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "ex_tap": 42,
       "air_hold": 20
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02106",
+     "key": "mst"
+    },
+    "youtube": [
+     "DPGzrqmE8aE",
+     "ra3F5GuEmX0"
+    ]
    },
    "status": "extracted",
    "notes": "109 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "379",
    "image": "021eef9b80989a2e.jpg"
+  },
+  "sdvxin": {
+   "id": "02106",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 18655
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "379-feat"
+ }
 }

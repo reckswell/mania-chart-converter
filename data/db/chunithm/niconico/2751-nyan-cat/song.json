@@ -3,8 +3,8 @@
  "song_id": "2751",
  "title": "Nyan Cat",
  "artist": "daniwellP feat. 桃音モモ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "nyancat",
+ "artist_romaji": "daniwellpfeat.momonemomo",
  "genre": "niconico",
  "bpm": "142",
  "version": "VERSE",
@@ -33,7 +33,12 @@
       "slide": 14,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10068",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -61,7 +66,12 @@
       "tap": 177,
       "hold": 58
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10068",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "ex_tap": 127,
       "air": 106
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10068",
+     "key": "exp"
+    },
+    "youtube": [
+     "OiQjvelE8mg"
+    ]
    },
    "status": "extracted",
    "notes": "combo 1028 in the .c2s differs from the published note count 1022 (chart revised since this file?)",
@@ -126,7 +143,15 @@
       "air": 123,
       "hold": 34
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10068",
+     "key": "mst"
+    },
+    "youtube": [
+     "4vRaJJ_xHJE",
+     "VFdG4keMDU8"
+    ]
    },
    "status": "extracted",
    "notes": "24 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2751",
    "image": "b1c25831e072f4ed.jpg"
+  },
+  "sdvxin": {
+   "id": "10068",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 22586
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2751-nyan-cat"
+ }
 }

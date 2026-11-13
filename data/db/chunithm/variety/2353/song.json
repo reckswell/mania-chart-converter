@@ -3,8 +3,8 @@
  "song_id": "2353",
  "title": "幻想即興曲",
  "artist": "穴山大輔「原曲:ショパン」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "gensousokkyoukyoku",
+ "artist_romaji": "anayamadaisuke genkyoku chopin",
  "genre": "VARIETY",
  "bpm": "160",
  "version": "SUN",
@@ -33,7 +33,12 @@
       "slide": 27,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08103",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 2,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08103",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "ex_tap": 167,
       "air": 41
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08103",
+     "key": "exp"
+    },
+    "youtube": [
+     "CQXS3c-st_4"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air_hold": 38,
       "flick": 147
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08103",
+     "key": "mst"
+    },
+    "youtube": [
+     "omdX082Jh2w",
+     "8IGK0mq6qnc"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2353",
    "image": "c19a05229b9d8dd8.jpg"
+  },
+  "sdvxin": {
+   "id": "08103",
+   "list": "songs08.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 18385
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2353"
+ }
 }

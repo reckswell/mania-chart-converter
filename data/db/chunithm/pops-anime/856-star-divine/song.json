@@ -3,8 +3,8 @@
  "song_id": "856",
  "title": "Star Divine",
  "artist": "スタァライト九九組「少女☆歌劇 レヴュースタァライト」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "stardivine",
+ "artist_romaji": "starlight kukugumi shoujokageki revue starlight",
  "genre": "POPS & ANIME",
  "bpm": "160",
  "version": "CRYSTAL",
@@ -33,7 +33,12 @@
       "ex_tap": 6,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05048",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 26,
       "ex_tap": 22
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05048",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 58,
       "ex_tap": 71
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05048",
+     "key": "exp"
+    },
+    "youtube": [
+     "MQDc9qXSEJQ"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "slide": 132,
       "flick": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05048",
+     "key": "mst"
+    },
+    "youtube": [
+     "lpr2YM9EIQI",
+     "cU5O0EAFIDs"
+    ]
    },
    "status": "extracted",
    "notes": "39 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "856",
    "image": "8c6c18566aa221c9.jpg"
+  },
+  "sdvxin": {
+   "id": "05048",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -150,6 +179,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "856-star-divine"
  }
 }

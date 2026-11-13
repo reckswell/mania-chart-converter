@@ -3,8 +3,8 @@
  "song_id": "875",
  "title": "神楽",
  "artist": "Liz Triangle",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "kagura",
+ "artist_romaji": "liztriangle",
  "genre": "東方Project",
  "bpm": "175",
  "version": "CRYSTAL",
@@ -33,7 +33,12 @@
       "slide": 30,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05067",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 67,
       "air_hold": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05067",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air": 73,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05067",
+     "key": "exp"
+    },
+    "youtube": [
+     "a6BZPJ0ioLU"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "air_hold": 94,
       "hold": 57
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05067",
+     "key": "mst"
+    },
+    "youtube": [
+     "6eVLFHF7blM",
+     "F2FpIIFPjpc"
+    ]
    },
    "status": "extracted",
    "notes": "57 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "875",
    "image": "0d647433dfd00cc2.jpg"
+  },
+  "sdvxin": {
+   "id": "05067",
+   "list": "songs05.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 19933
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "875"
+ }
 }

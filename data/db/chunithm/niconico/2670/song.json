@@ -3,8 +3,8 @@
  "song_id": "2670",
  "title": "自称、音楽愛好家",
  "artist": "卯花ロク",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "jishouongakuaikouka",
+ "artist_romaji": "ukaroku",
  "genre": "niconico",
  "bpm": "154",
  "version": "LUMINOUS+",
@@ -34,7 +34,12 @@
       "slide": 25,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09158",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "combo 413 in the .c2s differs from the published note count 826 (chart revised since this file?)",
@@ -63,7 +68,12 @@
       "slide": 35,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09158",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -94,7 +104,14 @@
       "hold": 45,
       "other": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09158",
+     "key": "exp"
+    },
+    "youtube": [
+     "8lTHncszsoQ"
+    ]
    },
    "status": "extracted",
    "notes": "78 exact duplicate lines ignored",
@@ -128,7 +145,15 @@
       "slide": 58,
       "other": 78
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09158",
+     "key": "mst"
+    },
+    "youtube": [
+     "86TUHaTReZE",
+     "nIESlDUNrpk"
+    ]
    },
    "status": "extracted",
    "notes": "39 exact duplicate lines ignored",
@@ -139,6 +164,10 @@
   "otogedb": {
    "id": "2670",
    "image": "654d5dc292f028fe.jpg"
+  },
+  "sdvxin": {
+   "id": "09158",
+   "list": "songs09.json"
   }
  },
  "assets": {
@@ -152,5 +181,7 @@
    "bytes": 17437
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2670"
+ }
 }

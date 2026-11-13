@@ -3,8 +3,8 @@
  "song_id": "900",
  "title": "チョウの標本",
  "artist": "Bitplane",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "chounohyouhon",
+ "artist_romaji": "bitplane",
  "genre": "VARIETY",
  "bpm": "170",
  "version": "CRYSTAL",
@@ -33,7 +33,12 @@
       "slide": 17,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05056",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 16,
       "ex_tap": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05056",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 131,
       "air_hold": 25
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05056",
+     "key": "exp"
+    },
+    "youtube": [
+     "1xRIEL4KXHM"
+    ]
    },
    "status": "extracted",
    "notes": "28 exact duplicate lines ignored",
@@ -125,10 +142,35 @@
       "air_hold": 16,
       "flick": 1
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05056",
+     "key": "mst"
+    },
+    "youtube": [
+     "Qx_4PG_Z1Lo",
+     "YvxRgOPPVzU"
+    ]
    },
    "status": "extracted",
    "notes": "14 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "蔵☆☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "178",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "900",
    "image": "426dd64c1a2f744e.jpg"
+  },
+  "sdvxin": {
+   "id": "05056",
+   "list": "songs05.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 22561
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "900"
+ }
 }

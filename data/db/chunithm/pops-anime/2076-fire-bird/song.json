@@ -3,8 +3,8 @@
  "song_id": "2076",
  "title": "FIRE BIRD",
  "artist": "Roselia「バンドリ！ ガールズバンドパーティ！」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "firebird",
+ "artist_romaji": "roselia bangdream girlsbandparty",
  "genre": "POPS & ANIME",
  "bpm": "150",
  "version": "NEW",
@@ -33,7 +33,12 @@
       "slide": 15,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07003",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 13,
       "ex_tap": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07003",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "ex_tap": 134,
       "air_hold": 52
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07003",
+     "key": "exp"
+    },
+    "youtube": [
+     "_2HqN_nQumM"
+    ]
    },
    "status": "extracted",
    "notes": "11 exact duplicate lines ignored; combo 1344 in the .c2s differs from the published note count 1342 (chart revised since this file?)",
@@ -125,7 +142,15 @@
       "ex_tap": 130,
       "air_hold": 33
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07003",
+     "key": "mst"
+    },
+    "youtube": [
+     "7G9HpprXwpQ",
+     "bCOXY04yDkA"
+    ]
    },
    "status": "extracted",
    "notes": "5 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2076",
    "image": "ca5aa0c10dd79b13.jpg"
+  },
+  "sdvxin": {
+   "id": "07003",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -150,6 +179,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2076-fire-bird"
  }
 }

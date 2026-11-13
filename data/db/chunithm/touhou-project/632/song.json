@@ -3,8 +3,8 @@
  "song_id": "632",
  "title": "つるぺったん",
  "artist": "Silver Forest",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "tsurupettan",
+ "artist_romaji": "silverforest",
  "genre": "東方Project",
  "bpm": "180",
  "version": "STAR+",
@@ -33,7 +33,12 @@
       "air_hold": 6,
       "ex_tap": 38
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03184",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 42,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03184",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "slide": 172,
       "air_hold": 42
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03184",
+     "key": "exp"
+    },
+    "youtube": [
+     "SFmDhHArRW8"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 182,
       "hold": 26
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03184",
+     "key": "mst"
+    },
+    "youtube": [
+     "cRWv9wz-gYs",
+     "lI-ZdpozqBU"
+    ]
    },
    "status": "extracted",
    "notes": "71 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "632",
    "image": "21126dcfd930beb4.jpg"
+  },
+  "sdvxin": {
+   "id": "03184",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 20555
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "632"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "159",
  "title": "ジングルベル",
  "artist": "SEGA Sound Unit[H.]",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "jingle bell",
+ "artist_romaji": "segasoundunit",
  "genre": "VARIETY",
  "bpm": "100",
  "version": "無印",
@@ -33,7 +33,12 @@
       "ex_tap": 6,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01115",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 17,
       "air": 26
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01115",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 73,
       "ex_tap": 67
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01115",
+     "key": "exp"
+    },
+    "youtube": [
+     "0Ljex0EHXHw"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "hold": 59,
       "flick": 100
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01115",
+     "key": "mst"
+    },
+    "youtube": [
+     "UFS3j4bdHAQ",
+     "ndQG_29b1ic"
+    ]
    },
    "status": "extracted",
    "notes": "28 exact duplicate lines ignored",
@@ -159,7 +184,15 @@
       "air": 299,
       "flick": 135
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01115",
+     "key": "ult"
+    },
+    "youtube": [
+     "hy7rzMAJLyg",
+     "-KKeeCenW7w"
+    ]
    },
    "status": "extracted",
    "notes": "9 exact duplicate lines ignored",
@@ -170,6 +203,10 @@
   "otogedb": {
    "id": "159",
    "image": "d5a47266b4fe0bfe.jpg"
+  },
+  "sdvxin": {
+   "id": "01115",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -183,5 +220,7 @@
    "bytes": 16378
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "159"
+ }
 }

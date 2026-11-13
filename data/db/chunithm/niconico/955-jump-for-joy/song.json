@@ -3,8 +3,8 @@
  "song_id": "955",
  "title": "Jump for Joy",
  "artist": "EasyPop",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "jumpforjoy",
+ "artist_romaji": "easypop",
  "genre": "niconico",
  "bpm": "126",
  "version": "CRYSTAL+",
@@ -33,7 +33,12 @@
       "ex_tap": 9,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05130",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 7,
       "ex_tap": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05130",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "slide": 52,
       "air": 69
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05130",
+     "key": "exp"
+    },
+    "youtube": [
+     "IaXcVaBw9Kw"
+    ]
    },
    "status": "extracted",
    "notes": "13 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air": 66,
       "ex_tap": 31
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05130",
+     "key": "mst"
+    },
+    "youtube": [
+     "JjP6Zv4hNpk",
+     "Hn3geQ9aPIE"
+    ]
    },
    "status": "extracted",
    "notes": "28 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "955",
    "image": "7de372e6b4be77a4.jpg"
+  },
+  "sdvxin": {
+   "id": "05130",
+   "list": "songs05.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 19818
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "955-jump-for-joy"
+ }
 }

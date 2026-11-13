@@ -3,8 +3,8 @@
  "song_id": "137",
  "title": "Angel dust",
  "artist": "LV.4",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "angeldust",
+ "artist_romaji": "lv4",
  "genre": "VARIETY",
  "bpm": "170",
  "version": "AIR",
@@ -33,7 +33,12 @@
       "slide": 12,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02037",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 12,
       "ex_tap": 35
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02037",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air": 43,
       "hold": 49
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02037",
+     "key": "exp"
+    },
+    "youtube": [
+     "O3bsD5ii_1M"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air_hold": 37,
       "hold": 15
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02037",
+     "key": "mst"
+    },
+    "youtube": [
+     "Akj0pUxOICY",
+     "DTcTgOlNahs"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "137",
    "image": "13a5a9ca35a9b71b.jpg"
+  },
+  "sdvxin": {
+   "id": "02037",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 27967
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "137-angel-dust"
+ }
 }

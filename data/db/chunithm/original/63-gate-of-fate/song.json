@@ -3,8 +3,8 @@
  "song_id": "63",
  "title": "Gate of Fate",
  "artist": "Godspeed",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "gateoffate",
+ "artist_romaji": "godspeed",
  "genre": "ORIGINAL",
  "bpm": "128",
  "version": "無印",
@@ -33,7 +33,12 @@
       "air_hold": 5,
       "ex_tap": 15
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01074",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 4,
       "air": 27
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01074",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "ex_tap": 74,
       "air_hold": 35
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01074",
+     "key": "exp"
+    },
+    "youtube": [
+     "ZGw-DjQxt-E"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "flick": 25,
       "slide": 37
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01074",
+     "key": "mst"
+    },
+    "youtube": [
+     "GuWcaIqvXsI",
+     "-ipxGf6aLVs"
+    ]
    },
    "status": "extracted",
    "notes": "6 exact duplicate lines ignored",
@@ -159,10 +184,35 @@
       "air_hold": 72,
       "flick": 17
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01074",
+     "key": "ult"
+    },
+    "youtube": [
+     "_KKTmBiHbWk",
+     "uBPOS41NE2s"
+    ]
    },
    "status": "extracted",
    "notes": "127 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "改☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "067",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -170,6 +220,10 @@
   "otogedb": {
    "id": "63",
    "image": "2df15f390356067f.jpg"
+  },
+  "sdvxin": {
+   "id": "01074",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -183,5 +237,7 @@
    "bytes": 32200
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "63-gate-of-fate"
+ }
 }

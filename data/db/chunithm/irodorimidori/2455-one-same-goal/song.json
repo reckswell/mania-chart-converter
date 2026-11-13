@@ -3,8 +3,8 @@
  "song_id": "2455",
  "title": "ONE SAME GOAL",
  "artist": "箱部 なる(CV:M・A・O)＆藤堂 陽南袴(CV:八島 さらら)＆天王洲 なずな(CV:山本 彩乃)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "onesamegoal",
+ "artist_romaji": "hakobenaru mao toudouhinako yashimasarara tennouzunazuna yamamotoayano",
  "genre": "イロドリミドリ",
  "bpm": "150",
  "version": "SUN+",
@@ -33,7 +33,12 @@
       "slide": 24,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08184",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 99,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08184",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored; combo 869 in the .c2s differs from the published note count 867 (chart revised since this file?)",
@@ -93,7 +103,14 @@
       "hold": 89,
       "tap": 255
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08184",
+     "key": "exp"
+    },
+    "youtube": [
+     "-XLIzflV3pM"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "air_hold": 90,
       "ex_tap": 209
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08184",
+     "key": "mst"
+    },
+    "youtube": [
+     "8w_AFQ2ynRA",
+     "ZTtIwvd97jo"
+    ]
    },
    "status": "extracted",
    "notes": "218 exact duplicate lines ignored",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2455",
    "image": "e3db885455fb0f73.jpg"
+  },
+  "sdvxin": {
+   "id": "08184",
+   "list": "songs08.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 30875
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2455-one-same-goal"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "660",
  "title": "シャルル",
  "artist": "バルーン",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "sharuru",
+ "artist_romaji": "barun",
  "genre": "niconico",
  "bpm": "145",
  "version": "AMAZON",
@@ -33,7 +33,12 @@
       "slide": 17,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04006",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 45,
       "air": 11
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04006",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "ex_tap": 37,
       "air_hold": 22
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04006",
+     "key": "exp"
+    },
+    "youtube": [
+     "ruYrrbR1m28"
+    ]
    },
    "status": "extracted",
    "notes": "8 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "hold": 29,
       "flick": 97
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04006",
+     "key": "mst"
+    },
+    "youtube": [
+     "v2x6-PBgiaw",
+     "ZMi72-4Vufw"
+    ]
    },
    "status": "extracted",
    "notes": "13 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "660",
    "image": "0bbd22cb8d4513a2.jpg"
+  },
+  "sdvxin": {
+   "id": "04006",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -150,6 +179,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "660"
  }
 }

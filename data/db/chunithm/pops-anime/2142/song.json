@@ -3,8 +3,8 @@
  "song_id": "2142",
  "title": "うまぴょい伝説",
  "artist": "スペシャルウィーク （CV.和氣あず未）、サイレンススズカ （CV.高野麻里佳）、トウカイテイオー （CV.Machico）",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "umapyoidensetsu",
+ "artist_romaji": "specialweek wakiazumi sairensusuzuka takanomarika toukaiteioo machico",
  "genre": "POPS & ANIME",
  "bpm": "170",
  "version": "NEW",
@@ -33,7 +33,12 @@
       "slide": 28,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07010",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "tap": 128,
       "air_hold": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07010",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 54,
       "hold": 47
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07010",
+     "key": "exp"
+    },
+    "youtube": [
+     "i37rfNoilEk"
+    ]
    },
    "status": "extracted",
    "notes": "44 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "tap": 362,
       "flick": 50
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07010",
+     "key": "mst"
+    },
+    "youtube": [
+     "d7zQtxBtypE",
+     "usWUYeeFw3s"
+    ]
    },
    "status": "extracted",
    "notes": "148 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2142",
    "image": "886b18df2812e35c.jpg"
+  },
+  "sdvxin": {
+   "id": "07010",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -150,6 +179,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2142"
  }
 }

@@ -3,8 +3,8 @@
  "song_id": "2393",
  "title": "カレシのジュード",
  "artist": "syudou",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "kareshinojuudo",
+ "artist_romaji": "syudou",
  "genre": "niconico",
  "bpm": "165",
  "version": "SUN+",
@@ -33,7 +33,12 @@
       "ex_tap": 36,
       "air_hold": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08124",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "tap": 217,
       "air_hold": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08124",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 54,
       "air": 91
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08124",
+     "key": "exp"
+    },
+    "youtube": [
+     "XsqH66ESJjc"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -126,7 +143,15 @@
       "flick": 109,
       "other": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08124",
+     "key": "mst"
+    },
+    "youtube": [
+     "QmIoiJlcnTE",
+     "OgFuBBSWlO8"
+    ]
    },
    "status": "extracted",
    "notes": "19 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2393",
    "image": "c95980761b92022c.jpg"
+  },
+  "sdvxin": {
+   "id": "08124",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -151,6 +180,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2393"
  }
 }

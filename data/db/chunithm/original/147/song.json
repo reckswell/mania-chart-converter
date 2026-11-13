@@ -3,8 +3,8 @@
  "song_id": "147",
  "title": "こころここから",
  "artist": "ふわりP",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "kokorokokokara",
+ "artist_romaji": "fuwarip",
  "genre": "ORIGINAL",
  "bpm": "88",
  "version": "無印",
@@ -33,7 +33,12 @@
       "air_hold": 5,
       "ex_tap": 11
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01075",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 17,
       "ex_tap": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01075",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air": 36,
       "air_hold": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01075",
+     "key": "exp"
+    },
+    "youtube": [
+     "4JXxRyFKCc4"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,9 +142,34 @@
       "air_hold": 50,
       "slide": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01075",
+     "key": "mst"
+    },
+    "youtube": [
+     "4lDQo86dURg",
+     "8BaBA98vQy0"
+    ]
    },
    "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "半☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "009",
+     "key": "end"
+    }
+   },
+   "status": "listed",
    "notes": "",
    "assets": {}
   }
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "147",
    "image": "11c069c726d54e0b.jpg"
+  },
+  "sdvxin": {
+   "id": "01075",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 24856
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "147"
+ }
 }

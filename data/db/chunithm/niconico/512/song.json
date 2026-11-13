@@ -3,8 +3,8 @@
  "song_id": "512",
  "title": "フラジール",
  "artist": "ぬゆり",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "fragile",
+ "artist_romaji": "nuyuri",
  "genre": "niconico",
  "bpm": "127",
  "version": "STAR",
@@ -33,7 +33,12 @@
       "ex_tap": 9,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03083",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 15,
       "air_hold": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03083",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "slide": 71,
       "air": 52
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03083",
+     "key": "exp"
+    },
+    "youtube": [
+     "9KiR2R4_7dM"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "air_hold": 35,
       "flick": 49
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03083",
+     "key": "mst"
+    },
+    "youtube": [
+     "wDQx_roFW5g",
+     "IHVLNZLGhDE"
+    ]
    },
    "status": "extracted",
    "notes": "41 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "512",
    "image": "139faf69450e65ad.jpg"
+  },
+  "sdvxin": {
+   "id": "03083",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 21539
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "512"
+ }
 }

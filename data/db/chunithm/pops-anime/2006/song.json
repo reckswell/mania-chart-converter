@@ -3,8 +3,8 @@
  "song_id": "2006",
  "title": "香水",
  "artist": "瑛人",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "kousui",
+ "artist_romaji": "eito",
  "genre": "POPS & ANIME",
  "bpm": "122",
  "version": "NEW",
@@ -33,7 +33,12 @@
       "ex_tap": 5,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07005",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 15,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07005",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air_hold": 30,
       "ex_tap": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07005",
+     "key": "exp"
+    },
+    "youtube": [
+     "OymxP_TGhyE"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "flick": 13,
       "ex_tap": 3
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07005",
+     "key": "mst"
+    },
+    "youtube": [
+     "UMBOHIDcUfY",
+     "t3DNaxXCA0s"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2006",
    "image": "bed1e1a45185a438.jpg"
+  },
+  "sdvxin": {
+   "id": "07005",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -150,6 +179,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2006"
  }
 }

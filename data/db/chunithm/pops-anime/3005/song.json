@@ -3,8 +3,8 @@
  "song_id": "3005",
  "title": "ハッピーラッキーチャッピー",
  "artist": "ano「タコピーの原罪」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "happyluckychappy",
+ "artist_romaji": "ano takopiinogenzai",
  "genre": "POPS & ANIME",
  "bpm": "150",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 80,
     "air": 34
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11001",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 125,
     "air": 68
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11001",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 138
    },
    "source": {
-    "sdvxin_legacy": "11/11001exp"
+    "sdvxin_legacy": "11/11001exp",
+    "sdvxin": {
+     "id": "11001",
+     "key": "exp"
+    },
+    "youtube": [
+     "FBpx_Zkx2IA"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11001mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11001mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11001mst.png",
+    "sdvxin": {
+     "id": "11001",
+     "key": "mst"
+    },
+    "youtube": [
+     "fH48Q5L9GL8",
+     "Nyjw9zzxtTM"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3005",
    "image": "618ebb681eb66c2d.jpg"
+  },
+  "sdvxin": {
+   "id": "11001",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 29529
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3005"
+ }
 }

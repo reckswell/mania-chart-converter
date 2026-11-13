@@ -3,8 +3,8 @@
  "song_id": "275",
  "title": "愛言葉",
  "artist": "DECO*27",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "aikotoba",
+ "artist_romaji": "deco27",
  "genre": "niconico",
  "bpm": "137",
  "version": "AIR",
@@ -33,7 +33,12 @@
       "ex_tap": 9,
       "air_hold": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02087",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 19,
       "air_hold": 20
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02087",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 27,
       "slide": 61
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02087",
+     "key": "exp"
+    },
+    "youtube": [
+     "ya20uI3wKgI"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air_hold": 72,
       "ex_tap": 21
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02087",
+     "key": "mst"
+    },
+    "youtube": [
+     "QQNVTimWobo",
+     "aydejmbI5S0"
+    ]
    },
    "status": "extracted",
    "notes": "32 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "275",
    "image": "169a5a5ffa300cb7.jpg"
+  },
+  "sdvxin": {
+   "id": "02087",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -150,6 +179,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "275"
  }
 }

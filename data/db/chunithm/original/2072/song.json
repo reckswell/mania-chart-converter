@@ -3,8 +3,8 @@
  "song_id": "2072",
  "title": "妖怪ですから",
  "artist": "ぼっちぼろまる",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "youkaidesukara",
+ "artist_romaji": "botchiboromaru",
  "genre": "ORIGINAL",
  "bpm": "120",
  "version": "PARADISE×",
@@ -33,7 +33,12 @@
       "slide": 18,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06113",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "MET 4/0 at tick 39888 ignored",
@@ -62,7 +67,12 @@
       "air_hold": 11,
       "air": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06113",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "MET 4/0 at tick 39888 ignored",
@@ -92,7 +102,14 @@
       "air_hold": 66,
       "slide": 93
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06113",
+     "key": "exp"
+    },
+    "youtube": [
+     "rsRjzvVLdmw"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored; MET 4/0 at tick 39888 ignored",
@@ -125,7 +142,15 @@
       "ex_tap": 211,
       "air_hold": 55
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06113",
+     "key": "mst"
+    },
+    "youtube": [
+     "1ZUfFEgz5Ow",
+     "iBg-8o-TaBc"
+    ]
    },
    "status": "extracted",
    "notes": "6 exact duplicate lines ignored; MET 0/4 at tick 39552 ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2072",
    "image": "2aee219df8b9a41b.jpg"
+  },
+  "sdvxin": {
+   "id": "06113",
+   "list": "songs06.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 22987
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2072"
+ }
 }

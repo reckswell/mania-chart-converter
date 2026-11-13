@@ -3,8 +3,8 @@
  "song_id": "2805",
  "title": "Galaxy Blaster",
  "artist": "ああああ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "galaxyblaster",
+ "artist_romaji": "aaaa",
  "genre": "ゲキマイ",
  "bpm": "208",
  "version": "VERSE",
@@ -33,7 +33,12 @@
       "slide": 12,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10101",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 88,
       "air_hold": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10101",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "ex_tap": 294,
       "air": 87
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10101",
+     "key": "exp"
+    },
+    "youtube": [
+     "nHCN_t28oik"
+    ]
    },
    "status": "extracted",
    "notes": "55 exact duplicate lines ignored",
@@ -126,7 +143,15 @@
       "flick": 176,
       "other": 74
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10101",
+     "key": "mst"
+    },
+    "youtube": [
+     "BQ0cCSsAA_s",
+     "mMya-K_H7P0"
+    ]
    },
    "status": "extracted",
    "notes": "57 exact duplicate lines ignored; not represented: SLP×10",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2805",
    "image": "b67a3cd749371d4c.jpg"
+  },
+  "sdvxin": {
+   "id": "10101",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 25912
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2805-galaxy-blaster"
+ }
 }

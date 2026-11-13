@@ -3,8 +3,8 @@
  "song_id": "3016",
  "title": "英雄の証",
  "artist": "カプコン・サウンドチーム",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "eiyuunoakashi",
+ "artist_romaji": "capcom soundteam",
  "genre": "VARIETY",
  "bpm": "108",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 96,
     "air": 84
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11014",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 334,
     "air": 138
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11014",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 326
    },
    "source": {
-    "sdvxin_legacy": "11/11014exp"
+    "sdvxin_legacy": "11/11014exp",
+    "sdvxin": {
+     "id": "11014",
+     "key": "exp"
+    },
+    "youtube": [
+     "cvchXXRQGfc"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11014mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11014mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11014mst.png",
+    "sdvxin": {
+     "id": "11014",
+     "key": "mst"
+    },
+    "youtube": [
+     "8IuZhmq4G0w",
+     "Ne3_QO7Hiec"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3016",
    "image": "33402ca854a4b91a.jpg"
+  },
+  "sdvxin": {
+   "id": "11014",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 18624
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3016"
+ }
 }

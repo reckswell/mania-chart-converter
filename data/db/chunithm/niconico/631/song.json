@@ -3,8 +3,8 @@
  "song_id": "631",
  "title": "初音ミクの激唱",
  "artist": "Storyteller",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "hatsunemikunogekishou",
+ "artist_romaji": "storyteller",
  "genre": "niconico",
  "bpm": "200",
  "version": "STAR+",
@@ -33,7 +33,12 @@
       "slide": 14,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03164",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 126,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03164",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air_hold": 20,
       "hold": 45
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03164",
+     "key": "exp"
+    },
+    "youtube": [
+     "zXxjp42wCks"
+    ]
    },
    "status": "extracted",
    "notes": "40 exact duplicate lines ignored",
@@ -125,10 +142,35 @@
       "flick": 55,
       "slide": 121
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03164",
+     "key": "mst"
+    },
+    "youtube": [
+     "hlIAEmcrcgA",
+     "tkkncb_ztfw"
+    ]
    },
    "status": "extracted",
    "notes": "47 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "招☆☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "127",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "631",
    "image": "34427a09efd9c2c7.jpg"
+  },
+  "sdvxin": {
+   "id": "03164",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 22331
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "631"
+ }
 }

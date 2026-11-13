@@ -3,8 +3,8 @@
  "song_id": "2549",
  "title": "どこにもいかない",
  "artist": "箱部 なる(CV:M・A・O)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "dokonimoikanai",
+ "artist_romaji": "hakobenaru mao",
  "genre": "イロドリミドリ",
  "bpm": "146",
  "version": "LUMINOUS",
@@ -33,7 +33,12 @@
       "slide": 25,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09014",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 10,
       "slide": 71
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09014",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 65,
       "air": 30
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09014",
+     "key": "exp"
+    },
+    "youtube": [
+     "pxHZXp_kz3Y"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "hold": 36,
       "air_hold": 43
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09014",
+     "key": "mst"
+    },
+    "youtube": [
+     "uTc2habdu4M",
+     "-rp5G3e3JBQ"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2549",
    "image": "e4a4dca49f290a20.jpg"
+  },
+  "sdvxin": {
+   "id": "09014",
+   "list": "songs09.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 31198
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2549"
+ }
 }

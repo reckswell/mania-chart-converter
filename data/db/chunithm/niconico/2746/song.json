@@ -3,8 +3,8 @@
  "song_id": "2746",
  "title": "オーバーライド",
  "artist": "吉田夜世",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "override",
+ "artist_romaji": "yoshidayosei",
  "genre": "niconico",
  "bpm": "204",
  "version": "VERSE",
@@ -33,7 +33,12 @@
       "slide": 28,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10063",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "combo 538 in the .c2s differs from the published note count 533 (chart revised since this file?)",
@@ -62,7 +67,12 @@
       "ex_tap": 27,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10063",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -93,7 +103,14 @@
       "air_hold": 24,
       "other": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10063",
+     "key": "exp"
+    },
+    "youtube": [
+     "WKQwqZM2Szo"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -126,7 +143,15 @@
       "flick": 139,
       "air_hold": 27
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10063",
+     "key": "mst"
+    },
+    "youtube": [
+     "t8cUmNFMGO8",
+     "9egr20lQL1g"
+    ]
    },
    "status": "extracted",
    "notes": "5 exact duplicate lines ignored; combo 2029 in the .c2s differs from the published note count 2027 (chart revised since this file?)",
@@ -160,7 +185,15 @@
       "flick": 105,
       "other": 55
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10063",
+     "key": "ult"
+    },
+    "youtube": [
+     "zeoQAhdZLkw",
+     "l4xCEhyZCN0"
+    ]
    },
    "status": "extracted",
    "notes": "201 exact duplicate lines ignored; not represented: SLP×9",
@@ -171,6 +204,10 @@
   "otogedb": {
    "id": "2746",
    "image": "2398cab8269957d2.jpg"
+  },
+  "sdvxin": {
+   "id": "10063",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -184,5 +221,7 @@
    "bytes": 22844
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2746"
+ }
 }

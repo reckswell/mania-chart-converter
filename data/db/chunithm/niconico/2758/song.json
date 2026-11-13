@@ -3,8 +3,8 @@
  "song_id": "2758",
  "title": "ラビットホール",
  "artist": "DECO*27",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "rabbithole",
+ "artist_romaji": "deco27",
  "genre": "niconico",
  "bpm": "173",
  "version": "VERSE",
@@ -33,7 +33,12 @@
       "slide": 26,
       "air_hold": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10074",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "tap": 204,
       "air": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10074",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 58,
       "air": 103
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10074",
+     "key": "exp"
+    },
+    "youtube": [
+     "Wto3Bzq7zeU"
+    ]
    },
    "status": "extracted",
    "notes": "combo 1558 in the .c2s differs from the published note count 1556 (chart revised since this file?)",
@@ -126,7 +143,15 @@
       "slide": 91,
       "other": 149
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10074",
+     "key": "mst"
+    },
+    "youtube": [
+     "R-Ubbg6SH98",
+     "09EtW7gFEVM"
+    ]
    },
    "status": "extracted",
    "notes": "47 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2758",
    "image": "2279fa16c2352320.jpg"
+  },
+  "sdvxin": {
+   "id": "10074",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 29165
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2758"
+ }
 }

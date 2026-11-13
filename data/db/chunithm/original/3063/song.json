@@ -3,8 +3,8 @@
  "song_id": "3063",
  "title": "命スクリプト",
  "artist": "原口沙輔 feat.ななひら",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "inochiscript",
+ "artist_romaji": "haraguchisasuke nanahira",
  "genre": "ORIGINAL",
  "bpm": "140",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 116,
     "air": 77
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11043",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 349,
     "air": 32
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11043",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 88
    },
    "source": {
-    "sdvxin_legacy": "11/11043exp"
+    "sdvxin_legacy": "11/11043exp",
+    "sdvxin": {
+     "id": "11043",
+     "key": "exp"
+    },
+    "youtube": [
+     "802qJrjoWpA"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11043mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11043mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11043mst.png",
+    "sdvxin": {
+     "id": "11043",
+     "key": "mst"
+    },
+    "youtube": [
+     "nQ8IhfvZvao",
+     "nZowOFdAvOE"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3063",
    "image": "edd45fa3fc22a59e.jpg"
+  },
+  "sdvxin": {
+   "id": "11043",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 29126
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3063"
+ }
 }

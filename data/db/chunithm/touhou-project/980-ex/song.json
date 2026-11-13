@@ -3,8 +3,8 @@
  "song_id": "980",
  "title": "レータイスパークEx",
  "artist": "ビートまりお（COOL&CREATE）",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "reitaisparkex",
+ "artist_romaji": "beatmario cool&create",
  "genre": "東方Project",
  "bpm": "210",
  "version": "CRYSTAL+",
@@ -33,7 +33,12 @@
       "slide": 34,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05132",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 24,
       "air": 28
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05132",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "slide": 66,
       "air_hold": 62
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05132",
+     "key": "exp"
+    },
+    "youtube": [
+     "VzIi6DAv5Eg"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "hold": 41,
       "slide": 103
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05132",
+     "key": "mst"
+    },
+    "youtube": [
+     "GwrriqXFQCk",
+     "U3fAWzSaaJ0"
+    ]
    },
    "status": "extracted",
    "notes": "6 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "980",
    "image": "5052d001eb826ceb.jpg"
+  },
+  "sdvxin": {
+   "id": "05132",
+   "list": "songs05.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 32156
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "980-ex"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "3020",
  "title": "勦滅",
  "artist": "siqlo",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "soumetsu",
+ "artist_romaji": "siqlo",
  "genre": "ゲキマイ",
  "bpm": "200",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 130,
     "air": 81
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11018",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 252,
     "air": 75
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11018",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 159
    },
    "source": {
-    "sdvxin_legacy": "11/11018exp"
+    "sdvxin_legacy": "11/11018exp",
+    "sdvxin": {
+     "id": "11018",
+     "key": "exp"
+    },
+    "youtube": [
+     "_9P4C3G38Xg"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11018mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11018mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11018mst.png",
+    "sdvxin": {
+     "id": "11018",
+     "key": "mst"
+    },
+    "youtube": [
+     "jJPXWbnIH3M",
+     "_rYRYni-Kuo"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3020",
    "image": "1592419d182adb91.jpg"
+  },
+  "sdvxin": {
+   "id": "11018",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 27319
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3020"
+ }
 }

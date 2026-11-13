@@ -3,8 +3,8 @@
  "song_id": "3054",
  "title": "風呂入るプロファイル",
  "artist": "もちうつね",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "hurohairu profile",
+ "artist_romaji": "mochiutsune",
  "genre": "niconico",
  "bpm": "190",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 124,
     "air": 52
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11059",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 448,
     "air": 63
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11059",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 90
    },
    "source": {
-    "sdvxin_legacy": "10/11059exp"
+    "sdvxin_legacy": "10/11059exp",
+    "sdvxin": {
+     "id": "11059",
+     "key": "exp"
+    },
+    "youtube": [
+     "V-gCfcr6tyU"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "10/11059mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11059mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11059mst.png",
+    "sdvxin": {
+     "id": "11059",
+     "key": "mst"
+    },
+    "youtube": [
+     "YKbWh7cblnw",
+     "Ld-89w44GLU"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3054",
    "image": "8202b8274c1feed0.jpg"
+  },
+  "sdvxin": {
+   "id": "11059",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 22186
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3054"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "2200",
  "title": "Dig Delight!",
  "artist": "Happy Around!「D4DJ Groovy Mix」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "digdelight",
+ "artist_romaji": "happyaround d4djgroovymix",
  "genre": "POPS & ANIME",
  "bpm": "179",
  "version": "NEW+",
@@ -33,7 +33,12 @@
       "slide": 19,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07173",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 25,
       "air": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07173",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -93,7 +103,14 @@
       "air": 30,
       "other": 68
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07173",
+     "key": "exp"
+    },
+    "youtube": [
+     "uJqJV4ud3Ng"
+    ]
    },
    "status": "extracted",
    "notes": "14 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "other": 180,
       "hold": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07173",
+     "key": "mst"
+    },
+    "youtube": [
+     "NNK_kMarHMg",
+     "gUdpls0ZIyA"
+    ]
    },
    "status": "extracted",
    "notes": "5 exact duplicate lines ignored",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2200",
    "image": "569ce846a431effd.jpg"
+  },
+  "sdvxin": {
+   "id": "07173",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -152,6 +181,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2200-dig-delight"
  }
 }

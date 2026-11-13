@@ -3,8 +3,8 @@
  "song_id": "2010",
  "title": "夜に駆ける",
  "artist": "YOASOBI",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "yorunikakeru",
+ "artist_romaji": "yoasobi",
  "genre": "POPS & ANIME",
  "bpm": "130",
  "version": "NEW",
@@ -33,7 +33,12 @@
       "slide": 23,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07004",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 44,
       "ex_tap": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07004",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air": 48,
       "ex_tap": 97
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07004",
+     "key": "exp"
+    },
+    "youtube": [
+     "VC8Tkzc-UfI"
+    ]
    },
    "status": "extracted",
    "notes": "7 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air": 128,
       "flick": 48
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07004",
+     "key": "mst"
+    },
+    "youtube": [
+     "PHeZYGh8A4k",
+     "Z_xy5G1tpc8"
+    ]
    },
    "status": "extracted",
    "notes": "13 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2010",
    "image": "9f56347aea911ba8.jpg"
+  },
+  "sdvxin": {
+   "id": "07004",
+   "list": "songs07.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 11956
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2010"
+ }
 }

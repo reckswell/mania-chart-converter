@@ -3,8 +3,8 @@
  "song_id": "2477",
  "title": "sølips",
  "artist": "rintaro soma",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "solips",
+ "artist_romaji": "rintarosoma",
  "genre": "ゲキマイ",
  "bpm": "199",
  "version": "SUN+",
@@ -33,7 +33,12 @@
       "slide": 24,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08205",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 158,
       "hold": 40
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08205",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored; combo 1205 in the .c2s differs from the published note count 1201 (chart revised since this file?)",
@@ -93,7 +103,14 @@
       "tap": 368,
       "other": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08205",
+     "key": "exp"
+    },
+    "youtube": [
+     "vt90J4E866o"
+    ]
    },
    "status": "extracted",
    "notes": "5 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "slide": 62,
       "air_hold": 39
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08205",
+     "key": "mst"
+    },
+    "youtube": [
+     "GFGiCzOwQOw",
+     "GVZiVtLFMPw"
+    ]
    },
    "status": "extracted",
    "notes": "39 exact duplicate lines ignored; not represented: SLP×9",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2477",
    "image": "f5e39f5f2baeb2ad.jpg"
+  },
+  "sdvxin": {
+   "id": "08205",
+   "list": "songs08.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 21296
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2477-slips"
+ }
 }

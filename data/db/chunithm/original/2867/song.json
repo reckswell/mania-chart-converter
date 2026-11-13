@@ -3,8 +3,8 @@
  "song_id": "2867",
  "title": "システム",
  "artist": "大漠波新 feat.ウォルピスカーター",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "system",
+ "artist_romaji": "daibakuhashin wolpiskater",
  "genre": "ORIGINAL",
  "bpm": "141",
  "version": "X-VERSE",
@@ -33,7 +33,12 @@
       "ex_tap": 27,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10154",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 18,
       "air_hold": 7
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10154",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -93,7 +103,14 @@
       "air": 45,
       "other": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10154",
+     "key": "exp"
+    },
+    "youtube": [
+     "83Wgmy3OPAc"
+    ]
    },
    "status": "extracted",
    "notes": "23 exact duplicate lines ignored",
@@ -126,7 +143,15 @@
       "slide": 111,
       "air_hold": 38
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10154",
+     "key": "mst"
+    },
+    "youtube": [
+     "DDvmRMS-BW8",
+     "GMPzY48adu8"
+    ]
    },
    "status": "extracted",
    "notes": "8 exact duplicate lines ignored; combo 1400 in the .c2s differs from the published note count 1391 (chart revised since this file?)",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2867",
    "image": "ff674bf7edab0f4c.jpg"
+  },
+  "sdvxin": {
+   "id": "10154",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 24270
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2867"
+ }
 }

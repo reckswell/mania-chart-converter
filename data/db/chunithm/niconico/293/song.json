@@ -3,8 +3,8 @@
  "song_id": "293",
  "title": "インビジブル",
  "artist": "kemu",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "inbijiburu",
+ "artist_romaji": "kemu",
  "genre": "niconico",
  "bpm": "192",
  "version": "AIR",
@@ -33,7 +33,12 @@
       "ex_tap": 31,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02055",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 17,
       "hold": 29
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02055",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air": 97,
       "slide": 59
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02055",
+     "key": "exp"
+    },
+    "youtube": [
+     "kCoFPoetzGo"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "hold": 58,
       "flick": 159
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02055",
+     "key": "mst"
+    },
+    "youtube": [
+     "jX1_wO0f_NU",
+     "uqaIs-6yItU"
+    ]
    },
    "status": "extracted",
    "notes": "17 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "293",
    "image": "c58227eb0d14938c.jpg"
+  },
+  "sdvxin": {
+   "id": "02055",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 20763
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "293"
+ }
 }

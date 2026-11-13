@@ -3,8 +3,8 @@
  "song_id": "24",
  "title": "ドーナツホール",
  "artist": "ハチ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "dounatsuhouru",
+ "artist_romaji": "hachi",
  "genre": "niconico",
  "bpm": "252",
  "version": "STAR+",
@@ -33,7 +33,12 @@
       "slide": 21,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03132",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "not represented: CLK×4",
@@ -62,7 +67,12 @@
       "slide": 42,
       "air_hold": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03132",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored; not represented: CLK×4",
@@ -92,7 +102,14 @@
       "air": 84,
       "air_hold": 45
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03132",
+     "key": "exp"
+    },
+    "youtube": [
+     "qavso739VW4"
+    ]
    },
    "status": "extracted",
    "notes": "not represented: CLK×4",
@@ -125,7 +142,15 @@
       "slide": 126,
       "hold": 94
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03132",
+     "key": "mst"
+    },
+    "youtube": [
+     "98XxKpGH0E4",
+     "SufNUl2Ny80"
+    ]
    },
    "status": "extracted",
    "notes": "103 exact duplicate lines ignored; not represented: CLK×4",
@@ -146,7 +171,15 @@
    },
    "source": {
     "sdvxin_legacy": "ult/03132ult",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/03132ult.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/03132ult.png",
+    "sdvxin": {
+     "id": "03132",
+     "key": "ult"
+    },
+    "youtube": [
+     "8Gw3I0qoyew",
+     "iW0FMxKHYjk"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -157,6 +190,10 @@
   "otogedb": {
    "id": "24",
    "image": "85fe9e23d161b2b1.jpg"
+  },
+  "sdvxin": {
+   "id": "03132",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -170,5 +207,7 @@
    "bytes": 9275
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "24"
+ }
 }

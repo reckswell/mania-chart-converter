@@ -3,8 +3,8 @@
  "song_id": "2221",
  "title": "Last Kingdom",
  "artist": "USAO",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "lastkingdom",
+ "artist_romaji": "usao",
  "genre": "ゲキマイ",
  "bpm": "150",
  "version": "NEW+",
@@ -33,7 +33,12 @@
       "slide": 20,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07195",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 52,
       "ex_tap": 20
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07195",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -93,7 +103,14 @@
       "air": 100,
       "other": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07195",
+     "key": "exp"
+    },
+    "youtube": [
+     "UMKXZP3JkvI"
+    ]
    },
    "status": "extracted",
    "notes": "6 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "flick": 104,
       "other": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07195",
+     "key": "mst"
+    },
+    "youtube": [
+     "WCuS40r7OP0",
+     "vQwGfRBEbfo"
+    ]
    },
    "status": "extracted",
    "notes": "8 exact duplicate lines ignored",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2221",
    "image": "7c225d56e3d97af0.jpg"
+  },
+  "sdvxin": {
+   "id": "07195",
+   "list": "songs07.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 29483
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2221-last-kingdom"
+ }
 }

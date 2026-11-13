@@ -3,8 +3,8 @@
  "song_id": "156",
  "title": "FREELY TOMORROW",
  "artist": "Mitchie M",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "freelytomorrow",
+ "artist_romaji": "mitchiem",
  "genre": "niconico",
  "bpm": "129",
  "version": "無印",
@@ -33,7 +33,12 @@
       "air_hold": 4,
       "ex_tap": 15
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01095",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 10,
       "ex_tap": 22
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01095",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air": 18,
       "air_hold": 22
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01095",
+     "key": "exp"
+    },
+    "youtube": [
+     "VaD_jaQ1n1w"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,9 +142,34 @@
       "air": 62,
       "flick": 66
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01095",
+     "key": "mst"
+    },
+    "youtube": [
+     "CAfzqCgUQC0",
+     "ajxQDwJ_0vw"
+    ]
    },
    "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "避☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "066",
+     "key": "end"
+    }
+   },
+   "status": "listed",
    "notes": "",
    "assets": {}
   }
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "156",
    "image": "b33923bd4e6e5609.jpg"
+  },
+  "sdvxin": {
+   "id": "01095",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -150,6 +196,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "156-freely-tomorrow"
  }
 }

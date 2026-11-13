@@ -3,8 +3,8 @@
  "song_id": "428",
  "title": "Aleph-0",
  "artist": "LeaF",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "aleph0",
+ "artist_romaji": "leaf",
  "genre": "VARIETY",
  "bpm": "250",
  "version": "SUN",
@@ -33,7 +33,12 @@
       "slide": 23,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08015",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "combo 445 in the .c2s differs from the published note count 446 (chart revised since this file?)",
@@ -62,7 +67,12 @@
       "air": 8,
       "slide": 27
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08015",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -91,7 +101,15 @@
       "other": 8,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08015",
+     "key": "exp"
+    },
+    "youtube": [
+     "VZPgichDuRY",
+     "9OJKETezxcc"
+    ]
    },
    "status": "extracted",
    "notes": "39 exact duplicate lines ignored",
@@ -124,7 +142,15 @@
       "slide": 80,
       "air_hold": 46
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08015",
+     "key": "mst"
+    },
+    "youtube": [
+     "bU8wT25_9Mo",
+     "QXkS8I7-LcI"
+    ]
    },
    "status": "extracted",
    "notes": "263 exact duplicate lines ignored",
@@ -158,7 +184,15 @@
       "slide": 10,
       "hold": 21
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08015",
+     "key": "ult"
+    },
+    "youtube": [
+     "iOvR0MZ2pvI",
+     "LRd48M7ZNFs"
+    ]
    },
    "status": "extracted",
    "notes": "36 exact duplicate lines ignored",
@@ -169,6 +203,10 @@
   "otogedb": {
    "id": "428",
    "image": "986a1c6047f3033e.jpg"
+  },
+  "sdvxin": {
+   "id": "08015",
+   "list": "songs08.json"
   }
  },
  "assets": {
@@ -182,5 +220,7 @@
    "bytes": 9835
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "428-aleph-0"
+ }
 }

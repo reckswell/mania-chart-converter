@@ -3,8 +3,8 @@
  "song_id": "202",
  "title": "GEMINI -C-",
  "artist": "Tatsh",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "geminic",
+ "artist_romaji": "tatsh",
  "genre": "ORIGINAL",
  "bpm": "180",
  "version": "PLUS",
@@ -33,7 +33,12 @@
       "slide": 12,
       "air_hold": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01152",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 9,
       "slide": 14
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01152",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "ex_tap": 202,
       "slide": 27
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01152",
+     "key": "exp"
+    },
+    "youtube": [
+     "9rnuL1QbicM"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -124,9 +141,34 @@
       "air_hold": 36,
       "hold": 30
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01152",
+     "key": "mst"
+    },
+    "youtube": [
+     "eUc63-DAaGg",
+     "3a06iohTeNY"
+    ]
    },
    "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "光☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "032",
+     "key": "end"
+    }
+   },
+   "status": "listed",
    "notes": "",
    "assets": {}
   }
@@ -135,6 +177,10 @@
   "otogedb": {
    "id": "202",
    "image": "45112e2818cf80a2.jpg"
+  },
+  "sdvxin": {
+   "id": "01152",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -148,5 +194,7 @@
    "bytes": 30635
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "202-gemini-c"
+ }
 }

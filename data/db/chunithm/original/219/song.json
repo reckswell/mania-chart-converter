@@ -3,8 +3,8 @@
  "song_id": "219",
  "title": "玩具狂奏曲 -終焉-",
  "artist": "きくお",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "gangukyousoukyoku shuuen",
+ "artist_romaji": "kikuo",
  "genre": "ORIGINAL",
  "bpm": "130",
  "version": "AIR",
@@ -33,7 +33,12 @@
       "slide": 20,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02077",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "not represented: CLK×6",
@@ -62,7 +67,12 @@
       "air_hold": 8,
       "ex_tap": 107
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02077",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "12 exact duplicate lines ignored; not represented: CLK×6",
@@ -92,7 +102,14 @@
       "hold": 76,
       "air_hold": 200
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02077",
+     "key": "exp"
+    },
+    "youtube": [
+     "lOrY0-hae0E"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored; not represented: CLK×6",
@@ -125,10 +142,35 @@
       "flick": 73,
       "hold": 150
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02077",
+     "key": "mst"
+    },
+    "youtube": [
+     "GALmhHIo0X0",
+     "e5iW1nNdXOI"
+    ]
    },
    "status": "extracted",
    "notes": "109 exact duplicate lines ignored; not represented: CLK×6",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "敷☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "102",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "219",
    "image": "246f63902c4b0f89.jpg"
+  },
+  "sdvxin": {
+   "id": "02077",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 30916
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "219"
+ }
 }

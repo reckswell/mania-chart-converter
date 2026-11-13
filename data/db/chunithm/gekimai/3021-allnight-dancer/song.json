@@ -3,8 +3,8 @@
  "song_id": "3021",
  "title": "ALLNIGHT_DANCER",
  "artist": "brz1128",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "allnightdancer",
+ "artist_romaji": "brz1128",
  "genre": "ゲキマイ",
  "bpm": "182",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 126,
     "air": 47
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11020",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 342,
     "air": 38
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11020",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 87
    },
    "source": {
-    "sdvxin_legacy": "11/11020exp"
+    "sdvxin_legacy": "11/11020exp",
+    "sdvxin": {
+     "id": "11020",
+     "key": "exp"
+    },
+    "youtube": [
+     "3eU6WbLnilI"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11020mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11020mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11020mst.png",
+    "sdvxin": {
+     "id": "11020",
+     "key": "mst"
+    },
+    "youtube": [
+     "EVrhvUcw2Lk",
+     "vHzymqP4rN4"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3021",
    "image": "6f46b3e9777e5c32.jpg"
+  },
+  "sdvxin": {
+   "id": "11020",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 29734
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3021-allnight-dancer"
+ }
 }

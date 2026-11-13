@@ -3,8 +3,8 @@
  "song_id": "3026",
  "title": "ひなたでワチャチャ",
  "artist": "瀬名航 feat.ねんね",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "hinatadewachacha",
+ "artist_romaji": "senawataru nenne",
  "genre": "ORIGINAL",
  "bpm": "155",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 158,
     "air": 49
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11021",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 162,
     "air": 103
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11021",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 160
    },
    "source": {
-    "sdvxin_legacy": "11/11021exp"
+    "sdvxin_legacy": "11/11021exp",
+    "sdvxin": {
+     "id": "11021",
+     "key": "exp"
+    },
+    "youtube": [
+     "ZY4i0otYwdw"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11021mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11021mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11021mst.png",
+    "sdvxin": {
+     "id": "11021",
+     "key": "mst"
+    },
+    "youtube": [
+     "tXLtwvJHjpw",
+     "xTfZfYhQqrI"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3026",
    "image": "36287ed83351b992.jpg"
+  },
+  "sdvxin": {
+   "id": "11021",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 32408
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3026"
+ }
 }

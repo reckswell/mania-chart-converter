@@ -3,8 +3,8 @@
  "song_id": "2703",
  "title": "Ai C",
  "artist": "Feryquitous",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "aishii",
+ "artist_romaji": "feryquitous",
  "genre": "ゲキマイ",
  "bpm": "191",
  "version": "VERSE",
@@ -33,7 +33,12 @@
       "slide": 22,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10021",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 36,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10021",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "8 exact duplicate lines ignored; combo 752 in the .c2s differs from the published note count 652 (chart revised since this file?)",
@@ -92,7 +102,14 @@
       "slide": 71,
       "air_hold": 7
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10021",
+     "key": "exp"
+    },
+    "youtube": [
+     "DMUVG9dpYbE"
+    ]
    },
    "status": "extracted",
    "notes": "10 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "hold": 126,
       "air_hold": 35
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10021",
+     "key": "mst"
+    },
+    "youtube": [
+     "YdAEYoVuunA",
+     "BpOaZo_wqlc"
+    ]
    },
    "status": "extracted",
    "notes": "25 exact duplicate lines ignored; not represented: SLP×1",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2703",
    "image": "50b5fbd450866d1d.jpg"
+  },
+  "sdvxin": {
+   "id": "10021",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 35476
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2703-ai-c"
+ }
 }

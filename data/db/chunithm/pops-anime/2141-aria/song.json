@@ -3,8 +3,8 @@
  "song_id": "2141",
  "title": "永遠のAria",
  "artist": "雨宮天「七つの大罪 憤怒の審判」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "eiennoaria",
+ "artist_romaji": "amemiyatennanatsunotaizaifundonoshinpan",
  "genre": "POPS & ANIME",
  "bpm": "164",
  "version": "NEW",
@@ -33,7 +33,12 @@
       "slide": 24,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07001",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 10,
       "slide": 37
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07001",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air": 30,
       "ex_tap": 89
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07001",
+     "key": "exp"
+    },
+    "youtube": [
+     "mo7W9--QyCU"
+    ]
    },
    "status": "extracted",
    "notes": "31 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 66,
       "ex_tap": 101
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07001",
+     "key": "mst"
+    },
+    "youtube": [
+     "kp9ReFFCOD4",
+     "AEtFcQsmw68"
+    ]
    },
    "status": "extracted",
    "notes": "29 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2141",
    "image": "d51ad05982838109.jpg"
+  },
+  "sdvxin": {
+   "id": "07001",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -150,6 +179,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2141-aria"
  }
 }

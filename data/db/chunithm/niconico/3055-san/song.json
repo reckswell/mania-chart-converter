@@ -3,8 +3,8 @@
  "song_id": "3055",
  "title": "SAN値直葬",
  "artist": "STEAKA",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "sanchichokusou",
+ "artist_romaji": "steaka",
  "genre": "niconico",
  "bpm": "168",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 104,
     "air": 53
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11060",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 380,
     "air": 13
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11060",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 151
    },
    "source": {
-    "sdvxin_legacy": "10/11060exp"
+    "sdvxin_legacy": "10/11060exp",
+    "sdvxin": {
+     "id": "11060",
+     "key": "exp"
+    },
+    "youtube": [
+     "YFFLcApy-t8"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "10/11060mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11060mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11060mst.png",
+    "sdvxin": {
+     "id": "11060",
+     "key": "mst"
+    },
+    "youtube": [
+     "z0TEZ2IXZPM",
+     "3b7mxUsmTRs"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3055",
    "image": "6d4e076edbf2b46e.jpg"
+  },
+  "sdvxin": {
+   "id": "11060",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 19211
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3055-san"
+ }
 }

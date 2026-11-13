@@ -3,8 +3,8 @@
  "song_id": "3041",
  "title": "Glitch Street",
  "artist": "KARUT「ブルーアーカイブ -Blue Archive-」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "glitchstreet",
+ "artist_romaji": "karut bluearchive",
  "genre": "POPS & ANIME",
  "bpm": "160",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 100,
     "air": 45
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11037",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 232,
     "air": 24
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11037",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 346
    },
    "source": {
-    "sdvxin_legacy": "11/11037exp"
+    "sdvxin_legacy": "11/11037exp",
+    "sdvxin": {
+     "id": "11037",
+     "key": "exp"
+    },
+    "youtube": [
+     "iSiiCrhtb3A"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11037mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11037mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11037mst.png",
+    "sdvxin": {
+     "id": "11037",
+     "key": "mst"
+    },
+    "youtube": [
+     "c4KiycG_FL0",
+     "ibRk1rmVPh8"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3041",
    "image": "b867b55593a36114.jpg"
+  },
+  "sdvxin": {
+   "id": "11037",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 17479
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3041-glitch-street"
+ }
 }

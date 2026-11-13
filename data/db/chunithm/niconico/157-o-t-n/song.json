@@ -3,8 +3,8 @@
  "song_id": "157",
  "title": "ギガンティックO.T.N",
  "artist": "ギガ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "gigantic otn",
+ "artist_romaji": "giga",
  "genre": "niconico",
  "bpm": "190",
  "version": "無印",
@@ -33,7 +33,12 @@
       "slide": 6,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01096",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 30,
       "air_hold": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01096",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 45,
       "air": 49
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01096",
+     "key": "exp"
+    },
+    "youtube": [
+     "CPLXtF_GBhs"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,10 +142,35 @@
       "air_hold": 64,
       "flick": 46
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01096",
+     "key": "mst"
+    },
+    "youtube": [
+     "w9COY5zsL9I",
+     "9phL8_04xfs"
+    ]
    },
    "status": "extracted",
    "notes": "31 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "跳☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "022",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "157",
    "image": "573109ca9050f55d.jpg"
+  },
+  "sdvxin": {
+   "id": "01096",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 31153
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "157-o-t-n"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "2854",
  "title": "カルチャ",
  "artist": "ツミキ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "culture",
+ "artist_romaji": "tsumiki",
  "genre": "niconico",
  "bpm": "172",
  "version": "X-VERSE",
@@ -33,7 +33,12 @@
       "slide": 23,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10149",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "combo 487 in the .c2s differs from the published note count 477 (chart revised since this file?)",
@@ -62,7 +67,12 @@
       "slide": 60,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10149",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "combo 875 in the .c2s differs from the published note count 865 (chart revised since this file?)",
@@ -92,7 +102,14 @@
       "hold": 39,
       "air_hold": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10149",
+     "key": "exp"
+    },
+    "youtube": [
+     "pVOGjaQvVL8"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "air_hold": 59,
       "hold": 61
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10149",
+     "key": "mst"
+    },
+    "youtube": [
+     "jnkIlTRCc4s",
+     "Lu7uNvMVqls"
+    ]
    },
    "status": "extracted",
    "notes": "180 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2854",
    "image": "82dab59af12a8bd5.jpg"
+  },
+  "sdvxin": {
+   "id": "10149",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 24346
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2854"
+ }
 }

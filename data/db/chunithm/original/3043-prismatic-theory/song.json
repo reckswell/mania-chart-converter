@@ -3,8 +3,8 @@
  "song_id": "3043",
  "title": "Prismatic Theory",
  "artist": "荒谷サトル",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "prismatictheory",
+ "artist_romaji": "aratanisatoru",
  "genre": "ORIGINAL",
  "bpm": "148",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 130,
     "air": 75
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11051",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 391,
     "air": 50
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11051",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 159
    },
    "source": {
-    "sdvxin_legacy": "10/11051exp"
+    "sdvxin_legacy": "10/11051exp",
+    "sdvxin": {
+     "id": "11051",
+     "key": "exp"
+    },
+    "youtube": [
+     "g5D1AWv3f8Y"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11051mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11051mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11051mst.png",
+    "sdvxin": {
+     "id": "11051",
+     "key": "mst"
+    },
+    "youtube": [
+     "keiT8acKv-c",
+     "1WuAtVrV2dI"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3043",
    "image": "9c09ad3ceda20c0a.jpg"
+  },
+  "sdvxin": {
+   "id": "11051",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 27319
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3043-prismatic-theory"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "2039",
  "title": "]-[|/34<#!",
  "artist": "並木学（ナミキマナブ）「怒首領蜂大復活」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "hibachi",
+ "artist_romaji": "namikimanabu dodonpachi daihukkatsu",
  "genre": "VARIETY",
  "bpm": "225",
  "version": "NEW",
@@ -33,7 +33,12 @@
       "ex_tap": 46,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07044",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 6,
       "air": 20
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07044",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,15 @@
       "hold": 70,
       "air": 72
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07044",
+     "key": "exp"
+    },
+    "youtube": [
+     "EmGew_WySE0",
+     "AwVhP0VOZA4"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -125,9 +143,34 @@
       "air_hold": 15,
       "ex_tap": 318
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07044",
+     "key": "mst"
+    },
+    "youtube": [
+     "yNOSTz3_RQk",
+     "yYH0SoN3atE"
+    ]
    },
    "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "跳☆☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "229",
+     "key": "end"
+    }
+   },
+   "status": "listed",
    "notes": "",
    "assets": {}
   }
@@ -136,6 +179,10 @@
   "otogedb": {
    "id": "2039",
    "image": "77bb3ca5929cb8f6.jpg"
+  },
+  "sdvxin": {
+   "id": "07044",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -150,6 +197,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2039-34"
  }
 }

@@ -3,8 +3,8 @@
  "song_id": "389",
  "title": "Name of oath",
  "artist": "void (Mournfinale) feat. コツキミヤ (Gt. えば)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "nameofoath",
+ "artist_romaji": "void mournfinale kotsukimiya eba",
  "genre": "VARIETY",
  "bpm": "174",
  "version": "AIR+",
@@ -33,7 +33,12 @@
       "ex_tap": 7,
       "air_hold": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02122",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 25,
       "ex_tap": 20
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02122",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air_hold": 35,
       "slide": 64
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02122",
+     "key": "exp"
+    },
+    "youtube": [
+     "BQDKbCaz4Zs"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air_hold": 13,
       "ex_tap": 131
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02122",
+     "key": "mst"
+    },
+    "youtube": [
+     "rsB5cNh8w5A",
+     "54lC6IpxVt0"
+    ]
    },
    "status": "extracted",
    "notes": "8 exact duplicate lines ignored; combo 1798 in the .c2s differs from the published note count 1801 (chart revised since this file?)",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "389",
    "image": "f7be4abcf8f3e197.jpg"
+  },
+  "sdvxin": {
+   "id": "02122",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 26120
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "389-name-of-oath"
+ }
 }

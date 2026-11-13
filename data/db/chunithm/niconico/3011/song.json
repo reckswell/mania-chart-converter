@@ -3,8 +3,8 @@
  "song_id": "3011",
  "title": "テレパシ",
  "artist": "DECO*27",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "telepathy",
+ "artist_romaji": "deco27",
  "genre": "niconico",
  "bpm": "205",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 128,
     "air": 54
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11007",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 209,
     "air": 67
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11007",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 291
    },
    "source": {
-    "sdvxin_legacy": "11/11007exp"
+    "sdvxin_legacy": "11/11007exp",
+    "sdvxin": {
+     "id": "11007",
+     "key": "exp"
+    },
+    "youtube": [
+     "hW8lobDlydw"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11007mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11007mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11007mst.png",
+    "sdvxin": {
+     "id": "11007",
+     "key": "mst"
+    },
+    "youtube": [
+     "cGMLzEbVyf4",
+     "midF4b4Vd0k"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -99,7 +126,15 @@
    },
    "source": {
     "sdvxin_legacy": "ult/11007ult",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11007ult.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11007ult.png",
+    "sdvxin": {
+     "id": "11007",
+     "key": "ult"
+    },
+    "youtube": [
+     "XCgfPAJqsQY",
+     "gnhOrhlcV4U"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -110,6 +145,10 @@
   "otogedb": {
    "id": "3011",
    "image": "1ed55ea0343fcd75.jpg"
+  },
+  "sdvxin": {
+   "id": "11007",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -123,5 +162,7 @@
    "bytes": 33743
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3011"
+ }
 }

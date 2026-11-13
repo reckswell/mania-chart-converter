@@ -3,8 +3,8 @@
  "song_id": "248",
  "title": "Schrecklicher Aufstand",
  "artist": "Katzeohr & Spiegel",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "schrecklicheraufstand",
+ "artist_romaji": "katzeohr spiegel",
  "genre": "ORIGINAL",
  "bpm": "180",
  "version": "AIR",
@@ -33,7 +33,12 @@
       "slide": 17,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02023",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 40,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02023",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air_hold": 37,
       "hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02023",
+     "key": "exp"
+    },
+    "youtube": [
+     "7qvjUas6Tu8"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,10 +142,35 @@
       "slide": 24,
       "flick": 239
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02023",
+     "key": "mst"
+    },
+    "youtube": [
+     "WAFEvAppzT0",
+     "xBcK-wkAASc"
+    ]
    },
    "status": "extracted",
    "notes": "combo 2195 in the .c2s differs from the published note count 2344 (chart revised since this file?)",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "狂☆☆☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "086",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "248",
    "image": "a2fdef9e4b278a51.jpg"
+  },
+  "sdvxin": {
+   "id": "02023",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 25452
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "248-schrecklicher-aufstand"
+ }
 }

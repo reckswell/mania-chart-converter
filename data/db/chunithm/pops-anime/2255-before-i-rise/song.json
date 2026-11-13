@@ -3,8 +3,8 @@
  "song_id": "2255",
  "title": "Before I Rise",
  "artist": "麻枝 准×やなぎなぎ「ヘブンバーンズレッド」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "beforeirise",
+ "artist_romaji": "maedajun yanaginai heavenburnsred",
  "genre": "POPS & ANIME",
  "bpm": "140",
  "version": "SUN",
@@ -33,7 +33,12 @@
       "slide": 24,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08002",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 10,
       "ex_tap": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08002",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -93,7 +103,14 @@
       "ex_tap": 72,
       "other": 87
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08002",
+     "key": "exp"
+    },
+    "youtube": [
+     "JuSZGx8b-64"
+    ]
    },
    "status": "extracted",
    "notes": "14 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "other": 24,
       "flick": 36
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08002",
+     "key": "mst"
+    },
+    "youtube": [
+     "9O1HZZkUYhc",
+     "4qzEsD4YLN0"
+    ]
    },
    "status": "extracted",
    "notes": "92 exact duplicate lines ignored",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2255",
    "image": "f6111989dc90a1dc.jpg"
+  },
+  "sdvxin": {
+   "id": "08002",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -152,6 +181,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2255-before-i-rise"
  }
 }

@@ -3,8 +3,8 @@
  "song_id": "745",
  "title": "【東方ニコカラ】秘神マターラ feat.魂音泉【IOSYS】",
  "artist": "ARM (IOSYS)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "touhounikokara hishinmatara tamaonsen iosys",
+ "artist_romaji": "arm iosys",
  "genre": "東方Project",
  "bpm": "168",
  "version": "AMAZON+",
@@ -33,7 +33,12 @@
       "slide": 21,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04108",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 33,
       "air_hold": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04108",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air_hold": 89,
       "hold": 21
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04108",
+     "key": "exp"
+    },
+    "youtube": [
+     "RQC9usO5YNk"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -125,10 +142,35 @@
       "hold": 21,
       "air_hold": 79
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04108",
+     "key": "mst"
+    },
+    "youtube": [
+     "WcJLQ0LZpO4",
+     "QYemOwx5nn8"
+    ]
    },
    "status": "extracted",
    "notes": "175 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "布☆☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "173",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "745",
    "image": "6d1c0d5ff0954654.jpg"
+  },
+  "sdvxin": {
+   "id": "04108",
+   "list": "songs04.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 32288
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "745-feat-iosys"
+ }
 }

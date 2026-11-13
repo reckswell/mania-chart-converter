@@ -3,8 +3,8 @@
  "song_id": "464",
  "title": "World Vanquisher",
  "artist": "void (Mournfinale)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "worldvanquisher",
+ "artist_romaji": "void mournfinale",
  "genre": "ORIGINAL",
  "bpm": "170",
  "version": "STAR",
@@ -33,7 +33,12 @@
       "slide": 26,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03038",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 37,
       "air": 38
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03038",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "ex_tap": 342,
       "slide": 89
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03038",
+     "key": "exp"
+    },
+    "youtube": [
+     "HEC7h24nCOY"
+    ]
    },
    "status": "extracted",
    "notes": "39 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air_hold": 121,
       "hold": 30
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03038",
+     "key": "mst"
+    },
+    "youtube": [
+     "G2BLMf2CgrQ",
+     "y3KX6cpEfCA"
+    ]
    },
    "status": "extracted",
    "notes": "122 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "464",
    "image": "6071c5b99b25daef.jpg"
+  },
+  "sdvxin": {
+   "id": "03038",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 29065
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "464-world-vanquisher"
+ }
 }

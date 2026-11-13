@@ -3,8 +3,8 @@
  "song_id": "3012",
  "title": "最終鬼畜妹フランドール・S (原口沙輔は鬼畜なのか？remix)",
  "artist": "ビートまりお × 原口沙輔",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "saishuukichikuimouto flandres haraguchisasukehakichikunanokaremix",
+ "artist_romaji": "beatmario haraguchisasuke",
  "genre": "東方Project",
  "bpm": "200",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 146,
     "air": 56
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11008",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 274,
     "air": 30
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11008",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 143
    },
    "source": {
-    "sdvxin_legacy": "11/11008exp"
+    "sdvxin_legacy": "11/11008exp",
+    "sdvxin": {
+     "id": "11008",
+     "key": "exp"
+    },
+    "youtube": [
+     "58hZAJ-6pTs"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11008mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11008mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11008mst.png",
+    "sdvxin": {
+     "id": "11008",
+     "key": "mst"
+    },
+    "youtube": [
+     "VWw9D7ysHcM",
+     "FKfJwZ-MrB0"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3012",
    "image": "c2b32892f2d395f1.jpg"
+  },
+  "sdvxin": {
+   "id": "11008",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 37007
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3012-s-remix"
+ }
 }

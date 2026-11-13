@@ -3,8 +3,8 @@
  "song_id": "561",
  "title": "純情-SAKURA-",
  "artist": "SPRiNGS「温泉むすめ」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "junjousakura",
+ "artist_romaji": "springs(onsenmusume)",
  "genre": "POPS & ANIME",
  "bpm": "174",
  "version": "STAR+",
@@ -33,7 +33,12 @@
       "ex_tap": 18,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03116",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 21,
       "hold": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03116",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "ex_tap": 109,
       "hold": 11
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03116",
+     "key": "exp"
+    },
+    "youtube": [
+     "GV1CXp-2BuY"
+    ]
    },
    "status": "extracted",
    "notes": "19 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "ex_tap": 125,
       "hold": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03116",
+     "key": "mst"
+    },
+    "youtube": [
+     "1Icx-2IK0uM",
+     "tVdoxPMJ0O8"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "561",
    "image": "eff4f213a2328a1f.jpg"
+  },
+  "sdvxin": {
+   "id": "03116",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 30928
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "561-sakura"
+ }
 }

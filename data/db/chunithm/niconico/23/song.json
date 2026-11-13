@@ -3,8 +3,8 @@
  "song_id": "23",
  "title": "一触即発☆禅ガール",
  "artist": "れるりり",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "isshokusokuhatsuzengirl",
+ "artist_romaji": "reruriri",
  "genre": "niconico",
  "bpm": "190",
  "version": "無印",
@@ -33,7 +33,12 @@
       "air_hold": 3,
       "ex_tap": 14
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01024",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 5,
       "ex_tap": 21
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01024",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "slide": 36,
       "air": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01024",
+     "key": "exp"
+    },
+    "youtube": [
+     "wqAFofY5zLk"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,9 +142,34 @@
       "flick": 8,
       "air_hold": 24
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01024",
+     "key": "mst"
+    },
+    "youtube": [
+     "4eiBbTh99TM",
+     "EWkRwFIbIas"
+    ]
    },
    "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "避☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "039",
+     "key": "end"
+    }
+   },
+   "status": "listed",
    "notes": "",
    "assets": {}
   }
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "23",
    "image": "b8ab9573859ebe4f.jpg"
+  },
+  "sdvxin": {
+   "id": "01024",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 21401
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "23"
+ }
 }

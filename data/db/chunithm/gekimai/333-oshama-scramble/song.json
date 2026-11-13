@@ -3,8 +3,8 @@
  "song_id": "333",
  "title": "Oshama Scramble!",
  "artist": "t+pazolite",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "oshamascramble",
+ "artist_romaji": "t+pazolite",
  "genre": "ゲキマイ",
  "bpm": "190",
  "version": "CRYSTAL+",
@@ -33,7 +33,12 @@
       "slide": 19,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05177",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 56,
       "air_hold": 17
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05177",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "10 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "ex_tap": 139,
       "hold": 85
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05177",
+     "key": "exp"
+    },
+    "youtube": [
+     "pOQz7gl_s10"
+    ]
    },
    "status": "extracted",
    "notes": "22 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "hold": 37,
       "air_hold": 57
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05177",
+     "key": "mst"
+    },
+    "youtube": [
+     "4t5_3vjpsRY",
+     "jdXfkq77KCQ"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -158,7 +183,15 @@
       "air_hold": 178,
       "slide": 45
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05177",
+     "key": "ult"
+    },
+    "youtube": [
+     "D_9Eckuwsj4",
+     "hKfmWQg9Pwc"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -169,6 +202,10 @@
   "otogedb": {
    "id": "333",
    "image": "947bfbfa17ea5bd0.jpg"
+  },
+  "sdvxin": {
+   "id": "05177",
+   "list": "songs05.json"
   }
  },
  "assets": {
@@ -182,5 +219,7 @@
    "bytes": 14877
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "333-oshama-scramble"
+ }
 }

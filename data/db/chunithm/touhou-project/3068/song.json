@@ -3,8 +3,8 @@
  "song_id": "3068",
  "title": "物凄い狂っとるフランちゃんが物凄いうた",
  "artist": "Halozy feat. ななひら",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "monosugoikuruttoruflanchangamonosugoiuta",
+ "artist_romaji": "halozy nanahira",
  "genre": "東方Project",
  "bpm": "170",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 108,
     "air": 53
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11066",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 130,
     "air": 28
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11066",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 323
    },
    "source": {
-    "sdvxin_legacy": "10/11066exp"
+    "sdvxin_legacy": "10/11066exp",
+    "sdvxin": {
+     "id": "11066",
+     "key": "exp"
+    },
+    "youtube": [
+     "uJLSFTfxWI0"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "10/11066mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11066mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11066mst.png",
+    "sdvxin": {
+     "id": "11066",
+     "key": "mst"
+    },
+    "youtube": [
+     "Mg2gXCKGjWo",
+     "vKh1hsOxD30"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3068",
    "image": "b080e086e37326b1.jpg"
+  },
+  "sdvxin": {
+   "id": "11066",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 30249
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3068"
+ }
 }

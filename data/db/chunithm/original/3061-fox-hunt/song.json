@@ -3,8 +3,8 @@
  "song_id": "3061",
  "title": "Fox Hunt",
  "artist": "よしぶる feat.街風めい",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "foxhunt",
+ "artist_romaji": "yoshiburu machikazemei",
  "genre": "ORIGINAL",
  "bpm": "190",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 164,
     "air": 52
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11042",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 303,
     "air": 72
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11042",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 225
    },
    "source": {
-    "sdvxin_legacy": "11/11042exp"
+    "sdvxin_legacy": "11/11042exp",
+    "sdvxin": {
+     "id": "11042",
+     "key": "exp"
+    },
+    "youtube": [
+     "J3kCtrGiYqM"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11042mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11042mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11042mst.png",
+    "sdvxin": {
+     "id": "11042",
+     "key": "mst"
+    },
+    "youtube": [
+     "yOsA_PT3lJw",
+     "A3HpbZwJyks"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3061",
    "image": "62f64027ead02a9e.jpg"
+  },
+  "sdvxin": {
+   "id": "11042",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 27245
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3061-fox-hunt"
+ }
 }

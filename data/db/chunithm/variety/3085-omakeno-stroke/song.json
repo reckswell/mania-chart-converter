@@ -3,8 +3,8 @@
  "song_id": "3085",
  "title": "OMAKENO Stroke",
  "artist": "t+pazolite「グルーヴコースター」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "omakenostroke",
+ "artist_romaji": "t+pazolite groovecoaster",
  "genre": "VARIETY",
  "bpm": "240",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 66,
     "air": 48
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11009",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 86,
     "air": 89
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11009",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 105
    },
    "source": {
-    "sdvxin_legacy": "11/11009exp"
+    "sdvxin_legacy": "11/11009exp",
+    "sdvxin": {
+     "id": "11009",
+     "key": "exp"
+    },
+    "youtube": [
+     "KnhLUN0b5H8"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11009mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11009mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11009mst.png",
+    "sdvxin": {
+     "id": "11009",
+     "key": "mst"
+    },
+    "youtube": [
+     "Qa_xlKnjyaU",
+     "9sKPd3n4qJs"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3085",
    "image": "e64512edb02b58d5.jpg"
+  },
+  "sdvxin": {
+   "id": "11009",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 25370
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3085-omakeno-stroke"
+ }
 }

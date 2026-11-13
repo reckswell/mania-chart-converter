@@ -3,8 +3,8 @@
  "song_id": "2449",
  "title": "ばかみたい【Taxi Driver Edition】",
  "artist": "桐生一馬(黒田崇矢)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "bakamitai taxidriveredition",
+ "artist_romaji": "kiryuukazuma kurodatakaya",
  "genre": "VARIETY",
  "bpm": "74",
  "version": "SUN+",
@@ -33,7 +33,12 @@
       "air_hold": 4,
       "ex_tap": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08178",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 11,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08178",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air_hold": 18,
       "ex_tap": 26
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08178",
+     "key": "exp"
+    },
+    "youtube": [
+     "ofF-GNlJAR8"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "tap": 225,
       "slide": 59
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08178",
+     "key": "mst"
+    },
+    "youtube": [
+     "kDmqV3yPUqY",
+     "6-9LiLWalI0"
+    ]
    },
    "status": "extracted",
    "notes": "14 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2449",
    "image": "d12468c864e5a991.jpg"
+  },
+  "sdvxin": {
+   "id": "08178",
+   "list": "songs08.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 17202
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2449-taxi-driver-edition"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "488",
  "title": "夢と夢～あの日のメロディ～",
  "artist": "月鈴姉妹(イロドリミドリ)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "yumetoyume anohinomelody",
+ "artist_romaji": "tsukisuzushimai irodorimidori",
  "genre": "イロドリミドリ",
  "bpm": "123",
  "version": "STAR",
@@ -33,7 +33,12 @@
       "air_hold": 11,
       "ex_tap": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03012",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 18,
       "ex_tap": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03012",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air_hold": 18,
       "ex_tap": 14
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03012",
+     "key": "exp"
+    },
+    "youtube": [
+     "8D0ItPMiGIE"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "ex_tap": 28,
       "air_hold": 60
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03012",
+     "key": "mst"
+    },
+    "youtube": [
+     "J2b9e7a8DzQ",
+     "sDWZimrTuFM"
+    ]
    },
    "status": "extracted",
    "notes": "23 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "488",
    "image": "424b4d3540141967.jpg"
+  },
+  "sdvxin": {
+   "id": "03012",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 27867
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "488"
+ }
 }

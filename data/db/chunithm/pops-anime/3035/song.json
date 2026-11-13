@@ -3,8 +3,8 @@
  "song_id": "3035",
  "title": "ときめき★メテオストライク",
  "artist": "水無瀬ミナミ (CV.田村ゆかり)「銀河特急 ミルキー☆サブウェイ」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "tokimeki meteorstrike",
+ "artist_romaji": "minaseminami tamurayukari gingatokkyuu milkysubway",
  "genre": "POPS & ANIME",
  "bpm": "160",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 134,
     "air": 51
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11034",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 382,
     "air": 102
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11034",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 170
    },
    "source": {
-    "sdvxin_legacy": "11/11034exp"
+    "sdvxin_legacy": "11/11034exp",
+    "sdvxin": {
+     "id": "11034",
+     "key": "exp"
+    },
+    "youtube": [
+     "59k51GmS0OM"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11034mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11034mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11034mst.png",
+    "sdvxin": {
+     "id": "11034",
+     "key": "mst"
+    },
+    "youtube": [
+     "60XRu4rgnHw",
+     "UwPy4CsiP3A"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3035",
    "image": "0c995f1f790f9666.jpg"
+  },
+  "sdvxin": {
+   "id": "11034",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 22896
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3035"
+ }
 }

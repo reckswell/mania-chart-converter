@@ -3,8 +3,8 @@
  "song_id": "2924",
  "title": "ヤババイナ",
  "artist": "さたぱんP",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "yababaina",
+ "artist_romaji": "satapanp",
  "genre": "niconico",
  "bpm": "200",
  "version": "X-VERSE-X",
@@ -33,7 +33,12 @@
       "slide": 37,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10208",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 9,
       "air": 15
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10208",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "combo 983 in the .c2s differs from the published note count 984 (chart revised since this file?)",
@@ -93,7 +103,14 @@
       "hold": 42,
       "other": 520
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10208",
+     "key": "exp"
+    },
+    "youtube": [
+     "G-p1uxxhwO0"
+    ]
    },
    "status": "extracted",
    "notes": "79 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "flick": 137,
       "hold": 58
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10208",
+     "key": "mst"
+    },
+    "youtube": [
+     "V1zcIJmJ2hU",
+     "7w99sVWiGlg"
+    ]
    },
    "status": "extracted",
    "notes": "14 exact duplicate lines ignored",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2924",
    "image": "2a1db642d331bc94.jpg"
+  },
+  "sdvxin": {
+   "id": "10208",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 41787
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2924"
+ }
 }

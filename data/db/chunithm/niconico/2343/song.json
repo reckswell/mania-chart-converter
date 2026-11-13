@@ -3,8 +3,8 @@
  "song_id": "2343",
  "title": "ワールドイズマイン",
  "artist": "supercell feat. 初音ミク",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "worldismine",
+ "artist_romaji": "supercell hatsunemiku",
  "genre": "niconico",
  "bpm": "165",
  "version": "SUN",
@@ -33,7 +33,12 @@
       "slide": 21,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08093",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 104,
       "air_hold": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08093",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "ex_tap": 62,
       "air": 36
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08093",
+     "key": "exp"
+    },
+    "youtube": [
+     "dvA8R41HuUs"
+    ]
    },
    "status": "extracted",
    "notes": "12 exact duplicate lines ignored",
@@ -126,7 +143,15 @@
       "slide": 87,
       "other": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08093",
+     "key": "mst"
+    },
+    "youtube": [
+     "l7rTkuOL_8w",
+     "xi2Y2LhTuBc"
+    ]
    },
    "status": "extracted",
    "notes": "13 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2343",
    "image": "9c50449c718159a6.jpg"
+  },
+  "sdvxin": {
+   "id": "08093",
+   "list": "songs08.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 22056
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2343"
+ }
 }

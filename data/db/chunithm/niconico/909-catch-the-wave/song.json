@@ -3,8 +3,8 @@
  "song_id": "909",
  "title": "Catch the Wave",
  "artist": "livetune",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "catchthewave",
+ "artist_romaji": "livetune",
  "genre": "niconico",
  "bpm": "153",
  "version": "CRYSTAL+",
@@ -33,7 +33,12 @@
       "ex_tap": 16,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05105",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 42,
       "slide": 52
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05105",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "slide": 95,
       "air": 37
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05105",
+     "key": "exp"
+    },
+    "youtube": [
+     "U2qpDcEx8_U"
+    ]
    },
    "status": "extracted",
    "notes": "7 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "ex_tap": 159,
       "air_hold": 40
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05105",
+     "key": "mst"
+    },
+    "youtube": [
+     "_wT6P7BoeBs",
+     "0uXoSX7mHOE"
+    ]
    },
    "status": "extracted",
    "notes": "78 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "909",
    "image": "d48b4133c94c8b9b.jpg"
+  },
+  "sdvxin": {
+   "id": "05105",
+   "list": "songs05.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 26632
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "909-catch-the-wave"
+ }
 }

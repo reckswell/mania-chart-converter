@@ -3,8 +3,8 @@
  "song_id": "2123",
  "title": "なだめスかし Negotiation（TVsize）",
  "artist": "鹿乃と宇崎ちゃん「宇崎ちゃんは遊びたい！」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "nadamesukashi negotiation tvsize",
+ "artist_romaji": "kanotouzakichan uzakichanhaasobitai",
  "genre": "POPS & ANIME",
  "bpm": "150",
  "version": "NEW",
@@ -33,7 +33,12 @@
       "slide": 8,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07091",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 8,
       "ex_tap": 33
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07091",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air": 26,
       "air_hold": 58
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07091",
+     "key": "exp"
+    },
+    "youtube": [
+     "VzCrjmTne2Y"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "hold": 32,
       "flick": 27
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07091",
+     "key": "mst"
+    },
+    "youtube": [
+     "Q57X03DItIQ",
+     "u3r8vSLx_4E"
+    ]
    },
    "status": "extracted",
    "notes": "15 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2123",
    "image": "17de51eed9194d3a.jpg"
+  },
+  "sdvxin": {
+   "id": "07091",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -150,6 +179,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2123-negotiation-tvsize"
  }
 }

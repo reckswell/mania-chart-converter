@@ -3,8 +3,8 @@
  "song_id": "2007",
  "title": "猫 ～THE FIRST TAKE ver.～",
  "artist": "DISH//",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "neko thefirsttakever",
+ "artist_romaji": "dish",
  "genre": "POPS & ANIME",
  "bpm": "77",
  "version": "NEW",
@@ -33,7 +33,12 @@
       "ex_tap": 6,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07006",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 4,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07006",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "slide": 36,
       "ex_tap": 19
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07006",
+     "key": "exp"
+    },
+    "youtube": [
+     "NFltubKaL0I"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "air_hold": 15,
       "ex_tap": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07006",
+     "key": "mst"
+    },
+    "youtube": [
+     "mIX4Qb58Zkg",
+     "-lnMNrJrdOE"
+    ]
    },
    "status": "extracted",
    "notes": "22 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2007",
    "image": "5b9aba986cfbb198.jpg"
+  },
+  "sdvxin": {
+   "id": "07006",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -150,6 +179,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2007-the-first-take-ver"
  }
 }

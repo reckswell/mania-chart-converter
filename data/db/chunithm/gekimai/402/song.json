@@ -3,8 +3,8 @@
  "song_id": "402",
  "title": "悪戯",
  "artist": "ろん×田中秀和(MONACA)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "itazura",
+ "artist_romaji": "ron tanakahidekazu monaca",
  "genre": "ゲキマイ",
  "bpm": "140",
  "version": "AIR+",
@@ -33,7 +33,12 @@
       "slide": 14,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02173",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 20,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02173",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "slide": 58,
       "air_hold": 40
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02173",
+     "key": "exp"
+    },
+    "youtube": [
+     "-6PnM6c7Umw"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,10 +142,35 @@
       "slide": 55,
       "flick": 131
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02173",
+     "key": "mst"
+    },
+    "youtube": [
+     "Upvc2TzNbhQ",
+     "cZffyk3V_Ws"
+    ]
    },
    "status": "extracted",
    "notes": "8 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "？☆☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "113",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "402",
    "image": "2b40dbdabb958a34.jpg"
+  },
+  "sdvxin": {
+   "id": "02173",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 23828
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "402"
+ }
 }

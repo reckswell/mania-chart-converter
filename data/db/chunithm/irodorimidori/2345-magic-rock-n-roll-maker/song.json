@@ -3,8 +3,8 @@
  "song_id": "2345",
  "title": "Magic Rock'n Roll Maker",
  "artist": "月鈴 白奈(CV:高野 麻里佳)＆葛城 華(CV:丸岡 和佳奈)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "magicrocknrollmaker",
+ "artist_romaji": "tsukisuzushirona takanomarika katsuragihana maruokawakana",
  "genre": "イロドリミドリ",
  "bpm": "260",
  "version": "SUN",
@@ -33,7 +33,12 @@
       "slide": 23,
       "air_hold": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08095",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 20,
       "air": 22
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08095",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -93,7 +103,14 @@
       "slide": 50,
       "other": 125
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08095",
+     "key": "exp"
+    },
+    "youtube": [
+     "8uMnOgfQ1A0"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -126,7 +143,15 @@
       "hold": 115,
       "flick": 177
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08095",
+     "key": "mst"
+    },
+    "youtube": [
+     "-iLzW2-gJ3M",
+     "1s21AzVyPTM"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2345",
    "image": "9acb60d2a47908bb.jpg"
+  },
+  "sdvxin": {
+   "id": "08095",
+   "list": "songs08.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 29745
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2345-magic-rock-n-roll-maker"
+ }
 }

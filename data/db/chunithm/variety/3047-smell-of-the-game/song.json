@@ -3,8 +3,8 @@
  "song_id": "3047",
  "title": "Smell of the Game",
  "artist": "NAOKI「GUILTY GEAR -STRIVE-」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "smellofthegame",
+ "artist_romaji": "naoki guiltygear strive",
  "genre": "VARIETY",
  "bpm": "208",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 88,
     "air": 42
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11045",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 208,
     "air": 102
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11045",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 275
    },
    "source": {
-    "sdvxin_legacy": "11/11045exp"
+    "sdvxin_legacy": "11/11045exp",
+    "sdvxin": {
+     "id": "11045",
+     "key": "exp"
+    },
+    "youtube": [
+     "av1t8qVp2fo"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11045mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11045mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11045mst.png",
+    "sdvxin": {
+     "id": "11045",
+     "key": "mst"
+    },
+    "youtube": [
+     "orEnn9_kM6g",
+     "sXEoMVsUaqY"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3047",
    "image": "aa2c01242c3faf4e.jpg"
+  },
+  "sdvxin": {
+   "id": "11045",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 20949
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3047-smell-of-the-game"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "3060",
  "title": "ふわパチ星雲PTL-3",
  "artist": "海茶、多良レイト feat. 桃寝ちのい",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "fuwapachiseiunptl3",
+ "artist_romaji": "umicha tarareito momonechinoi",
  "genre": "ORIGINAL",
  "bpm": "160",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 99,
     "air": 60
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11041",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 257,
     "air": 102
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11041",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 115
    },
    "source": {
-    "sdvxin_legacy": "11/11041exp"
+    "sdvxin_legacy": "11/11041exp",
+    "sdvxin": {
+     "id": "11041",
+     "key": "exp"
+    },
+    "youtube": [
+     "otbzyl9qk08"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11041mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11041mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11041mst.png",
+    "sdvxin": {
+     "id": "11041",
+     "key": "mst"
+    },
+    "youtube": [
+     "SsagpsB-AHs",
+     "rlzN9QmxG8E"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3060",
    "image": "7a02f0c5cc16c52d.jpg"
+  },
+  "sdvxin": {
+   "id": "11041",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 24706
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3060-ptl-3"
+ }
 }

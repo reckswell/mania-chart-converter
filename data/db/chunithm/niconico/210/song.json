@@ -3,8 +3,8 @@
  "song_id": "210",
  "title": "アスノヨゾラ哨戒班",
  "artist": "Orangestar",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "asunoyozorashoukaihan",
+ "artist_romaji": "orangestar",
  "genre": "niconico",
  "bpm": "185",
  "version": "PLUS",
@@ -33,7 +33,12 @@
       "slide": 6,
       "air_hold": 3
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01183",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 19,
       "air_hold": 23
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01183",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "ex_tap": 104,
       "air_hold": 40
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01183",
+     "key": "exp"
+    },
+    "youtube": [
+     "4smpDxWANWs"
+    ]
    },
    "status": "extracted",
    "notes": "7 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air_hold": 67,
       "flick": 30
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01183",
+     "key": "mst"
+    },
+    "youtube": [
+     "vXntHA4MoBM",
+     "fchtmf1yYw0"
+    ]
    },
    "status": "extracted",
    "notes": "31 exact duplicate lines ignored",
@@ -159,7 +184,15 @@
       "air": 148,
       "flick": 113
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01183",
+     "key": "ult"
+    },
+    "youtube": [
+     "eExJm59k6qA",
+     "r1vdcJDEpCs"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -170,6 +203,10 @@
   "otogedb": {
    "id": "210",
    "image": "040cd43234aed57a.jpg"
+  },
+  "sdvxin": {
+   "id": "01183",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -183,5 +220,7 @@
    "bytes": 20556
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "210"
+ }
 }

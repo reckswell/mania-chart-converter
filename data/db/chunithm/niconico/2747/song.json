@@ -3,8 +3,8 @@
  "song_id": "2747",
  "title": "ライアーダンサー",
  "artist": "マサラダ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "liardancer",
+ "artist_romaji": "masarada",
  "genre": "niconico",
  "bpm": "170",
  "version": "VERSE",
@@ -33,7 +33,12 @@
       "slide": 31,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10064",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 52,
       "air_hold": 19
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10064",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "slide": 83,
       "air": 100
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10064",
+     "key": "exp"
+    },
+    "youtube": [
+     "Aoem4YZUelo"
+    ]
    },
    "status": "extracted",
    "notes": "combo 1326 in the .c2s differs from the published note count 1346 (chart revised since this file?)",
@@ -126,7 +143,15 @@
       "air_hold": 54,
       "other": 206
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10064",
+     "key": "mst"
+    },
+    "youtube": [
+     "SkB0zFxubVw",
+     "VouOPslPCQ8"
+    ]
    },
    "status": "extracted",
    "notes": "31 exact duplicate lines ignored; not represented: SLP×5; combo 2075 in the .c2s differs from the published note count 2069 (chart revised since this file?)",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2747",
    "image": "0d5e33c2d86bcee2.jpg"
+  },
+  "sdvxin": {
+   "id": "10064",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 22439
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2747"
+ }
 }

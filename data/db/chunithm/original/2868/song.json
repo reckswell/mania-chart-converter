@@ -3,8 +3,8 @@
  "song_id": "2868",
  "title": "恋伯色",
  "artist": "瀬名水紀 feat.六宮",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "kohakuiro",
+ "artist_romaji": "senamizukirokumiya",
  "genre": "ORIGINAL",
  "bpm": "186",
  "version": "X-VERSE",
@@ -33,7 +33,12 @@
       "slide": 19,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10155",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 45,
       "air_hold": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10155",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -93,7 +103,14 @@
       "air_hold": 26,
       "other": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10155",
+     "key": "exp"
+    },
+    "youtube": [
+     "M4FnSpbnpAQ"
+    ]
    },
    "status": "extracted",
    "notes": "33 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "ex_tap": 203,
       "other": 1
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10155",
+     "key": "mst"
+    },
+    "youtube": [
+     "12QyL5pZgXE",
+     "3SpMzvs1OuA"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored; not represented: SLA×3, SLP×13; combo 1787 in the .c2s differs from the published note count 1779 (chart revised since this file?)",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2868",
    "image": "3c8481ae79bb7075.jpg"
+  },
+  "sdvxin": {
+   "id": "10155",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 23554
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2868"
+ }
 }

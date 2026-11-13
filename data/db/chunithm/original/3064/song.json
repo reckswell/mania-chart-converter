@@ -3,8 +3,8 @@
  "song_id": "3064",
  "title": "ハイボルテージガール",
  "artist": "マサラダ feat.あられ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "high voltage girl",
+ "artist_romaji": "masadara arare",
  "genre": "ORIGINAL",
  "bpm": "164",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 150,
     "air": 74
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11061",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 296,
     "air": 47
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11061",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 235
    },
    "source": {
-    "sdvxin_legacy": "10/11061exp"
+    "sdvxin_legacy": "10/11061exp",
+    "sdvxin": {
+     "id": "11061",
+     "key": "exp"
+    },
+    "youtube": [
+     "_WefPHHiQD0"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "10/11061mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11061mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11061mst.png",
+    "sdvxin": {
+     "id": "11061",
+     "key": "mst"
+    },
+    "youtube": [
+     "w8sWKXmoWFI",
+     "GO84vVz6dL0"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3064",
    "image": "6c07589177bbb0f8.jpg"
+  },
+  "sdvxin": {
+   "id": "11061",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 35223
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3064"
+ }
 }

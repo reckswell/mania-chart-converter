@@ -3,8 +3,8 @@
  "song_id": "3033",
  "title": "ウニ",
  "artist": "Adeliae",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "uni",
+ "artist_romaji": "adeliae",
  "genre": "niconico",
  "bpm": "186",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 80,
     "air": 95
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11032",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 169,
     "air": 60
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11032",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 137
    },
    "source": {
-    "sdvxin_legacy": "11/11032exp"
+    "sdvxin_legacy": "11/11032exp",
+    "sdvxin": {
+     "id": "11032",
+     "key": "exp"
+    },
+    "youtube": [
+     "ukRJ8RXd7Pk"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11032mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11032mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11032mst.png",
+    "sdvxin": {
+     "id": "11032",
+     "key": "mst"
+    },
+    "youtube": [
+     "CCen9IbGIus",
+     "3zDn-kxojMo"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3033",
    "image": "4bf33faf916826b0.jpg"
+  },
+  "sdvxin": {
+   "id": "11032",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 16901
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3033"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "20",
  "title": "taboo tears you up",
  "artist": "REDALiCE (HARDCORE TANO*C)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "tabootearsyouup",
+ "artist_romaji": "redalice(hardcoretano*c)",
  "genre": "東方Project",
  "bpm": "180",
  "version": "AIR+",
@@ -33,7 +33,12 @@
       "slide": 11,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02143",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 9,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02143",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "ex_tap": 68,
       "slide": 51
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02143",
+     "key": "exp"
+    },
+    "youtube": [
+     "2Hdld2zLPGI"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "hold": 64,
       "flick": 47
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02143",
+     "key": "mst"
+    },
+    "youtube": [
+     "Z8UnazFMzzA",
+     "qdz_sM5EL6o"
+    ]
    },
    "status": "extracted",
    "notes": "24 exact duplicate lines ignored",
@@ -159,10 +184,35 @@
       "air_hold": 36,
       "other": 86
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02143",
+     "key": "ult"
+    },
+    "youtube": [
+     "LZBxlle0sS8",
+     "Xt70-iJ33us"
+    ]
    },
    "status": "extracted",
    "notes": "6 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "覚☆☆☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "099",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -170,6 +220,10 @@
   "otogedb": {
    "id": "20",
    "image": "e2a1c87c96de9837.jpg"
+  },
+  "sdvxin": {
+   "id": "02143",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -183,5 +237,7 @@
    "bytes": 8672
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "20-taboo-tears-you-up"
+ }
 }

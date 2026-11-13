@@ -3,8 +3,8 @@
  "song_id": "2953",
  "title": "Fly Better!",
  "artist": "ShiBa × U-Ruri",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "flybetter",
+ "artist_romaji": "shiba u-ruri",
  "genre": "ORIGINAL",
  "bpm": "131",
  "version": "X-VERSE-X",
@@ -33,7 +33,12 @@
       "ex_tap": 24,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10237",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 8,
       "air": 14
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10237",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "slide": 39,
       "ex_tap": 25
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10237",
+     "key": "exp"
+    },
+    "youtube": [
+     "P1A-a6JDV7I"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -126,7 +143,15 @@
       "ex_tap": 53,
       "other": 3
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10237",
+     "key": "mst"
+    },
+    "youtube": [
+     "bRoE_w-RIfI",
+     "7rtO3eLUY-A"
+    ]
    },
    "status": "extracted",
    "notes": "19 exact duplicate lines ignored; not represented: SLP×38",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2953",
    "image": "2ccb91f3bb3d9356.jpg"
+  },
+  "sdvxin": {
+   "id": "10237",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 26903
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2953-fly-better"
+ }
 }

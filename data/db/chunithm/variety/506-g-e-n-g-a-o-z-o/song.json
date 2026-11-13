@@ -3,8 +3,8 @@
  "song_id": "506",
  "title": "G e n g a o z o",
  "artist": "-45",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "gengaozo",
+ "artist_romaji": "-45",
  "genre": "VARIETY",
  "bpm": "153",
  "version": "STAR",
@@ -33,7 +33,12 @@
       "ex_tap": 24,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03076",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 5,
       "air_hold": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03076",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -91,7 +101,14 @@
       "ex_tap": 92,
       "air_hold": 24
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03076",
+     "key": "exp"
+    },
+    "youtube": [
+     "l5grbib4sac"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -124,9 +141,34 @@
       "flick": 68,
       "slide": 15
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03076",
+     "key": "mst"
+    },
+    "youtube": [
+     "DnIcQWhHbEY",
+     "UcpGicLjMk4"
+    ]
    },
    "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "覚☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "131",
+     "key": "end"
+    }
+   },
+   "status": "listed",
    "notes": "",
    "assets": {}
   }
@@ -135,6 +177,10 @@
   "otogedb": {
    "id": "506",
    "image": "46cd4867e5a494e8.jpg"
+  },
+  "sdvxin": {
+   "id": "03076",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -148,5 +194,7 @@
    "bytes": 28864
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "506-g-e-n-g-a-o-z-o"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "286",
  "title": "Tell Your World",
  "artist": "livetune",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "tellyourworld",
+ "artist_romaji": "livetune",
  "genre": "niconico",
  "bpm": "150",
  "version": "AIR",
@@ -33,7 +33,12 @@
       "ex_tap": 4,
       "air_hold": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02027",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 23,
       "ex_tap": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02027",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "ex_tap": 6,
       "air_hold": 45
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02027",
+     "key": "exp"
+    },
+    "youtube": [
+     "y_6VM0BkDdE"
+    ]
    },
    "status": "extracted",
    "notes": "18 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "hold": 33,
       "ex_tap": 66
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02027",
+     "key": "mst"
+    },
+    "youtube": [
+     "HvIY12ZUL4k",
+     "tJg7Cmpo0EA"
+    ]
    },
    "status": "extracted",
    "notes": "5 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "286",
    "image": "afcce0c85c1f8610.jpg"
+  },
+  "sdvxin": {
+   "id": "02027",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -150,6 +179,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "286-tell-your-world"
  }
 }

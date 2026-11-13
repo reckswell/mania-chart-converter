@@ -3,8 +3,8 @@
  "song_id": "394",
  "title": "若い力 -SEGA HARD GIRLS MIX-",
  "artist": "セガ・ハード・ガールズ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "wakaichikara segahardgirlsmix",
+ "artist_romaji": "segahardgirls",
  "genre": "POPS & ANIME",
  "bpm": "162",
  "version": "AIR+",
@@ -33,7 +33,12 @@
       "slide": 5,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02130",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 22,
       "air_hold": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02130",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 28,
       "air": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02130",
+     "key": "exp"
+    },
+    "youtube": [
+     "nHeZFvum8Hc"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,10 +142,35 @@
       "slide": 229,
       "hold": 51
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02130",
+     "key": "mst"
+    },
+    "youtube": [
+     "6utwdxypmF4",
+     "DT7VrrmxdkM"
+    ]
    },
    "status": "extracted",
    "notes": "312 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "光☆☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "110",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "394",
    "image": "0a458d03f61196d3.jpg"
+  },
+  "sdvxin": {
+   "id": "02130",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 34759
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "394-sega-hard-girls-mix"
+ }
 }

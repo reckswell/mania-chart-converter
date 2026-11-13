@@ -3,8 +3,8 @@
  "song_id": "3030",
  "title": "チュウニペンギンのテーマ～左下より愛をこめて～",
  "artist": "cosMo＠暴走P",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "chuunipenginnothemehidarishitayoriaiwokomete",
+ "artist_romaji": "cosmobousoup",
  "genre": "ORIGINAL",
  "bpm": "214",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 144,
     "air": 59
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11028",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 180,
     "air": 46
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11028",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 154
    },
    "source": {
-    "sdvxin_legacy": "11/11028exp"
+    "sdvxin_legacy": "11/11028exp",
+    "sdvxin": {
+     "id": "11028",
+     "key": "exp"
+    },
+    "youtube": [
+     "UpQOaT4gGiY"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11028mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11028mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11028mst.png",
+    "sdvxin": {
+     "id": "11028",
+     "key": "mst"
+    },
+    "youtube": [
+     "qB44E9k7o9E",
+     "R4IZIcQ3_bo"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3030",
    "image": "2b4caed03dccc894.jpg"
+  },
+  "sdvxin": {
+   "id": "11028",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 35746
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3030"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "2227",
  "title": "Splash Dance!!",
  "artist": "曲：Q-MHz／歌：オンゲキシューターズ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "splashdance",
+ "artist_romaji": "qmhz ongekishooters",
  "genre": "ゲキマイ",
  "bpm": "155",
  "version": "NEW+",
@@ -33,7 +33,12 @@
       "slide": 20,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07201",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 32,
       "air_hold": 14
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07201",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -93,7 +103,14 @@
       "air_hold": 72,
       "hold": 39
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07201",
+     "key": "exp"
+    },
+    "youtube": [
+     "X14pbqAd28c"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "slide": 99,
       "flick": 122
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07201",
+     "key": "mst"
+    },
+    "youtube": [
+     "UmJi2T7H_y8",
+     "suusw2hMZDY"
+    ]
    },
    "status": "extracted",
    "notes": "198 exact duplicate lines ignored",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2227",
    "image": "b1b3aec221226a9d.jpg"
+  },
+  "sdvxin": {
+   "id": "07201",
+   "list": "songs07.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 35851
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2227-splash-dance"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "3045",
  "title": "アンサレステラー",
  "artist": "花徒めと",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "answerlessteller",
+ "artist_romaji": "hanatometo",
  "genre": "ORIGINAL",
  "bpm": "220",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 200,
     "air": 72
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11053",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 441,
     "air": 124
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11053",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 293
    },
    "source": {
-    "sdvxin_legacy": "10/11053exp"
+    "sdvxin_legacy": "10/11053exp",
+    "sdvxin": {
+     "id": "11053",
+     "key": "exp"
+    },
+    "youtube": [
+     "Kz-zfSvX6-E"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "10/11053mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11053mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11053mst.png",
+    "sdvxin": {
+     "id": "11053",
+     "key": "mst"
+    },
+    "youtube": [
+     "A1_ZRPhuOko",
+     "-8cNALKFRHE"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3045",
    "image": "27ba6e5202aefb62.jpg"
+  },
+  "sdvxin": {
+   "id": "11053",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 27705
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3045"
+ }
 }

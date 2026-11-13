@@ -3,8 +3,8 @@
  "song_id": "2785",
  "title": "Swift Swing",
  "artist": "Laur",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "swiftswing",
+ "artist_romaji": "laur",
  "genre": "ゲキマイ",
  "bpm": "150",
  "version": "VERSE",
@@ -33,7 +33,12 @@
       "slide": 14,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10100",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 57,
       "air": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10100",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -93,7 +103,14 @@
       "air": 20,
       "other": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10100",
+     "key": "exp"
+    },
+    "youtube": [
+     "2VyypoiNMoU"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "flick": 121,
       "other": 1
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10100",
+     "key": "mst"
+    },
+    "youtube": [
+     "QGF_imIZk_o",
+     "ONZNvzXbnHA"
+    ]
    },
    "status": "extracted",
    "notes": "18 exact duplicate lines ignored",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2785",
    "image": "aaf6732afb9f0067.jpg"
+  },
+  "sdvxin": {
+   "id": "10100",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 25084
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2785-swift-swing"
+ }
 }

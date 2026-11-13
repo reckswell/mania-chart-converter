@@ -3,8 +3,8 @@
  "song_id": "2259",
  "title": "なにやってもうまくいかない",
  "artist": "meiyo",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "naniyattemoumakuikanai",
+ "artist_romaji": "meiyo",
  "genre": "POPS & ANIME",
  "bpm": "125",
  "version": "SUN",
@@ -33,7 +33,12 @@
       "air_hold": 4,
       "ex_tap": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08006",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 7,
       "air_hold": 40
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08006",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -93,7 +103,14 @@
       "other": 22,
       "ex_tap": 22
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08006",
+     "key": "exp"
+    },
+    "youtube": [
+     "U56zBE2kodU"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "air_hold": 11,
       "other": 15
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08006",
+     "key": "mst"
+    },
+    "youtube": [
+     "9BI_m5AqJMA",
+     "-vcdHqMw2Zo"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2259",
    "image": "d479af7ea6651ae0.jpg"
+  },
+  "sdvxin": {
+   "id": "08006",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -152,6 +181,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2259"
  }
 }

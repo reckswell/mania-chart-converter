@@ -3,8 +3,8 @@
  "song_id": "143",
  "title": "ODDS&ENDS",
  "artist": "ryo(supercell)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "oddsends",
+ "artist_romaji": "ryo(supercell)",
  "genre": "niconico",
  "bpm": "192",
  "version": "無印",
@@ -33,7 +33,12 @@
       "ex_tap": 8,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01025",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 11,
       "ex_tap": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01025",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "slide": 34,
       "ex_tap": 26
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01025",
+     "key": "exp"
+    },
+    "youtube": [
+     "05VKGgwt8L4"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "air_hold": 25,
       "ex_tap": 26
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01025",
+     "key": "mst"
+    },
+    "youtube": [
+     "wVoZyvvNzbY",
+     "q6qWW4n4Y6A"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -159,7 +184,15 @@
       "air_hold": 136,
       "other": 295
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01025",
+     "key": "ult"
+    },
+    "youtube": [
+     "I8PXuuREZXQ",
+     "XTf8pbP7VIE"
+    ]
    },
    "status": "extracted",
    "notes": "49 exact duplicate lines ignored",
@@ -170,6 +203,10 @@
   "otogedb": {
    "id": "143",
    "image": "579ee83aa6a9ceac.jpg"
+  },
+  "sdvxin": {
+   "id": "01025",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -183,5 +220,7 @@
    "bytes": 23152
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "143-odds-ends"
+ }
 }

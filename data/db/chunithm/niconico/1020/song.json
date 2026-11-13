@@ -3,8 +3,8 @@
  "song_id": "1020",
  "title": "ぽかぽかの星",
  "artist": "はるまきごはん",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "pokapokanohoshi",
+ "artist_romaji": "harumakigohan",
  "genre": "niconico",
  "bpm": "114",
  "version": "PARADISE",
@@ -33,7 +33,12 @@
       "slide": 19,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06034",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "not represented: CLK×4",
@@ -62,7 +67,12 @@
       "ex_tap": 62,
       "air_hold": 22
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06034",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "not represented: CLK×4",
@@ -92,7 +102,14 @@
       "hold": 16,
       "air": 19
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06034",
+     "key": "exp"
+    },
+    "youtube": [
+     "MMXUTgHuXG0"
+    ]
    },
    "status": "extracted",
    "notes": "20 exact duplicate lines ignored; not represented: CLK×4",
@@ -125,7 +142,15 @@
       "air": 61,
       "flick": 15
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06034",
+     "key": "mst"
+    },
+    "youtube": [
+     "7cScSJeaERw",
+     "jHF-iWBQSMs"
+    ]
    },
    "status": "extracted",
    "notes": "7 exact duplicate lines ignored; not represented: CLK×4",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "1020",
    "image": "e280c3003ab7c28a.jpg"
+  },
+  "sdvxin": {
+   "id": "06034",
+   "list": "songs06.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 20555
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "1020"
+ }
 }

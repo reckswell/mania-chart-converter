@@ -3,8 +3,8 @@
  "song_id": "205",
  "title": "SNIPE WHOLE",
  "artist": "Masayoshi Minoshima feat.Mei Ayakura",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "snipewhole",
+ "artist_romaji": "masayoshiminoshimafeat.meiayakura",
  "genre": "ORIGINAL",
  "bpm": "172",
  "version": "PLUS",
@@ -33,7 +33,12 @@
       "ex_tap": 57,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01135",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 26,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01135",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "ex_tap": 81,
       "air_hold": 91
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01135",
+     "key": "exp"
+    },
+    "youtube": [
+     "oY3vL3Ptjd8"
+    ]
    },
    "status": "extracted",
    "notes": "12 exact duplicate lines ignored",
@@ -125,10 +142,35 @@
       "ex_tap": 190,
       "flick": 40
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01135",
+     "key": "mst"
+    },
+    "youtube": [
+     "csHNc7lrGIk",
+     "acYItDbUo5E"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "避☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "055",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "205",
    "image": "3d7803669dd3fcb9.jpg"
+  },
+  "sdvxin": {
+   "id": "01135",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 29029
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "205-snipe-whole"
+ }
 }

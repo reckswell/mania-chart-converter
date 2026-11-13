@@ -3,8 +3,8 @@
  "song_id": "685",
  "title": "ライトスピード・デイズ",
  "artist": "明坂 芹菜(CV:新田 恵海)＆小仏 凪(CV:佐倉 薫)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "lightspeeddays",
+ "artist_romaji": "akesakaserina nittaemi kobotokenagi sakurakaoru",
  "genre": "イロドリミドリ",
  "bpm": "174",
  "version": "AMAZON",
@@ -33,7 +33,12 @@
       "ex_tap": 28,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04052",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 20,
       "ex_tap": 24
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04052",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air": 39,
       "ex_tap": 74
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04052",
+     "key": "exp"
+    },
+    "youtube": [
+     "15ODrrm_j-s"
+    ]
    },
    "status": "extracted",
    "notes": "6 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "hold": 16,
       "air_hold": 44
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04052",
+     "key": "mst"
+    },
+    "youtube": [
+     "VvTnLrqshnU",
+     "W9apx6n01pg"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "685",
    "image": "eca050d9143afd86.jpg"
+  },
+  "sdvxin": {
+   "id": "04052",
+   "list": "songs04.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 24838
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "685"
+ }
 }

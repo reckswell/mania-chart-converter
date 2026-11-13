@@ -3,8 +3,8 @@
  "song_id": "560",
  "title": "未来イマジネーション！",
  "artist": "SPRiNGS「温泉むすめ」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "miraiimagination",
+ "artist_romaji": "springs(onsenmusume)",
  "genre": "POPS & ANIME",
  "bpm": "175",
  "version": "STAR+",
@@ -33,7 +33,12 @@
       "ex_tap": 19,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03115",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 50,
       "air": 14
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03115",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "tap": 373,
       "slide": 71
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03115",
+     "key": "exp"
+    },
+    "youtube": [
+     "zEHX_y-8mnU"
+    ]
    },
    "status": "extracted",
    "notes": "11 exact duplicate lines ignored",
@@ -125,10 +142,35 @@
       "hold": 37,
       "flick": 107
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03115",
+     "key": "mst"
+    },
+    "youtube": [
+     "zTV7oJ1lYkM",
+     "uyFx4dwWfd0"
+    ]
    },
    "status": "extracted",
    "notes": "56 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "両☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "129",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "560",
    "image": "9018fbf8969ec5c1.jpg"
+  },
+  "sdvxin": {
+   "id": "03115",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 31439
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "560"
+ }
 }

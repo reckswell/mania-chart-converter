@@ -3,8 +3,8 @@
  "song_id": "700",
  "title": "夕焼けのRed Parade",
  "artist": "technoplanet",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "yuuyakeno redparade",
+ "artist_romaji": "technoplanet",
  "genre": "ORIGINAL",
  "bpm": "290",
  "version": "AMAZON",
@@ -33,7 +33,12 @@
       "slide": 14,
       "air_hold": 7
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04028",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 32,
       "air": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04028",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air": 64,
       "hold": 37
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04028",
+     "key": "exp"
+    },
+    "youtube": [
+     "dwzyF5BdVzw"
+    ]
    },
    "status": "extracted",
    "notes": "6 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "hold": 76,
       "flick": 135
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04028",
+     "key": "mst"
+    },
+    "youtube": [
+     "kY8Zysbgy6I",
+     "gZkqLN1lusY"
+    ]
    },
    "status": "extracted",
    "notes": "10 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "700",
    "image": "30ba26cee083d930.jpg"
+  },
+  "sdvxin": {
+   "id": "04028",
+   "list": "songs04.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 24885
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "700-red-parade"
+ }
 }

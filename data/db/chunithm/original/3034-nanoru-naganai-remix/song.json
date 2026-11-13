@@ -3,8 +3,8 @@
  "song_id": "3034",
  "title": "ウニの歌(Nanoru Naganai Remix)",
  "artist": "作詞・作曲・編曲・ボーカル：周防パトラ　アレンジ：Nanoru Naganai",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "uninouta nanorunaganairemix",
+ "artist_romaji": "suoupatora nanorunaganai",
  "genre": "ORIGINAL",
  "bpm": "250",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 56,
     "air": 82
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11033",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 107,
     "air": 113
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11033",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 279
    },
    "source": {
-    "sdvxin_legacy": "11/11033exp"
+    "sdvxin_legacy": "11/11033exp",
+    "sdvxin": {
+     "id": "11033",
+     "key": "exp"
+    },
+    "youtube": [
+     "4bb_LhKDP90"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11033mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11033mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11033mst.png",
+    "sdvxin": {
+     "id": "11033",
+     "key": "mst"
+    },
+    "youtube": [
+     "JXViuvdLZJo",
+     "ZP4olXJzLQE"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3034",
    "image": "cf8515a0679b2c17.jpg"
+  },
+  "sdvxin": {
+   "id": "11033",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 33825
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3034-nanoru-naganai-remix"
+ }
 }

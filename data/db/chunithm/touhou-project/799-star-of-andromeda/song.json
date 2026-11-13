@@ -3,8 +3,8 @@
  "song_id": "799",
  "title": "星の器～STAR OF ANDROMEDA",
  "artist": "sun3",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "hoshinoutsuwa starofandromeda",
+ "artist_romaji": "sun3",
  "genre": "東方Project",
  "bpm": "155",
  "version": "AMAZON+",
@@ -33,7 +33,12 @@
       "slide": 16,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04159",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 13,
       "air_hold": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04159",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "hold": 33,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04159",
+     "key": "exp"
+    },
+    "youtube": [
+     "aPyCYjkfMTs"
+    ]
    },
    "status": "extracted",
    "notes": "10 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air_hold": 23,
       "hold": 80
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04159",
+     "key": "mst"
+    },
+    "youtube": [
+     "ae653gnz-Ys",
+     "mcVfwPvY-EE"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "799",
    "image": "d291515e7377fe24.jpg"
+  },
+  "sdvxin": {
+   "id": "04159",
+   "list": "songs04.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 30088
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "799-star-of-andromeda"
+ }
 }

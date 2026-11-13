@@ -3,8 +3,8 @@
  "song_id": "2447",
  "title": "いつかオトナになれるといいね。",
  "artist": "ツユ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "itsukaotonaninarerutoiine",
+ "artist_romaji": "tsuyu",
  "genre": "niconico",
  "bpm": "176",
  "version": "SUN+",
@@ -33,7 +33,12 @@
       "slide": 17,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08176",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 70,
       "air_hold": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08176",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 46,
       "ex_tap": 71
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08176",
+     "key": "exp"
+    },
+    "youtube": [
+     "MJpyZBTVwD0"
+    ]
    },
    "status": "extracted",
    "notes": "6 exact duplicate lines ignored",
@@ -126,7 +143,15 @@
       "other": 115,
       "flick": 47
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08176",
+     "key": "mst"
+    },
+    "youtube": [
+     "lU2o6UtglMo",
+     "JVvnMSuAUSY"
+    ]
    },
    "status": "extracted",
    "notes": "45 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2447",
    "image": "6a434eacba5b55e5.jpg"
+  },
+  "sdvxin": {
+   "id": "08176",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -151,6 +180,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2447"
  }
 }

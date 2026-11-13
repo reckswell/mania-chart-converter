@@ -79,3 +79,28 @@
 - Next: `catalog sdvx` from sdvxindex.com's own list (1.4.9) for about 81 newer charts; a reader for SEKAI's sdvx.in
   pictures; IIDX pictures need browser screenshots.
 
+
+## 2026-11-13: `vsrgconv update` (docs/updating.md)
+
+- New command `vsrgconv update [game ...]`: re-downloads the files each catalog read last time and compares their
+  sha256 with `data/db/<game>/update.json`; rebuilds only changed catalogs, reports new songs, new charts, removed
+  and changed songs, fetches notes and jackets for the new ones only, keeps charts a source did not have yet pending
+  for 30 days, draws layout pictures (`--render`) and sdvx.in/sdvxindex pictures (`--pictures`) of what is new, and
+  with `--publish` uploads only the files it wrote. Writes `data/db/CHANGELOG.md`. A daily GitHub Actions workflow
+  (`.github/workflows/update-database.yml`) runs it from `main` once merged; it needs the `HF_TOKEN` secret to publish.
+- Song folders keep their name when a later catalog spells the title differently (`extra.folder`): re-cataloguing
+  Chunithm would have renamed 1,608 of 1,922 folders and orphaned their pictures on the dataset. A genre change still
+  moves a folder; `update` moves its pictures (locally, or on the Hub with copy + delete) and rewrites the manifests.
+- SDVX's catalog now reads sdvxindex.com's own newest list (the script bundle names `songsv<ver>.json`); the GitHub
+  1.4.2 copy is the fallback. Chunithm charts with no `.c2s` are not read from sdvx.in pictures until the reader is
+  calibrated (`SDVXIN_READER_READY`), since an extracted chart would never be replaced by the exact `.c2s`.
+- First run, published to `Reckswell/vsrgs` (3,465 files uploaded in 4 commits, 9,435 unchanged):
+  - Bandori: notes for the 298 charts bestdori.com had (the PC item from 2026-11-11), drawn;
+  - Chunithm: 227 songs from sdvx.in's lists not in the database (mostly removed songs), 106 new WORLD'S END charts,
+    sdvx.in references on 1,914 songs; 412 charts pending (waiting for a `.c2s`); 135 new sdvx.in pictures (115/expert
+    failed);
+  - SEKAI: 11 charts saved and drawn, 21 pending (sdvx.in 260/expert and 360/expert failed); DDR: 22 pending;
+  - Arcaea, GITADORA, Guitar Hero, IIDX, PIU: catalog rebuilt, nothing new;
+  - SDVX failed on a bug (fixed, with a test) and was reset; its first run (sdvxindex 1.4.9 list: new songs, jackets,
+    16 genre moves) waits for Alpha's go-ahead to publish to the dataset.
+- Waiting for the PC: Arcaea, DDR and PIU new charts need `build-manifest` (GitHub code search; BACKLOG 14).

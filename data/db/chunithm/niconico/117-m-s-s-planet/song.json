@@ -3,8 +3,8 @@
  "song_id": "117",
  "title": "M.S.S.Planet",
  "artist": "M.S.S Project",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "mssplanet",
+ "artist_romaji": "mssproject",
  "genre": "niconico",
  "bpm": "145",
  "version": "無印",
@@ -33,7 +33,12 @@
       "slide": 6,
       "air_hold": 3
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01028",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 14,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01028",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "tap": 223,
       "hold": 42
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01028",
+     "key": "exp"
+    },
+    "youtube": [
+     "aGbNp1DaN2Y"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air": 46,
       "ex_tap": 17
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01028",
+     "key": "mst"
+    },
+    "youtube": [
+     "5LdpT82Amtg",
+     "JDKDsUCukwI"
+    ]
    },
    "status": "extracted",
    "notes": "13 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "117",
    "image": "88124d980ac7eca4.jpg"
+  },
+  "sdvxin": {
+   "id": "01028",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 8560
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "117-m-s-s-planet"
+ }
 }
