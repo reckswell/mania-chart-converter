@@ -77,6 +77,10 @@ class SongRecord:
 
     @property
     def dir_name(self) -> str:
+        """`<song_id>-<slug of the romaji or title>`. Once a song has a folder its name stays (`extra.folder` keeps
+        it when a later catalog spells the title differently), so pictures mirrored elsewhere keep their paths."""
+        if self.extra.get("folder"):
+            return self.extra["folder"]
         slug = slugify(self.title_romaji or self.title, fallback="")
         return f"{self.song_id}-{slug}" if slug else self.song_id
 
@@ -186,8 +190,10 @@ class ChartDB:
         p = self.root / game / rel / "song.json"
         return SongRecord.from_dict(json.loads(p.read_text("utf-8"))) if p.exists() else None
 
-    def upsert_songs(self, records: list[SongRecord]) -> int:
-        """Insert or merge many songs; returns how many were new. Moves a song's folder if its genre/title changed."""
+    def upsert_songs(self, records: list[SongRecord], moved: list[tuple[str, str, str]] | None = None) -> int:
+        """Insert or merge many songs; returns how many were new. A song whose genre changed moves to the new genre
+        folder, keeping its folder name; a changed title or romaji does not rename the folder. Each move is appended
+        to `moved` as (game, old path, new path), relative to the database root."""
         by_game: dict[str, list[SongRecord]] = {}
         for r in records:
             by_game.setdefault(r.game, []).append(r)
@@ -203,10 +209,16 @@ class ChartDB:
                         existing = SongRecord.from_dict(json.loads(p.read_text("utf-8")))
                 merged = existing.merge(rec) if existing else rec
                 new += existing is None
+                old_dir = self.root / game / old_rel if old_rel is not None else None
+                if old_dir is not None and old_dir.exists() and merged.dir_name != old_dir.name:
+                    merged.extra["folder"] = old_dir.name
                 target = self.song_dir(merged)
-                if old_rel is not None and (self.root / game / old_rel) != target and (self.root / game / old_rel).exists():
+                if old_dir is not None and old_dir != target and old_dir.exists():
                     target.parent.mkdir(parents=True, exist_ok=True)
-                    (self.root / game / old_rel).rename(target)
+                    old_dir.rename(target)
+                    if moved is not None:
+                        moved.append((game, old_dir.relative_to(self.root).as_posix(),
+                                      target.relative_to(self.root).as_posix()))
                 target.mkdir(parents=True, exist_ok=True)
                 (target / "song.json").write_text(
                     json.dumps(merged.to_dict(), ensure_ascii=False, indent=1) + "\n", "utf-8")

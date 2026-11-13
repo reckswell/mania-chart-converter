@@ -218,11 +218,15 @@ def update_game(db: ChartDB, game: str, src: GameSource, base: Fetcher, opts: Up
             report["status"] = f"error: catalog: {type(e).__name__}: {e}"[:300]
             return report
         diff = compare(existing, songs)
+        moved: list[tuple[str, str, str]] = []
         if diff.any or not state.exists:
             for rec in diff.new_songs:
                 rec.extra.setdefault("first_seen", today)
-            db.upsert_songs(songs)
+            db.upsert_songs(songs, moved=moved)
             touched.add(f"db/{game}/index.json")
+        for _, old, new in moved:       # a genre change: the song's pictures follow its folder
+            _move_pictures(opts, game, old, new)
+        report["moved_songs"] = [f"{old} -> {new}" for _, old, new in moved][:SAMPLE]
         if diff.any:
             state.catalog_changed = today
         state.feeds = dict(fetcher.used)
@@ -266,7 +270,9 @@ def update_game(db: ChartDB, game: str, src: GameSource, base: Fetcher, opts: Up
         rec = now.get(sid)
         if rec is None:
             continue
-        if ("jacket" in rec.assets) if slot == JACKET else db.has_chart(game, sid, slot):
+        cr = rec.charts.get(slot)
+        if ("jacket" in rec.assets) if slot == JACKET else (cr is not None and
+                                                           cr.status in ("extracted", "converted")):
             found.add(key)
         elif key in asked:
             state.pending[key] = pending_before.get(key, today)
@@ -326,6 +332,26 @@ def _wanted(songs: dict[str, SongRecord], src: GameSource, state: UpdateState, n
     if not opts.jackets:
         out = {k for k in out if not k.endswith("/" + JACKET)}
     return {k for k in out if k.split("/", 1)[0] in songs}
+
+
+def _move_pictures(opts: UpdateOptions, game: str, old: str, new: str) -> None:
+    """Move a song's layout and source pictures after its folder moved (`old`, `new`: "<game>/<genre>/<song>"), and
+    the paths in the picture manifests. Copies on the dataset stay at the old path until `publish --delete`."""
+    for base in (opts.renders_dir, opts.pictures_dir):
+        if (base / old).is_dir() and not (base / new).exists():
+            (base / new).parent.mkdir(parents=True, exist_ok=True)
+            (base / old).rename(base / new)
+    old_rel, new_rel = old.split("/", 1)[1] + "/", new.split("/", 1)[1] + "/"
+    for manifest in (opts.pictures_dir / game).glob("manifest*.json"):
+        text = manifest.read_text("utf-8")
+        entries = json.loads(text)
+        for e in entries.values():
+            for item in [e, *(e.get("layers") or {}).values()]:
+                if isinstance(item.get("file"), str) and item["file"].startswith(old_rel):
+                    item["file"] = new_rel + item["file"][len(old_rel):]
+        out = json.dumps(dict(sorted(entries.items())), ensure_ascii=False, indent=1) + "\n"
+        if out != text:
+            manifest.write_text(out, "utf-8")
 
 
 def _render(db: ChartDB, game: str, keys: list[str], opts: UpdateOptions, data_root: Path,

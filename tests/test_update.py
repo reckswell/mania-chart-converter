@@ -360,3 +360,40 @@ def test_chunithm_charts_without_c2s_are_not_read_from_sdvxin_pictures_yet(tmp_p
     f = Fetcher(cache_dir=tmp_path, offline=True)
     assert chunithm.SDVXIN_READER_READY is False
     assert chunithm._chart(f, song, "master") is None and f.calls_in_thread() == 0
+
+
+def test_song_folders_keep_their_names_and_pictures_follow_a_genre_move(tmp_path):
+    db, f = setup(tmp_path)
+    run(db, f)
+    folder = db.song_dir(db.get_song("chunithm", "1"))
+    assert folder.name == "1-old-song"
+    renders = db.root.parent / "renders" / "chunithm" / "original" / "1-old-song"
+    renders.mkdir(parents=True)
+    (renders / "master.png").write_bytes(b"png")
+    pictures = db.root.parent / "pictures" / "chunithm"
+    (pictures / "original" / "1-old-song").mkdir(parents=True)
+    (pictures / "manifest.json").write_text(json.dumps({"1/master": {"file": "original/1-old-song/master.png"}}))
+
+    src = fake_source()
+    cat = src.catalog
+
+    def respelled(f, genre=None):
+        songs, rep = cat(f)
+        for s in songs:
+            s.title_romaji = "orudo songu"          # a newer list spells the title its own way
+            if genre:
+                s.genre = genre
+        return songs, rep
+
+    src.catalog = respelled
+    run(db, f, src, force=True, today=date(2026, 11, 14))
+    assert db.song_dir(db.get_song("chunithm", "1")) == folder and folder.exists()        # not renamed
+
+    src.catalog = lambda f: respelled(f, "VARIETY")
+    r = run(db, f, src, force=True, today=date(2026, 11, 15))["games"]["chunithm"]
+    moved = db.song_dir(db.get_song("chunithm", "1"))
+    assert moved == db.root / "chunithm" / "variety" / "1-old-song" and (moved / "song.json").exists()
+    assert r["moved_songs"] == ["chunithm/original/1-old-song -> chunithm/variety/1-old-song"]
+    assert (db.root.parent / "renders" / "chunithm" / "variety" / "1-old-song" / "master.png").exists()
+    manifest = json.loads((pictures / "manifest.json").read_text())
+    assert manifest["1/master"]["file"] == "variety/1-old-song/master.png"

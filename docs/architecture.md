@@ -44,7 +44,11 @@
 | `convert/pipeline.py` | `convert(chart, keys, profile)` → `Conversion` (mania chart, lint, rules report, .osu text). |
 | `osu/` | .osu writer and reader, .osz packer. |
 | `playtest/orthomania.py` | Commands for orthomania's playtest harness, lazer import, play-log reader. |
-| `cli.py` | `games`, `add-game`, `catalog`, `scrape`, `extract`, `render`, `convert`, `stats`, `calibrate-sdvxin`, `check-counts`, `demo`, `playtest`, `index`. |
+| `scrape.py` | Fetching charts and jackets for catalogued songs (`scrape`, and `update`'s fetch step). |
+| `update.py` | `update`: which catalog files changed since the last run, the catalog diff, new charts only, pending retries, new pictures, upload of the files a run wrote (docs/updating.md). |
+| `pictures.py` | Source pictures ("true source") and A/B checks (docs/sources/pictures.md). |
+| `publish.py` | Mirror to the Hugging Face dataset (docs/hosting.md). |
+| `cli.py` | `games`, `add-game`, `catalog`, `scrape`, `update`, `extract`, `render`, `pictures`, `ab`, `publish`, `convert`, `stats`, `calibrate-sdvxin`, `check-counts`, `demo`, `playtest`, `index`. |
 
 ## Adding a game
 

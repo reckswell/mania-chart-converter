@@ -54,3 +54,12 @@ Ordered. Each item has a "done when". Take the top item that is not `blocked`.
     chart file when a newer catalog run no longer pairs it with that file (seen while changing PIU matching).
     *Done when:* a catalog run that drops a pairing resets the chart to `listed` and removes its chart file.
 13. **Hitsounds / keysounds** (later): soft sample set by default; keysounds for IIDX/BMS sources.
+14. **Chart file lists in `vsrgconv update`.** Arcaea, DDR, PIU and GH find chart files through committed manifests
+    (`sources/data/*.json`) built with GitHub code search, so `update` adds their new songs but not their notes.
+    Build them from the git trees API (`/repos/<repo>/git/trees/HEAD?recursive=1`, one request per repository)
+    inside `update`, and watch Pumpout for the next PHOENIX 2 database file (docs/updating.md).
+    *Done when:* a new Arcaea or DDR song gets its notes from a plain `vsrgconv update`.
+15. **Upgrade lossy or late charts.** A chart stored from a lossy copy (Bandori's kanon511 EASY/NORMAL) is never
+    looked for again, even when the exact file appears (bestdori.com's API answers from the cloud now). Record the
+    source's grade on the chart and let `update` retry lossy charts against the exact sources.
+    *Done when:* the 1,356 lossy Bandori charts are exact or listed with the reason.

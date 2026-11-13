@@ -7,9 +7,10 @@ every chart is at status `listed`. Where a chart picture exists, its URL is on t
 
 ## Sources
 
-| What | URL (all `raw.githubusercontent.com/...`) | Coverage (checked 2026-11-11) |
+| What | URL (`raw.githubusercontent.com/...` unless given in full) | Coverage (checked 2026-11-11) |
 |---|---|---|
-| Catalog backbone | `Kizuruki/sdvxindex/HEAD/songsv1.4.2.json` | 2,306 songs, 8,597 charts, up to 2026-08-20 |
+| Catalog backbone | `https://sdvxindex.com/songsv<version>.json`, the list the site loads, named in its script bundle (`static/js/main.<hash>.js`) | 1.4.9 on 2026-11-13: 2,325 songs, 8,678 charts. Read since `vsrgconv update` (docs/updating.md), so new songs arrive as the site adds them. |
+| Catalog backbone, fallback | `Kizuruki/sdvxindex/HEAD/songsv1.4.2.json` | 2,306 songs, 8,597 charts, up to 2026-08-20. Used when the site cannot be read (`report.sdvxindex_list` says which). |
 | Catalog cross-check and newest songs | `zkldi/Tachi/HEAD/db/seeds/songs-sdvx.json`, `charts-sdvx.json` | 2,369 songs, 8,840 charts. 2,320 songs and 8,658 charts are in `nabla`, the current arcade version. |
 | Older snapshot | `RRRGR/unnamed-sdvxindex-clone/HEAD/songsv1.1.9.json` | 2,161 songs and 7,997 charts. It has the image paths the clone repo actually hosts, and 17 songs that were removed later. |
 | Jackets (676 px) | `RRRGR/unnamed-sdvxindex-clone/HEAD/img/<id4>_<ascii>/jk_<id4>_<n>_b.webp` | 2,161 songs, with a variant per difficulty |
