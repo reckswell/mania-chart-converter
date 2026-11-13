@@ -134,6 +134,18 @@ def test_new_song_and_new_chart_are_fetched_and_a_missing_chart_stays_pending(tm
     r = run(db, f, today=date(2026, 11, 23))["games"]["chunithm"]
     assert r["status"] == "updated" and (r["charts_saved"], r["pending"], r["found_pending"]) == (1, 0, 1)
     assert db.has_chart("chunithm", "1", "extra") and UpdateState.load(db, "chunithm").pending == {}
+    log = (db.root / "CHANGELOG.md").read_text("utf-8")
+    assert log.count("## ") == 3 and log.endswith("Old Song.\n")
+
+    # a second run the same day adds to that day's section
+    put(f, LIST, json.dumps([{"id": "1", "title": "Old Song", "charts": {"expert": 10, "master": 13, "extra": 14}},
+                             {"id": "2", "title": "New Song", "charts": {"master": 12}},
+                             {"id": "3", "title": "Third Song", "charts": {}}]))
+    put(f, f"{SITE}jackets/3.png", png((0, 0, 0)))
+    run(db, f, today=date(2026, 11, 23))
+    log = (db.root / "CHANGELOG.md").read_text("utf-8")
+    top = log.split("## ")[1]
+    assert log.count("## 2026-11-23") == 1 and "notes for 1 charts" in top and "Third Song" in top
 
 
 def test_a_pending_chart_is_given_up_after_the_retry_window(tmp_path):
@@ -397,13 +409,20 @@ def test_song_folders_keep_their_names_and_pictures_follow_a_genre_move(tmp_path
     run(db, f, src, force=True, today=date(2026, 11, 14))
     assert db.song_dir(db.get_song("chunithm", "1")) == folder and folder.exists()        # not renamed
 
-    src.catalog = lambda f: respelled(f, "VARIETY")
+    def respelled_with_new_chart(f):
+        songs, rep = respelled(f, "VARIETY")
+        songs[0].charts["extra"] = ChartRecord("extra", "EXTRA", "14")
+        return songs, rep
+
+    put(f, chart_url("1", "extra"), "[0, 3]")
+    src.catalog = respelled_with_new_chart          # moved, and a chart to fetch in the same run
     r = update_game(db, "chunithm", src, f, UpdateOptions(renders_dir=db.root.parent / "renders",
                                                           pictures_dir=pictures.parent, force=True,
                                                           today=date(2026, 11, 15)))
     moved = db.song_dir(db.get_song("chunithm", "1"))
     assert moved == db.root / "chunithm" / "variety" / "1-old-song" and (moved / "song.json").exists()
     assert r["moved_songs"] == ["chunithm/original/1-old-song -> chunithm/variety/1-old-song"]
+    assert r["charts_saved"] == 1 and (moved / "extra.chart.json.gz").exists()
     assert r["_gone"] == ["db/chunithm/original/1-old-song/", "renders/chunithm/original/1-old-song/",
                           "pictures/chunithm/original/1-old-song/"]       # removed from the dataset after upload
     assert (db.root.parent / "renders" / "chunithm" / "variety" / "1-old-song" / "master.png").exists()

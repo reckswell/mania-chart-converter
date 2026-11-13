@@ -27,6 +27,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 import threading
 from dataclasses import dataclass, field, replace
 from datetime import date, datetime, timezone
@@ -235,10 +236,10 @@ def update_game(db: ChartDB, game: str, src: GameSource, base: Fetcher, opts: Up
             db.upsert_songs(songs, moved=moved)
             touched.add(f"db/{game}/index.json")
         for _, old, new in moved:       # a genre change: the song's pictures here follow its folder
-            for base in (opts.renders_dir, opts.pictures_dir):
-                if (base / old).is_dir() and not (base / new).exists():
-                    (base / new).parent.mkdir(parents=True, exist_ok=True)
-                    (base / old).rename(base / new)
+            for pics in (opts.renders_dir, opts.pictures_dir):
+                if (pics / old).is_dir() and not (pics / new).exists():
+                    (pics / new).parent.mkdir(parents=True, exist_ok=True)
+                    (pics / old).rename(pics / new)
         report["moved_songs"] = [f"{old} -> {new}" for _, old, new in moved][:SAMPLE]
         report["_moved"] = moved
         if diff.any:
@@ -362,8 +363,8 @@ def _moves(opts: UpdateOptions, game: str, moved: list[tuple[str, str, str]], da
     gone, remote = [], []
     for _, old, new in moved:
         gone.append(f"db/{old}/")
-        for part, base in (("renders", opts.renders_dir), ("pictures", opts.pictures_dir)):
-            if (base / new).is_dir():
+        for part, pics in (("renders", opts.renders_dir), ("pictures", opts.pictures_dir)):
+            if (pics / new).is_dir():
                 gone.append(f"{part}/{old}/")
             elif opts.publishing:
                 remote.append((f"{part}/{old}/", f"{part}/{new}/"))
@@ -523,7 +524,12 @@ def write_changelog(db: ChartDB, reports: dict[str, dict[str, Any]], today: str)
     head = "# Database changes\n\nWritten by `vsrgconv update` (docs/updating.md), newest first.\n"
     old = p.read_text("utf-8") if p.exists() else head
     body = old[len(head):] if old.startswith(head) else "\n" + old
-    p.write_text(f"{head}\n## {today}\n\n" + "\n".join(lines) + "\n" + body, "utf-8")
+    sections = re.split(r"(?m)^(?=## )", body)
+    if len(sections) > 1 and sections[1].startswith(f"## {today}\n"):    # a second run on the same day
+        sections[1] = sections[1].rstrip("\n") + "\n" + "\n".join(lines) + "\n\n"
+    else:
+        sections.insert(1, f"## {today}\n\n" + "\n".join(lines) + "\n\n")
+    p.write_text(head + "\n" + "".join(sections[1:]).rstrip("\n") + "\n", "utf-8")
     return True
 
 
