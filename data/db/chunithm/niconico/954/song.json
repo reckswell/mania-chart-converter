@@ -3,8 +3,8 @@
  "song_id": "954",
  "title": "ブレス・ユア・ブレス",
  "artist": "和田たけあき",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "buresuyuaburesu",
+ "artist_romaji": "wadatakeaki",
  "genre": "niconico",
  "bpm": "152",
  "version": "CRYSTAL+",
@@ -33,7 +33,12 @@
       "ex_tap": 45,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05129",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 33,
       "air_hold": 15
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05129",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "slide": 95,
       "air_hold": 30
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05129",
+     "key": "exp"
+    },
+    "youtube": [
+     "JjrGCMaKMtY"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "ex_tap": 192,
       "hold": 25
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05129",
+     "key": "mst"
+    },
+    "youtube": [
+     "SDdtobFT2Q0",
+     "xERzXimCLG8"
+    ]
    },
    "status": "extracted",
    "notes": "74 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "954",
    "image": "ebeb1eaeb5a10bfc.jpg"
+  },
+  "sdvxin": {
+   "id": "05129",
+   "list": "songs05.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 24223
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "954"
+ }
 }

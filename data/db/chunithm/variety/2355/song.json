@@ -3,8 +3,8 @@
  "song_id": "2355",
  "title": "「四季」より「冬」",
  "artist": "光吉猛修「原曲:ヴィヴァルディ」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "shikiyorifuyu",
+ "artist_romaji": "mitsuyoshitakenobu genkyoku vivaldi",
  "genre": "VARIETY",
  "bpm": "150",
  "version": "SUN",
@@ -33,7 +33,12 @@
       "slide": 11,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08105",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 60,
       "air": 1
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08105",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 11,
       "air_hold": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08105",
+     "key": "exp"
+    },
+    "youtube": [
+     "oZnpyhj3uxQ"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "ex_tap": 177,
       "slide": 35
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08105",
+     "key": "mst"
+    },
+    "youtube": [
+     "kTG3vg_4v0k",
+     "H4T4S7BuTRY"
+    ]
    },
    "status": "extracted",
    "notes": "25 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2355",
    "image": "ced84950a27d8986.jpg"
+  },
+  "sdvxin": {
+   "id": "08105",
+   "list": "songs08.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 16542
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2355"
+ }
 }

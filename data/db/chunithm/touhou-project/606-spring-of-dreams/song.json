@@ -3,8 +3,8 @@
  "song_id": "606",
  "title": "Spring of Dreams",
  "artist": "3L (NJK Record)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "springofdreams",
+ "artist_romaji": "3l(njkrecord)",
  "genre": "東方Project",
  "bpm": "153",
  "version": "STAR+",
@@ -33,7 +33,12 @@
       "slide": 25,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03162",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 12,
       "ex_tap": 15
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03162",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "ex_tap": 74,
       "air_hold": 90
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03162",
+     "key": "exp"
+    },
+    "youtube": [
+     "rSK6zijpD_M"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 85,
       "hold": 20
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03162",
+     "key": "mst"
+    },
+    "youtube": [
+     "iqj7W_dQo2U",
+     "1_393Mi_WpQ"
+    ]
    },
    "status": "extracted",
    "notes": "38 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "606",
    "image": "e0118d49cff1c17f.jpg"
+  },
+  "sdvxin": {
+   "id": "03162",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 19609
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "606-spring-of-dreams"
+ }
 }

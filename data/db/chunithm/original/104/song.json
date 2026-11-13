@@ -3,8 +3,8 @@
  "song_id": "104",
  "title": "とーきょー全域★アキハバラ？",
  "artist": "MOSAIC.WAV",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "tookyoozenikiakihabara",
+ "artist_romaji": "mosaicwav",
  "genre": "ORIGINAL",
  "bpm": "212",
  "version": "無印",
@@ -33,7 +33,12 @@
       "slide": 12,
       "air_hold": 3
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01113",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 32,
       "slide": 36
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01113",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "slide": 76,
       "air": 93
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01113",
+     "key": "exp"
+    },
+    "youtube": [
+     "9VFeah0vvK0"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -125,10 +142,35 @@
       "air_hold": 138,
       "hold": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01113",
+     "key": "mst"
+    },
+    "youtube": [
+     "1mFziwSvemc",
+     "Q0jlji8ou4w"
+    ]
    },
    "status": "extracted",
    "notes": "22 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "跳☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "010",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "104",
    "image": "ff945c9cb9e43e83.jpg"
+  },
+  "sdvxin": {
+   "id": "01113",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 30871
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "104"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "158",
  "title": "フォルテシモBELL",
  "artist": "天王洲 なずな(CV:山本 彩乃)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "fortissimobell",
+ "artist_romaji": "tennouzunazuna yamamotoayano",
  "genre": "イロドリミドリ",
  "bpm": "121",
  "version": "無印",
@@ -33,7 +33,12 @@
       "ex_tap": 7,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01109",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 14,
       "air_hold": 17
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01109",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "slide": 49,
       "air_hold": 31
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01109",
+     "key": "exp"
+    },
+    "youtube": [
+     "ewCoiVKbQ0U"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "flick": 10,
       "ex_tap": 85
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01109",
+     "key": "mst"
+    },
+    "youtube": [
+     "oXlsBbcBg_E",
+     "zjKb0g4S_20"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "158",
    "image": "e3ce6712e8cddf10.jpg"
+  },
+  "sdvxin": {
+   "id": "01109",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 27277
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "158-bell"
+ }
 }

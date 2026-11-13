@@ -3,8 +3,8 @@
  "song_id": "467",
  "title": "Twice up Scenery",
  "artist": "q/stol",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "twiceupscenery",
+ "artist_romaji": "qstol",
  "genre": "ORIGINAL",
  "bpm": "114",
  "version": "STAR",
@@ -33,7 +33,12 @@
       "slide": 12,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03037",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 26,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03037",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air_hold": 14,
       "air": 43
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03037",
+     "key": "exp"
+    },
+    "youtube": [
+     "tBvpGHzcBRI"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,10 +142,35 @@
       "air_hold": 39,
       "hold": 29
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03037",
+     "key": "mst"
+    },
+    "youtube": [
+     "H2nQwPvpw04",
+     "WdMN3JxPOlE"
+    ]
    },
    "status": "extracted",
    "notes": "20 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "割☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "139",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "467",
    "image": "460af44c6ba906ad.jpg"
+  },
+  "sdvxin": {
+   "id": "03037",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 24626
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "467-twice-up-scenery"
+ }
 }

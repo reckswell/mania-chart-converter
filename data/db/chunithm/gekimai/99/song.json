@@ -3,8 +3,8 @@
  "song_id": "99",
  "title": "言ノ葉カルマ",
  "artist": "そらる・ろん×れるりり",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "kotonohakaruma",
+ "artist_romaji": "soraruronreruriri",
  "genre": "ゲキマイ",
  "bpm": "150",
  "version": "無印",
@@ -33,7 +33,12 @@
       "slide": 13,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01051",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 10,
       "slide": 41
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01051",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "ex_tap": 33,
       "air_hold": 17
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01051",
+     "key": "exp"
+    },
+    "youtube": [
+     "U8Gwp8sV4dM"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "ex_tap": 64,
       "flick": 124
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01051",
+     "key": "mst"
+    },
+    "youtube": [
+     "0G0FPIz4vJc",
+     "hcsU3z6wHQQ"
+    ]
    },
    "status": "extracted",
    "notes": "11 exact duplicate lines ignored",
@@ -159,10 +184,35 @@
       "air_hold": 26,
       "other": 44
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01051",
+     "key": "ult"
+    },
+    "youtube": [
+     "356zrJh_oHE",
+     "SupW1G6bTxQ"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "避☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "088",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -170,6 +220,10 @@
   "otogedb": {
    "id": "99",
    "image": "ee332e6fa86661fd.jpg"
+  },
+  "sdvxin": {
+   "id": "01051",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -183,5 +237,7 @@
    "bytes": 24686
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "99"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "2260",
  "title": "ユメヲカケル！",
  "artist": "スペシャルウィーク (CV.和氣あず未)、サイレンススズカ (CV.高野麻里佳)、トウカイテイオー(CV.Machico)、ウオッカ (CV.大橋彩香)、ダイワスカーレット (CV.木村千咲)、ゴールドシップ (CV.上田 瞳)、メジロマックイーン (CV.大西沙織)／TVアニメ『ウマ娘 プリティーダービー Season 2』",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "yumewokakeru",
+ "artist_romaji": "specialweek wakiazumi sairensuzuka takanomarika toukaiteioo machico vodka oohashiayaka daiwascarlet kimurachisa goldship uedahitomi mejiromcqueen oonishisaori umamusume pretty derby season2",
  "genre": "POPS & ANIME",
  "bpm": "195",
  "version": "SUN",
@@ -33,7 +33,12 @@
       "slide": 37,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08007",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "combo 552 in the .c2s differs from the published note count 550 (chart revised since this file?)",
@@ -62,7 +67,12 @@
       "air_hold": 14,
       "air": 15
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08007",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "tap": 402,
       "air_hold": 87
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08007",
+     "key": "exp"
+    },
+    "youtube": [
+     "eqE8poo99OM"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -126,7 +143,15 @@
       "air": 148,
       "flick": 48
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08007",
+     "key": "mst"
+    },
+    "youtube": [
+     "yUnbl9dQVAQ",
+     "-MoNMf8oVaQ"
+    ]
    },
    "status": "extracted",
    "notes": "233 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2260",
    "image": "209d7e8364669fa7.jpg"
+  },
+  "sdvxin": {
+   "id": "08007",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -151,6 +180,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2260"
  }
 }

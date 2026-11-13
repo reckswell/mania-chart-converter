@@ -3,8 +3,8 @@
  "song_id": "343",
  "title": "Daydream café",
  "artist": "Petit Rabbit's「ご注文はうさぎですか？」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "daydreamcafe",
+ "artist_romaji": "petitrabbit's",
  "genre": "POPS & ANIME",
  "bpm": "150",
  "version": "AIR+",
@@ -33,7 +33,12 @@
       "air_hold": 5,
       "ex_tap": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02091",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 21,
       "air_hold": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02091",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "ex_tap": 81,
       "air_hold": 39
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02091",
+     "key": "exp"
+    },
+    "youtube": [
+     "b6Mqq3MmouQ"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "flick": 47,
       "ex_tap": 103
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02091",
+     "key": "mst"
+    },
+    "youtube": [
+     "v-xGnaES51g",
+     "HMYNygqCWro"
+    ]
    },
    "status": "extracted",
    "notes": "30 exact duplicate lines ignored",
@@ -158,7 +183,15 @@
       "flick": 61,
       "ex_tap": 159
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02091",
+     "key": "ult"
+    },
+    "youtube": [
+     "Lsnx7msOIxQ",
+     "epKXnRD_igA"
+    ]
    },
    "status": "extracted",
    "notes": "44 exact duplicate lines ignored",
@@ -169,6 +202,10 @@
   "otogedb": {
    "id": "343",
    "image": "e21129db8b503610.jpg"
+  },
+  "sdvxin": {
+   "id": "02091",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -183,6 +220,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "343-daydream-cafe"
  }
 }

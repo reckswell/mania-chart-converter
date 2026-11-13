@@ -3,8 +3,8 @@
  "song_id": "66",
  "title": "明るい未来",
  "artist": "豚乙女",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "akaruimirai",
+ "artist_romaji": "butaotome",
  "genre": "ORIGINAL",
  "bpm": "228",
  "version": "AIR",
@@ -33,7 +33,12 @@
       "slide": 12,
       "air_hold": 7
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02021",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 49,
       "air_hold": 22
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02021",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "slide": 51,
       "air_hold": 36
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02021",
+     "key": "exp"
+    },
+    "youtube": [
+     "bDWAKGsUJEs"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,10 +142,35 @@
       "hold": 58,
       "slide": 56
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02021",
+     "key": "mst"
+    },
+    "youtube": [
+     "CEGOhqmVjy0",
+     "Wg15ih5qSis"
+    ]
    },
    "status": "extracted",
    "notes": "6 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "光☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "047",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "66",
    "image": "c22702914849a11a.jpg"
+  },
+  "sdvxin": {
+   "id": "02021",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 34715
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "66"
+ }
 }

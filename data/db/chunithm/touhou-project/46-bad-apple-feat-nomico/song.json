@@ -3,8 +3,8 @@
  "song_id": "46",
  "title": "Bad Apple!! feat.nomico",
  "artist": "Masayoshi Minoshima",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "badapple nomico",
+ "artist_romaji": "masayoshiminoshima",
  "genre": "東方Project",
  "bpm": "138",
  "version": "無印",
@@ -33,7 +33,12 @@
       "slide": 12,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01031",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 6,
       "slide": 31
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01031",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 6,
       "air": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01031",
+     "key": "exp"
+    },
+    "youtube": [
+     "rgSST731mqE"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,10 +142,35 @@
       "ex_tap": 72,
       "flick": 47
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01031",
+     "key": "mst"
+    },
+    "youtube": [
+     "eJzhviF55yg",
+     "6or7o5Fzp88"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "避☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "040",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "46",
    "image": "8160afaf810b433a.jpg"
+  },
+  "sdvxin": {
+   "id": "01031",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 7959
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "46-bad-apple-feat-nomico"
+ }
 }

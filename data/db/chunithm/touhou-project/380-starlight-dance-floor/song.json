@@ -3,8 +3,8 @@
  "song_id": "380",
  "title": "Starlight Dance Floor",
  "artist": "発熱巫女～ず",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "starlightdancefloor",
+ "artist_romaji": "hatsunetsumikozu",
  "genre": "東方Project",
  "bpm": "128",
  "version": "AIR+",
@@ -33,7 +33,12 @@
       "slide": 10,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02107",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 11,
       "hold": 14
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02107",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "slide": 80,
       "hold": 17
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02107",
+     "key": "exp"
+    },
+    "youtube": [
+     "givdllxm5PM"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,10 +142,35 @@
       "hold": 16,
       "flick": 51
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02107",
+     "key": "mst"
+    },
+    "youtube": [
+     "1h_i0WpVw3c",
+     "PMwvdwrdlEY"
+    ]
    },
    "status": "extracted",
    "notes": "33 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "両☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "091",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "380",
    "image": "f5f99bf548dab947.jpg"
+  },
+  "sdvxin": {
+   "id": "02107",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 20939
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "380-starlight-dance-floor"
+ }
 }

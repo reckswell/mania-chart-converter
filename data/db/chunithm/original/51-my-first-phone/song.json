@@ -3,8 +3,8 @@
  "song_id": "51",
  "title": "My First Phone",
  "artist": "cubesato",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "myfirstphone",
+ "artist_romaji": "cubesato",
  "genre": "ORIGINAL",
  "bpm": "114",
  "version": "無印",
@@ -33,7 +33,12 @@
       "ex_tap": 6,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01060",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 9,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01060",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 37,
       "slide": 53
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01060",
+     "key": "exp"
+    },
+    "youtube": [
+     "e_v6mPUubCg"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,9 +142,34 @@
       "slide": 16,
       "air_hold": 1
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01060",
+     "key": "mst"
+    },
+    "youtube": [
+     "yd65awVt8rw",
+     "i1jYtQTzkFo"
+    ]
    },
    "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "半☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "017",
+     "key": "end"
+    }
+   },
+   "status": "listed",
    "notes": "",
    "assets": {}
   }
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "51",
    "image": "161f13a787a00032.jpg"
+  },
+  "sdvxin": {
+   "id": "01060",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 23922
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "51-my-first-phone"
+ }
 }

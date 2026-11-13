@@ -3,8 +3,8 @@
  "song_id": "762",
  "title": "Everlasting Today",
  "artist": "void (Mournfinale)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "everlastingtoday",
+ "artist_romaji": "void mournfinale",
  "genre": "ゲキマイ",
  "bpm": "148",
  "version": "AMAZON+",
@@ -33,7 +33,12 @@
       "slide": 23,
       "air_hold": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04125",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 11,
       "air": 17
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04125",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "ex_tap": 140,
       "air_hold": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04125",
+     "key": "exp"
+    },
+    "youtube": [
+     "kQdsBzhK50Y"
+    ]
    },
    "status": "extracted",
    "notes": "32 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air_hold": 43,
       "flick": 27
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04125",
+     "key": "mst"
+    },
+    "youtube": [
+     "Qmyw-a-dKiY",
+     "rKfsRJNZX0E"
+    ]
    },
    "status": "extracted",
    "notes": "90 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "762",
    "image": "07985842c06c49df.jpg"
+  },
+  "sdvxin": {
+   "id": "04125",
+   "list": "songs04.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 20914
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "762-everlasting-today"
+ }
 }

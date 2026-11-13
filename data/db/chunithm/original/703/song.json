@@ -3,8 +3,8 @@
  "song_id": "703",
  "title": "涙色メモリア",
  "artist": "キノシタ feat.YURiCa/花たん",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "namidairomemoria",
+ "artist_romaji": "kinoshitafeat.yurica/hanatan",
  "genre": "ORIGINAL",
  "bpm": "202",
  "version": "AMAZON",
@@ -33,7 +33,12 @@
       "ex_tap": 28,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04053",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 16,
       "air_hold": 15
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04053",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air": 43,
       "air_hold": 59
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04053",
+     "key": "exp"
+    },
+    "youtube": [
+     "jV64BSfiBYg"
+    ]
    },
    "status": "extracted",
    "notes": "5 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air_hold": 55,
       "air": 119
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04053",
+     "key": "mst"
+    },
+    "youtube": [
+     "tsqIFJrM4qA",
+     "K_3zTiLPj1k"
+    ]
    },
    "status": "extracted",
    "notes": "30 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "703",
    "image": "b702f76ade29c24c.jpg"
+  },
+  "sdvxin": {
+   "id": "04053",
+   "list": "songs04.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 21072
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "703"
+ }
 }

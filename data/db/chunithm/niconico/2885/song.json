@@ -3,8 +3,8 @@
  "song_id": "2885",
  "title": "ジェットブラック",
  "artist": "雄之助",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "jetblack",
+ "artist_romaji": "yuunosuke",
  "genre": "niconico",
  "bpm": "170",
  "version": "X-VERSE",
@@ -33,7 +33,12 @@
       "ex_tap": 24,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10171",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "tap": 143,
       "ex_tap": 48
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10171",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "ex_tap": 98,
       "air_hold": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10171",
+     "key": "exp"
+    },
+    "youtube": [
+     "kJdtNivU_ro"
+    ]
    },
    "status": "extracted",
    "notes": "5 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "hold": 102,
       "air_hold": 35
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10171",
+     "key": "mst"
+    },
+    "youtube": [
+     "ytXxyQ091K0",
+     "PCu82eMs6pY"
+    ]
    },
    "status": "extracted",
    "notes": "24 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2885",
    "image": "0f03de1a9e1c6f66.jpg"
+  },
+  "sdvxin": {
+   "id": "10171",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 30675
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2885"
+ }
 }

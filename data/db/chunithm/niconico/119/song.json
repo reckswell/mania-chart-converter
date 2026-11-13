@@ -3,8 +3,8 @@
  "song_id": "119",
  "title": "アウターサイエンス",
  "artist": "じん",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "outer science",
+ "artist_romaji": "jin",
  "genre": "niconico",
  "bpm": "195",
  "version": "AIR",
@@ -33,7 +33,12 @@
       "slide": 10,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02060",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 31,
       "air_hold": 13
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02060",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 67,
       "air": 99
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02060",
+     "key": "exp"
+    },
+    "youtube": [
+     "rWgAX_fI-ns"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -125,10 +142,35 @@
       "flick": 76,
       "hold": 30
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02060",
+     "key": "mst"
+    },
+    "youtube": [
+     "_SFDAC4FIQ0",
+     "TjzUko0LhCY"
+    ]
    },
    "status": "extracted",
    "notes": "22 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "跳☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "103",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "119",
    "image": "a7dd6716fcae0cb8.jpg"
+  },
+  "sdvxin": {
+   "id": "02060",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 10558
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "119"
+ }
 }

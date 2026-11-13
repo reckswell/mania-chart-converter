@@ -3,8 +3,8 @@
  "song_id": "551",
  "title": "Sparking Revolver",
  "artist": "xi",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "sparkingrevolver",
+ "artist_romaji": "xi",
  "genre": "ORIGINAL",
  "bpm": "357",
  "version": "STAR+",
@@ -33,7 +33,12 @@
       "slide": 24,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03106",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "not represented: CLK×4",
@@ -62,7 +67,12 @@
       "ex_tap": 64,
       "air": 44
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03106",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "not represented: CLK×4",
@@ -92,7 +102,14 @@
       "air_hold": 43,
       "slide": 49
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03106",
+     "key": "exp"
+    },
+    "youtube": [
+     "9DyG8Pst2Tw"
+    ]
    },
    "status": "extracted",
    "notes": "18 exact duplicate lines ignored; not represented: CLK×4",
@@ -124,7 +141,15 @@
       "flick": 35,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03106",
+     "key": "mst"
+    },
+    "youtube": [
+     "8XNm4WYxCJ8",
+     "FE22RgHxO7g"
+    ]
    },
    "status": "extracted",
    "notes": "not represented: CLK×4",
@@ -135,6 +160,10 @@
   "otogedb": {
    "id": "551",
    "image": "e18b6ede661b48e7.jpg"
+  },
+  "sdvxin": {
+   "id": "03106",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -148,5 +177,7 @@
    "bytes": 28743
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "551-sparking-revolver"
+ }
 }

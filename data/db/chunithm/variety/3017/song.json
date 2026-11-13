@@ -3,8 +3,8 @@
  "song_id": "3017",
  "title": "白光に響く生命の叫び",
  "artist": "カプコン・サウンドチーム",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "hakkounihibiku seimeinosakebi",
+ "artist_romaji": "capcom soundteam",
  "genre": "VARIETY",
  "bpm": "155",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 96,
     "air": 72
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11015",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 237,
     "air": 79
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11015",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 246
    },
    "source": {
-    "sdvxin_legacy": "11/11015exp"
+    "sdvxin_legacy": "11/11015exp",
+    "sdvxin": {
+     "id": "11015",
+     "key": "exp"
+    },
+    "youtube": [
+     "2sO6wr4gbEU"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11015mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11015mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11015mst.png",
+    "sdvxin": {
+     "id": "11015",
+     "key": "mst"
+    },
+    "youtube": [
+     "69WqEjk8-aY",
+     "BtQm-LpJT8M"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3017",
    "image": "a1ad32ebd52cab36.jpg"
+  },
+  "sdvxin": {
+   "id": "11015",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 26633
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3017"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "2243",
  "title": "Rumbling hearts",
  "artist": "栗林みな実",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "rumblinghearts",
+ "artist_romaji": "kuribayashiminami",
  "genre": "POPS & ANIME",
  "bpm": "136",
  "version": "NEW+",
@@ -33,7 +33,12 @@
       "slide": 19,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07218",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 20,
       "air": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07218",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -93,7 +103,14 @@
       "ex_tap": 78,
       "other": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07218",
+     "key": "exp"
+    },
+    "youtube": [
+     "hBpbfKO3AG0"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "flick": 32,
       "air_hold": 43
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07218",
+     "key": "mst"
+    },
+    "youtube": [
+     "BvW9uST_RGA",
+     "_C2kHjFx6P4"
+    ]
    },
    "status": "extracted",
    "notes": "13 exact duplicate lines ignored",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2243",
    "image": "7afe569d2bdc5b39.jpg"
+  },
+  "sdvxin": {
+   "id": "07218",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -152,6 +181,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2243-rumbling-hearts"
  }
 }

@@ -3,8 +3,8 @@
  "song_id": "2001",
  "title": "ザ・ライブ革命でSHOW！",
  "artist": "星井美希、高槻やよい、菊地 真、双海亜美、双海真美、四条貴音「アイドルマスター」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "thelivekakumeideshow",
+ "artist_romaji": "hoshiimiki takatsukiyayoi kikuchimakoto hutamiami shijoutakane idolmaster",
  "genre": "POPS & ANIME",
  "bpm": "162",
  "version": "PARADISE×",
@@ -33,7 +33,12 @@
       "slide": 22,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06105",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 20,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06105",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "ex_tap": 144,
       "air": 35
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06105",
+     "key": "exp"
+    },
+    "youtube": [
+     "1oVeMdDpG1Y"
+    ]
    },
    "status": "extracted",
    "notes": "5 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "ex_tap": 159,
       "flick": 95
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06105",
+     "key": "mst"
+    },
+    "youtube": [
+     "qfySz9xtxwE",
+     "T3NnPB38SJ8"
+    ]
    },
    "status": "extracted",
    "notes": "33 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2001",
    "image": "a5b15a4925ae36bc.jpg"
+  },
+  "sdvxin": {
+   "id": "06105",
+   "list": "songs06.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 30805
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2001-show"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "3072",
  "title": "ぴるぐライド!",
  "artist": "MOSAIC.WAV「MUSIC DIVER」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "pilglide",
+ "artist_romaji": "mosaicwav musicdiver",
  "genre": "VARIETY",
  "bpm": "153",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 80,
     "air": 45
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11069",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 236,
     "air": 61
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11069",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 166
    },
    "source": {
-    "sdvxin_legacy": "10/11069exp"
+    "sdvxin_legacy": "10/11069exp",
+    "sdvxin": {
+     "id": "11069",
+     "key": "exp"
+    },
+    "youtube": [
+     "L2L5T9Qcnyg"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "10/11069mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11069mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11069mst.png",
+    "sdvxin": {
+     "id": "11069",
+     "key": "mst"
+    },
+    "youtube": [
+     "TPvl7UbKLfU",
+     "HAg-jMN9xdc"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3072",
    "image": "2877b4d46acb4d1b.jpg"
+  },
+  "sdvxin": {
+   "id": "11069",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 31308
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3072"
+ }
 }

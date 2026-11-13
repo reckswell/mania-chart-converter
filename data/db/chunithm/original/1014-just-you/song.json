@@ -3,8 +3,8 @@
  "song_id": "1014",
  "title": "Just You",
  "artist": "サルケバ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "justyou",
+ "artist_romaji": "sarukeba",
  "genre": "ORIGINAL",
  "bpm": "190",
  "version": "PARADISE",
@@ -33,7 +33,12 @@
       "slide": 20,
       "air_hold": 3
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06029",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 7,
       "air": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06029",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "ex_tap": 130,
       "hold": 45
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06029",
+     "key": "exp"
+    },
+    "youtube": [
+     "viFR6-lRmyg"
+    ]
    },
    "status": "extracted",
    "notes": "6 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "slide": 45,
       "flick": 93
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06029",
+     "key": "mst"
+    },
+    "youtube": [
+     "-Rgt7OXFcTs",
+     "BS5vhanDnTw"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "1014",
    "image": "2720e59dd27223a5.jpg"
+  },
+  "sdvxin": {
+   "id": "06029",
+   "list": "songs06.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 29031
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "1014-just-you"
+ }
 }

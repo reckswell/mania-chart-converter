@@ -3,8 +3,8 @@
  "song_id": "3069",
  "title": "狂命",
  "artist": "Capchii feat. ChumuNote",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "kyoumei",
+ "artist_romaji": "Capchii ChumuNote",
  "genre": "ORIGINAL",
  "bpm": "220",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 188,
     "air": 96
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11073",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,7 +45,15 @@
     "slide": 314,
     "air": 48
    },
-   "source": {},
+   "source": {
+    "sdvxin": {
+     "id": "11073",
+     "key": "adv"
+    },
+    "youtube": [
+     "LNeCtQmKkwM"
+    ]
+   },
    "status": "listed",
    "notes": "",
    "assets": {}
@@ -57,7 +71,14 @@
     "air": 171
    },
    "source": {
-    "sdvxin_legacy": "10/11073exp"
+    "sdvxin_legacy": "10/11073exp",
+    "sdvxin": {
+     "id": "11073",
+     "key": "exp"
+    },
+    "youtube": [
+     "gNnc2V_Q2h8"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +99,15 @@
    },
    "source": {
     "sdvxin_legacy": "10/11073mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11073mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11073mst.png",
+    "sdvxin": {
+     "id": "11073",
+     "key": "mst"
+    },
+    "youtube": [
+     "QXZEQgJtHz0",
+     "DLIwK9vkyzM"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +118,10 @@
   "otogedb": {
    "id": "3069",
    "image": "5f167154120c68ed.jpg"
+  },
+  "sdvxin": {
+   "id": "11073",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +135,7 @@
    "bytes": 24910
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3069"
+ }
 }

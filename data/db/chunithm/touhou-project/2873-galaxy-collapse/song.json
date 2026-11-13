@@ -3,8 +3,8 @@
  "song_id": "2873",
  "title": "Galaxy Collapse",
  "artist": "黒皇帝",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "galaxycollapse",
+ "artist_romaji": "kurokoutei",
  "genre": "東方Project",
  "bpm": "135",
  "version": "X-VERSE",
@@ -33,7 +33,12 @@
       "slide": 44,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10161",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 57,
       "air_hold": 1
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10161",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -91,7 +101,14 @@
       "ex_tap": 227,
       "air": 67
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10161",
+     "key": "exp"
+    },
+    "youtube": [
+     "wWVjhbSdLFQ"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "air": 155,
       "other": 48
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10161",
+     "key": "mst"
+    },
+    "youtube": [
+     "dR-diF-pt1c",
+     "WEK1IAOQTz4"
+    ]
    },
    "status": "extracted",
    "notes": "95 exact duplicate lines ignored; not represented: SLP×19",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2873",
    "image": "7e960cc79d3ba17d.jpg"
+  },
+  "sdvxin": {
+   "id": "10161",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 24964
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2873-galaxy-collapse"
+ }
 }

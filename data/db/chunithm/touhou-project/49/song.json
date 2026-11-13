@@ -3,8 +3,8 @@
  "song_id": "49",
  "title": "エピクロスの虹はもう見えない",
  "artist": "SYNC.ART'S feat.美里",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "epicurusnonijihamoumienai",
+ "artist_romaji": "sync.art'sfeat.misato",
  "genre": "東方Project",
  "bpm": "155",
  "version": "無印",
@@ -33,7 +33,12 @@
       "slide": 7,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01103",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 23,
       "air": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01103",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 20,
       "air_hold": 28
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01103",
+     "key": "exp"
+    },
+    "youtube": [
+     "B0OtCxk3zaM"
+    ]
    },
    "status": "extracted",
    "notes": "5 exact duplicate lines ignored",
@@ -125,10 +142,35 @@
       "ex_tap": 28,
       "flick": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01103",
+     "key": "mst"
+    },
+    "youtube": [
+     "7JxrwfEf1Go",
+     "Zv72-DCZTBc"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "割☆☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "190",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "49",
    "image": "4583278e38c3bf29.jpg"
+  },
+  "sdvxin": {
+   "id": "01103",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 29809
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "49"
+ }
 }

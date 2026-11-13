@@ -3,8 +3,8 @@
  "song_id": "2008",
  "title": "インフェルノ",
  "artist": "Mrs. GREEN APPLE",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "inferno",
+ "artist_romaji": "mrsgreenapple",
  "genre": "POPS & ANIME",
  "bpm": "185",
  "version": "NEW",
@@ -33,7 +33,12 @@
       "slide": 28,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07007",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 18,
       "air_hold": 24
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07007",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 89,
       "hold": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07007",
+     "key": "exp"
+    },
+    "youtube": [
+     "vySBIqjkQSQ"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "hold": 15,
       "air_hold": 79
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07007",
+     "key": "mst"
+    },
+    "youtube": [
+     "aBVhFILBAJw",
+     "Y1IQOFOlAsw"
+    ]
    },
    "status": "extracted",
    "notes": "18 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2008",
    "image": "48e0e341da2cdc7d.jpg"
+  },
+  "sdvxin": {
+   "id": "07007",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -150,6 +179,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2008"
  }
 }

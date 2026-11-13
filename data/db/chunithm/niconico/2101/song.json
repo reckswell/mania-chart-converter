@@ -3,8 +3,8 @@
  "song_id": "2101",
  "title": "ラグトレイン",
  "artist": "稲葉曇",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "lagtrain",
+ "artist_romaji": "inabakumori",
  "genre": "niconico",
  "bpm": "147",
  "version": "PARADISE×",
@@ -33,7 +33,12 @@
       "slide": 25,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06135",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 10,
       "ex_tap": 30
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06135",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air_hold": 22,
       "air": 49
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06135",
+     "key": "exp"
+    },
+    "youtube": [
+     "bXQkrW0T2XY"
+    ]
    },
    "status": "extracted",
    "notes": "18 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 97,
       "air_hold": 11
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06135",
+     "key": "mst"
+    },
+    "youtube": [
+     "daUpELfef4g",
+     "yFEFvLcdb3Y"
+    ]
    },
    "status": "extracted",
    "notes": "15 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2101",
    "image": "c21f76836ed85075.jpg"
+  },
+  "sdvxin": {
+   "id": "06135",
+   "list": "songs06.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 12821
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2101"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "2167",
  "title": "俺ら東京さ行ぐだ",
  "artist": "吉幾三",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "oratokyousaiguda",
+ "artist_romaji": "yoshiikuzou",
  "genre": "POPS & ANIME",
  "bpm": "118",
  "version": "NEW",
@@ -33,7 +33,12 @@
       "slide": 11,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07131",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 10,
       "air_hold": 11
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07131",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "slide": 93,
       "air": 77
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07131",
+     "key": "exp"
+    },
+    "youtube": [
+     "6XPgXEIHJb0"
+    ]
    },
    "status": "extracted",
    "notes": "19 exact duplicate lines ignored",
@@ -126,7 +143,15 @@
       "ex_tap": 126,
       "other": 3
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07131",
+     "key": "mst"
+    },
+    "youtube": [
+     "AkPr7K9i8vU",
+     "IW1vvObLyr8"
+    ]
    },
    "status": "extracted",
    "notes": "206 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2167",
    "image": "862524263aa9347b.jpg"
+  },
+  "sdvxin": {
+   "id": "07131",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -151,6 +180,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2167"
  }
 }

@@ -3,8 +3,8 @@
  "song_id": "555",
  "title": "キレキャリオン",
  "artist": "ポリスピカデリー「#コンパス」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "kirecarryon",
+ "artist_romaji": "police piccadilly compass",
  "genre": "niconico",
  "bpm": "185",
  "version": "STAR+",
@@ -33,7 +33,12 @@
       "slide": 16,
       "air_hold": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03112",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 25,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03112",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "slide": 62,
       "air_hold": 13
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03112",
+     "key": "exp"
+    },
+    "youtube": [
+     "yDBbGNdL3T4"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -124,7 +141,15 @@
       "slide": 126,
       "flick": 71
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03112",
+     "key": "mst"
+    },
+    "youtube": [
+     "WmNb9iHJyDM",
+     "FYLBYZe703E"
+    ]
    },
    "status": "extracted",
    "notes": "39 exact duplicate lines ignored",
@@ -135,6 +160,10 @@
   "otogedb": {
    "id": "555",
    "image": "bca8c820576da25a.jpg"
+  },
+  "sdvxin": {
+   "id": "03112",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -148,5 +177,7 @@
    "bytes": 18963
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "555"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "899",
  "title": "conflict(斉唱)",
  "artist": "イロドリミドリ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "conflict seishou",
+ "artist_romaji": "irodorimidori",
  "genre": "イロドリミドリ",
  "bpm": "160",
  "version": "CRYSTAL+",
@@ -33,7 +33,12 @@
       "ex_tap": 50,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05090",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "MET 0/0 at tick 44280 ignored",
@@ -62,7 +67,12 @@
       "hold": 36,
       "air_hold": 13
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05090",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "MET 0/0 at tick 44280 ignored",
@@ -92,7 +102,14 @@
       "hold": 96,
       "air": 169
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05090",
+     "key": "exp"
+    },
+    "youtube": [
+     "TQfEqsrPpjU"
+    ]
    },
    "status": "extracted",
    "notes": "17 exact duplicate lines ignored; MET 0/0 at tick 44280 ignored",
@@ -125,7 +142,15 @@
       "air_hold": 92,
       "flick": 114
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05090",
+     "key": "mst"
+    },
+    "youtube": [
+     "r0WlnszyRMc",
+     "Dlzif_Euz3A"
+    ]
    },
    "status": "extracted",
    "notes": "43 exact duplicate lines ignored; MET 0/0 at tick 44280 ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "899",
    "image": "e1586d65b8482895.jpg"
+  },
+  "sdvxin": {
+   "id": "05090",
+   "list": "songs05.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 23325
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "899-conflict"
+ }
 }

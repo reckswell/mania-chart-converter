@@ -3,8 +3,8 @@
  "song_id": "969",
  "title": "U ARE",
  "artist": "MK&Kanae Asaba",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "uare",
+ "artist_romaji": "mk&kanaeasaba",
  "genre": "ORIGINAL",
  "bpm": "130",
  "version": "CRYSTAL+",
@@ -33,7 +33,12 @@
       "slide": 16,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05154",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 32,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05154",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "hold": 60,
       "air": 54
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05154",
+     "key": "exp"
+    },
+    "youtube": [
+     "5bViPsCZbkU"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,10 +142,35 @@
       "tap": 643,
       "hold": 15
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05154",
+     "key": "mst"
+    },
+    "youtube": [
+     "1Sn4Y8nX-Fg",
+     "zgmGigMuZZM"
+    ]
    },
    "status": "extracted",
    "notes": "8 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "両☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "206",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "969",
    "image": "b0f1940b8a50a775.jpg"
+  },
+  "sdvxin": {
+   "id": "05154",
+   "list": "songs05.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 17660
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "969-u-are"
+ }
 }

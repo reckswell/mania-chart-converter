@@ -3,8 +3,8 @@
  "song_id": "2016",
  "title": "名前のない怪物",
  "artist": "EGOIST CX系ノイタミナ「PSYCHO-PASS サイコパス」エンディングテーマ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "namaenonaikaibutsu",
+ "artist_romaji": "egoist cxkeinoitamina psychopass endingtheme",
  "genre": "POPS & ANIME",
  "bpm": "180",
  "version": "NEW",
@@ -33,7 +33,12 @@
       "slide": 41,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07013",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 6,
       "ex_tap": 24
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07013",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 39,
       "tap": 268
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07013",
+     "key": "exp"
+    },
+    "youtube": [
+     "VBMqCBE0xtA"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "tap": 445,
       "hold": 40
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07013",
+     "key": "mst"
+    },
+    "youtube": [
+     "qWJJjdr1xD0",
+     "2RWevs3ndNM"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2016",
    "image": "d7cdb597c60c5395.jpg"
+  },
+  "sdvxin": {
+   "id": "07013",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -150,6 +179,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2016"
  }
 }

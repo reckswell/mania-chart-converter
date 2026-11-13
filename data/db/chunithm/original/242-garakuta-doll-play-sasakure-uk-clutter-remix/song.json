@@ -3,8 +3,8 @@
  "song_id": "242",
  "title": "Garakuta Doll Play (sasakure.UK clutter remix)",
  "artist": "sasakure.UK",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "garakutadollplay sasakureuk clutterremix",
+ "artist_romaji": "sasakureuk",
  "genre": "ORIGINAL",
  "bpm": "256",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 66,
     "air": 53
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11029",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,7 +45,15 @@
     "slide": 157,
     "air": 21
    },
-   "source": {},
+   "source": {
+    "sdvxin": {
+     "id": "11029",
+     "key": "adv"
+    },
+    "youtube": [
+     "-IR5fArFuXQ"
+    ]
+   },
    "status": "listed",
    "notes": "",
    "assets": {}
@@ -57,7 +71,14 @@
     "air": 187
    },
    "source": {
-    "sdvxin_legacy": "11/11029exp"
+    "sdvxin_legacy": "11/11029exp",
+    "sdvxin": {
+     "id": "11029",
+     "key": "exp"
+    },
+    "youtube": [
+     "XyC2NbIjrRk"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +99,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11029mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11029mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11029mst.png",
+    "sdvxin": {
+     "id": "11029",
+     "key": "mst"
+    },
+    "youtube": [
+     "fAS9cqpgSR0",
+     "6LZn46kglZk"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +118,10 @@
   "otogedb": {
    "id": "242",
    "image": "0a3d7b00000922f8.jpg"
+  },
+  "sdvxin": {
+   "id": "11029",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +135,7 @@
    "bytes": 29170
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "242-garakuta-doll-play-sasakure-uk-clutter-remix"
+ }
 }

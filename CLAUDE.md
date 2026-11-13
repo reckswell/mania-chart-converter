@@ -11,7 +11,8 @@
 - Tests: `python -m pytest -q`. The demo (`python -m vsrgconv --db /tmp/d demo --out /tmp/o`) must stay lint-clean.
   Never skip or weaken a test to pass.
 - Data:
-  - commit `data/db` (catalog, extracted `*.chart.json.gz`, jackets shrunk to ≤320 px JPEG);
+  - commit `data/db` (catalog, extracted `*.chart.json.gz`, jackets shrunk to ≤320 px JPEG, each game's
+    `update.json` and `CHANGELOG.md` from `vsrgconv update`, docs/updating.md);
   - commit `data/games` (definitions of games added with `vsrgconv add-game`, docs/adding-a-game.md);
   - never commit `data/cache` (downloaded pictures, audio), `data/renders` (redrawn by `vsrgconv render`) or `out/`.
 - Network (cloud environment "vsrgs", Allowed domains, checked 2026-11-12; the older "Default" environment lacks the

@@ -3,8 +3,8 @@
  "song_id": "2320",
  "title": "エータ・ベータ・イータ",
  "artist": "ルゼ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "etabetaeta",
+ "artist_romaji": "luze",
  "genre": "ゲキマイ",
  "bpm": "186",
  "version": "SUN",
@@ -33,7 +33,12 @@
       "slide": 16,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08070",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 9,
       "air_hold": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08070",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 33,
       "hold": 1
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08070",
+     "key": "exp"
+    },
+    "youtube": [
+     "SodkyG3F8QM"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -126,7 +143,15 @@
       "tap": 690,
       "hold": 104
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08070",
+     "key": "mst"
+    },
+    "youtube": [
+     "DitO8NRQ_yc",
+     "WxDYqNjvWuI"
+    ]
    },
    "status": "extracted",
    "notes": "23 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2320",
    "image": "26ebab05776bfb69.jpg"
+  },
+  "sdvxin": {
+   "id": "08070",
+   "list": "songs08.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 27496
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2320"
+ }
 }

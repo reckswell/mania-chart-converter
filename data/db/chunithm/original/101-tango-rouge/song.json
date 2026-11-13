@@ -3,8 +3,8 @@
  "song_id": "101",
  "title": "Tango Rouge",
  "artist": "Yoko Shimomura",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "tangorouge",
+ "artist_romaji": "yokoshimomura",
  "genre": "ORIGINAL",
  "bpm": "152",
  "version": "無印",
@@ -33,7 +33,12 @@
       "ex_tap": 28,
       "air_hold": 7
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01090",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 25,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01090",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "slide": 21,
       "air_hold": 38
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01090",
+     "key": "exp"
+    },
+    "youtube": [
+     "SFQ_Yxk6tZk"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "flick": 19,
       "slide": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01090",
+     "key": "mst"
+    },
+    "youtube": [
+     "Nx6ZNTbSNx8",
+     "Q5O6sc8BXjc"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "101",
    "image": "81e347d3b96b2ae1.jpg"
+  },
+  "sdvxin": {
+   "id": "01090",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 29437
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "101-tango-rouge"
+ }
 }

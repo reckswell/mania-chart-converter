@@ -3,8 +3,8 @@
  "song_id": "2145",
  "title": "Blows Up Everything",
  "artist": "USAO",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "blowsupeverything",
+ "artist_romaji": "usao",
  "genre": "ゲキマイ",
  "bpm": "215",
  "version": "NEW",
@@ -33,7 +33,12 @@
       "slide": 24,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07097",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 8,
       "air_hold": 19
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07097",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 61,
       "air": 86
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07097",
+     "key": "exp"
+    },
+    "youtube": [
+     "6vufjxrmD3E"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air": 198,
       "hold": 97
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07097",
+     "key": "mst"
+    },
+    "youtube": [
+     "YwJvSTsC9i0",
+     "Y2uvEz_1vOs"
+    ]
    },
    "status": "extracted",
    "notes": "7 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2145",
    "image": "1a8ae160a19317f9.jpg"
+  },
+  "sdvxin": {
+   "id": "07097",
+   "list": "songs07.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 23383
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2145-blows-up-everything"
+ }
 }

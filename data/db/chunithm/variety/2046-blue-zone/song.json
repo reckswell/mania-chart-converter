@@ -3,8 +3,8 @@
  "song_id": "2046",
  "title": "BLUE ZONE",
  "artist": "Tatsh x NAOKI",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "bluezone",
+ "artist_romaji": "tatsh naoki",
  "genre": "VARIETY",
  "bpm": "168",
  "version": "NEW",
@@ -33,7 +33,12 @@
       "slide": 18,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07047",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 29,
       "air": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07047",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -91,7 +101,14 @@
       "air_hold": 61,
       "air": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07047",
+     "key": "exp"
+    },
+    "youtube": [
+     "gscmA1_5On8"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -124,10 +141,35 @@
       "flick": 135,
       "hold": 50
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07047",
+     "key": "mst"
+    },
+    "youtube": [
+     "Sg7nAuFrs28",
+     "h-WbYf9jfPM"
+    ]
    },
    "status": "extracted",
    "notes": "16 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "敷☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "214",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -135,6 +177,10 @@
   "otogedb": {
    "id": "2046",
    "image": "8a6e15abca46c803.jpg"
+  },
+  "sdvxin": {
+   "id": "07047",
+   "list": "songs07.json"
   }
  },
  "assets": {
@@ -148,5 +194,7 @@
    "bytes": 26866
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2046-blue-zone"
+ }
 }

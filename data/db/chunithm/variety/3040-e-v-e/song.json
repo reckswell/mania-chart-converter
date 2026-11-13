@@ -3,8 +3,8 @@
  "song_id": "3040",
  "title": "E.V.E",
  "artist": "SOMON",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "eve",
+ "artist_romaji": "somon",
  "genre": "VARIETY",
  "bpm": "158",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 72,
     "air": 78
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11040",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 272,
     "air": 46
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11040",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 175
    },
    "source": {
-    "sdvxin_legacy": "11/11040exp"
+    "sdvxin_legacy": "11/11040exp",
+    "sdvxin": {
+     "id": "11040",
+     "key": "exp"
+    },
+    "youtube": [
+     "awyp8Tl8dp8"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11040mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11040mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11040mst.png",
+    "sdvxin": {
+     "id": "11040",
+     "key": "mst"
+    },
+    "youtube": [
+     "Dv-W4HvALdU",
+     "NchpX5FzVHM"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3040",
    "image": "01d050269e5adaeb.jpg"
+  },
+  "sdvxin": {
+   "id": "11040",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 22820
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3040-e-v-e"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "2127",
  "title": "プナイプナイたいそう",
  "artist": "立秋 feat.ちょこ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "punaipunaitaisou",
+ "artist_romaji": "risshuuchoko",
  "genre": "VARIETY",
  "bpm": "271",
  "version": "NEW",
@@ -33,7 +33,12 @@
       "slide": 11,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07095",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 32,
       "air": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07095",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 24,
       "ex_tap": 83
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07095",
+     "key": "exp"
+    },
+    "youtube": [
+     "5k2zmFbrqM0"
+    ]
    },
    "status": "extracted",
    "notes": "14 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "ex_tap": 150,
       "flick": 92
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07095",
+     "key": "mst"
+    },
+    "youtube": [
+     "gx8UVEAbzr8",
+     "yR5LDCjYwTg"
+    ]
    },
    "status": "extracted",
    "notes": "103 exact duplicate lines ignored; combo 1413 in the .c2s differs from the published note count 1467 (chart revised since this file?)",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2127",
    "image": "4b30ec363f315320.jpg"
+  },
+  "sdvxin": {
+   "id": "07095",
+   "list": "songs07.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 22093
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2127"
+ }
 }

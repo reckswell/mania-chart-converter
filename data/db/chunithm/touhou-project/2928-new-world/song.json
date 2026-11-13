@@ -3,8 +3,8 @@
  "song_id": "2928",
  "title": "New World",
  "artist": "FELT",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "newworld",
+ "artist_romaji": "felt",
  "genre": "東方Project",
  "bpm": "195",
  "version": "X-VERSE-X",
@@ -33,7 +33,12 @@
       "slide": 37,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10212",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 10,
       "air": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10212",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air": 47,
       "slide": 87
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10212",
+     "key": "exp"
+    },
+    "youtube": [
+     "NN5rVLiV37I"
+    ]
    },
    "status": "extracted",
    "notes": "94 exact duplicate lines ignored",
@@ -126,7 +143,15 @@
       "air_hold": 47,
       "other": 111
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10212",
+     "key": "mst"
+    },
+    "youtube": [
+     "xxEB0d25Pfs",
+     "JwM-tcDnZno"
+    ]
    },
    "status": "extracted",
    "notes": "108 exact duplicate lines ignored; not represented: SLP×20",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2928",
    "image": "d1944af5d4deb244.jpg"
+  },
+  "sdvxin": {
+   "id": "10212",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 18313
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2928-new-world"
+ }
 }

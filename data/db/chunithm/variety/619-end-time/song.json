@@ -3,8 +3,8 @@
  "song_id": "619",
  "title": "End Time",
  "artist": "Cres.",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "endtime",
+ "artist_romaji": "cres",
  "genre": "VARIETY",
  "bpm": "180",
  "version": "AMAZON",
@@ -33,7 +33,12 @@
       "air_hold": 3,
       "ex_tap": 3
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04074",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 35,
       "air": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04074",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "ex_tap": 98,
       "hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04074",
+     "key": "exp"
+    },
+    "youtube": [
+     "i-g4PjwgdZo"
+    ]
    },
    "status": "extracted",
    "notes": "8 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "ex_tap": 167,
       "hold": 21
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04074",
+     "key": "mst"
+    },
+    "youtube": [
+     "_LD9Xe9e61I",
+     "1U1fv3ssp5U"
+    ]
    },
    "status": "extracted",
    "notes": "16 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "619",
    "image": "9a7e76eb551aab7f.jpg"
+  },
+  "sdvxin": {
+   "id": "04074",
+   "list": "songs04.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 14102
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "619-end-time"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "930",
  "title": "7 days a week",
  "artist": "Silver Forest",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "7daysaweek",
+ "artist_romaji": "silverforest",
  "genre": "東方Project",
  "bpm": "144",
  "version": "CRYSTAL+",
@@ -33,7 +33,12 @@
       "ex_tap": 12,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05145",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 53,
       "air": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05145",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "slide": 93,
       "tap": 241
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05145",
+     "key": "exp"
+    },
+    "youtube": [
+     "e98HlZdSXi4"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 129,
       "tap": 446
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05145",
+     "key": "mst"
+    },
+    "youtube": [
+     "pC2dwXn0Bgw",
+     "dJUMTsqIk5Y"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "930",
    "image": "9099647bde07a3c2.jpg"
+  },
+  "sdvxin": {
+   "id": "05145",
+   "list": "songs05.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 24002
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "930-7-days-a-week"
+ }
 }

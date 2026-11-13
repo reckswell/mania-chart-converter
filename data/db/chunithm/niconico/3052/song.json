@@ -3,8 +3,8 @@
  "song_id": "3052",
  "title": "雑魚",
  "artist": "柊マグネタイト",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "zako",
+ "artist_romaji": "hiiragi magnetite",
  "genre": "niconico",
  "bpm": "135",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 108,
     "air": 44
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11058",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 122,
     "air": 7
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11058",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 130
    },
    "source": {
-    "sdvxin_legacy": "10/11058exp"
+    "sdvxin_legacy": "10/11058exp",
+    "sdvxin": {
+     "id": "11058",
+     "key": "exp"
+    },
+    "youtube": [
+     "weEDXT1pVwM"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "10/11058mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11058mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11058mst.png",
+    "sdvxin": {
+     "id": "11058",
+     "key": "mst"
+    },
+    "youtube": [
+     "FIhup9lHuaE",
+     "eH5-ZOB_idc"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3052",
    "image": "fb5e60d62c7d88e7.jpg"
+  },
+  "sdvxin": {
+   "id": "11058",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 27270
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3052"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "730",
  "title": "Ai Nov",
  "artist": "Feryquitous",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "ainov",
+ "artist_romaji": "feryquitous",
  "genre": "ゲキマイ",
  "bpm": "195",
  "version": "AMAZON+",
@@ -33,7 +33,12 @@
       "ex_tap": 19,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04092",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 19,
       "ex_tap": 46
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04092",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air": 66,
       "air_hold": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04092",
+     "key": "exp"
+    },
+    "youtube": [
+     "6Xb15Zm3Mwk"
+    ]
    },
    "status": "extracted",
    "notes": "22 exact duplicate lines ignored",
@@ -125,10 +142,35 @@
       "slide": 81,
       "hold": 83
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04092",
+     "key": "mst"
+    },
+    "youtube": [
+     "WrVo4j6LYtU",
+     "lO3p34WP8eI"
+    ]
    },
    "status": "extracted",
    "notes": "35 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "撃☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "180",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "730",
    "image": "5d2fbf22e73a8a91.jpg"
+  },
+  "sdvxin": {
+   "id": "04092",
+   "list": "songs04.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 21530
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "730-ai-nov"
+ }
 }

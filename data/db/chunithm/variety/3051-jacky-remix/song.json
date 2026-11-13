@@ -3,8 +3,8 @@
  "song_id": "3051",
  "title": "JACKY [Remix]",
  "artist": "バーチャファイター",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "jackyremix",
+ "artist_romaji": "virtuafighter",
  "genre": "VARIETY",
  "bpm": "135",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 78,
     "air": 30
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11049",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 104,
     "air": 16
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11049",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 73
    },
    "source": {
-    "sdvxin_legacy": "11/11049exp"
+    "sdvxin_legacy": "11/11049exp",
+    "sdvxin": {
+     "id": "11049",
+     "key": "exp"
+    },
+    "youtube": [
+     "SF2bTtvtx4U"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11049mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11049mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11049mst.png",
+    "sdvxin": {
+     "id": "11049",
+     "key": "mst"
+    },
+    "youtube": [
+     "wU7jp4MO4GM",
+     "KWFAIfvvEiQ"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3051",
    "image": "0b01ce1c72e9defc.jpg"
+  },
+  "sdvxin": {
+   "id": "11049",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 27545
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3051-jacky-remix"
+ }
 }

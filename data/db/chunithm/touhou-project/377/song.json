@@ -3,8 +3,8 @@
  "song_id": "377",
  "title": "泡沫、哀のまほろば",
  "artist": "幽閉サテライト",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "utakataainomahoroba",
+ "artist_romaji": "yuuhei satellite",
  "genre": "東方Project",
  "bpm": "155",
  "version": "AIR+",
@@ -33,7 +33,12 @@
       "slide": 3,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02105",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 25,
       "tap": 89
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02105",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air_hold": 23,
       "ex_tap": 42
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02105",
+     "key": "exp"
+    },
+    "youtube": [
+     "0t6KlnWESbE"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air": 60,
       "flick": 36
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02105",
+     "key": "mst"
+    },
+    "youtube": [
+     "AFsNlAmx0Ec",
+     "9BLjwIgwz6A"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "377",
    "image": "841eecc396c5059a.jpg"
+  },
+  "sdvxin": {
+   "id": "02105",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 36002
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "377"
+ }
 }

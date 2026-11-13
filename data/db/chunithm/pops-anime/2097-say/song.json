@@ -3,8 +3,8 @@
  "song_id": "2097",
  "title": "Say!ファンファーレ!",
  "artist": "白上フブキ（ホロライブ）",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "sayfanfare",
+ "artist_romaji": "shirakamifubuki  hololive",
  "genre": "POPS & ANIME",
  "bpm": "170",
  "version": "NEW",
@@ -33,7 +33,12 @@
       "slide": 34,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07100",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 15,
       "ex_tap": 54
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07100",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "hold": 42,
       "slide": 113
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07100",
+     "key": "exp"
+    },
+    "youtube": [
+     "pfHfo3P6h6A"
+    ]
    },
    "status": "extracted",
    "notes": "69 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "slide": 104,
       "flick": 78
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07100",
+     "key": "mst"
+    },
+    "youtube": [
+     "4Y9vLGUvX6A",
+     "uuaOS-tKpIo"
+    ]
    },
    "status": "extracted",
    "notes": "6 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2097",
    "image": "0f37e9858231de40.jpg"
+  },
+  "sdvxin": {
+   "id": "07100",
+   "list": "songs07.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 18399
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2097-say"
+ }
 }

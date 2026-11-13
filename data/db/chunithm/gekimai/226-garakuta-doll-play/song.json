@@ -3,8 +3,8 @@
  "song_id": "226",
  "title": "Garakuta Doll Play",
  "artist": "t+pazolite",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "garakutadollplay",
+ "artist_romaji": "t+pazolite",
  "genre": "ゲキマイ",
  "bpm": "256",
  "version": "PLUS",
@@ -33,7 +33,12 @@
       "ex_tap": 29,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01142",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 32,
       "air_hold": 11
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01142",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "slide": 60,
       "air": 130
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01142",
+     "key": "exp"
+    },
+    "youtube": [
+     "tj7zN8vBOUk"
+    ]
    },
    "status": "extracted",
    "notes": "38 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 103,
       "hold": 65
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01142",
+     "key": "mst"
+    },
+    "youtube": [
+     "WD6MFwuq818",
+     "J-WhWVSKvQo"
+    ]
    },
    "status": "extracted",
    "notes": "10 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "226",
    "image": "993b5cddb9d9badf.jpg"
+  },
+  "sdvxin": {
+   "id": "01142",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 26412
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "226-garakuta-doll-play"
+ }
 }

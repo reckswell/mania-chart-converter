@@ -3,8 +3,8 @@
  "song_id": "2194",
  "title": "蒼穹舞楽",
  "artist": "Capchii",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "soukyuubugaku",
+ "artist_romaji": "capchii",
  "genre": "ゲキマイ",
  "bpm": "195",
  "version": "NEW+",
@@ -33,7 +33,12 @@
       "slide": 21,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07162",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 23,
       "air": 19
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07162",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -93,7 +103,14 @@
       "other": 23,
       "air_hold": 42
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07162",
+     "key": "exp"
+    },
+    "youtube": [
+     "qzRC3ykeV6U"
+    ]
    },
    "status": "extracted",
    "notes": "6 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "air": 152,
       "other": 64
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07162",
+     "key": "mst"
+    },
+    "youtube": [
+     "R8qeS3PEviU",
+     "dbFN5-wtnDk"
+    ]
    },
    "status": "extracted",
    "notes": "14 exact duplicate lines ignored; combo 1906 in the .c2s differs from the published note count 1926 (chart revised since this file?)",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2194",
    "image": "a9f493a1197dd278.jpg"
+  },
+  "sdvxin": {
+   "id": "07162",
+   "list": "songs07.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 29969
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2194"
+ }
 }

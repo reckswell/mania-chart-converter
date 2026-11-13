@@ -3,8 +3,8 @@
  "song_id": "1009",
  "title": "Alea jacta est!",
  "artist": "BlackY fused with WAiKURO",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "aleajactaest",
+ "artist_romaji": "blacky waikuro",
  "genre": "ゲキマイ",
  "bpm": "162",
  "version": "PARADISE",
@@ -33,7 +33,12 @@
       "ex_tap": 71,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06016",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 126,
       "air_hold": 20
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06016",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "hold": 32,
       "air_hold": 14
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06016",
+     "key": "exp"
+    },
+    "youtube": [
+     "Kn8ZalJJlEQ"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air": 181,
       "air_hold": 57
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06016",
+     "key": "mst"
+    },
+    "youtube": [
+     "U6X_KtvTtAc",
+     "8VX336g3-hQ"
+    ]
    },
    "status": "extracted",
    "notes": "28 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "1009",
    "image": "8b4aa63720717272.jpg"
+  },
+  "sdvxin": {
+   "id": "06016",
+   "list": "songs06.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 22966
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "1009-alea-jacta-est"
+ }
 }

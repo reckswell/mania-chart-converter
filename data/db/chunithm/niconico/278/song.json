@@ -3,8 +3,8 @@
  "song_id": "278",
  "title": "からくりピエロ",
  "artist": "40mP",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "karakuripierrot",
+ "artist_romaji": "40mp",
  "genre": "niconico",
  "bpm": "102",
  "version": "AIR",
@@ -33,7 +33,12 @@
       "ex_tap": 7,
       "air_hold": 3
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02028",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 36,
       "air_hold": 19
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02028",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "ex_tap": 25,
       "air_hold": 23
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02028",
+     "key": "exp"
+    },
+    "youtube": [
+     "tQvTTyAFDSk"
+    ]
    },
    "status": "extracted",
    "notes": "6 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "hold": 41,
       "air_hold": 25
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02028",
+     "key": "mst"
+    },
+    "youtube": [
+     "Jw1XxNb9zus",
+     "UkpqlZZwncA"
+    ]
    },
    "status": "extracted",
    "notes": "71 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "278",
    "image": "5f1d7a520a2735d4.jpg"
+  },
+  "sdvxin": {
+   "id": "02028",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 13536
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "278"
+ }
 }

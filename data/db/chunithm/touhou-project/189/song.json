@@ -3,8 +3,8 @@
  "song_id": "189",
  "title": "ひれ伏せ愚民どもっ！",
  "artist": "ARM＋夕野ヨシミ (IOSYS) feat.miko",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "hirefusegumindomo",
+ "artist_romaji": "arm yuunoyoshimi iosys miko",
  "genre": "東方Project",
  "bpm": "180",
  "version": "AIR",
@@ -33,7 +33,12 @@
       "slide": 6,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02042",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "tap": 265,
       "air_hold": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02042",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 61,
       "air": 140
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02042",
+     "key": "exp"
+    },
+    "youtube": [
+     "JJ50DqemRTE"
+    ]
    },
    "status": "extracted",
    "notes": "20 exact duplicate lines ignored",
@@ -125,9 +142,34 @@
       "flick": 60,
       "hold": 25
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02042",
+     "key": "mst"
+    },
+    "youtube": [
+     "cNMdSrpA73w",
+     "aTCDzwApbLc"
+    ]
    },
    "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "跳☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "171",
+     "key": "end"
+    }
+   },
+   "status": "listed",
    "notes": "",
    "assets": {}
   }
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "189",
    "image": "9310d07b7e02e73a.jpg"
+  },
+  "sdvxin": {
+   "id": "02042",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 35720
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "189"
+ }
 }

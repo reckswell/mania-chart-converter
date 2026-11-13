@@ -3,8 +3,8 @@
  "song_id": "113",
  "title": "ストリーミングハート",
  "artist": "DECO*27",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "streamingheart",
+ "artist_romaji": "deco27",
  "genre": "niconico",
  "bpm": "210",
  "version": "無印",
@@ -33,7 +33,12 @@
       "slide": 11,
       "air_hold": 3
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01023",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 18,
       "ex_tap": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01023",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 72,
       "ex_tap": 21
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01023",
+     "key": "exp"
+    },
+    "youtube": [
+     "rXNJ3oHfi2w"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "air": 46,
       "flick": 78
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01023",
+     "key": "mst"
+    },
+    "youtube": [
+     "OkR92FtpUy0",
+     "A2MieduKj_o"
+    ]
    },
    "status": "extracted",
    "notes": "6 exact duplicate lines ignored",
@@ -159,7 +184,15 @@
       "flick": 151,
       "other": 96
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01023",
+     "key": "ult"
+    },
+    "youtube": [
+     "Y-ydWtiZSIQ",
+     "3abUM7su69w"
+    ]
    },
    "status": "extracted",
    "notes": "90 exact duplicate lines ignored",
@@ -170,6 +203,10 @@
   "otogedb": {
    "id": "113",
    "image": "3f8eb68a4f6089dc.jpg"
+  },
+  "sdvxin": {
+   "id": "01023",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -183,5 +220,7 @@
    "bytes": 15264
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "113"
+ }
 }

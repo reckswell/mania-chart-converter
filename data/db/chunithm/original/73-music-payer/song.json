@@ -3,8 +3,8 @@
  "song_id": "73",
  "title": "MUSIC PЯAYER",
  "artist": "A-One",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "musicprayer",
+ "artist_romaji": "aone",
  "genre": "ORIGINAL",
  "bpm": "168",
  "version": "PLUS",
@@ -33,7 +33,12 @@
       "ex_tap": 71,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01136",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 14,
       "air": 20
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01136",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air": 102,
       "air_hold": 24
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01136",
+     "key": "exp"
+    },
+    "youtube": [
+     "Z3z5ZvHqupg"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "hold": 12,
       "air_hold": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01136",
+     "key": "mst"
+    },
+    "youtube": [
+     "gfLfBeilYZs",
+     "A30iMVRiOro"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -159,10 +184,35 @@
       "hold": 41,
       "other": 566
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01136",
+     "key": "ult"
+    },
+    "youtube": [
+     "JSQMgmzH5Y0",
+     "TJ1CVzyuyHA"
+    ]
    },
    "status": "extracted",
    "notes": "not represented: SLA×2, SLP×2",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "！☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "073",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -170,6 +220,10 @@
   "otogedb": {
    "id": "73",
    "image": "0c2791f737ce1ff2.jpg"
+  },
+  "sdvxin": {
+   "id": "01136",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -183,5 +237,7 @@
    "bytes": 24600
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "73-music-payer"
+ }
 }

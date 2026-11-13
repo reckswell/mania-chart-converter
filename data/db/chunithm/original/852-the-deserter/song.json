@@ -3,8 +3,8 @@
  "song_id": "852",
  "title": "《逃避》 ～ The Deserter",
  "artist": "Bo-Xun Lin 林柏勲",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "touhi thedeserter",
+ "artist_romaji": "boxunlin",
  "genre": "ORIGINAL",
  "bpm": "160",
  "version": "CRYSTAL",
@@ -33,7 +33,12 @@
       "slide": 22,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05044",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 6,
       "ex_tap": 47
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05044",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 18,
       "ex_tap": 81
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05044",
+     "key": "exp"
+    },
+    "youtube": [
+     "638UHHvPKPU"
+    ]
    },
    "status": "extracted",
    "notes": "106 exact duplicate lines ignored",
@@ -125,10 +142,35 @@
       "flick": 115,
       "hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05044",
+     "key": "mst"
+    },
+    "youtube": [
+     "6hDP44UYh70",
+     "zk9R-rFSMEM"
+    ]
    },
    "status": "extracted",
    "notes": "405 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "避☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "198",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "852",
    "image": "5408f3183758bdf0.jpg"
+  },
+  "sdvxin": {
+   "id": "05044",
+   "list": "songs05.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 25934
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "852-the-deserter"
+ }
 }

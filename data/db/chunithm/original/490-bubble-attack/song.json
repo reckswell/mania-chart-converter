@@ -3,8 +3,8 @@
  "song_id": "490",
  "title": "bubble attack",
  "artist": "HALFBY",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "bubbleattack",
+ "artist_romaji": "halfby",
  "genre": "ORIGINAL",
  "bpm": "130",
  "version": "STAR",
@@ -33,7 +33,12 @@
       "slide": 21,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03068",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 71,
       "air_hold": 7
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03068",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "hold": 28,
       "air_hold": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03068",
+     "key": "exp"
+    },
+    "youtube": [
+     "c1Np-g_xRsk"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,10 +142,35 @@
       "hold": 110,
       "air_hold": 71
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03068",
+     "key": "mst"
+    },
+    "youtube": [
+     "0kalvsMolTA",
+     "J4c75Ih5E1E"
+    ]
    },
    "status": "extracted",
    "notes": "18 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "覚☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "143",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "490",
    "image": "6ce2b51a11a80101.jpg"
+  },
+  "sdvxin": {
+   "id": "03068",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 35753
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "490-bubble-attack"
+ }
 }

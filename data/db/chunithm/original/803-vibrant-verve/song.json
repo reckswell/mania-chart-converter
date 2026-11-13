@@ -3,8 +3,8 @@
  "song_id": "803",
  "title": "Vibrant Verve",
  "artist": "siqlo",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "vibrantverve",
+ "artist_romaji": "siqlo",
  "genre": "ORIGINAL",
  "bpm": "156",
  "version": "AMAZON+",
@@ -33,7 +33,12 @@
       "slide": 16,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04138",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 10,
       "slide": 43
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04138",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "ex_tap": 152,
       "hold": 61
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04138",
+     "key": "exp"
+    },
+    "youtube": [
+     "oVrRXYUoHyc"
+    ]
    },
    "status": "extracted",
    "notes": "71 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "ex_tap": 170,
       "flick": 110
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04138",
+     "key": "mst"
+    },
+    "youtube": [
+     "cfhtPtzLk2k",
+     "4BzF0iC4rtU"
+    ]
    },
    "status": "extracted",
    "notes": "139 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "803",
    "image": "c022e9d9cc7fdb2b.jpg"
+  },
+  "sdvxin": {
+   "id": "04138",
+   "list": "songs04.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 30405
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "803-vibrant-verve"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "2112",
  "title": "Lost Princess",
  "artist": "ペコリーヌ（M・A・O）、コッコロ（伊藤美来）、キャル（立花理香）「プリンセスコネクト！Re:Dive」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "lostprincess",
+ "artist_romaji": "pecorine mao kokkoro itoumiku kyaru tachibanarika princessconnect redive",
  "genre": "POPS & ANIME",
  "bpm": "150",
  "version": "NEW",
@@ -33,7 +33,12 @@
       "slide": 26,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07079",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 25,
       "ex_tap": 34
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07079",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 36,
       "air": 25
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07079",
+     "key": "exp"
+    },
+    "youtube": [
+     "L7VA1kXlQco"
+    ]
    },
    "status": "extracted",
    "notes": "13 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "slide": 94,
       "flick": 35
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07079",
+     "key": "mst"
+    },
+    "youtube": [
+     "cPvggv4VL9w",
+     "-LIc5QABZNg"
+    ]
    },
    "status": "extracted",
    "notes": "27 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2112",
    "image": "fb9c74ded8734e84.jpg"
+  },
+  "sdvxin": {
+   "id": "07079",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -150,6 +179,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2112-lost-princess"
  }
 }

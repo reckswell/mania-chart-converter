@@ -3,8 +3,8 @@
  "song_id": "3088",
  "title": "愛♡スクリ～ム！",
  "artist": "AiScReam[黒澤ルビィ(CV.降幡 愛)、上原歩夢(CV.大西亜玖璃)、若菜四季(CV.大熊和奏)]",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "aiscream",
+ "artist_romaji": "aiscream",
  "genre": "POPS & ANIME",
  "bpm": "132",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 104,
     "air": 41
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11004",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 225,
     "air": 60
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11004",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 258
    },
    "source": {
-    "sdvxin_legacy": "11/11004exp"
+    "sdvxin_legacy": "11/11004exp",
+    "sdvxin": {
+     "id": "11004",
+     "key": "exp"
+    },
+    "youtube": [
+     "PPsKvY9P3Uk"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11004mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11004mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11004mst.png",
+    "sdvxin": {
+     "id": "11004",
+     "key": "mst"
+    },
+    "youtube": [
+     "F62vZOr0OEc",
+     "1_hs7s69Egc"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3088",
    "image": "746be3b1dd293756.jpg"
+  },
+  "sdvxin": {
+   "id": "11004",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 30642
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3088"
+ }
 }

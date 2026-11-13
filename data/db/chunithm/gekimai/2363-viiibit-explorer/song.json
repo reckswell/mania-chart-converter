@@ -3,8 +3,8 @@
  "song_id": "2363",
  "title": "VIIIbit Explorer",
  "artist": "Lime",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "viiibitexplorer",
+ "artist_romaji": "lime",
  "genre": "ゲキマイ",
  "bpm": "188",
  "version": "SUN",
@@ -33,7 +33,12 @@
       "slide": 29,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08112",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 10,
       "air": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08112",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 50,
       "air_hold": 48
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08112",
+     "key": "exp"
+    },
+    "youtube": [
+     "LkvwTalLSKY"
+    ]
    },
    "status": "extracted",
    "notes": "7 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air_hold": 37,
       "flick": 153
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08112",
+     "key": "mst"
+    },
+    "youtube": [
+     "wu_X4tE1KJ4",
+     "ihOuVxK5P_g"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2363",
    "image": "6d678cac64826592.jpg"
+  },
+  "sdvxin": {
+   "id": "08112",
+   "list": "songs08.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 34297
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2363-viiibit-explorer"
+ }
 }

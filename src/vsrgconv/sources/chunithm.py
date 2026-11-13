@@ -42,6 +42,10 @@ SDVXIN_MAX_FOLDERS = 40
 SDVXIN_KEYS = ["bsc", "adv", "exp", "mst", "ult"]
 OTOGE_KEYS = ["bas", "adv", "exp", "mas", "ult"]
 NOTE_TYPES = ["tap", "hold", "slide", "air", "flick"]
+#: Read sdvx.in's pictures into notes when a chart has no .c2s. Off until the reader is calibrated on real pictures
+#: (agent/BACKLOG.md items 0 and 1): its notes would be stored as extracted, and a chart that is extracted is not
+#: looked for again, so the exact .c2s published later would never replace them (`vsrgconv update`).
+SDVXIN_READER_READY = False
 
 
 # ------------------------------------------------------------------------------------------------ otoge-db
@@ -353,7 +357,7 @@ def _chart(fetcher: Fetcher, song: SongRecord, slot: str) -> Chart | None:
     chart = chart_from_c2s(fetcher, song, slot)
     if chart is not None:
         return chart
-    if song.charts.get(slot) and song.charts[slot].source.get("sdvxin"):
+    if SDVXIN_READER_READY and song.charts.get(slot) and song.charts[slot].source.get("sdvxin"):
         return SdvxinChunithm(fetcher).fetch_chart(song, slot)
     return None
 

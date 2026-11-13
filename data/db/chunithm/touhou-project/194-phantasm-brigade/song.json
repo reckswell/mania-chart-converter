@@ -3,8 +3,8 @@
  "song_id": "194",
  "title": "Phantasm Brigade",
  "artist": "Silver Forest",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "phantasmbrigade",
+ "artist_romaji": "silverforest",
  "genre": "東方Project",
  "bpm": "168",
  "version": "AIR+",
@@ -33,7 +33,12 @@
       "air_hold": 5,
       "ex_tap": 23
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02139",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 43,
       "air_hold": 13
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02139",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air": 48,
       "hold": 29
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02139",
+     "key": "exp"
+    },
+    "youtube": [
+     "LGjwaBuSy1Q"
+    ]
    },
    "status": "extracted",
    "notes": "5 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air_hold": 19,
       "flick": 29
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02139",
+     "key": "mst"
+    },
+    "youtube": [
+     "9DI7TANQkN8",
+     "QgiAMhBEk3g"
+    ]
    },
    "status": "extracted",
    "notes": "13 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "194",
    "image": "d483d1ca2a5e10ff.jpg"
+  },
+  "sdvxin": {
+   "id": "02139",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 28088
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "194-phantasm-brigade"
+ }
 }

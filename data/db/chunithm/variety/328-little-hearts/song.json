@@ -3,8 +3,8 @@
  "song_id": "328",
  "title": "★LittlE HearTs★",
  "artist": "ねこみみ魔法使い",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "littlehearts",
+ "artist_romaji": "nekomimimahoutsukai",
  "genre": "VARIETY",
  "bpm": "200",
  "version": "AIR",
@@ -33,7 +33,12 @@
       "slide": 12,
       "air_hold": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02083",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 17,
       "air_hold": 7
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02083",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "slide": 37,
       "air": 63
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02083",
+     "key": "exp"
+    },
+    "youtube": [
+     "BfATGuezhho"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,10 +142,35 @@
       "air_hold": 48,
       "air": 73
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02083",
+     "key": "mst"
+    },
+    "youtube": [
+     "viVtHpt74WY",
+     "YfyWmTwiZFs"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "狂☆☆☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "068",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "328",
    "image": "c7cf3ce1e858e3f0.jpg"
+  },
+  "sdvxin": {
+   "id": "02083",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 19874
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "328-little-hearts"
+ }
 }

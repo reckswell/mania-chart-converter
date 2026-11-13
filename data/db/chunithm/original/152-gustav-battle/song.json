@@ -3,8 +3,8 @@
  "song_id": "152",
  "title": "Gustav Battle",
  "artist": "伊藤 賢治",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "gustavbattle",
+ "artist_romaji": "itoukenji",
  "genre": "ORIGINAL",
  "bpm": "156",
  "version": "無印",
@@ -33,7 +33,12 @@
       "slide": 9,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01091",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 8,
       "air": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01091",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "ex_tap": 165,
       "air_hold": 71
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01091",
+     "key": "exp"
+    },
+    "youtube": [
+     "7-m4hgW8T3w"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 125,
       "air_hold": 50
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01091",
+     "key": "mst"
+    },
+    "youtube": [
+     "Vkm-_qv81nQ",
+     "xTIhFhH440c"
+    ]
    },
    "status": "extracted",
    "notes": "34 exact duplicate lines ignored",
@@ -159,7 +184,15 @@
       "flick": 137,
       "other": 3
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01091",
+     "key": "ult"
+    },
+    "youtube": [
+     "ffj6GXqPqe4",
+     "apiq6wLhXE4"
+    ]
    },
    "status": "extracted",
    "notes": "183 exact duplicate lines ignored",
@@ -170,6 +203,10 @@
   "otogedb": {
    "id": "152",
    "image": "f63fab30a7b6f160.jpg"
+  },
+  "sdvxin": {
+   "id": "01091",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -183,5 +220,7 @@
    "bytes": 30318
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "152-gustav-battle"
+ }
 }

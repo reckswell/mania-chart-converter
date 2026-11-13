@@ -3,8 +3,8 @@
  "song_id": "448",
  "title": "のぼれ！すすめ！高い塔",
  "artist": "きくお",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "noboresusumetakaitou",
+ "artist_romaji": "kikuo",
  "genre": "niconico",
  "bpm": "142",
  "version": "STAR",
@@ -33,7 +33,12 @@
       "slide": 6,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03027",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "combo 439 in the .c2s differs from the published note count 449 (chart revised since this file?)",
@@ -62,7 +67,12 @@
       "ex_tap": 36,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03027",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 24,
       "air": 60
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03027",
+     "key": "exp"
+    },
+    "youtube": [
+     "CPznlonv6Lg"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "ex_tap": 123,
       "slide": 34
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03027",
+     "key": "mst"
+    },
+    "youtube": [
+     "_kjIM1kSSzg",
+     "KRv1opT7xB0"
+    ]
    },
    "status": "extracted",
    "notes": "152 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "448",
    "image": "638c42b31d057e48.jpg"
+  },
+  "sdvxin": {
+   "id": "03027",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 17085
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "448"
+ }
 }

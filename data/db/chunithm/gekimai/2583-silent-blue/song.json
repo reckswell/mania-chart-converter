@@ -3,8 +3,8 @@
  "song_id": "2583",
  "title": "SILENT BLUE",
  "artist": "かねこちはる",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "silentblue",
+ "artist_romaji": "kanekochiharu",
  "genre": "ゲキマイ",
  "bpm": "210",
  "version": "LUMINOUS",
@@ -33,7 +33,12 @@
       "slide": 26,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09016",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -61,7 +66,12 @@
       "ex_tap": 35,
       "air": 23
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09016",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -91,7 +101,14 @@
       "air_hold": 25,
       "other": 397
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09016",
+     "key": "exp"
+    },
+    "youtube": [
+     "oWizMlomvA8"
+    ]
    },
    "status": "extracted",
    "notes": "13 exact duplicate lines ignored",
@@ -123,7 +140,15 @@
       "ex_tap": 76,
       "air_hold": 48
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09016",
+     "key": "mst"
+    },
+    "youtube": [
+     "OU4EDi0DUo0",
+     "iAA7ky-h_Yc"
+    ]
    },
    "status": "extracted",
    "notes": "33 exact duplicate lines ignored",
@@ -134,6 +159,10 @@
   "otogedb": {
    "id": "2583",
    "image": "1efa961aecb0dc77.jpg"
+  },
+  "sdvxin": {
+   "id": "09016",
+   "list": "songs09.json"
   }
  },
  "assets": {
@@ -147,5 +176,7 @@
    "bytes": 16045
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2583-silent-blue"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "1033",
  "title": "《本能》 ～ ReCoda",
  "artist": "Spiegel vs Yukino",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "honnou recoda",
+ "artist_romaji": "spiegel yukino",
  "genre": "ORIGINAL",
  "bpm": "156",
  "version": "PARADISE",
@@ -33,7 +33,12 @@
       "ex_tap": 22,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06059",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 71,
       "air_hold": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06059",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "ex_tap": 75,
       "slide": 48
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06059",
+     "key": "exp"
+    },
+    "youtube": [
+     "bmIhL_xi_u0"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,10 +142,35 @@
       "flick": 22,
       "slide": 45
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06059",
+     "key": "mst"
+    },
+    "youtube": [
+     "dcZ4Gbv7mpo",
+     "8ZFaPRmAnC4"
+    ]
    },
    "status": "extracted",
    "notes": "8 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "半☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "202",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "1033",
    "image": "4fe2835917a6b1b7.jpg"
+  },
+  "sdvxin": {
+   "id": "06059",
+   "list": "songs06.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 24681
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "1033-recoda"
+ }
 }

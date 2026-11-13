@@ -3,8 +3,8 @@
  "song_id": "1101",
  "title": "ハルシナイト",
  "artist": "かしこ。 feat.Cereus",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "hallucinight",
+ "artist_romaji": "kashiko cereus",
  "genre": "ORIGINAL",
  "bpm": "128",
  "version": "PARADISE×",
@@ -33,7 +33,12 @@
       "ex_tap": 6,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06099",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 24,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06099",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air": 29,
       "air_hold": 43
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06099",
+     "key": "exp"
+    },
+    "youtube": [
+     "8oHtl-5MTQ4"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 27,
       "air_hold": 31
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06099",
+     "key": "mst"
+    },
+    "youtube": [
+     "qKEi3eTKjQA",
+     "pmL_9pWTP0g"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -158,7 +183,15 @@
       "flick": 237,
       "air_hold": 54
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06099",
+     "key": "ult"
+    },
+    "youtube": [
+     "aSBcgB9y0Ds",
+     "V6aFRj5YUwQ"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -169,6 +202,10 @@
   "otogedb": {
    "id": "1101",
    "image": "56ec1646b67d0d3c.jpg"
+  },
+  "sdvxin": {
+   "id": "06099",
+   "list": "songs06.json"
   }
  },
  "assets": {
@@ -182,5 +219,7 @@
    "bytes": 22439
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "1101"
+ }
 }

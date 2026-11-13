@@ -3,8 +3,8 @@
  "song_id": "535",
  "title": "Change me",
  "artist": "shu-t",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "changeme",
+ "artist_romaji": "shut",
  "genre": "niconico",
  "bpm": "135",
  "version": "STAR",
@@ -33,7 +33,12 @@
       "ex_tap": 12,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03058",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 7,
       "slide": 32
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03058",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air": 56,
       "air_hold": 51
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03058",
+     "key": "exp"
+    },
+    "youtube": [
+     "MKnrk9IRrXQ"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "ex_tap": 155,
       "hold": 24
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03058",
+     "key": "mst"
+    },
+    "youtube": [
+     "-SARjq1O13M",
+     "E3q_KSzAIUI"
+    ]
    },
    "status": "extracted",
    "notes": "10 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "535",
    "image": "6c7ae4d5f977c1fb.jpg"
+  },
+  "sdvxin": {
+   "id": "03058",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 15704
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "535-change-me"
+ }
 }

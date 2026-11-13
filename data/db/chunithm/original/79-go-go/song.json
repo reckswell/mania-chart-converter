@@ -3,8 +3,8 @@
  "song_id": "79",
  "title": "ＧＯ！ＧＯ！ラブリズム♥",
  "artist": "片霧烈火オンザみんマンション",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "gogoloverhythm",
+ "artist_romaji": "katakirirekkaonzaminmanshon",
  "genre": "ORIGINAL",
  "bpm": "176",
  "version": "無印",
@@ -33,7 +33,12 @@
       "slide": 10,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01053",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 5,
       "air": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01053",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "slide": 27,
       "air_hold": 13
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01053",
+     "key": "exp"
+    },
+    "youtube": [
+     "3JxxLy0MjJs"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,10 +142,35 @@
       "flick": 55,
       "hold": 32
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01053",
+     "key": "mst"
+    },
+    "youtube": [
+     "wbj1REp-gCA",
+     "-Q1wUmjq7Q4"
+    ]
    },
    "status": "extracted",
    "notes": "14 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "跳☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "028",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "79",
    "image": "281f821a06a7da18.jpg"
+  },
+  "sdvxin": {
+   "id": "01053",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 31974
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "79-go-go"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "3031",
  "title": "シャオシャオ蘭々♪",
  "artist": "いずれ菖蒲か杜若",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "xiaoxiaoranran",
+ "artist_romaji": "izureayamekakakitsubata",
  "genre": "POPS & ANIME",
  "bpm": "170",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 122,
     "air": 75
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11030",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 368,
     "air": 153
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11030",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 237
    },
    "source": {
-    "sdvxin_legacy": "11/11030exp"
+    "sdvxin_legacy": "11/11030exp",
+    "sdvxin": {
+     "id": "11030",
+     "key": "exp"
+    },
+    "youtube": [
+     "h08wi2oLdXM"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11030mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11030mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11030mst.png",
+    "sdvxin": {
+     "id": "11030",
+     "key": "mst"
+    },
+    "youtube": [
+     "mE-KGuWZJuc",
+     "AUH5OaWj1Q4"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3031",
    "image": "22e49ceacc2f334c.jpg"
+  },
+  "sdvxin": {
+   "id": "11030",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 31405
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3031"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "1010",
  "title": "Viyella's Tears",
  "artist": "Laur",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "viyellastears",
+ "artist_romaji": "laur",
  "genre": "ゲキマイ",
  "bpm": "218",
  "version": "PARADISE",
@@ -33,7 +33,12 @@
       "slide": 33,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06017",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 64,
       "air_hold": 19
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06017",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "tap": 512,
       "hold": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06017",
+     "key": "exp"
+    },
+    "youtube": [
+     "Se9PZvIGuSE"
+    ]
    },
    "status": "extracted",
    "notes": "7 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "hold": 49,
       "ex_tap": 234
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06017",
+     "key": "mst"
+    },
+    "youtube": [
+     "l0LQ8-txIGQ",
+     "oZ0zwLNPjIw"
+    ]
    },
    "status": "extracted",
    "notes": "192 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "1010",
    "image": "da8ec321a49aa1c0.jpg"
+  },
+  "sdvxin": {
+   "id": "06017",
+   "list": "songs06.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 27382
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "1010-viyella-s-tears"
+ }
 }

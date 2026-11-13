@@ -3,8 +3,8 @@
  "song_id": "2706",
  "title": "ドリームケッチャー",
  "artist": "OUTLOUD feat.NG。",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "dreamcatcher",
+ "artist_romaji": "outloudng",
  "genre": "ORIGINAL",
  "bpm": "164",
  "version": "VERSE",
@@ -33,7 +33,12 @@
       "slide": 23,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10023",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 57,
       "air": 14
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10023",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "8 exact duplicate lines ignored",
@@ -93,7 +103,14 @@
       "air": 42,
       "other": 1
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10023",
+     "key": "exp"
+    },
+    "youtube": [
+     "LxefVC8PF1g"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored; combo 1314 in the .c2s differs from the published note count 1316 (chart revised since this file?)",
@@ -126,7 +143,15 @@
       "air_hold": 34,
       "flick": 31
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10023",
+     "key": "mst"
+    },
+    "youtube": [
+     "200U6d8eOUI",
+     "_f45DPw01Is"
+    ]
    },
    "status": "extracted",
    "notes": "7 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2706",
    "image": "b15ec26193141c51.jpg"
+  },
+  "sdvxin": {
+   "id": "10023",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 23731
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2706"
+ }
 }

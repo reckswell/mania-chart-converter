@@ -3,8 +3,8 @@
  "song_id": "287",
  "title": "ロミオとシンデレラ",
  "artist": "doriko",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "romeo and cinderella",
+ "artist_romaji": "doriko",
  "genre": "niconico",
  "bpm": "170",
  "version": "AIR",
@@ -33,7 +33,12 @@
       "slide": 15,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02030",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 25,
       "hold": 29
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02030",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "ex_tap": 81,
       "slide": 38
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02030",
+     "key": "exp"
+    },
+    "youtube": [
+     "rUCyW-OTvJQ"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "flick": 58,
       "hold": 24
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02030",
+     "key": "mst"
+    },
+    "youtube": [
+     "PwmHzAyrGoE",
+     "UQNVO7neRGw"
+    ]
    },
    "status": "extracted",
    "notes": "20 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "287",
    "image": "5febf5df2b5094f3.jpg"
+  },
+  "sdvxin": {
+   "id": "02030",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 25109
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "287"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "88",
  "title": "The Concept of Love",
  "artist": "長沼 英樹",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "theconceptoflove",
+ "artist_romaji": "naganumahideki",
  "genre": "VARIETY",
  "bpm": "122",
  "version": "無印",
@@ -33,7 +33,12 @@
       "slide": 8,
       "air_hold": 3
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01048",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -61,7 +66,12 @@
       "slide": 25,
       "air": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01048",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -91,7 +101,14 @@
       "slide": 30,
       "air": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01048",
+     "key": "exp"
+    },
+    "youtube": [
+     "dS87MJn6kj0"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -124,9 +141,34 @@
       "flick": 9,
       "air": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01048",
+     "key": "mst"
+    },
+    "youtube": [
+     "cPtZQuwtIHU",
+     "GTqbzPjC-gU"
+    ]
    },
    "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "！☆☆☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "020",
+     "key": "end"
+    }
+   },
+   "status": "listed",
    "notes": "",
    "assets": {}
   }
@@ -135,6 +177,10 @@
   "otogedb": {
    "id": "88",
    "image": "c4223e68340efa41.jpg"
+  },
+  "sdvxin": {
+   "id": "01048",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -148,5 +194,7 @@
    "bytes": 20320
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "88-the-concept-of-love"
+ }
 }

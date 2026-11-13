@@ -3,8 +3,8 @@
  "song_id": "71",
  "title": "Infantoon Fantasy",
  "artist": "t+pazolite",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "infantoonfantasy",
+ "artist_romaji": "t+pazolite",
  "genre": "ORIGINAL",
  "bpm": "185",
  "version": "無印",
@@ -33,7 +33,12 @@
       "slide": 15,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01055",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -62,7 +67,12 @@
       "ex_tap": 16,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01055",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "ex_tap": 2,
       "slide": 63
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01055",
+     "key": "exp"
+    },
+    "youtube": [
+     "p4Zw71bmkTs"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air_hold": 17,
       "hold": 47
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01055",
+     "key": "mst"
+    },
+    "youtube": [
+     "Vsk7aoX3aos",
+     "5v1JmdndDLo"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -158,10 +183,35 @@
       "hold": 70,
       "air_hold": 88
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01055",
+     "key": "ult"
+    },
+    "youtube": [
+     "ijRZAO17qrc",
+     "OxsekZPsI5s"
+    ]
    },
    "status": "extracted",
    "notes": "47 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "避☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "046",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -169,6 +219,10 @@
   "otogedb": {
    "id": "71",
    "image": "2bf02bef3051ecaf.jpg"
+  },
+  "sdvxin": {
+   "id": "01055",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -182,5 +236,7 @@
    "bytes": 30412
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "71-infantoon-fantasy"
+ }
 }

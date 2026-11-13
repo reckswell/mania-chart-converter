@@ -3,8 +3,8 @@
  "song_id": "222",
  "title": "Mr. Wonderland",
  "artist": "sasakure.UK",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "mrwonderland",
+ "artist_romaji": "sasakureuk",
  "genre": "niconico",
  "bpm": "140",
  "version": "PLUS",
@@ -33,7 +33,12 @@
       "ex_tap": 8,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01157",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 10,
       "slide": 55
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01157",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 36,
       "ex_tap": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01157",
+     "key": "exp"
+    },
+    "youtube": [
+     "0IHPhPHL0rY"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 157,
       "ex_tap": 80
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01157",
+     "key": "mst"
+    },
+    "youtube": [
+     "pO9fTeezg9c",
+     "e0zdaP5dSP4"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "222",
    "image": "ad33a423c865bed1.jpg"
+  },
+  "sdvxin": {
+   "id": "01157",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 28609
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "222-mr-wonderland"
+ }
 }

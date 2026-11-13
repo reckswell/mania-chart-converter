@@ -3,8 +3,8 @@
  "song_id": "2382",
  "title": "Knight Rider",
  "artist": "USAO「WACCA」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "knightrider",
+ "artist_romaji": "usao wacca",
  "genre": "VARIETY",
  "bpm": "200",
  "version": "SUN",
@@ -33,7 +33,12 @@
       "slide": 22,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08048",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "tap": 257,
       "air": 17
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08048",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -93,7 +103,14 @@
       "slide": 113,
       "other": 50
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08048",
+     "key": "exp"
+    },
+    "youtube": [
+     "SZq8P7XOj9k"
+    ]
    },
    "status": "extracted",
    "notes": "14 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "flick": 188,
       "hold": 28
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08048",
+     "key": "mst"
+    },
+    "youtube": [
+     "2jrKLcFGGMo",
+     "5mEk3_A1j0M"
+    ]
    },
    "status": "extracted",
    "notes": "189 exact duplicate lines ignored",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2382",
    "image": "281af3f37bc0ab52.jpg"
+  },
+  "sdvxin": {
+   "id": "08048",
+   "list": "songs08.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 24248
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2382-knight-rider"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "2272",
  "title": "ミラージュ・フレイグランス",
  "artist": "Sound piercer “Espitz”",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "mirage fragrance",
+ "artist_romaji": "soundpiercer espitz",
  "genre": "ゲキマイ",
  "bpm": "158",
  "version": "SUN",
@@ -33,7 +33,12 @@
       "slide": 22,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08021",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 59,
       "air_hold": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08021",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "hold": 32,
       "air_hold": 39
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08021",
+     "key": "exp"
+    },
+    "youtube": [
+     "r0O2vOvuh1I"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -126,7 +143,15 @@
       "hold": 45,
       "other": 180
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08021",
+     "key": "mst"
+    },
+    "youtube": [
+     "ZY2jVopNlyM",
+     "MJfVUeWviWQ"
+    ]
    },
    "status": "extracted",
    "notes": "18 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2272",
    "image": "7f12b9a09896686c.jpg"
+  },
+  "sdvxin": {
+   "id": "08021",
+   "list": "songs08.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 17641
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2272"
+ }
 }

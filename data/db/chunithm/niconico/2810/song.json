@@ -3,8 +3,8 @@
  "song_id": "2810",
  "title": "ありふれたせかいせいふく",
  "artist": "ピノキオピー",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "arifuretasekaiseifuku",
+ "artist_romaji": "pinokiopi",
  "genre": "niconico",
  "bpm": "150",
  "version": "VERSE",
@@ -33,7 +33,12 @@
       "slide": 21,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10050",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 14,
       "slide": 44
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10050",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -93,7 +103,14 @@
       "ex_tap": 82,
       "other": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10050",
+     "key": "exp"
+    },
+    "youtube": [
+     "cBr802D42YM"
+    ]
    },
    "status": "extracted",
    "notes": "43 exact duplicate lines ignored",
@@ -126,7 +143,15 @@
       "ex_tap": 230,
       "air_hold": 30
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10050",
+     "key": "mst"
+    },
+    "youtube": [
+     "6oLjbcYwbMg",
+     "sNt_3VUS6oE"
+    ]
    },
    "status": "extracted",
    "notes": "91 exact duplicate lines ignored; not represented: SLP×8",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2810",
    "image": "cc57301c9746a36c.jpg"
+  },
+  "sdvxin": {
+   "id": "10050",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 18284
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2810"
+ }
 }

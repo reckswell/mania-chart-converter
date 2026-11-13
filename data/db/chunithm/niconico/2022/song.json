@@ -3,8 +3,8 @@
  "song_id": "2022",
  "title": "セカイ",
  "artist": "DECO*27×堀江晶太(kemu)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "sekai",
+ "artist_romaji": "deco27 horieshouta kemu",
  "genre": "niconico",
  "bpm": "133",
  "version": "NEW",
@@ -33,7 +33,12 @@
       "slide": 18,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07021",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 40,
       "air": 26
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07021",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 55,
       "air_hold": 96
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07021",
+     "key": "exp"
+    },
+    "youtube": [
+     "0PLiLkBj4vI"
+    ]
    },
    "status": "extracted",
    "notes": "14 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 39,
       "hold": 33
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07021",
+     "key": "mst"
+    },
+    "youtube": [
+     "pXir7g1ciog",
+     "yzimryARJ5U"
+    ]
    },
    "status": "extracted",
    "notes": "19 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2022",
    "image": "560e61810fd25c93.jpg"
+  },
+  "sdvxin": {
+   "id": "07021",
+   "list": "songs07.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 25322
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2022"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "2334",
  "title": "SUPER AMBULANCE",
  "artist": "AJURIKA",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "superambulance",
+ "artist_romaji": "ajurika",
  "genre": "ゲキマイ",
  "bpm": "200",
  "version": "SUN",
@@ -33,7 +33,12 @@
       "slide": 24,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08116",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 12,
       "air": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08116",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 101,
       "air": 67
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08116",
+     "key": "exp"
+    },
+    "youtube": [
+     "LhPAl4wAB-g"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -126,7 +143,15 @@
       "air": 111,
       "other": 55
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08116",
+     "key": "mst"
+    },
+    "youtube": [
+     "skP5tQKSLfA",
+     "bR8EUNXYzgc"
+    ]
    },
    "status": "extracted",
    "notes": "60 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2334",
    "image": "b40a4f624067b9d1.jpg"
+  },
+  "sdvxin": {
+   "id": "08116",
+   "list": "songs08.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 32649
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2334-super-ambulance"
+ }
 }

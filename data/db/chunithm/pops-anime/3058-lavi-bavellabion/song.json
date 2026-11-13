@@ -3,8 +3,8 @@
  "song_id": "3058",
  "title": "LaVI-Bavellabion",
  "artist": "三木谷奈々 SLAVE.V-V-R",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "lavibavellabion",
+ "artist_romaji": "mikitaninana slave vvr",
  "genre": "POPS & ANIME",
  "bpm": "142",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 100,
     "air": 48
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11056",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 154,
     "air": 60
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11056",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 289
    },
    "source": {
-    "sdvxin_legacy": "11/11056exp"
+    "sdvxin_legacy": "11/11056exp",
+    "sdvxin": {
+     "id": "11056",
+     "key": "exp"
+    },
+    "youtube": [
+     "Wt7sLB-kpCc"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11056mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11056mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11056mst.png",
+    "sdvxin": {
+     "id": "11056",
+     "key": "mst"
+    },
+    "youtube": [
+     "3EeHKpk92z0",
+     "PfRKAseHue0"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3058",
    "image": "1c4aa68762d08b13.jpg"
+  },
+  "sdvxin": {
+   "id": "11056",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 26010
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3058-lavi-bavellabion"
+ }
 }

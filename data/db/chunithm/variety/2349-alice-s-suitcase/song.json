@@ -3,8 +3,8 @@
  "song_id": "2349",
  "title": "Alice's Suitcase",
  "artist": "Endorfin.「Arcaea」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "alicessuitcase",
+ "artist_romaji": "endorfin. arcaea",
  "genre": "VARIETY",
  "bpm": "190",
  "version": "SUN",
@@ -33,7 +33,12 @@
       "slide": 27,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08099",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 10,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08099",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -93,7 +103,14 @@
       "hold": 32,
       "other": 42
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08099",
+     "key": "exp"
+    },
+    "youtube": [
+     "1eO9gtbtqtQ"
+    ]
    },
    "status": "extracted",
    "notes": "19 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "hold": 82,
       "air": 126
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08099",
+     "key": "mst"
+    },
+    "youtube": [
+     "tSnJGBe4eys",
+     "TYcniMFglkI"
+    ]
    },
    "status": "extracted",
    "notes": "64 exact duplicate lines ignored",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2349",
    "image": "3ca8fc0e0f055f35.jpg"
+  },
+  "sdvxin": {
+   "id": "08099",
+   "list": "songs08.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 25622
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2349-alice-s-suitcase"
+ }
 }

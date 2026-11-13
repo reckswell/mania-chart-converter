@@ -3,8 +3,8 @@
  "song_id": "2493",
  "title": "マツケンサンバⅡ",
  "artist": "松平健 [covered by 光吉猛修]",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "matsukensamba2",
+ "artist_romaji": "matsudairaken coveredby mitsuyoshitakenobu",
  "genre": "POPS & ANIME",
  "bpm": "133",
  "version": "LUMINOUS",
@@ -33,7 +33,12 @@
       "slide": 28,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09004",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 16,
       "ex_tap": 30
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09004",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "combo 755 in the .c2s differs from the published note count 754 (chart revised since this file?)",
@@ -93,7 +103,14 @@
       "air": 35,
       "other": 30
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09004",
+     "key": "exp"
+    },
+    "youtube": [
+     "U6NiKdX1Cx4"
+    ]
    },
    "status": "extracted",
    "notes": "17 exact duplicate lines ignored",
@@ -126,7 +143,15 @@
       "flick": 51,
       "air": 151
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09004",
+     "key": "mst"
+    },
+    "youtube": [
+     "Tiqy0uXdp1w",
+     "8Y2fd5w9QAE"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2493",
    "image": "7f8fac22ddf8c740.jpg"
+  },
+  "sdvxin": {
+   "id": "09004",
+   "list": "songs09.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 25194
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2493-ii"
+ }
 }

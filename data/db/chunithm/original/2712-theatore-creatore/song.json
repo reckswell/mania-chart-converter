@@ -3,8 +3,8 @@
  "song_id": "2712",
  "title": "Theatore Creatore",
  "artist": "Toby Fox & かめりあ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "theatorecreatore",
+ "artist_romaji": "tobyfox camellia",
  "genre": "ORIGINAL",
  "bpm": "185",
  "version": "VERSE",
@@ -33,7 +33,12 @@
       "slide": 28,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10022",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "combo 610 in the .c2s differs from the published note count 609 (chart revised since this file?)",
@@ -62,7 +67,12 @@
       "slide": 49,
       "air_hold": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10022",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored; combo 1003 in the .c2s differs from the published note count 997 (chart revised since this file?)",
@@ -92,7 +102,14 @@
       "ex_tap": 128,
       "air_hold": 77
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10022",
+     "key": "exp"
+    },
+    "youtube": [
+     "mlgQCzWe2-0"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 200,
       "air_hold": 20
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10022",
+     "key": "mst"
+    },
+    "youtube": [
+     "sO16rTo2SKE",
+     "5v5kastHQJ8"
+    ]
    },
    "status": "extracted",
    "notes": "19 exact duplicate lines ignored; not represented: SLP×4",
@@ -159,7 +184,15 @@
       "air_hold": 42,
       "air": 224
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10022",
+     "key": "ult"
+    },
+    "youtube": [
+     "hTtMMKh37ks",
+     "3pGzxCrPKTQ"
+    ]
    },
    "status": "extracted",
    "notes": "12 exact duplicate lines ignored; not represented: SLP×18",
@@ -170,6 +203,10 @@
   "otogedb": {
    "id": "2712",
    "image": "49afe239be6b0c81.jpg"
+  },
+  "sdvxin": {
+   "id": "10022",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -183,5 +220,7 @@
    "bytes": 27674
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2712-theatore-creatore"
+ }
 }

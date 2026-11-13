@@ -3,8 +3,8 @@
  "song_id": "256",
  "title": "札付きのワル　～マイケルのうた～",
  "artist": "ひーちゃんとあーちゃんとたーちゃん",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "fudatsukinowaru michaelnouta",
+ "artist_romaji": "hiichantoaachantotaachan",
  "genre": "ORIGINAL",
  "bpm": "184",
  "version": "AIR+",
@@ -33,7 +33,12 @@
       "ex_tap": 19,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02103",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 27,
       "air": 64
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02103",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air": 98,
       "hold": 31
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02103",
+     "key": "exp"
+    },
+    "youtube": [
+     "8NF9lAxxEvc"
+    ]
    },
    "status": "extracted",
    "notes": "6 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air_hold": 101,
       "flick": 90
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02103",
+     "key": "mst"
+    },
+    "youtube": [
+     "EGe7hsSwxaE",
+     "dfMaiHb2Xbo"
+    ]
    },
    "status": "extracted",
    "notes": "312 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "256",
    "image": "755fb1e2b79ba896.jpg"
+  },
+  "sdvxin": {
+   "id": "02103",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 24318
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "256"
+ }
 }

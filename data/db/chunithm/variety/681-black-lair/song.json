@@ -3,8 +3,8 @@
  "song_id": "681",
  "title": "Black Lair",
  "artist": "削除 feat. void (Mournfinale)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "blacklair",
+ "artist_romaji": "sakuzyo void mournfinale",
  "genre": "VARIETY",
  "bpm": "150",
  "version": "AMAZON",
@@ -33,7 +33,12 @@
       "slide": 15,
       "air_hold": 11
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04073",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 24,
       "air": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04073",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 19,
       "hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04073",
+     "key": "exp"
+    },
+    "youtube": [
+     "WYyQL9loZrI"
+    ]
    },
    "status": "extracted",
    "notes": "7 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air": 169,
       "flick": 94
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04073",
+     "key": "mst"
+    },
+    "youtube": [
+     "LzAhcJpJ-7M",
+     "yLvNSc7ipiU"
+    ]
    },
    "status": "extracted",
    "notes": "50 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "681",
    "image": "35ebf8599b2c32aa.jpg"
+  },
+  "sdvxin": {
+   "id": "04073",
+   "list": "songs04.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 19274
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "681-black-lair"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "170",
  "title": "DETARAME ROCK&ROLL THEORY",
  "artist": "箱部 なる(CV:M・A・O)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "detaramerock&rolltheory",
+ "artist_romaji": "hakobenaru mao",
  "genre": "イロドリミドリ",
  "bpm": "140",
  "version": "無印",
@@ -33,7 +33,12 @@
       "ex_tap": 31,
       "air_hold": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01126",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 37,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01126",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 27,
       "hold": 13
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01126",
+     "key": "exp"
+    },
+    "youtube": [
+     "ttCYxIHuUvM"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -125,10 +142,35 @@
       "flick": 44,
       "air_hold": 43
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01126",
+     "key": "mst"
+    },
+    "youtube": [
+     "X5RPRjXomlU",
+     "PxV4zsMpGF4"
+    ]
    },
    "status": "extracted",
    "notes": "9 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "蔵☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "051",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "170",
    "image": "de40692ecc47778b.jpg"
+  },
+  "sdvxin": {
+   "id": "01126",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 30181
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "170-detarame-rock-roll-theory"
+ }
 }

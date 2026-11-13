@@ -3,7 +3,7 @@
  "song_id": "2749",
  "title": "本能的 Survivor",
  "artist": "曲：eba／歌：⊿TRiEDGE [高瀬 梨緒(CV：久保 ユリカ)、結城 莉玖(CV：朝日奈 丸佳)、藍原 椿(CV：橋本 ちなみ)]",
- "title_romaji": "",
+ "title_romaji": "honnouteki survivor",
  "artist_romaji": "",
  "genre": "ゲキマイ",
  "bpm": "190",
@@ -33,7 +33,12 @@
       "slide": 21,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10066",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 44,
       "air": 14
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10066",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 30,
       "tap": 368
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10066",
+     "key": "exp"
+    },
+    "youtube": [
+     "FxuApf5r_i0"
+    ]
    },
    "status": "extracted",
    "notes": "7 exact duplicate lines ignored; combo 1123 in the .c2s differs from the published note count 1023 (chart revised since this file?)",
@@ -126,7 +143,15 @@
       "air_hold": 31,
       "other": 65
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10066",
+     "key": "mst"
+    },
+    "youtube": [
+     "Rys8wGBSN2I",
+     "LIDapGHUshc"
+    ]
    },
    "status": "extracted",
    "notes": "5 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2749",
    "image": "fe7e37a925a81fc7.jpg"
+  },
+  "sdvxin": {
+   "id": "10066",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 29052
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2749-survivor"
+ }
 }

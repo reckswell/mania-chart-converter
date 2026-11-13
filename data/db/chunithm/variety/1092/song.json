@@ -3,8 +3,8 @@
  "song_id": "1092",
  "title": "真千年女王",
  "artist": "しらいし",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "shinsennenjoou",
+ "artist_romaji": "shiraishi",
  "genre": "VARIETY",
  "bpm": "160",
  "version": "PARADISE",
@@ -33,7 +33,12 @@
       "slide": 16,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06061",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 12,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06061",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 15,
       "air": 84
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06061",
+     "key": "exp"
+    },
+    "youtube": [
+     "kj_H0CUVWpI"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,10 +142,35 @@
       "air_hold": 26,
       "air": 67
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06061",
+     "key": "mst"
+    },
+    "youtube": [
+     "x-ZrVpsdXj8",
+     "wZJ-8nZL_W4"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "半☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "210",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "1092",
    "image": "dd59e6af1c628599.jpg"
+  },
+  "sdvxin": {
+   "id": "06061",
+   "list": "songs06.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 17314
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "1092"
+ }
 }

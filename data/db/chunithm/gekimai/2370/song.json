@@ -3,8 +3,8 @@
  "song_id": "2370",
  "title": "アマツカミ",
  "artist": "a_hisa",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "amatsukami",
+ "artist_romaji": "ahisa",
  "genre": "ゲキマイ",
  "bpm": "180",
  "version": "SUN",
@@ -33,7 +33,12 @@
       "slide": 27,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08082",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 40,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08082",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "slide": 21,
       "air": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08082",
+     "key": "exp"
+    },
+    "youtube": [
+     "mnjIqUBEBNE"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air": 290,
       "ex_tap": 117
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08082",
+     "key": "mst"
+    },
+    "youtube": [
+     "liBcoEIJLdw",
+     "GLi6S2niEB8"
+    ]
    },
    "status": "extracted",
    "notes": "60 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2370",
    "image": "384394766b507600.jpg"
+  },
+  "sdvxin": {
+   "id": "08082",
+   "list": "songs08.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 30742
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2370"
+ }
 }

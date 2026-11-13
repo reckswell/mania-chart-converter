@@ -3,8 +3,8 @@
  "song_id": "2358",
  "title": "4月1日でございました",
  "artist": "Cranky",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "4gatsutsuitachide gozaimashita",
+ "artist_romaji": "cranky",
  "genre": "ORIGINAL",
  "bpm": "41",
  "version": "SUN",
@@ -33,7 +33,12 @@
       "slide": 22,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08046",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "not represented: CLK×17",
@@ -62,7 +67,12 @@
       "air_hold": 10,
       "air": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08046",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "not represented: CLK×17",
@@ -93,7 +103,14 @@
       "tap": 254,
       "air": 91
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08046",
+     "key": "exp"
+    },
+    "youtube": [
+     "91kNr47VsnY"
+    ]
    },
    "status": "extracted",
    "notes": "8 exact duplicate lines ignored; not represented: CLK×17",
@@ -127,7 +144,15 @@
       "flick": 194,
       "hold": 36
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08046",
+     "key": "mst"
+    },
+    "youtube": [
+     "l1qbihU9CEk",
+     "FyD90YA9cqQ"
+    ]
    },
    "status": "extracted",
    "notes": "386 exact duplicate lines ignored; not represented: CLK×17",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2358",
    "image": "1e1baa0b18b9d286.jpg"
+  },
+  "sdvxin": {
+   "id": "08046",
+   "list": "songs08.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 16005
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2358-41"
+ }
 }

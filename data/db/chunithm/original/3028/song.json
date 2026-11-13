@@ -3,8 +3,8 @@
  "song_id": "3028",
  "title": "絶対一生これで生きていく！",
  "artist": "えびかれー伯爵 feat.叶 響",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "zettaiisshou koredeikiteiku",
+ "artist_romaji": "ebicurryhakushaku kanaehibiki",
  "genre": "ORIGINAL",
  "bpm": "185",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 88,
     "air": 63
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11023",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 147,
     "air": 50
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11023",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 173
    },
    "source": {
-    "sdvxin_legacy": "11/11023exp"
+    "sdvxin_legacy": "11/11023exp",
+    "sdvxin": {
+     "id": "11023",
+     "key": "exp"
+    },
+    "youtube": [
+     "g5cC9jZBgeE"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11023mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11023mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11023mst.png",
+    "sdvxin": {
+     "id": "11023",
+     "key": "mst"
+    },
+    "youtube": [
+     "3juIr2LILSg",
+     "piuqGbO4C_s"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3028",
    "image": "c9143ec7ad5347f8.jpg"
+  },
+  "sdvxin": {
+   "id": "11023",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 32834
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3028"
+ }
 }

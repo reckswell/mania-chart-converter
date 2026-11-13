@@ -3,8 +3,8 @@
  "song_id": "123",
  "title": "橙の幻想郷音頭",
  "artist": "発熱巫女～ず",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "chennogensoukyouondo",
+ "artist_romaji": "hatsunetsumikozu",
  "genre": "東方Project",
  "bpm": "136",
  "version": "PLUS",
@@ -33,7 +33,12 @@
       "slide": 8,
       "air_hold": 3
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01168",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 16,
       "air": 14
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01168",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 13,
       "air_hold": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01168",
+     "key": "exp"
+    },
+    "youtube": [
+     "tkNBdg3ki6I"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "hold": 14,
       "flick": 36
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01168",
+     "key": "mst"
+    },
+    "youtube": [
+     "oJtR3GRffrI",
+     "5H5Ya4FLejI"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "123",
    "image": "39d3a23d98d95dcf.jpg"
+  },
+  "sdvxin": {
+   "id": "01168",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 19868
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "123"
+ }
 }

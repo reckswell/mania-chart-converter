@@ -3,8 +3,8 @@
  "song_id": "47",
  "title": "六兆年と一夜物語",
  "artist": "kemu",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "rokuchounentoichiyamonogatari",
+ "artist_romaji": "kemu",
  "genre": "niconico",
  "bpm": "186",
  "version": "無印",
@@ -33,7 +33,12 @@
       "ex_tap": 17,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01020",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 6,
       "air": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01020",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -91,7 +101,14 @@
       "hold": 14,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01020",
+     "key": "exp"
+    },
+    "youtube": [
+     "Ut8kN4QBU5s"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -124,7 +141,15 @@
       "air_hold": 29,
       "flick": 111
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01020",
+     "key": "mst"
+    },
+    "youtube": [
+     "JyYs1Ajmpa8",
+     "iaPU8I2ugug"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -157,7 +182,15 @@
       "ex_tap": 184,
       "flick": 226
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01020",
+     "key": "ult"
+    },
+    "youtube": [
+     "1V_dwuwgu7o",
+     "FNnotDGn1yE"
+    ]
    },
    "status": "extracted",
    "notes": "18 exact duplicate lines ignored",
@@ -168,6 +201,10 @@
   "otogedb": {
    "id": "47",
    "image": "5cb17a59f4b8c133.jpg"
+  },
+  "sdvxin": {
+   "id": "01020",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -181,5 +218,7 @@
    "bytes": 23479
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "47"
+ }
 }

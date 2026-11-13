@@ -3,8 +3,8 @@
  "song_id": "3073",
  "title": "Dark Falchion",
  "artist": "MASAKI(ZUNTATA)「MUSIC DIVER」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "darkfalchion",
+ "artist_romaji": "masaki zuntata musicdiver",
  "genre": "VARIETY",
  "bpm": "180",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 140,
     "air": 74
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11070",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 204,
     "air": 53
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11070",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 143
    },
    "source": {
-    "sdvxin_legacy": "10/11070exp"
+    "sdvxin_legacy": "10/11070exp",
+    "sdvxin": {
+     "id": "11070",
+     "key": "exp"
+    },
+    "youtube": [
+     "yvQ4TseHZ8A"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "10/11070mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11070mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11070mst.png",
+    "sdvxin": {
+     "id": "11070",
+     "key": "mst"
+    },
+    "youtube": [
+     "a4aF7oCWTH8",
+     "EdCT5Xmuv-g"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3073",
    "image": "f06ac44bd47da88c.jpg"
+  },
+  "sdvxin": {
+   "id": "11070",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 16199
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3073-dark-falchion"
+ }
 }

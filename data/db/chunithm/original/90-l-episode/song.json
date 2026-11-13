@@ -3,8 +3,8 @@
  "song_id": "90",
  "title": "L'épisode",
  "artist": "Osamu Kubota",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "lepisode",
+ "artist_romaji": "osamukubota",
  "genre": "ORIGINAL",
  "bpm": "118",
  "version": "PLUS",
@@ -33,7 +33,12 @@
       "slide": 16,
       "air_hold": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01147",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "not represented: CLK×6",
@@ -62,7 +67,12 @@
       "hold": 48,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01147",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "not represented: CLK×6",
@@ -92,7 +102,14 @@
       "air": 46,
       "air_hold": 47
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01147",
+     "key": "exp"
+    },
+    "youtube": [
+     "kJ9sl4bu564"
+    ]
    },
    "status": "extracted",
    "notes": "6 exact duplicate lines ignored; not represented: CLK×6",
@@ -124,10 +141,35 @@
       "slide": 1,
       "flick": 7
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01147",
+     "key": "mst"
+    },
+    "youtube": [
+     "ciyvNDRsmpk",
+     "VbrAByBfZqQ"
+    ]
    },
    "status": "extracted",
    "notes": "not represented: CLK×6",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "半☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "101",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -135,6 +177,10 @@
   "otogedb": {
    "id": "90",
    "image": "19d57f9a7652308a.jpg"
+  },
+  "sdvxin": {
+   "id": "01147",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -148,5 +194,7 @@
    "bytes": 28338
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "90-l-episode"
+ }
 }

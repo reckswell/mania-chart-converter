@@ -3,8 +3,8 @@
  "song_id": "868",
  "title": "ダブルラリアット",
  "artist": "アゴアニキ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "double lariat",
+ "artist_romaji": "agoaniki",
  "genre": "niconico",
  "bpm": "138",
  "version": "CRYSTAL",
@@ -33,7 +33,12 @@
       "slide": 15,
       "air_hold": 3
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05060",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 8,
       "air": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05060",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air": 50,
       "ex_tap": 81
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05060",
+     "key": "exp"
+    },
+    "youtube": [
+     "05L9DMI6JDU"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -125,10 +142,35 @@
       "ex_tap": 118,
       "flick": 63
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05060",
+     "key": "mst"
+    },
+    "youtube": [
+     "uF1YMeVpA3s",
+     "TbK04KhGx8s"
+    ]
    },
    "status": "extracted",
    "notes": "17 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "割☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "231",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "868",
    "image": "c63cff923ab7d492.jpg"
+  },
+  "sdvxin": {
+   "id": "05060",
+   "list": "songs05.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 23518
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "868"
+ }
 }

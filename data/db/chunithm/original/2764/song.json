@@ -3,8 +3,8 @@
  "song_id": "2764",
  "title": "旅星に渇く",
  "artist": "Yu-dachi",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "tabihoshinikawaku",
+ "artist_romaji": "yu-dachi",
  "genre": "ORIGINAL",
  "bpm": "142",
  "version": "VERSE",
@@ -33,7 +33,12 @@
       "slide": 28,
       "air_hold": 7
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10070",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "combo 499 in the .c2s differs from the published note count 529 (chart revised since this file?)",
@@ -62,7 +67,12 @@
       "hold": 45,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10070",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "tap": 377,
       "air_hold": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10070",
+     "key": "exp"
+    },
+    "youtube": [
+     "8B0_tk4Adf0"
+    ]
    },
    "status": "extracted",
    "notes": "6 exact duplicate lines ignored",
@@ -126,7 +143,15 @@
       "air_hold": 38,
       "other": 194
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10070",
+     "key": "mst"
+    },
+    "youtube": [
+     "0woTEKHKqWQ",
+     "d59Rict9EEU"
+    ]
    },
    "status": "extracted",
    "notes": "51 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2764",
    "image": "83614926e36a41b2.jpg"
+  },
+  "sdvxin": {
+   "id": "10070",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 26734
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2764"
+ }
 }

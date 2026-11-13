@@ -3,8 +3,8 @@
  "song_id": "921",
  "title": "メルティランドナイトメア",
  "artist": "はるまきごはん",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "meltylandnightmare",
+ "artist_romaji": "harumakigohan",
  "genre": "niconico",
  "bpm": "140",
  "version": "CRYSTAL+",
@@ -33,7 +33,12 @@
       "slide": 20,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05102",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 6,
       "air_hold": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05102",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "slide": 74,
       "air": 33
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05102",
+     "key": "exp"
+    },
+    "youtube": [
+     "L34rGjEWcQ0"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 40,
       "ex_tap": 48
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05102",
+     "key": "mst"
+    },
+    "youtube": [
+     "yYqFNMYL-oU",
+     "xTGqwxrSB_w"
+    ]
    },
    "status": "extracted",
    "notes": "5 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "921",
    "image": "45fbe07154bf8806.jpg"
+  },
+  "sdvxin": {
+   "id": "05102",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -150,6 +179,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "921"
  }
 }

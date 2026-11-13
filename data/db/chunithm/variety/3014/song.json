@@ -3,8 +3,8 @@
  "song_id": "3014",
  "title": "零號車輛",
  "artist": "seatrus「Paradigm: Reboot」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "nainaibuubuu zerogousharyou",
+ "artist_romaji": "seatrus paradigmreboot",
  "genre": "VARIETY",
  "bpm": "240",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 86,
     "air": 65
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11012",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 366,
     "air": 50
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11012",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 181
    },
    "source": {
-    "sdvxin_legacy": "11/11012exp"
+    "sdvxin_legacy": "11/11012exp",
+    "sdvxin": {
+     "id": "11012",
+     "key": "exp"
+    },
+    "youtube": [
+     "DgvANM5LxLI"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11012mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11012mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11012mst.png",
+    "sdvxin": {
+     "id": "11012",
+     "key": "mst"
+    },
+    "youtube": [
+     "CmUxC7KPFZo",
+     "Qph1frRISQ0"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3014",
    "image": "649d7d028daba394.jpg"
+  },
+  "sdvxin": {
+   "id": "11012",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 21364
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3014"
+ }
 }

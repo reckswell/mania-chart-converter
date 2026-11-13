@@ -3,8 +3,8 @@
  "song_id": "2187",
  "title": "タイムカプセル",
  "artist": "天月-あまつき-",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "timecapsule",
+ "artist_romaji": "amatsuki",
  "genre": "ORIGINAL",
  "bpm": "185",
  "version": "NEW+",
@@ -33,7 +33,12 @@
       "slide": 24,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07153",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 27,
       "ex_tap": 26
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07153",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -93,7 +103,14 @@
       "hold": 32,
       "other": 68
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07153",
+     "key": "exp"
+    },
+    "youtube": [
+     "VwlpLnJgDGo"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "ex_tap": 217,
       "hold": 59
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07153",
+     "key": "mst"
+    },
+    "youtube": [
+     "fhc4nXV0jSc",
+     "gRMJB3wzaeY"
+    ]
    },
    "status": "extracted",
    "notes": "26 exact duplicate lines ignored",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2187",
    "image": "038844999c1e95d1.jpg"
+  },
+  "sdvxin": {
+   "id": "07153",
+   "list": "songs07.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 26807
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2187"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "3009",
  "title": "ダイダイダイダイダイキライ",
  "artist": "雨良 Amala",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "daidaidaidaidaikirai",
+ "artist_romaji": "amala",
  "genre": "niconico",
  "bpm": "130",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 88,
     "air": 43
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11005",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 205,
     "air": 43
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11005",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 114
    },
    "source": {
-    "sdvxin_legacy": "11/11005exp"
+    "sdvxin_legacy": "11/11005exp",
+    "sdvxin": {
+     "id": "11005",
+     "key": "exp"
+    },
+    "youtube": [
+     "Qz-tr34P5WQ"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11005mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11005mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11005mst.png",
+    "sdvxin": {
+     "id": "11005",
+     "key": "mst"
+    },
+    "youtube": [
+     "-3VPbS2YlfA",
+     "sjGXCJ_e9bk"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3009",
    "image": "44091ee47cfa2e41.jpg"
+  },
+  "sdvxin": {
+   "id": "11005",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 31520
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3009"
+ }
 }

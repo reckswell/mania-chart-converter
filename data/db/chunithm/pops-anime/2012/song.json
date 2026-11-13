@@ -3,8 +3,8 @@
  "song_id": "2012",
  "title": "紅",
  "artist": "X JAPAN [covered by 光吉猛修]",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "kurenai",
+ "artist_romaji": "xjapan coveredby mitsuyoshitakenobu",
  "genre": "POPS & ANIME",
  "bpm": "156",
  "version": "NEW",
@@ -16,7 +16,12 @@
    "level": "3",
    "constant": null,
    "designer": "",
-   "note_counts": {},
+   "note_counts": {
+    "tap": 185,
+    "hold": 48,
+    "slide": 124,
+    "air": 52
+   },
    "source": {
     "extracted": {
      "from": "marisabot-c2s",
@@ -28,7 +33,12 @@
       "slide": 19,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07009",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -40,7 +50,12 @@
    "level": "7",
    "constant": null,
    "designer": "",
-   "note_counts": {},
+   "note_counts": {
+    "tap": 376,
+    "hold": 88,
+    "slide": 100,
+    "air": 108
+   },
    "source": {
     "extracted": {
      "from": "marisabot-c2s",
@@ -52,7 +67,12 @@
       "air": 8,
       "ex_tap": 33
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07009",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -82,7 +102,14 @@
       "air": 77,
       "air_hold": 20
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07009",
+     "key": "exp"
+    },
+    "youtube": [
+     "S2u7LTjrrLw"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -115,7 +142,15 @@
       "slide": 64,
       "hold": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07009",
+     "key": "mst"
+    },
+    "youtube": [
+     "9HxhBIr4gCU",
+     "6RV8omD6H-E"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -126,6 +161,10 @@
   "otogedb": {
    "id": "2012",
    "image": "38688fb478269912.jpg"
+  },
+  "sdvxin": {
+   "id": "07009",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -140,6 +179,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2012"
  }
 }

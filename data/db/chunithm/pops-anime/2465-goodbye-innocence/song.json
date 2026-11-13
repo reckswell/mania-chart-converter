@@ -3,8 +3,8 @@
  "song_id": "2465",
  "title": "Goodbye Innocence",
  "artist": "She is Legend「ヘブンバーンズレッド」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "goodbyeinnocence",
+ "artist_romaji": "sheislegend heavenburnsred",
  "genre": "POPS & ANIME",
  "bpm": "175",
  "version": "SUN+",
@@ -33,7 +33,12 @@
       "slide": 24,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08193",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 56,
       "air_hold": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08193",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -93,7 +103,14 @@
       "air": 16,
       "other": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08193",
+     "key": "exp"
+    },
+    "youtube": [
+     "BZmglX-JPAM"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -126,7 +143,15 @@
       "ex_tap": 124,
       "hold": 102
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08193",
+     "key": "mst"
+    },
+    "youtube": [
+     "8GkKiBUohsY",
+     "nrzv5q3uc1c"
+    ]
    },
    "status": "extracted",
    "notes": "33 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2465",
    "image": "eaca4d5aae760e5b.jpg"
+  },
+  "sdvxin": {
+   "id": "08193",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -151,6 +180,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2465-goodbye-innocence"
  }
 }

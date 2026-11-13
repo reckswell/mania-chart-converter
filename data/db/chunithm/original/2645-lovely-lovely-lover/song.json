@@ -3,8 +3,8 @@
  "song_id": "2645",
  "title": "Lovely Lovely Lover",
  "artist": "EmoCosine",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "lovelylovelylover",
+ "artist_romaji": "emocosine",
  "genre": "ORIGINAL",
  "bpm": "160",
  "version": "LUMINOUS+",
@@ -33,7 +33,12 @@
       "ex_tap": 36,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09152",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 49,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09152",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -93,7 +103,14 @@
       "other": 3,
       "ex_tap": 153
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09152",
+     "key": "exp"
+    },
+    "youtube": [
+     "2MWyjmnGU7w"
+    ]
    },
    "status": "extracted",
    "notes": "21 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "air_hold": 51,
       "other": 20
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09152",
+     "key": "mst"
+    },
+    "youtube": [
+     "7G5lfcA9nuY",
+     "58WfKNBKDC0"
+    ]
    },
    "status": "extracted",
    "notes": "38 exact duplicate lines ignored",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2645",
    "image": "4c04f49f8e75db2f.jpg"
+  },
+  "sdvxin": {
+   "id": "09152",
+   "list": "songs09.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 32739
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2645-lovely-lovely-lover"
+ }
 }

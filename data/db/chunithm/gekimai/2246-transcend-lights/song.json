@@ -3,8 +3,8 @@
  "song_id": "2246",
  "title": "Transcend Lights",
  "artist": "曲：小高光太郎／歌：オンゲキシューターズ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "transcendlights",
+ "artist_romaji": "odakakoutarou ongekishooters",
  "genre": "ゲキマイ",
  "bpm": "105",
  "version": "NEW+",
@@ -33,7 +33,12 @@
       "slide": 20,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07221",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "not represented: CLK×6",
@@ -62,7 +67,12 @@
       "ex_tap": 33,
       "air": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07221",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "not represented: CLK×6",
@@ -93,7 +103,14 @@
       "air": 34,
       "other": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07221",
+     "key": "exp"
+    },
+    "youtube": [
+     "TKId5TcU4rg"
+    ]
    },
    "status": "extracted",
    "notes": "5 exact duplicate lines ignored; not represented: CLK×6",
@@ -127,7 +144,15 @@
       "hold": 50,
       "flick": 3
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07221",
+     "key": "mst"
+    },
+    "youtube": [
+     "kN4tuzYJCm0",
+     "Ju0M4Grx9Cg"
+    ]
    },
    "status": "extracted",
    "notes": "77 exact duplicate lines ignored; not represented: CLK×6",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2246",
    "image": "451584424cf1142a.jpg"
+  },
+  "sdvxin": {
+   "id": "07221",
+   "list": "songs07.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 25072
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2246-transcend-lights"
+ }
 }

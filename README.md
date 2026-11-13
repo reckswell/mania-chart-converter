@@ -21,6 +21,7 @@ python -m vsrgconv stats         # what the database holds, per game
 python -m vsrgconv games --all   # the games, and other VSRGs that can be added (docs/adding-a-game.md)
 python -m vsrgconv catalog sekai                        # refresh a game's song list (or: catalog all)
 python -m vsrgconv scrape sekai --charts --jackets --workers 8 --interval 0.02   # fetch what is missing
+python -m vsrgconv update                               # add what the games released since the last run
 python -m vsrgconv render chunithm --workers 4           # chart layout pictures into data/renders
 python -m vsrgconv convert chunithm 2490 master --keys 8
 python -m vsrgconv playtest "out/<map>.osu" --dry-run   # orthomania harness command (ORTHO_REPO)
@@ -57,6 +58,10 @@ spaced like osu!mania at approach rate 9, so the distance between notes is their
 redrawn from the charts (docs/hosting.md says where they can be hosted). Charts without notes keep links to
 pictures elsewhere (sdvx.in, RRRGR, textage) in their `source`; `vsrgconv render --report` lists them.
 
+The database keeps itself current: `vsrgconv update` checks every game's sources for new songs and charts and
+fetches only those, and a GitHub Actions workflow runs it every day, commits the changes and uploads the new files
+and pictures to the Hugging Face dataset (docs/updating.md). `data/db/CHANGELOG.md` lists what each run added.
+
 Each game's sources, coverage and caveats are in `docs/sources/<game>.md`. Conversion rules are still placeholders
 (`baseline` profile), so the .osu output is a working test, not a finished map.
 
@@ -70,6 +75,7 @@ Each game's sources, coverage and caveats are in `docs/sources/<game>.md`. Conve
 - `docs/architecture.md`: modules.
 - `docs/adding-a-game.md`: listing the games and adding another VSRG.
 - `docs/hosting.md`: where the database can live besides this machine and GitHub.
+- `docs/updating.md`: keeping the database current (`vsrgconv update`, the daily workflow).
 - `docs/agent-loop.md`: the research → implement → verify → review → playtest → record loop (`/iterate`), with
   subagents in `.claude/agents/`.
 - `agent/`: the loop's backlog, log, decisions, eval set and metrics.

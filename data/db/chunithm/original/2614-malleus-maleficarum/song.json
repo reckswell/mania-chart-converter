@@ -3,8 +3,8 @@
  "song_id": "2614",
  "title": "Malleus Maleficarum",
  "artist": "Felysrator",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "malleusmaleficarum",
+ "artist_romaji": "felysrator",
  "genre": "ORIGINAL",
  "bpm": "213",
  "version": "LUMINOUS+",
@@ -33,7 +33,12 @@
       "slide": 32,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09121",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "tap": 144,
       "air_hold": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09121",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -93,7 +103,14 @@
       "tap": 293,
       "other": 23
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09121",
+     "key": "exp"
+    },
+    "youtube": [
+     "j0njWEv2rGY"
+    ]
    },
    "status": "extracted",
    "notes": "41 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "flick": 41,
       "air_hold": 30
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09121",
+     "key": "mst"
+    },
+    "youtube": [
+     "zCT39M31TeU",
+     "lgnoT57_x8I"
+    ]
    },
    "status": "extracted",
    "notes": "67 exact duplicate lines ignored; not represented: SLP×2",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2614",
    "image": "5657e6a849aeee90.jpg"
+  },
+  "sdvxin": {
+   "id": "09121",
+   "list": "songs09.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 31496
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2614-malleus-maleficarum"
+ }
 }

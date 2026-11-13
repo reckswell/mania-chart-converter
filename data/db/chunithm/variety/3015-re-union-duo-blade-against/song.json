@@ -3,8 +3,8 @@
  "song_id": "3015",
  "title": "RE:UNION -Duo Blade Against-",
  "artist": "Ice vs. Morimori Atsushi",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "reunion duobladeagainst",
+ "artist_romaji": "ice morimoriatsushi",
  "genre": "VARIETY",
  "bpm": "202",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 190,
     "air": 78
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11013",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 344,
     "air": 169
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11013",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 421
    },
    "source": {
-    "sdvxin_legacy": "11/11013exp"
+    "sdvxin_legacy": "11/11013exp",
+    "sdvxin": {
+     "id": "11013",
+     "key": "exp"
+    },
+    "youtube": [
+     "TsZeW0nWsV8"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11013mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11013mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11013mst.png",
+    "sdvxin": {
+     "id": "11013",
+     "key": "mst"
+    },
+    "youtube": [
+     "6ipoNtakTKc",
+     "mbxNGlmWGvw"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3015",
    "image": "321c134404abbb7d.jpg"
+  },
+  "sdvxin": {
+   "id": "11013",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 25721
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3015-re-union-duo-blade-against"
+ }
 }

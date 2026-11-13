@@ -3,8 +3,8 @@
  "song_id": "1040",
  "title": "LINK LINK FEVER!!!",
  "artist": "リンカ (CV: 豊田萌絵)「グルーヴコースター」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "linklinkfever",
+ "artist_romaji": "rinka toyodamoe groovecoaster",
  "genre": "VARIETY",
  "bpm": "182",
  "version": "PARADISE",
@@ -33,7 +33,12 @@
       "slide": 18,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06043",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "tap": 164,
       "air": 39
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06043",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "slide": 42,
       "air_hold": 29
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06043",
+     "key": "exp"
+    },
+    "youtube": [
+     "rOuwL2B2if4"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -125,10 +142,35 @@
       "hold": 41,
       "flick": 103
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06043",
+     "key": "mst"
+    },
+    "youtube": [
+     "Bv7_jnJ-k1I",
+     "Ft0uUT5laeI"
+    ]
    },
    "status": "extracted",
    "notes": "45 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "招☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "201",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "1040",
    "image": "0457d93ea0cd0420.jpg"
+  },
+  "sdvxin": {
+   "id": "06043",
+   "list": "songs06.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 23231
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "1040-link-link-fever"
+ }
 }

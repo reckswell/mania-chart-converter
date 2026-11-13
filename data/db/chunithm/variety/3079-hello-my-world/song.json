@@ -3,8 +3,8 @@
  "song_id": "3079",
  "title": "Hello! My World!!",
  "artist": "ああああ ＋ 翡乃イスカ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "hellomyworld",
+ "artist_romaji": "aaaa hinoisuka",
  "genre": "VARIETY",
  "bpm": "195",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 140,
     "air": 49
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11016",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 324,
     "air": 90
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11016",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 114
    },
    "source": {
-    "sdvxin_legacy": "11/11016exp"
+    "sdvxin_legacy": "11/11016exp",
+    "sdvxin": {
+     "id": "11016",
+     "key": "exp"
+    },
+    "youtube": [
+     "XZARDblyajs"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11016mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11016mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11016mst.png",
+    "sdvxin": {
+     "id": "11016",
+     "key": "mst"
+    },
+    "youtube": [
+     "uhhnLLAGITg",
+     "CfNkIHbdmz8"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3079",
    "image": "448eb46993a02f15.jpg"
+  },
+  "sdvxin": {
+   "id": "11016",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 30747
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3079-hello-my-world"
+ }
 }

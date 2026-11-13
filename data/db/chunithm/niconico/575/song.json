@@ -3,8 +3,8 @@
  "song_id": "575",
  "title": "マトリョシカ",
  "artist": "ハチ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "matryoshka",
+ "artist_romaji": "hachi",
  "genre": "niconico",
  "bpm": "205",
  "version": "STAR+",
@@ -33,7 +33,12 @@
       "slide": 36,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03133",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 14,
       "slide": 52
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03133",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air": 11,
       "air_hold": 77
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03133",
+     "key": "exp"
+    },
+    "youtube": [
+     "PB9luDCsUxA"
+    ]
    },
    "status": "extracted",
    "notes": "8 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "slide": 141,
       "ex_tap": 158
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03133",
+     "key": "mst"
+    },
+    "youtube": [
+     "ZP8ao_Q7qAQ",
+     "nm-Qe998Kqg"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -146,7 +171,15 @@
    },
    "source": {
     "sdvxin_legacy": "ult/03133ult",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/03133ult.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/03133ult.png",
+    "sdvxin": {
+     "id": "03133",
+     "key": "ult"
+    },
+    "youtube": [
+     "UK7rWCLteAw",
+     "NVYHeGtOwKs"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -157,6 +190,10 @@
   "otogedb": {
    "id": "575",
    "image": "e6fedbae1ea146a5.jpg"
+  },
+  "sdvxin": {
+   "id": "03133",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -170,5 +207,7 @@
    "bytes": 20305
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "575"
+ }
 }

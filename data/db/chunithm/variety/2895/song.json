@@ -3,8 +3,8 @@
  "song_id": "2895",
  "title": "夢と希望",
  "artist": "Toby Fox「UNDERTALE」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "yumetokibou",
+ "artist_romaji": "tobyfox undertale",
  "genre": "VARIETY",
  "bpm": "171",
  "version": "X-VERSE",
@@ -33,7 +33,12 @@
       "slide": 21,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10151",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 16,
       "ex_tap": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10151",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "5 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air": 89,
       "hold": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10151",
+     "key": "exp"
+    },
+    "youtube": [
+     "iduuJlzF1Gw"
+    ]
    },
    "status": "extracted",
    "notes": "14 exact duplicate lines ignored; combo 1489 in the .c2s differs from the published note count 1469 (chart revised since this file?)",
@@ -126,7 +143,15 @@
       "flick": 89,
       "other": 112
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10151",
+     "key": "mst"
+    },
+    "youtube": [
+     "O-RxMERHjbc",
+     "OgaY16V7mrc"
+    ]
    },
    "status": "extracted",
    "notes": "345 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2895",
    "image": "8d26ca603c9ecdea.jpg"
+  },
+  "sdvxin": {
+   "id": "10151",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 4743
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2895"
+ }
 }

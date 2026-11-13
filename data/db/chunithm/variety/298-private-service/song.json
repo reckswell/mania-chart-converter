@@ -3,8 +3,8 @@
  "song_id": "298",
  "title": "PRIVATE SERVICE",
  "artist": "from PACA PACA PASSION 2",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "privateservice",
+ "artist_romaji": "pacapacapassion2",
  "genre": "VARIETY",
  "bpm": "160",
  "version": "AIR",
@@ -33,7 +33,12 @@
       "ex_tap": 29,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02011",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 39,
       "air_hold": 19
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02011",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 32,
       "slide": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02011",
+     "key": "exp"
+    },
+    "youtube": [
+     "3ZdKiAhyZTc"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "flick": 100,
       "air_hold": 30
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02011",
+     "key": "mst"
+    },
+    "youtube": [
+     "Maqg1gWfvJc",
+     "DJCPV8VzaDI"
+    ]
    },
    "status": "extracted",
    "notes": "14 exact duplicate lines ignored",
@@ -159,7 +184,15 @@
       "hold": 100,
       "slide": 59
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02011",
+     "key": "ult"
+    },
+    "youtube": [
+     "-rGwLhNGK94",
+     "nFtyLT1rh-s"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -170,6 +203,10 @@
   "otogedb": {
    "id": "298",
    "image": "7c649691aa0c4b3d.jpg"
+  },
+  "sdvxin": {
+   "id": "02011",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -183,5 +220,7 @@
    "bytes": 32056
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "298-private-service"
+ }
 }

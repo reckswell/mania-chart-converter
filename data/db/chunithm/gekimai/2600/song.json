@@ -3,8 +3,8 @@
  "song_id": "2600",
  "title": "其のエメラルドを見よ",
  "artist": "庭師",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "sonoemerarudowomiyo",
+ "artist_romaji": "niwashi",
  "genre": "ゲキマイ",
  "bpm": "183",
  "version": "LUMINOUS+",
@@ -33,7 +33,12 @@
       "slide": 40,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09105",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 82,
       "air_hold": 11
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09105",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -93,7 +103,14 @@
       "air_hold": 46,
       "other": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09105",
+     "key": "exp"
+    },
+    "youtube": [
+     "CbeN_4gb1S8"
+    ]
    },
    "status": "extracted",
    "notes": "6 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "hold": 45,
       "other": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09105",
+     "key": "mst"
+    },
+    "youtube": [
+     "ZecGDqZHYGQ",
+     "kbt76QeP8TE"
+    ]
    },
    "status": "extracted",
    "notes": "5 exact duplicate lines ignored",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2600",
    "image": "e58cfa03ae9c14ce.jpg"
+  },
+  "sdvxin": {
+   "id": "09105",
+   "list": "songs09.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 35647
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2600"
+ }
 }

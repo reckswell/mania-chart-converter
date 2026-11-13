@@ -3,8 +3,8 @@
  "song_id": "447",
  "title": "パーフェクト生命",
  "artist": "ナユタン星人",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "perfectseimei",
+ "artist_romaji": "nayutanseijin",
  "genre": "niconico",
  "bpm": "200",
  "version": "STAR",
@@ -33,7 +33,12 @@
       "ex_tap": 45,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03026",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 18,
       "air_hold": 24
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03026",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air_hold": 23,
       "slide": 97
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03026",
+     "key": "exp"
+    },
+    "youtube": [
+     "PoVOIxL8tyA"
+    ]
    },
    "status": "extracted",
    "notes": "6 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air_hold": 74,
       "slide": 143
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03026",
+     "key": "mst"
+    },
+    "youtube": [
+     "wasdb8pRSuI",
+     "SAXCjhkpFOY"
+    ]
    },
    "status": "extracted",
    "notes": "91 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "447",
    "image": "7b12d66ee6250e26.jpg"
+  },
+  "sdvxin": {
+   "id": "03026",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 15015
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "447"
+ }
 }

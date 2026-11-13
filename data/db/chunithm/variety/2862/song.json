@@ -3,8 +3,8 @@
  "song_id": "2862",
  "title": "スパイダーダンス",
  "artist": "Toby Fox「UNDERTALE」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "spiderdance",
+ "artist_romaji": "tobyfox undertale",
  "genre": "VARIETY",
  "bpm": "230",
  "version": "X-VERSE",
@@ -33,7 +33,12 @@
       "ex_tap": 12,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10150",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 7,
       "air": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10150",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -93,7 +103,14 @@
       "other": 3,
       "ex_tap": 34
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10150",
+     "key": "exp"
+    },
+    "youtube": [
+     "SAxh_8tseNE"
+    ]
    },
    "status": "extracted",
    "notes": "10 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "air_hold": 15,
       "ex_tap": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10150",
+     "key": "mst"
+    },
+    "youtube": [
+     "kgXA14aR0g8",
+     "vj2j_qK4aGs"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored; not represented: SLA×4, SLP×6",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2862",
    "image": "f58c61f0f40e07cf.jpg"
+  },
+  "sdvxin": {
+   "id": "10150",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 5583
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2862"
+ }
 }

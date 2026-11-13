@@ -3,8 +3,8 @@
  "song_id": "69",
  "title": "The wheel to the right",
  "artist": "Sampling Masters MEGA",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "thewheeltotheright",
+ "artist_romaji": "samplingmastersmega",
  "genre": "ORIGINAL",
  "bpm": "200",
  "version": "無印",
@@ -33,7 +33,12 @@
       "slide": 8,
       "air_hold": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01076",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 37,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01076",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "slide": 49,
       "air_hold": 47
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01076",
+     "key": "exp"
+    },
+    "youtube": [
+     "cNRN7hXL7bo"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -125,10 +142,35 @@
       "air_hold": 117,
       "flick": 25
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01076",
+     "key": "mst"
+    },
+    "youtube": [
+     "3T_9XtZd7pE",
+     "8y6JSI_XSgU"
+    ]
    },
    "status": "extracted",
    "notes": "126 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "避☆☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "021",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "69",
    "image": "c2c4ece2034eb620.jpg"
+  },
+  "sdvxin": {
+   "id": "01076",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 30160
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "69-the-wheel-to-the-right"
+ }
 }

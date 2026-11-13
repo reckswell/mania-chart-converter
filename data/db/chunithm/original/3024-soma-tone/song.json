@@ -3,8 +3,8 @@
  "song_id": "3024",
  "title": "SOMA TONE",
  "artist": "MYUKKE.",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "somatone",
+ "artist_romaji": "myukke",
  "genre": "ORIGINAL",
  "bpm": "170",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 92,
     "air": 59
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11025",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 274,
     "air": 44
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11025",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 258
    },
    "source": {
-    "sdvxin_legacy": "11/11025exp"
+    "sdvxin_legacy": "11/11025exp",
+    "sdvxin": {
+     "id": "11025",
+     "key": "exp"
+    },
+    "youtube": [
+     "lFf1KPJDYGU"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11025mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11025mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11025mst.png",
+    "sdvxin": {
+     "id": "11025",
+     "key": "mst"
+    },
+    "youtube": [
+     "solhxuLiuNo",
+     "MkIi15ev4Pk"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3024",
    "image": "c4ef18f993562cd3.jpg"
+  },
+  "sdvxin": {
+   "id": "11025",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 27422
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3024-soma-tone"
+ }
 }

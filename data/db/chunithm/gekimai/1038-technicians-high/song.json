@@ -3,8 +3,8 @@
  "song_id": "1038",
  "title": "Technicians High",
  "artist": "HiTECH NINJA",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "technicianshigh",
+ "artist_romaji": "hitechninja",
  "genre": "ゲキマイ",
  "bpm": "165",
  "version": "NEW",
@@ -33,7 +33,12 @@
       "slide": 25,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07120",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 19,
       "ex_tap": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07120",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air_hold": 54,
       "hold": 63
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07120",
+     "key": "exp"
+    },
+    "youtube": [
+     "9M3_4ewxPKA"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air": 146,
       "air_hold": 48
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07120",
+     "key": "mst"
+    },
+    "youtube": [
+     "TfRVbor8OUI",
+     "gSuMlM2FVJA"
+    ]
    },
    "status": "extracted",
    "notes": "29 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "1038",
    "image": "f5b38b78ede661fd.jpg"
+  },
+  "sdvxin": {
+   "id": "07120",
+   "list": "songs07.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 14270
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "1038-technicians-high"
+ }
 }

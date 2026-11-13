@@ -3,8 +3,8 @@
  "song_id": "540",
  "title": "砂の惑星 feat. HATSUNE MIKU",
  "artist": "ハチ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "sunanowakusei hatsunemiku",
+ "artist_romaji": "hachi",
  "genre": "niconico",
  "bpm": "95",
  "version": "STAR",
@@ -33,7 +33,12 @@
       "ex_tap": 4,
       "air_hold": 7
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03007",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 39,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03007",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air_hold": 8,
       "slide": 60
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03007",
+     "key": "exp"
+    },
+    "youtube": [
+     "MfENMOZnccg"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "air_hold": 31,
       "flick": 50
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03007",
+     "key": "mst"
+    },
+    "youtube": [
+     "Wu1JalqdM9Y",
+     "HIPkAbpjsgg"
+    ]
    },
    "status": "extracted",
    "notes": "8 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "540",
    "image": "85e49b02887f58c1.jpg"
+  },
+  "sdvxin": {
+   "id": "03007",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 24404
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "540-feat-hatsune-miku"
+ }
 }

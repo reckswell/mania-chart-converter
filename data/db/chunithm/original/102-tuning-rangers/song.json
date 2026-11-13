@@ -3,8 +3,8 @@
  "song_id": "102",
  "title": "Tuning Rangers",
  "artist": "COOL&CREATE",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "tuningrangers",
+ "artist_romaji": "cool&create",
  "genre": "ORIGINAL",
  "bpm": "160",
  "version": "AIR",
@@ -33,7 +33,12 @@
       "slide": 12,
       "air_hold": 7
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02019",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 23,
       "hold": 24
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02019",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 23,
       "air_hold": 64
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02019",
+     "key": "exp"
+    },
+    "youtube": [
+     "g0ykw1wSFmM"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "slide": 105,
       "flick": 57
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02019",
+     "key": "mst"
+    },
+    "youtube": [
+     "r_FJTs5XHmo",
+     "-ESy19ePoVA"
+    ]
    },
    "status": "extracted",
    "notes": "109 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "102",
    "image": "7fc6ae1b488b88de.jpg"
+  },
+  "sdvxin": {
+   "id": "02019",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 32322
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "102-tuning-rangers"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "3059",
  "title": "奇々解体",
  "artist": "MURASAKI/かたたかんな",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "kikikaitai",
+ "artist_romaji": "murasakikatatakanna",
  "genre": "VARIETY",
  "bpm": "148",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 104,
     "air": 50
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11057",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 216,
     "air": 25
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11057",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 59
    },
    "source": {
-    "sdvxin_legacy": "11/11057exp"
+    "sdvxin_legacy": "11/11057exp",
+    "sdvxin": {
+     "id": "11057",
+     "key": "exp"
+    },
+    "youtube": [
+     "u4GWeLQHQQE"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11057mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11057mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11057mst.png",
+    "sdvxin": {
+     "id": "11057",
+     "key": "mst"
+    },
+    "youtube": [
+     "YWYo11Cwqio",
+     "LjPDxGs7avw"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3059",
    "image": "3b7a809d84a6c9b6.jpg"
+  },
+  "sdvxin": {
+   "id": "11057",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 26204
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3059"
+ }
 }

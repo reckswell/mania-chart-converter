@@ -3,8 +3,8 @@
  "song_id": "2113",
  "title": "Mirage Game",
  "artist": "ペコリーヌ（M・A・O）、コッコロ（伊藤美来）、キャル（立花理香）、ユイ（種田梨沙）、ヒヨリ（東山奈央）、レイ（早見沙織）、シェフィ（近藤玲奈）「プリンセスコネクト！Re:Dive」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "miragegame",
+ "artist_romaji": "pecorine mao kokkoro itoumiku kyaru tachibanarika yui tanedarisa hiyori tooyamanao rei hayamisaori sheffy kondoureina princessconnect redive",
  "genre": "POPS & ANIME",
  "bpm": "180",
  "version": "NEW",
@@ -33,7 +33,12 @@
       "slide": 26,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07080",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 62,
       "air_hold": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07080",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "tap": 292,
       "air": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07080",
+     "key": "exp"
+    },
+    "youtube": [
+     "sGpkbInHZho"
+    ]
    },
    "status": "extracted",
    "notes": "48 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "slide": 77,
       "flick": 26
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07080",
+     "key": "mst"
+    },
+    "youtube": [
+     "Tv7QtSGdGK4",
+     "YUg5P2rOkrM"
+    ]
    },
    "status": "extracted",
    "notes": "100 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2113",
    "image": "e451a2fbb6717ef1.jpg"
+  },
+  "sdvxin": {
+   "id": "07080",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -150,6 +179,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2113-mirage-game"
  }
 }

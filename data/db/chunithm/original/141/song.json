@@ -3,8 +3,8 @@
  "song_id": "141",
  "title": "閃鋼のブリューナク",
  "artist": "sasakure.UK",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "senkounobrionac",
+ "artist_romaji": "sasakureuk",
  "genre": "ORIGINAL",
  "bpm": "140",
  "version": "無印",
@@ -33,7 +33,12 @@
       "slide": 9,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01073",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 6,
       "air_hold": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01073",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 37,
       "air": 36
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01073",
+     "key": "exp"
+    },
+    "youtube": [
+     "l4rkFiOAk3I"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,9 +142,34 @@
       "slide": 10,
       "flick": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01073",
+     "key": "mst"
+    },
+    "youtube": [
+     "_Z1niUZHsPA",
+     "PqkpzKzRu6M"
+    ]
    },
    "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "戻☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "029",
+     "key": "end"
+    }
+   },
+   "status": "listed",
    "notes": "",
    "assets": {}
   }
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "141",
    "image": "2e6c11edba79d997.jpg"
+  },
+  "sdvxin": {
+   "id": "01073",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 21274
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "141"
+ }
 }

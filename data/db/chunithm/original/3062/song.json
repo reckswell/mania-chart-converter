@@ -3,8 +3,8 @@
  "song_id": "3062",
  "title": "コンクエスト・チャレンジ",
  "artist": "サツキ feat.ろん",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "conquest challenge",
+ "artist_romaji": "satsuki ron",
  "genre": "ORIGINAL",
  "bpm": "210",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 192,
     "air": 58
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11062",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 290,
     "air": 44
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11062",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 169
    },
    "source": {
-    "sdvxin_legacy": "10/11062exp"
+    "sdvxin_legacy": "10/11062exp",
+    "sdvxin": {
+     "id": "11062",
+     "key": "exp"
+    },
+    "youtube": [
+     "ugNloTWB1tw"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "10/11062mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11062mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11062mst.png",
+    "sdvxin": {
+     "id": "11062",
+     "key": "mst"
+    },
+    "youtube": [
+     "-BczVd4Rmv0",
+     "VQ8Dr6HHJbs"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3062",
    "image": "1ae2db00c32c728b.jpg"
+  },
+  "sdvxin": {
+   "id": "11062",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 36711
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3062"
+ }
 }

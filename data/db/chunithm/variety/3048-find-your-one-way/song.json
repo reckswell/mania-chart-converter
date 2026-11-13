@@ -3,8 +3,8 @@
  "song_id": "3048",
  "title": "Find Your One Way",
  "artist": "NAOKI「GUILTY GEAR -STRIVE-」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "findyouroneway",
+ "artist_romaji": "naoki guiltygear strive",
  "genre": "VARIETY",
  "bpm": "128",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 100,
     "air": 35
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11046",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 151,
     "air": 53
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11046",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 108
    },
    "source": {
-    "sdvxin_legacy": "11/11046exp"
+    "sdvxin_legacy": "11/11046exp",
+    "sdvxin": {
+     "id": "11046",
+     "key": "exp"
+    },
+    "youtube": [
+     "kWzna2bJjR4"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11046mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11046mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11046mst.png",
+    "sdvxin": {
+     "id": "11046",
+     "key": "mst"
+    },
+    "youtube": [
+     "YmOCI-LRYNg",
+     "V63uGrtLP80"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3048",
    "image": "4dfb09327c688bb1.jpg"
+  },
+  "sdvxin": {
+   "id": "11046",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 22807
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3048-find-your-one-way"
+ }
 }

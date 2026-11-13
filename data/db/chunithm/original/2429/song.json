@@ -3,8 +3,8 @@
  "song_id": "2429",
  "title": "白庭",
  "artist": "くるぶっこちゃん",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "hakutei",
+ "artist_romaji": "kurubukkochan",
  "genre": "ORIGINAL",
  "bpm": "111",
  "version": "SUN+",
@@ -33,7 +33,12 @@
       "slide": 22,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08159",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "not represented: CLK×7",
@@ -62,7 +67,12 @@
       "air_hold": 16,
       "ex_tap": 42
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08159",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored; not represented: CLK×7",
@@ -93,7 +103,14 @@
       "tap": 315,
       "ex_tap": 30
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08159",
+     "key": "exp"
+    },
+    "youtube": [
+     "Fx237LYcUM8"
+    ]
    },
    "status": "extracted",
    "notes": "5 exact duplicate lines ignored; not represented: CLK×7",
@@ -127,7 +144,15 @@
       "air_hold": 30,
       "ex_tap": 50
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08159",
+     "key": "mst"
+    },
+    "youtube": [
+     "PCLQIxfmXlE",
+     "L8z2KuguAyM"
+    ]
    },
    "status": "extracted",
    "notes": "14 exact duplicate lines ignored; not represented: CLK×7",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2429",
    "image": "45a3cc892950b985.jpg"
+  },
+  "sdvxin": {
+   "id": "08159",
+   "list": "songs08.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 25580
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2429"
+ }
 }

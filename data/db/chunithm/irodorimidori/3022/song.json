@@ -3,8 +3,8 @@
  "song_id": "3022",
  "title": "私たちは、花になる",
  "artist": "イロドリミドリ｜HaNaMiNa｜S.S.L.",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "watashitachihahananinaru",
+ "artist_romaji": "irodorimidori hanamina ssl",
  "genre": "イロドリミドリ",
  "bpm": "168",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 230,
     "air": 57
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11017",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 188,
     "air": 202
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11017",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 439
    },
    "source": {
-    "sdvxin_legacy": "11/11017exp"
+    "sdvxin_legacy": "11/11017exp",
+    "sdvxin": {
+     "id": "11017",
+     "key": "exp"
+    },
+    "youtube": [
+     "96eg3Q7hEDo"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11017mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11017mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11017mst.png",
+    "sdvxin": {
+     "id": "11017",
+     "key": "mst"
+    },
+    "youtube": [
+     "V6wwRO1Vak0",
+     "UJlf2g-rHec"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3022",
    "image": "54865bad01a2f313.jpg"
+  },
+  "sdvxin": {
+   "id": "11017",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 28597
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3022"
+ }
 }

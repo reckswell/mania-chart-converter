@@ -3,8 +3,8 @@
  "song_id": "179",
  "title": "すろぉもぉしょん",
  "artist": "ピノキオピー",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "slowmotion",
+ "artist_romaji": "pinokiopi",
  "genre": "niconico",
  "bpm": "160",
  "version": "無印",
@@ -33,7 +33,12 @@
       "ex_tap": 27,
       "air_hold": 7
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01121",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 38,
       "air_hold": 15
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01121",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 14,
       "air_hold": 27
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01121",
+     "key": "exp"
+    },
+    "youtube": [
+     "YGWGP6rvl9U"
+    ]
    },
    "status": "extracted",
    "notes": "6 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "ex_tap": 116,
       "flick": 27
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01121",
+     "key": "mst"
+    },
+    "youtube": [
+     "ZIqKtnRoaFk",
+     "Lg0Hpi5pROg"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -159,7 +184,15 @@
       "flick": 177,
       "other": 68
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01121",
+     "key": "ult"
+    },
+    "youtube": [
+     "CoGeC6XwvZE",
+     "5zCV2Oorf80"
+    ]
    },
    "status": "extracted",
    "notes": "16 exact duplicate lines ignored; not represented: SLP×9",
@@ -170,6 +203,10 @@
   "otogedb": {
    "id": "179",
    "image": "0e73189a7083e4f4.jpg"
+  },
+  "sdvxin": {
+   "id": "01121",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -183,5 +220,7 @@
    "bytes": 12090
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "179"
+ }
 }

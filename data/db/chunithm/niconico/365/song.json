@@ -3,8 +3,8 @@
  "song_id": "365",
  "title": "桜ノ雨",
  "artist": "halyosy",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "sakuranoame",
+ "artist_romaji": "halyosy",
  "genre": "niconico",
  "bpm": "76",
  "version": "AIR+",
@@ -33,7 +33,12 @@
       "ex_tap": 2,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02118",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 14,
       "ex_tap": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02118",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 18,
       "air_hold": 34
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02118",
+     "key": "exp"
+    },
+    "youtube": [
+     "9dlmVyqZkZM"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -124,7 +141,15 @@
       "ex_tap": 42,
       "flick": 40
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02118",
+     "key": "mst"
+    },
+    "youtube": [
+     "kVZM6OkuC40",
+     "CEdfdPJ6a-s"
+    ]
    },
    "status": "extracted",
    "notes": "23 exact duplicate lines ignored",
@@ -135,6 +160,10 @@
   "otogedb": {
    "id": "365",
    "image": "83fc53563032873e.jpg"
+  },
+  "sdvxin": {
+   "id": "02118",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -148,5 +177,7 @@
    "bytes": 25764
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "365"
+ }
 }

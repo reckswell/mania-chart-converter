@@ -3,8 +3,8 @@
  "song_id": "2406",
  "title": "ASH",
  "artist": "cubesato",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "asshu",
+ "artist_romaji": "cubesato",
  "genre": "ORIGINAL",
  "bpm": "124",
  "version": "SUN+",
@@ -33,7 +33,12 @@
       "slide": 16,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08135",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 2,
       "ex_tap": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08135",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -93,7 +103,14 @@
       "air_hold": 25,
       "other": 14
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08135",
+     "key": "exp"
+    },
+    "youtube": [
+     "qvO3aatFRHI"
+    ]
    },
    "status": "extracted",
    "notes": "11 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "other": 36,
       "air_hold": 88
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08135",
+     "key": "mst"
+    },
+    "youtube": [
+     "hb35BfDz5KI",
+     "G3z3n7zZfLk"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2406",
    "image": "926cd280af321183.jpg"
+  },
+  "sdvxin": {
+   "id": "08135",
+   "list": "songs08.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 24726
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2406-ash"
+ }
 }

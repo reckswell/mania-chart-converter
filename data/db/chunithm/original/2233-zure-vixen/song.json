@@ -3,8 +3,8 @@
  "song_id": "2233",
  "title": "Λzure Vixen",
  "artist": "かめりあ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "azurevixen",
+ "artist_romaji": "camellia",
  "genre": "ORIGINAL",
  "bpm": "163",
  "version": "NEW+",
@@ -33,7 +33,12 @@
       "slide": 27,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07207",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 77,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07207",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -93,7 +103,14 @@
       "ex_tap": 358,
       "hold": 66
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07207",
+     "key": "exp"
+    },
+    "youtube": [
+     "v3MhybU2IMM"
+    ]
    },
    "status": "extracted",
    "notes": "5 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "ex_tap": 388,
       "air": 123
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07207",
+     "key": "mst"
+    },
+    "youtube": [
+     "WcFfG9JWGBo",
+     "YU6L6qEs0XM"
+    ]
    },
    "status": "extracted",
    "notes": "44 exact duplicate lines ignored",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2233",
    "image": "b7b9f4908d6c128d.jpg"
+  },
+  "sdvxin": {
+   "id": "07207",
+   "list": "songs07.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 18533
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2233-zure-vixen"
+ }
 }

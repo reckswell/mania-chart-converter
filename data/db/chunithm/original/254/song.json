@@ -3,8 +3,8 @@
  "song_id": "254",
  "title": "その群青が愛しかったようだった",
  "artist": "n-buna feat.ヤギヌマカナ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "sonogunjouga itoshikattayoudatta",
+ "artist_romaji": "n-buna yaginumakana",
  "genre": "ORIGINAL",
  "bpm": "220",
  "version": "AIR",
@@ -33,7 +33,12 @@
       "slide": 12,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02015",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 36,
       "air_hold": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02015",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "ex_tap": 33,
       "air_hold": 14
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02015",
+     "key": "exp"
+    },
+    "youtube": [
+     "dDlAzU1MqkY"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,10 +142,35 @@
       "air": 152,
       "slide": 24
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02015",
+     "key": "mst"
+    },
+    "youtube": [
+     "7smDK8prQ7g",
+     "pDd7IIEvIjI"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "割☆☆☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "104",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "254",
    "image": "2e617d713547fe84.jpg"
+  },
+  "sdvxin": {
+   "id": "02015",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 32806
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "254"
+ }
 }

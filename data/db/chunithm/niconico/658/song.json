@@ -3,8 +3,8 @@
  "song_id": "658",
  "title": "おちゃめ機能",
  "artist": "ろん",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "ochamekinou",
+ "artist_romaji": "ron",
  "genre": "niconico",
  "bpm": "150",
  "version": "AMAZON",
@@ -33,7 +33,12 @@
       "slide": 16,
       "air_hold": 3
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04063",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 30,
       "air_hold": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04063",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 40,
       "air_hold": 30
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04063",
+     "key": "exp"
+    },
+    "youtube": [
+     "uAqAI_JuPeU"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air_hold": 22,
       "flick": 107
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04063",
+     "key": "mst"
+    },
+    "youtube": [
+     "6wO2wOuSej4",
+     "3LWMPnBVyfI"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "658",
    "image": "ce378b2efae567ec.jpg"
+  },
+  "sdvxin": {
+   "id": "04063",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -150,6 +179,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "658"
  }
 }

@@ -3,8 +3,8 @@
  "song_id": "2657",
  "title": "1000年生きてる",
  "artist": "いよわ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "1000nenikiteru",
+ "artist_romaji": "iyowa",
  "genre": "niconico",
  "bpm": "100",
  "version": "LUMINOUS+",
@@ -33,7 +33,12 @@
       "slide": 16,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09113",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "combo 445 in the .c2s differs from the published note count 465 (chart revised since this file?)",
@@ -62,7 +67,12 @@
       "slide": 33,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09113",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -93,7 +103,14 @@
       "air_hold": 16,
       "other": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09113",
+     "key": "exp"
+    },
+    "youtube": [
+     "Sa1oHv-sXBs"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "slide": 61,
       "other": 11
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09113",
+     "key": "mst"
+    },
+    "youtube": [
+     "bc7j9TclLZI",
+     "V3_4fm8u6bI"
+    ]
    },
    "status": "extracted",
    "notes": "36 exact duplicate lines ignored",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2657",
    "image": "4574d2e1da81cc04.jpg"
+  },
+  "sdvxin": {
+   "id": "09113",
+   "list": "songs09.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 11929
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2657-1000"
+ }
 }

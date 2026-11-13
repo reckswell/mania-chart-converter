@@ -3,8 +3,8 @@
  "song_id": "2081",
  "title": "アンヘル",
  "artist": "かいりきベア",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "anheru",
+ "artist_romaji": "kairikibear",
  "genre": "niconico",
  "bpm": "184",
  "version": "PARADISE×",
@@ -33,7 +33,12 @@
       "slide": 29,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06120",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 13,
       "air_hold": 7
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06120",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 55,
       "air": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06120",
+     "key": "exp"
+    },
+    "youtube": [
+     "qVSI5qLbBwA"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 115,
       "air_hold": 48
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06120",
+     "key": "mst"
+    },
+    "youtube": [
+     "2i8LRAzVnN0",
+     "AiXUoHp1UVw"
+    ]
    },
    "status": "extracted",
    "notes": "10 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2081",
    "image": "502408a3e6d5371a.jpg"
+  },
+  "sdvxin": {
+   "id": "06120",
+   "list": "songs06.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 28067
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2081"
+ }
 }

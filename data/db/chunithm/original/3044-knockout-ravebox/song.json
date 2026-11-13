@@ -3,8 +3,8 @@
  "song_id": "3044",
  "title": "Knockout Ravebox",
  "artist": "Hommarju",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "knockoutravebox",
+ "artist_romaji": "hommarju",
  "genre": "ORIGINAL",
  "bpm": "170",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 88,
     "air": 55
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11052",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 216,
     "air": 40
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11052",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 99
    },
    "source": {
-    "sdvxin_legacy": "10/11052exp"
+    "sdvxin_legacy": "10/11052exp",
+    "sdvxin": {
+     "id": "11052",
+     "key": "exp"
+    },
+    "youtube": [
+     "dRJ5tO9Rgak"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "10/11052mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11052mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11052mst.png",
+    "sdvxin": {
+     "id": "11052",
+     "key": "mst"
+    },
+    "youtube": [
+     "MkSFf0Sk1wk",
+     "HtRwegw2miY"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3044",
    "image": "83077f4a6a9f0f4e.jpg"
+  },
+  "sdvxin": {
+   "id": "11052",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 32730
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3044-knockout-ravebox"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "148",
  "title": "Theme of SeelischTact",
  "artist": "植松 伸夫",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "themeofseelischtact",
+ "artist_romaji": "uematsunobuo",
  "genre": "ORIGINAL",
  "bpm": "137",
  "version": "無印",
@@ -33,7 +33,12 @@
       "slide": 7,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01054",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 48,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01054",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "slide": 66,
       "air": 35
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01054",
+     "key": "exp"
+    },
+    "youtube": [
+     "ZZVXmSy3nwY"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "slide": 4,
       "flick": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01054",
+     "key": "mst"
+    },
+    "youtube": [
+     "h_0xfE09TV4",
+     "bmJv05COPOQ"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -158,10 +183,35 @@
       "flick": 36,
       "slide": 31
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01054",
+     "key": "ult"
+    },
+    "youtube": [
+     "FTUViKaD9CE",
+     "e7pLg5XTUfs"
+    ]
    },
    "status": "extracted",
    "notes": "53 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "弾☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "007",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -169,6 +219,10 @@
   "otogedb": {
    "id": "148",
    "image": "cd458a75aa049889.jpg"
+  },
+  "sdvxin": {
+   "id": "01054",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -182,5 +236,7 @@
    "bytes": 34098
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "148-theme-of-seelischtact"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "213",
  "title": "星屑ユートピア",
  "artist": "otetsu",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "hoshikuzuutopia",
+ "artist_romaji": "otetsu",
  "genre": "niconico",
  "bpm": "240",
  "version": "PLUS",
@@ -33,7 +33,12 @@
       "ex_tap": 17,
       "air_hold": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01158",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 40,
       "air": 44
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01158",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 32,
       "slide": 57
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01158",
+     "key": "exp"
+    },
+    "youtube": [
+     "sIvzuDcFGD8"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "slide": 139,
       "hold": 37
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01158",
+     "key": "mst"
+    },
+    "youtube": [
+     "m717rmsz-nc",
+     "sOEUeTIFTlU"
+    ]
    },
    "status": "extracted",
    "notes": "28 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "213",
    "image": "c6d494f528391d1c.jpg"
+  },
+  "sdvxin": {
+   "id": "01158",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 22452
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "213"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "2653",
  "title": "Sleep Walking Orchestra",
  "artist": "BUMP OF CHICKEN",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "sleepwalkingorchestra",
+ "artist_romaji": "bumpofchicken",
  "genre": "POPS & ANIME",
  "bpm": "127",
  "version": "LUMINOUS+",
@@ -33,7 +33,12 @@
       "ex_tap": 8,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09157",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 2,
       "ex_tap": 17
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09157",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "tap": 201,
       "air_hold": 7
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09157",
+     "key": "exp"
+    },
+    "youtube": [
+     "j7ZLNyt1vPA"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 13,
       "air_hold": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09157",
+     "key": "mst"
+    },
+    "youtube": [
+     "KFQ3WBqgwiQ",
+     "Gi720H0_U_0"
+    ]
    },
    "status": "extracted",
    "notes": "29 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2653",
    "image": "2487a7877540f3db.jpg"
+  },
+  "sdvxin": {
+   "id": "09157",
+   "list": "songs09.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 19686
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2653-sleep-walking-orchestra"
+ }
 }

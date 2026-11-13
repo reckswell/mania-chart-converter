@@ -3,8 +3,8 @@
  "song_id": "456",
  "title": "ケロ⑨destiny",
  "artist": "Silver Forest",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "kero9destiny",
+ "artist_romaji": "silverforest",
  "genre": "東方Project",
  "bpm": "172",
  "version": "STAR",
@@ -33,7 +33,12 @@
       "slide": 16,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03043",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 9,
       "ex_tap": 48
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03043",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "hold": 36,
       "air_hold": 22
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03043",
+     "key": "exp"
+    },
+    "youtube": [
+     "6YL4my2Sav0"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 107,
       "air_hold": 94
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03043",
+     "key": "mst"
+    },
+    "youtube": [
+     "1KJDY_cWL4I",
+     "8hfOyjMqZyY"
+    ]
    },
    "status": "extracted",
    "notes": "27 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "456",
    "image": "a94a8587de9c33ae.jpg"
+  },
+  "sdvxin": {
+   "id": "03043",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 25669
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "456-9destiny"
+ }
 }

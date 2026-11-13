@@ -3,8 +3,8 @@
  "song_id": "2015",
  "title": "エクストラ・マジック・アワー",
  "artist": "AKINO with bless4「甘城ブリリアントパーク」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "extramagichour",
+ "artist_romaji": "akino bless4 amagibrilliantpark",
  "genre": "POPS & ANIME",
  "bpm": "180",
  "version": "NEW",
@@ -33,7 +33,12 @@
       "slide": 30,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07012",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 14,
       "ex_tap": 64
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07012",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "tap": 232,
       "hold": 37
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07012",
+     "key": "exp"
+    },
+    "youtube": [
+     "O0g8Hx126yg"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 107,
       "hold": 23
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07012",
+     "key": "mst"
+    },
+    "youtube": [
+     "YXg2Up-v_8E",
+     "vwtXRke1u7w"
+    ]
    },
    "status": "extracted",
    "notes": "31 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2015",
    "image": "de4999367cd5a4c3.jpg"
+  },
+  "sdvxin": {
+   "id": "07012",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -150,6 +179,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2015"
  }
 }

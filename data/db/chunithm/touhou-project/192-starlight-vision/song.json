@@ -3,8 +3,8 @@
  "song_id": "192",
  "title": "Starlight Vision",
  "artist": "矢鴇つかさ feat. 三澤秋",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "starlightvision",
+ "artist_romaji": "yatokitsukasa misawaaki",
  "genre": "東方Project",
  "bpm": "180",
  "version": "AIR+",
@@ -33,7 +33,12 @@
       "ex_tap": 11,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02141",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 14,
       "air_hold": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02141",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "hold": 16,
       "ex_tap": 22
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02141",
+     "key": "exp"
+    },
+    "youtube": [
+     "k-vWUpLotmg"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air": 70,
       "ex_tap": 23
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02141",
+     "key": "mst"
+    },
+    "youtube": [
+     "5ih4OjGGIdU",
+     "L0HabRJUnfU"
+    ]
    },
    "status": "extracted",
    "notes": "5 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "192",
    "image": "4ec159d338cfba9e.jpg"
+  },
+  "sdvxin": {
+   "id": "02141",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 31182
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "192-starlight-vision"
+ }
 }

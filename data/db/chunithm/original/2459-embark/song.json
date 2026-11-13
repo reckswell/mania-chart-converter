@@ -3,8 +3,8 @@
  "song_id": "2459",
  "title": "《散華》 ～ EMBARK",
  "artist": "Farhan Sarasin",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "sange embark",
+ "artist_romaji": "farhansarasin",
  "genre": "ORIGINAL",
  "bpm": "170",
  "version": "SUN+",
@@ -33,7 +33,12 @@
       "slide": 14,
       "air_hold": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08189",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 17,
       "air": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08189",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "hold": 27,
       "slide": 88
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08189",
+     "key": "exp"
+    },
+    "youtube": [
+     "V7OA58qJIxo"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -126,7 +143,15 @@
       "hold": 21,
       "other": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08189",
+     "key": "mst"
+    },
+    "youtube": [
+     "GHAB6tHUws8",
+     "ieS_C8t7u4g"
+    ]
    },
    "status": "extracted",
    "notes": "77 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2459",
    "image": "3fc8c573915d54fd.jpg"
+  },
+  "sdvxin": {
+   "id": "08189",
+   "list": "songs08.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 28385
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2459-embark"
+ }
 }

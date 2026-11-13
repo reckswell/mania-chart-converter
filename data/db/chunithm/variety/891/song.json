@@ -3,8 +3,8 @@
  "song_id": "891",
  "title": "音弾超人ゴリライザー",
  "artist": "ゴリライザー制作委員会",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "ondanchoujin gorillaizer",
+ "artist_romaji": "gorillaizer seisakuiinkai",
  "genre": "VARIETY",
  "bpm": "138",
  "version": "CRYSTAL",
@@ -33,7 +33,12 @@
       "air_hold": 5,
       "ex_tap": 17
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05082",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 22,
       "air": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05082",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "hold": 70,
       "slide": 35
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05082",
+     "key": "exp"
+    },
+    "youtube": [
+     "DBQzRp3Mnoc"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -125,10 +142,35 @@
       "flick": 41,
       "air_hold": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05082",
+     "key": "mst"
+    },
+    "youtube": [
+     "Obf0g3TsVH4",
+     "dWuSKF3xkvI"
+    ]
    },
    "status": "extracted",
    "notes": "62 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "狂☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "203",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "891",
    "image": "470bba8de626456b.jpg"
+  },
+  "sdvxin": {
+   "id": "05082",
+   "list": "songs05.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 25156
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "891"
+ }
 }

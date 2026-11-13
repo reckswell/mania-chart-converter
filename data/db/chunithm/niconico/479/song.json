@@ -3,8 +3,8 @@
  "song_id": "479",
  "title": "卑怯戦隊うろたんだー",
  "artist": "シンP",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "hikyousentai urotander",
+ "artist_romaji": "shin",
  "genre": "niconico",
  "bpm": "152",
  "version": "STAR",
@@ -33,7 +33,12 @@
       "air_hold": 7,
       "ex_tap": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03057",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 23,
       "air_hold": 14
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03057",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air": 57,
       "air_hold": 66
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03057",
+     "key": "exp"
+    },
+    "youtube": [
+     "8oloPxRSnBM"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -125,10 +142,35 @@
       "flick": 123,
       "hold": 27
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03057",
+     "key": "mst"
+    },
+    "youtube": [
+     "NbALOBt6PrU",
+     "86aFh_Rr9m0"
+    ]
    },
    "status": "extracted",
    "notes": "177 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "？☆☆☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "157",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "479",
    "image": "b3375d608a67f93b.jpg"
+  },
+  "sdvxin": {
+   "id": "03057",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 15541
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "479"
+ }
 }

@@ -3,8 +3,8 @@
  "song_id": "108",
  "title": "The ether",
  "artist": "浜渦 正志",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "theether",
+ "artist_romaji": "hamauzumasashi",
  "genre": "ORIGINAL",
  "bpm": "98",
  "version": "無印",
@@ -33,7 +33,12 @@
       "slide": 13,
       "air_hold": 3
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01068",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "not represented: CLK×6",
@@ -62,7 +67,12 @@
       "slide": 22,
       "air_hold": 9
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01068",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "not represented: CLK×6",
@@ -92,7 +102,14 @@
       "hold": 79,
       "slide": 19
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01068",
+     "key": "exp"
+    },
+    "youtube": [
+     "M5TKH5709hk"
+    ]
    },
    "status": "extracted",
    "notes": "not represented: CLK×6",
@@ -125,10 +142,35 @@
       "air": 43,
       "flick": 2
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01068",
+     "key": "mst"
+    },
+    "youtube": [
+     "E8P4aFlAflA",
+     "uwcrzX8LzlU"
+    ]
    },
    "status": "extracted",
    "notes": "not represented: CLK×6",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "！☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "036",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "108",
    "image": "1ec3213366f4ad57.jpg"
+  },
+  "sdvxin": {
+   "id": "01068",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 27047
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "108-the-ether"
+ }
 }

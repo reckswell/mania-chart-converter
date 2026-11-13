@@ -3,8 +3,8 @@
  "song_id": "306",
  "title": "凛として咲く花の如く",
  "artist": "紅色リトマス",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "rintoshitesakuhananogotoku",
+ "artist_romaji": "beniiroritomasu",
  "genre": "VARIETY",
  "bpm": "163",
  "version": "AIR",
@@ -33,7 +33,12 @@
       "slide": 7,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02010",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 20,
       "air_hold": 13
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02010",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 18,
       "slide": 40
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02010",
+     "key": "exp"
+    },
+    "youtube": [
+     "HArrgfFvFLA"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "slide": 60,
       "hold": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02010",
+     "key": "mst"
+    },
+    "youtube": [
+     "AO79poCzJXc",
+     "k8J7012vblA"
+    ]
    },
    "status": "extracted",
    "notes": "24 exact duplicate lines ignored",
@@ -157,10 +182,35 @@
       "slide": 26,
       "air_hold": 34
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02010",
+     "key": "ult"
+    },
+    "youtube": [
+     "tkObN-5_Kf4",
+     "lxDrfX8ISrg"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "割☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "122",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -168,6 +218,10 @@
   "otogedb": {
    "id": "306",
    "image": "106d9eec68ed84b3.jpg"
+  },
+  "sdvxin": {
+   "id": "02010",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -181,5 +235,7 @@
    "bytes": 26914
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "306"
+ }
 }

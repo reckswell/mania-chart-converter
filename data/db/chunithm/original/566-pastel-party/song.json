@@ -3,8 +3,8 @@
  "song_id": "566",
  "title": "Pastel Party",
  "artist": "Tomggg",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "pastelparty",
+ "artist_romaji": "tomggg",
  "genre": "ORIGINAL",
  "bpm": "125",
  "version": "STAR+",
@@ -33,7 +33,12 @@
       "slide": 12,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03121",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 84,
       "air": 17
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03121",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 17,
       "ex_tap": 29
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03121",
+     "key": "exp"
+    },
+    "youtube": [
+     "5QA9NQtQyoI"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,9 +142,34 @@
       "air_hold": 47,
       "hold": 50
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03121",
+     "key": "mst"
+    },
+    "youtube": [
+     "uF1IS-OqL9w",
+     "DHDoiehalTA"
+    ]
    },
    "status": "extracted",
+   "notes": "",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "割☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "145",
+     "key": "end"
+    }
+   },
+   "status": "listed",
    "notes": "",
    "assets": {}
   }
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "566",
    "image": "3adf038d6baddc7b.jpg"
+  },
+  "sdvxin": {
+   "id": "03121",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 34908
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "566-pastel-party"
+ }
 }

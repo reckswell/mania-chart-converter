@@ -43,12 +43,16 @@ def plan(data_root: str | Path, parts: list[str]) -> dict[str, dict[str, int]]:
 
 def publish_hf(repo_id: str, data_root: str | Path = "data", parts: list[str] | None = None, delete: bool = False,
                dry_run: bool = False, api: Any = None, xet: bool = True, batch_files: int = 1000,
-               log: Callable[[str], None] | None = None) -> dict[str, Any]:
+               log: Callable[[str], None] | None = None, only: list[str] | None = None) -> dict[str, Any]:
+    """Upload the parts' files that differ from the Hub. `only` (paths relative to `data_root`, e.g.
+    "db/chunithm/index.json") limits the upload to those files and asks the Hub about those alone, instead of
+    listing the whole dataset: `vsrgconv update` passes the files it changed."""
     parts = parts or DEFAULT_PARTS
     unknown = [p for p in parts if p not in PARTS]
     if unknown:
         raise ValueError(f"unknown parts {unknown}; choose from {PARTS}")
-    summary: dict[str, Any] = {"repo": f"https://huggingface.co/datasets/{repo_id}", "parts": plan(data_root, parts)}
+    summary: dict[str, Any] = {"repo": f"https://huggingface.co/datasets/{repo_id}",
+                               "parts": plan(data_root, parts) if only is None else {"files": len(only)}}
     if dry_run:
         return summary
     log = log or _stderr
@@ -61,7 +65,7 @@ def publish_hf(repo_id: str, data_root: str | Path = "data", parts: list[str] | 
             raise SystemExit("publish needs huggingface_hub: pip install -e '.[hosting]'") from None
         api = HfApi()
     api.create_repo(repo_id, repo_type="dataset", private=True, exist_ok=True)
-    summary.update(_upload_in_batches(api, repo_id, Path(data_root), parts, batch_files, log))
+    summary.update(_upload_in_batches(api, repo_id, Path(data_root), parts, batch_files, log, only))
     if delete:          # after the upload, so a failed upload never leaves the dataset emptier than before
         root = Path(data_root)
         gone = [f for f in api.list_repo_files(repo_id, repo_type="dataset")
@@ -73,6 +77,62 @@ def publish_hf(repo_id: str, data_root: str | Path = "data", parts: list[str] | 
                 commit_message=f"vsrgconv publish: remove {len(chunk)} files gone locally"), log=log)
         summary["deleted"] = len(gone)
     return summary
+
+
+def move_folders(repo_id: str, moves: list[tuple[str, str]], api: Any = None,
+                 log: Callable[[str], None] | None = None) -> dict[str, Any]:
+    """Copy every file under each old folder of the dataset to the new folder, on the Hub (no download; pictures are
+    stored as LFS/Xet files, which the Hub can copy). Returns the files copied and the old folders that were copied
+    whole, which the caller then removes with `delete_folders`."""
+    from huggingface_hub import CommitOperationCopy
+
+    log = log or _stderr
+    if api is None:
+        from huggingface_hub import HfApi
+
+        api = HfApi()
+    done: list[str] = []
+    files = 0
+    for old, new in moves:
+        try:
+            paths = [e.path for e in api.list_repo_tree(repo_id, path_in_repo=old.rstrip("/"), repo_type="dataset",
+                                                        recursive=True) if hasattr(e, "size")]
+        except Exception:       # nothing there
+            continue
+        ops = [CommitOperationCopy(src_path_in_repo=p, path_in_repo=new + p[len(old):]) for p in paths]
+        try:
+            for i in range(0, len(ops), 1000):
+                _commit_landing(api, repo_id, ops[i:i + 1000], f"vsrgconv update: move {old} to {new}", log)
+        except Exception as e:  # keep the old folder when the copy did not land
+            log(f"publish: could not move {old}: {type(e).__name__}: {str(e)[:160]}")
+            continue
+        files += len(paths)
+        done.append(old)
+    return {"files": files, "folders": done}
+
+
+def delete_folders(repo_id: str, folders: list[str], api: Any = None,
+                   log: Callable[[str], None] | None = None) -> int:
+    """Remove every file under these folders of the dataset ("db/sdvx/unknown/2264-x/"), in one commit per 1,000
+    files; returns how many were removed. `vsrgconv update` uses it for the old folders of songs that moved."""
+    log = log or _stderr
+    if api is None:
+        from huggingface_hub import HfApi
+
+        api = HfApi()
+    gone: list[str] = []
+    for folder in folders:
+        try:
+            gone += [e.path for e in api.list_repo_tree(repo_id, path_in_repo=folder.rstrip("/"), repo_type="dataset",
+                                                        recursive=True) if hasattr(e, "size")]
+        except Exception:       # not on the dataset (never uploaded): nothing to remove
+            continue
+    for i in range(0, len(gone), 1000):
+        chunk = gone[i:i + 1000]
+        _resuming(api, repo_id, lambda chunk=chunk: api.delete_files(
+            repo_id, chunk, repo_type="dataset",
+            commit_message=f"vsrgconv update: remove {len(chunk)} files of songs that moved"), log=log)
+    return len(gone)
 
 
 def _stderr(msg: str) -> None:
@@ -105,14 +165,24 @@ def _on_hub(path: Path, entry: Any) -> bool:
 
 
 def _upload_in_batches(api: Any, repo_id: str, root: Path, parts: list[str], batch_files: int,
-                       log: Callable[[str], None]) -> dict[str, Any]:
+                       log: Callable[[str], None], only: list[str] | None = None) -> dict[str, Any]:
     """Upload a commit per `batch_files` files, skipping files already on the Hub. Running it again after an
     interruption carries on: committed batches are on the Hub and are skipped."""
     from huggingface_hub import CommitOperationAdd
 
-    remote = {e.path: e for e in api.list_repo_tree(repo_id, repo_type="dataset", recursive=True)
-              if e.path.split("/", 1)[0] in parts and hasattr(e, "size")}
-    local = sorted(p for part in parts if (root / part).is_dir() for p in (root / part).rglob("*") if p.is_file())
+    if only is not None:
+        local = sorted({root / rel for rel in only
+                        if rel.split("/", 1)[0] in parts and (root / rel).is_file()})
+        rels = [p.relative_to(root).as_posix() for p in local]
+        remote = {}
+        for i in range(0, len(rels), 500):
+            remote.update({e.path: e for e in api.get_paths_info(repo_id, rels[i:i + 500], repo_type="dataset")
+                           if hasattr(e, "size")})
+    else:
+        remote = {e.path: e for e in api.list_repo_tree(repo_id, repo_type="dataset", recursive=True)
+                  if e.path.split("/", 1)[0] in parts and hasattr(e, "size")}
+        local = sorted(p for part in parts if (root / part).is_dir() for p in (root / part).rglob("*")
+                       if p.is_file())
     todo = [p for p in local if not _on_hub(p, remote.get(p.relative_to(root).as_posix()))]
     log(f"publish: {len(local)} files, {len(local) - len(todo)} already on the Hub, {len(todo)} to upload")
     commits = []

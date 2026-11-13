@@ -3,8 +3,8 @@
  "song_id": "261",
  "title": "ロボットプラネットユートピア",
  "artist": "lumo",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "robot planet utopia",
+ "artist_romaji": "lumo",
  "genre": "ORIGINAL",
  "bpm": "150",
  "version": "AIR",
@@ -33,7 +33,12 @@
       "slide": 11,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02024",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 73,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02024",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air_hold": 37,
       "hold": 78
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02024",
+     "key": "exp"
+    },
+    "youtube": [
+     "jsZAWUzyLOA"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,10 +142,35 @@
       "air_hold": 34,
       "flick": 90
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02024",
+     "key": "mst"
+    },
+    "youtube": [
+     "XkfZzPzafRY",
+     "U4z4FSTnjMw"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "時☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "114",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "261",
    "image": "6e917606db3c5a0e.jpg"
+  },
+  "sdvxin": {
+   "id": "02024",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 36523
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "261"
+ }
 }

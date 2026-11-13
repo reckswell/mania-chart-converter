@@ -3,8 +3,8 @@
  "song_id": "2271",
  "title": "Falsum Atlantis.",
  "artist": "kanone",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "falsumatlantis",
+ "artist_romaji": "kanone",
  "genre": "ゲキマイ",
  "bpm": "160",
  "version": "SUN",
@@ -33,7 +33,12 @@
       "slide": 24,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08020",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 10,
       "air_hold": 20
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08020",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -93,7 +103,14 @@
       "air_hold": 18,
       "other": 72
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08020",
+     "key": "exp"
+    },
+    "youtube": [
+     "IkFBMTD4vq8"
+    ]
    },
    "status": "extracted",
    "notes": "85 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "hold": 64,
       "air_hold": 54
      }
-    }
+    },
+    "sdvxin": {
+     "id": "08020",
+     "key": "mst"
+    },
+    "youtube": [
+     "tjUCPo9707g",
+     "WpMNQAQbXNA"
+    ]
    },
    "status": "extracted",
    "notes": "24 exact duplicate lines ignored",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2271",
    "image": "7c9c89c93e5836eb.jpg"
+  },
+  "sdvxin": {
+   "id": "08020",
+   "list": "songs08.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 30448
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2271-falsum-atlantis"
+ }
 }

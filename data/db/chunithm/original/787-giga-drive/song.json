@@ -3,8 +3,8 @@
  "song_id": "787",
  "title": "GIGA DRIVE",
  "artist": "黒沢ダイスケ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "gigadrive",
+ "artist_romaji": "kurosawadaisuke",
  "genre": "ORIGINAL",
  "bpm": "144",
  "version": "AMAZON+",
@@ -33,7 +33,12 @@
       "slide": 16,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04153",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 29,
       "slide": 57
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04153",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air_hold": 62,
       "hold": 24
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04153",
+     "key": "exp"
+    },
+    "youtube": [
+     "nGFSgdCner4"
+    ]
    },
    "status": "extracted",
    "notes": "15 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 53,
       "hold": 17
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04153",
+     "key": "mst"
+    },
+    "youtube": [
+     "HC_Sl6muIpw",
+     "6M8EWKIJP_4"
+    ]
    },
    "status": "extracted",
    "notes": "26 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "787",
    "image": "3f6e87cc8a57fa25.jpg"
+  },
+  "sdvxin": {
+   "id": "04153",
+   "list": "songs04.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 30543
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "787-giga-drive"
+ }
 }

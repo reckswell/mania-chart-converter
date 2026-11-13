@@ -3,8 +3,8 @@
  "song_id": "233",
  "title": "アルストロメリア",
  "artist": "TAG",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "arusutoromeria",
+ "artist_romaji": "tag",
  "genre": "VARIETY",
  "bpm": "144",
  "version": "PLUS",
@@ -33,7 +33,12 @@
       "slide": 9,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01143",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 22,
       "air_hold": 24
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01143",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "slide": 33,
       "hold": 15
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01143",
+     "key": "exp"
+    },
+    "youtube": [
+     "4VORnwzuqiQ"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "hold": 45,
       "slide": 32
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01143",
+     "key": "mst"
+    },
+    "youtube": [
+     "nXJ20WsgHq8",
+     "_Q1fhNxcC30"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -159,7 +184,15 @@
       "slide": 17,
       "other": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01143",
+     "key": "ult"
+    },
+    "youtube": [
+     "8LOJG3U_VGA",
+     "8hEThHDwuiA"
+    ]
    },
    "status": "extracted",
    "notes": "combo 1346 in the .c2s differs from the published note count 1343 (chart revised since this file?)",
@@ -170,6 +203,10 @@
   "otogedb": {
    "id": "233",
    "image": "5fe5db1d2e40ee7a.jpg"
+  },
+  "sdvxin": {
+   "id": "01143",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -183,5 +220,7 @@
    "bytes": 20970
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "233"
+ }
 }

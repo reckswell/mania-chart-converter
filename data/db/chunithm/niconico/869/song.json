@@ -3,8 +3,8 @@
  "song_id": "869",
  "title": "＊ハロー、プラネット。",
  "artist": "sasakure.UK",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "helloplanet",
+ "artist_romaji": "sasakureuk",
  "genre": "niconico",
  "bpm": "150",
  "version": "CRYSTAL",
@@ -33,7 +33,12 @@
       "ex_tap": 8,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05061",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "MET 0/0 at tick 34992 ignored",
@@ -62,7 +67,12 @@
       "air_hold": 9,
       "ex_tap": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05061",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored; MET 0/0 at tick 34992 ignored",
@@ -92,7 +102,14 @@
       "ex_tap": 92,
       "air": 36
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05061",
+     "key": "exp"
+    },
+    "youtube": [
+     "52h9BJRJaAk"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored; MET 0/0 at tick 34992 ignored",
@@ -125,7 +142,15 @@
       "ex_tap": 46,
       "flick": 82
      }
-    }
+    },
+    "sdvxin": {
+     "id": "05061",
+     "key": "mst"
+    },
+    "youtube": [
+     "NbvJycSRx3A",
+     "ovYv6aj10Gk"
+    ]
    },
    "status": "extracted",
    "notes": "261 exact duplicate lines ignored; MET 0/0 at tick 34992 ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "869",
    "image": "a23dfbea05d3a96c.jpg"
+  },
+  "sdvxin": {
+   "id": "05061",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -150,6 +179,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "869"
  }
 }

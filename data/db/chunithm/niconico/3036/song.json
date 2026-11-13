@@ -3,8 +3,8 @@
  "song_id": "3036",
  "title": "幕を下ろそう、パレードへ",
  "artist": "海茶、多良レイト",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "makuwoorosou paradehe",
+ "artist_romaji": "umicha tarareito",
  "genre": "niconico",
  "bpm": "146",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 108,
     "air": 49
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11035",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 245,
     "air": 49
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11035",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 125
    },
    "source": {
-    "sdvxin_legacy": "11/11035exp"
+    "sdvxin_legacy": "11/11035exp",
+    "sdvxin": {
+     "id": "11035",
+     "key": "exp"
+    },
+    "youtube": [
+     "TOHcXjpxCY0"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11035mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11035mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11035mst.png",
+    "sdvxin": {
+     "id": "11035",
+     "key": "mst"
+    },
+    "youtube": [
+     "_EHyN53bKpg",
+     "-dIOlThVbXg"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3036",
    "image": "ddedc421d38027f8.jpg"
+  },
+  "sdvxin": {
+   "id": "11035",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 24775
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3036"
+ }
 }

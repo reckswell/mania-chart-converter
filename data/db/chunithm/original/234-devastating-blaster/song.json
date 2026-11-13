@@ -3,8 +3,8 @@
  "song_id": "234",
  "title": "Devastating Blaster",
  "artist": "INNOCENT NOIZE",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "devastatingblaster",
+ "artist_romaji": "innocentnoize",
  "genre": "ORIGINAL",
  "bpm": "160",
  "version": "AIR+",
@@ -33,7 +33,12 @@
       "ex_tap": 15,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02170",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 49,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02170",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 53,
       "air_hold": 35
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02170",
+     "key": "exp"
+    },
+    "youtube": [
+     "T9x2CF-EqYY"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 204,
       "hold": 11
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02170",
+     "key": "mst"
+    },
+    "youtube": [
+     "yG50wlwCg3c",
+     "G0qBiEnmz5Q"
+    ]
    },
    "status": "extracted",
    "notes": "36 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "234",
    "image": "9af4b336821cdcc9.jpg"
+  },
+  "sdvxin": {
+   "id": "02170",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 30692
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "234-devastating-blaster"
+ }
 }

@@ -37,106 +37,26 @@ def cmd_catalog(a: argparse.Namespace) -> int:
 
 
 def cmd_scrape(a: argparse.Namespace) -> int:
-    """Fill the database for one game: charts (notes) and/or jackets, resumable (skips what is already there).
-
-    Fetching and parsing run on `--workers` threads; every database write happens on this thread, in order."""
-    from concurrent.futures import ThreadPoolExecutor
-
+    """Fill the database for one game: charts (notes) and/or jackets, resumable (skips what is already there)."""
+    from .scrape import scrape
     from .sources import load_all
-    from .sources.fetch import NotFound
 
-    src = load_all()[a.game]
     db = ChartDB(a.db)
-    f = _fetcher(a)
-    stats: dict[str, Any] = {"charts_saved": 0, "charts_skipped": 0, "charts_missing": 0, "charts_failed": 0,
-                             "jackets_saved": 0, "jackets_skipped": 0, "jackets_missing": 0}
-    errors: list[str] = []
-    missing: list[str] = []
     songs = list(db.iter_songs(a.game))
     if a.only:
         wanted = set(a.only.split(","))
         songs = [s for s in songs if s.song_id in wanted]
     songs = songs[: a.limit or None]
-
-    jobs: list[tuple[str, SongRecord, str]] = []
-    for song in songs:
-        if a.jackets and src.jacket:
-            if "jacket" in song.assets and not a.refresh:
-                stats["jackets_skipped"] += 1
-            else:
-                jobs.append(("jacket", song, ""))
-        if a.jackets and src.chart_jackets:
-            slots = [k for k, c in song.charts.items() if a.refresh or f"jacket-{k}" not in c.assets]
-            if slots:
-                jobs.append(("chart_jackets", song, ",".join(slots)))
-        if a.charts and src.chart:
-            for slot, cr in song.charts.items():
-                if cr.status in ("extracted", "converted") and not a.refresh:
-                    stats["charts_skipped"] += 1
-                else:
-                    jobs.append(("chart", song, slot))
-
-    def work(job: tuple[str, SongRecord, str]) -> Any:
-        kind, song, slot = job
-        try:
-            if kind == "chart_jackets":
-                return src.chart_jackets(f, song, slot.split(","))
-            return src.jacket(f, song) if kind == "jacket" else src.chart(f, song, slot)
-        except (NotFound, FetchError) as e:
-            return e
-        except Exception as e:  # a reader bug must not stop a long scrape; it is reported
-            return RuntimeError(f"{type(e).__name__}: {e}")
-
-    def results():
-        """Results in job order, a batch at a time, so finished charts do not pile up in memory while the
-        database writes (on this thread) catch up."""
-        batch = max(1, a.workers) * 16
-        with ThreadPoolExecutor(max_workers=max(1, a.workers)) as pool:
-            for i in range(0, len(jobs), batch):
-                chunk = jobs[i:i + batch]
-                yield from zip(chunk, pool.map(work, chunk))
-
-    for n, (job, result) in enumerate(results(), 1):
-        kind, song, slot = job
-        name = f"{song.song_id}/{slot or 'jacket'}"
-        if kind == "chart_jackets" and isinstance(result, list):
-            for cslot, data, ext, url in result:
-                try:
-                    db.save_asset(a.game, song.song_id, f"jacket-{cslot}", data, ext=ext, url=url, slot=cslot,
-                                  max_size=None if a.full_images else a.image_size)
-                    stats["chart_jackets_saved"] = stats.get("chart_jackets_saved", 0) + 1
-                except (OSError, ValueError) as e:
-                    errors.append(f"{song.song_id}/jacket-{cslot}: {e}"[:200])
-            continue
-        if kind == "chart_jackets":
-            errors.append(f"{song.song_id}/difficulty jackets: {result}"[:200])
-            continue
-        if isinstance(result, NotFound) or result is None:
-            stats[f"{kind}s_missing"] += 1
-            missing.append(name)
-        elif isinstance(result, Exception):
-            stats["charts_failed" if kind == "chart" else "jackets_missing"] += 1
-            errors.append(f"{name}: {result}"[:200])
-        elif kind == "jacket":
-            data, ext, url = result
-            try:
-                db.save_asset(a.game, song.song_id, "jacket", data, ext=ext, url=url,
-                              max_size=None if a.full_images else a.image_size)
-                stats["jackets_saved"] += 1
-            except (OSError, ValueError) as e:
-                stats["jackets_missing"] += 1
-                errors.append(f"{name}: {e}"[:200])
-        else:
-            db.save_chart(result)
-            stats["charts_saved"] += 1
-        if a.progress and n % 250 == 0:
-            print(f"{n}/{len(jobs)} {json.dumps(stats)}", file=sys.stderr, flush=True)
-    stats["error_count"] = len(errors)
-    stats["errors"] = errors[:30]
-    stats["missing_sample"] = missing[:60]
+    res = scrape(db, a.game, load_all()[a.game], _fetcher(a), songs, charts=a.charts, jackets=a.jackets,
+                 refresh=a.refresh, workers=a.workers, image_size=a.image_size, full_images=a.full_images,
+                 progress=a.progress)
+    stats = res.stats
+    stats["error_count"] = len(res.errors)
+    stats["errors"] = res.errors[:30]
+    stats["missing_sample"] = res.missing[:60]
     if a.report:
-        Path(a.report).write_text(json.dumps({**stats, "errors": errors, "missing": missing}, ensure_ascii=False,
-                                             indent=1) + "\n", "utf-8")
+        Path(a.report).write_text(json.dumps({**stats, "errors": res.errors, "missing": res.missing},
+                                             ensure_ascii=False, indent=1) + "\n", "utf-8")
     print(json.dumps(stats, ensure_ascii=False, indent=1))
     return 0
 
@@ -608,6 +528,33 @@ def cmd_ab(a: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_update(a: argparse.Namespace) -> int:
+    """Bring the database up to date with what the games' sources have released since the last run."""
+    from .sources import load_all
+    from .update import UpdateOptions, update
+
+    sources = load_all()
+    db = ChartDB(a.db)
+    games = sorted(sources) if not a.game_keys or a.game_keys == ["all"] else a.game_keys
+    unknown = [g for g in games if g not in sources]
+    if unknown:
+        print(f"no source for {', '.join(unknown)}; known: {', '.join(sorted(sources))}", file=sys.stderr)
+        return 2
+    data = db.root.parent
+    opts = UpdateOptions(charts=not a.no_charts, jackets=not a.no_jackets, retry_days=a.retry_days,
+                         retry_all=a.retry_all, force=a.force, check_only=a.check, render=a.render or a.all_parts,
+                         pictures=a.pictures or a.all_parts, renders_dir=data / "renders",
+                         pictures_dir=data / "pictures", hub=a.publish or a.hub, workers=a.workers,
+                         image_size=a.image_size, progress=a.progress)
+    log = (lambda m: print(m, file=sys.stderr, flush=True)) if a.progress else None
+    out = update(db, games, sources, _fetcher(a), opts, publish=None if a.check else a.publish, xet=not a.no_xet,
+                 log=log)
+    if a.report:
+        Path(a.report).write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", "utf-8")
+    print(json.dumps(out, ensure_ascii=False, indent=1))
+    return 1 if any(r["status"].startswith("error") for r in out["games"].values()) else 0
+
+
 def cmd_index(a: argparse.Namespace) -> int:
     print(ChartDB(a.db).build_sqlite(a.sqlite))
     return 0
@@ -761,6 +708,30 @@ def main(argv: list[str] | None = None) -> int:
                                                          "(cloud sessions: docs/hosting.md)")
     s.add_argument("--batch-files", type=int, default=1000, help="files per commit with --no-xet")
     s.set_defaults(fn=cmd_publish)
+
+    s = sub.add_parser("update", help="add the songs and charts the games released since the last run "
+                                      "(docs/updating.md)")
+    s.add_argument("game_keys", nargs="*", metavar="game", help="games to update (default: all)")
+    s.add_argument("--check", action="store_true", help="only say which games' sources changed; write nothing")
+    s.add_argument("--force", action="store_true", help="rebuild catalogs even when their files did not change")
+    s.add_argument("--retry-days", type=int, default=30,
+                   help="look for a chart without notes on every run for this many days after it is first seen")
+    s.add_argument("--retry-all", action="store_true", help="also look again for every chart without notes")
+    s.add_argument("--no-charts", action="store_true", help="do not fetch notes")
+    s.add_argument("--no-jackets", action="store_true", help="do not fetch jackets")
+    s.add_argument("--render", action="store_true", help="draw layout pictures of the charts stored in this run "
+                                                         "(data/renders)")
+    s.add_argument("--pictures", action="store_true", help="download source pictures of new charts (data/pictures)")
+    s.add_argument("--all", dest="all_parts", action="store_true", help="--render and --pictures")
+    s.add_argument("--publish", metavar="REPO", help="upload the files this run changed to this Hugging Face dataset "
+                                                     "(e.g. Reckswell/vsrgs); picture manifests are read from it")
+    s.add_argument("--hub", metavar="REPO", help="read picture manifests from this dataset without uploading")
+    s.add_argument("--no-xet", action="store_true", help="publish through Git LFS (cloud sessions: docs/hosting.md)")
+    s.add_argument("--workers", type=int, default=1)
+    s.add_argument("--image-size", type=int, default=IMAGE_MAX_SIZE, help="long side of stored jackets (px)")
+    s.add_argument("--progress", action="store_true")
+    s.add_argument("--report", help="also write the report to this JSON file")
+    s.set_defaults(fn=cmd_update)
 
     s = sub.add_parser("index", help="build a SQLite index of the database for queries")
     s.add_argument("--sqlite", default="data/index.sqlite")

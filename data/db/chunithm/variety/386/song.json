@@ -3,8 +3,8 @@
  "song_id": "386",
  "title": "神威",
  "artist": "TJ.hangneil",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "kamui",
+ "artist_romaji": "tjhangneil",
  "genre": "VARIETY",
  "bpm": "210",
  "version": "AIR+",
@@ -33,7 +33,12 @@
       "ex_tap": 22,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02098",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 17,
       "air_hold": 10
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02098",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 106,
       "slide": 51
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02098",
+     "key": "exp"
+    },
+    "youtube": [
+     "VY0g3P9LAtQ"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -125,10 +142,35 @@
       "slide": 238,
       "hold": 192
      }
-    }
+    },
+    "sdvxin": {
+     "id": "02098",
+     "key": "mst"
+    },
+    "youtube": [
+     "0niELhBmbbI",
+     "-C3N6C9qi04"
+    ]
    },
    "status": "extracted",
    "notes": "94 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "招☆☆☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "084",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "386",
    "image": "8205ea9449f1b000.jpg"
+  },
+  "sdvxin": {
+   "id": "02098",
+   "list": "songs02.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 20081
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "386"
+ }
 }

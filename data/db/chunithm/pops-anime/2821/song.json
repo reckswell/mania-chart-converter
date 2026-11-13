@@ -3,8 +3,8 @@
  "song_id": "2821",
  "title": "はいよろこんで",
  "artist": "こっちのけんと",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "haiyorokonde",
+ "artist_romaji": "kotchinokento",
  "genre": "POPS & ANIME",
  "bpm": "147",
  "version": "X-VERSE",
@@ -33,7 +33,12 @@
       "slide": 32,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10106",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 71,
       "air": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10106",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "ex_tap": 86,
       "air_hold": 71
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10106",
+     "key": "exp"
+    },
+    "youtube": [
+     "5iLx6stX3oY"
+    ]
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored; combo 1299 in the .c2s differs from the published note count 1296 (chart revised since this file?)",
@@ -126,7 +143,15 @@
       "ex_tap": 143,
       "air_hold": 38
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10106",
+     "key": "mst"
+    },
+    "youtube": [
+     "K-0unOcE8U4",
+     "ZwRWaTTOLSI"
+    ]
    },
    "status": "extracted",
    "notes": "14 exact duplicate lines ignored; not represented: SLA×1, SLP×1",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2821",
    "image": "2d6724156acd1491.jpg"
+  },
+  "sdvxin": {
+   "id": "10106",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 15904
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2821"
+ }
 }

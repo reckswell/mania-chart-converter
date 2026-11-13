@@ -3,8 +3,8 @@
  "song_id": "3019",
  "title": "Honey Bear",
  "artist": "Freezer",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "honeybear",
+ "artist_romaji": "freezer",
  "genre": "ゲキマイ",
  "bpm": "175",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 128,
     "air": 69
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11019",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 399,
     "air": 65
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11019",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 78
    },
    "source": {
-    "sdvxin_legacy": "11/11019exp"
+    "sdvxin_legacy": "11/11019exp",
+    "sdvxin": {
+     "id": "11019",
+     "key": "exp"
+    },
+    "youtube": [
+     "J8FxQQgtxOQ"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11019mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11019mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11019mst.png",
+    "sdvxin": {
+     "id": "11019",
+     "key": "mst"
+    },
+    "youtube": [
+     "AmhHWr93jL4",
+     "xTblhEr-xGU"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3019",
    "image": "b0188c69a20b67d1.jpg"
+  },
+  "sdvxin": {
+   "id": "11019",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 26286
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3019-honey-bear"
+ }
 }

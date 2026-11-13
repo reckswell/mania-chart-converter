@@ -3,8 +3,8 @@
  "song_id": "2901",
  "title": "モニタリング",
  "artist": "DECO*27",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "monitoring",
+ "artist_romaji": "deco27",
  "genre": "niconico",
  "bpm": "132",
  "version": "X-VERSE-X",
@@ -33,7 +33,12 @@
       "ex_tap": 15,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10184",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 20,
       "ex_tap": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10184",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -93,7 +103,14 @@
       "air_hold": 17,
       "other": 1
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10184",
+     "key": "exp"
+    },
+    "youtube": [
+     "rs46I-JjH7o"
+    ]
    },
    "status": "extracted",
    "notes": "10 exact duplicate lines ignored",
@@ -126,7 +143,15 @@
       "flick": 48,
       "ex_tap": 109
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10184",
+     "key": "mst"
+    },
+    "youtube": [
+     "jPrbpSNS04w",
+     "Vl94PTPtPBE"
+    ]
    },
    "status": "extracted",
    "notes": "14 exact duplicate lines ignored",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2901",
    "image": "9a705446de285ac7.jpg"
+  },
+  "sdvxin": {
+   "id": "10184",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 35705
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2901"
+ }
 }

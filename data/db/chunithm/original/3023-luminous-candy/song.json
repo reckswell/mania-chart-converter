@@ -3,8 +3,8 @@
  "song_id": "3023",
  "title": "Luminous CANDY",
  "artist": "7mai",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "luminouscandy",
+ "artist_romaji": "7mai",
  "genre": "ORIGINAL",
  "bpm": "185",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 102,
     "air": 70
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11024",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 240,
     "air": 100
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11024",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 196
    },
    "source": {
-    "sdvxin_legacy": "11/11024exp"
+    "sdvxin_legacy": "11/11024exp",
+    "sdvxin": {
+     "id": "11024",
+     "key": "exp"
+    },
+    "youtube": [
+     "OpJS124Dx34"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11024mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11024mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11024mst.png",
+    "sdvxin": {
+     "id": "11024",
+     "key": "mst"
+    },
+    "youtube": [
+     "u15oERlCvPM",
+     "plM3_Xgm4n0"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3023",
    "image": "b08408fe85a4d58c.jpg"
+  },
+  "sdvxin": {
+   "id": "11024",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 30081
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3023-luminous-candy"
+ }
 }

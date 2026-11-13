@@ -3,8 +3,8 @@
  "song_id": "197",
  "title": "Jack-the-Ripper◆",
  "artist": "sasakure.UK",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "jacktheripper",
+ "artist_romaji": "sasakureuk",
  "genre": "VARIETY",
  "bpm": "210",
  "version": "PLUS",
@@ -33,7 +33,12 @@
       "slide": 17,
       "air_hold": 14
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01144",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 30,
       "air_hold": 7
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01144",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 112,
       "air_hold": 36
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01144",
+     "key": "exp"
+    },
+    "youtube": [
+     "c4nSB4BQc1Y"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,10 +142,35 @@
       "slide": 68,
       "air_hold": 60
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01144",
+     "key": "mst"
+    },
+    "youtube": [
+     "PKR-wYvXS_E",
+     "FWb6ARtPqzg"
+    ]
    },
    "status": "extracted",
    "notes": "23 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "速☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "034",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "197",
    "image": "ae6d3a8806e09613.jpg"
+  },
+  "sdvxin": {
+   "id": "01144",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 15239
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "197-jack-the-ripper"
+ }
 }

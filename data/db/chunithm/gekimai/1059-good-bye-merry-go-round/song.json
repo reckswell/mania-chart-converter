@@ -3,8 +3,8 @@
  "song_id": "1059",
  "title": "Good bye, Merry-Go-Round.",
  "artist": "Yooh",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "goodbyemerrygoround",
+ "artist_romaji": "yooh",
  "genre": "ゲキマイ",
  "bpm": "185",
  "version": "PARADISE×",
@@ -33,7 +33,12 @@
       "slide": 16,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06110",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 21,
       "air": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06110",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "ex_tap": 98,
       "air": 43
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06110",
+     "key": "exp"
+    },
+    "youtube": [
+     "lrz2SDfiZoE"
+    ]
    },
    "status": "extracted",
    "notes": "20 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air": 154,
       "hold": 108
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06110",
+     "key": "mst"
+    },
+    "youtube": [
+     "gRqhZqdaApc",
+     "cUhvNwSTT2k"
+    ]
    },
    "status": "extracted",
    "notes": "36 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "1059",
    "image": "dcf39091d9201c8d.jpg"
+  },
+  "sdvxin": {
+   "id": "06110",
+   "list": "songs06.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 19971
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "1059-good-bye-merry-go-round"
+ }
 }

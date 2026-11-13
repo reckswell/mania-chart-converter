@@ -3,8 +3,8 @@
  "song_id": "668",
  "title": "Brain Power",
  "artist": "NOMA",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "brainpower",
+ "artist_romaji": "noma",
  "genre": "VARIETY",
  "bpm": "173",
  "version": "AMAZON",
@@ -33,7 +33,12 @@
       "slide": 16,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04009",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "hold": 25,
       "air_hold": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04009",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 52,
       "air_hold": 57
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04009",
+     "key": "exp"
+    },
+    "youtube": [
+     "N91BF5S_mKU"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "slide": 285,
       "flick": 115
      }
-    }
+    },
+    "sdvxin": {
+     "id": "04009",
+     "key": "mst"
+    },
+    "youtube": [
+     "ZcEnfvGugws",
+     "h7nbjldDdCM"
+    ]
    },
    "status": "extracted",
    "notes": "37 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "668",
    "image": "85d8b8a064a6bceb.jpg"
+  },
+  "sdvxin": {
+   "id": "04009",
+   "list": "songs04.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 31361
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "668-brain-power"
+ }
 }

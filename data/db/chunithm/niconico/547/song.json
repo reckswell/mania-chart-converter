@@ -3,8 +3,8 @@
  "song_id": "547",
  "title": "拝啓ドッペルゲンガー",
  "artist": "kemu",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "haikeidoppelganger",
+ "artist_romaji": "kemu",
  "genre": "niconico",
  "bpm": "181",
  "version": "STAR+",
@@ -33,7 +33,12 @@
       "ex_tap": 40,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03101",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 20,
       "air_hold": 14
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03101",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 27,
       "air_hold": 11
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03101",
+     "key": "exp"
+    },
+    "youtube": [
+     "kg3npTkadbg"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 101,
       "air_hold": 39
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03101",
+     "key": "mst"
+    },
+    "youtube": [
+     "caOZt4QlX0w",
+     "kQP6gryRb-A"
+    ]
    },
    "status": "extracted",
    "notes": "339 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "547",
    "image": "3d2001708e842900.jpg"
+  },
+  "sdvxin": {
+   "id": "03101",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 15269
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "547"
+ }
 }

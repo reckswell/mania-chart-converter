@@ -3,8 +3,8 @@
  "song_id": "1102",
  "title": "Dark Diver",
  "artist": "emon(Tes.) feat.ねんね",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "darkdiver",
+ "artist_romaji": "emon tes nenne",
  "genre": "ORIGINAL",
  "bpm": "136",
  "version": "PARADISE×",
@@ -33,7 +33,12 @@
       "slide": 30,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06100",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 14,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06100",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air_hold": 17,
       "hold": 58
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06100",
+     "key": "exp"
+    },
+    "youtube": [
+     "YDsTik4PyhM"
+    ]
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 78,
       "hold": 35
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06100",
+     "key": "mst"
+    },
+    "youtube": [
+     "SjLK18pJ0os",
+     "qIc-X6kEk6c"
+    ]
    },
    "status": "extracted",
    "notes": "60 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "1102",
    "image": "2ad1300bad1fd070.jpg"
+  },
+  "sdvxin": {
+   "id": "06100",
+   "list": "songs06.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 23164
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "1102-dark-diver"
+ }
 }

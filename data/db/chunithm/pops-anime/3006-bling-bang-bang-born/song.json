@@ -3,8 +3,8 @@
  "song_id": "3006",
  "title": "Bling-Bang-Bang-Born",
  "artist": "covered by 光吉猛修",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "blingbangbangborn",
+ "artist_romaji": "coveredby mitsuyoshitakenobu",
  "genre": "POPS & ANIME",
  "bpm": "157",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 48,
     "air": 41
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11002",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 117,
     "air": 24
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11002",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 99
    },
    "source": {
-    "sdvxin_legacy": "11/11002exp"
+    "sdvxin_legacy": "11/11002exp",
+    "sdvxin": {
+     "id": "11002",
+     "key": "exp"
+    },
+    "youtube": [
+     "VZ4VC00fbjc"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11002mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11002mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11002mst.png",
+    "sdvxin": {
+     "id": "11002",
+     "key": "mst"
+    },
+    "youtube": [
+     "LuFxIIO2mNM",
+     "JZ-Xz6SeI6g"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3006",
    "image": "8923c7b04e976a54.jpg"
+  },
+  "sdvxin": {
+   "id": "11002",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 18109
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3006-bling-bang-bang-born"
+ }
 }

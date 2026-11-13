@@ -3,8 +3,8 @@
  "song_id": "3013",
  "title": "キミとのテトテコネクト",
  "artist": "MASAKI(ZUNTATA)×ドロシィ(CV:水瀬いのり)「テトテ×コネクト」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "kimitono tetoteconnect",
+ "artist_romaji": "masaki zuntata dorothy minaseinori tetoteconnect",
  "genre": "VARIETY",
  "bpm": "137",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 72,
     "air": 51
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11010",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 202,
     "air": 65
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11010",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 196
    },
    "source": {
-    "sdvxin_legacy": "11/11010exp"
+    "sdvxin_legacy": "11/11010exp",
+    "sdvxin": {
+     "id": "11010",
+     "key": "exp"
+    },
+    "youtube": [
+     "kN3fOsb0bxU"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11010mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11010mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11010mst.png",
+    "sdvxin": {
+     "id": "11010",
+     "key": "mst"
+    },
+    "youtube": [
+     "DFtxcGS7Zdo",
+     "LuxTWG52f2g"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3013",
    "image": "36dd90d55f6d1866.jpg"
+  },
+  "sdvxin": {
+   "id": "11010",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 26566
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3013"
+ }
 }

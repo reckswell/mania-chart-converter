@@ -3,8 +3,8 @@
  "song_id": "3042",
  "title": "Bunny Bunny Carrot Carrot",
  "artist": "Mitsukiyo「ブルーアーカイブ -Blue Archive-」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "bunnybunnycarrotcarrot",
+ "artist_romaji": "mitsukiyo bluearchive",
  "genre": "POPS & ANIME",
  "bpm": "170",
  "version": "Mate",
@@ -22,8 +22,14 @@
     "slide": 88,
     "air": 48
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11038",
+     "key": "bsc"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -39,8 +45,14 @@
     "slide": 253,
     "air": 37
    },
-   "source": {},
-   "status": "listed",
+   "source": {
+    "sdvxin": {
+     "id": "11038",
+     "key": "adv"
+    },
+    "youtube": []
+   },
+   "status": "not-drawn",
    "notes": "",
    "assets": {}
   },
@@ -57,7 +69,14 @@
     "air": 81
    },
    "source": {
-    "sdvxin_legacy": "11/11038exp"
+    "sdvxin_legacy": "11/11038exp",
+    "sdvxin": {
+     "id": "11038",
+     "key": "exp"
+    },
+    "youtube": [
+     "bZ8hd_BD2xk"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -78,7 +97,15 @@
    },
    "source": {
     "sdvxin_legacy": "11/11038mst",
-    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11038mst.png"
+    "picture": "https://raw.githubusercontent.com/punipu2/chunithm-chart-downloader/main/resized_charts/11038mst.png",
+    "sdvxin": {
+     "id": "11038",
+     "key": "mst"
+    },
+    "youtube": [
+     "OrUCc_z-m_Y",
+     "8SX9MjkulRg"
+    ]
    },
    "status": "listed",
    "notes": "",
@@ -89,6 +116,10 @@
   "otogedb": {
    "id": "3042",
    "image": "917f92079061817f.jpg"
+  },
+  "sdvxin": {
+   "id": "11038",
+   "list": "songs11.json"
   }
  },
  "assets": {
@@ -102,5 +133,7 @@
    "bytes": 22206
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "3042-bunny-bunny-carrot-carrot"
+ }
 }

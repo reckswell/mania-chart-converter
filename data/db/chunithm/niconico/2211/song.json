@@ -3,8 +3,8 @@
  "song_id": "2211",
  "title": "くらべられっ子",
  "artist": "ツユ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "kuraberarekko",
+ "artist_romaji": "tsuyu",
  "genre": "niconico",
  "bpm": "194",
  "version": "NEW+",
@@ -33,7 +33,12 @@
       "slide": 25,
       "air_hold": 8
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07185",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "not represented: CLK×4",
@@ -62,7 +67,12 @@
       "air": 23,
       "ex_tap": 7
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07185",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored; not represented: CLK×4",
@@ -93,7 +103,14 @@
       "ex_tap": 52,
       "other": 12
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07185",
+     "key": "exp"
+    },
+    "youtube": [
+     "_ZYCEnKXOzQ"
+    ]
    },
    "status": "extracted",
    "notes": "15 exact duplicate lines ignored; not represented: CLK×4",
@@ -127,7 +144,15 @@
       "other": 130,
       "air": 107
      }
-    }
+    },
+    "sdvxin": {
+     "id": "07185",
+     "key": "mst"
+    },
+    "youtube": [
+     "cAwIeKjqglM",
+     "yXbFNye4HBg"
+    ]
    },
    "status": "extracted",
    "notes": "101 exact duplicate lines ignored; not represented: CLK×4",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2211",
    "image": "9ee3d19292b57e42.jpg"
+  },
+  "sdvxin": {
+   "id": "07185",
+   "list": "songs_del.json"
   }
  },
  "assets": {
@@ -152,6 +181,7 @@
   }
  },
  "extra": {
-  "removed": true
+  "removed": true,
+  "folder": "2211"
  }
 }

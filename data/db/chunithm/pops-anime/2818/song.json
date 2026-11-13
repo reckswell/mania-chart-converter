@@ -3,8 +3,8 @@
  "song_id": "2818",
  "title": "彩りキャンバス",
  "artist": "SUGAR RUSH「ブルーアーカイブ -Blue Archive-」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "irodoricanvas",
+ "artist_romaji": "sugarrush bluearchive",
  "genre": "POPS & ANIME",
  "bpm": "180",
  "version": "X-VERSE",
@@ -33,7 +33,12 @@
       "slide": 32,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10113",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 23,
       "air": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10113",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "combo 789 in the .c2s differs from the published note count 942 (chart revised since this file?)",
@@ -93,7 +103,14 @@
       "air": 46,
       "other": 92
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10113",
+     "key": "exp"
+    },
+    "youtube": [
+     "G0jzXFuDBV8"
+    ]
    },
    "status": "extracted",
    "notes": "12 exact duplicate lines ignored",
@@ -127,7 +144,15 @@
       "ex_tap": 94,
       "other": 600
      }
-    }
+    },
+    "sdvxin": {
+     "id": "10113",
+     "key": "mst"
+    },
+    "youtube": [
+     "KoBNst_aOGw",
+     "wnbZNcvQNCI"
+    ]
    },
    "status": "extracted",
    "notes": "80 exact duplicate lines ignored",
@@ -138,6 +163,10 @@
   "otogedb": {
    "id": "2818",
    "image": "2052bb12a465f286.jpg"
+  },
+  "sdvxin": {
+   "id": "10113",
+   "list": "songs10.json"
   }
  },
  "assets": {
@@ -151,5 +180,7 @@
    "bytes": 19707
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2818"
+ }
 }

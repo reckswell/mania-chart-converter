@@ -3,8 +3,8 @@
  "song_id": "41",
  "title": "sweet little sister",
  "artist": "Silver Forest",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "sweetlittlesister",
+ "artist_romaji": "silverforest",
  "genre": "東方Project",
  "bpm": "168",
  "version": "無印",
@@ -33,7 +33,12 @@
       "slide": 10,
       "air_hold": 3
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01035",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 19,
       "air": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01035",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "ex_tap": 34,
       "hold": 63
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01035",
+     "key": "exp"
+    },
+    "youtube": [
+     "OTlrJOa6__M"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,10 +142,35 @@
       "ex_tap": 31,
       "flick": 34
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01035",
+     "key": "mst"
+    },
+    "youtube": [
+     "ZzproWf6rG8",
+     "rHOszFQW7pA"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "速☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "035",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -136,6 +178,10 @@
   "otogedb": {
    "id": "41",
    "image": "7f17441bc2582ec8.jpg"
+  },
+  "sdvxin": {
+   "id": "01035",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +195,7 @@
    "bytes": 27730
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "41-sweet-little-sister"
+ }
 }

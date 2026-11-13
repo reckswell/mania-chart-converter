@@ -3,8 +3,8 @@
  "song_id": "2629",
  "title": "壱雫空",
  "artist": "MyGO!!!!!",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "hitoshizuku",
+ "artist_romaji": "mygo",
  "genre": "POPS & ANIME",
  "bpm": "204",
  "version": "LUMINOUS+",
@@ -33,7 +33,12 @@
       "slide": 12,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09142",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 15,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09142",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "3 exact duplicate lines ignored; combo 435 in the .c2s differs from the published note count 861 (chart revised since this file?)",
@@ -92,7 +102,14 @@
       "hold": 49,
       "air_hold": 25
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09142",
+     "key": "exp"
+    },
+    "youtube": [
+     "FeC25x1iCHQ"
+    ]
    },
    "status": "extracted",
    "notes": "combo 860 in the .c2s differs from the published note count 835 (chart revised since this file?)",
@@ -126,7 +143,15 @@
       "air": 173,
       "flick": 56
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09142",
+     "key": "mst"
+    },
+    "youtube": [
+     "ov2PishS3FM",
+     "Onrtk9pFjK8"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -137,6 +162,10 @@
   "otogedb": {
    "id": "2629",
    "image": "74d7657d79febe1b.jpg"
+  },
+  "sdvxin": {
+   "id": "09142",
+   "list": "songs09.json"
   }
  },
  "assets": {
@@ -150,5 +179,7 @@
    "bytes": 20159
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2629"
+ }
 }

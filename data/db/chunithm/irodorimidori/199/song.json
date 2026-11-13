@@ -3,8 +3,8 @@
  "song_id": "199",
  "title": "ハート・ビート",
  "artist": "明坂 芹菜(CV:新田 恵海)",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "heartbeat",
+ "artist_romaji": "akesakaserina nittaemi",
  "genre": "イロドリミドリ",
  "bpm": "212",
  "version": "PLUS",
@@ -33,7 +33,12 @@
       "slide": 9,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01141",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 23,
       "air_hold": 11
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01141",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "hold": 62,
       "air": 58
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01141",
+     "key": "exp"
+    },
+    "youtube": [
+     "OF6wXnk6SVY"
+    ]
    },
    "status": "extracted",
    "notes": "7 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "hold": 25,
       "flick": 50
      }
-    }
+    },
+    "sdvxin": {
+     "id": "01141",
+     "key": "mst"
+    },
+    "youtube": [
+     "nmB514d7Q2Q",
+     "6XjYcWnSZLA"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "199",
    "image": "d76afb63de1417f8.jpg"
+  },
+  "sdvxin": {
+   "id": "01141",
+   "list": "songs01.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 28672
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "199"
+ }
 }

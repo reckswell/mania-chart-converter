@@ -3,8 +3,8 @@
  "song_id": "628",
  "title": "サドマミホリック",
  "artist": "ビートまりお（COOL&CREATE）",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "sadomamiholic",
+ "artist_romaji": "beatmario cool&create",
  "genre": "東方Project",
  "bpm": "200",
  "version": "STAR+",
@@ -33,7 +33,12 @@
       "slide": 32,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03130",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air_hold": 25,
       "slide": 47
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03130",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air_hold": 9,
       "slide": 14
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03130",
+     "key": "exp"
+    },
+    "youtube": [
+     "jokRv4yxoNk"
+    ]
    },
    "status": "extracted",
    "notes": "",
@@ -125,7 +142,15 @@
       "flick": 95,
       "hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03130",
+     "key": "mst"
+    },
+    "youtube": [
+     "YpDiWwenhpQ",
+     "yZ84oWeoyso"
+    ]
    },
    "status": "extracted",
    "notes": "4 exact duplicate lines ignored",
@@ -159,10 +184,35 @@
       "air_hold": 64,
       "other": 30
      }
-    }
+    },
+    "sdvxin": {
+     "id": "03130",
+     "key": "ult"
+    },
+    "youtube": [
+     "l0vEKG1uY7c",
+     "-o9vQNEISdQ"
+    ]
    },
    "status": "extracted",
    "notes": "23 exact duplicate lines ignored",
+   "assets": {}
+  },
+  "special": {
+   "slot": "special",
+   "native": "WORLD'S END",
+   "level": "弾☆☆☆",
+   "constant": null,
+   "designer": "",
+   "note_counts": {},
+   "source": {
+    "sdvxin": {
+     "id": "152",
+     "key": "end"
+    }
+   },
+   "status": "listed",
+   "notes": "",
    "assets": {}
   }
  },
@@ -170,6 +220,10 @@
   "otogedb": {
    "id": "628",
    "image": "a8b5fbd39806859f.jpg"
+  },
+  "sdvxin": {
+   "id": "03130",
+   "list": "songs03.json"
   }
  },
  "assets": {
@@ -183,5 +237,7 @@
    "bytes": 21086
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "628"
+ }
 }

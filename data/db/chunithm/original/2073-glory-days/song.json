@@ -3,8 +3,8 @@
  "song_id": "2073",
  "title": "Glory Days",
  "artist": "KMNZ",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "glorydays",
+ "artist_romaji": "kmnz",
  "genre": "ORIGINAL",
  "bpm": "155",
  "version": "PARADISE×",
@@ -33,7 +33,12 @@
       "slide": 26,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06114",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "ex_tap": 26,
       "air_hold": 18
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06114",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -92,7 +102,14 @@
       "air": 78,
       "air_hold": 27
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06114",
+     "key": "exp"
+    },
+    "youtube": [
+     "7q6U2fHHs90"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "hold": 47,
       "flick": 68
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06114",
+     "key": "mst"
+    },
+    "youtube": [
+     "7mSIzDROuoc",
+     "ATEaxp57EWY"
+    ]
    },
    "status": "extracted",
    "notes": "33 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2073",
    "image": "8ffe62079e5c3d18.jpg"
+  },
+  "sdvxin": {
+   "id": "06114",
+   "list": "songs06.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 29135
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2073-glory-days"
+ }
 }

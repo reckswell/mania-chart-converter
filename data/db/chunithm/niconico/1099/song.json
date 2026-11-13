@@ -3,8 +3,8 @@
  "song_id": "1099",
  "title": "セカイはまだ始まってすらいない",
  "artist": "ピノキオピー / 初音ミク / ワンダーランズ×ショウタイム「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "sekaihamada hajimattesurainai",
+ "artist_romaji": "pinokiopi hatsunemiku wonderlands showtime projectsekai colorfulstage hatsunemiku",
  "genre": "niconico",
  "bpm": "138",
  "version": "PARADISE",
@@ -33,7 +33,12 @@
       "ex_tap": 14,
       "air_hold": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06007",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "slide": 36,
       "air_hold": 6
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06007",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "1 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air": 89,
       "slide": 76
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06007",
+     "key": "exp"
+    },
+    "youtube": [
+     "yZ4dpCmzcxw"
+    ]
    },
    "status": "extracted",
    "notes": "23 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "flick": 104,
       "air_hold": 28
      }
-    }
+    },
+    "sdvxin": {
+     "id": "06007",
+     "key": "mst"
+    },
+    "youtube": [
+     "ix5uI32VMgE",
+     "Kcgjd3KsyPk"
+    ]
    },
    "status": "extracted",
    "notes": "218 exact duplicate lines ignored; combo 1293 in the .c2s differs from the published note count 1208 (chart revised since this file?)",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "1099",
    "image": "89fc131e76a6641a.jpg"
+  },
+  "sdvxin": {
+   "id": "06007",
+   "list": "songs06.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 21399
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "1099"
+ }
 }

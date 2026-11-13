@@ -3,8 +3,8 @@
  "song_id": "2536",
  "title": "D-Birth",
  "artist": "削除",
- "title_romaji": "",
- "artist_romaji": "",
+ "title_romaji": "dbirth",
+ "artist_romaji": "sakuzyo",
  "genre": "VARIETY",
  "bpm": "187",
  "version": "LUMINOUS",
@@ -33,7 +33,12 @@
       "ex_tap": 13,
       "air_hold": 4
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09061",
+     "key": "bsc"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "",
@@ -62,7 +67,12 @@
       "air": 15,
       "ex_tap": 5
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09061",
+     "key": "adv"
+    },
+    "youtube": []
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -92,7 +102,14 @@
       "air": 24,
       "ex_tap": 14
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09061",
+     "key": "exp"
+    },
+    "youtube": [
+     "ECtWJYeVAdA"
+    ]
    },
    "status": "extracted",
    "notes": "366 exact duplicate lines ignored",
@@ -125,7 +142,15 @@
       "air": 81,
       "ex_tap": 16
      }
-    }
+    },
+    "sdvxin": {
+     "id": "09061",
+     "key": "mst"
+    },
+    "youtube": [
+     "pHxVS0naj00",
+     "AKdAPPvP7kA"
+    ]
    },
    "status": "extracted",
    "notes": "2 exact duplicate lines ignored",
@@ -136,6 +161,10 @@
   "otogedb": {
    "id": "2536",
    "image": "e5d646426fd0801e.jpg"
+  },
+  "sdvxin": {
+   "id": "09061",
+   "list": "songs09.json"
   }
  },
  "assets": {
@@ -149,5 +178,7 @@
    "bytes": 13258
   }
  },
- "extra": {}
+ "extra": {
+  "folder": "2536-d-birth"
+ }
 }
