@@ -1,0 +1,105 @@
+# Keeps data/db current: every day, `vsrgconv update` looks for songs and charts the games' sources added since the
+# last run, fetches only those, commits the database changes to this branch, and (when the HF_TOKEN secret is set)
+# uploads the new files, layout pictures and source pictures to the Hugging Face dataset. docs/updating.md.
+#
+# Settings (repository Settings -> Secrets and variables -> Actions):
+#   secret   HF_TOKEN    a Hugging Face write token; without it the database is still updated in git, but nothing is
+#                        uploaded and no pictures are fetched (their manifests live on the dataset)
+#   variable HF_DATASET  the dataset, default Reckswell/vsrgs
+name: Update database
+
+on:
+  schedule:
+    - cron: "17 19 * * *"        # 04:17 JST, after the Japanese games' usual morning updates reach their mirrors
+  workflow_dispatch:
+    inputs:
+      games:
+        description: "Games to update, space-separated (empty: all)"
+        required: false
+        default: ""
+      options:
+        description: "Extra options, e.g. --force or --retry-all"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-database
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      HF_DATASET: ${{ vars.HF_DATASET || 'Reckswell/vsrgs' }}
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -e '.[images,hosting]'
+
+      - name: Update
+        id: update
+        env:
+          GAMES: ${{ github.event.inputs.games }}
+          OPTIONS: ${{ github.event.inputs.options }}
+        run: |
+          set +e
+          args="--workers 4 --progress --report update-report.json"
+          if [ -n "$HF_TOKEN" ]; then
+            args="$args --all --publish $HF_DATASET"
+          else
+            echo "::notice::HF_TOKEN is not set: updating the database in git only (no pictures, no upload)"
+          fi
+          python -m vsrgconv update $GAMES $args $OPTIONS
+          echo "status=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Commit
+        run: |
+          git add data/db
+          if git diff --cached --quiet; then
+            echo "Nothing new." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          summary=$(python - <<'PY'
+          import json
+          r = json.load(open("update-report.json"))
+          parts = []
+          for game, g in sorted(r["games"].items()):
+              bits = [f"+{g[k]} {k.split('_')[1]}" for k in ("new_songs", "new_charts") if g.get(k)]
+              if g.get("charts_saved"):
+                  bits.append(f"{g['charts_saved']} with notes")
+              if bits:
+                  parts.append(f"{game} {' '.join(bits)}")
+          print("; ".join(parts) or "details")
+          PY
+          )
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -q -m "Database update $(date -u +%F): $summary"
+          git push
+          sed -n '/^## /,/^## /p' data/db/CHANGELOG.md | head -n -1 >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: update-report
+          path: update-report.json
+          if-no-files-found: ignore
+
+      - name: Result
+        if: steps.update.outputs.status != '0'
+        run: |
+          echo "::error::vsrgconv update reported an error for at least one game (see update-report.json)"
+          exit 1

@@ -1,8 +1,10 @@
 """SOUND VOLTEX sources: catalog and jackets. No chart notes are reachable from the build machine.
 
-- sdvxindex (GitHub Kizuruki/sdvxindex `songsv1.4.2.json`): every song up to 2026-08-20 with genres, version, date and,
-  per chart, the level (decimal from 17 up on ∇), effector, illustrator, max EX score, max chain and the chip / hold /
-  tsumami chain counts. This is the catalog's backbone.
+- sdvxindex: every song with genres, version, date and, per chart, the level (decimal from 17 up on ∇), effector,
+  illustrator, max EX score, max chain and the chip / hold / tsumami chain counts. This is the catalog's backbone. The
+  site's own list is read (`sdvxindex.com/songsv<version>.json`, named in the site's script bundle; 1.4.9 in November
+  2026), so new songs arrive as the site adds them; the older GitHub copy (Kizuruki/sdvxindex `songsv1.4.2.json`, up
+  to 2026-08-20) is the fallback when the site cannot be read.
 - Tachi seeds (`songs-sdvx.json`, `charts-sdvx.json`): every song and chart with the game versions it is in. Tachi
   decides what is in the current arcade version (∇, Tachi's `nabla`) and supplies songs and charts newer than sdvxindex.
 - Jackets: RRRGR/unnamed-sdvxindex-clone (676 px, a variant per difficulty), else DDRCardDraw (108 px).
@@ -256,9 +258,37 @@ def _attach_ddr(rec: SongRecord, d: dict[str, Any] | None) -> None:
 
 # ------------------------------------------------------------------------------------------------ registry
 
+_SITE_BUNDLE = re.compile(r'src="/?(static/js/main\.[0-9a-f]+\.js)"')
+_SITE_LIST = re.compile(r"songsv(\d+(?:\.\d+)*)\.json")
+
+
+def site_list_url(fetcher: Fetcher) -> str | None:
+    """sdvxindex.com's current song list. The site is a single-page app whose script bundle names the list it loads
+    (`JSON.parse('{"i":"songsv1.4.9.json",...}')`); the newest version named there is taken. None if the page has no
+    bundle or the bundle names no list."""
+    page = fetcher.get(SDVXINDEX_SITE).decode("utf-8", "replace")
+    m = _SITE_BUNDLE.search(page)
+    if not m:
+        return None
+    names = _SITE_LIST.findall(fetcher.get(SDVXINDEX_SITE + m[1]).decode("utf-8", "replace"))
+    if not names:
+        return None
+    return f"{SDVXINDEX_SITE}songsv{max(names, key=lambda v: tuple(int(x) for x in v.split('.')))}.json"
+
+
 def _catalog(fetcher: Fetcher) -> tuple[list[SongRecord], dict[str, Any]]:
+    from .fetch import FetchError
+
     def load(url: str) -> Any:
         return json.loads(fetcher.get(url))
+
+    index_rows, list_url, note = None, SDVXINDEX_URL, ""
+    try:
+        url = site_list_url(fetcher)
+        if url:
+            index_rows, list_url = load(url), url
+    except (FetchError, ValueError) as e:
+        note = f"sdvxindex.com's own list unavailable ({e}); read the GitHub copy"
 
     try:
         rrrgr = load(RRRGR_URL)
@@ -268,7 +298,12 @@ def _catalog(fetcher: Fetcher) -> tuple[list[SongRecord], dict[str, Any]]:
         ddr = load(DDR_URL).get("songs", [])
     except NotFound:
         ddr = []
-    return build_catalog(load(SDVXINDEX_URL), load(TACHI_SONGS_URL), load(TACHI_CHARTS_URL), rrrgr, ddr)
+    songs, report = build_catalog(index_rows if index_rows is not None else load(SDVXINDEX_URL),
+                                  load(TACHI_SONGS_URL), load(TACHI_CHARTS_URL), rrrgr, ddr)
+    report["sdvxindex_list"] = list_url
+    if note:
+        report["note"] = note
+    return songs, report
 
 
 def _get_first(fetcher: Fetcher, urls: Iterable[str]) -> tuple[bytes, str, str] | None:

@@ -43,12 +43,16 @@ def plan(data_root: str | Path, parts: list[str]) -> dict[str, dict[str, int]]:
 
 def publish_hf(repo_id: str, data_root: str | Path = "data", parts: list[str] | None = None, delete: bool = False,
                dry_run: bool = False, api: Any = None, xet: bool = True, batch_files: int = 1000,
-               log: Callable[[str], None] | None = None) -> dict[str, Any]:
+               log: Callable[[str], None] | None = None, only: list[str] | None = None) -> dict[str, Any]:
+    """Upload the parts' files that differ from the Hub. `only` (paths relative to `data_root`, e.g.
+    "db/chunithm/index.json") limits the upload to those files and asks the Hub about those alone, instead of
+    listing the whole dataset: `vsrgconv update` passes the files it changed."""
     parts = parts or DEFAULT_PARTS
     unknown = [p for p in parts if p not in PARTS]
     if unknown:
         raise ValueError(f"unknown parts {unknown}; choose from {PARTS}")
-    summary: dict[str, Any] = {"repo": f"https://huggingface.co/datasets/{repo_id}", "parts": plan(data_root, parts)}
+    summary: dict[str, Any] = {"repo": f"https://huggingface.co/datasets/{repo_id}",
+                               "parts": plan(data_root, parts) if only is None else {"files": len(only)}}
     if dry_run:
         return summary
     log = log or _stderr
@@ -61,7 +65,7 @@ def publish_hf(repo_id: str, data_root: str | Path = "data", parts: list[str] | 
             raise SystemExit("publish needs huggingface_hub: pip install -e '.[hosting]'") from None
         api = HfApi()
     api.create_repo(repo_id, repo_type="dataset", private=True, exist_ok=True)
-    summary.update(_upload_in_batches(api, repo_id, Path(data_root), parts, batch_files, log))
+    summary.update(_upload_in_batches(api, repo_id, Path(data_root), parts, batch_files, log, only))
     if delete:          # after the upload, so a failed upload never leaves the dataset emptier than before
         root = Path(data_root)
         gone = [f for f in api.list_repo_files(repo_id, repo_type="dataset")
@@ -105,14 +109,24 @@ def _on_hub(path: Path, entry: Any) -> bool:
 
 
 def _upload_in_batches(api: Any, repo_id: str, root: Path, parts: list[str], batch_files: int,
-                       log: Callable[[str], None]) -> dict[str, Any]:
+                       log: Callable[[str], None], only: list[str] | None = None) -> dict[str, Any]:
     """Upload a commit per `batch_files` files, skipping files already on the Hub. Running it again after an
     interruption carries on: committed batches are on the Hub and are skipped."""
     from huggingface_hub import CommitOperationAdd
 
-    remote = {e.path: e for e in api.list_repo_tree(repo_id, repo_type="dataset", recursive=True)
-              if e.path.split("/", 1)[0] in parts and hasattr(e, "size")}
-    local = sorted(p for part in parts if (root / part).is_dir() for p in (root / part).rglob("*") if p.is_file())
+    if only is not None:
+        local = sorted({root / rel for rel in only
+                        if rel.split("/", 1)[0] in parts and (root / rel).is_file()})
+        rels = [p.relative_to(root).as_posix() for p in local]
+        remote = {}
+        for i in range(0, len(rels), 500):
+            remote.update({e.path: e for e in api.get_paths_info(repo_id, rels[i:i + 500], repo_type="dataset")
+                           if hasattr(e, "size")})
+    else:
+        remote = {e.path: e for e in api.list_repo_tree(repo_id, repo_type="dataset", recursive=True)
+                  if e.path.split("/", 1)[0] in parts and hasattr(e, "size")}
+        local = sorted(p for part in parts if (root / part).is_dir() for p in (root / part).rglob("*")
+                       if p.is_file())
     todo = [p for p in local if not _on_hub(p, remote.get(p.relative_to(root).as_posix()))]
     log(f"publish: {len(local)} files, {len(local) - len(todo)} already on the Hub, {len(todo)} to upload")
     commits = []

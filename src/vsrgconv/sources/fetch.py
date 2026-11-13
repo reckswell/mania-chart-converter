@@ -39,6 +39,12 @@ class Fetcher:
         self._last = 0.0
         self._lock = threading.Lock()   # the request interval is shared by threads (scrape --workers)
         self._opener = urllib.request.build_opener(_NoRedirect)
+        self._calls = threading.local()
+
+    def calls_in_thread(self) -> int:
+        """How many files this thread has asked for (from the cache or the network). `scrape` compares it before and
+        after a chart to tell a chart some source was asked for from one no source knows."""
+        return getattr(self._calls, "n", 0)
 
     def cache_path(self, url: str) -> Path:
         u = urllib.parse.urlsplit(url)
@@ -48,6 +54,7 @@ class Fetcher:
         return self.cache_dir / u.netloc / path
 
     def get(self, url: str, refresh: bool = False) -> bytes:
+        self._calls.n = self.calls_in_thread() + 1
         p = self.cache_path(url)
         if p.exists() and not refresh:
             return p.read_bytes()

@@ -78,8 +78,13 @@ def load_manifest(out: str | Path, game: str, source: str | None = None) -> dict
 
 def fetch_pictures(db: ChartDB, fetcher: Fetcher, game: str, out: str | Path = "data/pictures",
                    only: set[str] | None = None, slot: str | None = None, workers: int = 8, refresh: bool = False,
-                   log: Callable[[str], None] | None = None) -> dict[str, Any]:
-    """Download every chart's source picture of one game. Pictures already there are kept unless `refresh`."""
+                   log: Callable[[str], None] | None = None, keys: set[str] | None = None,
+                   keep_listed: bool = False) -> dict[str, Any]:
+    """Download every chart's source picture of one game. Pictures already there are kept unless `refresh`.
+
+    `keys` limits the run to those charts ("song_id/slot"). With `keep_listed`, a chart already in the manifest
+    counts as done even when its file is not on this machine (it is on the Hugging Face dataset), so a machine with
+    only the manifest fetches only what is new (`vsrgconv update`)."""
     out = Path(out)
     manifest = load_manifest(out, game)
     jobs: list[tuple[str, list[tuple[str, str]], Path]] = []
@@ -89,7 +94,7 @@ def fetch_pictures(db: ChartDB, fetcher: Fetcher, game: str, out: str | Path = "
             continue
         rel = db.song_dir(rec).relative_to(db.root)
         for s, cr in rec.charts.items():
-            if slot and s != slot:
+            if (slot and s != slot) or (keys is not None and f"{rec.song_id}/{s}" not in keys):
                 continue
             summary["charts"] += 1
             urls = picture_urls(cr)
@@ -101,7 +106,7 @@ def fetch_pictures(db: ChartDB, fetcher: Fetcher, game: str, out: str | Path = "
     def one(job: tuple[str, list[tuple[str, str]], Path]) -> tuple[str, dict[str, Any] | None, str]:
         key, urls, stem = job
         old = manifest.get(key)
-        if old and not refresh and (out / game / old["file"]).exists():
+        if old and not refresh and (keep_listed or (out / game / old["file"]).exists()):
             return key, old, "already"
         errors = []
         for source_key, url in urls:
@@ -430,11 +435,14 @@ def sdvxin_merge(layers: dict[str, bytes]):
 
 def fetch_sdvxin(db: ChartDB, fetcher: Fetcher, out: str | Path = "data/pictures", only: set[str] | None = None,
                  slot: str | None = None, workers: int = 4, refresh: bool = False,
-                 log: Callable[[str], None] | None = None, game: str = "chunithm") -> dict[str, Any]:
+                 log: Callable[[str], None] | None = None, game: str = "chunithm",
+                 keep_listed: bool = False) -> dict[str, Any]:
     """Download sdvx.in's layers of every drawn chart of one game of the database (Chunithm or Project SEKAI) into
     `<out>/<game>/<genre>/<song>/sdvxin/<slot>.{bg,obj,bar}.webp` (as published) plus `<slot>.webp` (merged, on
     black, WebP quality 90). The manifest is `<out>/<game>/manifest-sdvxin.json`. A chart whose merged picture is
-    there is skipped unless `refresh` (its layers may have been removed locally after upload to save disk)."""
+    there is skipped unless `refresh` (its layers may have been removed locally after upload to save disk); with
+    `keep_listed`, any chart in the manifest is skipped, so a machine with only the manifest fetches only charts
+    sdvx.in drew since (`vsrgconv update`)."""
     from io import BytesIO
 
     from PIL import Image
@@ -452,7 +460,7 @@ def fetch_sdvxin(db: ChartDB, fetcher: Fetcher, out: str | Path = "data/pictures
         key, ref = job
         song_id, s = key.split("/")
         old = manifest.get(key)
-        if old and not refresh and (out / game / old["file"]).exists():
+        if old and not refresh and (keep_listed or (out / game / old["file"]).exists()):
             return key, old, "already"
         folder = out / dirs[song_id] / "sdvxin"
         folder.mkdir(parents=True, exist_ok=True)
