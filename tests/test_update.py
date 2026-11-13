@@ -184,6 +184,14 @@ def test_check_only_writes_nothing(tmp_path):
     assert out["games"]["chunithm"]["feeds"]["changed"] == 1
 
 
+def test_a_song_listed_twice_by_the_catalog_counts_once():
+    one = SongRecord(game="chunithm", song_id="9", title="A", charts={"master": ChartRecord("master", "MASTER", "13")})
+    two = SongRecord(game="chunithm", song_id="9", title="A", charts={"special": ChartRecord("special", "WE", "5")})
+    d = compare({}, [one, two])
+    assert len(d.new_songs) == 1 and set(d.new_songs[0].charts) == {"master", "special"}
+    assert set(one.charts) == {"master"}            # the catalog's records are not changed
+
+
 def test_removed_and_changed_songs_are_reported():
     old = SongRecord(game="chunithm", song_id="1", title="A", charts={"master": ChartRecord("master", "MASTER", "13")})
     same = SongRecord(game="chunithm", song_id="1", title="A", charts={"master": ChartRecord("master", "MASTER", "13")})
@@ -390,10 +398,63 @@ def test_song_folders_keep_their_names_and_pictures_follow_a_genre_move(tmp_path
     assert db.song_dir(db.get_song("chunithm", "1")) == folder and folder.exists()        # not renamed
 
     src.catalog = lambda f: respelled(f, "VARIETY")
-    r = run(db, f, src, force=True, today=date(2026, 11, 15))["games"]["chunithm"]
+    r = update_game(db, "chunithm", src, f, UpdateOptions(renders_dir=db.root.parent / "renders",
+                                                          pictures_dir=pictures.parent, force=True,
+                                                          today=date(2026, 11, 15)))
     moved = db.song_dir(db.get_song("chunithm", "1"))
     assert moved == db.root / "chunithm" / "variety" / "1-old-song" and (moved / "song.json").exists()
     assert r["moved_songs"] == ["chunithm/original/1-old-song -> chunithm/variety/1-old-song"]
+    assert r["_gone"] == ["db/chunithm/original/1-old-song/", "renders/chunithm/original/1-old-song/",
+                          "pictures/chunithm/original/1-old-song/"]       # removed from the dataset after upload
     assert (db.root.parent / "renders" / "chunithm" / "variety" / "1-old-song" / "master.png").exists()
     manifest = json.loads((pictures / "manifest.json").read_text())
     assert manifest["1/master"]["file"] == "variety/1-old-song/master.png"
+
+
+def test_old_folders_of_moved_songs_are_removed_from_the_dataset():
+    from vsrgconv.publish import delete_folders
+
+    class Api:
+        deleted: list = []
+
+        def list_repo_tree(self, repo_id, path_in_repo, **kw):
+            if path_in_repo == "db/sdvx/unknown/2264-x":
+                return [type("F", (), {"path": f"{path_in_repo}/{n}", "size": 1})() for n in ("song.json", "a.jpg")]
+            raise FileNotFoundError(path_in_repo)
+
+        def repo_info(self, *a, **kw):
+            return type("Info", (), {"sha": "a"})()
+
+        def delete_files(self, repo_id, paths, **kw):
+            self.deleted += paths
+
+    api = Api()
+    n = delete_folders("me/charts", ["db/sdvx/unknown/2264-x/", "renders/sdvx/unknown/2264-x/"], api=api,
+                       log=lambda m: None)
+    assert n == 2 and api.deleted == ["db/sdvx/unknown/2264-x/song.json", "db/sdvx/unknown/2264-x/a.jpg"]
+
+
+def test_pictures_only_on_the_dataset_are_moved_there():
+    from vsrgconv.publish import move_folders
+
+    class Api:
+        commits: list = []
+
+        def list_repo_tree(self, repo_id, path_in_repo, **kw):
+            if path_in_repo == "pictures/sdvx/other/2224-x":
+                return [type("F", (), {"path": f"{path_in_repo}/master.png", "size": 1})()]
+            raise FileNotFoundError(path_in_repo)
+
+        def repo_info(self, *a, **kw):
+            return type("Info", (), {"sha": "a"})()
+
+        def create_commit(self, repo_id, operations, **kw):
+            self.commits.append([(op.src_path_in_repo, op.path_in_repo) for op in operations])
+            return type("Info", (), {"oid": "b"})()
+
+    api = Api()
+    out = move_folders("me/charts", [("pictures/sdvx/other/2224-x/", "pictures/sdvx/pops-anime/2224-x/"),
+                                     ("renders/sdvx/other/2224-x/", "renders/sdvx/pops-anime/2224-x/")],
+                       api=api, log=lambda m: None)
+    assert out == {"files": 1, "folders": ["pictures/sdvx/other/2224-x/"]}
+    assert api.commits == [[("pictures/sdvx/other/2224-x/master.png", "pictures/sdvx/pops-anime/2224-x/master.png")]]

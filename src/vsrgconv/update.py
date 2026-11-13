@@ -28,7 +28,7 @@ from __future__ import annotations
 import hashlib
 import json
 import threading
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any, Callable
@@ -123,9 +123,16 @@ class CatalogDiff:
 
 
 def compare(existing: dict[str, SongRecord], songs: list[SongRecord]) -> CatalogDiff:
-    """What merging the catalog `songs` into the database (`existing`, by song id) would add or change."""
+    """What merging the catalog `songs` into the database (`existing`, by song id) would add or change. A catalog
+    can list a song twice (sdvx.in lists a removed Chunithm song in two files); its records count as one."""
     diff = CatalogDiff()
+    by_id: dict[str, SongRecord] = {}
     for rec in songs:
+        if rec.song_id in by_id:
+            by_id[rec.song_id].merge(rec)
+        else:
+            by_id[rec.song_id] = SongRecord.from_dict(rec.to_dict())
+    for rec in by_id.values():
         old = existing.get(rec.song_id)
         if old is None:
             diff.new_songs.append(rec)
@@ -136,7 +143,7 @@ def compare(existing: dict[str, SongRecord], songs: list[SongRecord]) -> Catalog
         before = old.to_dict()
         if SongRecord.from_dict(before).merge(rec).to_dict() != before:
             diff.changed.append(rec.song_id)
-    diff.not_in_catalog = len(set(existing) - {s.song_id for s in songs})
+    diff.not_in_catalog = len(set(existing) - set(by_id))
     return diff
 
 
@@ -173,6 +180,7 @@ class UpdateOptions:
     renders_dir: Path = Path("data/renders")
     pictures_dir: Path = Path("data/pictures")
     hub: str | None = None                  # Hugging Face dataset to read picture manifests from
+    publishing: bool = False                # the run uploads to `hub` (set by `update(publish=...)`)
     workers: int = 1
     image_size: int = IMAGE_MAX_SIZE
     progress: bool = False
@@ -220,13 +228,19 @@ def update_game(db: ChartDB, game: str, src: GameSource, base: Fetcher, opts: Up
         diff = compare(existing, songs)
         moved: list[tuple[str, str, str]] = []
         if diff.any or not state.exists:
-            for rec in diff.new_songs:
-                rec.extra.setdefault("first_seen", today)
+            new_ids = {rec.song_id for rec in diff.new_songs}
+            for rec in songs:
+                if rec.song_id in new_ids:
+                    rec.extra.setdefault("first_seen", today)
             db.upsert_songs(songs, moved=moved)
             touched.add(f"db/{game}/index.json")
-        for _, old, new in moved:       # a genre change: the song's pictures follow its folder
-            _move_pictures(opts, game, old, new)
+        for _, old, new in moved:       # a genre change: the song's pictures here follow its folder
+            for base in (opts.renders_dir, opts.pictures_dir):
+                if (base / old).is_dir() and not (base / new).exists():
+                    (base / new).parent.mkdir(parents=True, exist_ok=True)
+                    (base / old).rename(base / new)
         report["moved_songs"] = [f"{old} -> {new}" for _, old, new in moved][:SAMPLE]
+        report["_moved"] = moved
         if diff.any:
             state.catalog_changed = today
         state.feeds = dict(fetcher.used)
@@ -289,6 +303,9 @@ def update_game(db: ChartDB, game: str, src: GameSource, base: Fetcher, opts: Up
     if opts.pictures:
         report["pictures"] = _pictures(db, game, fetcher, new_keys, opts, data_root, touched, log)
 
+    if report.get("_moved"):
+        report["_gone"], report["_remote_moves"] = _moves(opts, game, report["_moved"], data_root, touched)
+
     # state, files touched
     if state.save(db, game):
         touched.add(f"db/{game}/{STATE_FILE}")
@@ -334,24 +351,41 @@ def _wanted(songs: dict[str, SongRecord], src: GameSource, state: UpdateState, n
     return {k for k in out if k.split("/", 1)[0] in songs}
 
 
-def _move_pictures(opts: UpdateOptions, game: str, old: str, new: str) -> None:
-    """Move a song's layout and source pictures after its folder moved (`old`, `new`: "<game>/<genre>/<song>"), and
-    the paths in the picture manifests. Copies on the dataset stay at the old path until `publish --delete`."""
-    for base in (opts.renders_dir, opts.pictures_dir):
-        if (base / old).is_dir() and not (base / new).exists():
-            (base / new).parent.mkdir(parents=True, exist_ok=True)
-            (base / old).rename(base / new)
-    old_rel, new_rel = old.split("/", 1)[1] + "/", new.split("/", 1)[1] + "/"
-    for manifest in (opts.pictures_dir / game).glob("manifest*.json"):
+def _moves(opts: UpdateOptions, game: str, moved: list[tuple[str, str, str]], data_root: Path,
+           touched: set[str]) -> tuple[list[str], list[tuple[str, str]]]:
+    """After songs moved folder ("<game>/<genre>/<song>" old -> new): what the dataset needs, and the manifests.
+
+    Returns (folders to remove from the dataset after the upload, folders to move on the dataset). A song's old db
+    folder is removed (its files are uploaded at the new path). Its layout and source pictures are uploaded from
+    here when they moved here; otherwise, when publishing, they are moved on the dataset. Either way the picture
+    manifests' paths follow them."""
+    gone, remote = [], []
+    for _, old, new in moved:
+        gone.append(f"db/{old}/")
+        for part, base in (("renders", opts.renders_dir), ("pictures", opts.pictures_dir)):
+            if (base / new).is_dir():
+                gone.append(f"{part}/{old}/")
+            elif opts.publishing:
+                remote.append((f"{part}/{old}/", f"{part}/{new}/"))
+    follow = [(old, new) for _, old, new in moved if (opts.pictures_dir / new).is_dir() or opts.publishing]
+    for source in (None, "sdvxin"):
+        manifest = opts.pictures_dir / game / (f"manifest-{source}.json" if source else "manifest.json")
+        if not follow or not (manifest.exists() or (opts.publishing and _manifest_from_hub(opts.hub, manifest,
+                                                                                            data_root))):
+            continue
         text = manifest.read_text("utf-8")
         entries = json.loads(text)
-        for e in entries.values():
-            for item in [e, *(e.get("layers") or {}).values()]:
-                if isinstance(item.get("file"), str) and item["file"].startswith(old_rel):
-                    item["file"] = new_rel + item["file"][len(old_rel):]
+        for old, new in follow:
+            old_rel, new_rel = old.split("/", 1)[1] + "/", new.split("/", 1)[1] + "/"
+            for e in entries.values():
+                for item in [e, *(e.get("layers") or {}).values()]:
+                    if isinstance(item.get("file"), str) and item["file"].startswith(old_rel):
+                        item["file"] = new_rel + item["file"][len(old_rel):]
         out = json.dumps(dict(sorted(entries.items())), ensure_ascii=False, indent=1) + "\n"
         if out != text:
             manifest.write_text(out, "utf-8")
+            _touch(manifest, data_root, touched)
+    return gone, remote
 
 
 def _render(db: ChartDB, game: str, keys: list[str], opts: UpdateOptions, data_root: Path,
@@ -497,6 +531,8 @@ def update(db: ChartDB, games: list[str], sources: dict[str, GameSource], base: 
            publish: str | None = None, xet: bool = True, log: Callable[[str], None] | None = None
            ) -> dict[str, Any]:
     """Update each game in turn, then the changelog, then (with `publish`) the dataset."""
+    if publish:
+        opts = replace(opts, hub=publish, publishing=True)
     reports: dict[str, dict[str, Any]] = {}
     for game in games:
         if game not in sources:
@@ -514,10 +550,19 @@ def update(db: ChartDB, games: list[str], sources: dict[str, GameSource], base: 
     for game, r in reports.items():
         out["games"][game] = {k: v for k, v in r.items() if not k.startswith("_") and k != "touched"}
         out["games"][game]["files_written"] = len(r.get("touched", []))
+    gone = sorted({g for r in reports.values() for g in r.get("_gone", [])})
+    remote_moves = sorted({m for r in reports.values() for m in r.get("_remote_moves", [])})
     if publish and touched:
-        from .publish import publish_hf
+        from .publish import delete_folders, move_folders, publish_hf
 
         out["publish"] = publish_hf(publish, db.root.parent, ["db", "renders", "pictures"], xet=xet, only=touched,
                                     log=log)
+        # songs that moved: after the upload, never before
+        if remote_moves:
+            moved_ok = move_folders(publish, remote_moves, log=log)
+            out["publish"]["moved_files"] = moved_ok["files"]
+            gone += moved_ok["folders"]
+        if gone:
+            out["publish"]["deleted"] = delete_folders(publish, gone, log=log)
     out["files_written"] = len(touched)
     return out

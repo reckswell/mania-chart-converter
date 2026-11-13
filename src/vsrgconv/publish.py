@@ -79,6 +79,62 @@ def publish_hf(repo_id: str, data_root: str | Path = "data", parts: list[str] | 
     return summary
 
 
+def move_folders(repo_id: str, moves: list[tuple[str, str]], api: Any = None,
+                 log: Callable[[str], None] | None = None) -> dict[str, Any]:
+    """Copy every file under each old folder of the dataset to the new folder, on the Hub (no download; pictures are
+    stored as LFS/Xet files, which the Hub can copy). Returns the files copied and the old folders that were copied
+    whole, which the caller then removes with `delete_folders`."""
+    from huggingface_hub import CommitOperationCopy
+
+    log = log or _stderr
+    if api is None:
+        from huggingface_hub import HfApi
+
+        api = HfApi()
+    done: list[str] = []
+    files = 0
+    for old, new in moves:
+        try:
+            paths = [e.path for e in api.list_repo_tree(repo_id, path_in_repo=old.rstrip("/"), repo_type="dataset",
+                                                        recursive=True) if hasattr(e, "size")]
+        except Exception:       # nothing there
+            continue
+        ops = [CommitOperationCopy(src_path_in_repo=p, path_in_repo=new + p[len(old):]) for p in paths]
+        try:
+            for i in range(0, len(ops), 1000):
+                _commit_landing(api, repo_id, ops[i:i + 1000], f"vsrgconv update: move {old} to {new}", log)
+        except Exception as e:  # keep the old folder when the copy did not land
+            log(f"publish: could not move {old}: {type(e).__name__}: {str(e)[:160]}")
+            continue
+        files += len(paths)
+        done.append(old)
+    return {"files": files, "folders": done}
+
+
+def delete_folders(repo_id: str, folders: list[str], api: Any = None,
+                   log: Callable[[str], None] | None = None) -> int:
+    """Remove every file under these folders of the dataset ("db/sdvx/unknown/2264-x/"), in one commit per 1,000
+    files; returns how many were removed. `vsrgconv update` uses it for the old folders of songs that moved."""
+    log = log or _stderr
+    if api is None:
+        from huggingface_hub import HfApi
+
+        api = HfApi()
+    gone: list[str] = []
+    for folder in folders:
+        try:
+            gone += [e.path for e in api.list_repo_tree(repo_id, path_in_repo=folder.rstrip("/"), repo_type="dataset",
+                                                        recursive=True) if hasattr(e, "size")]
+        except Exception:       # not on the dataset (never uploaded): nothing to remove
+            continue
+    for i in range(0, len(gone), 1000):
+        chunk = gone[i:i + 1000]
+        _resuming(api, repo_id, lambda chunk=chunk: api.delete_files(
+            repo_id, chunk, repo_type="dataset",
+            commit_message=f"vsrgconv update: remove {len(chunk)} files of songs that moved"), log=log)
+    return len(gone)
+
+
 def _stderr(msg: str) -> None:
     import sys
 
